@@ -1,0 +1,61 @@
+# --- Secrets / Environment ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# --- Node / Frontend ---
+node_modules/
+dist/
+build/
+.next/
+.vite/
+*.tsbuildinfo
+
+# --- IDE / Editor ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs / Temp ---
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.probe
+
+# --- Local corpus / data (never commit) ---
+corpus/
+data/
+*.csv
+*.parquet
+*.db
+*.sqlite
+*.sqlite3
