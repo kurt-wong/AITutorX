@@ -4,9 +4,32 @@
 
 ## 当前状态
 
-**Stage 1 — Governance Audit（进行中）**
+**TASK-X2-CLAUDE — Unified Documentation Governance（文档治理已登记）**
 
-本仓库当前仅包含治理骨架和审计报告。代码迁移尚未开始。
+`[FACT]` GF v0.2 = Frozen Governance Baseline（OD-14）；**freeze ≠ Migration Authorization**。
+
+`[FACT]` X2 统一治理文档集已写入 Docs（X2-00~10 + REPORT-X2）。三仓审计锚点:
+- AITutorX `331cbea`
+- AITutors-v3 `cc12d79`
+- Aitutors-preprocessing（本地 `D:\Project\Papers`）`2b92898`
+- Contract freeze object `f4941ff` / sha256 `9c6b9063…7528`
+
+`[FACT]` 代码迁移尚未开始；AITutorX `preprocessing/` `backend/` `frontend/` `tools/` `archive/` 仍为空骨架。
+
+```text
+Migration Authorization: UNAVAILABLE
+Migration Gate: NOT PASSED
+OQ-GF: 18 条零 CLOSED（OPEN-BLOCKING = 9）
+BL-09/10/11: OPEN
+D-048: pending_owner_decision
+admitted=true: 无
+Next actor: Owner
+```
+
+X2 文档入口:
+- `Docs/50_OPERATIONS/X2-00-STATE.md`
+- `Docs/60_REPORTS/REPORT-X2-UNIFIED-GOVERNANCE.md`
+- `Docs/40_DECISIONS/X2-08-MIGRATION-CANDIDATE-REGISTRY.md`
 
 ## 目录结构
 
