@@ -2,12 +2,17 @@
 
 **Document ID**: GF-005
 **Status**: `DRAFT / PROPOSED` — 登记未决问题；**不**在此文件内解决任何 UNKNOWN
+**Version**: **v0.2 Draft**（TASK-GF-005 document patch；新增 blocking_scope / D-048 binding-only / BL 交叉引用）
 **Role**: Independent System Governance Architect（TASK-GF-001）
-**Date**: 2026-09-17
+**Date**: 2026-09-17（v0.1） / **2026-09-18**（v0.2 patch）
 **Parent**: `GF-000-FOUNDATION-BASELINE.md`
 **Naming note**: 本登记册使用 **`OQ-GF-###`** 前缀，以免与 Papers/历史文档中的 OQ 编号冲突。每条映射既有 OD-* / REPORT-K UNKNOWN-* / REPORT-H Cluster，**不替代**源仓原始编号。
 
 **Discipline**: 不把 UNKNOWN 写成 FACT；不以假设关闭问题；关闭仅能由 Owner 书面裁决或新证据。
+**v0.2 labels**: `[FACT]` / `[OBSERVED]` / `[PROPOSAL]` / `[OWNER DECISION REQUIRED]` / `[UNKNOWN]`
+**v0.2 non-action**: **零关闭** — 未将任何 OQ-GF Status 改为 CLOSED；未关闭 BL-*；未关闭 D-048。
+
+**Importers / cross-refs**: GF-000 §7；GF-001 §4；GF-002 §7/§8/§9 Open Items；GF-003 §3.2.3；REVIEW/GF-003/06 BL-09/10/11；无代码 import。
 
 ---
 
@@ -20,7 +25,38 @@
 | `MAPPED` | 已有对应 OD/REPORT 条目，本册只做治理索引 |
 | `STALE-CANDIDATE` | 外部状态可能已变，需 Owner 确认关闭或重开 |
 
-**统计（本草案）**: 登记 **18** 条；其中 OPEN-BLOCKING **9**；无一条被本角色关闭。
+**统计（v0.2）**: 登记仍为 **18** 条 OQ-GF；其中 OPEN-BLOCKING 仍为 **9**；**零关闭** `[FACT: 本 patch 未改任何 Status 为 CLOSED]`。
+
+### 1.1 blocking_scope 分层（v0.2 增补）
+
+`[PROPOSAL]` 为每条 OPEN-BLOCKING 项标注 **blocking_scope**，说明「阻塞哪一类动作」。**分层不降低停止线**；`any-migration` 项仍由 REPORT-I §0.7 默认全禁迁移管辖。
+
+| Scope | Meaning |
+|-------|---------|
+| `doc` | 阻塞治理文档冻结 / 权威叙事成文 |
+| `data` | 阻塞数据本体引用/交付/迁入 |
+| `code` | 阻塞代码模块迁入或「迁移后测试等价」声明 |
+| `claim` | 阻塞 lineage verified / 来源已验证 等主张 |
+| `authority` | 阻塞 Migration Authority / Gate 9 / taxonomy 生效 |
+
+`[PROPOSAL]` 当前 OPEN-BLOCKING 分层（**Status 不变，仍 OPEN-BLOCKING**）:
+
+| OQ-GF | Status（不变） | blocking_scope `[PROPOSAL]` | 说明 |
+|-------|----------------|------------------------------|------|
+| 001 权威原始来源 | OPEN-BLOCKING | `data` + `claim` + `authority` | 双树权威未裁前不得单树 data/claim |
+| 002 数据权威模式 | OPEN-BLOCKING | `data` | path-ref/copy/hash-manifest 未裁 |
+| 004 双树保留策略 | OPEN-BLOCKING | `data` + `authority` | 无 Owner 令不得删/合任一树 |
+| 007 Lineage 补全 | OPEN-BLOCKING | `claim` + `data`（大规模 verified） | 阻塞「大规模 verified 迁移」声明 |
+| 013 Set B / REPORT-J | OPEN* | `claim` + `doc` | 外部主张无法核验；v0.1 为 OPEN（F10） |
+| 014 Migration Authority | OPEN-BLOCKING | `authority`（+ 阻塞 Gate 9） | Charter/F5 未设；approval_block=invalid_without_charter |
+| 015 Authority Taxonomy | OPEN-BLOCKING | `authority` + `doc` | 多套层级并存 |
+| 016 DEC/BUG/OQ namespace | OPEN-BLOCKING | `doc` + `authority` | 阻塞 40_DECISIONS 填充 |
+| 017 Design/untracked + D2-D4 | OPEN-BLOCKING | `code` + `authority` + `doc` | M1–M5 / DESIGN-v1.1 |
+| 018 测试基线 / r67 | OPEN-BLOCKING | `code` + `claim` | 阻塞「迁移后测试等价」声明 |
+
+`[FACT]` v0.1 事实保持: OQ-GF-013 在 v0.1 标 `OPEN`（非 OPEN-BLOCKING）；上表分层为治理提示，**不**将其 Status 改为 OPEN-BLOCKING。
+
+`[OWNER DECISION REQUIRED]` 分层命名是否采用本表取值；是否新增 OQ-GF-019（rollback / 迁移后验证标准）— **本 patch 不新建 OQ**。
 
 ---
 
@@ -247,6 +283,49 @@
 | UNKNOWN-009 | OCR 清单 1,103 条无 provenance 的真实产生时刻 → 关联 OQ-GF-007/012 |
 | UNKNOWN-010 | 87/166 vs 「0/166 携带 sha」口径差 → 关联 OQ-GF-003/007 |
 
+### 4.1 D-048 Known-Issue Binding Reference（v0.2 增补）
+
+`[FACT]` Papers 侧已登记（**本册只做 binding reference，不关闭**）:
+
+| issue_id | 摘要 | severity（源账本） | source_ledger |
+|----------|------|--------------------|---------------|
+| **D-048-1** | M5 subclass 绕过 | WARNING-hardening | `PREPROCESSING-PHASE25-GUARDIAN-REVIEW-v1.md`；ODR DEC-048；`Papers/COORDINATION/CURRENT.md` |
+| **D-048-2** | M3 positional fallback | NOTE | 同上 |
+| D-048-3 | 审查窗口 unknown actor deletions（tracked 文件；`git checkout` 恢复） | 见 Papers/REPORT-F | Papers CURRENT / DEC-048；**与** maintainess/PDF 误删恢复 **非同一事件** `[FACT: 文本对照]` |
+
+`[PROPOSAL]` Binding-only 规则（硬约束）:
+
+```text
+ALLOWED:
+  binding reference（在 GF-005 / EvidencePackage.known_issue_refs 登记）
+  映射到 Papers 源账本 locator
+  disposition = pending_owner_decision（M1–M5 默认）
+
+FORBIDDEN:
+  在 AITutor-X 治理文档中把 D-048-1/2/3 写成 closed / resolved
+  以 GF patch 代为关闭 Papers 源账本
+  silent empty（源账本有 issue 却在证据包中省略）
+  把 binding reference 写成「已修复 / 已证实 fail-closed 无影响」的迁移放行依据
+```
+
+`[FACT]` Papers Guardian Review: 登记不代改；fail-closed 主张按源账本记录 — **本 patch 不改写该记录，不将其作为迁移授权**。
+
+`[OWNER DECISION REQUIRED]` D-048-1/2/3 处置属 Papers/Owner 范围（DEC-049 语境）；GF 侧仅保持 binding。
+
+### 4.2 Freeze-Readiness Blockers — 交叉引用（v0.2；**均保持 OPEN**）
+
+`[FACT]` 来源 `REVIEW/GF-003/06_FREEZE_READINESS_ASSESSMENT.md`（assessed @ `5010c16`；GF blob 至 `e1beba3` 未变；v0.2 patch 后文本有增补但仍非 Frozen）。
+
+`[PROPOSAL + OBSERVED]` 下列 blocker **不因** TASK-GF-005 关闭：
+
+| Blocker | 摘要 | Current Status（不变） | v0.2 patch 触及？ |
+|---------|------|------------------------|-------------------|
+| **BL-09** | OQ-GF-014/015 + F4/F5 未决 | **OPEN-BLOCKING** `[OWNER DECISION REQUIRED]` | 否 — 文档仅引用 |
+| **BL-10** | OQ-GF-001/002 未决 | **OPEN-BLOCKING** `[OWNER DECISION REQUIRED]` | 否 |
+| **BL-11** | REPORT-G~K 处置 / Set B / REPORT-J | **OPEN-BLOCKING** `[OWNER DECISION REQUIRED]` | 否 — 仅登记 citation state（exists/untracked/referenced） |
+
+`[PROPOSAL]` 其它 BL（01–08 文档缺口类）: v0.2 已**落盘部分字段**（Carrier/Restoration/Integrity、EvidencePackage v0.2 proposal、Artifact Registry、blocking_scope、冻结≠授权硬化句、V3 50 §3 对齐、DQ CONDITIONAL）— **但** REVIEW 06 的 Freeze 判定仍须 Owner 重新评审；**本 patch 不宣布 Frozen Baseline，不关闭 BL-01~08**。
+
 ---
 
 ## 5. Closure Protocol（关闭协议）
@@ -264,7 +343,10 @@
 - 不创建源仓 DEC/BUG ID
 - 不修改 REPORT-A~K 或 Papers 台账
 - 不批准迁移
+- **v0.2**: 不将 D-048-* 写成 closed/resolved；不关闭 BL-09/10/11；不宣布 Migration Ready
 
 ---
 
-*GF-005 · DRAFT · TASK-GF-001 · 2026-09-17 · 仅新建治理草案*
+*GF-005 · **v0.2 DRAFT / PROPOSED** · TASK-GF-001（v0.1） + TASK-GF-005（v0.2 document patch） · 2026-09-18*
+*新增 §1.1 blocking_scope · §4.1 D-048 binding-only · §4.2 BL-09/10/11 保持 OPEN-BLOCKING。*
+*18 条 OQ-GF 零关闭；未授权迁移。*

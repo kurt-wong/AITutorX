@@ -2,11 +2,15 @@
 
 **Document ID**: GF-003
 **Status**: `DRAFT / PROPOSED` — 未经 Owner 批准，不构成冻结权威
+**Version**: **v0.2 Draft**（TASK-GF-005 document patch；§3 升级为 v0.1+v0.2 proposal schema）
 **Role**: Independent System Governance Architect（TASK-GF-001）
-**Date**: 2026-09-17
+**Date**: 2026-09-17（v0.1） / **2026-09-18**（v0.2 patch）
 **Parent**: `GF-000-FOUNDATION-BASELINE.md`
 **Upstream**: REPORT-I（Gate 定义）、Contract v0.2（身份原则）、V3_SPEC 10/20/30/40/50
 **Evidence discipline**: `[FACT]` / `[INFERENCE]` / `[UNKNOWN]` / `[DECISION REQUIRED]`
+**v0.2 addition labels**: `[FACT]` / `[OBSERVED]` / `[PROPOSAL]` / `[OWNER DECISION REQUIRED]` / `[UNKNOWN]`
+
+**Schema status**: §3 保留 **v0.1** 字段（既有 FACT 语义不变）；§3.2 为 **GF v0.2 proposal schema** — **不是**已经执行的 migration schema，**不是**已生效 Evidence 合同。
 
 ---
 
@@ -68,6 +72,82 @@ EvidencePackage
 ├─ gate_status                 # Gate 1–10 逐项 pass/fail/pending
 └─ owner_decision_refs[]       # OD-* / OQ-GF-* / Cluster 字母
 ```
+
+---
+
+## 3.2 EvidencePackage v0.2 Proposal Schema（TASK-GF-005 增补）
+
+`[PROPOSAL]` 下列字段为 **GF v0.2 proposal schema** 扩展。**不是**已经执行的 migration schema；在 Owner 批准并完成 Gate/Charter 流程前，**不得**把本节字段写入迁移记录为已生效 FACT。
+
+`[FACT]` 依据（缺口确在 v0.1）: TASK-GF-004-A R9 核验 — GF-003 v0.1 §3 **未包含**下列多数执行字段；设计展开见 `REVIEW/GF-003/03_EVIDENCE_PACKAGE_V0.2_SCHEMA.md`。
+
+### 3.2.1 v0.2 新增字段
+
+```text
+EvidencePackage (v0.2 PROPOSAL extensions)
+├─ verification_timestamp        # method≠not_verified 时必填；not_run 亦须占位说明
+├─ verification_environment      # 代码/测试类必填；文档类 n/a + 理由
+├─ carrier_state_ref             # → GF-002 §7 Carrier/Observation；纯冻结文档副本可 n/a
+├─ as_of_semantics               # observation_as_of | inventory_as_of | assertion_as_of | unknown_time
+├─ restoration_event_refs[]      # → GF-002 §8；经历 restore 的载体必填
+├─ post_copy_sha256              # 物理复制进入 AITutor-X 后复算；manifest-only = n/a + 理由
+├─ test_baseline                 # 宣称测试等价/代码类迁移时必填；指向 F9；未重跑=UNKNOWN+gap
+├─ known_issue_refs[]            # 可为空数组；源账本有 issue 时禁止 silent empty
+├─ gate_evidence_slots           # Gate 1–10 证据槽（pass|fail|pending|blocked_by(ref)）；槽≠批准权
+├─ approval_block
+│  ├─ status                     # valid | invalid_without_charter | pending_owner | rejected
+│  ├─ migration_authority_ref
+│  ├─ owner_decision_ref
+│  ├─ approved_at
+│  └─ notes
+├─ rollback_ref                  # 可为 none_documented；none 须写 gap
+├─ hashes.verification
+│  ├─ interface_integrity        # → GF-002 §9；SEM/IR/manifest/接口类
+│  └─ locator_integrity          # → GF-002 §9；不可被 interface 替代
+└─ schema_version                # PROPOSAL 字面量 "evidence-package-0.2"（若启用）
+```
+
+### 3.2.2 `approval_block` 硬规则 `[PROPOSAL + FACT 依据]`
+
+```text
+IF Migration Authority Charter（F4）不存在:
+    approval_block.status = invalid_without_charter
+
+含义:
+    - package 在 Gate 9 意义上不完整
+    - 任何「Gate 9 passed」声明无效
+    - 该状态不是拒绝业务数据，而是记录「授权链未设立」
+```
+
+`[FACT]` 当前全仓适用: REPORT-I F4「Charter 未设立」；F5「REPORT-I 为草案」；GF-000 §1.3 冻结≠授权硬化句；OQ-GF-014 `OPEN-BLOCKING`。
+
+`[OBSERVED]` 当前默认: `approval_block.status = invalid_without_charter` 对一切尚未获 Charter 批准的迁移候选 **适用中**。
+
+### 3.2.3 Known Issue Binding（登记不代改）
+
+`[PROPOSAL]` `known_issue_refs[]` 条目字段:
+
+| Field | Meaning |
+|-------|---------|
+| `asset_ref` | repo@commit + path + （适用时）file_sha256 |
+| `issue_id` | 源编号保留（如 D-048-1） |
+| `issue_namespace` | papers / v3 / aitutorx（F6 未裁前双轨） |
+| `severity` | 沿用源账本 |
+| `source_ledger` | Guardian Review 等 locator |
+| `disposition` | `accepted_risk` \| `blocked` \| `pending_owner_decision` \| `mitigated_in_evidence` \| `not_applicable_to_scope` |
+
+`[FACT]` Papers 登记（**本契约不关闭**）:
+- **D-048-1** — M5 subclass 绕过；WARNING-hardening；登记不代改
+- **D-048-2** — M3 positional fallback；NOTE；登记不代改
+- 来源: `PREPROCESSING-PHASE25-GUARDIAN-REVIEW-v1.md`；`PREPROCESSING-OWNER-DECISION-RECORD-v1.md`（DEC-048）；`Papers/COORDINATION/CURRENT.md`
+
+`[PROPOSAL]` 规则:
+1. 源账本存在已知 issue 时 **禁止** silent empty。
+2. **disposition ≠ 关闭源账本**；D-048-1/2 在 Papers 侧保持 OPEN/registered，直至 Owner 裁决。
+3. M1–M5 在 D2/D3/D4 与 OQ-GF-017 未决前：默认 `pending_owner_decision`，不得写 `accepted_risk`。
+4. 详细 binding-only 规则见 GF-005。
+
+`[OWNER DECISION REQUIRED]` D-048-1/2 处置（Papers）；F9 测试基线；OQ-GF-014/017/018。
 
 ---
 
@@ -170,6 +250,12 @@ sha256  = 9c6b9063e81fb2a66d85794b280c9d931f1b0074b39abf472033218149b17528
 
 **停止线** `[FACT]`：Cluster A 未关闭前默认全面禁止迁移；例外仅 Owner 书面批准的只读证据副本。
 
+**v0.2 Gate 表述澄清** `[PROPOSAL]`:
+- Gate 编号在 **F5 批准前为占位**（引用 REPORT-D/I 结构，不赋予执行力）。
+- **Frozen Governance Baseline（GF 文档冻结）≠ Migration Gate 获得执行力**（见 GF-000 §1.3）。
+- 在 OQ-GF-014 / OQ-GF-015 / F4 / F5 关闭前，任何「Gate 9 passed」声明无效。
+- `gate_evidence_slots` 记录证据，**不授予批准权**。
+
 ---
 
 ## 6. Failure & Disposition Rules
@@ -182,6 +268,16 @@ sha256  = 9c6b9063e81fb2a66d85794b280c9d931f1b0074b39abf472033218149b17528
 | 双树 path 并列且 hash 未知 | 保留双 locator + `authority_status=unknown` |
 | 与旧报告主张冲突 | 并列旧主张 + 新证据；不修改已提交旧报告；新建对账引用 |
 | untracked 且无 Owner 处置 | `authority_status=unknown` → 默认不进 active tree |
+
+**v0.2 增补处置** `[PROPOSAL]`:
+
+| 证据结果 | 处置 |
+|----------|------|
+| 迁移后 `post_copy_sha256` 漂移 | **BLOCK** + `LINEAGE_BROKEN` + 评估 `rollback_ref` |
+| `known_issue_refs` 有条目但 disposition 空 | Gate 7 证据不完整 |
+| `approval_block.status=invalid_without_charter` | package 在 Gate 9 意义上不完整 |
+| `interface_integrity` PASS 而 `locator_integrity` FAIL | 不得迁 IR 本体；见 GF-002 §9 |
+| `restoration_event_refs` 非空且 `verification_result=not_verified` | 不得写「恢复完整性已证实」；保留 gap |
 
 ---
 
@@ -242,4 +338,6 @@ open: F2 status narrative; F3 taxonomy — Gate 9 仍 pending
 
 ---
 
-*GF-003 · DRAFT · TASK-GF-001 · 2026-09-17 · 仅新建治理草案，未授权迁移*
+*GF-003 · **v0.2 DRAFT / PROPOSED** · TASK-GF-001（v0.1） + TASK-GF-005（v0.2 document patch） · 2026-09-18*
+*§3 保留 v0.1 schema；§3.2 为 **GF v0.2 proposal schema**（非已执行 migration schema）；§6 增补 v0.2 处置。*
+*approval_block 在 F4 不存在时 = invalid_without_charter；D-048 只 binding 不关闭；未授权迁移。*

@@ -2,8 +2,9 @@
 
 **Document ID**: GF-000
 **Status**: `DRAFT / PROPOSED` — **不是** Frozen Authority；不授权迁移
+**Version**: **v0.2 Draft**（TASK-GF-005 document patch；v0.1 @ `5010c16` 内容保留，新增见 §1.3 / §2.3 / §3.3）
 **Role**: Independent System Governance Architect（TASK-GF-001）
-**Date**: 2026-09-17
+**Date**: 2026-09-17（v0.1） / **2026-09-18**（v0.2 patch）
 **Scope**: AITutor-X 迁移治理基线（文档 foundation，非实现、非迁移、非改码）
 **Child documents**:
 - `GF-001-SOURCE-AUTHORITY-MODEL.md`
@@ -13,7 +14,8 @@
 - `GF-005-OPEN-QUESTIONS-REGISTRY.md`
 
 **Evidence classification**: `[FACT]` / `[INFERENCE]` / `[UNKNOWN]` / `[DECISION REQUIRED]`
-**Hard rules observed**: 未改代码；未改既有报告；未改目录名；未迁移数据；未改 DB schema；未假设 maintainess 权威；未假设 original 权威。
+**v0.2 addition labels**: `[FACT]` / `[OBSERVED]` / `[PROPOSAL]` / `[OWNER DECISION REQUIRED]` / `[UNKNOWN]`
+**Hard rules observed**: 未改代码；未改既有报告；未改目录名；未迁移数据；未改 DB schema；未假设 maintainess 权威；未假设 original 权威；**v0.2 未关闭任何 OQ/BL**。
 
 **Repositories inspected (read-only)**:
 
@@ -53,6 +55,34 @@ AITutor-X 正从历史实验流水线迁入受治理架构。本轮交付 **治�
 - 不把 UNKNOWN 升格为 FACT
 - 不引入新数据库 schema
 
+### 1.3 Hard Rule — Frozen Governance Baseline ≠ Migration Authorization
+
+`[FACT]` 本文件与 GF-001～005 当前 Status 均为 `DRAFT / PROPOSED`，**不是** Frozen Authority。
+
+`[PROPOSAL]` 治理硬化句（v0.2 起写入本基线；**未执行迁移授权**）:
+
+```text
+Frozen Governance Baseline（治理文档冻结状态）
+    ≠
+Migration Authorization（迁移执行授权）
+
+「Frozen」仅表示：
+  - 治理文档版本状态被冻结（文本可被引用、变更须版本化）
+  - 变更走受控 patch，不覆盖历史版本
+
+「Frozen」明确不代表：
+  - Migration approval
+  - Migration Gate 执行力
+  - Gate 9 通过
+  - 数据/代码可以进入 AITutor-X active tree
+```
+
+`[FACT]` 依据：REPORT-I F4「Migration Authority Charter 未设立」；F5「REPORT-I 为草案」；GF-003 §7「F4 未设立前任何 Gate 9 通过声明均无效」；REPORT-I §0.7 Cluster A 未关前默认禁止迁移。
+
+`[PROPOSAL]` 在 OQ-GF-014 / OQ-GF-015 / F4 / F5 关闭前，任何「Gate 9 passed」声明无效。
+
+`[OWNER DECISION REQUIRED]` 是否将本硬化句升格为 Frozen 治理规则、以及 GF 文档升版与迁移授权的分离流程 — 属 Owner 范围（OQ-GF-014）。
+
 ---
 
 ## 2. Current Governance State
@@ -83,6 +113,32 @@ AITutor-X 正从历史实验流水线迁入受治理架构。本轮交付 **治�
 | E | 测试基线 / r67 / frontend 范围 | 018 |
 | Lineage | 双树权威、lineage 补全、文档口径 | 001, 004, 007, 011 |
 
+### 2.3 FACT Measurement Metadata Discipline（v0.2 增补）
+
+`[PROPOSAL]` v0.2 起，治理文档中出现的**数字类 FACT**（计数、hash 前缀、覆盖率、match 率等）应支持下列三项元数据，避免「裸数字」被误读为当前仍有效的 verified 结论：
+
+| Field | Meaning | 填写要求 |
+|-------|---------|----------|
+| `measurement_method` | 该数字如何被测得 | 如 `full_inventory` / `sample_recompute` / `manifest_crosscheck` / `git_ls_files` / `owner_attested` / `log_parse`；不可考 = `UNKNOWN` + 原因 |
+| `measurement_timestamp` | 该数字对应的观测时点 | 显式时区；绑定恢复/变更前后 observation；不可考 = `UNKNOWN` + 原因 |
+| `source_reference` | 该数字的登记载体 | 如 `REPORT-K §x` / `Papers CURRENT.md` / `interface_scope_snapshot_step1.json` / `git ls-files@e1beba3` |
+
+`[FACT]` 依据（数字确存在于源账本；**本节不改变这些 FACT 的既有含义**）:
+
+| 数字 | source_reference | measurement_method / timestamp（源侧可得部分） |
+|------|------------------|-----------------------------------------------|
+| maintainess/PDF 恢复后 12,707 | REPORT-K §1.11；Papers 恢复后复测 | 恢复后盘点 `[OBSERVED]`；恢复前全量 hash = `[UNKNOWN]`（UNKNOWN-004） |
+| original/ PDF 38,893 | REPORT-K §2.1 | 体量盘点 `[OBSERVED]` |
+| OCR 清单 1,801 | `data/ocr_output_manifest.jsonl` | 清单条目计数 `[FACT]` |
+| manifest 166 / sha 键 87 | `Ocr-markdown/**/*.manifest.json`；REPORT-K | 清单交叉 `[OBSERVED]` |
+| snapshot n_rows=87 / match 87 | `interface_scope_snapshot_step1.json` | manifest/snapshot 对账 `[FACT]` |
+| IR ADMITTED match 71 | 同上 / Papers log | 对账 `[FACT]` |
+| AITutorX REPORT-G/H/I/K untracked | `git status` / `git ls-files` @ HEAD `e1beba34857c5332a910901b8f4a409cb4119235` | git 跟踪面检查 `[FACT]` |
+
+`[PROPOSAL]` 后续治理文档引用上述数字时，应尽量附 `measurement_method` + `measurement_timestamp` + `source_reference`；无法附全时必须显式写缺口，**禁止**把历史观测裸数字写成「当前全量 verified」。
+
+`[UNKNOWN]` 部分历史数字的精确测量时点不可考（如部分 REPORT 叙述中的计数未单列 timestamp）；不因本节自动升格或改写。
+
 ---
 
 ## 3. Proposed Authority Model（详见 GF-001）
@@ -111,6 +167,51 @@ AITutor-X 正从历史实验流水线迁入受治理架构。本轮交付 **治�
 **明确不假设**（任务书 Forbidden）:
 - ❌ maintainess = authoritative
 - ❌ original = authoritative
+
+### 3.3 Artifact Registry 总则（v0.2 增补）
+
+`[PROPOSAL]` 治理侧引入 **Artifact Registry** 概念：对进入治理引用面的工件做**分类登记**，区分「存在于磁盘」与「被治理引用/准入」，避免 untracked / 未处置工件被静默当作权威。
+
+#### 3.3.1 Registry Classes `[PROPOSAL]`
+
+| Class | Meaning | 当前示例 `[OBSERVED]` |
+|-------|---------|------------------------|
+| **GOV** — Governance Authority Artifact | 治理协议、GF 文档、Frozen Spec/Contract 副本 | GF-000~005（tracked, DRAFT）；V3_SPEC 冻结分册 |
+| **EVD** — Evidence Artifact | 审计报告、manifest、快照、DQ/ledger | REPORT-A~F（tracked）；`ocr_output_manifest.jsonl`；`interface_scope_snapshot_step1.json` |
+| **EXT** — External Capability Artifact | 外部引擎/模型/契约（非本仓字节权威） | PaddleOCR / PP-StructureV3；本地 embedding；DISPLAY_CONTRACT 等 `[OBSERVED: V3 50 §3]` |
+| **Working** — Working Artifact | 过程性工件，非治理权威 | 会话中间态；临时导出 |
+| **Temporary** — Temporary Artifact | 默认禁入治理引用面 | REPORT-K 过程态 6 文件 `[FACT: 已禁作语料结论]` |
+
+详细角色定义见 GF-001（GOV/EVD/EXT）。本节为 Registry 总则。
+
+#### 3.3.2 Citation State — untracked / in-repo 工件引用效力 `[PROPOSAL]`
+
+任何被 GF/REPORT/Gate 引用的工件，引用时必须区分四个状态，**禁止**把「磁盘存在」直接写成「治理已登记/已准入」:
+
+| State | Meaning | 当前观测示例 `[FACT: git + 磁盘]` |
+|-------|---------|-------------------------------------|
+| `exists` | 文件在磁盘上可读取 | REPORT-G/H/I/K 均 exists |
+| `tracked` | 在 git 跟踪面内（有 blob 历史） | REPORT-A~F tracked；G/H/I/K **untracked** |
+| `referenced` | 被 GF/REPORT 正文引用 | GF-000~005 多处引用 REPORT-I/K；REPORT-G/H 亦被 REVIEW 引用 |
+| `admitted` | 经治理登记 + Owner/Charter 处置后进入 registry | `[UNKNOWN]` — 当前无 Artifact Registry 实例落盘；无 admission 记录 |
+
+`[FACT]` AITutor-X untracked governance reports（TASK-GF-004-A 核实）:
+
+| Artifact | exists | tracked | referenced | admitted |
+|----------|--------|---------|------------|----------|
+| `REPORT-G-*` | YES | NO | YES（REVIEW/GF） | `[UNKNOWN]` |
+| `REPORT-H-*` | YES | NO | YES（REVIEW/GF） | `[UNKNOWN]` |
+| `REPORT-I-*` | YES | NO | YES（GF-000~005、REPORT-K） | `[UNKNOWN]` |
+| `REPORT-K-*` | YES | NO | YES（GF-000~005） | `[UNKNOWN]` |
+| `REPORT-J` | **NO** | n/a | OQ-GF-013 记录「不存在」 | n/a |
+
+`[PROPOSAL]` 引用规则（草案，**未生效为 Frozen 权威**）:
+1. `exists`/`referenced` **不等于** `admitted`。
+2. untracked 且未 Owner 处置 ⇒ `authority_status` 不得写 `verified`（与 GF-003 §6 一致）。
+3. 冻结/迁移/「已证实」类主张引用 untracked 工件时，必须同时标注 citation state + 缺口。
+4. Registry 实例文件（清单/ledger）的落盘路径与格式 = `[OWNER DECISION REQUIRED]`。
+
+`[OWNER DECISION REQUIRED]` REPORT-G/H/I/K 处置（commit / evidence 包 / 降级 / 豁免）= OQ-GF-013 / F10；Registry 载体与 admission 流程未设立。
 
 ---
 
@@ -288,12 +389,14 @@ L6 AITutor-X Entity    source_repo@commit + path + sha256 + migration_record
 
 | File | 内容 |
 |------|------|
-| `GF-000-FOUNDATION-BASELINE.md` | 本文件：九节总述 |
-| `GF-001-SOURCE-AUTHORITY-MODEL.md` | RSD/PIS/OCRA/SEM/MIG + 目录角色 |
-| `GF-002-ARTIFACT-LINEAGE-SPECIFICATION.md` | L1–L6 身份/hash/归属/校验 + 词义分辨 |
-| `GF-003-MIGRATION-EVIDENCE-CONTRACT.md` | EvidencePackage + 失败处置 |
-| `GF-004-MIGRATION-BOUNDARY-DEFINITION.md` | YES/NO/CONDITIONAL |
-| `GF-005-OPEN-QUESTIONS-REGISTRY.md` | OQ-GF-001～018 |
+| `GF-000-FOUNDATION-BASELINE.md` | 本文件：总述 + v0.2 增补（§1.3 / §2.3 / §3.3） |
+| `GF-001-SOURCE-AUTHORITY-MODEL.md` | RSD/PIS/OCRA/SEM/MIG + GOV/EVD/EXT + 目录角色 |
+| `GF-002-ARTIFACT-LINEAGE-SPECIFICATION.md` | L1–L6 + Carrier/Restoration/Integrity（v0.2） |
+| `GF-003-MIGRATION-EVIDENCE-CONTRACT.md` | EvidencePackage v0.1 + v0.2 proposal 字段 + 失败处置 |
+| `GF-004-MIGRATION-BOUNDARY-DEFINITION.md` | YES/NO/CONDITIONAL + V3 50 §3 对齐 + untracked 状态 |
+| `GF-005-OPEN-QUESTIONS-REGISTRY.md` | OQ-GF-001～018 + blocking_scope + D-048 binding-only |
+| `REVIEW/GF-003/01–06` | TASK-GF-003-B 设计输入（tracked @ e1beba3） |
+| `REVIEW/GF-005/01_GF_V0.2_PATCH_CHANGELOG.md` | TASK-GF-005 补丁变更记录 |
 
 **Upstream evidence (unchanged)**: REPORT-A～I、REPORT-K；V3_SPEC；Contract v0.2 四元组；Papers 账本/log。
 
@@ -311,5 +414,7 @@ L6 AITutor-X Entity    source_repo@commit + path + sha256 + migration_record
 
 ---
 
-*GF-000 · DRAFT · TASK-GF-001 · Independent System Governance Architect · 2026-09-17*
-*仅新建 Docs/00_GOVERNANCE/GF-*.md；未修改代码、既有报告、目录名、数据；未迁移；未假设 maintainess/original 权威。*
+*GF-000 · **v0.2 DRAFT / PROPOSED** · TASK-GF-001（v0.1） + TASK-GF-005（v0.2 document patch） · 2026-09-18*
+*v0.2 = GF v0.2 Draft Patch Applied；**NOT** Migration Authorized；**NOT** Frozen Baseline。*
+*新增 §1.3 冻结≠授权硬化句 · §2.3 FACT measurement metadata · §3.3 Artifact Registry 总则。*
+*未修改代码、既有报告、目录名、数据；未迁移；未关闭 OQ/BL；未假设 maintainess/original 权威。*

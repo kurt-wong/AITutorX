@@ -2,10 +2,12 @@
 
 **Document ID**: GF-002
 **Status**: `DRAFT / PROPOSED` — 未经 Owner 批准，不构成冻结权威
+**Version**: **v0.2 Draft**（TASK-GF-005 document patch；新增 §7 Carrier / §8 Restoration / §9 Integrity）
 **Role**: Independent System Governance Architect（TASK-GF-001）
-**Date**: 2026-09-17
+**Date**: 2026-09-17（v0.1） / **2026-09-18**（v0.2 patch）
 **Parent**: `GF-000-FOUNDATION-BASELINE.md`
 **Evidence discipline**: `[FACT]` / `[INFERENCE]` / `[UNKNOWN]` / `[DECISION REQUIRED]`
+**v0.2 addition labels**: `[FACT]` / `[OBSERVED]` / `[PROPOSAL]` / `[OWNER DECISION REQUIRED]` / `[UNKNOWN]`
 **Forbidden honored**: 不混用 identity 词义与物理目录；不假设 maintainess/original 权威；不改代码/数据
 
 ---
@@ -226,10 +228,112 @@ REQUIRED:
 
 ---
 
-## 7. Open Items Referenced
+## 7. Carrier Model（v0.2 增补）
+
+`[PROPOSAL]` v0.2 在 L1–L6 层链（**保留，不废除**）之外，增加 **Carrier（载体）时间维**：同一 path 在不同时点可能持有不同字节状态。hash 归属于某次 **观测（observation）**，不归属于裸路径。
+
+### 7.1 Carrier Model 字段
+
+| Field | Meaning | 填写要求 |
+|-------|---------|----------|
+| `carrier_state` | 载体在某观测时点的字节/数量状态 | 记 `inventory_claimed` / `inventory_verified` / `bytes_coverage`（full \| sample \| manifest_subset）；state 由 observation 序列推导，**禁止覆盖历史** |
+| `observation_time` | 观测时点 | 显式时区 timestamp；不可考 = `UNKNOWN` + 原因；绑定 `observation_id`（若已分配） |
+| `as_of_semantics` | 该状态/数字的时点语义 | 枚举 `[PROPOSAL]`: `observation_as_of`（hash/计数属某次观测）/ `inventory_as_of`（目录盘点）/ `assertion_as_of`（文档主张时点，≠ bytes 时点）/ `unknown_time` |
+
+`[FACT]` 依据（**不改变既有 FACT 含义**）: REPORT-K §1.11 — `maintainess/PDF` 会话中途观测仅 6 文件（误删过程态）；Owner 恢复后复测 12,707 PDF。同一路径 `D:\Project\Papers\maintainess\PDF` 不同时点字节状态不同 `[FACT: REPORT-K]`。GF-0.1/§1–§6 无 time/observation 字段 `[FACT: GF-002 v0.1 正文]`。
+
+`[PROPOSAL]` 引用规则:
+1. 引用「12,707」必须绑定恢复后 observation；引用首跑日志「12,528/12,703」绑定首跑 observation。
+2. **禁止**用最新观测静默覆盖历史观测。
+3. 恢复事件前后必须各有 observation，或显式 `not_verified`。
+4. REPORT-K「6 文件」态 = incident 观测，**不得**作语料治理结论 `[FACT: REPORT-K §1.11 已禁]`。
+5. Completeness Class A/B/C/D 挂在 **Observation** 上，不挂在裸路径。
+
+`[UNKNOWN]` 首跑字节级 Input path 仍为 `[UNKNOWN]`（无 pre-git 快照）— 与 GF-001 §2.2 / OQ-GF-012 一致，不因本节升格。
+
+`[OWNER DECISION REQUIRED]` OQ-GF-001（双树权威）、OQ-GF-005（恢复证据标准）、OQ-GF-006（血缘方向）**不因**本模型关闭。
+
+---
+
+## 8. Restoration Event Model（v0.2 增补）
+
+`[PROPOSAL]` v0.2 登记 **Restoration Event（恢复事件）** 的最小字段集，使治理文档能指向恢复事实，而**不**把恢复写成已完成的完整性证明。
+
+### 8.1 Restoration Event 字段
+
+| Field | Meaning | 填写要求 |
+|-------|---------|----------|
+| `event_id` | 治理侧恢复事件 ID | 治理分配（如 `REST-<carrier>-<date>`）；源仓已有编号则保留源编号 |
+| `source_reference` | 事件记录载体 | 如 `REPORT-K §1.11` / `Papers COORDINATION/CURRENT.md` / Owner 声明载体 |
+| `restored_artifact` | 被恢复的载体/集合 | `carrier_id` + locator（locator only）+ 声称数量 |
+| `restoration_method` | 恢复方式 | 如 `owner_file_restore` / `git_checkout_recover` / `unknown` |
+| `verification_result` | 恢复后验证结果 | `match` \| `mismatch` \| `partial` \| `not_verified`；附 method + 证据引用 |
+
+### 8.2 已观测事件（登记，**不关闭** issue）
+
+| event_id（治理提案） | source_reference | restored_artifact | restoration_method | verification_result |
+|----------------------|------------------|-------------------|--------------------|---------------------|
+| `REST-maintainess-PDF-2026-09-17` `[PROPOSAL id]` | REPORT-K §1.11；UNKNOWN-004 | `maintainess/PDF`；恢复后声称 12,707 PDF | `[OBSERVED]` Owner 声明误删后恢复；具体字节级来源路径叙事存在冲突候选 `[UNKNOWN: OQ-GF-011]` | `[OBSERVED]` 数量 12,707 + 抽样；**byte_level_equivalence = `not_verified`**（无恢复前全量 hash 台账） |
+| D-048-3 关联恢复（tracked 文件）`[OBSERVED]` | Papers `CURRENT.md` / DEC-048；REPORT-F 提及 | Papers git tracked 文件 | `git checkout --` 恢复 `[FACT: Papers 记录]` | git 工作区恢复记录；与 maintainess/PDF 误删恢复 **不是同一事件** `[FACT: 文本对照]` |
+
+`[PROPOSAL]` 硬规则:
+1. 登记 Restoration Event **≠** 关闭 restoration issue。
+2. **禁止**在 `verification_result=not_verified` 时写「恢复完整性已证实」。
+3. `OQ-GF-005`（恢复完整性证据标准：count+sample vs 全量 hash 台账）保持 **OPEN**；本节只提供字段，不裁决标准。
+4. 恢复后未复算的 hash 主张，在 EvidencePackage 中必须带 `restoration_event_ref` + gap。
+
+`[OWNER DECISION REQUIRED]` OQ-GF-005 / OD-K-05；恢复证据充分性标准；是否立项全量 hash inventory（OQ-GF-008）。
+
+---
+
+## 9. Integrity Model — interface_integrity vs locator_integrity（v0.2 增补）
+
+`[FACT]` GF-002 v0.1 §6 仅有 V-Bytes / V-Manifest / V-Snapshot / V-Gate / V-Admission / V-Stage，**未**将「接口定义层验证」与「locator→bytes 验证」分列为可独立记录的 integrity 结果。
+
+`[PROPOSAL]` v0.2 **拆分**两类 integrity；**禁止**继续合并为单一 hash validation 结论。
+
+### 9.1 字段定义
+
+| Field | Object | Method | Pass condition |
+|-------|--------|--------|----------------|
+| `interface_integrity` | 接口/冻结定义层 | manifest/接口键的 `hash_meaning` + 语义 **==** Frozen Contract v0.2 identity 定义（`source_content_sha256` = Identity Authority；path non-identity） | 接口键可复算且与冻结定义一致 |
+| `locator_integrity` | 具体 IR/清单条目/文件 | `ir.locator` → 当前 bytes → `sha256 == 登记 sha` | 逐条 match；fail-closed |
+
+### 9.2 不可互相替代 `[PROPOSAL HARD RULE]`
+
+```text
+FORBIDDEN:
+  interface_integrity PASS  ⇒  locator_integrity PASS   ❌
+  locator_integrity PASS    ⇒  全树 lineage 完整         ❌
+  合并写成单一 hash_validation=pass 而不分列             ❌
+
+REQUIRED:
+  interface_integrity 与 locator_integrity 分列记录
+  INTERFACE_VERIFIED ∧ LOCATOR_LINEAGE_BROKEN  ⇒ 该 IR 不得迁移本体
+  两者 PASS ∧ coverage_class=A  ⇒ 仅可作数据类 Gate 证据输入（仍须 Gate 9 有效）
+```
+
+### 9.3 当前观测数字（分列口径；**不改变既有 FACT**）
+
+| 指标 | 值 | 可支持的结论 | Evidence |
+|------|-----|--------------|----------|
+| snapshot n_rows | 87 | interface 面规模 `[FACT]` | `interface_scope_snapshot_step1.json` |
+| r50 source sha match | 87/87 | **locator** 对账子集 PASS `[FACT]` | 同上 |
+| ir_admitted sha match | **71** | locator 对账更小子集 `[FACT]` | 同上 / Papers log |
+| manifest 总数 | 166（sha 键 87） | 登记覆盖面 `[FACT]`；**≠** 166 条均已 locator 验证 | REPORT-K；`Ocr-markdown/**` |
+| OCR 清单 | 1,801 | L1 锚覆盖面 `[FACT]` | `ocr_output_manifest.jsonl` |
+
+`[PROPOSAL]` 易混读纠正: 「snapshot 87/87 match」**≠**「全部 166 manifest 或全部 IR locator 已验证」。71/87 差值须单独 disposition，不得用 interface 结论掩盖。
+
+`[OWNER DECISION REQUIRED]` 71 vs 87 vs 166 的 disposition；OQ-GF-003（是否强制词面/目录双标注）与 OQ-GF-007（lineage 补全）**不因**本节关闭。
+
+---
+
+## 10. Open Items Referenced
 
 见 `GF-005-OPEN-QUESTIONS-REGISTRY.md`：`OQ-GF-001` 双树关系、`OQ-GF-003` 词义冻结、`OQ-GF-007` lineage 补全、`OQ-GF-002` 数据权威模式、`OQ-GF-008` 全量 hash 台账等。
 
 ---
 
-*GF-002 · DRAFT · TASK-GF-001 · 2026-09-17 · 仅新建治理草案，未改源仓*
+*GF-002 · **v0.2 DRAFT / PROPOSED** · TASK-GF-001（v0.1） + TASK-GF-005（v0.2 document patch） · 2026-09-18*
+*新增 §7 Carrier Model · §8 Restoration Event Model · §9 Integrity Model（interface ≠ locator）；L1–L6 与双层 sha 保留；未关闭 OQ；未授权迁移。*

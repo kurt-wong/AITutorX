@@ -2,10 +2,12 @@
 
 **Document ID**: GF-001
 **Status**: `DRAFT / PROPOSED` — 未经 Owner 批准，不构成冻结权威
+**Version**: **v0.2 Draft**（TASK-GF-005 document patch；新增 §2.6 Artifact Role 分类）
 **Role**: Independent System Governance Architect（TASK-GF-001）
-**Date**: 2026-09-17
+**Date**: 2026-09-17（v0.1） / **2026-09-18**（v0.2 patch）
 **Parent**: `GF-000-FOUNDATION-BASELINE.md`
 **Evidence discipline**: 每条陈述标注 `[FACT]` / `[INFERENCE]` / `[UNKNOWN]` / `[DECISION REQUIRED]`
+**v0.2 addition labels**: `[FACT]` / `[OBSERVED]` / `[PROPOSAL]` / `[OWNER DECISION REQUIRED]` / `[UNKNOWN]`
 **Forbidden honored**: 不假设 `maintainess` 权威；不假设 `original` 权威；不以物理路径充当身份；不改代码/数据/既有报告
 
 ---
@@ -92,6 +94,37 @@
 - `[FACT]` `AGENTS.md`：Provenance ≠ Quality Authority；UNKNOWN is retained data；未经 Migration Gate 不得进入 active tree。
 - `[FACT]` REPORT-I §0：默认在 Cluster A 未由 Owner 关闭前 **全面禁止迁移**（例外仅限 Owner 书面批准的只读证据副本）。
 
+### 2.6 Artifact Role 分类 — GOV / EVD / EXT（v0.2 增补）
+
+`[PROPOSAL]` v0.2 **增补**（**不替换** §2.1–§2.5 的 RSD/PIS/OCRA/SEM/MIG）三类 **Artifact Role**，用于区分治理引用面中「字节对象」的治理角色。与 GF-000 §3.3 Artifact Registry 总则配套。
+
+| Role | 全称 | 定义 | Identity / 引用键 | Not assumed |
+|------|------|------|-------------------|-------------|
+| **GOV** | Governance Artifact | 治理文档、协议、Frozen Spec/Contract 副本等治理权威载体 | `doc_id` + `source_repo@commit` + `path` + （适用时）`content_sha256` + `status` | ❌ DRAFT ≠ Frozen ❌ 存在于 `00_GOVERNANCE/` ≠ 已获迁移授权 |
+| **EVD** | Evidence Artifact | 审计报告、manifest、snapshot、DQ/ledger 等证据载体 | `artifact_ref` + `bytes_kind` + （适用时）`content_sha256` + `measurement_method/timestamp` + `source_reference` | ❌ 证据存在 ≠ 结论成立 ❌ referenced ≠ admitted |
+| **EXT** | External Capability Artifact | 外部引擎/模型/契约等能力对象（非本仓字节权威） | `capability_name` + `version/provider` + `contract_ref`（如 DISPLAY_CONTRACT / seal 记录） | ❌ 外部能力可复用 ≠ 本仓已验证安装 ❌ 版本未记录 = 权威 `[UNKNOWN]` |
+
+`[FACT]` 分类依据：V3_SPEC `50_Migration_Assets.md` §3 可复用资产五类中，「外部能力」（PaddleOCR/PP-StructureV3、本地 embedding）、「非代码资产」（DISPLAY_CONTRACT、canonical question type）、「失败教训」（只读参考）在 GF-001 v0.1 五角色中无稳定承接；本增补由 GOV/EXT/EVD 覆盖，**不修改 V3 50 文本**。
+
+`[OBSERVED]` 当前 AITutorX 治理仓中的例子:
+
+| Artifact | Role | citation state（见 GF-000 §3.3） |
+|----------|------|----------------------------------|
+| GF-000～005 | GOV | exists + tracked；Status=DRAFT/PROPOSED；admitted=`[UNKNOWN]`（无 Registry 实例） |
+| REVIEW/GF-003/01–06 | GOV（review proposal） | exists + tracked @ `e1beba3` |
+| REPORT-A～F | EVD | exists + tracked |
+| REPORT-G/H/I/K | EVD（untracked） | exists；**untracked**；referenced；admitted=`[UNKNOWN]` |
+| `ocr_output_manifest.jsonl`（Papers） | EVD | exists + Papers git tracked |
+| PaddleOCR / PP-StructureV3 / 本地 embedding | EXT | 能力引用；AITutor-X 侧安装/版本登记 `[UNKNOWN]` |
+
+`[PROPOSAL]` 使用规则:
+1. GOV/EVD/EXT 是 **artifact role**，与 RSD/PIS/OCRA/SEM/MIG（**data lineage role**）正交；同一物理文件可同时具有 data role 与 artifact role。
+2. 引用 GOV/EVD/EXT 时必须带 citation state（`exists` / `tracked` / `referenced` / `admitted`），禁止把 `exists` 写成 `admitted`。
+3. EXT 类资产进入迁移评估时，必须登记版本/契约引用；未登记 ⇒ `authority_status=unknown`。
+4. 本节 **不**关闭 OQ-GF-013/014/015/017/018，**不**授权任何 artifact 进入 active tree。
+
+`[OWNER DECISION REQUIRED]` Artifact Registry 实例落盘路径、admission 流程、REPORT-G~K 处置（OQ-GF-013/F10）、EXT 版本冻结要求。
+
 ---
 
 ## 3. Directory Role Map（观测角色，**非**权威裁决）
@@ -149,4 +182,5 @@
 
 ---
 
-*GF-001 · DRAFT · TASK-GF-001 · 2026-09-17 · 仅新建治理草案，未改源仓*
+*GF-001 · **v0.2 DRAFT / PROPOSED** · TASK-GF-001（v0.1） + TASK-GF-005（v0.2 document patch） · 2026-09-18*
+*新增 §2.6 GOV/EVD/EXT Artifact Role；未替换 RSD/PIS/OCRA/SEM/MIG；未关闭 OQ；未授权迁移。*

@@ -2,11 +2,15 @@
 
 **Document ID**: GF-004
 **Status**: `DRAFT / PROPOSED` — 未经 Owner 批准，不构成冻结权威
+**Version**: **v0.2 Draft**（TASK-GF-005 document patch；§2.1 V3 50 §3 对齐 + §3.2 DQ 收窄 + §2.2 untracked 状态）
 **Role**: Independent System Governance Architect（TASK-GF-001）
-**Date**: 2026-09-17
+**Date**: 2026-09-17（v0.1） / **2026-09-18**（v0.2 patch）
 **Parent**: `GF-000-FOUNDATION-BASELINE.md`
-**Upstream**: REPORT-I（Gate/停止线）、REPORT-D（候选分类）、V3_SPEC `50 §5`、`AGENTS.md`
+**Upstream**: REPORT-I（Gate/停止线）、REPORT-D（候选分类）、V3_SPEC `50 §3/§4/§5`、`AGENTS.md`
 **Evidence discipline**: `[FACT]` / `[INFERENCE]` / `[UNKNOWN]` / `[DECISION REQUIRED]`
+**v0.2 addition labels**: `[FACT]` / `[OBSERVED]` / `[PROPOSAL]` / `[OWNER DECISION REQUIRED]` / `[UNKNOWN]`
+
+**Importers / cross-refs**: GF-000 §5；GF-003 Gate 8 migration class；REVIEW/GF-003/02 §2.4；无代码 import。
 
 ---
 
@@ -30,6 +34,64 @@
 | B6 | UNKNOWN 资产保留记录，不静默丢弃也不静默迁入 | `[FACT]` `AGENTS.md` 原则 2 |
 | B7 | 代码可适配后迁；架构违规模式不可迁 | `[FACT]` V3 50 §5；REPORT-D Class B |
 
+### 2.1 V3_SPEC 50 §3 Asset Classification 对齐（v0.2 增补）
+
+`[FACT]` V3_SPEC `50_Migration_Assets.md` §3「可复用资产清单」分**五类**：外部能力 / 数据样本 / 知识种子 / 非代码资产 / 失败教训（只读不移植）；§4 Golden Corpus；§5 绝不迁清单。
+
+`[PROPOSAL]` v0.2 在本文件的 YES/NO/CONDITIONAL 之上，增加与 V3 50 §3 对齐的 **迁移用途分类**（不替换 YES/NO/CONDITIONAL，不修改 V3 50 原文）:
+
+| Classification | Meaning | 对齐 V3 50 §3 | 迁移含义 |
+|----------------|---------|---------------|----------|
+| **identity asset** | 身份/契约类资产（Frozen Contract、identity 定义、canonical type/DISPLAY_CONTRACT 等非代码业务契约） | 非代码资产 | 字节级引用优先；**不**自动获得运行授权；M1–M5 实现另属 conditional |
+| **migration candidate** | 原则上可作为迁移对象候选（仍须 Gate 1–10） | 外部能力（版本登记后）/ 数据样本（Golden）/ 知识种子 | YES 类仍须 Gate；Cluster A 未关前 DEFAULT-BLOCKED |
+| **conditional migration** | 转换/补账/Owner 裁决后才可能迁 | 失败教训以外的可适配代码；Class B/C lineage | 须 known_issue binding + authority/evidence reference（适用时） |
+| **prohibited migration** | 明确禁止迁入 | 失败教训（只读参考，不移植）；§5 全部 V2 库/pipeline/特判/API-worker/recover→queued | 违反 = 停；只读归档 ≠ 迁入 active tree |
+
+`[PROPOSAL]` 映射摘要:
+
+| V3 50 §3 / §5 类别 | GF-004 v0.2 classification | GF-004 YES/NO/CONDITIONAL |
+|---------------------|----------------------------|---------------------------|
+| 外部能力（PaddleOCR 等） | migration candidate（须版本/契约登记） | CONDITIONAL→YES after register |
+| 数据样本 / Golden Corpus | migration candidate（评测资产，非运行库表） | CONDITIONAL（版本化；数据模式未裁） |
+| 知识种子 | migration candidate（schema/seed 契约） | CONDITIONAL |
+| 非代码资产（DISPLAY_CONTRACT、canonical type） | **identity asset** | CONDITIONAL→YES after F3/namespace（若适用） |
+| 失败教训（BUG 清单、V2 代码作失败样本） | **prohibited migration**（只读归档） | NO（active tree）；可 `90_ARCHIVE` 只读 |
+| V3 50 §5 全部绝不迁项 | **prohibited migration** | NO |
+| Identity modules M1–M5 实现代码 | conditional migration | CONDITIONAL（authority pending D2/D3/D4） |
+| lineage manifests（含 hash 者） | migration candidate（证据类） | YES + Gate；Class B 须降级标注 |
+
+`[OWNER DECISION REQUIRED]` F3 Authority Taxonomy（OQ-GF-015）；D2/D3/D4；Golden Corpus 规模/版本（V3 50 §4.3 归 40 §2 I 段）；本分类表是否升格为 Frozen。
+
+### 2.2 AITutorX Untracked Artifact 引用规则（v0.2 增补）
+
+`[PROPOSAL]` 引用 AITutor-X 治理仓内工件时，**必须区分**下列四个状态（与 GF-000 §3.3 / GF-001 §2.6 一致）:
+
+| State | Meaning | 迁移/Gate 含义 |
+|-------|---------|----------------|
+| `exists` | 磁盘可读 | 仅证明存在；**不**证明治理效力 |
+| `tracked` | git 跟踪（有 blob 历史） | 可复现引用；仍 ≠ Authority |
+| `referenced` | 被 GF/REPORT/Gate 文本引用 | 引用链存在；仍 ≠ admitted |
+| `admitted` | 经 Registry 登记 + Owner/Charter 处置 | 唯一可作「治理已接受」状态；当前实例 `[UNKNOWN]` |
+
+`[FACT]` 当前观测（TASK-GF-004-A @ HEAD `e1beba34857c5332a910901b8f4a409cb4119235`）:
+
+| Artifact | exists | tracked | referenced | admitted |
+|----------|--------|---------|------------|----------|
+| REPORT-A～F | YES | YES | YES | `[UNKNOWN]` |
+| REPORT-G | YES | **NO** | YES | `[UNKNOWN]` |
+| REPORT-H | YES | **NO** | YES | `[UNKNOWN]` |
+| REPORT-I | YES | **NO** | YES（GF-000~005） | `[UNKNOWN]` |
+| REPORT-K | YES | **NO** | YES（GF-000~005） | `[UNKNOWN]` |
+| REPORT-J | NO | n/a | OQ-GF-013 | n/a |
+
+`[PROPOSAL]` 规则:
+1. untracked 且无 Owner 处置 ⇒ 默认 **NO**（维持 §4）；引用时必须标注 citation state + gap。
+2. **禁止**把 `exists`/`referenced` 写成 `admitted` 或「治理已证实」。
+3. Gate 证据引用 untracked REPORT 时，`authority_status` 不得为 `verified`（与 GF-003 §6 一致）。
+4. Registry 实例与 admission 流程未设立前，**所有** REPORT 的 `admitted` 保持 `[UNKNOWN]`。
+
+`[OWNER DECISION REQUIRED]` OQ-GF-013 / F10 — REPORT-G~K 处置（commit / evidence 包 / 降级 / 豁免）。
+
 ---
 
 ## 3. YES — 属于迁移范围（仍须 Gate）
@@ -52,8 +114,30 @@
 |------------|-------------------|------|
 | OCR 输出清单 | `data/ocr_output_manifest.jsonl`（1,801；部分 data tracked） | L1 锚；迁清单不迁 PDF 本体（待 OQ-GF-002） |
 | 接口 manifest / snapshot | reslice `*.manifest.json`；`interface_scope_snapshot_step1.json` | L2 锚；含 hash 者 Class A |
-| DQ / 审计 JSON | `dq_figure_pdf_availability.json` 等 | 证据只读；冲突须保留 |
-| REPORT-K 类 lineage 审计 | AITutorX `REPORT-K` | 治理仓内已存在；引用即可 |
+| **DQ / 审计 JSON**（v0.2 调整） | `dq_figure_pdf_availability.json` 等 | **v0.1 曾列 YES；v0.2 收窄为 CONDITIONAL**（见下） |
+| **wrong-claim / 冲突主张账本**（v0.2 调整） | 含错误主张的 ledger/叙事（如 CLOSURE-PLAN 12,707 归属类） | **CONDITIONAL**（见下）；证据只读；冲突须保留 |
+| REPORT-K 类 lineage 审计 | AITutorX `REPORT-K` | exists + **untracked** + referenced；admitted=`[UNKNOWN]`；引用规则见 §2.2 |
+
+**v0.2 CONDITIONAL 化 — DQ / wrong-claim ledger**
+
+`[PROPOSAL]` 对 **DQ/审计 JSON** 与 **wrong-claim ledger**（含已知错误主张的账本/报告叙事）：
+
+```text
+classification: CONDITIONAL（不再是无条件 YES）
+
+全部满足下列三项后，方可作为迁移证据候选（仍须 Gate）:
+  1. known_issue binding     — known_issue_refs[] 非 silent empty（若有源账本 issue）
+  2. authority reference     — authority_status + frozen_ref/OD 引用；untracked ⇒ 不得 verified
+  3. evidence reference      — content_sha256/hash_meaning/measurement 元数据可追溯
+
+任一缺失 ⇒ 保留在候选册，不得称 verified；不进入 active tree
+```
+
+`[FACT]` 依据: TASK-GF-004-A §5A；REVIEW 02 §2.4/§3（DQ YES 收窄）；OQ-GF-011（12,707 归属口径）仍 OPEN；REPORT-H authority conflicts 未裁；GF-003 P7（冲突并列保留）。
+
+`[PROPOSAL]` 本调整 **不删除** v0.1 对这些工件「存在、可作证据」的观察 FACT；只收窄**迁移类别**。
+
+`[OWNER DECISION REQUIRED]` known_issue binding 流程；OQ-GF-011 更正载体；REPORT-H 冲突处置。
 
 ### 3.3 Semantic annotations 与 admitted question data（目标态）
 
@@ -87,10 +171,12 @@
 | **特判规则 / Anchor Corrector / content_slicer 语义** | 禁止 | 50 §5；00 P5 |
 | **API 内启动 worker / recover stale→queued** | 禁止 | 50 §5；30 §2/§8 |
 | **整仓 `backend/` `frontend/` `preprocessing/` 拷贝** | 禁止 | REPORT-I §0.5 |
-| **Untracked 文档（无 Owner 处置）** | 默认 NO | REPORT-I §0.3；REPORT-D Class E |
+| **Untracked 文档（无 Owner 处置）** | 默认 NO | REPORT-I §0.3；REPORT-D Class E；v0.2 状态区分见 §2.2 |
 | **伪文件名 / 无法在仓定位的 REPORT-B 条目** | NO | REPORT-I §3 |
 | **大体量原始语料本体**（`original/` `maintainess/` `Ocr-markdown/`） | **默认 NO**（直至 OQ-GF-002 模式裁决） | `[INFERENCE]`+`[DECISION REQUIRED]` |
 | **前端** | 本轮默认 NO，除非 OD-010 明确纳入 | REPORT-I Cluster E |
+| **失败教训类资产**（V2 BUG 清单、作失败样本库的 V2 代码） | **prohibited migration** 进 active tree；仅 `90_ARCHIVE` 只读 | V3 50 §3 失败教训「只读参考，不移植」`[FACT]` |
+| **V3 50 §5 绝不迁项**（库/表/镜像/pipeline/特判/API-worker/recover→queued 等） | NO — prohibited migration | V3 50 §5 `[FACT]`；v0.2 §2.1 分类对齐 |
 
 ---
 
@@ -163,4 +249,6 @@
 
 ---
 
-*GF-004 · DRAFT · TASK-GF-001 · 2026-09-17 · 仅新建治理草案，未执行迁移*
+*GF-004 · **v0.2 DRAFT / PROPOSED** · TASK-GF-001（v0.1） + TASK-GF-005（v0.2 document patch） · 2026-09-18*
+*新增 §2.1 V3 50 §3 分类对齐（identity/migration candidate/conditional/prohibited）；§2.2 untracked exists/tracked/referenced/admitted；§3.2 DQ/wrong-claim 收窄为 CONDITIONAL。*
+*未授权迁移；未关闭 OQ；未修改 V3 50 原文。*
