@@ -18,8 +18,13 @@ This report is NOT Gate Passed
 
 ## 0. Evidence Anchor（X2.5 audit，亲验）
 
+> **X2.5.1 C1 correction（2026-09-18）**: `2151998` = **X2.5 pre-change baseline snapshot**，不是 post-X2.5 current HEAD。  
+> **X2.5 status after X2.5.1**: **CONDITIONAL PASS** pending DSH X2.5.1 Delta Audit。详见 `REPORT-X2.5.1-FACT-BASE-CORRECTION.md`。
+
 ```text
-AITutorX current HEAD = 2151998c650efb8e7325f6251acc71bc9bc39521 (= origin/main)
+X2.5 pre-change baseline snapshot = 2151998c650efb8e7325f6251acc71bc9bc39521
+X2.5 result commit (docs)         = 96053a83eff5b327be6fdb34c69aea9b73bcdfd5
+  (= origin/main after X2.5; pre-X2.5.1 current HEAD)
 X2/X2.1 content baseline = 7002f3807ddbd4b30f945fc417ddb7f90a79fc6c
 V3 baseline = cc12d79e9a22f6274100ea0bb61f92493ba88509
 Preprocessing baseline = 2b92898f05f6541a5fc65c8300cb8a59a06c4928
@@ -29,7 +34,8 @@ Frozen Contract size = 92197 bytes
 Historical audit parent (X2) = 331cbea (not current HEAD)
 ```
 
-`[FACT-RECOMPUTED]` 经 `git rev-parse` / `git show | sha256sum` / `wc -c` 亲验。
+`[FACT-RECOMPUTED]` 经 `git rev-parse` / `git show | sha256sum` / `wc -c` 亲验。  
+`[X2.5.1]` **Do NOT globally replace historical references.** Historical anchors remain historically accurate.
 
 ---
 
@@ -89,7 +95,7 @@ Historical audit parent (X2) = 331cbea (not current HEAD)
 
 ### Q4. 哪些 authority 仍空洞或冲突？
 
-Charter 未落盘（OD-01/BL-09）；Gate 定义未批；Taxonomy 执行 OPEN 且多套 L*（CL-03）；namespace/mapping 未裁；untracked/Design unknown（OQ-GF-017）；D2/D3/D4 OPEN；Contract 账本 FROZEN vs 正文 NOT FROZEN（CL-01）；Data mode 未实施；test baseline 无 canonical（CL-06）；Ledger 归属（CL-10）；semantic unknown 无执行面（CL-09）；unit_type 词面冲突（CL-08）；Registry admitted 空。
+Charter 未落盘（OD-01/BL-09）；Gate 定义未批；Taxonomy 执行 OPEN 且多套 L*（CL-03）；namespace/mapping 未裁；untracked/Design unknown（OQ-GF-017）；D2/D3/D4 OPEN；Contract 账本 FROZEN vs 正文 NOT FROZEN（CL-01）；Data mode 未实施；test baseline 无 canonical（CL-06）；Ledger 归属（CL-10）；semantic unknown 无执行面（CL-09）；unit_type 词面冲突（CL-08 **corrected**: mapping table exists；`composite_question` unmapped → **CL-21**）；Material domain vs gate empty payload（**CL-22** OPEN IMPLEMENTATION / SEMANTIC CONFLICT）；`andalone_question` DI-01 OPEN；Registry admitted 空。
 
 ### Q5. 跨系统 identity 是否完全明确？
 
