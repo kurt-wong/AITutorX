@@ -38,13 +38,13 @@ Contract Freeze ≠ V3 Implementation Capability
 
 ---
 
-## 1. Git FACT（本阶段审计时点 2026-09-18）
+## 1. Git FACT（X2.1 evidence anchor 修正 2026-09-18）
 
-`[FACT]` 三仓 remote HEAD（`git rev-parse` + `git status -sb` + `gh api` 亲验）:
+`[FACT]` 三仓 remote HEAD（`git rev-parse` + `gh api repos/.../commits/main` 亲验）:
 
 | Role | Repo | Local path | HEAD = origin/main | Sync |
 |------|------|------------|--------------------|------|
-| **Governance / Target** | `kurt-wong/AITutorX` | `D:\Project\AITutor-X` | `331cbea1e4018b6929e1f876bea22a528817f3d3` | IN SYNC |
+| **Governance / Target** | `kurt-wong/AITutorX` | `D:\Project\AITutor-X` | `7002f3807ddbd4b30f945fc417ddb7f90a79fc6c` | IN SYNC |
 | **Consumer (V3 domain)** | `kurt-wong/AITutors-v3` | `D:\Project\AITutors-v3` | `cc12d79e9a22f6274100ea0bb61f92493ba88509` | IN SYNC |
 | **Producer (preprocessing domain)** | `kurt-wong/Aitutors-preprocessing` | `D:\Project\Papers` | `2b92898f05f6541a5fc65c8300cb8a59a06c4928` | IN SYNC |
 
@@ -58,6 +58,27 @@ sha256     = 9c6b9063e81fb2a66d85794b280c9d931f1b0074b39abf472033218149b17528
 ```
 
 `[FACT]` Freeze Registration commit ≠ Freeze Artifact；`c6e771c` 已排除，不得引用为冻结对象。
+
+`[HISTORICAL]` X2 内容撰写时的 audit parent = AITutorX `331cbea`（`7002f38` 的 parent）。该 hash 仅作历史定位，**不是** current HEAD。
+
+`[FACT]` X2 governance commit `7002f38` 已 push 至 `kurt-wong/AITutorX:main`；local main == origin/main。**Document push ≠ Migration Authorization。**
+
+### 1.1 Unified Evidence Anchor（X2 / X2.1 audit baseline）
+
+```text
+AITutorX current HEAD = 7002f38
+V3 baseline = cc12d79
+Preprocessing baseline = 2b92898
+Frozen Contract = f4941ff
+Frozen Contract SHA256 = 9c6b9063e81fb2a66d85794b280c9d931f1b0074b39abf472033218149b17528
+```
+
+`[RULE]` 上述锚点是 X2/X2.1 的 **evidence anchoring baseline**：
+
+- 用于核对文档主张与仓库实际内容是否同源
+- **不因此授权 Migration**
+- **不改变任何 Migration Gate 状态**
+- 不把 `7002f38` 之前的本地 untracked 文件升格为 authority
 
 `[FACT]` Local path 与 GitHub name 不一致（以 git 实测为准）:
 - Governance local = `D:\Project\AITutor-X`（含连字符）；GitHub = `AITutorX`
@@ -170,9 +191,31 @@ sha256     = 9c6b9063e81fb2a66d85794b280c9d931f1b0074b39abf472033218149b17528
 **不允许**:
 - 把 X2 报告当作 Gate Passed
 - 把 Migration Candidate Registry 当作已迁移清单
+- 把 evidence anchor / commit / push 误读为 Migration Authorization
 - 跳过 Charter/Gate 直接 copy 代码进 AITutorX active tree
 
 ---
 
+## 9. X2.1 Evidence Anchor Consistency Correction（2026-09-18）
+
+`[TASK]` X2.1 仅修正 X2 文档内部 Git baseline / current-state 自引用漂移。
+
+`[OBSERVED]` 修正前部分 X2 文档仍写 AITutorX HEAD = `331cbea` 且 push 未完成。
+
+`[CORRECTED]` Current-state 统一为:
+
+```text
+AITutorX current HEAD = 7002f38（= origin/main）
+push status = COMPLETE（local main == origin/main）
+evidence anchor = 见 §1.1
+```
+
+`[UNCHANGED]` Unified System/Architecture Baseline、Producer/Consumer boundary、Material 定义、UNKNOWN 语义、Provenance ≠ Quality、Decision Mapping、Difference Ledger 数字、Migration Candidate 分类、Migration Readiness Gate 结论（BLOCKED / NOT PASSED）**均未改**。
+
+`[RULE]` X2.1 evidence correction **≠** Migration Authorization；**≠** Gate Passed。
+
+---
+
 *End State: AITutorX X2 Unified Documentation Governance Registered.*
+*X2.1 evidence anchors corrected.*
 *Migration remains UNAUTHORIZED.*

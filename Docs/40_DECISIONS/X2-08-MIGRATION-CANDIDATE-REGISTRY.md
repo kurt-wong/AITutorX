@@ -23,11 +23,15 @@ Untracked default = not eligible for active tree
 `NOT_READY` | `CANDIDATE_UNGATED` | `GATE_BLOCKED` | ~~GATE_PASSED~~ | ~~MIGRATED~~
 （后两者当前 **无任何资产**）
 
-**Source commits（本登记锚点）**:
-- AITutorX `331cbea`
-- V3 `cc12d79`
-- Papers `2b92898`
+**Source commits（X2/X2.1 evidence anchor）**:
+- AITutorX current HEAD `7002f38`
+- V3 baseline `cc12d79`
+- Papers baseline `2b92898`
 - Contract freeze object `f4941ff`
+- Contract SHA256 `9c6b9063e81fb2a66d85794b280c9d931f1b0074b39abf472033218149b17528`
+- `[HISTORICAL]` X2 audit parent `331cbea`（非 current HEAD）
+
+`[RULE]` Anchor 仅 evidence anchoring；**不授权 Migration；不把任何 candidate 标为 migrated。**
 
 ---
 

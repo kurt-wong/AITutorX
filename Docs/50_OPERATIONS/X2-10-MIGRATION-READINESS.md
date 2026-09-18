@@ -10,17 +10,29 @@
 Readiness assessment ≠ Migration Authorization
 Absence of new blocker ≠ Approval
 Candidate list ≠ Migrated inventory
+Evidence anchor / document push ≠ Migration Authorization
 ```
+
+**Evidence Anchor（X2/X2.1 audit baseline；详 `X2-00-STATE.md` §1.1）**:
+```text
+AITutorX current HEAD = 7002f38
+V3 baseline = cc12d79
+Preprocessing baseline = 2b92898
+Frozen Contract = f4941ff
+Frozen Contract SHA256 = 9c6b9063e81fb2a66d85794b280c9d931f1b0074b39abf472033218149b17528
+```
+`[RULE]` Anchor 仅用于 evidence anchoring；**不授权 Migration；不改变本文件任何 Gate 结论。**
 
 ---
 
 ## 1. Executive verdict
 
 ```text
-AITutorX Migration Readiness (X2 audit time):
+AITutorX Migration Readiness (X2/X2.1 audit time; anchors above):
 
   DOCUMENTATION GOVERNANCE BASELINE:  ESTABLISHED (X2-00~09 registered)
   UNIFIED SYSTEM MODEL:               REGISTERED (not implemented)
+  EVIDENCE ANCHOR:                    AITutorX 7002f38 pushed to origin/main
   MIGRATION AUTHORIZATION:            UNAVAILABLE
   MIGRATION GATE:                     NOT PASSED (any gate)
   PRODUCTION CODE MIGRATION:          NOT AUTHORIZED
@@ -34,7 +46,7 @@ AITutorX Migration Readiness (X2 audit time):
 
 | Gate area | Required | X2 observed | Ready? |
 |-----------|----------|-------------|--------|
-| G-A Source identity of docs | 三仓 HEAD 锚定 | AITutorX `331cbea` / V3 `cc12d79` / Papers `2b92898` | **YES for audit** |
+| G-A Source identity of docs | 三仓 HEAD 锚定 | AITutorX `7002f38` / V3 `cc12d79` / Papers `2b92898`（X2.1 anchor） | **YES for audit** |
 | G-B Governance baseline | Frozen GF | GF v0.2 FROZEN（OD-14） | YES（doc freeze only） |
 | G-C Authority taxonomy | 唯一执行 | OD-03 已裁模型；执行 OPEN（OQ-GF-015） | **NO** |
 | G-D Migration Authority | Charter + approver | OD-01 建立已裁；requirements 未满足 | **NO** |

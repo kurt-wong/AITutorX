@@ -1,11 +1,12 @@
 # REPORT-X2 — AITutorX Unified Documentation Governance & Cross-System Architecture Integration
 
 **Report ID**: REPORT-X2
-**Task**: TASK-X2-CLAUDE
+**Task**: TASK-X2-CLAUDE；X2.1 = Evidence Anchor Consistency Correction
 **Date**: 2026-09-18
 **Role**: Document verification / audit registration（**Decision actor = Owner**）
 **Method**: 三仓 GitHub + 本地 git 实测重核对 + 权威文档亲读；**不**仅依据既有 Claude/DSH 报告
-**Baseline commits**: AITutorX `331cbea` · V3 `cc12d79` · Papers `2b92898` · Contract freeze object `f4941ff`
+**Evidence Anchor（current）**: AITutorX `7002f38` · V3 `cc12d79` · Papers `2b92898` · Contract freeze object `f4941ff` / sha256 `9c6b9063e81fb2a66d85794b280c9d931f1b0074b39abf472033218149b17528`
+**Historical audit parent（非 current HEAD）**: AITutorX `331cbea`
 
 ---
 
@@ -56,13 +57,16 @@ NOT:
 
 ## 2. Re-verification against GitHub（不依赖旧报告）
 
-### 2.1 Git FACT
+### 2.1 Git FACT（X2.1 corrected）
 
-| Repo | HEAD = origin/main |
-|------|--------------------|
-| kurt-wong/AITutorX | `331cbea1e4018b6929e1f876bea22a528817f3d3` |
-| kurt-wong/AITutors-v3 | `cc12d79e9a22f6274100ea0bb61f92493ba88509` |
-| kurt-wong/Aitutors-preprocessing | `2b92898f05f6541a5fc65c8300cb8a59a06c4928` |
+| Repo | HEAD = origin/main | Role |
+|------|--------------------|------|
+| kurt-wong/AITutorX | `7002f3807ddbd4b30f945fc417ddb7f90a79fc6c` | **current evidence anchor** |
+| kurt-wong/AITutors-v3 | `cc12d79e9a22f6274100ea0bb61f92493ba88509` | V3 baseline |
+| kurt-wong/Aitutors-preprocessing | `2b92898f05f6541a5fc65c8300cb8a59a06c4928` | Preprocessing baseline |
+
+`[HISTORICAL]` X2 撰写时 audit parent = AITutorX `331cbea`（parent of `7002f38`）。
+`[FACT]` `7002f38` 已 push；local main == origin/main。**push ≠ Migration Authorized。**
 
 ### 2.2 Material corrections vs prior reports
 
@@ -167,18 +171,24 @@ AITutorX = 目标系统
 
 ---
 
-## 8. Git operations（本阶段）
+## 8. Git operations（本阶段 + X2.1）
 
-**允许且执行**: 新增 X2 治理/审计文档至 AITutorX `Docs/`；更新 README 状态；commit（message 属 X2 governance）。
+**允许且执行（X2）**: 新增 X2 治理/审计文档至 AITutorX `Docs/`；更新 README 状态；commit（message 属 X2 governance）。
 
-**Commit message**:
+**Commit message（X2）**:
 ```text
 docs(x2): register AITutorX unified documentation governance baseline
 ```
 
-**Push**: 仅在 Owner 授权后执行；push 后 **Migration 仍为未授权**。
+**Push（X2）**: 已执行 — `331cbea..7002f38` → `kurt-wong/AITutorX:main`。**push 后 Migration 仍为未授权。**
 
-**未跟踪保留**: `REPORT-G/H/I/K` 继续 untracked（OD-06 未完成；非本阶段收编对象）。
+**X2.1（本报告后继 patch）**: 仅 evidence anchor / current-state 一致性修正；commit message:
+```text
+docs(x2.1): correct unified baseline evidence anchors
+```
+**X2.1 push 后 Migration 仍为未授权。**
+
+**未跟踪保留**: `REPORT-G/H/I/K` 继续 untracked（OD-06 未完成；非本阶段收编对象）。`X2-DSH-*` 为历史第三方攻击报告，保持 untracked，**不作为 current-state authority**。
 
 ---
 
@@ -186,6 +196,7 @@ docs(x2): register AITutorX unified documentation governance baseline
 
 ```text
 Final State: AITutorX X2 Unified Documentation Governance Registered
+X2.1: Evidence anchors corrected (current-state only)
 
 Registered artifacts:
   X2-00 Stage State
@@ -201,14 +212,17 @@ Registered artifacts:
   X2-10 Migration Readiness Assessment
   REPORT-X2 (this file)
 
-Git anchors:
-  AITutorX pre-X2 = 331cbea
-  V3 = cc12d79
-  Papers = 2b92898
-  Contract freeze object = f4941ff / sha256 9c6b9063…7528
+Evidence Anchor (X2/X2.1):
+  AITutorX current HEAD = 7002f38
+  V3 baseline = cc12d79
+  Preprocessing baseline = 2b92898
+  Frozen Contract = f4941ff
+  Frozen Contract SHA256 = 9c6b9063e81fb2a66d85794b280c9d931f1b0074b39abf472033218149b17528
+  Historical audit parent = 331cbea (not current HEAD)
 
 Next actor: Owner
 Migration: NOT AUTHORIZED
+Evidence correction ≠ Migration Authorization
 ```
 
 ---

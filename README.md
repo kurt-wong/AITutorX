@@ -8,11 +8,13 @@
 
 `[FACT]` GF v0.2 = Frozen Governance Baseline（OD-14）；**freeze ≠ Migration Authorization**。
 
-`[FACT]` X2 统一治理文档集已写入 Docs（X2-00~10 + REPORT-X2）。三仓审计锚点:
-- AITutorX `331cbea`
-- AITutors-v3 `cc12d79`
-- Aitutors-preprocessing（本地 `D:\Project\Papers`）`2b92898`
+`[FACT]` X2 统一治理文档集已写入 Docs（X2-00~10 + REPORT-X2）。X2.1 Evidence Anchor:
+- AITutorX current HEAD `7002f38`（= origin/main；已 push）
+- AITutors-v3 baseline `cc12d79`
+- Aitutors-preprocessing（本地 `D:\Project\Papers`）baseline `2b92898`
 - Contract freeze object `f4941ff` / sha256 `9c6b9063…7528`
+- `[HISTORICAL]` X2 audit parent = `331cbea`（非 current HEAD）
+- Anchor / commit / push **≠** Migration Authorization
 
 `[FACT]` 代码迁移尚未开始；AITutorX `preprocessing/` `backend/` `frontend/` `tools/` `archive/` 仍为空骨架。
 
