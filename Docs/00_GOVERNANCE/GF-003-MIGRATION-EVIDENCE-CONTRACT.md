@@ -1,16 +1,18 @@
-# GF-003 — Migration Evidence Contract（草案）
+# GF-003 — Migration Evidence Contract
 
 **Document ID**: GF-003
-**Status**: `DRAFT / PROPOSED` — 未经 Owner 批准，不构成冻结权威
-**Version**: **v0.2 Draft**（TASK-GF-005 document patch；§3 升级为 v0.1+v0.2 proposal schema）
-**Role**: Independent System Governance Architect（TASK-GF-001）
-**Date**: 2026-09-17（v0.1） / **2026-09-18**（v0.2 patch）
+**Status**: `FROZEN GOVERNANCE BASELINE`（OD-14）；**不**授权迁移
+**Version**: **v0.2 Frozen**（TASK-GF-005 patch + **TASK-GF-008** OD-01 Charter 状态固化）
+**Role**: Independent System Governance Architect（TASK-GF-001）；决策 actor = Owner
+**Date**: 2026-09-17（v0.1） / 2026-09-18（v0.2 patch） / **2026-09-18**（v0.2 freeze + decisions）
 **Parent**: `GF-000-FOUNDATION-BASELINE.md`
+**Decision record**: `GF-006-OWNER-DECISION-RECORD.md`（OD-01 / OD-05 交叉 / OD-10 交叉）
 **Upstream**: REPORT-I（Gate 定义）、Contract v0.2（身份原则）、V3_SPEC 10/20/30/40/50
 **Evidence discipline**: `[FACT]` / `[INFERENCE]` / `[UNKNOWN]` / `[DECISION REQUIRED]`
 **v0.2 addition labels**: `[FACT]` / `[OBSERVED]` / `[PROPOSAL]` / `[OWNER DECISION REQUIRED]` / `[UNKNOWN]`
+**v0.2 freeze labels**: `[OWNER DECISION]`
 
-**Schema status**: §3 保留 **v0.1** 字段（既有 FACT 语义不变）；§3.2 为 **GF v0.2 proposal schema** — **不是**已经执行的 migration schema，**不是**已生效 Evidence 合同。
+**Schema status**: §3 保留 **v0.1** 字段（既有 FACT 语义不变）；§3.2 为 **GF v0.2 proposal schema** — **不是**已经执行的 migration schema，**不是**已生效 Evidence 合同。**OD-14 冻结的是治理文档文本，不是把 §3.2 变成已执行 migration schema。**
 
 ---
 
@@ -28,7 +30,7 @@
 | # | Principle | 分类 | 依据 |
 |---|-----------|------|------|
 | P1 | **Evidence before admission** — 无证据包不得进入 Gate 通过态 | `[FACT]` 任务书 GF-003；REPORT-I Gate 7 | |
-| P2 | **Hash over path** — 身份证据以 content hash 为主，path 仅为 locator | `[FACT]` Contract v0.2 path non-identity | |
+| P2 | **Hash over path** — 身份证据以 content hash 为主，path 仅为 locator | `[FACT]` Contract v0.2 path non-identity；与 OD-04 一致 | |
 | P3 | **UNKNOWN is retained** — 证据缺口必须显式登记，禁止 silent skip | `[FACT]` `AGENTS.md` 原则 2 | |
 | P4 | **Provenance ≠ Quality** — 来源证据不等于质量合格 | `[FACT]` `AGENTS.md` 原则 1 | |
 | P5 | **Fail-closed verification** — hash 不可复算/不一致 ⇒ 拒绝，不降级放行 | `[FACT]` Contract bytes verification 要求 | |
@@ -79,6 +81,8 @@ EvidencePackage
 
 `[PROPOSAL]` 下列字段为 **GF v0.2 proposal schema** 扩展。**不是**已经执行的 migration schema；在 Owner 批准并完成 Gate/Charter 流程前，**不得**把本节字段写入迁移记录为已生效 FACT。
 
+`[OWNER DECISION]` **OD-14**: GF v0.2 **治理文档文本** 已冻结；**不**把本 §3.2 变成已执行 migration schema。
+
 `[FACT]` 依据（缺口确在 v0.1）: TASK-GF-004-A R9 核验 — GF-003 v0.1 §3 **未包含**下列多数执行字段；设计展开见 `REVIEW/GF-003/03_EVIDENCE_PACKAGE_V0.2_SCHEMA.md`。
 
 ### 3.2.1 v0.2 新增字段
@@ -107,7 +111,7 @@ EvidencePackage (v0.2 PROPOSAL extensions)
 └─ schema_version                # PROPOSAL 字面量 "evidence-package-0.2"（若启用）
 ```
 
-### 3.2.2 `approval_block` 硬规则 `[PROPOSAL + FACT 依据]`
+### 3.2.2 `approval_block` 硬规则 `[PROPOSAL + FACT 依据 + OD-01]`
 
 ```text
 IF Migration Authority Charter（F4）不存在:
@@ -116,12 +120,20 @@ IF Migration Authority Charter（F4）不存在:
 含义:
     - package 在 Gate 9 意义上不完整
     - 任何「Gate 9 passed」声明无效
-    - 该状态不是拒绝业务数据，而是记录「授权链未设立」
+    - 该状态不是拒绝业务数据，而是记录「授权链未设立/未满足」
 ```
 
-`[FACT]` 当前全仓适用: REPORT-I F4「Charter 未设立」；F5「REPORT-I 为草案」；GF-000 §1.3 冻结≠授权硬化句；OQ-GF-014 `OPEN-BLOCKING`。
+`[OWNER DECISION]` **OD-01（GF-006 §2）**: **建立** Migration Authority Charter；**当前不授予任何迁移执行权限**。
 
-`[OBSERVED]` 当前默认: `approval_block.status = invalid_without_charter` 对一切尚未获 Charter 批准的迁移候选 **适用中**。
+```text
+Migration Authorization remains unavailable until Charter requirements are satisfied.
+```
+
+`[FACT]` Charter 全文与 requirements satisfied 判定条件 **尚未落盘** 为独立 Charter 文件。因此：
+
+`[FACT]` 当前状态不变: `approval_block.status = invalid_without_charter` 对一切尚未获 Charter 批准的迁移候选 **仍适用中**。OD-01 **不**将该状态改为 `valid`。
+
+`[FACT]` 其它依据: REPORT-I F4；F5「REPORT-I 为草案」；GF-000 §1.3 冻结≠授权；OQ-GF-014 仍 `OPEN-BLOCKING`（执行状态未完成）；BL-09 OPEN。
 
 ### 3.2.3 Known Issue Binding（登记不代改）
 
@@ -139,15 +151,16 @@ IF Migration Authority Charter（F4）不存在:
 `[FACT]` Papers 登记（**本契约不关闭**）:
 - **D-048-1** — M5 subclass 绕过；WARNING-hardening；登记不代改
 - **D-048-2** — M3 positional fallback；NOTE；登记不代改
+- **D-048-3** — tracked 删除恢复事件（与 maintainess 误删恢复非同一事件）；完整 binding 表见 GF-005 §4.1
 - 来源: `PREPROCESSING-PHASE25-GUARDIAN-REVIEW-v1.md`；`PREPROCESSING-OWNER-DECISION-RECORD-v1.md`（DEC-048）；`Papers/COORDINATION/CURRENT.md`
 
-`[PROPOSAL]` 规则:
+`[FACT]` 规则:
 1. 源账本存在已知 issue 时 **禁止** silent empty。
-2. **disposition ≠ 关闭源账本**；D-048-1/2 在 Papers 侧保持 OPEN/registered，直至 Owner 裁决。
+2. **disposition ≠ 关闭源账本**；D-048-1/2/3 在 Papers 侧保持 OPEN/registered，直至 Owner 裁决。
 3. M1–M5 在 D2/D3/D4 与 OQ-GF-017 未决前：默认 `pending_owner_decision`，不得写 `accepted_risk`。
 4. 详细 binding-only 规则见 GF-005。
 
-`[OWNER DECISION REQUIRED]` D-048-1/2 处置（Papers）；F9 测试基线；OQ-GF-014/017/018。
+`[OWNER DECISION REQUIRED]` D-048-1/2/3 处置（Papers / DEC-049 语境）— **TASK-GF-008 明示 D-048 保持 `pending_owner_decision`**；F9 测试基线；OQ-GF-014/017/018 执行状态。
 
 ---
 
@@ -338,6 +351,8 @@ open: F2 status narrative; F3 taxonomy — Gate 9 仍 pending
 
 ---
 
-*GF-003 · **v0.2 DRAFT / PROPOSED** · TASK-GF-001（v0.1） + TASK-GF-005（v0.2 document patch） · 2026-09-18*
-*§3 保留 v0.1 schema；§3.2 为 **GF v0.2 proposal schema**（非已执行 migration schema）；§6 增补 v0.2 处置。*
-*approval_block 在 F4 不存在时 = invalid_without_charter；D-048 只 binding 不关闭；未授权迁移。*
+*GF-003 · **v0.2 FROZEN GOVERNANCE BASELINE** · TASK-GF-001（v0.1） + TASK-GF-005（v0.2 patch） + **TASK-GF-008（OD-01）** · 2026-09-18*
+***Frozen Governance Baseline does not imply Migration Authorization.***
+*§3 保留 v0.1 schema；§3.2 为 **proposal schema**（OD-14 冻结文档 ≠ schema 已执行）。*
+*OD-01: Charter 建立已裁；Authorization unavailable until requirements satisfied；approval_block 仍 = invalid_without_charter。*
+*D-048 只 binding 不关闭；未授权迁移。*

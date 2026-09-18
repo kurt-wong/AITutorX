@@ -1,14 +1,16 @@
-# GF-001 — Source Authority Model（草案）
+# GF-001 — Source Authority Model
 
 **Document ID**: GF-001
-**Status**: `DRAFT / PROPOSED` — 未经 Owner 批准，不构成冻结权威
-**Version**: **v0.2 Draft**（TASK-GF-005 document patch；新增 §2.6 Artifact Role 分类）
-**Role**: Independent System Governance Architect（TASK-GF-001）
-**Date**: 2026-09-17（v0.1） / **2026-09-18**（v0.2 patch）
+**Status**: `FROZEN GOVERNANCE BASELINE`（OD-14）；**不**授权迁移
+**Version**: **v0.2 Frozen**（TASK-GF-005 patch + **TASK-GF-008** OD-03/OD-04/OD-06 固化）
+**Role**: Independent System Governance Architect（TASK-GF-001）；决策 actor = Owner
+**Date**: 2026-09-17（v0.1） / 2026-09-18（v0.2 patch） / **2026-09-18**（v0.2 freeze + decisions）
 **Parent**: `GF-000-FOUNDATION-BASELINE.md`
+**Decision record**: `GF-006-OWNER-DECISION-RECORD.md`（OD-03 / OD-04 / OD-06）
 **Evidence discipline**: 每条陈述标注 `[FACT]` / `[INFERENCE]` / `[UNKNOWN]` / `[DECISION REQUIRED]`
 **v0.2 addition labels**: `[FACT]` / `[OBSERVED]` / `[PROPOSAL]` / `[OWNER DECISION REQUIRED]` / `[UNKNOWN]`
-**Forbidden honored**: 不假设 `maintainess` 权威；不假设 `original` 权威；不以物理路径充当身份；不改代码/数据/既有报告
+**v0.2 freeze labels**: `[OWNER DECISION]`
+**Forbidden honored**: **不**指定 maintainess 或 original 为 canonical（OD-04）；不以物理路径充当身份；不改代码/数据/既有报告
 
 ---
 
@@ -17,6 +19,8 @@
 定义 AITutor-X 迁移所用的**基于角色的来源权威模型**：谁是 Raw Source、谁是 Processing Input、谁是产物、谁可迁入治理树。
 
 本模型回答的是 **“该数据在治理上扮演什么角色”**，而不是 **“它存放在哪个目录”**。
+
+`[OWNER DECISION]` **OD-04（GF-006 §5）**: 数据身份由 **content hash** 决定（Hash-based Source Identity Model）。`original/` 与 `maintainess/PDF` **均作为输入来源**；content hash 一致 ⇒ 同一 Source Identity。**不建立**两树永久 Source Authority 排序。
 
 ---
 
@@ -30,11 +34,13 @@
 | **Identity anchor** | `sha256(those raw bytes)` — 算法层身份，**与存放目录无关** |
 | **Ownership** | 采集/持有方（当前观测到的持有树在 Producer 工作区，见 §3） |
 | **Authority meaning** | 「原件身份」成立的充分条件是 **bytes 可复算且 hash 可登记**，不是路径名含 `original` |
-| **Not assumed** | ❌ 不假设某目录名 = RSD 唯一库 ❌ 不假设双树中任一侧为上游 |
+| **Owner decision** | `[OWNER DECISION]` **OD-04**: 不因目录名指定 canonical RSD；同一 content hash = 同一 Source Identity |
+| **Not assumed** | ❌ 不假设某目录名 = RSD 唯一库 ❌ 不假设双树中任一侧为永久上游/canonical |
 
 - `[FACT]` Producer 工作区存在两棵大体量语料树：`original/`（PDF 38,893 等，115G）与 `maintainess/PDF`（12,707 PDF，21G）；均 `git ls-files = 0`。（REPORT-K §2.1；`Papers/.gitignore:7-10`）
 - `[FACT]` 抽样 6 组同名 PDF 在两树 **sha256 一致**。（REPORT-K §1.8）
-- `[UNKNOWN]` 两树数据血缘方向、是否同一采集批次、哪一侧是 RSD 权威库。
+- `[UNKNOWN]` 两树数据血缘方向、是否同一采集批次。
+- `[OWNER DECISION]` **不**将上述观测升格为 permanent canonical ranking（OD-04）。
 
 ### 2.2 PIS — Processing Input Snapshot
 
@@ -79,7 +85,7 @@
 - `[FACT]` 样本闭环：PDF sha `8d3f9dad…f3a23`（两树一致 = OCR 清单）；md sha `0443945f…ad1ffb`（manifest = snapshot = 现算）。
 - `[FACT]` 接口快照 `identity_definition` 字面 = `SHA256(original source bytes), 64 lowercase hex`，但行内 `source_file` 指向 Ocr-markdown md。
 - `[FACT]` Contract v0.2 冻结要点（Producer `CURRENT.md` / log 核验）：`source_content_sha256` = Identity Authority；**path 仅 locator，禁止 path 作唯一身份**；冻结四元组 = `kurt-wong/AITutors-v3` @ `f4941ff87c0130ee0b79ff6b807c4ec2826b8ff1` / `PREPROCESSING-V3-CONTRACT-v0.2-DRAFT.md` / sha256 `9c6b9063…7528`。
-- `[DECISION REQUIRED]` 见 GF-005 `OQ-GF-003`（identity 词面 vs 目录 `original/` 的治理标注）。
+- `[DECISION REQUIRED]` 见 GF-005 `OQ-GF-003`（identity 词面 vs 目录 `original/` 的治理标注）— **本批未裁**。
 
 ### 2.5 MIG — Migration Artifact
 
@@ -93,46 +99,60 @@
 
 - `[FACT]` `AGENTS.md`：Provenance ≠ Quality Authority；UNKNOWN is retained data；未经 Migration Gate 不得进入 active tree。
 - `[FACT]` REPORT-I §0：默认在 Cluster A 未由 Owner 关闭前 **全面禁止迁移**（例外仅限 Owner 书面批准的只读证据副本）。
+- `[OWNER DECISION]` **OD-01/OD-14**: Frozen Governance Baseline **≠** Migration Authorization；Charter requirements 未满足前 Authorization unavailable。
 
-### 2.6 Artifact Role 分类 — GOV / EVD / EXT（v0.2 增补）
+### 2.6 Artifact Role 分类 — GOV / EVD / EXT + Authority Taxonomy（v0.2；OD-03）
 
-`[PROPOSAL]` v0.2 **增补**（**不替换** §2.1–§2.5 的 RSD/PIS/OCRA/SEM/MIG）三类 **Artifact Role**，用于区分治理引用面中「字节对象」的治理角色。与 GF-000 §3.3 Artifact Registry 总则配套。
+`[OWNER DECISION]` **OD-03（GF-006 §4）**: **采用分层 Authority Taxonomy。不废弃现有分类。**
 
-| Role | 全称 | 定义 | Identity / 引用键 | Not assumed |
+| Layer | 名称 | 取值示例 | 解决的问题 |
+|-------|------|----------|------------|
+| **第一层** | Authority Domain | GOV / EVD / EXT | 治理引用面上「字节对象」的治理角色 |
+| **第二层** | Artifact Role（data lineage） | RSD / PIS / OCRA / SEM / MIG | 该数据在血缘/流水线中扮演什么角色 |
+
+**两类分类解决不同问题。禁止互相替代。**
+
+`[OWNER DECISION]` v0.2 **增补** GOV/EVD/EXT（**不替换** §2.1–§2.5 的 RSD/PIS/OCRA/SEM/MIG）。与 GF-000 §3.3 Artifact Registry 总则配套。
+
+| Domain | 全称 | 定义 | Identity / 引用键 | Not assumed |
 |------|------|------|-------------------|-------------|
-| **GOV** | Governance Artifact | 治理文档、协议、Frozen Spec/Contract 副本等治理权威载体 | `doc_id` + `source_repo@commit` + `path` + （适用时）`content_sha256` + `status` | ❌ DRAFT ≠ Frozen ❌ 存在于 `00_GOVERNANCE/` ≠ 已获迁移授权 |
+| **GOV** | Governance Artifact | 治理文档、协议、Frozen Spec/Contract 副本等治理权威载体 | `doc_id` + `source_repo@commit` + `path` + （适用时）`content_sha256` + `status` | ❌ 存在于 `00_GOVERNANCE/` ≠ 已获迁移授权 ❌ Frozen ≠ Migration Authorized |
 | **EVD** | Evidence Artifact | 审计报告、manifest、snapshot、DQ/ledger 等证据载体 | `artifact_ref` + `bytes_kind` + （适用时）`content_sha256` + `measurement_method/timestamp` + `source_reference` | ❌ 证据存在 ≠ 结论成立 ❌ referenced ≠ admitted |
 | **EXT** | External Capability Artifact | 外部引擎/模型/契约等能力对象（非本仓字节权威） | `capability_name` + `version/provider` + `contract_ref`（如 DISPLAY_CONTRACT / seal 记录） | ❌ 外部能力可复用 ≠ 本仓已验证安装 ❌ 版本未记录 = 权威 `[UNKNOWN]` |
 
 `[FACT]` 分类依据：V3_SPEC `50_Migration_Assets.md` §3 可复用资产五类中，「外部能力」（PaddleOCR/PP-StructureV3、本地 embedding）、「非代码资产」（DISPLAY_CONTRACT、canonical question type）、「失败教训」（只读参考）在 GF-001 v0.1 五角色中无稳定承接；本增补由 GOV/EXT/EVD 覆盖，**不修改 V3 50 文本**。
 
-`[OBSERVED]` 当前 AITutorX 治理仓中的例子:
+`[OBSERVED]` 当前 AITutorX 治理仓中的例子（TASK-GF-008 后）:
 
-| Artifact | Role | citation state（见 GF-000 §3.3） |
-|----------|------|----------------------------------|
-| GF-000～005 | GOV | exists + tracked；Status=DRAFT/PROPOSED；admitted=`[UNKNOWN]`（无 Registry 实例） |
-| REVIEW/GF-003/01–06 | GOV（review proposal） | exists + tracked @ `e1beba3` |
-| REPORT-A～F | EVD | exists + tracked |
-| REPORT-G/H/I/K | EVD（untracked） | exists；**untracked**；referenced；admitted=`[UNKNOWN]` |
-| `ocr_output_manifest.jsonl`（Papers） | EVD | exists + Papers git tracked |
-| PaddleOCR / PP-StructureV3 / 本地 embedding | EXT | 能力引用；AITutor-X 侧安装/版本登记 `[UNKNOWN]` |
+| Artifact | Authority Domain | Data Role（若适用） | citation state（见 GF-000 §3.3） |
+|----------|------|------|----------------------------------|
+| GF-000～006 | GOV | n/a | exists + tracked；Status=`FROZEN GOVERNANCE BASELINE`；admitted=`[UNKNOWN]`（Registry 实例未创建） |
+| REVIEW/GF-003/01–06 | GOV（review proposal） | n/a | exists + tracked @ `e1beba3` |
+| REPORT-A～F | EVD | n/a | exists + tracked |
+| REPORT-G/H/I/K | EVD（untracked） | n/a | exists；**untracked**；referenced；admitted=`[UNKNOWN]`；**OD-06 整理后收编**（尚未执行） |
+| `ocr_output_manifest.jsonl`（Papers） | EVD | OCRA/SEM 相关 | exists + Papers git tracked |
+| PaddleOCR / PP-StructureV3 / 本地 embedding | EXT | n/a | 能力引用；AITutor-X 侧安装/版本登记 `[UNKNOWN]` |
 
-`[PROPOSAL]` 使用规则:
-1. GOV/EVD/EXT 是 **artifact role**，与 RSD/PIS/OCRA/SEM/MIG（**data lineage role**）正交；同一物理文件可同时具有 data role 与 artifact role。
-2. 引用 GOV/EVD/EXT 时必须带 citation state（`exists` / `tracked` / `referenced` / `admitted`），禁止把 `exists` 写成 `admitted`。
+`[FACT]` 使用规则:
+1. GOV/EVD/EXT 是 **Authority Domain**；RSD/PIS/OCRA/SEM/MIG 是 **Artifact Role（data lineage role）**；**正交**；同一物理文件可同时具有 data role 与 domain 分类。
+2. 引用时必须带 citation state（`exists` / `tracked` / `referenced` / `admitted`），禁止把 `exists` 写成 `admitted`。
 3. EXT 类资产进入迁移评估时，必须登记版本/契约引用；未登记 ⇒ `authority_status=unknown`。
 4. 本节 **不**关闭 OQ-GF-013/014/015/017/018，**不**授权任何 artifact 进入 active tree。
 
-`[OWNER DECISION REQUIRED]` Artifact Registry 实例落盘路径、admission 流程、REPORT-G~K 处置（OQ-GF-013/F10）、EXT 版本冻结要求。
+`[OWNER DECISION]` **OD-10**: 建立 Artifact Registry；**禁止**本任务创建实例/导入/改 `admitted`。
+
+`[OWNER DECISION]` **OD-06**: REPORT-G/H/I/K = 整理后收编（Evidence Package → identity → Registry → admission）；当前 **不得** `admitted=true`。
+
+`[OWNER DECISION REQUIRED]` Registry 实例落盘路径与 admission 运营流程；EXT 版本冻结要求；OQ-GF-015 完整执行状态（BL-09）。
 
 ---
 
-## 3. Directory Role Map（观测角色，**非**权威裁决）
+## 3. Directory Role Map（观测角色，**非**权威裁决；OD-04）
 
 | Physical path（Producer `D:\Project\Papers\…`） | 观测内容 `[FACT]` | 治理角色（本模型） | 权威主张 |
 |--------------------------------------------------|-------------------|--------------------|----------|
-| `original/` | 69,535 文件 / 115G；PDF 38,893；DOCX 30,254；DOC 207；PPTX 164；含 `五三资料/` 等 | **RSD 候选库 A**（较大原件树） | `[UNKNOWN]` 是否 canonical RSD |
-| `maintainess/PDF` | 12,707 PDF / 21G；根层扁平 12,528 | **PIS 操作输入根**（现行 OCR 代码/日志所钉） | `[FACT]` = operational OCR input；`[UNKNOWN]` 是否同时为/唯一 RSD |
+| `original/` | 69,535 文件 / 115G；PDF 38,893；DOCX 30,254；DOC 207；PPTX 164；含 `五三资料/` 等 | **RSD 候选库 A**；**输入来源之一**（OD-04） | `[UNKNOWN]` 是否 canonical；**不**永久排序 |
+| `maintainess/PDF` | 12,707 PDF / 21G；根层扁平 12,528 | **PIS 操作输入根**；**输入来源之一**（OD-04） | `[FACT]` = operational OCR input；`[UNKNOWN]` 是否同时为/唯一 RSD；**不**永久排序 |
 | `maintainess/DOCX` | 12,142 | 范围外候选（现行 OCR 代码不读） | `[UNKNOWN]` 是否正式输入（OQ-GF-010） |
 | `maintainess/待转换DOC` 等 | 38 / 5 / 0 | mixed asset 子区 | `[UNKNOWN]` |
 | `maintainess/`（整目录） | 24,892 / 46G | **Case C mixed asset** | 不得整目录单一定性 |
@@ -140,24 +160,30 @@
 | `data/`（部分 tracked） | 清单/快照/审计 JSON | **SEM/账本工件区** | 部分 git 可证 |
 | `docs/…EVIDENCE`、`_archive/` | 历史证据/归档 | 历史证据（只读） | 非现行权威 |
 
-**硬规则（本模型提案，待 Owner 批准后生效）**:
+`[OWNER DECISION]` **硬规则（OD-04 / OD-03 固化）**:
 
 1. **Path ≠ Role**：目录名不自动授予 RSD/PIS/权威身份。
 2. **Role ≠ Authority**：认定某路径为 PIS，不等于认定其为唯一/上游原始来源。
-3. **双树关系显式建模**：在 Owner 裁决 `OQ-GF-001` 前，治理文档必须同时登记两树，禁止静默取其一。
-4. **引用优先 hash**：下游/迁移引用数据时，优先「角色 + content_sha256 + 登记载体」，其次才是绝对路径。
+3. **Hash-based Source Identity**：数据身份由 content hash 决定；hash 一致 ⇒ 同一 Source Identity。
+4. **双树均为输入来源**：`original/` 与 `maintainess/PDF` **均作为输入来源**；**禁止**写成永久 canonical 排序。
+5. **引用优先 hash**：下游/迁移引用数据时，优先「角色 + content_sha256 + 登记载体」，其次才是绝对路径。
+6. **进入条件**: 是否可进入 AITutor-X 由 validation / test corpus / processing result 决定（OD-04），并受 Gate 停止线约束。
+7. **Authority Domain ≠ Artifact Role**：禁止互相替代（OD-03）。
 
 ---
 
-## 4. Authority Questions This Model Explicitly Leaves Open
+## 4. Authority Questions — Decision Status（TASK-GF-008 后）
 
-| ID | Open question | 本模型处理 |
+| ID | Open question | 本模型 / Owner Decision |
 |----|---------------|------------|
-| OD-K-01 / OQ-GF-001 | 权威原始来源：maintainess/PDF、original/、还是双层？ | 双角色并列登记，不裁决 |
-| OD-K-02 / OQ-GF-002 | 数据权威引用方式：path-ref / hash 清单 / copy / NAS | 提案偏向 hash 清单；模式待 Owner |
-| OD-K-04 / OQ-GF-004 | 高重叠双树是否保留双份 | 不假设合并或删除 |
-| OD-K-05 / OQ-GF-005 | maintainess 恢复完整性证据标准 | 数量+抽样 vs 全量 hash，待 Owner |
+| OD-K-01 / OQ-GF-001 | 权威原始来源 | **OD-04** Hash-based Source Identity；双树均为输入来源；**不**关闭 OQ（执行细节/BL-10 OPEN） |
+| OD-K-02 / OQ-GF-002 | 数据权威引用方式 | **OD-05** NAS-backed read-only（详见 GF-006 §6）；**不**关闭 OQ（实施细节 OPEN） |
+| OD-K-04 / OQ-GF-004 | 高重叠双树是否保留双份 | **本批未裁**；禁止无 Owner 令删除/合并 |
+| OD-K-05 / OQ-GF-005 | maintainess 恢复完整性证据标准 | **本批未裁** |
 | UNKNOWN-002 / OQ-GF-006 | 双树流动方向 | 保持 UNKNOWN |
+| OQ-GF-007 | lineage 补全 / 71·87·166 | **OD-18** Difference Ledger；**明示不关闭** OQ-GF-007 |
+| OQ-GF-013 | REPORT-G/H/I/K / Set B | **OD-06** 整理后收编；admission 未完成 |
+| OQ-GF-015 | Authority Taxonomy | **OD-03** 分层模型；完整执行状态仍属 BL-09 |
 
 ---
 
@@ -166,9 +192,9 @@
 | 上游权威 | 本模型关系 |
 |----------|------------|
 | V3_SPEC `10_Data_Model.md` `documents.original_sha256` | V3 源域已要求「原始文件 SHA256」；本模型提供 **migration 前** 的角色解释，不修改 V3 schema |
-| Contract v0.2 `source_content_sha256` + path non-identity | 本模型 **服从**该身份原则；§2.4 仅转述 |
+| Contract v0.2 `source_content_sha256` + path non-identity | 本模型 **服从**该身份原则；与 OD-04 Hash-based Source Identity 一致 |
 | V3_SPEC `50_Migration_Assets.md` §5「绝不迁」 | 迁移边界见 GF-004，与 50 §5 对齐 |
-| REPORT-I Gate / F1–F10 | MIG 角色的进入条件以 Gate 为准 |
+| REPORT-I Gate / F1–F10 | MIG 角色的进入条件以 Gate 为准；**Frozen ≠ Migration Authorization** |
 
 ---
 
@@ -178,9 +204,11 @@
 
 > 「这份 PDF/这份 md/这份 manifest 在治理上是什么角色？信任依据是什么？」
 
-而**不需要**知道 preprocessing 历史实现细节，也**不会**被误导为「目录名 = 权威来源」。
+而**不需要**知道 preprocessing 历史实现细节，也**不会**被误导为「目录名 = 权威来源」或「某一侧树 = 永久 canonical」。
 
 ---
 
-*GF-001 · **v0.2 DRAFT / PROPOSED** · TASK-GF-001（v0.1） + TASK-GF-005（v0.2 document patch） · 2026-09-18*
-*新增 §2.6 GOV/EVD/EXT Artifact Role；未替换 RSD/PIS/OCRA/SEM/MIG；未关闭 OQ；未授权迁移。*
+*GF-001 · **v0.2 FROZEN GOVERNANCE BASELINE** · TASK-GF-001（v0.1） + TASK-GF-005（v0.2 patch） + **TASK-GF-008（OD-03/04/06）** · 2026-09-18*
+***Frozen Governance Baseline does not imply Migration Authorization.***
+*Authority Taxonomy = 分层（Domain + Artifact Role），禁止互替；Source Identity = content hash；REPORT-G~K = 整理后收编（未 admitted）。*
+*未关闭 OQ/BL；未授权迁移；未指定 canonical 目录。*

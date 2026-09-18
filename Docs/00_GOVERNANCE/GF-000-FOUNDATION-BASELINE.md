@@ -1,10 +1,10 @@
-# GF-000 — Governance Foundation Baseline（总述草案）
+# GF-000 — Governance Foundation Baseline
 
 **Document ID**: GF-000
-**Status**: `DRAFT / PROPOSED` — **不是** Frozen Authority；不授权迁移
-**Version**: **v0.2 Draft**（TASK-GF-005 document patch；v0.1 @ `5010c16` 内容保留，新增见 §1.3 / §2.3 / §3.3）
-**Role**: Independent System Governance Architect（TASK-GF-001）
-**Date**: 2026-09-17（v0.1） / **2026-09-18**（v0.2 patch）
+**Status**: `FROZEN GOVERNANCE BASELINE` — 文本版本已冻结（OD-14）；**不**授权迁移；**不**代表 Gate Passed
+**Version**: **v0.2 Frozen**（TASK-GF-005 document patch + **TASK-GF-008 Owner Decision Resolution & Freeze Text Solidification**；v0.1 @ `5010c16` 内容保留）
+**Role**: Independent System Governance Architect（TASK-GF-001）；**Freeze decision actor = Owner（OD-14）**
+**Date**: 2026-09-17（v0.1） / 2026-09-18（v0.2 patch） / **2026-09-18**（v0.2 freeze + owner decisions）
 **Scope**: AITutor-X 迁移治理基线（文档 foundation，非实现、非迁移、非改码）
 **Child documents**:
 - `GF-001-SOURCE-AUTHORITY-MODEL.md`
@@ -12,10 +12,12 @@
 - `GF-003-MIGRATION-EVIDENCE-CONTRACT.md`
 - `GF-004-MIGRATION-BOUNDARY-DEFINITION.md`
 - `GF-005-OPEN-QUESTIONS-REGISTRY.md`
+- `GF-006-OWNER-DECISION-RECORD.md`（**决策正典**；TASK-GF-008）
 
 **Evidence classification**: `[FACT]` / `[INFERENCE]` / `[UNKNOWN]` / `[DECISION REQUIRED]`
 **v0.2 addition labels**: `[FACT]` / `[OBSERVED]` / `[PROPOSAL]` / `[OWNER DECISION REQUIRED]` / `[UNKNOWN]`
-**Hard rules observed**: 未改代码；未改既有报告；未改目录名；未迁移数据；未改 DB schema；未假设 maintainess 权威；未假设 original 权威；**v0.2 未关闭任何 OQ/BL**。
+**v0.2 freeze labels**: `[OWNER DECISION]`（Owner 已裁决，见 GF-006）；`[OWNER DECISION REQUIRED]` 仅用于 **未裁决** 事项
+**Hard rules observed**: 未改代码；未改既有报告；未改目录名；未迁移数据；未改 DB schema；未假设 maintainess 权威；未假设 original 权威；**TASK-GF-008 未关闭任何 OQ/BL/D-048**；未创建 Registry 实例。
 
 **Repositories inspected (read-only)**:
 
@@ -57,31 +59,42 @@ AITutor-X 正从历史实验流水线迁入受治理架构。本轮交付 **治�
 
 ### 1.3 Hard Rule — Frozen Governance Baseline ≠ Migration Authorization
 
-`[FACT]` 本文件与 GF-001～005 当前 Status 均为 `DRAFT / PROPOSED`，**不是** Frozen Authority。
+`[OWNER DECISION]` **OD-14（2026-09-18，GF-006 §1）**: Owner 批准 GF v0.2 升格为 **Frozen Governance Baseline**。冻结范围 = GF v0.2 文档体系（GF-000～006）。冻结 **仅**表示规则版本固定、后续引用有明确基线、变更走受控 patch 不覆盖历史版本。
 
-`[PROPOSAL]` 治理硬化句（v0.2 起写入本基线；**未执行迁移授权**）:
+**冻结声明（Owner 要求必须写入）**:
 
 ```text
+Frozen Governance Baseline does not imply Migration Authorization.
+
 Frozen Governance Baseline（治理文档冻结状态）
     ≠
 Migration Authorization（迁移执行授权）
 
-「Frozen」仅表示：
-  - 治理文档版本状态被冻结（文本可被引用、变更须版本化）
-  - 变更走受控 patch，不覆盖历史版本
-
 「Frozen」明确不代表：
+  - 数据已经迁移
   - Migration approval
-  - Migration Gate 执行力
+  - Migration Gate 执行力 / Gate Passed
   - Gate 9 通过
+  - Migration Ready
   - 数据/代码可以进入 AITutor-X active tree
+
+Migration Authority ≠ Migration Execution
+Decision ≠ Migration Approval
 ```
 
-`[FACT]` 依据：REPORT-I F4「Migration Authority Charter 未设立」；F5「REPORT-I 为草案」；GF-003 §7「F4 未设立前任何 Gate 9 通过声明均无效」；REPORT-I §0.7 Cluster A 未关前默认禁止迁移。
+`[FACT]` 依据: REPORT-I F4「Migration Authority Charter 未设立」；F5「REPORT-I 为草案」；GF-003 §3.2.2 `approval_block`；REPORT-I §0.7 Cluster A 未关前默认禁止迁移。
 
-`[PROPOSAL]` 在 OQ-GF-014 / OQ-GF-015 / F4 / F5 关闭前，任何「Gate 9 passed」声明无效。
+`[OWNER DECISION]` **OD-01（GF-006 §2）**: 建立 Migration Authority Charter；**当前不授予任何迁移执行权限**。
 
-`[OWNER DECISION REQUIRED]` 是否将本硬化句升格为 Frozen 治理规则、以及 GF 文档升版与迁移授权的分离流程 — 属 Owner 范围（OQ-GF-014）。
+```text
+Migration Authorization remains unavailable until Charter requirements are satisfied.
+```
+
+`[FACT]` Charter 全文与 requirements satisfied 判定条件尚未落盘为独立 Charter 文件。
+
+`[FACT]` 在 Charter requirements 满足且 OQ-GF-014/015、F4/F5 相关执行状态完成前，任何「Gate 9 passed」声明 **无效**。
+
+`[FACT]` 本文件 Status 已由 Owner（OD-14）升格为 Frozen；**TASK-GF-008 未关闭任何 OQ/BL/D-048**。
 
 ---
 
@@ -100,7 +113,7 @@ Migration Authorization（迁移执行授权）
 | Producer data trees | 大体量、ignored、双树高重叠 | `[FACT]` |
 | Lineage manifests | OCR 清单 1801；manifest 166（sha 87）；snapshot 87 | `[FACT]` |
 | Test baseline | 两仓结论冲突；r67 本轮未重跑 | `[FACT]` 冲突记录；现行有效性 `[UNKNOWN]` |
-| Migration Authority | Charter 未设立 | `[DECISION REQUIRED]` F4 |
+| Migration Authority | Charter 建立已裁（OD-01）；requirements **未**满足；迁移执行权限未授予 | `[OWNER DECISION]` 建立 Charter；`[FACT]` Authorization unavailable；OQ-GF-014 / BL-09 仍 OPEN |
 
 ### 2.2 Open blocking clusters（继承 REPORT-H/I，不在本轮关闭）
 
@@ -153,30 +166,36 @@ Migration Authorization（迁移执行授权）
 | **SEM** Semantic Artifact | manifest/IR/批注/快照 | `source_content_sha256` 钉 md 字节 |
 | **MIG** Migration Artifact | 过 Gate 后进入 AITutor-X 的资产 | Git presence ≠ Authority |
 
-### 3.2 Directory roles（观测，非权威）
+### 3.2 Directory roles（观测，非权威；OD-04 Hash-based Source Identity）
 
 | Path | 角色 | 权威主张 |
 |------|------|----------|
-| `original/` | RSD 候选库 A | `[UNKNOWN]` |
-| `maintainess/PDF` | PIS 操作输入根 `[FACT]` | 是否兼 RSD `[UNKNOWN]` |
+| `original/` | RSD 候选库 A / 输入来源 | `[UNKNOWN]` 是否 canonical；**不**永久排序（OD-04） |
+| `maintainess/PDF` | PIS 操作输入根 `[FACT]`；亦为输入来源 | 是否兼 RSD `[UNKNOWN]`；**不**永久排序（OD-04） |
 | `maintainess/` 整目录 | Case C mixed asset `[FACT]` | 不得单一定性 |
 | `Ocr-markdown/` | OCRA 产出区 `[FACT]` | n/a |
 
-**提案硬规则**: Path ≠ Role；Role ≠ Authority；双树显式并列直至 Owner 裁决；引用优先 hash。
+`[OWNER DECISION]` **OD-04（GF-006 §5）**: 采用 **Hash-based Source Identity Model**。数据身份由 **content hash** 决定；`original/` 与 `maintainess/PDF` **均作为输入来源**；content hash 一致 ⇒ 同一 Source Identity。是否可进入 AITutor-X 由 validation / test corpus / processing result 决定，**不**由目录名或永久 Source Authority 排序决定。
 
-**明确不假设**（任务书 Forbidden）:
-- ❌ maintainess = authoritative
-- ❌ original = authoritative
+`[FACT]` 硬规则: Path ≠ Role；Role ≠ Authority；引用优先 hash。
 
-### 3.3 Artifact Registry 总则（v0.2 增补）
+`[OWNER DECISION]` **不指定**（OD-04 Important Correction）:
+- ❌ maintainess = canonical
+- ❌ original = canonical
 
-`[PROPOSAL]` 治理侧引入 **Artifact Registry** 概念：对进入治理引用面的工件做**分类登记**，区分「存在于磁盘」与「被治理引用/准入」，避免 untracked / 未处置工件被静默当作权威。
+### 3.3 Artifact Registry 总则（v0.2 增补；OD-10 已裁建立）
+
+`[OWNER DECISION]` **OD-10（2026-09-18，GF-006 §3）**: **建立 Artifact Registry**，用于记录治理认可的 Artifact，解决 `exists` / `tracked` / `referenced` / `admitted` 状态混淆。
+
+`[FACT]` **本任务只固化 Registry 建立决策。禁止**: 创建 Registry 数据实例；导入 Artifact；修改 `admitted` 状态。当前仍无 Registry 实例落盘；`admitted` 保持 `[UNKNOWN]`。
+
+`[PROPOSAL]`（Registry 总则文本，在 Registry 实例运营前作为引用纪律）: 治理侧引入 **Artifact Registry** 概念：对进入治理引用面的工件做**分类登记**，区分「存在于磁盘」与「被治理引用/准入」，避免 untracked / 未处置工件被静默当作权威。
 
 #### 3.3.1 Registry Classes `[PROPOSAL]`
 
 | Class | Meaning | 当前示例 `[OBSERVED]` |
 |-------|---------|------------------------|
-| **GOV** — Governance Authority Artifact | 治理协议、GF 文档、Frozen Spec/Contract 副本 | GF-000~005（tracked, DRAFT）；V3_SPEC 冻结分册 |
+| **GOV** — Governance Authority Artifact | 治理协议、GF 文档、Frozen Spec/Contract 副本 | GF-000~006（tracked；Status=FROZEN GOVERNANCE BASELINE @ TASK-GF-008）；V3_SPEC 冻结分册 |
 | **EVD** — Evidence Artifact | 审计报告、manifest、快照、DQ/ledger | REPORT-A~F（tracked）；`ocr_output_manifest.jsonl`；`interface_scope_snapshot_step1.json` |
 | **EXT** — External Capability Artifact | 外部引擎/模型/契约（非本仓字节权威） | PaddleOCR / PP-StructureV3；本地 embedding；DISPLAY_CONTRACT 等 `[OBSERVED: V3 50 §3]` |
 | **Working** — Working Artifact | 过程性工件，非治理权威 | 会话中间态；临时导出 |
@@ -193,9 +212,9 @@ Migration Authorization（迁移执行授权）
 | `exists` | 文件在磁盘上可读取 | REPORT-G/H/I/K 均 exists |
 | `tracked` | 在 git 跟踪面内（有 blob 历史） | REPORT-A~F tracked；G/H/I/K **untracked** |
 | `referenced` | 被 GF/REPORT 正文引用 | GF-000~005 多处引用 REPORT-I/K；REPORT-G/H 亦被 REVIEW 引用 |
-| `admitted` | 经治理登记 + Owner/Charter 处置后进入 registry | `[UNKNOWN]` — 当前无 Artifact Registry 实例落盘；无 admission 记录 |
+| `admitted` | 经治理登记 + Owner/Charter 处置后进入 registry | `[UNKNOWN]` — Registry **建立**已裁（OD-10）；**实例未创建**；无 admission 记录 |
 
-`[FACT]` AITutor-X untracked governance reports（TASK-GF-004-A 核实）:
+`[FACT]` AITutor-X untracked governance reports（TASK-GF-004-A 核实 @ `e1beba3`；TASK-GF-008 时点 untracked 状态未变）:
 
 | Artifact | exists | tracked | referenced | admitted |
 |----------|--------|---------|------------|----------|
@@ -205,13 +224,15 @@ Migration Authorization（迁移执行授权）
 | `REPORT-K-*` | YES | NO | YES（GF-000~005） | `[UNKNOWN]` |
 | `REPORT-J` | **NO** | n/a | OQ-GF-013 记录「不存在」 | n/a |
 
-`[PROPOSAL]` 引用规则（草案，**未生效为 Frozen 权威**）:
+`[OWNER DECISION]` **OD-06（GF-006 §8）**: REPORT-G/H/I/K 采用 **整理后收编**；流程 = Evidence Package → identity information → Artifact Registry → 再改变 admission 状态。**当前不得直接认为 `admitted=true`。** BL-11 / OQ-GF-013 仍 OPEN。
+
+`[FACT]` 引用规则（Registry 实例运营前有效）:
 1. `exists`/`referenced` **不等于** `admitted`。
 2. untracked 且未 Owner 处置 ⇒ `authority_status` 不得写 `verified`（与 GF-003 §6 一致）。
 3. 冻结/迁移/「已证实」类主张引用 untracked 工件时，必须同时标注 citation state + 缺口。
-4. Registry 实例文件（清单/ledger）的落盘路径与格式 = `[OWNER DECISION REQUIRED]`。
+4. Registry 实例文件（清单/ledger）的落盘路径与格式 = 仍待运营层落盘（OD-10 仅裁「建立」）。
 
-`[OWNER DECISION REQUIRED]` REPORT-G/H/I/K 处置（commit / evidence 包 / 降级 / 豁免）= OQ-GF-013 / F10；Registry 载体与 admission 流程未设立。
+`[OWNER DECISION REQUIRED]` Registry 实例路径/格式/admission 流程运营细节；Set B / REPORT-J（OQ-GF-013 未在本批裁决部分）。
 
 ---
 
@@ -309,23 +330,30 @@ L6 AITutor-X Entity    source_repo@commit + path + sha256 + migration_record
 
 ## 7. Open Questions（详见 GF-005）
 
-共 **18** 条 `OQ-GF-001`～`018`；**9** 条 OPEN-BLOCKING。本角色 **零关闭**。
+共 **18** 条 `OQ-GF-001`～`018`。TASK-GF-008 后 Status 摘要:
 
-| 优先级 | ID | 问题 |
-|--------|-----|------|
-| P0 | OQ-GF-001 | 权威原始来源（maintainess / original / 双层） |
-| P0 | OQ-GF-002 | 数据权威引用/交付模式 |
-| P0 | OQ-GF-004 | 双树重叠副本策略 |
-| P0 | OQ-GF-014 | Migration Authority / Gate 批准 |
-| P0 | OQ-GF-015 | 唯一 Authority Taxonomy |
-| P0 | OQ-GF-016 | DEC/BUG/OQ 命名空间 |
-| P0 | OQ-GF-017 | Design/untracked authority + D2-D4 |
-| P0 | OQ-GF-018 | 测试基线 / r67 / frontend |
-| P1 | OQ-GF-007 | lineage 补全责任 |
-| P1 | OQ-GF-003 | identity 词义 vs 目录双标注 |
-| P1 | OQ-GF-005/008/009/011/012/013 | 恢复标准 / hash 台账 / re-index / 文档口径 / 首跑效力 / Set B |
+- **零 OQ 标记 CLOSED**（关闭协议未以本批决策自动触发；OD-18 **明示**不关闭 OQ-GF-007）
+- 部分条目已有 `[OWNER DECISION]` 注记（见 GF-005 §7 / GF-006）: 001←OD-04；002←OD-05；007←OD-18（不关）；013←OD-06；014←OD-01；015←OD-03
+- **仍 OPEN-BLOCKING（执行状态未完成）**: 001、002、004、007、014、015、016、017、018
+- BL-09 / BL-10 / BL-11 保持 OPEN（GF-005 §4.2 / GF-006 §9）
+- D-048 保持 `pending_owner_decision`
 
-关闭协议：仅 Owner 书面裁决或可复现新证据；禁止以进度压力将 OPEN 默认化。
+| 优先级 | ID | 问题 | Owner Decision（本批） |
+|--------|-----|------|------------------------|
+| P0 | OQ-GF-001 | 权威原始来源（maintainess / original / 双层） | OD-04 Hash-based Source Identity；**不**关闭 |
+| P0 | OQ-GF-002 | 数据权威引用/交付模式 | OD-05 NAS-backed read-only；实施细节 OPEN |
+| P0 | OQ-GF-004 | 双树重叠副本策略 | 本批未裁；仍 OPEN-BLOCKING |
+| P0 | OQ-GF-014 | Migration Authority / Gate 批准 | OD-01 建立 Charter；Authorization unavailable；执行状态 OPEN |
+| P0 | OQ-GF-015 | 唯一 Authority Taxonomy | OD-03 分层模型（Domain + Artifact Role）；完整执行 OPEN |
+| P0 | OQ-GF-016 | DEC/BUG/OQ 命名空间 | 本批未裁 |
+| P0 | OQ-GF-017 | Design/untracked authority + D2-D4 | 本批未裁 |
+| P0 | OQ-GF-018 | 测试基线 / r67 / frontend | 本批未裁 |
+| P1 | OQ-GF-007 | lineage 补全责任 | OD-18 Difference Ledger；**明示不关闭** |
+| P1 | OQ-GF-003 | identity 词义 vs 目录双标注 | 本批未裁 |
+| P1 | OQ-GF-013 | Set B / REPORT-J / REPORT-G~K | OD-06 整理后收编；admission 未完成 |
+| P1 | OQ-GF-005/008/009/011/012 | 恢复标准 / hash 台账 / re-index / 文档口径 / 首跑效力 | 本批未裁 |
+
+关闭协议：仅 Owner 书面裁决或可复现新证据；禁止以进度压力将 OPEN 默认化。**记录 Decision ≠ Status 自动 CLOSED**（见 GF-005 §5 / GF-006 §9）。
 
 ---
 
@@ -350,38 +378,49 @@ L6 AITutor-X Entity    source_repo@commit + path + sha256 + migration_record
 
 ## 9. Recommended Next Phase
 
-**本文件不执行下列动作**；仅向 Owner / Evidence Reconciler 提供排序建议。
+**本文件不执行下列动作**；仅向 Owner / Evidence Reconciler 提供排序建议。状态基于 TASK-GF-008 之后。
 
-### Phase 0.5 — Owner 决策批（阻塞一切迁移）
+### Phase 0.5 — Owner 决策批（已完成部分）
 
-1. 裁决 **OQ-GF-001** 权威原始来源模型（含是否接受「双层」表述）。
-2. 裁决 **OQ-GF-002** 数据权威模式（建议默认：hash 清单 + 只读 locator，数据本体不迁）。
-3. 设立 **Migration Authority Charter（F4）** 并批准 Gate 版本（F5）。
-4. 指定 **唯一 Authority Taxonomy（F3）**。
-5. 裁决 **OQ-GF-003** 是否强制 identity/目录双标注。
+1. ~~裁决 OQ-GF-001 权威原始来源模型~~ → **OD-04** Hash-based Source Identity（**不**关闭 OQ；执行/交付细节仍 OPEN）
+2. ~~裁决 OQ-GF-002 数据权威模式~~ → **OD-05** NAS-backed Read-only（**不**关闭 OQ；BL-10 实施细节 OPEN）
+3. ~~设立 Migration Authority Charter（F4）~~ → **OD-01** 决定建立 Charter；**requirements 未满足**；迁移执行权限未授予；Gate 版本（F5）本批未裁
+4. ~~指定唯一 Authority Taxonomy（F3）~~ → **OD-03** 分层模型（GOV/EVD/EXT + RSD/PIS/OCRA/SEM/MIG）；完整执行状态仍属 BL-09
+5. 裁决 **OQ-GF-003** 是否强制 identity/目录双标注 — **仍待 Owner**
+6. ~~REPORT-G/H/I/K 处置~~ → **OD-06** 整理后收编；admission 未完成（BL-11 OPEN）
+7. ~~Artifact Registry~~ → **OD-10** 决定建立；**实例未创建**
+8. ~~71/87/166~~ → **OD-18** Difference Ledger；**OQ-GF-007 不关闭**
+9. ~~GF v0.2 Freeze~~ → **OD-14** Frozen Governance Baseline；**不** imply Migration Authorization
 
-### Phase 0.6 — Evidence hardening（可与决策并行，仍不迁数据）
+### Phase 0.6 — Evidence hardening（仍待 Owner）
 
-6. Owner 决定 **OQ-GF-008** 是否立项全量 source hash inventory（范围/存放）。
-7. Owner 决定 **OQ-GF-007/009** lineage 补账或 re-index 的 Producer 任务书。
-8. 处置 untracked Design/Contract 族（commit 或书面降级）。
-9. 导入 Set B 或书面豁免（F10）。
-10. 受控环境重跑测试，固化 baseline（F9）。
+10. Owner 决定 **OQ-GF-008** 是否立项全量 source hash inventory（范围/存放）。
+11. Owner 决定 **OQ-GF-007/009** lineage 补账或 re-index 的 Producer 任务书（OD-18 已建 ledger 决策，任务书另立）。
+12. 处置 untracked Design/Contract 族（commit 或书面降级）— OQ-GF-017。
+13. 导入 Set B 或书面豁免（F10）— OQ-GF-013 残余。
+14. 受控环境重跑测试，固化 baseline（F9）— OQ-GF-018。
+15. **Registry 实例落盘** + REPORT-G/H/I/K 走 OD-06 四步流程 → 才能改 `admitted`。
+16. **Charter 正文落盘** + requirements satisfied 判定 → 才能评估 Migration Authorization 可用性。
+17. **Difference Ledger 实例落盘** + 71/87/166 disposition 登记。
+18. 裁决 **OQ-GF-004** 双树保留/合并；**OQ-GF-016** namespace；**OQ-GF-018** 测试基线。
+19. BL-09/10/11 执行状态完成前，**保持 OPEN**。
 
-### Phase 1 — Governance freeze of GF docs（仅文档）
+### Phase 1 — Governance freeze of GF docs
 
-11. Owner 评审 GF-000～005；批准后将 Status 从 `DRAFT` 升为治理基线（版本化，不覆盖）。
-12. 若 F3/F6 已裁，为 REPORT 与 GF 建立 taxonomy/namespace 映射（新文件，不改旧报告）。
+20. ~~Owner 评审 GF-000～005；批准后将 Status 从 DRAFT 升为治理基线~~ → **已执行（OD-14，2026-09-18）**: GF-000～006 Status = `FROZEN GOVERNANCE BASELINE`。后续变更走受控 patch，版本化，不覆盖。
+21. 若 F3/F6 执行完成，为 REPORT 与 GF 建立 taxonomy/namespace 映射（新文件，不改旧报告）。
 
-### Phase 2 — Migration start（前置全绿后）
+### Phase 2 — Migration start（**仍不开放**）
 
-13. 仅对 **Class A / YES 类资产** 按 Gate 1–10 建 EvidencePackage。
-14. Frozen Contract 副本 → `30_CONTRACTS/`（字节一致）。
-15. V3 Frozen Spec → `10_SPEC/`。
-16. Lineage manifests → 证据区（只读）。
-17. 每步写 migration record；UNKNOWN 保留。
+**停止线（不变）**: Cluster A 未关 ⇒ 默认禁迁；Charter requirements 未满足 ⇒ Migration Authorization unavailable；**Frozen ≠ Migration Authorization**。
 
-**明确非目标（下一阶段仍禁止）**: 数据树整体拷贝；改 Frozen 文档；无 Gate 的代码迁入；以目录名证明 provenance；Agent 自封 Frozen/Authority。
+22. 仅对 **Class A / YES 类资产** 按 Gate 1–10 建 EvidencePackage（前置全绿后）。
+23. Frozen Contract 副本 → `30_CONTRACTS/`（字节一致）。
+24. V3 Frozen Spec → `10_SPEC/`。
+25. Lineage manifests → 证据区（只读）。
+26. 每步写 migration record；UNKNOWN 保留。
+
+**明确非目标（下一阶段仍禁止）**: 数据树整体拷贝；改 Frozen 文档的**含义**（变更须版本化 patch）；无 Gate 的代码迁入；以目录名证明 provenance；Agent 自封 Migration Authority；将 NAS 数据视为 Docker 生命周期数据；将全部数据复制进代码仓。
 
 ---
 
@@ -389,14 +428,16 @@ L6 AITutor-X Entity    source_repo@commit + path + sha256 + migration_record
 
 | File | 内容 |
 |------|------|
-| `GF-000-FOUNDATION-BASELINE.md` | 本文件：总述 + v0.2 增补（§1.3 / §2.3 / §3.3） |
-| `GF-001-SOURCE-AUTHORITY-MODEL.md` | RSD/PIS/OCRA/SEM/MIG + GOV/EVD/EXT + 目录角色 |
-| `GF-002-ARTIFACT-LINEAGE-SPECIFICATION.md` | L1–L6 + Carrier/Restoration/Integrity（v0.2） |
-| `GF-003-MIGRATION-EVIDENCE-CONTRACT.md` | EvidencePackage v0.1 + v0.2 proposal 字段 + 失败处置 |
-| `GF-004-MIGRATION-BOUNDARY-DEFINITION.md` | YES/NO/CONDITIONAL + V3 50 §3 对齐 + untracked 状态 |
-| `GF-005-OPEN-QUESTIONS-REGISTRY.md` | OQ-GF-001～018 + blocking_scope + D-048 binding-only |
+| `GF-000-FOUNDATION-BASELINE.md` | 本文件：总述 + v0.2 增补（§1.3 / §2.3 / §3.3）+ freeze（OD-14） |
+| `GF-001-SOURCE-AUTHORITY-MODEL.md` | RSD/PIS/OCRA/SEM/MIG + GOV/EVD/EXT + 目录角色 + OD-03/04/06 |
+| `GF-002-ARTIFACT-LINEAGE-SPECIFICATION.md` | L1–L6 + Carrier/Restoration/Integrity（v0.2）+ OD-04/18 对齐 |
+| `GF-003-MIGRATION-EVIDENCE-CONTRACT.md` | EvidencePackage v0.1 + v0.2 proposal 字段 + 失败处置 + OD-01 Charter 状态 |
+| `GF-004-MIGRATION-BOUNDARY-DEFINITION.md` | YES/NO/CONDITIONAL + V3 50 §3 对齐 + untracked 状态 + OD-05/06 |
+| `GF-005-OPEN-QUESTIONS-REGISTRY.md` | OQ-GF-001～018 + blocking_scope + D-048 binding-only + §7 Owner Decision Resolution |
+| `GF-006-OWNER-DECISION-RECORD.md` | **决策正典**（TASK-GF-008）: OD-14/01/10/03/04/05/18/06 |
 | `REVIEW/GF-003/01–06` | TASK-GF-003-B 设计输入（tracked @ e1beba3） |
 | `REVIEW/GF-005/01_GF_V0.2_PATCH_CHANGELOG.md` | TASK-GF-005 补丁变更记录 |
+| `REVIEW/GF-006/01_OWNER_DECISION_FREEZE_CHANGELOG.md` | TASK-GF-008 freeze + decision resolution 变更记录 |
 
 **Upstream evidence (unchanged)**: REPORT-A～I、REPORT-K；V3_SPEC；Contract v0.2 四元组；Papers 账本/log。
 
@@ -408,13 +449,14 @@ L6 AITutor-X Entity    source_repo@commit + path + sha256 + migration_record
 
 | 问题 | 本基线的落点 |
 |------|----------------|
-| Which data can enter? | GF-004 YES/NO/CONDITIONAL + Gate 停止线 |
-| Why is it trusted? | GF-001 角色权威 + GF-003 证据原则 + Contract/V3 frozen 锚 |
-| What evidence proves origin? | GF-002 分层 hash + EvidencePackage + Completeness Class |
+| Which data can enter? | GF-004 YES/NO/CONDITIONAL + Gate 停止线 + OD-05 NAS read-only 模型 |
+| Why is it trusted? | GF-001 角色权威 + OD-03 分层 taxonomy + OD-04 hash identity + GF-003 证据原则 + Contract/V3 frozen 锚 |
+| What evidence proves origin? | GF-002 分层 hash + EvidencePackage + Completeness Class + OD-18 Difference Ledger 引用义务 |
 
 ---
 
-*GF-000 · **v0.2 DRAFT / PROPOSED** · TASK-GF-001（v0.1） + TASK-GF-005（v0.2 document patch） · 2026-09-18*
-*v0.2 = GF v0.2 Draft Patch Applied；**NOT** Migration Authorized；**NOT** Frozen Baseline。*
-*新增 §1.3 冻结≠授权硬化句 · §2.3 FACT measurement metadata · §3.3 Artifact Registry 总则。*
-*未修改代码、既有报告、目录名、数据；未迁移；未关闭 OQ/BL；未假设 maintainess/original 权威。*
+*GF-000 · **v0.2 FROZEN GOVERNANCE BASELINE** · TASK-GF-001（v0.1） + TASK-GF-005（v0.2 patch） + **TASK-GF-008（Owner Decision Resolution & Freeze）** · 2026-09-18*
+***Frozen Governance Baseline does not imply Migration Authorization.***
+*NOT Migration Authorized · NOT Migration Ready · NOT Gate Passed · NOT OQ/BL/D-048 Closed.*
+*决策 actor = Owner（OD-14/01/10/03/04/05/18/06，见 GF-006）；文档 actor = document verification only。*
+*未修改代码、既有报告、目录名、数据；未迁移；未创建 Registry 实例；未假设 maintainess/original canonical。*

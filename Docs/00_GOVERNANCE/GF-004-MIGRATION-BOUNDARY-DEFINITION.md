@@ -1,14 +1,16 @@
-# GF-004 — Migration Boundary Definition（草案）
+# GF-004 — Migration Boundary Definition
 
 **Document ID**: GF-004
-**Status**: `DRAFT / PROPOSED` — 未经 Owner 批准，不构成冻结权威
-**Version**: **v0.2 Draft**（TASK-GF-005 document patch；§2.1 V3 50 §3 对齐 + §3.2 DQ 收窄 + §2.2 untracked 状态）
-**Role**: Independent System Governance Architect（TASK-GF-001）
-**Date**: 2026-09-17（v0.1） / **2026-09-18**（v0.2 patch）
+**Status**: `FROZEN GOVERNANCE BASELINE`（OD-14）；**不**授权迁移
+**Version**: **v0.2 Frozen**（TASK-GF-005 patch + **TASK-GF-008** OD-05/OD-06/OD-10 固化）
+**Role**: Independent System Governance Architect（TASK-GF-001）；决策 actor = Owner
+**Date**: 2026-09-17（v0.1） / 2026-09-18（v0.2 patch） / **2026-09-18**（v0.2 freeze + decisions）
 **Parent**: `GF-000-FOUNDATION-BASELINE.md`
+**Decision record**: `GF-006-OWNER-DECISION-RECORD.md`（OD-05 / OD-06 / OD-10）
 **Upstream**: REPORT-I（Gate/停止线）、REPORT-D（候选分类）、V3_SPEC `50 §3/§4/§5`、`AGENTS.md`
 **Evidence discipline**: `[FACT]` / `[INFERENCE]` / `[UNKNOWN]` / `[DECISION REQUIRED]`
 **v0.2 addition labels**: `[FACT]` / `[OBSERVED]` / `[PROPOSAL]` / `[OWNER DECISION REQUIRED]` / `[UNKNOWN]`
+**v0.2 freeze labels**: `[OWNER DECISION]`
 
 **Importers / cross-refs**: GF-000 §5；GF-003 Gate 8 migration class；REVIEW/GF-003/02 §2.4；无代码 import。
 
@@ -28,17 +30,35 @@
 |---|-----------|------|
 | B1 | Migration ≠ Copy：进入治理树必须逐项过 Gate | `[FACT]` REPORT-I §0.5 禁止整仓 copy |
 | B2 | Untracked 默认不可进 active tree | `[FACT]` REPORT-I §0.3 |
-| B3 | 数据本体默认不迁；优先 hash 清单与账本 | `[INFERENCE]` 推自 OD-009 未决 + 数据 ignored；**模式待 Owner** |
+| B3 | 数据本体默认不迁；采用 **NAS-backed read-only** 模型（OD-05） | `[OWNER DECISION]` **OD-05**（GF-006 §6）；仍须 Gate + Class 判定 |
 | B4 | 实验/临时/过时预处理产物默认 NO | `[FACT]` 任务书 GF-004；V3 50 §5 |
 | B5 | 历史证据可归档只读，不自动获得现行权威 | `[FACT]` REPORT-I Class C / `AGENTS.md` |
 | B6 | UNKNOWN 资产保留记录，不静默丢弃也不静默迁入 | `[FACT]` `AGENTS.md` 原则 2 |
 | B7 | 代码可适配后迁；架构违规模式不可迁 | `[FACT]` V3 50 §5；REPORT-D Class B |
+| B8 | Frozen Governance Baseline ≠ Migration Authorization | `[OWNER DECISION]` **OD-14** + `[FACT]` GF-000 §1.3 |
+
+### 2.0 Data Entry / Storage Model（OD-05 固化）
+
+`[OWNER DECISION]` **OD-05（GF-006 §6）**: 采用 **NAS-backed Read-only Data Model**。
+
+| 层 | 内容 |
+|----|------|
+| **NAS** | 原始 PDF、图片、OCR Markdown、中间处理结果 |
+| **Docker AITutor-X** | 通过 **read-only volume mount** 访问 NAS 数据 |
+| **Database** | 结构化对象：Question / QuestionInstance / Knowledge Node / Relation / Embedding metadata |
+| **Repository** | 测试资产：golden corpus / fixtures / validation samples |
+
+`[OWNER DECISION]` **禁止**:
+- 将全部数据复制进入代码仓
+- 将 NAS 数据视为 Docker 生命周期数据
+
+`[FACT]` 非授权: OD-05 **不**表示数据本体已迁入；**不**关闭 OQ-GF-002 / BL-10（具体实施细节仍 OPEN）；**不**创建/修改 Database schema；**不**实施 NAS mount 配置。
 
 ### 2.1 V3_SPEC 50 §3 Asset Classification 对齐（v0.2 增补）
 
 `[FACT]` V3_SPEC `50_Migration_Assets.md` §3「可复用资产清单」分**五类**：外部能力 / 数据样本 / 知识种子 / 非代码资产 / 失败教训（只读不移植）；§4 Golden Corpus；§5 绝不迁清单。
 
-`[PROPOSAL]` v0.2 在本文件的 YES/NO/CONDITIONAL 之上，增加与 V3 50 §3 对齐的 **迁移用途分类**（不替换 YES/NO/CONDITIONAL，不修改 V3 50 原文）:
+`[FACT]` v0.2 在本文件的 YES/NO/CONDITIONAL 之上，增加与 V3 50 §3 对齐的 **迁移用途分类**（不替换 YES/NO/CONDITIONAL，不修改 V3 50 原文）:
 
 | Classification | Meaning | 对齐 V3 50 §3 | 迁移含义 |
 |----------------|---------|---------------|----------|
@@ -47,50 +67,52 @@
 | **conditional migration** | 转换/补账/Owner 裁决后才可能迁 | 失败教训以外的可适配代码；Class B/C lineage | 须 known_issue binding + authority/evidence reference（适用时） |
 | **prohibited migration** | 明确禁止迁入 | 失败教训（只读参考，不移植）；§5 全部 V2 库/pipeline/特判/API-worker/recover→queued | 违反 = 停；只读归档 ≠ 迁入 active tree |
 
-`[PROPOSAL]` 映射摘要:
+`[FACT]` 映射摘要:
 
 | V3 50 §3 / §5 类别 | GF-004 v0.2 classification | GF-004 YES/NO/CONDITIONAL |
 |---------------------|----------------------------|---------------------------|
 | 外部能力（PaddleOCR 等） | migration candidate（须版本/契约登记） | CONDITIONAL→YES after register |
-| 数据样本 / Golden Corpus | migration candidate（评测资产，非运行库表） | CONDITIONAL（版本化；数据模式未裁） |
+| 数据样本 / Golden Corpus | migration candidate（评测资产，非运行库表） | CONDITIONAL（版本化；**OD-05**: Repository 保存测试资产；NAS 保存大体量语料） |
 | 知识种子 | migration candidate（schema/seed 契约） | CONDITIONAL |
-| 非代码资产（DISPLAY_CONTRACT、canonical type） | **identity asset** | CONDITIONAL→YES after F3/namespace（若适用） |
+| 非代码资产（DISPLAY_CONTRACT、canonical type） | **identity asset** | CONDITIONAL→YES after F3/namespace 执行（OD-03 分层模型已裁；执行状态 OPEN） |
 | 失败教训（BUG 清单、V2 代码作失败样本） | **prohibited migration**（只读归档） | NO（active tree）；可 `90_ARCHIVE` 只读 |
 | V3 50 §5 全部绝不迁项 | **prohibited migration** | NO |
 | Identity modules M1–M5 实现代码 | conditional migration | CONDITIONAL（authority pending D2/D3/D4） |
 | lineage manifests（含 hash 者） | migration candidate（证据类） | YES + Gate；Class B 须降级标注 |
 
-`[OWNER DECISION REQUIRED]` F3 Authority Taxonomy（OQ-GF-015）；D2/D3/D4；Golden Corpus 规模/版本（V3 50 §4.3 归 40 §2 I 段）；本分类表是否升格为 Frozen。
+`[OWNER DECISION REQUIRED]` D2/D3/D4；Golden Corpus 规模/版本（V3 50 §4.3）；本分类表是否单独升格引用条款；OQ-GF-015 完整执行状态（taxonomy 分层已裁 OD-03）。
 
-### 2.2 AITutorX Untracked Artifact 引用规则（v0.2 增补）
+### 2.2 AITutorX Untracked Artifact 引用规则（v0.2 增补；OD-06/OD-10）
 
-`[PROPOSAL]` 引用 AITutor-X 治理仓内工件时，**必须区分**下列四个状态（与 GF-000 §3.3 / GF-001 §2.6 一致）:
+`[FACT]` 引用 AITutor-X 治理仓内工件时，**必须区分**下列四个状态（与 GF-000 §3.3 / GF-001 §2.6 一致）:
 
 | State | Meaning | 迁移/Gate 含义 |
 |-------|---------|----------------|
 | `exists` | 磁盘可读 | 仅证明存在；**不**证明治理效力 |
 | `tracked` | git 跟踪（有 blob 历史） | 可复现引用；仍 ≠ Authority |
 | `referenced` | 被 GF/REPORT/Gate 文本引用 | 引用链存在；仍 ≠ admitted |
-| `admitted` | 经 Registry 登记 + Owner/Charter 处置 | 唯一可作「治理已接受」状态；当前实例 `[UNKNOWN]` |
+| `admitted` | 经 Registry 登记 + Owner/Charter 处置 | 唯一可作「治理已接受」状态；当前 `[UNKNOWN]` |
 
-`[FACT]` 当前观测（TASK-GF-004-A @ HEAD `e1beba34857c5332a910901b8f4a409cb4119235`）:
+`[OWNER DECISION]` **OD-10**: 建立 Artifact Registry；**禁止**本任务创建实例/导入/改 `admitted`。
+
+`[OWNER DECISION]` **OD-06（GF-006 §8）**: REPORT-G/H/I/K 采用 **整理后收编**：Evidence Package → identity information → Artifact Registry → 再改变 admission 状态。**当前不得直接认为 `admitted=true`。** BL-11 OPEN。
+
+`[FACT]` 当前观测（TASK-GF-004-A @ HEAD `e1beba34857c5332a910901b8f4a409cb4119235`；TASK-GF-008 时点 untracked 状态未变）:
 
 | Artifact | exists | tracked | referenced | admitted |
 |----------|--------|---------|------------|----------|
 | REPORT-A～F | YES | YES | YES | `[UNKNOWN]` |
 | REPORT-G | YES | **NO** | YES | `[UNKNOWN]` |
 | REPORT-H | YES | **NO** | YES | `[UNKNOWN]` |
-| REPORT-I | YES | **NO** | YES（GF-000~005） | `[UNKNOWN]` |
-| REPORT-K | YES | **NO** | YES（GF-000~005） | `[UNKNOWN]` |
+| REPORT-I | YES | **NO** | YES（GF-000~006） | `[UNKNOWN]` |
+| REPORT-K | YES | **NO** | YES（GF-000~006） | `[UNKNOWN]` |
 | REPORT-J | NO | n/a | OQ-GF-013 | n/a |
 
-`[PROPOSAL]` 规则:
+`[FACT]` 规则:
 1. untracked 且无 Owner 处置 ⇒ 默认 **NO**（维持 §4）；引用时必须标注 citation state + gap。
 2. **禁止**把 `exists`/`referenced` 写成 `admitted` 或「治理已证实」。
 3. Gate 证据引用 untracked REPORT 时，`authority_status` 不得为 `verified`（与 GF-003 §6 一致）。
-4. Registry 实例与 admission 流程未设立前，**所有** REPORT 的 `admitted` 保持 `[UNKNOWN]`。
-
-`[OWNER DECISION REQUIRED]` OQ-GF-013 / F10 — REPORT-G~K 处置（commit / evidence 包 / 降级 / 豁免）。
+4. Registry 实例与 admission 流程未完成前，**所有** REPORT 的 `admitted` 保持 `[UNKNOWN]`。
 
 ---
 
@@ -234,10 +256,12 @@ classification: CONDITIONAL（不再是无条件 YES）
 本文件 **不**:
 
 - 授权任何文件复制/迁移
-- 裁决数据权威模式或双树去留
+- 将 OD-04/OD-05 决策解读为数据已可迁入或实施已完成
 - 修改 V3 50 或 REPORT-D/I 的分类结论
 - 创建 DEC/BUG ID
-- 假设 maintainess 或 original 任一权威
+- 指定 maintainess 或 original 任一为 canonical（OD-04）
+- 将 untracked REPORT 写成 `admitted=true`（OD-06）
+- 关闭 OQ-GF-002/013/015 或 BL-09/10/11
 
 ---
 
@@ -249,6 +273,7 @@ classification: CONDITIONAL（不再是无条件 YES）
 
 ---
 
-*GF-004 · **v0.2 DRAFT / PROPOSED** · TASK-GF-001（v0.1） + TASK-GF-005（v0.2 document patch） · 2026-09-18*
-*新增 §2.1 V3 50 §3 分类对齐（identity/migration candidate/conditional/prohibited）；§2.2 untracked exists/tracked/referenced/admitted；§3.2 DQ/wrong-claim 收窄为 CONDITIONAL。*
-*未授权迁移；未关闭 OQ；未修改 V3 50 原文。*
+*GF-004 · **v0.2 FROZEN GOVERNANCE BASELINE** · TASK-GF-001（v0.1） + TASK-GF-005（v0.2 patch） + **TASK-GF-008（OD-05/06/10）** · 2026-09-18*
+***Frozen Governance Baseline does not imply Migration Authorization.***
+*§2.0 NAS-backed read-only 数据模型（OD-05）；§2.2 untracked + OD-06 整理后收编（admitted≠true）。*
+*未授权迁移；未关闭 OQ/BL；未修改 V3 50 原文。*

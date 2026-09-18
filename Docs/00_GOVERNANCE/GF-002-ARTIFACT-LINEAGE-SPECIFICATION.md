@@ -1,14 +1,16 @@
-# GF-002 — Artifact Lineage Specification（草案）
+# GF-002 — Artifact Lineage Specification
 
 **Document ID**: GF-002
-**Status**: `DRAFT / PROPOSED` — 未经 Owner 批准，不构成冻结权威
-**Version**: **v0.2 Draft**（TASK-GF-005 document patch；新增 §7 Carrier / §8 Restoration / §9 Integrity）
-**Role**: Independent System Governance Architect（TASK-GF-001）
-**Date**: 2026-09-17（v0.1） / **2026-09-18**（v0.2 patch）
+**Status**: `FROZEN GOVERNANCE BASELINE`（OD-14）；**不**授权迁移
+**Version**: **v0.2 Frozen**（TASK-GF-005 patch + **TASK-GF-008** OD-04/OD-18 对齐）
+**Role**: Independent System Governance Architect（TASK-GF-001）；决策 actor = Owner
+**Date**: 2026-09-17（v0.1） / 2026-09-18（v0.2 patch） / **2026-09-18**（v0.2 freeze + decisions）
 **Parent**: `GF-000-FOUNDATION-BASELINE.md`
+**Decision record**: `GF-006-OWNER-DECISION-RECORD.md`（OD-04 / OD-18）
 **Evidence discipline**: `[FACT]` / `[INFERENCE]` / `[UNKNOWN]` / `[DECISION REQUIRED]`
 **v0.2 addition labels**: `[FACT]` / `[OBSERVED]` / `[PROPOSAL]` / `[OWNER DECISION REQUIRED]` / `[UNKNOWN]`
-**Forbidden honored**: 不混用 identity 词义与物理目录；不假设 maintainess/original 权威；不改代码/数据
+**v0.2 freeze labels**: `[OWNER DECISION]`
+**Forbidden honored**: 不混用 identity 词义与物理目录；**不**指定 maintainess/original canonical（OD-04）；不改代码/数据
 
 ---
 
@@ -325,15 +327,21 @@ REQUIRED:
 
 `[PROPOSAL]` 易混读纠正: 「snapshot 87/87 match」**≠**「全部 166 manifest 或全部 IR locator 已验证」。71/87 差值须单独 disposition，不得用 interface 结论掩盖。
 
-`[OWNER DECISION REQUIRED]` 71 vs 87 vs 166 的 disposition；OQ-GF-003（是否强制词面/目录双标注）与 OQ-GF-007（lineage 补全）**不因**本节关闭。
+`[OWNER DECISION]` **OD-18（GF-006 §7）**: **建立 Difference Ledger**，用于解释 snapshot / manifest / IR admitted 之间差异。后续任何 `87` / `71` / `166` 数字引用 **必须能够关联 difference disposition**。**本决定不关闭 OQ-GF-007。**
+
+`[FACT]` Difference Ledger **实例** 本任务未创建；引用义务自本 freeze 文本生效。
+
+`[OWNER DECISION REQUIRED]` OQ-GF-003（词面/目录双标注）本批未裁；OQ-GF-007 lineage 补全责任仍 OPEN。
 
 ---
 
 ## 10. Open Items Referenced
 
-见 `GF-005-OPEN-QUESTIONS-REGISTRY.md`：`OQ-GF-001` 双树关系、`OQ-GF-003` 词义冻结、`OQ-GF-007` lineage 补全、`OQ-GF-002` 数据权威模式、`OQ-GF-008` 全量 hash 台账等。
+见 `GF-005-OPEN-QUESTIONS-REGISTRY.md`：`OQ-GF-001` 双树关系（OD-04 已记 hash identity，OQ 仍 OPEN）、`OQ-GF-003` 词义冻结（未裁）、`OQ-GF-007` lineage 补全（OD-18 不关）、`OQ-GF-002` 数据权威模式（OD-05 NAS read-only，实施 OPEN）、`OQ-GF-008` 全量 hash 台账等。
 
 ---
 
-*GF-002 · **v0.2 DRAFT / PROPOSED** · TASK-GF-001（v0.1） + TASK-GF-005（v0.2 document patch） · 2026-09-18*
-*新增 §7 Carrier Model · §8 Restoration Event Model · §9 Integrity Model（interface ≠ locator）；L1–L6 与双层 sha 保留；未关闭 OQ；未授权迁移。*
+*GF-002 · **v0.2 FROZEN GOVERNANCE BASELINE** · TASK-GF-001（v0.1） + TASK-GF-005（v0.2 patch） + **TASK-GF-008（OD-04/18）** · 2026-09-18*
+***Frozen Governance Baseline does not imply Migration Authorization.***
+*§7 Carrier · §8 Restoration · §9 Integrity（interface ≠ locator）；L1–L6 与双层 sha 保留。*
+*OD-18 Difference Ledger 已裁建立；OQ-GF-007 不关闭；未授权迁移。*
