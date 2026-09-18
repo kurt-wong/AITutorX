@@ -173,12 +173,16 @@ CL-21 / CL-22 / CL-23 / DI-01 = OPEN / TBD
 
 ```text
 X2.5 baseline commit     : 96053a83eff5b327be6fdb34c69aea9b73bcdfd5
-X2.5.1 commit SHA        : <filled after commit>
-parent SHA               : <filled after commit>
-origin/main              : <filled after push>
-changed files            : <filled after git status/diff>
-insertions/deletions     : <filled after commit>
-git status               : <filled after push>
+X2.5.1 commit SHA        : 1d68b28c577dd73e303998d4aae565f4112666c8
+                           docs(x2.5.1): correct pre-migration fact base per DSH audit
+                           （amend 后 SHA 可能变化；以 push 后 origin/main / 完成报告为准）
+parent SHA               : 96053a83eff5b327be6fdb34c69aea9b73bcdfd5
+origin/main              : https://github.com/kurt-wong/AITutorX.git
+changed files            : 13（5 new X2.5.1 docs + 8 corrected X2.5 docs）
+insertions/deletions     : +986 / -38
+git status (pre-push)    : main ahead of origin/main by 1；仅治理文档
+untracked not in commit  : REPORT-G/H/I/K；X2-DSH-*；X2.1-DSH-*；X2.5-DSH-AUDIT-REPORT.md
+production paths         : 0 changes
 ```
 
 ---
