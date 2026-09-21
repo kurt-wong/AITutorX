@@ -63,12 +63,17 @@
 |-----------|---------|----------------|-------|
 | **Question** | Admission 后 canonical domain entity | V3 10 §6.1 | Source-derived；可重放 |
 | **QuestionInstance** | Question 在某 Source 中的一次 occurrence | V3 10 §6.2；DICTIONARY | 与 Question 身份分离 |
+| **Question Type** | 考试语义题型；closed set = `{single_choice, multiple_choice, true_false, fill_in, short_answer, essay, cloze, reading, grammar_fill, vocabulary_fill, seven_to_five, reading_expression}` | V3 `CANONICAL_TYPES`；DISPLAY_CONTRACT §0.2 | **Question Type ⟂ Unit Type**（正交）；不得建立 QT→UT 映射 |
+| **Unit** | V3 结构处理/组织/编译/物化单元；与 Question 语义关联但非同一概念 | V3 20 §4.5 | ≠ Question 同义词 |
+| **Unit Type** | Unit 结构形态；canonical closed set = `{standalone_unit, composite_unit}` | V3 `UNIT_TYPES`（gate/`__init__.py`）；V3 SPEC README §2.2 | V3 唯一正式闭集；legacy vocabulary 不得作为 Unit Type |
 | **Material** | 题目依赖的外部材料：**文字 + 题图 + 配图 + 图表 + 图片等** | V3 materials；prd material role | **不是纯文字**；single question 也可有 Material |
 | **source_figure** | Source 域图片索引实体 | V3 10 §4.4 | `figure_id` 确定性；`figure_hash=SHA256(raw bytes)` |
 | **Knowledge / Knowledge Tree** | 知识点节点与树；AI 只映射不随意创建 | DICTIONARY | 映射审核 `approved/pending/rejected` |
-| **unit (Producer)** | 切分单元 `standalone_question` / `composite_question` | prd §2.2 | `unit_id` = display alias，**禁止作跨系统键** |
-| **composite_question** | 共享材料的原子单元 | prd | 整块一道题，不拆子题入库 |
-| **standalone_question** | 无共享材料独立题 | prd | 可含自身 Material/figures |
+| **unit (Producer)** | Producer 切分单元 legacy vocabulary：`standalone_question` / `composite_question` | prd §2.2 | Producer legacy vocabulary；**NOT V3 Question Type；NOT V3 Unit Type**；`unit_id` = display alias，**禁止作跨系统键** |
+| **composite_question** | Producer legacy vocabulary：共享材料的原子单元 | prd | **NOT V3 canonical**；整块一道题，不拆子题入库 |
+| **standalone_question** | Producer legacy vocabulary：无共享材料独立题 | prd | **NOT V3 canonical**；可含自身 Material/figures |
+| **standalone_unit** | V3 canonical Unit Type：可独立解答的题 | V3 SPEC README §2.2 | canonical closed set member |
+| **composite_unit** | V3 canonical Unit Type：共享材料 + 依赖子题的原子组 | V3 SPEC README §2.2 | canonical closed set member |
 | **extra (Producer role)** | 配图排版漂移时的卫星锚 | prd §2.3 | 不撑大 unit 包络 |
 | **content_hash** | V3 规范化文本 hash（去重用） | DICTIONARY | ≠ source_content_sha256 |
 
