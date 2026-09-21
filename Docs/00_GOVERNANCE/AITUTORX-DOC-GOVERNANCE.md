@@ -3,13 +3,14 @@
 **Document ID**: AITUTORX-DOC-GOVERNANCE
 **Document Type**: Governance Meta-Spec
 **Authority Level**: **L0-META**（文档治理元规范；**不定义业务语义**）
-**Status**: `ACTIVE`
+**Status**: `ACTIVE — OWNER RATIFIED 2026-09-21`
 **Normative**: YES（对**文档治理流程**规范）
 **Supersedes**: —
 **Superseded By**: —
 **Date**: 2026-09-21
 **Upstream**: V3 `90_DOCUMENT_GOVERNANCE.md`；V3 `91_PROJECT_TERMINOLOGY.md`；AITutorX `GF-000`；AITutorX `AGENTS.md`
 **Adaptation principle**: V3 Governance 为规则来源与成熟模板；AITutorX 目录结构为适配对象。最小适配，不机械复制。
+**Owner Ratification**: Owner hereby accepts and ratifies this document as the current governance baseline for AITutorX (X2.6-BASELINE-CLOSURE-RECORD.md DSH-X26-03). Authority hierarchy: Owner Decision > Frozen Contract/Spec > Architecture/Governance documents. This ratification does NOT create a new Frozen Spec/Contract.
 
 ---
 
@@ -252,7 +253,7 @@ Rule M-5: Historical reports 可以保留历史事实，但须避免被误认为
 
 | Action | File | Target | Classification |
 |--------|------|--------|---------------|
-| MIGRATE | Root `X2-DSH-*.md` (11 files) | `Docs/60_REPORTS/` | Root report → proper location |
+| MIGRATE (git mv) | Root `X2*-DSH-*.md` (11 files, TRACKED) | `Docs/60_REPORTS/` | Root report → proper location; use `git mv` (files are TRACKED per DSH verification) |
 | CHECK | Root vs `Docs/60_REPORTS/` duplicates | Dedup | Keep canonical, mark SUPERSEDED |
 
 ### 7.3 Untracked File Disposition
@@ -279,7 +280,11 @@ X2.6-ONTOLOGY*.md                   — Ontology correction report (latest)
 Untracked reports (NOT admitted):
 ```text
 REPORT-G/H/I/K                      — per OD-REPO-01, remain untracked
-X2*-DSH-*.md                        — DSH audit reports (may duplicate root)
+```
+
+Root DSH reports (TRACKED per DSH verification 2026-09-21):
+```text
+X2*-DSH-*.md (root)                 — TRACKED; migration = git mv (PLAN ONLY)
 ```
 
 ---
@@ -358,7 +363,7 @@ Must Not Change:  <本文档无权触碰的范围>
 3. **不主张**Document Migration Plan 已获 Owner 批准执行
 4. **不主张**REPORT-G/H/I/K 已 admitted（OD-REPO-01: remain untracked）
 5. **不主张**本文档削弱 GF-000 governance baseline 权威
-6. **不主张**Frozen Contract 冲突已解决（仍 OWNER DECISION REQUIRED）
+6. **不主张**Frozen Contract 冲突需要 Contract amendment（Owner Decision 2026-09-21: Clarification sufficient; amendment NOT REQUIRED）
 
 ---
 
