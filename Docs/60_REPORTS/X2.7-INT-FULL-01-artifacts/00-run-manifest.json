@@ -1,0 +1,111 @@
+{
+  "document_id": "X2.7-INT-FULL-01-RUN-MANIFEST",
+  "immutable": true,
+  "note": "Written BEFORE the full run. Not edited afterwards. If a field is wrong it is corrected in a separate errata record, never by in-place edit.",
+  "run_id": "X27-INT-FULL-01-20260922T062602Z",
+  "timestamp_utc": "2026-09-22T06:26:02Z",
+  "authorization_unit": "X2.7 / INT-FULL-01 (OBSERVATION / VALIDATION RUN)",
+
+  "commits": {
+    "aitutorx": "a8e93191b441b188cf242d56d8a8fc9e4d97f158",
+    "aitutors_v3": "3e2f9bbd2b3464453e1c42db4af75e315496b335",
+    "papers": "2b92898f05f6541a5fc65c8300cb8a59a06c4928"
+  },
+  "commit_verification": {
+    "aitutorx_head_eq_origin_main": true,
+    "aitutors_v3_head_eq_origin_main": true,
+    "papers_head_eq_origin_main": true,
+    "aitutorx_tracked_clean": true,
+    "aitutors_v3_tracked_clean": true,
+    "papers_tracked_clean": true,
+    "note": "AITutorX has 16 untracked legacy report files and contract_check.bin; AITutors-v3 has 10 untracked contract design docs. All are pre-existing and untouched by this run. Tracked working trees are clean in all three repositories."
+  },
+
+  "frozen_contract": {
+    "file": "AITutors-v3/Docs/COORDINATION/CONTRACTS/PREPROCESSING-V3-CONTRACT-v0.2-DRAFT.md",
+    "sha256": "9c6b9063e81fb2a66d85794b280c9d931f1b0074b39abf472033218149b17528",
+    "required_value": "9c6b9063e81fb2a66d85794b280c9d931f1b0074b39abf472033218149b17528",
+    "match": true
+  },
+
+  "corpus": {
+    "root": "D:\\Project\\Papers",
+    "shards": [
+      "D:\\Project\\Papers\\Ocr-markdown",
+      "D:\\Project\\Papers\\data",
+      "D:\\Project\\Papers\\tests"
+    ],
+    "discovered": 204,
+    "excluded": 32,
+    "excluded_rule": "exclude any path containing a '.pytest_work' or '_archive' path segment (existing corpus definition; '_archive' currently contributes 0 manifests)",
+    "excluded_breakdown": {
+      ".pytest_work": 32,
+      "_archive": 0
+    },
+    "eligible": 172,
+    "manifest_count": 172,
+    "composition": {
+      "Ocr-markdown": 166,
+      "data": 4,
+      "tests": 2
+    },
+    "composition_note": "Granular composition is disclosed so the population is auditable. 'data' and 'tests/samples/artifact' are retained because the existing corpus definition excludes only '.pytest_work' / '_archive'. They are reported separately throughout so the Owner can re-scope if desired."
+  },
+
+  "input_selection_rule": "find_manifests(root) = root.rglob('*.manifest.json') run over three real roots {Ocr-markdown, data, tests}. These three roots partition the eligible population exactly and structurally exclude the '.pytest_work' scratch tree and '_archive'. The runner source is NOT modified to add an exclusion filter (X2.7 task section 5 forbids production code changes); exclusion is achieved by corpus-root selection only. No manual sampling, no smoke subset, no constructed fixtures.",
+
+  "environment_summary": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.9",
+    "asyncpg": "0.31.0",
+    "sqlalchemy": "2.0.50",
+    "pydantic": "2.13.4",
+    "postgres": "PostgreSQL 16.15 (Debian 16.15-1.pgdg12+2) on x86_64-pc-linux-gnu",
+    "db_name": "aitutors",
+    "db_public_tables": 26,
+    "db_url_from": "runner default DATABASE_URL; credentials NOT recorded in any artifact (see Appendix Security)",
+    "cpus": 28
+  },
+
+  "runner_entrypoints": [
+    {
+      "leg": "B2",
+      "module": "scripts.preprocessing_consumer.runner_b2",
+      "function": "run_corpus(corpus_root, output_path, resolver_ir_path=None)",
+      "reaches": "Boundary normalization -> Interface scope -> (DB Document/SourceVersion/SourceLine) -> Semantic Annotation -> Resolved Span -> Semantic Question IR -> Compiler -> Gate -> AdmissionCandidate",
+      "resolver_ir_path": null,
+      "db_effect": "transaction-scoped, rolled back at end of each item (session.rollback() in finally) - report only, nothing persisted"
+    },
+    {
+      "leg": "V1",
+      "module": "scripts.preprocessing_consumer.runner",
+      "function": "run_corpus(corpus_root, output_path)",
+      "reaches": "Boundary normalization -> Interface scope -> Track A: (DB) -> Semantic Annotation -> production GateService -> AdmissionService(approve/reject); Track B: (DB) -> Resolved Span",
+      "db_effect": "transaction-scoped, rolled back at end of each item (session.rollback() in finally) - report only, nothing persisted"
+    }
+  ],
+  "runner_modification": "NONE. Both entrypoints are the committed production entrypoints invoked unmodified via python -m.",
+
+  "configuration_source": {
+    "app_env": "test (runner default: os.environ.setdefault('APP_ENV','test'))",
+    "database_url": "runner default (os.environ.setdefault('DATABASE_URL', ...))",
+    "cli_args": "--corpus <shard> --output <artifact path>; runner_b2 additionally --resolver-ir omitted (null)",
+    "llm_provider": "NOT USED - the formal path is preprocessed artifacts -> V3. Zero LLM/OCR/network call sites exist in the consumption chain (annotation_adapter, resolved_span_adapter, source_loader, manifest_reader, boundary, app/domains/compile, app/domains/gate, app/domains/resolver).",
+    "llm_calls_planned": 0,
+    "ocr_calls_planned": 0,
+    "retries_planned": 0
+  },
+
+  "planned_invocations": 6,
+  "planned_invocations_detail": "2 legs (B2, V1) x 3 corpus shards (Ocr-markdown, data, tests) = 6 invocations of unmodified run_corpus, merged into one run_id.",
+
+  "non_goals": [
+    "NOT a Migration",
+    "NOT X3",
+    "NOT a Gate Pass",
+    "NOT a schema migration",
+    "NOT an architecture change",
+    "NOT a contract change",
+    "NOT a bug-fixing sprint"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "dataset": "D:\\Project\\Papers\\tests",
+  "version": "phase0-v0.1",
+  "total_manifests": 2,
+  "total_units": 46,
+  "interface_scope_blocked": 2,
+  "track_a": {
+    "completed": 0,
+    "error": 0,
+    "gate_pass_total": 0,
+    "candidates_total": 0
+  },
+  "track_b": {
+    "completed": 0,
+    "error": 0,
+    "spans_total": 0,
+    "unresolved_total": 0
+  },
+  "papers": [
+    {
+      "paper": "2019北京101中学高二（下）期中生物含答案(1)",
+      "units": 21,
+      "prompt_version": "reslice-pilot-v2.1",
+      "interface_scope_rejected": {
+        "accepted": false,
+        "code": "MISSING_IDENTITY",
+        "declared_identity_version": null,
+        "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity).",
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "geo_2018北京春季高中会考地理（教师版）(1)",
+      "units": 25,
+      "prompt_version": "reslice-pilot-v2.1",
+      "interface_scope_rejected": {
+        "accepted": false,
+        "code": "MISSING_IDENTITY",
+        "declared_identity_version": null,
+        "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity).",
+        "downstream_executed": false
+      }
+    }
+  ],
+  "contract_gaps": [],
+  "summary": {
+    "track_a_completion_rate": 0.0,
+    "track_b_completion_rate": 0.0,
+    "total_contract_gaps": 0
+  }
+}

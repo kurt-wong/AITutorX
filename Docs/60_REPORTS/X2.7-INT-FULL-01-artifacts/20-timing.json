@@ -1,0 +1,141 @@
+{
+  "document_id": "X2.7-INT-FULL-01-TIMING",
+  "run_id": "X27-INT-FULL-01-20260922T062602Z",
+  "measurement_method": "wall-clock per invocation, measured by the shell wrapper (date +%s.%N around each python -m invocation). No estimator, no interpolation.",
+  "date_format": "ISO-8601 UTC, YYYY-MM-DDTHH:MM:SSZ",
+
+  "invocations": [
+    {
+      "leg": "B2_primary",
+      "shard": "Ocr-markdown",
+      "inputs": 166,
+      "wall_seconds": 1.736,
+      "started_utc": "2026-09-22T06:28:26Z",
+      "ended_utc": "2026-09-22T06:28:28Z",
+      "exit_code": 0
+    },
+    {
+      "leg": "B2_primary",
+      "shard": "data",
+      "inputs": 4,
+      "wall_seconds": 0.556,
+      "started_utc": "2026-09-22T06:28:28Z",
+      "ended_utc": "2026-09-22T06:28:29Z",
+      "exit_code": 0
+    },
+    {
+      "leg": "B2_primary",
+      "shard": "tests",
+      "inputs": 2,
+      "wall_seconds": 0.564,
+      "started_utc": "2026-09-22T06:28:29Z",
+      "ended_utc": "2026-09-22T06:28:29Z",
+      "exit_code": 0
+    },
+    {
+      "leg": "V1_primary",
+      "shard": "Ocr-markdown",
+      "inputs": 166,
+      "wall_seconds": 83.518,
+      "started_utc": "2026-09-22T06:29:07Z",
+      "ended_utc": "2026-09-22T06:30:30Z",
+      "exit_code": 0
+    },
+    {
+      "leg": "V1_primary",
+      "shard": "data",
+      "inputs": 4,
+      "wall_seconds": 0.570,
+      "started_utc": "2026-09-22T06:30:30Z",
+      "ended_utc": "2026-09-22T06:30:31Z",
+      "exit_code": 0
+    },
+    {
+      "leg": "V1_primary",
+      "shard": "tests",
+      "inputs": 2,
+      "wall_seconds": 0.559,
+      "started_utc": "2026-09-22T06:30:31Z",
+      "ended_utc": "2026-09-22T06:30:32Z",
+      "exit_code": 0
+    },
+    {
+      "leg": "B2_probe_secondary",
+      "shard": "Ocr-markdown",
+      "inputs": 166,
+      "wall_seconds": 26.757,
+      "started_utc": "2026-09-22T06:33:51Z",
+      "ended_utc": "2026-09-22T06:34:18Z",
+      "exit_code": 0
+    },
+    {
+      "leg": "B2_probe_secondary",
+      "shard": "data",
+      "inputs": 4,
+      "wall_seconds": 0.769,
+      "started_utc": "2026-09-22T06:34:18Z",
+      "ended_utc": "2026-09-22T06:34:19Z",
+      "exit_code": 0
+    },
+    {
+      "leg": "B2_probe_secondary",
+      "shard": "tests",
+      "inputs": 2,
+      "wall_seconds": 0.656,
+      "started_utc": "2026-09-22T06:34:19Z",
+      "ended_utc": "2026-09-22T06:34:19Z",
+      "exit_code": 0
+    }
+  ],
+
+  "per_leg_totals": {
+    "B2_primary": {
+      "wall_seconds": 2.856,
+      "inputs": 172,
+      "units_declared": 4728,
+      "throughput_documents_per_second": 60.22,
+      "avg_seconds_per_document": 0.0166,
+      "avg_seconds_per_unit": 0.000604,
+      "note": "Very fast because every input is stopped at the M5 identity gate; no downstream stage executes."
+    },
+    "V1_primary": {
+      "wall_seconds": 84.647,
+      "inputs": 172,
+      "units_declared": 4728,
+      "throughput_documents_per_second": 2.03,
+      "avg_seconds_per_document": 0.492,
+      "avg_seconds_per_unit": 0.0179,
+      "note": "Dominant cost is transaction-scoped Document/SourceVersion/SourceLine creation + rollback for the 87 boundary-accepted inputs (7029 spans constructed in Track B)."
+    },
+    "B2_probe_secondary": {
+      "wall_seconds": 28.182,
+      "inputs": 172,
+      "units_declared": 4728,
+      "throughput_documents_per_second": 6.10,
+      "avg_seconds_per_document": 0.164,
+      "avg_seconds_per_unit": 0.00596,
+      "note": "SECONDARY / DISCLOSED only — not the baseline."
+    }
+  },
+
+  "totals": {
+    "run_window_start_utc": "2026-09-22T06:28:26Z",
+    "run_window_end_utc": "2026-09-22T06:34:19Z",
+    "run_window_wall_seconds": 353,
+    "measured_invocation_wall_seconds_sum": 115.685,
+    "run_window_note": "The run window (353s) includes interpreter start-up and the operator gap between the two primary legs and the secondary probe. The measured sum (115.685s) is the pure runner wall-clock. Both are reported; neither is estimated.",
+    "llm_calls": 0,
+    "ocr_calls": 0,
+    "retry_count": 0,
+    "exception_retries": 0
+  },
+
+  "not_measured": [
+    "CPU utilisation",
+    "RAM / peak RSS",
+    "GPU utilisation / VRAM",
+    "database latency (per-query)",
+    "per-stage internal timing"
+  ],
+  "not_measured_reason": "The current runner entrypoints do not instrument any of these. Per task section 17 they are recorded as NOT MEASURED and are not estimated."
+}

@@ -1,0 +1,9 @@
+Found 2 manifests in D:\Project\Papers\tests
+[1/2] 2019北京101中学高二（下）期中生物含答案(1)
+[2/2] geo_2018北京春季高中会考地理（教师版）(1)
+
+Report: D:\Project\AITutor-X\Docs\60_REPORTS\X2.7-INT-FULL-01-artifacts\10-raw-b2-tests.json
+Completed: 0/2, Errors: 0, Identity Blocked: 2
+Ready units: 0, Skipped: 0
+Gate: auto_approve=0 rejected=0 pending_review=0
+Compiled leaves: 0

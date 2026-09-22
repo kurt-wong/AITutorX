@@ -1,0 +1,3996 @@
+{
+  "dataset": "D:\\Project\\Papers\\Ocr-markdown",
+  "version": "phase0.2-r2-evidence-faithful",
+  "total_manifests": 166,
+  "total_units": 4609,
+  "summary": {
+    "completed": 0,
+    "error": 0,
+    "identity_blocked": 166,
+    "ready_total": 0,
+    "skipped_total": 0,
+    "gate_auto_approve": 0,
+    "gate_rejected": 0,
+    "gate_pending_review": 0,
+    "compiled_leaves_total": 0
+  },
+  "papers": [
+    {
+      "paper": "2019北京101中学高二（下）期中生物含答案(1)",
+      "units": 21,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京昌平临川学校高二（下）期中英语（教师版）(1)",
+      "units": 19,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京春季高中会考化学（教师版）(1)",
+      "units": 40,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京夏季高中会考历史（教师版）(1)",
+      "units": 53,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京春季高中会考地理（教师版）(1)",
+      "units": 25,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京夏季高中会考政治（教师版）(1)",
+      "units": 36,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京春季高中会考数学（教师版）(1)",
+      "units": 30,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京春季高中会考物理（教师版）(1)",
+      "units": 22,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京春季高中会考生物（教师版）(1)",
+      "units": 50,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京春季高中会考英语（教师版）(1)",
+      "units": 18,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京春季高中会考语文（教师版）(1)",
+      "units": 10,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "19_2023重庆市巴蜀中学高考适应性月考卷（九）化学答案",
+      "units": 18,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "14_2023届黑龙江省校哈尔滨市第三中学校高三第二次高考模拟考试 理科综合答案",
+      "units": 35,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2015-2021北京高中英语期中汇编：代词（教师版）(1)",
+      "units": 12,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2020北京高中合格考化学（第一次）（教师版）(1)",
+      "units": 34,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京高中合格考历史（第一次）（教师版）(1)",
+      "units": 42,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2017-2019北京高中地理合格考试汇编：人口（教师版）(1)",
+      "units": 7,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京高中合格考政治（第一次）（教师版）(1)",
+      "units": 31,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京高中合格考数学（第二次）（教师版）(1)",
+      "units": 28,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京高中合格考物理（第二次）（教师版）(1)",
+      "units": 15,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2020北京高中合格考生物（第二次）（教师版）(1)",
+      "units": 44,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2020北京高中合格考英语（第二次）（教师版）(1)",
+      "units": 15,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京高中合格考语文（第二次）（教师版）(1)",
+      "units": 9,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "12_T8联盟2023年普通高中学业水平选择性考试压轴卷（华师一附中命题）化学答案",
+      "units": 19,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京高考压轴卷历史（教师版）(1)",
+      "units": 20,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2019北京大学博雅计划模拟政治（教师版）(1)",
+      "units": 5,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2020北京大学强基计划数学（教师版）(1)",
+      "units": 20,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2019北京清华大学领军计划物理（教师版）(1)",
+      "units": 19,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2019北京大学博雅计划模拟语文（教师版）(1)",
+      "units": 4,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2022北京首都师大附中高一12月月考化学（教师版）(1)",
+      "units": 20,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2020北京平谷高一（上）期末历史含答案",
+      "units": 54,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2022北京东城高一（上）期末地理（教师版）",
+      "units": 16,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京四十三中高一（上）期中政治（教师版）",
+      "units": 41,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京师大二附中高一（上）期中数学（教师版）",
+      "units": 21,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京十四中高一（下）期中物理（教师版）(1)",
+      "units": 23,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京四中高一（上）期中生物（教师版）",
+      "units": 35,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2019北京三十五中新高一分班考试英语含答案(1)",
+      "units": 39,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2022北京首都师大附中高一12月月考语文（教师版）(1)",
+      "units": 9,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "1_16_专题十六　化学实验综合　教师用书PDF",
+      "units": 84,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2017-2019北京高三化学上学期期末汇编：化学实验（教师版）(1)",
+      "units": 89,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京四中高三（上）期中化学（教师版）(1)",
+      "units": 19,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2022北京丰台高三一模历史（教师版）(1)",
+      "units": 20,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京东城高三二模地理（教师版）(1)",
+      "units": 12,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京房山高三二模政治（教师版）(1)",
+      "units": 20,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2017-2019北京高三数学上学期期中汇编：立体几何（教师版）(1)",
+      "units": 17,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2017-2019北京高三数学上学期期末汇编：立体几何（教师版）(1)",
+      "units": 74,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2022北京首都师大附中高三9月月考物理（教师版）(1)",
+      "units": 18,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京顺义高三（上）期末（一模）生物（教师版）(1)",
+      "units": 21,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2020北京大兴高三（上）期末英语（教师版）(1)",
+      "units": 11,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2012-2021高考真题数学汇编：空间向量与立体几何（2）（教师版）(1)",
+      "units": 60,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2012-2021高考真题数学汇编：统计与概率（分布列）（1）（教师版）(1)",
+      "units": 60,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2012-2021高考真题生物汇编：基因工程（1）（教师版）(1)",
+      "units": 60,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2016-2019北京高一化学下学期期末汇编：化学反应原理（教师版）(1)",
+      "units": 17,
+      "prompt_version": "reslice-pilot-v2.6",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京101中学高一（上）期中地理含答案",
+      "units": 44,
+      "prompt_version": "reslice-pilot-v2.6",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2022北京师大附中高一（下）期中政治（教师版）(1)",
+      "units": 35,
+      "prompt_version": "reslice-pilot-v2.6",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京一零一中学高一（下）期中物理（教师版）(1)",
+      "units": 28,
+      "prompt_version": "reslice-pilot-v2.6",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京十二中高一（下）期中物理（教师版）(1)",
+      "units": 19,
+      "prompt_version": "reslice-pilot-v2.6",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2017-2019北京高中生物高一上期末汇编：分子与细胞（教师版）(1)",
+      "units": 90,
+      "prompt_version": "reslice-pilot-v2.6",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2022北京东城高三二模语文（教师版）(1)",
+      "units": 14,
+      "prompt_version": "reslice-pilot-v2.6",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京农大附中高二（上）期中物理（合格考）（教师版）(1)",
+      "units": 25,
+      "prompt_version": "reslice-pilot-v2.6",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2016-2019北京高一化学下学期期末汇编：化学反应原理（教师版）(1)",
+      "units": 17,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京昌平高一（下）期末化学（教师版）(1)",
+      "units": 27,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京101中学高一（下）期中历史含答案(1)",
+      "units": 52,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2022北京丰台高一（下）期末历史（教师版）(1)",
+      "units": 30,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京101中学高一（上）期中地理含答案",
+      "units": 44,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京高一地理上学期期末汇编：地球上的水（教师版）(1)",
+      "units": 7,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2017-2019北京高一政治上学期期末汇编：科学社会主义常识与中国特色社会主义（教师版）(1)",
+      "units": 27,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2022北京师大附中高一（下）期中政治（教师版）(1)",
+      "units": 35,
+      "prompt_version": "reslice-pilot-v2.4",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2017-2019北京高一数学上学期期中汇编：集合填空题（教师版）(1)",
+      "units": 30,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京朝阳高一（下）期末数学（教师版）(1)",
+      "units": 21,
+      "prompt_version": "reslice-pilot-v2.4",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京一零一中学高一（下）期中物理（教师版）(1)",
+      "units": 28,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京十二中高一（下）期中物理（教师版）(1)",
+      "units": 19,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2022北京顺义一中高一（下）期中物理（教师版）(1)",
+      "units": 21,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2017-2019北京高中生物高一上期末汇编：分子与细胞（教师版）(1)",
+      "units": 90,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2010北京上地一零一中高一分班考英语（教师版）(1)",
+      "units": 20,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京延庆高一（下）期末英语（教师版）(1)",
+      "units": 8,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京丰台高一（下）期中语文（B卷）（教师版）(1)",
+      "units": 13,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京延庆高一（下）期末语文（教师版）(1)",
+      "units": 13,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京牛栏山一中高三（上）期中化学含答案(1)",
+      "units": 19,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2022北京一零一中高三（上）统练六化学（教师版）(1)",
+      "units": 19,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京高三一模二模历史汇编：近代中国的经济（教师版）(1)",
+      "units": 12,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京通州高三（上）期中地理教师版图片(1)",
+      "units": 12,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京高三一模二模政治汇编：生活与哲学（选择题）（教师版）(1)",
+      "units": 45,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2017-2019北京高三数学上学期期中汇编：函数（教师版）(1)",
+      "units": 24,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2022北京一六一中高三12月月考数学（教师版）(1)",
+      "units": 21,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2022北京一七一中高三（上）期中物理（教师版）(1)",
+      "units": 20,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2020北京八十中高三（下）开学考生物含答案(1)",
+      "units": 21,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京高三一模二模生物汇编：种群和群落（教师版）(1)",
+      "units": 15,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2020北京交大附中高三（下）开学考试英语（教师版）(1)",
+      "units": 12,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京高三（下）综合能力测试英语（教师版）(1)",
+      "units": 9,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京丰台高三（上）期末语文（教师版）(1)",
+      "units": 10,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2022北京东城高三二模语文（教师版）(1)",
+      "units": 14,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京四中顺义分校高二（上）期中化学（教师版）(1)",
+      "units": 26,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京丰台高二（上）期中数学（A）（教师版）(1)",
+      "units": 21,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京农大附中高二（上）期中物理（合格考）（教师版）(1)",
+      "units": 25,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2019北京101中学高二（下）期中生物含答案(1)",
+      "units": 21,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京东城高二（上）期末英语（教师版）(1)",
+      "units": 11,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京五中高二（上）期中语文（教师版）(1)",
+      "units": 12,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2016-2019北京高一化学下学期期末汇编：化学反应原理（教师版）(1)",
+      "units": 17,
+      "prompt_version": "reslice-pilot-v2.7",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京101中学高一（上）期中地理含答案",
+      "units": 44,
+      "prompt_version": "reslice-pilot-v2.7",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2022北京师大附中高一（下）期中政治（教师版）(1)",
+      "units": 35,
+      "prompt_version": "reslice-pilot-v2.7",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京一零一中学高一（下）期中物理（教师版）(1)",
+      "units": 28,
+      "prompt_version": "reslice-pilot-v2.7",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京十二中高一（下）期中物理（教师版）(1)",
+      "units": 19,
+      "prompt_version": "reslice-pilot-v2.7",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2017-2019北京高中生物高一上期末汇编：分子与细胞（教师版）(1)",
+      "units": 90,
+      "prompt_version": "reslice-pilot-v2.7",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2022北京东城高三二模语文（教师版）(1)",
+      "units": 14,
+      "prompt_version": "reslice-pilot-v2.7",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京农大附中高二（上）期中物理（合格考）（教师版）(1)",
+      "units": 25,
+      "prompt_version": "reslice-pilot-v2.7",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2016-2019北京高一化学下学期期末汇编：化学反应原理（教师版）(1)",
+      "units": 17,
+      "prompt_version": "reslice-pilot-v2.7",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京101中学高一（上）期中地理含答案",
+      "units": 44,
+      "prompt_version": "reslice-pilot-v2.7",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京一零一中学高一（下）期中物理（教师版）(1)",
+      "units": 28,
+      "prompt_version": "reslice-pilot-v2.7",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2017-2019北京高中生物高一上期末汇编：分子与细胞（教师版）(1)",
+      "units": 90,
+      "prompt_version": "reslice-pilot-v2.7",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2022北京丰台高一（下）期末历史（教师版）(1)",
+      "units": 30,
+      "prompt_version": "reslice-pilot-v2.5",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京101中学高一（上）期中地理含答案",
+      "units": 44,
+      "prompt_version": "reslice-pilot-v2.5",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2010北京上地一零一中高一分班考英语（教师版）(1)",
+      "units": 20,
+      "prompt_version": "reslice-pilot-v2.5",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京通州高三（上）期中地理教师版图片(1)",
+      "units": 12,
+      "prompt_version": "reslice-pilot-v2.5",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2020北京交大附中高三（下）开学考试英语（教师版）(1)",
+      "units": 12,
+      "prompt_version": "reslice-pilot-v2.5",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京高三（下）综合能力测试英语（教师版）(1)",
+      "units": 9,
+      "prompt_version": "reslice-pilot-v2.5",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "pac-c01-01",
+      "units": 30,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "pac-c01-02",
+      "units": 28,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "pac-c02-01",
+      "units": 20,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "pac-c02-02",
+      "units": 32,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "pac-c05-01",
+      "units": 20,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "pac-c05-02",
+      "units": 21,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "pac-c06-01",
+      "units": 19,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "pac-c06-02",
+      "units": 20,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "pac-c07-01",
+      "units": 35,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "pac-c07-02",
+      "units": 21,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "pac-c08-01",
+      "units": 9,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "pac-c08-02",
+      "units": 12,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "pac-c09-01",
+      "units": 34,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "pac-c09-02",
+      "units": 35,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "pac-c10-01",
+      "units": 20,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "pac-c10-02",
+      "units": 18,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "pac-c11-01",
+      "units": 56,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "pac-c11-02",
+      "units": 19,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "pac-c12-01",
+      "units": 27,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "pac-c12-02",
+      "units": 25,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "pac-c13-01",
+      "units": 19,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "pac-c13-02",
+      "units": 10,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京丰台高一（上）期末生物（教师版）",
+      "units": 43,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京丰台高一（下）期中联考英语（B卷）（教师版）(1)",
+      "units": 11,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2020北京海淀高三（上）期末语文含答案(1)",
+      "units": 10,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京一七一中学高二（上）期中数学（教师版）(1)",
+      "units": 21,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2019北京101中学高二（下）期中生物含答案(1)",
+      "units": 21,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京昌平临川学校高二（下）期中英语（教师版）(1)",
+      "units": 19,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2012-2021高考真题数学汇编：空间向量与立体几何（1）（教师版）(1)",
+      "units": 60,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2012-2021高考真题数学汇编：统计与概率（分布列）（3）（教师版）(1)",
+      "units": 45,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021全国II卷新高考真题数学（教师版）(1)",
+      "units": 22,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京四中高一（上）期中生物（教师版）",
+      "units": 35,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "1_16_专题十六　化学实验综合　教师用书PDF",
+      "units": 84,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2017-2019北京高三数学上学期期末汇编：立体几何（教师版）(1)",
+      "units": 74,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京三十一中高一（下）期中化学（教师版）(1)",
+      "units": 56,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京四十三中高一（上）12月月考历史（教师版）(1)",
+      "units": 43,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2019北京人大附中高一（上）期中地理含答案",
+      "units": 19,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京师大附中高一（下）期中政治含答案(1)",
+      "units": 35,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京顺义一中高一（下）期中数学（教师版）(1)",
+      "units": 21,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京市西城区高一（下）期末生物含答案(1)",
+      "units": 42,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2020北京东城高一（上）期末英语（教师版）",
+      "units": 19,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2020北京平谷五中高一（下）4月月考语文含答案(1)",
+      "units": 10,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2020北京石景山高一（上）期末语文含答案",
+      "units": 10,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2019北京交大附中高三（上）12月月考化学含答案(1)",
+      "units": 19,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京八十中高三考前练习数学（教师版）(1)",
+      "units": 21,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京石景山高三一模物理（教师版）(1)",
+      "units": 20,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2020北京西城高三（上）期末生物含答案(1)",
+      "units": 21,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京丰台高三二模英语（教师版）(1)",
+      "units": 9,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2018北京五十六中高二（下）期中数学（理）（教师版）(1)",
+      "units": 20,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2019北京四中高二（下）期末物理（教师版）(1)",
+      "units": 24,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    }
+  ],
+  "errors": []
+}
