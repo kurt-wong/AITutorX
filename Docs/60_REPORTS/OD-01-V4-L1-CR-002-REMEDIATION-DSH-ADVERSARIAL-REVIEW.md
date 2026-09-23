@@ -33,6 +33,25 @@ Recommendation:   OWNER ACTION REQUIRED BEFORE CLOSURE
 | 3 | `Docs/COORDINATION/OWNER-DECISIONS-OD-01-OD-05-G-01-G-02.md` | D1（+OD-01-A…J） | +64 / −11 |
 | 4 | `Docs/REPORTS/OD-01-PROPOSAL-V4-TARGETED-ADVERSARIAL-REVIEW.md` | **新增**（自审） | +87（A） |
 
+**审查过程中另行发现的、位于本报告仓（AITutor-X）的关联产物（只读，SHA256 实测）**
+
+| 路径（AITutor-X 工作区） | 字节 | mtime | SHA256 | git 状态 |
+|---|---|---|---|---|
+| `Docs/COORDINATION/FROZEN-SPEC-CHANGE-PROPOSAL-OD-01-OPTION-PROVENANCE.md` | 30381 | 2026-09-23 21:57:05 | `E862BCF4…` | **untracked**（`git ls-files` 空、`git log` 空） |
+| `Docs/COORDINATION/CONTRACT-CHANGE-RECORD-CR-002-OD-01.md` | 7903 | 2026-09-23 21:57:57 | `EAE9DB7A…` | **untracked** |
+| `Docs/COORDINATION/OD-01-A-J-OWNER-DECISION-APPENDIX.md` | 2314 | 2026-09-23 21:57:57 | `B43E5D7A…` | **untracked**；**AITutors-v3 全仓无对应文件** |
+| `Docs/60_REPORTS/OD-01-PROPOSAL-V4-TARGETED-ADVERSARIAL-REVIEW.md` | 4228 | 2026-09-23 21:59:10 | `DDA102C3…` | **untracked** |
+
+**字节级比对结果（SHA256 相等即同一内容）**
+
+```text
+AITutor-X Docs/COORDINATION/FROZEN-SPEC-…md  E862BCF4…  ==  AITutors-v3 Docs/COORDINATION/FROZEN-SPEC-…md  E862BCF4…  ✅ 逐字节相同
+AITutor-X Docs/COORDINATION/CONTRACT-CHANGE-RECORD-CR-002-OD-01.md  EAE9DB7A…  ==  v3 同名文件  EAE9DB7A…  ✅ 逐字节相同
+AITutor-X Docs/60_REPORTS/OD-01-PROPOSAL-V4-…md  DDA102C3…  ==  v3 Docs/REPORTS/OD-01-PROPOSAL-V4-…md  DDA102C3…  ✅ 逐字节相同
+AITutor-X Docs/COORDINATION/OD-01-A-J-OWNER-DECISION-APPENDIX.md  B43E5D7A…  ==  v3 无此文件（内容与 v3 D1 `:372-422` 同文）
+```
+
+
 **证据分级**：`DIRECTLY VERIFIED` / `SOURCE-LEVEL VERIFIED` / `VERIFIED BUT NOT REPRODUCED` /
 `NOT VERIFIED`。本报告全部结论为 `DIRECTLY VERIFIED`（除 §10 所列局限）。
 
@@ -64,6 +83,7 @@ Recommendation:   OWNER ACTION REQUIRED BEFORE CLOSURE
 | Q12 | 缺口基线 / 完整六段式 diff 是否恢复？ | **是** — §1 基线表 + CI-1…CI-12 六段式齐备（P3/P4） |
 | Q13 | `degraded` 是否被夹带进 change set？ | **否** — 明确排除并给出替代路径（P5） |
 | Q14 | Frozen Spec / 代码 / Schema / corpus 是否被改动？ | **未改动** — 三点树哈希一致（P1/P12） |
+| Q15 | 交付物是否只存在于被审仓库？ | **否** — 治理产物被逐字节复制进 AITutor-X 且从未 commit（F-OD01V4R-14） |
 
 ---
 
@@ -467,6 +487,62 @@ CI-4  Proposed `:324-341`：不含上述 image_region 段落
 
 ---
 
+### F-OD01V4R-14（HIGH）— 治理产物被逐字节复制进 AITutor-X 且从未 commit：违反「不将两个 repo 直接 copy 到 AITutorX」
+
+**证据（SHA256 实测，见 §0）**
+
+```text
+AGENTS.md「禁止行为」明列：**不将两个 repo 直接 copy 到 AITutorX**
+
+实测事实：
+  AITutor-X/Docs/COORDINATION/FROZEN-SPEC-CHANGE-PROPOSAL-OD-01-OPTION-PROVENANCE.md
+    SHA256 E862BCF4…  ==  AITutors-v3 同名文件 SHA256 E862BCF4…      → 逐字节相同（Proposal v4）
+  AITutor-X/Docs/COORDINATION/CONTRACT-CHANGE-RECORD-CR-002-OD-01.md
+    SHA256 EAE9DB7A…  ==  AITutors-v3 同名文件 SHA256 EAE9DB7A…      → 逐字节相同（CR-002 candidate）
+  AITutor-X/Docs/60_REPORTS/OD-01-PROPOSAL-V4-TARGETED-ADVERSARIAL-REVIEW.md
+    SHA256 DDA102C3…  ==  AITutors-v3/Docs/REPORTS/ 同名文件 DDA102C3… → 逐字节相同（自审）
+  AITutor-X/Docs/COORDINATION/OD-01-A-J-OWNER-DECISION-APPENDIX.md
+    SHA256 B43E5D7A…；**AITutors-v3 全仓无此文件**；正文与 v3 D1 `:372-422` 同文
+
+git 状态（AITutor-X）：
+  git ls-files -- Docs/COORDINATION   → 空（无任何文件被跟踪）
+  git log --oneline -- Docs/COORDINATION → 空（从未 commit）
+  git status --porcelain              → `?? Docs/COORDINATION/`、`?? Docs/60_REPORTS/OD-01-PROPOSAL-V4-…md`
+文件 mtime = 2026-09-23 21:57:05 / 21:57:57 / 21:57:57 / 21:59:10（v4 交付窗口内；
+本报告不据此推断作者，仅登记时间事实）
+```
+
+**质询与影响**
+
+1. **直接违反 AGENTS.md 明列禁止项**「不将两个 repo 直接 copy 到 AITutorX」，且是一次性
+   复制 4 个文件（3 个治理文档 + 1 个自审报告）。
+2. **AITutor-X 不属于 `90 §1.2` 的 V3 目录模型**。把 Proposal v4 / CR-002 / Owner Decision
+   附录放进 AITutor-X，等于在同一治理对象上制造**第二份存在**，且这份存在**完全没有 git 溯源**
+   （AGENTS.md：**Git presence ≠ Authority**——此处连 git presence 都不存在，却可被阅读为治理文本）。
+3. **`OD-01-A-J-OWNER-DECISION-APPENDIX.md` 只存在于 AITutor-X**，而 v3 的 D1（tracked，属于
+   `86da69c`）内嵌同一内容。同一份自称 `BINDING FOR EXECUTION: YES` 的 Owner Decision 记录
+   因此有**两个物理载体、分属两个仓库**，其中一份无版本控制。若二者将来发生编辑分化，
+   无法判定哪一份是权威——这是可预见的权威冲突源（`90 §5 Rule 3` 的 Boundary 冲突类别）。
+4. **解释了自审文件 `Path` 字段之谜**（F-OD01V4R-11）：自审文件的 `Document control`
+   写 `Docs/60_REPORTS/…`，正是 **AITutor-X** 的路径约定；该文件在两个仓库各存在一份。
+   即：它被撰写为「AITutor-X 的 DSH 报告目录下的报告」，随后又被复制为 AITutors-v3
+   `Docs/REPORTS/` 下的「被审仓库内的自审」。**其身份与归属在两仓之间不一致**，
+   独立审查与自审的界限因此更加模糊（加重 F-OD01V4R-01）。
+5. **本轮结论不受影响，但 Owner 视野被污染**：Owner 若在 AITutor-X 中查看这些文件，
+   将看到与 AITutors-v3 同名同内容的治理文本，却无任何 commit 记录可核验其来历与生效状态。
+
+**建议（仅登记，不修复）**
+
+- 明确「治理产物的唯一载体」原则：OD-01 系列只在 AITutors-v3 的治理目录内维护；
+  AITutor-X 只存放 DSH 独立审查报告（`Docs/60_REPORTS/`），且**不得**镜像 v3 治理文档。
+- 删除或显式标注 AITutor-X 中的 3 个 `Docs/COORDINATION/` 副本与
+  `Docs/60_REPORTS/OD-01-PROPOSAL-V4-TARGETED-ADVERSARIAL-REVIEW.md` 副本
+  （后者若保留，须改标为「v3 自审副本，非独立审查」）。
+- `OD-01-A-J-OWNER-DECISION-APPENDIX.md` 若确为 Owner 记录，应向 AITutors-v3 归位并
+  与 D1 建立单一权威（或明确 D1 为准、附录仅为摘要）。
+
+---
+
 ## 5. R-01…R-10 处置再审计
 
 | R | 自述 | 本轮实际 | 复核判定 |
@@ -533,6 +609,7 @@ R-01…R-10 复核汇总：已处置 5 / 部分已处置 3 / 不达标 2
 | V2 | 新文档使用被禁状态词 `COMPLETE`；D1 状态值使用被禁词 `NEXT` | `91:128`、`91:131`（**新文档禁用**） | REPORTS 自审 `:4`/`:85`；D1 `:400` |
 | V3 | L2 记录指示扩充冻结状态词表（`ADDRESSED`/`VERIFIED`/`COMPLETED`） | `90:107-110` R1（L2–L5 不得改写/扩充/事实上修订 L0 语义） | D1 `:398`；Proposal `:100` |
 | V4 | L3/L4 文档使用 `authority`/`不得`/`PASS` 而未引用 L0/L1 或 `82 §3` | `90:397-404` Rule 2（机械扫描规则，明示「即违规」） | REPORTS 自审 `:33`/`:46` |
+| V5 | **将 AITutors-v3 治理产物逐字节复制进 AITutor-X**（Proposal v4 / CR-002 / 自审 ×1，另加 v3 无对应的 Owner Decision 附录），且全部 **untracked / 从未 commit** | AGENTS.md 禁止行为「**不将两个 repo 直接 copy 到 AITutorX**」；`90:47` 未归层 = 不得引用为权威；AGENTS.md「Git presence ≠ Authority」 | AITutor-X `Docs/COORDINATION/` ×3、`Docs/60_REPORTS/` ×1 |
 
 **未构成的违规（须明确记录以免误判）**：
 
@@ -582,6 +659,13 @@ R-01…R-10 复核汇总：已处置 5 / 部分已处置 3 / 不达标 2
   `Docs/COORDINATION/` 的归属，可能影响 F-OD01V4R-06/09 的严重度判定。
 - **L-7** 本报告未对 `R-01…R-10` 的原始定义文本（仅存在于任务书输入）做独立核验，
   故 F-OD01V4R-07 的「错配」判定基于该输入中的 R 描述与 Proposal §0 的对照。
+- **L-8** F-OD01V4R-14 的跨仓副本结论基于 **SHA256 逐字节比对 + mtime + git 状态**；
+  本报告**不推断**是谁、以何工具复制，也不核验 AITutor-X 中是否还存在更早的同类副本
+  （仅核验了当前工作区存在的 4 个文件）。若这些副本由本轮之外的流程产生，
+  其「本轮违规」的时间归属需由 Owner 另行确认；但「治理产物在 AITutor-X 无 git 溯源地存在」
+  这一客观状态本身已构成 F-OD01V4R-14 所述风险。
+- **L-9** `Docs/COORDINATION/` 目录曾在本轮之前的 AITutor-X 未跟踪清单中已存在
+  （`?? Docs/COORDINATION/`），本报告未追溯该目录的历史内容构成，仅登记本轮发现的 3 个文件。
 
 ---
 
@@ -601,12 +685,14 @@ Closure Blocking = YES
        （COMPLETE / NEXT）、90 §5 Rule 2（L3/L4 禁用词未引用）——
        须撤回或整改后方可进入 Owner 批准；
    (3) change set 存在若按「可直接复制」采纳即写入 L0 的矛盾文本
-       （CI-4 line_ref；resolution_status ↔ span_resolution 两名一义）。
+       （CI-4 line_ref；resolution_status ↔ span_resolution 两名一义）；
+   (4) 治理产物被逐字节复制进 AITutor-X 且从未 commit（AGENTS.md 明列禁止项），
+       造成同一治理对象的第二份无溯源存在，并使自审文件的归属在两仓之间不一致。
 
 Recommendation = OWNER ACTION REQUIRED BEFORE CLOSURE
 
-Findings = F-OD01V4R-01 … F-OD01V4R-13（13 项；已登记，未修复）
-  HIGH      : F-OD01V4R-01
+Findings = F-OD01V4R-01 … F-OD01V4R-14（14 项；已登记，未修复）
+  HIGH      : F-OD01V4R-01, F-OD01V4R-14
   MED-HIGH  : F-OD01V4R-02, F-OD01V4R-03, F-OD01V4R-04, F-OD01V4R-05
   MED       : F-OD01V4R-06, F-OD01V4R-07, F-OD01V4R-08, F-OD01V4R-09, F-OD01V4R-10
   LOW-MED   : F-OD01V4R-11
@@ -642,6 +728,10 @@ Re-freeze / Phase 1 / Migration / Push(v3) = NOT EXECUTED / NOT ENTERED / NOT AU
    修复 ID Mapping（补 F-OD01V3-11/12、纠正 ≥4 行错配、在仓库内给出 `R-xx` 语义定义）；
    统一 D1 与 CR 关于 L1 注册的表述，并登记 `90:47` 未归层后果。
    （F-OD01V4R-06, F-OD01V4R-07, F-OD01V4R-08, F-OD01V4R-09）
+6. **治理产物单一载体 + 清除跨仓副本**：确立「OD-01 系列只在 AITutors-v3 治理目录维护」
+   原则；删除或显式标注 AITutor-X 中 4 个未跟踪副本（3 × `Docs/COORDINATION/` +
+   1 × `Docs/60_REPORTS/OD-01-PROPOSAL-V4-…md`）；`OD-01-A-J-OWNER-DECISION-APPENDIX.md`
+   向 AITutors-v3 归位并与 D1 建立单一权威。（F-OD01V4R-14）
 
 **非阻断跟进**：F-OD01V4R-10（自审文件补 L0/L1 与 `82 §3` 引用）、F-OD01V4R-11（Path 字段更正）、
 F-OD01V4R-12（Current Rule 块标注逐字/改写，并补齐 CI-2/CI-9）。
@@ -701,6 +791,12 @@ F-OD01V4R-12（Current Rule 块标注逐字/改写，并补齐 CI-2/CI-9）。
 
 本报告
   Docs/60_REPORTS/OD-01-V4-L1-CR-002-REMEDIATION-DSH-ADVERSARIAL-REVIEW.md
+
+本轮另行发现的跨仓副本（AITutor-X 工作区，全部 untracked；见 F-OD01V4R-14）
+  Docs/COORDINATION/FROZEN-SPEC-CHANGE-PROPOSAL-OD-01-OPTION-PROVENANCE.md  30381 B  21:57:05  E862BCF4…
+  Docs/COORDINATION/CONTRACT-CHANGE-RECORD-CR-002-OD-01.md                    7903 B  21:57:57  EAE9DB7A…
+  Docs/COORDINATION/OD-01-A-J-OWNER-DECISION-APPENDIX.md                     2314 B  21:57:57  B43E5D7A…（v3 无对应）
+  Docs/60_REPORTS/OD-01-PROPOSAL-V4-TARGETED-ADVERSARIAL-REVIEW.md           4228 B  21:59:10  DDA102C3…
 ```
 
 ```text
