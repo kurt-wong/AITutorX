@@ -159,7 +159,8 @@ H-14 ~ H-17 accepted as non-blocking documentation precision observations.
 
 ### 3.3 证据不可改写
 
-适用面同 §1「审计证据基线已冻结」。补充适用条款：Verification Phase 期间产生的任何新发现，
+适用面同 §1「历史审计证据基线不可改写 / immutable / append-only」。补充适用条款：Verification
+Phase 期间产生的任何新发现，
 一律以**新增**记录的方式登记，**不得**回填、修订或删除 OD-R-01 的历史证据。
 
 ---
@@ -181,8 +182,15 @@ Project enters Governance verification / integration preparation.
 
 > **命名边界（H-18）**：`Audit Phase` / `Verification Phase` 是**治理进程**阶段命名（Governance
 > Process Phase），**不是** `LIMITED-IMPLEMENTATION-AUTHORIZATION-v0.3 §4` 的 Phase 0–6 实现阶段
-> 命名（V3 Authorized Phase）。两套命名**不得混用**、**不得互相换算**。实测：`Audit Phase` /
-> `Verification Phase` 两个标签在 `AITutors-v3` 内 **0 命中**（`git grep` 于 `Docs/`）。
+> 命名（V3 Authorized Phase）。两套命名**不得混用**、**不得互相换算**。实测检索范围 =
+> **`AITutors-v3/Docs/`**：`git grep -E 'Audit Phase|Verification Phase' -- Docs/` = **0 命中**。
+>
+> **检索范围限定（H-22b）**：上述 0 命中**仅**对 `AITutors-v3/Docs/` 成立，**不代表**全仓字符串
+> 绝对不存在。仓库根 `Status.md` / `log.md` / `restart-prompt.md` 另有 2026-09-13
+> 「Residual Audit Phase-2（A-11）」历史标题 / 日志文本（`Status.md:3065` · `log.md:2567` ·
+> `restart-prompt.md:263`），属既往 DG 残余审计轮次的历史记事（该轮自述「**非全库关键词扫描**」），
+> **不属于** `LIMIT-AUTH §4` 的 Phase 0–6 模型、**不属于** authorization phase 命名、**不**代表
+> 当前治理状态。依 `90 §4`「Reconcile, don't rewrite」，**不得**通过删除该历史文本制造 0 命中。
 
 **Verification Phase 范围**（本记录只陈述范围，不预设结论、不新建 gate）：
 
@@ -298,4 +306,4 @@ Resolved Span ontology 相关实现」与 `§6 Forbidden Scope`「Phase 1 prepro
 | Final evidence report | `OD-R-01-FINAL-HYGIENE-H09-H13-DSH-ADVERSARIAL-REVIEW.md` @ `c5ca90aed7980c9932be9c903306751927d6a556` |
 | Repository | `kurt-wong/AITutorX` @ `main` |
 | Migration / X3 Entry / Production Deployment | **NOT AUTHORIZED** |
-| Revisions | 2026-09-25 semantic-boundary patch（H-18~H-21，DSH 第 8 轮）：§4 命名边界 + §4.1 阶段对账 · §5.1 OD-01≠OD-R-01 · §2 补 C0 + 局部标签声明 · §1 证据基线措辞改为 immutable/append-only。属**向前追加修订**，**未**修改任何历史证据（E1–E7 / C0–C8 未动、历史 hash 未改写） |
+| Revisions | ① 2026-09-25 semantic-boundary patch（H-18~H-21，DSH 第 8 轮）：§4 命名边界 + §4.1 阶段对账 · §5.1 OD-01≠OD-R-01 · §2 补 C0 + 局部标签声明 · §1 证据基线措辞改为 immutable/append-only。② 2026-09-25 hygiene patch（H-22a / H-22b，DSH 第 9 轮）：§3.3 内部引文改指 §1 现行措辞 · §4 命名边界「0 命中」限定为 `AITutors-v3/Docs/` 并披露仓库根三处历史标题。两次均属**向前追加修订**，**未**修改任何历史证据（E1–E7 / C0–C8 未动、历史 hash 未改写） |
