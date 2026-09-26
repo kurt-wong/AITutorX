@@ -1,0 +1,124 @@
+F4 VERIFICATION LOG — DSH independent adversarial review of FORMAL-E2E-04
+Date: 2026-09-27  Reviewer: DSH (read-only; no destructive command; DB access SELECT-only)
+
+================================================================================
+[1] GIT REFS
+================================================================================
+AITutor-X  : HEAD 6c666ab1df1fcdb8732621a33ab3d91a7ae55ac8 ; origin/main 5de14d12... (unpushed)
+             no modified tracked files
+AITutors-v3: HEAD 5f097f627de79a8f3c45f1c0bd22f49247f29cb9   (UNCHANGED this round)
+Papers     : HEAD e7c79b6ce9c61e1ee5f301170d0649d4f50d1b90   (UNCHANGED this round)
+
+$ git -C AITutor-X show --name-status 88f0a3f -> report + FORMAL-E2E-04-evidence/ (00,01,02,03,05,06,07,
+   _inspect_after.py, _snap.py, _write_evidence.py, consumer-report.json,
+   consumer-report-identity-ok.json, consumer_input_identity_ok/**, preproc_out/**)
+$ git -C AITutor-X show --name-status 6c666ab -> FORMAL-E2E-04-evidence/04_v3_execution.log
+   (04 is listed in the report's Evidence index but was NOT in the first commit)
+
+================================================================================
+[2] FROZEN SPEC — 6/6 REPRODUCED (unchanged)
+================================================================================
+00_Master_Spec.md c83a5f96… ; 10_Data_Model.md 529d133c… ; 20_Document_Pipeline.md 0b7aecee… ;
+30_Task_LLM_Safety.md db9f9aad… ; 40_Development_Rules.md 8b2c10a9… ; 50_Migration_Assets.md 8689e741…
+V3_SPEC dir also holds 90_DOCUMENT_GOVERNANCE.md, 91_PROJECT_TERMINOLOGY.md, CR-003/CR-004, README.md.
+
+================================================================================
+[3] F4-01  SPEC AUTHORITY
+================================================================================
+$ git -C v3 grep -c "preprocessing|consumer|Consumer" -- Docs/V3_SPEC/*.md
+    Docs/V3_SPEC/90_DOCUMENT_GOVERNANCE.md:1
+90_DOCUMENT_GOVERNANCE.md:681-692
+    Native Path : Source → Resolver → ResolvedRun
+    Path B      : Source → preprocessing → Adapter → ResolvedRun
+    `ResolvedRun` 必须是唯一消费入口 …… 下游 IRBuilder / Compiler / Gate / Admission 对两条路径完全一致。
+$ git -C v3 grep -n "identity_version|source_content_sha256" -- Docs/V3_SPEC/*.md   -> ZERO HITS
+=> Path B has Spec standing; the MISSING_IDENTITY condition does NOT. It is enforced only by
+   backend/scripts/preprocessing_consumer/boundary.py (report cites F-INT-08 / F-INT-01).
+=> The Spec's Native Path ran end-to-end in ENABLEMENT-03 (13 persisted candidates).
+
+================================================================================
+[4] F4-02  THE ONLY INTERFACE-ACCEPTED ARTIFACT CARRIES THE LEGACY MODEL ID
+================================================================================
+consumer_input_identity_ok/2018北京夏季高中会考历史（教师版）(1).manifest.json
+    source_content_sha256 = d4917437065bfcb8eda24dd45b4e92ca4e2bb6eb8bb4342170903e4c5a62e714
+    identity_version      = 2
+    units                 = 53
+    model                 = mimo-x-pro-preview        <-- legacy ID (live API 400; gateway fail-closed)
+source: Papers\Ocr-markdown\reslice-batch-C\... (historical, backfilled per F04-01)
+
+================================================================================
+[5] F4-03 / F4-06  PREPROCESSING EVIDENCE
+================================================================================
+02_preprocessing_output.json
+    units.total 30 ; by_type {standalone_question 26, composite_question 4} ; with_material_lines 4
+    identity_fields {source_content_sha256: null, identity_version: null}
+    llm_call {provider mimo, model mimo-v2.6-pro, timestamp 2026-09-26T16:41:41.811587Z,
+              token_usage "NOT PERSISTED by reslice_pipeline",
+              note "preprocessing has no llm_call_audit equivalent; model tag from manifest only"}
+    artifacts.markdown_sliced = ...annotated.md  sha 41221be3… 80127 B
+    artifacts.annotated_md    = ...annotated.md  sha 41221be3… 80127 B     <-- same path+hash (F4-06)
+files on disk (verified hashes):
+    ...md             61038 B  sha 466d08cc87f0b0dcc4e1fa262c1861591a74a9f406d2639acb48ffa362c642e7
+    ...annotated.md   80127 B  sha 41221be300076ef5d4423ca6d7646171f7a0db8b302edf2d6e97ac53927835f4
+    ...manifest.json  16993 B  sha a6b8115a34f7478a32ff3d0a0c8ac6f1f2f13517268041434ace5e0c12a07353
+inputs (verified):
+    PDF  72afe58664abe8366fd0404acc332c008eebfad0863b367c926fe29bccd41a26  791365 B
+    md   0938b8e8cd867da77547d3ee0b5b9f229f09c4fd3350885570dbfd755556af6a   68631 B
+
+================================================================================
+[6] CONSUMER RESULTS (both verbatim-checked)
+================================================================================
+consumer-report.json            : total_units 30 ; interface_scope_blocked 1 ; Track A/B 0/0 ;
+                                  MISSING_IDENTITY ; downstream_executed false
+consumer-report-identity-ok.json: total_units 53 ; interface_scope_blocked 0 ; Track A completed 1 ;
+                                  candidates_created 0 ; skipped = Q1..Q50,U51..U53 (ALL 53) ;
+                                  gate_pass 0 / gate_rejected 0 / pending_review 0 ;
+                                  Track B completed 1 ; spans_constructed 212 ; spans_failed 0 ;
+                                  unresolved_total 0 ; unresolved_detail [] ; spans_with_bad_refs 0
+skip mechanism (code): app/domains/gate/service.py:178-179
+    if root.semantic_status != "ready": skipped.append(root.unit_id)   # 20 §5.2
+F04-03's asserted cause (option per-label spans / GAP_OPTION_LABEL_SPAN_UNAVAILABLE) is not present
+in any artifact: no per-unit semantic_status, and all unresolved-related numbers are zero.
+
+================================================================================
+[7] F4-08  NON-PERSISTENCE
+================================================================================
+backend/scripts/preprocessing_consumer/runner.py:295-296 and :316-317 -> finally: await session.rollback()
+05_database_snapshot_before.json == 06_database_snapshot_after.json (identical SHA256
+2D8969BBA44F4DC6E6FC71EAC1303F8A6EC050A4C157BF535816C1319E18B078)
+counts (both): documents 2 | semantic_annotations 2 | admission_candidates 13 | questions 0 |
+               question_instances 0 | materials 0 | spans 3501 | figures 8 | tasks 2 |
+               llm_call_audit 2 | budget 9   (identical to ENABLEMENT-03's end state → no reset this round)
+
+================================================================================
+[8] F4-05  EVIDENCE TIER
+================================================================================
+04_v3_execution.log contains:
+    Present read API : GET /api/documents/<built-in function id>, source-lines, source-quality,
+                       GET /api/candidates/<built-in function id>
+  -> leaked Python builtin ({id} vs {document_id}) ⇒ script-authored rendering, not captured output.
+Bundle also ships the generator: _write_evidence.py 11393 B, _snap.py 787 B, _inspect_after.py 1874 B.
+02 / 04 / 07 are executor-authored; raw = manifest, .md/.annotated.md, consumer reports, snapshots.
+
+================================================================================
+[9] F4-07  TREE IDENTITY
+================================================================================
+E2E command runs preprocessing from D:\Project\Aitutors-preprocessing\scripts (NON-GIT copy; RL-03/D-1 open)
+    D:\Project\Aitutors-preprocessing\scripts\reslice_pipeline.py   writes_identity = False
+    D:\Project\Papers\scripts\reslice_pipeline.py                   writes_identity = False
+    mtimes in the copy: reslice_pipeline.py 2026-09-26 09:42, llm_provider.py 09:38
+    -> predates this round's run (2026-09-26T16:41Z) ⇒ consistent with "verify only, no refactor"
+
+================================================================================
+[10] F4-09  BACKFILL PROVENANCE (credited)
+================================================================================
+scripts/interface_scope_step2_backfill.py docstring: "对 Step 1 冻结的 v2 接口面(87 份)逐份回填 …
+    71 份 ADMITTED … 16 份 Semantic Pending(QC_FAIL)"
+=> the report's "87 份" historical claim is sourced by the cited script itself.
+Run window 2026-09-26T16:41Z = 2026-09-27 00:41 Beijing (outside the weekday DeepSeek window); MIMO only.
+
+================================================================================
+[11] REVIEWER SIDE-EFFECTS
+================================================================================
+- No write to any repo; nothing executed that mutates state; DB access SELECT-only.
+- No key material printed (01_preprocessing_input.json records MIMO_API_KEY as "PRESENT(not recorded)").
