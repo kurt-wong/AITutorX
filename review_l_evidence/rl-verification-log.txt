@@ -1,0 +1,175 @@
+RL VERIFICATION LOG — DSH independent adversarial review of REPORT-L
+Date: 2026-09-26   Reviewer: DSH (independent adversarial reviewer; read-only on AITutors-v3 / producer trees)
+All commands run from the session workspace D:\Project\AITutor-X unless noted.
+API key value never printed: literal comparisons were done in-process, only counts emitted.
+
+================================================================================
+[1] GIT REFS / BOUNDARIES
+================================================================================
+$ git -C D:\Project\AITutor-X rev-parse HEAD
+be08bb02f7ef2c6d3cb7a9c78c21a7ec3bdf80e4
+$ git -C D:\Project\AITutor-X rev-parse origin/main
+949bfc895bec74987a942d6f98ed2c3124a76512
+$ git -C D:\Project\AITutor-X rev-list --left-right --count origin/main...HEAD
+0	1                      <-- LOCAL IS AHEAD OF ORIGIN BY 1 (report/summary says "落后")
+$ git -C D:\Project\AITutor-X show --stat --oneline be08bb0
+be08bb0 docs(reports): formal LLM provider config closure + MIMO V2.6 PRO preprocessing baseline (REPORT-L)
+ ...T-L-LLM-PROVIDER-CONFIG-CLOSURE-MIMO-V26-PRO.md | 442 +++++++++++++++++++++
+ 1 file changed, 442 insertions(+)                            <-- matches the report's claim
+$ git -C D:\Project\AITutor-X config --get http.proxy
+http://127.0.0.1:55219                                     <-- source of CONNECT tunnel 404
+
+$ git -C D:\Project\AITutors-v3 rev-parse HEAD
+d2b9a26f1a1c0297b4536b273b8999a071433079
+$ git -C D:\Project\AITutors-v3 status --porcelain   -> 10 lines, all "??" (same 10 as before this round)
+$ git -C D:\Project\AITutors-v3 rev-parse HEAD:Docs/V3_SPEC
+14a7450809d4932036f415d765ab29c53671843c          <-- unchanged
+
+$ git -C D:\Project\Papers rev-parse HEAD
+2b92898f05f6541a5fc65c8300cb8a59a06c4928
+$ git -C D:\Project\Papers remote -v
+origin  https://github.com/kurt-wong/Aitutors-preprocessing.git (fetch)
+origin  https://github.com/kurt-wong/Aitutors-preprocessing.git (push)
+$ git -C D:\Project\Papers status --porcelain
+?? data/reslice_preproc_out_result.json
+?? logs/reslice_preproc_out_log.txt          <-- clean apart from run accounting
+
+$ Test-Path D:\Project\Aitutors-preprocessing\.git   -> False
+    .gitattributes: True    .github: True    (matches report 1.1)
+
+================================================================================
+[2] FROZEN SPEC  (report 9.2)
+================================================================================
+file : D:\Project\AITutors-v3\Docs\COORDINATION\CONTRACTS\PREPROCESSING-V3-CONTRACT-v0.2-DRAFT.md
+bytes: 92197
+sha256: 9C6B9063E81FB2A66D85794B280C9D931F1B0074B39ABF472033218149B17528
+tracked: yes (git ls-files --error-unmatch succeeds)
+base commit f4941ff87c0130ee0b79ff6b807c4ec2826b8ff1: cat-file -t -> commit
+REGISTERED value found in (grep 9c6b9063, AITutors-v3):
+  Docs/COORDINATION/CONTRACTS/PREPROCESSING-V3-CONSUMER-GAP-MAP.md
+  Docs/COORDINATION/CURRENT.md
+  Docs/COORDINATION/log.md
+  Docs/COORDINATION/state.yaml
+  backend/scripts/preprocessing_consumer/boundary.py
+  restart-prompt.md
+=> report claim TRUE; the value is a genuinely registered one, not self-declared.
+
+================================================================================
+[3] TEST SUITE REPRODUCTION  (report 8.3)  [required write access outside session workspace]
+================================================================================
+$ (in D:\Project\Aitutors-preprocessing)  PYTHONDONTWRITEBYTECODE=1
+  python -m pytest tests/ -q -p no:cacheprovider
+338 passed, 18 skipped, 1 xfailed in 5.46s
+$ python -m pytest tests/ -q -p no:cacheprovider --collect-only | tail -1
+357 tests collected in 0.39s
+=> 338 + 18 + 1 = 357.  Report claim reproduced EXACTLY.
+Side effect: fixture scratch dir .pytest_work\r67_t left behind (best-effort cleanup).
+
+================================================================================
+[4] CHANGE SET COMPLETENESS  (report 9.3 / 2.3)
+================================================================================
+Method: git diff --no-index --quiet per common file (git normalizes CRLF/LF per .gitattributes).
+Raw SHA256 comparison is INVALID here: Papers working tree is CRLF, the copy is LF
+(11 files hash-differ, only 6 content-differ).
+
+scripts/  ONLY-IN-COPY \llm_provider.py
+          DIFF \pac_assemble_tracks.py
+          DIFF \pac_audit_recompute.py
+          DIFF \reslice_pipeline.py
+tests/    ONLY-IN-COPY \test_llm_provider_config.py
+          DIFF \test_no_config_import.py
+=> report 9.3 list is CONTENT-ACCURATE AND COMPLETE for scripts/ + tests/.
+
+Anchor-comment text search: 历史工件锚点|非活跃生产配置
+  scripts/pac_assemble_tracks.py
+  scripts/pac_audit_recompute.py
+  (NOTHING in tests/samples/artifact/** or data/**)
+=> report 2.3 "三处均已加注释" is FALSE for the third site; those files are content-identical
+   to Papers (line-ending normalization aside).
+
+reslice_pipeline.py diff vs Papers: 43 insertions / 30 deletions — matches report 2.2 row-for-row
+  (docstring, CFG_PATH, DEFAULT_MODEL=llm_provider.MIMO_V26_PRO_MODEL, load_cfg delegation,
+   model_tag delegation, _redact(), non-429 4xx immediate failure, redacted final RuntimeError).
+test_no_config_import.py diff vs Papers: 4 insertions / 2 deletions
+  :47  except FileNotFoundError -> except Exception
+  :79  assert "mimo-x-pro-preview" in stdout  ->  assert "mimo-v2.6-pro" in stdout
+  :80  + assert "mimo-x-pro-preview" not in stdout
+=> matches report 8.2 exactly.  Docstring :8 still says FileNotFoundError (stale).
+
+================================================================================
+[5] SECRET DISCIPLINE  (report 3 / 5.2)
+================================================================================
+key from AITutors-v3/backend/.env -> key_length = 51            (matches report "51 字符")
+literal full-tree scan (Select-String -SimpleMatch -List, values never printed):
+  D:\Project\Aitutors-preprocessing                       -> 1 file? NO -> 0
+  D:\Project\AITutor-X                                     -> 0
+  D:\Project\Papers\scripts, D:\Project\Papers\tests       -> 0
+  D:\Project\AITutors-v3\backend                           -> 1  (= AITutors-v3\backend\.env, its authoritative home)
+  AITutors-v3 tracked tree (git grep -F -l)                -> 0
+=> report claim (never written to report / commit / artifact / terminal output) VERIFIED in scope.
+run_smoke.py:124 hard assertion `assert api_key not in blob` present.
+
+================================================================================
+[6] SMOKE EVIDENCE  (report 5.2 / 5.3)
+================================================================================
+.smoke_mimo_v26\smoke_evidence.json:
+  http_status 200 | response_model "mimo-v2.6-pro" | finish_reason "length"
+  probe_content "" | usage.completion_tokens 8 | completion_tokens_details.reasoning_tokens 9
+  pipeline_returncode 0 | outputs [smoke_min.annotated.md, smoke_min.manifest.json, smoke_min.md]
+  manifest_model "mimo-v2.6-pro" | manifest_units 2 | prompt_version "reslice-pilot-v2.7"
+  api_key_leak_check "PASS"
+Independently read out\smoke_min.manifest.json and input\smoke_min.md:
+  Q1 standalone_question / single_choice, stem_lines [5,5], options [7,10], answer [12,12] value "A"
+  U2 composite_question / short_answer, material_lines [15,16], questions_lines [15,18],
+     answer [20,20] value "要点甲；要点乙。"
+  -> faithful to the 20-line synthetic input.  Report 5.2's finish_reason explanation is correct.
+Note: manifest.model comes from llm_provider.default_model_tag(), which FALLS BACK to the provider
+default when the config chain is missing -> it is a metadata tag, not execution evidence (RL-02).
+
+================================================================================
+[7] V3-SIDE CLAIMS  (report 1.4 / 1.5 / 6 / 7 / 10.2)
+================================================================================
+backend\.env : LLM_GATEWAY_MODE=live ; OCR_GATEWAY_MODE=disabled
+               MIMO_API_KEY present ; MIMO_BASE_URL=https://api.xiaomimimo.com/v1
+               line 9: MIMO_MODEL=mimo-x-pro-preview        (report O-2 TRUE)
+               NO OLLAMA_* , NO DEEPSEEK_*                  (report 1.5 / O-1 TRUE)
+config.py:39-46 deepseek_api_key/base_url/model/vl_model untouched; 47-50 mimo_* declarations
+gateway.py:101 def build_gateway ... live branch:
+    HTTPLLMProvider(name="ollama", api_key=None, base_url=settings.ollama_base_url,
+                    model=settings.ollama_model, timeout=...)     (report 6.1 TRUE)
+import_service.py:26  _ALLOWED_EXTENSIONS = {".pdf", ".docx"}    (exact line, report 7 TRUE)
+AITutor-X\backend | preprocessing | tools -> each contains exactly .gitkeep (report 1.2 TRUE)
+MIMO consumers inside V3 (git grep "mimo_" -- "*.py"):
+    backend/app/core/config.py:47-50 (declarations), backend/tests/test_config.py:35
+    only real consumer: backend/scripts/step0_blind_test.py:26-29 (parsed .env)
+    step0_blind_test.py:29  MODEL = _env.get("MIMO_MODEL", "mimo-x-pro-preview")  <-- in-code legacy default (RL-09)
+executor annotation prompt: unit_type ∈ {standalone_unit, composite_unit};
+    role ∈ {stem, option, answer, explanation}                    (vs producer *_question — RL-07)
+V3 pre-change DeepSeek references (Papers, *.py/*.ini/*.yml/*.sh): NO MATCHES  (report 4 TRUE)
+Papers\.gitignore:14 /data/.llm_config ; :15 *llm_config*        (report 1.6 TRUE)
+Papers\data\.llm_config exists, 147 bytes, mtime 2026/9/9 21:49:33 (metadata only; content NOT read)
+Aitutors-preprocessing\data\.llm_config : absent                 (report 1.6 TRUE)
+backend/scripts/preprocessing_consumer/ : tracked tier (manifest_reader.py documents
+    "Producer 词表: standalone_question | composite_question", boundary.py, adapters, runners,
+    consumer-report*.json)                                        <-- not mentioned by report 7 (RL-07)
+
+================================================================================
+[8] RL-01 HERMETICITY PROBE  (see hermeticity_probe.py / rl-hermeticity-probe.json)
+================================================================================
+Reproduces tests/test_no_config_import.py::_run()'s subprocess verbatim, retries=0,
+MIMO_BASE_URL pinned to http://127.0.0.1:9/v1 so NO external provider is contacted.
+case A  ambient MIMO_* scrubbed : EXC_TYPE ProviderConfigError | EXPECTED True   -> test PASSES
+case B  MIMO_API_KEY present    : EXC_TYPE RuntimeError        | EXPECTED False  -> test FAILS
+        (MSG_HEAD "LLM 调用失败: HTTP 503 <!DOCTYPE html>" from the local endpoint,
+         i.e. configuration resolution SUCCEEDED and the transport layer was reached)
+=> The H-01 "without config" test is non-hermetic; under the credential mechanism the same report
+   asks the Owner to adopt (B-2), it can issue a real request (to the live default base_url if
+   MIMO_BASE_URL is not also exported) and then fails.
+
+================================================================================
+[9] REVIEWER SIDE-EFFECTS
+================================================================================
+- .pytest_work\r67_t left in D:\Project\Aitutors-preprocessing by the test reproduction (scratch).
+- No write to AITutors-v3 or Papers. V3 HEAD / V3_SPEC tree / 10 untracked unchanged;
+  Papers HEAD unchanged with the same 2 untracked files.
+- API key value never printed, logged or persisted.

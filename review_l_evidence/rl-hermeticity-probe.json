@@ -1,0 +1,27 @@
+[
+  {
+    "case": "A_ambient_env_scrubbed",
+    "returncode": 0,
+    "stdout": [
+      "EXC_TYPE ProviderConfigError",
+      "EXPECTED True",
+      "MSG_HEAD 缺少 mimo API 凭证:请设置环境变量 MIMO_API_KEY (或 legacy data/.llm_config)。密钥只经环境变量/该文件进入,不写入代码、不写入产物、永不打印。"
+    ],
+    "stderr_tail": ""
+  },
+  {
+    "case": "B_ambient_MIMO_present_as_report_recommends",
+    "returncode": 0,
+    "stdout": [
+      "EXC_TYPE RuntimeError",
+      "EXPECTED False",
+      "MSG_HEAD LLM 调用失败: HTTP 503 <!DOCTYPE html>",
+      "<html>",
+      "  <head>",
+      "    <meta charset=\"utf-8\">",
+      "    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">",
+      "    <title>Lant"
+    ],
+    "stderr_tail": ""
+  }
+]
