@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-09-26T17:06:25.985267+00:00",
+  "formal_entry": "python reslice_pipeline.py --file <md> --out <dir>",
+  "provider_env": {
+    "LLM_PROVIDER": "mimo",
+    "MIMO_MODEL": "mimo-v2.6-pro",
+    "MIMO_BASE_URL": "https://api.xiaomimimo.com/v1"
+  },
+  "artifacts": [
+    {
+      "file": "2022北京丰台高一（下）期末历史（教师版）(1).annotated.md",
+      "bytes": 80127,
+      "sha256": "16a5a65a7cd4417a7f3f5103e60ce46214c4dbb4aa43ecb7a1a447b8599f97fc"
+    },
+    {
+      "file": "2022北京丰台高一（下）期末历史（教师版）(1).manifest.json",
+      "bytes": 20579,
+      "sha256": "44622cf8fbaf5089835f93cd49767d3a1212dd898d8ce3a62bce5f47a02188f4"
+    },
+    {
+      "file": "2022北京丰台高一（下）期末历史（教师版）(1).md",
+      "bytes": 61036,
+      "sha256": "df907f5ea5adf6316b82f1f56f84862c28b04e3909fab28c6cdce0b63a7030d9"
+    }
+  ],
+  "manifest_model": "mimo-v2.6-pro",
+  "units_total": 30,
+  "units_by_type": {
+    "standalone_question": 26,
+    "composite_question": 4
+  },
+  "units_with_material_lines": 4,
+  "identity_fields": {
+    "source_content_sha256": null,
+    "identity_version": null
+  },
+  "prompt_version": "reslice-pilot-v2.7"
+}

@@ -1,0 +1,1109 @@
+{
+ "source_file": "D:\\Project\\Papers\\Ocr-markdown\\高一\\历史\\2022北京丰台高一（下）期末历史（教师版）(1).md",
+ "model": "mimo-v2.6-pro",
+ "annotation_meta": {
+  "prompt_version": "reslice-pilot-v2.7",
+  "validation_issues": [],
+  "warnings": []
+ },
+ "units": [
+  {
+   "unit_id": "Q1",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "1",
+   "question_numbers": [
+    1
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    7,
+    7
+   ],
+   "options_lines": [
+    9,
+    15
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    362,
+    362
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     362,
+     362
+    ],
+    "value": "D",
+    "shared": false
+   },
+   "explanation_lines": [
+    364,
+    366
+   ]
+  },
+  {
+   "unit_id": "Q2",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "2",
+   "question_numbers": [
+    2
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    17,
+    17
+   ],
+   "options_lines": [
+    19,
+    19
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    372,
+    372
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     372,
+     372
+    ],
+    "value": "A",
+    "shared": false
+   },
+   "explanation_lines": [
+    374,
+    376
+   ]
+  },
+  {
+   "unit_id": "Q3",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "3",
+   "question_numbers": [
+    3
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    21,
+    21
+   ],
+   "options_lines": [
+    23,
+    23
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    382,
+    382
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     382,
+     382
+    ],
+    "value": "D",
+    "shared": false
+   },
+   "explanation_lines": [
+    384,
+    388
+   ]
+  },
+  {
+   "unit_id": "Q4",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "4",
+   "question_numbers": [
+    4
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    25,
+    28
+   ],
+   "options_lines": [
+    30,
+    36
+   ],
+   "extra_lines": [
+    393,
+    393
+   ],
+   "answer_lines": null,
+   "answer_evidence": {
+    "type": "inline_in_explanation",
+    "lines": [
+     407,
+     407
+    ],
+    "value": "C",
+    "shared": false
+   },
+   "explanation_lines": [
+    403,
+    407
+   ]
+  },
+  {
+   "unit_id": "Q5",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "5",
+   "question_numbers": [
+    5
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    38,
+    38
+   ],
+   "options_lines": [
+    40,
+    46
+   ],
+   "extra_lines": null,
+   "answer_lines": null,
+   "answer_evidence": {
+    "type": "inline_in_explanation",
+    "lines": [
+     419,
+     419
+    ],
+    "value": "A",
+    "shared": false
+   },
+   "explanation_lines": [
+    419,
+    419
+   ]
+  },
+  {
+   "unit_id": "Q6",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "6",
+   "question_numbers": [
+    6
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    48,
+    64
+   ],
+   "options_lines": [
+    66,
+    66
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    435,
+    435
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     435,
+     435
+    ],
+    "value": "C",
+    "shared": false
+   },
+   "explanation_lines": [
+    437,
+    439
+   ]
+  },
+  {
+   "unit_id": "Q7",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "7",
+   "question_numbers": [
+    7
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    68,
+    68
+   ],
+   "options_lines": [
+    70,
+    76
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    451,
+    451
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     451,
+     451
+    ],
+    "value": "A",
+    "shared": false
+   },
+   "explanation_lines": [
+    453,
+    457
+   ]
+  },
+  {
+   "unit_id": "Q8",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "8",
+   "question_numbers": [
+    8
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    78,
+    78
+   ],
+   "options_lines": [
+    80,
+    80
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    463,
+    463
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     463,
+     463
+    ],
+    "value": "D",
+    "shared": false
+   },
+   "explanation_lines": [
+    465,
+    467
+   ]
+  },
+  {
+   "unit_id": "Q9",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "9",
+   "question_numbers": [
+    9
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    84,
+    87
+   ],
+   "options_lines": [
+    89,
+    89
+   ],
+   "extra_lines": [
+    472,
+    472
+   ],
+   "answer_lines": [
+    476,
+    476
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     476,
+     476
+    ],
+    "value": "D",
+    "shared": false
+   },
+   "explanation_lines": [
+    478,
+    484
+   ]
+  },
+  {
+   "unit_id": "Q10",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "10",
+   "question_numbers": [
+    10
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    91,
+    91
+   ],
+   "options_lines": [
+    93,
+    99
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    496,
+    496
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     496,
+     496
+    ],
+    "value": "C",
+    "shared": false
+   },
+   "explanation_lines": [
+    500,
+    500
+   ]
+  },
+  {
+   "unit_id": "Q11",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "11",
+   "question_numbers": [
+    11
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    101,
+    109
+   ],
+   "options_lines": [
+    111,
+    111
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    514,
+    514
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     514,
+     514
+    ],
+    "value": "B",
+    "shared": false
+   },
+   "explanation_lines": [
+    516,
+    518
+   ]
+  },
+  {
+   "unit_id": "Q12",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "12",
+   "question_numbers": [
+    12
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    113,
+    115
+   ],
+   "options_lines": [
+    118,
+    124
+   ],
+   "extra_lines": [
+    522,
+    522
+   ],
+   "answer_lines": [
+    533,
+    533
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     533,
+     533
+    ],
+    "value": "B",
+    "shared": false
+   },
+   "explanation_lines": [
+    535,
+    537
+   ]
+  },
+  {
+   "unit_id": "Q13",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "13",
+   "question_numbers": [
+    13
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    126,
+    132
+   ],
+   "options_lines": [
+    134,
+    134
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    549,
+    549
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     549,
+     549
+    ],
+    "value": "A",
+    "shared": false
+   },
+   "explanation_lines": [
+    551,
+    553
+   ]
+  },
+  {
+   "unit_id": "Q14",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "14",
+   "question_numbers": [
+    14
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    136,
+    136
+   ],
+   "options_lines": [
+    138,
+    144
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    565,
+    565
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     565,
+     565
+    ],
+    "value": "B",
+    "shared": false
+   },
+   "explanation_lines": [
+    567,
+    569
+   ]
+  },
+  {
+   "unit_id": "Q15",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "15",
+   "question_numbers": [
+    15
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    146,
+    157
+   ],
+   "options_lines": [
+    159,
+    159
+   ],
+   "extra_lines": [
+    574,
+    574
+   ],
+   "answer_lines": [
+    586,
+    586
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     586,
+     586
+    ],
+    "value": "A",
+    "shared": false
+   },
+   "explanation_lines": [
+    588,
+    594
+   ]
+  },
+  {
+   "unit_id": "Q16",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "16",
+   "question_numbers": [
+    16
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    161,
+    169
+   ],
+   "options_lines": [
+    171,
+    171
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    608,
+    608
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     608,
+     608
+    ],
+    "value": "C",
+    "shared": false
+   },
+   "explanation_lines": [
+    610,
+    612
+   ]
+  },
+  {
+   "unit_id": "Q17",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "17",
+   "question_numbers": [
+    17
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    173,
+    173
+   ],
+   "options_lines": [
+    176,
+    183
+   ],
+   "extra_lines": [
+    617,
+    617
+   ],
+   "answer_lines": [
+    621,
+    621
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     621,
+     621
+    ],
+    "value": "D",
+    "shared": false
+   },
+   "explanation_lines": [
+    623,
+    625
+   ]
+  },
+  {
+   "unit_id": "Q18",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "18",
+   "question_numbers": [
+    18
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    185,
+    187
+   ],
+   "options_lines": [
+    190,
+    196
+   ],
+   "extra_lines": [
+    631,
+    631
+   ],
+   "answer_lines": [
+    642,
+    642
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     642,
+     642
+    ],
+    "value": "C",
+    "shared": false
+   },
+   "explanation_lines": [
+    644,
+    646
+   ]
+  },
+  {
+   "unit_id": "Q19",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "19",
+   "question_numbers": [
+    19
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    198,
+    198
+   ],
+   "options_lines": [
+    200,
+    206
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    658,
+    658
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     658,
+     658
+    ],
+    "value": "B",
+    "shared": false
+   },
+   "explanation_lines": [
+    660,
+    662
+   ]
+  },
+  {
+   "unit_id": "Q20",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "20",
+   "question_numbers": [
+    20
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    208,
+    208
+   ],
+   "options_lines": [
+    210,
+    216
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    674,
+    674
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     674,
+     674
+    ],
+    "value": "D",
+    "shared": false
+   },
+   "explanation_lines": [
+    676,
+    678
+   ]
+  },
+  {
+   "unit_id": "Q21",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "21",
+   "question_numbers": [
+    21
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    218,
+    218
+   ],
+   "options_lines": [
+    220,
+    226
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    692,
+    692
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     692,
+     692
+    ],
+    "value": "C",
+    "shared": false
+   },
+   "explanation_lines": [
+    694,
+    696
+   ]
+  },
+  {
+   "unit_id": "Q22",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "22",
+   "question_numbers": [
+    22
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    228,
+    228
+   ],
+   "options_lines": [
+    230,
+    236
+   ],
+   "extra_lines": null,
+   "answer_lines": null,
+   "answer_evidence": {
+    "type": "inline_in_explanation",
+    "lines": [
+     708,
+     708
+    ],
+    "value": "D",
+    "shared": false
+   },
+   "explanation_lines": [
+    708,
+    708
+   ]
+  },
+  {
+   "unit_id": "Q23",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "23",
+   "question_numbers": [
+    23
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    238,
+    238
+   ],
+   "options_lines": [
+    240,
+    248
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    720,
+    720
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     720,
+     720
+    ],
+    "value": "B",
+    "shared": false
+   },
+   "explanation_lines": [
+    722,
+    724
+   ]
+  },
+  {
+   "unit_id": "Q24",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "24",
+   "question_numbers": [
+    24
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    250,
+    253
+   ],
+   "options_lines": [
+    255,
+    261
+   ],
+   "extra_lines": [
+    729,
+    729
+   ],
+   "answer_lines": [
+    741,
+    741
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     741,
+     741
+    ],
+    "value": "D",
+    "shared": false
+   },
+   "explanation_lines": [
+    743,
+    745
+   ]
+  },
+  {
+   "unit_id": "Q25",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "25",
+   "question_numbers": [
+    25
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    263,
+    263
+   ],
+   "options_lines": [
+    265,
+    271
+   ],
+   "extra_lines": null,
+   "answer_lines": null,
+   "answer_evidence": {
+    "type": "inline_in_explanation",
+    "lines": [
+     757,
+     757
+    ],
+    "value": "C",
+    "shared": false
+   },
+   "explanation_lines": [
+    757,
+    757
+   ]
+  },
+  {
+   "unit_id": "Q26",
+   "unit_type": "standalone_question",
+   "section": "一、选择题",
+   "printed_number": "26",
+   "question_numbers": [
+    26
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    273,
+    275
+   ],
+   "options_lines": [
+    278,
+    284
+   ],
+   "extra_lines": [
+    761,
+    761
+   ],
+   "answer_lines": [
+    772,
+    772
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     772,
+     772
+    ],
+    "value": "B",
+    "shared": false
+   },
+   "explanation_lines": [
+    774,
+    776
+   ]
+  },
+  {
+   "unit_id": "Q27",
+   "unit_type": "composite_question",
+   "section": "二、非选择题",
+   "printed_number": "27",
+   "question_numbers": [
+    27
+   ],
+   "original_question_type": "short_answer",
+   "material_lines": [
+    290,
+    296
+   ],
+   "questions_lines": [
+    288,
+    300
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    796,
+    804
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     796,
+     804
+    ],
+    "value": "（1）不同点：征税标准：租庸调制以人丁为主，两税法以土地财产为主。征税种类：与租庸调制相比，两税法征收户税和地税，取消租庸调及各种杂税的征收，税目有所简化。征税时间：两税法固定在夏、秋两季征税。 背景：土地兼并严重，均田制遭到破坏；农民逃亡，户籍不清，户口失实；赋役混乱，官吏作弊渔利；中央政府财政困难。（2）特点：简化税收项目和手续；赋税折银，商品货币化；公平合理。 影响：统一了全国的赋役内容；平衡南北方赋役负担；减轻了无地少地人民的赋役负担；削弱了封建人身依附关系；利于工商业发展；保证政府的赋税收入；利于巩固中央集权。",
+    "shared": false
+   },
+   "explanation_lines": [
+    806,
+    818
+   ]
+  },
+  {
+   "unit_id": "Q28",
+   "unit_type": "composite_question",
+   "section": "二、非选择题",
+   "printed_number": "28",
+   "question_numbers": [
+    28
+   ],
+   "original_question_type": "essay",
+   "material_lines": [
+    305,
+    307
+   ],
+   "questions_lines": [
+    302,
+    309
+   ],
+   "extra_lines": [
+    823,
+    823
+   ],
+   "answer_lines": [
+    829,
+    839
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     829,
+     839
+    ],
+    "value": "示例：五四运动中无产阶级登上历史舞台，中共一大党纲，确定了党的名称、性质、指导思想、基本任务、奋斗目标等，基本指导完成党的创建工作，指引共产党开始探索中国革命道路，开启中国革命的新纪元。 在国共合作及合作破裂后严酷的国内战争的背景下，中共二大至六大党章的制定和修订都受到共产国际和苏联的影响，在内容上不断丰富，指导着党不断完善自身建设。 抗日战争即将胜利时召开中共七大，制定的七大党章，是中国共产党脱离共产国际的第一部完全独立自主的党章，进一步把马克思主义中国化，是中国共产党走向成熟的标志，指导全党夺取解放战争和新民主革命的胜利。 总之，在新民主主义革命时期随着国际形势和国内革命任务的变化，党章在内容上不断加强自身建设、不断实现独立自主，它引导党一步步走向成熟，推动中国新民主主义革命不断发展。",
+    "shared": false
+   },
+   "explanation_lines": [
+    841,
+    843
+   ]
+  },
+  {
+   "unit_id": "Q29",
+   "unit_type": "composite_question",
+   "section": "二、非选择题",
+   "printed_number": "29",
+   "question_numbers": [
+    29
+   ],
+   "original_question_type": "short_answer",
+   "material_lines": [
+    313,
+    329
+   ],
+   "questions_lines": [
+    311,
+    335
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    869,
+    883
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     869,
+     883
+    ],
+    "value": "（1）内涵：以人为中心，提倡人，肯定人的价值；反对禁欲主义，追求现世幸福。 背景：西欧商品经济和资本主义萌芽的发展；古典文化的遗存；教会的精神束缚。（2）内容：提倡天赋人权、自由、平等、法治、主权在民、社会契约、权力制衡。 影响：传播自由平等思想，冲击封建专制统治；为资本主义制度的建立做了理论准备；推动欧美资产阶级革命的爆发和资本主义政治制度的确立；为殖民地半殖民地争取民族独立提供精神武器。（3）思想主张：无产阶级应该用暴力革命推翻资产阶级的剥削统治，建立无产阶级专政；号召无产阶级加强国际合作。 说明：1871年，巴黎工人发动起义，建立巴黎公社；1917年的十月革命，建立了人类历史上第一个无产阶级国家。 1864年，国际工人协会（第一国际）成立。",
+    "shared": false
+   },
+   "explanation_lines": [
+    885,
+    897
+   ]
+  },
+  {
+   "unit_id": "Q30",
+   "unit_type": "composite_question",
+   "section": "二、非选择题",
+   "printed_number": "30",
+   "question_numbers": [
+    30
+   ],
+   "original_question_type": "short_answer",
+   "material_lines": [
+    337,
+    340
+   ],
+   "questions_lines": [
+    337,
+    344
+   ],
+   "extra_lines": [
+    902,
+    907
+   ],
+   "answer_lines": [
+    913,
+    919
+   ],
+   "answer_evidence": {
+    "type": "answer_lines",
+    "lines": [
+     913,
+     919
+    ],
+    "value": "（1）示例：阶段划分：20世纪四五十年代——20世纪六七十年代——20世纪80年代末90年代初以后；趋势：政治方面（国际格局）冷战、两极格局形成——多极化趋势出现——两极格局结束，多极化趋势加强。（其它划分，言之有理即可得分）（2）中华人民共和国的成立，一方面使中国成为社会主义阵营中的一员，壮大了国际社会主义力量；另一方面，中国实现民族独立，有利于世界殖民体系的瓦解。 70年代，中国恢复联合国合法席位，国际地位改善；中共十一届三中全会召开，做出改革开放的决策，推动世界多极化趋势出现。 1992年，中共十四大的召开，建立社会主义市场经济体制改革目标的提出，推动世界多极化趋势加强。",
+    "shared": false
+   },
+   "explanation_lines": [
+    921,
+    929
+   ]
+  }
+ ]
+}

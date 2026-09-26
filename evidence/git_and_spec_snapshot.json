@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-09-26T17:06:49.351434+00:00",
+  "git_commits": {
+    "AITutors-v3": "5f097f627de79a8f3c45f1c0bd22f49247f29cb9",
+    "Papers": "e7c79b6ce9c61e1ee5f301170d0649d4f50d1b90",
+    "AITutor-X": "fa3a01c6a8b81d8763c25aab4713b13f2f439be3",
+    "Aitutors-preprocessing": "NO_GIT"
+  },
+  "frozen_spec_sha256": {
+    "PREPROCESSING-V3-CONTRACT-v0.2-DRAFT.md": "9c6b9063e81fb2a66d85794b280c9d931f1b0074b39abf472033218149b17528",
+    "Docs/V3_SPEC/00_Master_Spec.md": "c83a5f9613948099d0eda3e04ef317b17cefdba7fe0044e492a70dd205f134c4",
+    "Docs/V3_SPEC/10_Data_Model.md": "529d133c118ed14d99c012b0a3a377d8c23f95420c0a5f28ce5deb2531418ef1",
+    "Docs/V3_SPEC/20_Document_Pipeline.md": "0b7aecee3f87bba4e920f5aa9a2cd91ff1dced64b00223bc81df26bcc803005c"
+  },
+  "task_cited_contract_hash": "9c6b9063e81fb2a66d85794b280c9d931f1b0074b39abf472033218149b17528",
+  "code_modifications_this_task": 0
+}
