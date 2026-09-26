@@ -1,0 +1,41 @@
+=== INPUT SELECTION (task book section 7) ===
+selected_at : 2026-09-26T08:48:23+08:00
+
+[ORIGINAL INPUT - never modified]
+path   : D:\Project\Papers\maintainess\PDF\2012-2021高考真题生物汇编：基因工程（1）（教师版）(1).pdf
+bytes  : 1108984
+sha256 : a51ba2cc2d435c7826e5300a4e4531df06025d4030799eb27632f0d5b195bfce
+type   : application/pdf (.pdf)
+mtime  : 2026-09-06T00:02:46
+
+[PREPROCESSING STAGE-1 OUTPUT (OCR markdown, existing)]
+path   : D:\Project\Papers\Ocr-markdown\高考真题\生物\2012-2021高考真题生物汇编：基因工程（1）（教师版）(1).md
+bytes  : 213367
+sha256 : b1fd784ddcc6468649f6b5e5955272e4405d74a546b6827e9470fd6a477fc11d
+lines  : 2865
+
+[PREPROCESSING STAGE-2 OUTPUT (reslice manifest, existing)]
+path   : D:\Project\Papers\Ocr-markdown\reslice-batch-C\高考真题\生物\2012-2021高考真题生物汇编：基因工程（1）（教师版）(1).manifest.json
+bytes  : 33216
+sha256 : 712ca35c10423e0e22cc77fb3e780bea8b63d346795b19cc39791d098c2fff88
+identity_version : 2
+model            : mimo-x-pro-preview
+source_file      : D:\Project\Papers\Ocr-markdown\高考真题\生物\2012-2021高考真题生物汇编：基因工程（1）（教师版）(1).md
+source_content_sha256 : b1fd784ddcc6468649f6b5e5955272e4405d74a546b6827e9470fd6a477fc11d
+units            : 60
+  standalone_question : 12
+  composite_question  : 48
+  units with material_lines : 48
+  original_question_types   : single_choice=11, multiple_choice=1, short_answer=48
+
+[COVERAGE vs task section 7]
+ordinary question      : YES (60 units)
+choice question        : YES (single_choice present)
+composite question     : YES (48)
+standalone question    : YES (12)
+material               : YES (48 units declare material_lines)
+figures/formulas       : PDF is 74 pages of biology exam compilation (figures expected; verified at Seal stage)
+
+[LINKAGE NOTE]
+The PDF->markdown->manifest linkage is by FILE BASENAME ONLY. No content hash
+binds the original PDF to the preprocessing product (manifest sha is over the .md text).

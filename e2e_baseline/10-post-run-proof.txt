@@ -1,0 +1,40 @@
+=== POST-RUN WORKING-TREE PROOF (task book section 22) ===
+captured_at : 2026-09-26T08:54:46+08:00
+
+[AITutors-v3] HEAD = d2b9a26f1a1c0297b4536b273b8999a071433079
+  branch = od01-r3-convergence
+  V3_SPEC tree = 14a7450809d4932036f415d765ab29c53671843c
+  modified tracked files = 0
+  untracked entries = 10 (identical set to preflight)
+
+[Papers] HEAD = 2b92898f05f6541a5fc65c8300cb8a59a06c4928
+  modified tracked files = 0
+  new untracked (created by the producer pipeline's own run-accounting) :
+    ?? data/reslice_preproc_out_result.json
+    ?? logs/reslice_preproc_out_log.txt
+
+[AITutor-X] HEAD = 77157035399830f9e7ab3f3c44341db700249fe7
+
+=== Frozen Spec SHA256 re-check (must equal preflight) ===
+c83a5f9613948099d0eda3e04ef317b17cefdba7fe0044e492a70dd205f134c4  00_Master_Spec.md
+529d133c118ed14d99c012b0a3a377d8c23f95420c0a5f28ce5deb2531418ef1  10_Data_Model.md
+0b7aecee3f87bba4e920f5aa9a2cd91ff1dced64b00223bc81df26bcc803005c  20_Document_Pipeline.md
+db9f9aad1d5b294e03c01dd65817e79576317f472ad664d04c47eba061e44c89  30_Task_LLM_Safety.md
+8b2c10a98a569586e0e7fe162e047b9dec3d07f821e24e5926a706525a6525db  40_Development_Rules.md
+8689e741e9b12cb02a56c7816f42e34324e4ddc9ac589610d3fb3de23f157fc7  50_Migration_Assets.md
+
+=== evidence files produced this round ===
+_fid.py                                  451  08:54:10
+_fid2.py                                1236  08:54:23
+00-preflight.txt                        1871  08:45:21
+01-db-before.txt                        1332  08:46:40
+02-input-selection.txt                  2083  08:48:23
+03-v3-ingestion.txt                     1061  08:50:32
+04-db-after-primary.txt                 3801  08:52:00
+05-replay.txt                            833  08:52:44
+06-replay-retry.txt                      583  08:53:00
+07-db-after-final.txt                   1927  08:53:09
+08-api-surface.txt                       253  08:53:17
+09-fidelity.txt                         2495  08:54:10
+v3_body_text.txt                      181056  08:54:35
+v3-api.log                              2472  08:53:36

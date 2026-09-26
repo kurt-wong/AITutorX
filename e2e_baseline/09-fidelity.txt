@@ -1,0 +1,44 @@
+=== STAGE 9: FIRST-OBSERVED-DEVIATION FIDELITY CROSS-CHECK ===
+captured_at : 2026-09-26T08:54:10+08:00
+
+[A] V3 sealed body_text (formal Seal stage output) - landmark containment via SQL position()
+-[ RECORD 1 ]-----+--------------------------------------------------------------------------------------------------
+chars             | 68713
+p_genetic_eng     | 27
+p_restriction     | 1934
+p_electrophoresis | 25065
+p_choice          | 37
+head              | 1 / 74                                                                                           +
+                  | 2012-2021 高考真题生物汇编：基因工程（1）                                                        +
+                  | 一．选择题（共11 小题）                                                                          +
+                  | 1．（2021•浙江）采用CRISPR/Cas9 基因编辑技术可将增强型绿色荧光蛋白（EGFP）基因定点插入到受精卵的Y+
+                  | 染色体上，获得转基因雄性小鼠。该转基因小鼠与野生型雌性小鼠交配（  ）                             +
+                  | A．基因编辑处理的受精卵在体外
+
+
+[B] producer preprocessing product (existing .md) - same landmarks
+  '基因工程' -> index 21
+  '限制酶' -> index 2929
+  '电泳' -> index 1599
+  '选择题' -> index 38
+  md chars = 101350
+  md head  = # 2012–2021 高考真题生物汇编：基因工程（1） |  | ## 一 ．选择题（共11小题） |  | 1. （2021•浙江）采用 CRISPR/Cas9 基因编辑技术可将增强型绿色荧光蛋白（EGFP）基因定点插入到受精卵的 Y 染色体上
+
+[C] original PDF text layer (independent read-only measurement, PyMuPDF)
+pages=74 chars=70701 lines=2332
+  '���򹤳�' -> 28
+  '����ø' -> 2030
+  '��Ӿ' -> 25988
+  'ѡ����' -> 39
+python.exe : Traceback (most recent call last):
+At line:32 char:23
++ [void]$sb.AppendLine((& python "$ev\_fid.py" 2>&1 | Out-String))
++                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "D:\Project\AITutor-X\e2e_baseline\_fid.py", line 11, in <module>
+    print("head:", t[:120].replace("\n"," | "))
+UnicodeEncodeError: 'gbk' codec can't encode character '\u2022' in position 65: illegal multibyte sequence
+head: 
+

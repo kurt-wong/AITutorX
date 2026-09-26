@@ -1,0 +1,16 @@
+=== STAGE: REPLAY (task book section 14) ===
+PRECONDITION CHECK: task book section 14 requires 'first run LLM calls > 0 and first run succeeded'.
+Observed: first formal run FAILED (annotation denied at Gateway, llm_invocations=0).
+=> section 14 precondition NOT MET. Replay still executed to observe formal idempotency.
+
+--- replay re-import (same file, same sha256) ---
+at : 2026-09-26T08:52:43+08:00
+{"document_id":"a7fbeb3a-f3c0-464d-86b5-2d8e5197f0ed","task_id":null,"sha256":"a51ba2cc2d435c7826e5300a4e4531df06025d4030799eb27632f0d5b195bfce","file_name":"2012-2021高考真题生物汇编：基因工程（1）（教师版）(1).pdf","is_new":false}
+HTTP_STATUS:200
+
+
+--- replay worker run (formal entry) ---
+command : python -m app.worker run --allow-live
+processed 0 task(s)
+
+ended : 2026-09-26T08:52:44+08:00

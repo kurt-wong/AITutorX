@@ -1,0 +1,83 @@
+=== DB AFTER (primary formal run) ===
+captured_at : 2026-09-26T08:52:00+08:00
+            table_name            | rows  
+----------------------------------+-------
+ admission_candidates             |     6
+ admission_events                 |     1
+ alembic_version                  |     1
+ budget                           |  3420
+ document_active_sources          |     0
+ document_source_lines            |  4219
+ document_source_selection_events |     0
+ document_source_spans            | 14254
+ document_source_versions         |     3
+ documents                        |     4
+ instance_figure_links            |     0
+ instance_role_contents           |     2
+ knowledge_nodes                  |     0
+ llm_call_audit                   |   960
+ material_links                   |     0
+ materials                        |     0
+ question_instances               |     1
+ question_knowledge_links         |     0
+ questions                        |     1
+ semantic_annotations             |     2
+ source_figures                   |   123
+ task_claims                      |    11
+ tasks                            |    11
+ unit_group_members               |     1
+ unit_groups                      |     1
+ validation_events                |     1
+(26 rows)
+
+
+=== the formal task ===
+-[ RECORD 1 ]---+-------------------------------------
+id              | 3e29c3a0-a08b-4d37-8fb5-2d64be6f87e8
+task_type       | document_ingest
+status          | failed
+current_stage   | 
+created_by      | admin
+created_at      | 2026-09-26 00:50:32.865024+00
+started_at      | 
+decided_at      | 2026-09-26 00:51:45.497926+00
+llm_invocations | 0
+
+
+=== its claim (outcome / error) ===
+docker : psql: warning: extra command-line argument "from" ignored
+At line:11 char:23
++ ... AppendLine((docker exec aitutor-postgres psql -U aitutors -d aitutors ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (psql: warning: ... "from" ignored:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+psql: warning: extra command-line argument "task_claims" ignored
+psql: warning: extra command-line argument "where" ignored
+psql: warning: extra command-line argument "task_id='3e29c3a0-a08b-4d37-8fb5-2d64be6f87e8';" ignored
+ERROR:  unterminated quoted identifier at or near "" end\"
+LINE 1: select task_id,worker_id,outcome,error_type,start," end\
+                                                          ^
+
+=== llm_call_audit rows created after 2026-09-26 00:40Z (this round) ===
+ provider |   model    | status | prompt_chars | error_type | logical_execution_stage |               task_id                |            start             
+----------+------------+--------+--------------+------------+-------------------------+--------------------------------------+------------------------------
+ ollama   | qwen3.5-9b | failed |        70711 | conflict   | ann                     | 3e29c3a0-a08b-4d37-8fb5-2d64be6f87e8 | 2026-09-26 00:51:45.41311+00
+(1 row)
+
+
+=== the new source version ===
+-[ RECORD 1 ]-+----------------------------------------------------------------------------------------------------------------------------------------
+id            | 0cf4a8c9-f67f-4edd-bd69-81c5d7e01dc7
+document_id   | a7fbeb3a-f3c0-464d-86b5-2d8e5197f0ed
+artifact_kind | raw_l1
+role          | native
+provider      | native
+page_count    | 74
+line_count    | 2180
+status        | sealed
+body_hash     | 6526b8900d17706b804cb4c6080780be3628ab9776282838b3d22cd6bee4245f
+quality       | {"issues": [], "status": "valid", "cjk_ratio": 0.6948, "total_chars": 68713, "non_printable_ratio": 0.0, "replacement_char_ratio": 0.0}
+body_len      | 68713
+
+

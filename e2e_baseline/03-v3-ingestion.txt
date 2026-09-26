@@ -1,0 +1,13 @@
+=== STAGE: V3 SOURCE / INGESTION (formal entry: POST /api/documents/import) ===
+started_at : 2026-09-26T08:50:32+08:00
+server     : uvicorn app.main:app --host 127.0.0.1 --port 8077
+input      : D:\Project\Papers\maintainess\PDF\2012-2021高考真题生物汇编：基因工程（1）（教师版）(1).pdf
+input_sha  : a51ba2cc2d435c7826e5300a4e4531df06025d4030799eb27632f0d5b195bfce
+note       : an earlier attempt returned HTTP 500 caused solely by the reviewer's file sandbox denying
+             AITutors-v3/backend/data/imports/ writes (PermissionError); the server was restarted with
+             the required access. That 500 is NOT a V3 defect and is not counted as one.
+--- curl.exe response ---
+{"document_id":"a7fbeb3a-f3c0-464d-86b5-2d8e5197f0ed","task_id":"3e29c3a0-a08b-4d37-8fb5-2d64be6f87e8","sha256":"a51ba2cc2d435c7826e5300a4e4531df06025d4030799eb27632f0d5b195bfce","file_name":"2012-2021高考真题生物汇编：基因工程（1）（教师版）(1).pdf","is_new":true}
+HTTP_STATUS:200
+
+ended_at   : 2026-09-26T08:50:32+08:00

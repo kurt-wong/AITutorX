@@ -1,0 +1,19 @@
+=== STAGE: FORMAL API SURFACE (GET /openapi.json) ===
+captured_at : 2026-09-26T08:55:27+08:00
+server      : uvicorn app.main:app @ 127.0.0.1:8077 (commit d2b9a26)
+
+FULL route list (11 routes):
+  POST /api/documents/import
+  GET /api/documents
+  GET /api/documents/{document_id}
+  GET /api/documents/{document_id}/source-quality
+  GET /api/documents/{document_id}/source-lines
+  GET /api/candidates/{candidate_id}
+  POST /api/candidates/{candidate_id}/approve
+  POST /api/candidates/{candidate_id}/reject
+  GET /api/admin/stats
+  GET /api/tasks
+  GET /health
+
+routes whose path contains question | instance | material : NONE
+=> no formal API endpoint can return Question / QuestionInstance / Material (task book section 15 NOT IMPLEMENTED)

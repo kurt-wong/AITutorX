@@ -1,0 +1,34 @@
+=== FORMAL E2E BASELINE :: PREFLIGHT (read-only, no formal task started yet) ===
+captured_at            : 2026-09-26T08:45:21+08:00
+AITutors-v3 HEAD       : d2b9a26f1a1c0297b4536b273b8999a071433079
+AITutors-v3 branch     : od01-r3-convergence
+AITutor-X   HEAD       : 77157035399830f9e7ab3f3c44341db700249fe7
+Papers HEAD            : 2b92898f05f6541a5fc65c8300cb8a59a06c4928
+v3 Docs/V3_SPEC tree   : 14a7450809d4932036f415d765ab29c53671843c
+v3 modified-tracked    : 0
+Papers modified        : 0
+
+--- Frozen Spec SHA256 ---
+c83a5f9613948099d0eda3e04ef317b17cefdba7fe0044e492a70dd205f134c4  00_Master_Spec.md
+529d133c118ed14d99c012b0a3a377d8c23f95420c0a5f28ce5deb2531418ef1  10_Data_Model.md
+0b7aecee3f87bba4e920f5aa9a2cd91ff1dced64b00223bc81df26bcc803005c  20_Document_Pipeline.md
+db9f9aad1d5b294e03c01dd65817e79576317f472ad664d04c47eba061e44c89  30_Task_LLM_Safety.md
+8b2c10a98a569586e0e7fe162e047b9dec3d07f821e24e5926a706525a6525db  40_Development_Rules.md
+8689e741e9b12cb02a56c7816f42e34324e4ddc9ac589610d3fb3de23f157fc7  50_Migration_Assets.md
+
+--- config summary (non-secret, from backend/.env) ---
+DATABASE_URL=postgresql+asyncpg://aitutors:change-me@localhost:5432/aitutors
+APP_ENV=development
+LLM_GATEWAY_MODE=live
+OCR_GATEWAY_MODE=disabled
+MIMO_BASE_URL=https://api.xiaomimimo.com/v1
+MIMO_MODEL=mimo-x-pro-preview
+MIMO_API_KEY          : PRESENT (value never recorded)
+
+--- formal entry points (as read from source, not inferred) ---
+worker : python -m app.worker run [--allow-live]   (backend/app/worker/__main__.py:73-74,122-125)
+import : POST /api/documents/import                (backend/app/api/routers/documents.py:31)
+gateway: app/ai/gateway.py::build_gateway -> LLMGateway(mode=settings.llm_gateway_mode)
+
+--- producer-side (preprocessing) repo ---
+Papers remote : https://github.com/kurt-wong/Aitutors-preprocessing.git
