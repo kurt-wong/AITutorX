@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-09-26T03:07:59.573983+00:00",
+  "records": [
+    {
+      "request_id": "0e3d3470-5c8c-4e97-9176-64b88522873e",
+      "task_id": "3dc03d9d-f645-4280-8016-429ea012dc44",
+      "document_id": "84521034-9a6e-4eaf-b319-5c7b64b7846e",
+      "stage": "ann",
+      "configured_provider": "mimo",
+      "configured_model": "mimo-v2.6-pro",
+      "actual_provider": "mimo",
+      "execution_status": "completed",
+      "execution_timestamp": "2026-09-26T03:07:58.959185+00:00",
+      "error_type": null,
+      "extra": {}
+    }
+  ]
+}

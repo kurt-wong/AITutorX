@@ -1,0 +1,393 @@
+{
+  "collected_at": "2026-09-26T03:10:31.892791+00:00",
+  "documents": [
+    {
+      "id": "c35733b7-db07-4a86-a637-8de87077c5cd",
+      "file_name": "2021北京高三二模数学汇编：集合（教师版）.pdf",
+      "original_sha256": "89a26462e62f03a5a56cf6d36962ac4fdfc888cab999c057252da9048d61edc1",
+      "processing_status": "sealed"
+    },
+    {
+      "id": "84521034-9a6e-4eaf-b319-5c7b64b7846e",
+      "file_name": "2018北京一零一中高一分班考物理（教师版）(1).pdf",
+      "original_sha256": "311a567eb928481333c6e97e749f237cb9250e3c94cffa88ea43db681efebbe3",
+      "processing_status": "sealed"
+    }
+  ],
+  "formal_tasks": [
+    {
+      "id": "93c6f012-793e-44e1-8176-4a94771f5536",
+      "status": "succeeded",
+      "llm_invocations": 1,
+      "file_name": "2021北京高三二模数学汇编：集合（教师版）.pdf"
+    },
+    {
+      "id": "3dc03d9d-f645-4280-8016-429ea012dc44",
+      "status": "succeeded",
+      "llm_invocations": 1,
+      "file_name": "2018北京一零一中高一分班考物理（教师版）(1).pdf"
+    }
+  ],
+  "source_versions": [
+    {
+      "id": "c0f3b85d-3ca4-41b5-87e8-bfd1f4b93024",
+      "document_id": "c35733b7-db07-4a86-a637-8de87077c5cd",
+      "status": "sealed",
+      "body_hash": "464b89fc42ca113c6b5fb8a42ab1e4085afc52020af7ce84ecc761e7486b16c7",
+      "line_count": 90
+    },
+    {
+      "id": "c728782f-8a76-4bc0-a8f7-95c84e6a56a5",
+      "document_id": "84521034-9a6e-4eaf-b319-5c7b64b7846e",
+      "status": "sealed",
+      "body_hash": "23549718636c0328adab84935010111c99fa1028f03a54ddd21bda6864540571",
+      "line_count": 609
+    }
+  ],
+  "annotations": [
+    {
+      "id": "344e859b-4b89-46ed-b3f2-c8c18e7025e5",
+      "source_version_id": "c0f3b85d-3ca4-41b5-87e8-bfd1f4b93024",
+      "status": "valid",
+      "model_config_hash": "11af80e5256a3ea0fdd06e7d5c799750b3d370a34bc5263b61c2c71e856a2d3e"
+    },
+    {
+      "id": "0d76fa38-6840-4a5e-bd01-013fb974dca7",
+      "source_version_id": "c728782f-8a76-4bc0-a8f7-95c84e6a56a5",
+      "status": "valid",
+      "model_config_hash": "11af80e5256a3ea0fdd06e7d5c799750b3d370a34bc5263b61c2c71e856a2d3e"
+    }
+  ],
+  "final_counts": {
+    "questions": 0,
+    "question_instances": 0,
+    "materials": 0,
+    "admission_candidates": 0,
+    "semantic_annotations": 2
+  },
+  "mimo_audits": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-pro",
+      "status": "completed",
+      "start": "2026-09-26 02:59:54.514570+00:00",
+      "input_tokens": null,
+      "output_tokens": null,
+      "total_tokens": null,
+      "estimated_cost": null,
+      "error_type": null
+    },
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-pro",
+      "status": "completed",
+      "start": "2026-09-26 03:06:50.413370+00:00",
+      "input_tokens": null,
+      "output_tokens": null,
+      "total_tokens": null,
+      "estimated_cost": null,
+      "error_type": null
+    }
+  ],
+  "budget_task_scope": [
+    {
+      "account_dim": "task",
+      "scope_id": "e5b8a18b-1b1f-4160-97c9-3acdf994edb1",
+      "stage": null,
+      "used": "0",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "c1a02fed-7f88-4360-8544-d2c1c638cdd9",
+      "stage": null,
+      "used": "0",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "ac5dcc83-76b9-4eeb-bf4b-eee65cff475b",
+      "stage": null,
+      "used": "0",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "404e00c5-1838-47ed-b969-cc26e3ba72a9",
+      "stage": null,
+      "used": "1",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "19af6635-ef62-402f-b022-0c3f230776c8",
+      "stage": null,
+      "used": "0",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "d53a4fd8-4a5e-4a74-84b8-fcbe2966851f",
+      "stage": null,
+      "used": "0",
+      "reserved": "1"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "5f3e92f6-cfc7-4a61-9f7f-b28b6366035e",
+      "stage": null,
+      "used": "0",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "fc304c38-5dfe-48d2-a29a-959a8865729e",
+      "stage": null,
+      "used": "0",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "f5a4a071-7f30-4623-b071-4360357d8764",
+      "stage": null,
+      "used": "1",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "9afa1e6e-94b3-4497-b947-f0e074adcd54",
+      "stage": null,
+      "used": "1",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "85eab712-fc55-4e3e-953a-5d22a7a00610",
+      "stage": null,
+      "used": "0",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "04328074-9aaf-4e5b-b475-49bf6b776f04",
+      "stage": null,
+      "used": "0",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "fc3633db-2682-43da-98cf-babd4a79dede",
+      "stage": null,
+      "used": "0",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "a5c12f0a-0b56-42e8-90b0-583f974c3778",
+      "stage": null,
+      "used": "0",
+      "reserved": "1"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "319f0b69-29de-45ec-b984-13e8f051dd1c",
+      "stage": null,
+      "used": "0",
+      "reserved": "1"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "4969bdf6-9b25-4ff8-a86c-6132cbf6b020",
+      "stage": null,
+      "used": "1",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "5ad6b0cd-4fc0-4125-9fcd-a14d6f4b0358",
+      "stage": null,
+      "used": "1",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "747d8536-2056-4e39-9f75-a5ecffd6e213",
+      "stage": null,
+      "used": "0",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "0d2cc835-b857-44e6-b691-31a7d7561cfe",
+      "stage": null,
+      "used": "0",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "ec616293-5d2d-44e1-8caa-6c7598b43a93",
+      "stage": null,
+      "used": "0",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "T-86d73e33b8de4dfa90b90a50d8792f88",
+      "stage": null,
+      "used": "0",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "c50f3412-9560-4fcf-b5e8-ee034aa2807d",
+      "stage": null,
+      "used": "1",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "G2-3cf71ffa57b54be2878df9db3db9c692",
+      "stage": null,
+      "used": "3",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "48ac518a-3fe8-43a1-98e5-a73ebb230ce3",
+      "stage": null,
+      "used": "1",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "20021a4e-d761-45b1-977b-4caadd06472f",
+      "stage": null,
+      "used": "1",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "fde54120-ef1a-418b-a236-f0333d02f85a",
+      "stage": null,
+      "used": "0",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "d4d3e61a-2016-470b-b18b-27d165ca0c4e",
+      "stage": null,
+      "used": "0",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "05daa485-f015-437b-9b76-6840ff0d8a8f",
+      "stage": null,
+      "used": "0",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "e0d19ad1-2459-44a4-96aa-48480e995d74",
+      "stage": null,
+      "used": "0",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "3420ba18-e7bf-424b-b533-3b5bf834f98d",
+      "stage": null,
+      "used": "0",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "96b532c0-a074-4e4b-a4b8-94e7351f2291",
+      "stage": null,
+      "used": "0",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "75390783-57b8-4314-a987-79130c8da145",
+      "stage": null,
+      "used": "0",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "a656ad87-bec4-4537-8ea2-8881dc401755",
+      "stage": null,
+      "used": "1",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "7c93064b-ebbe-479f-b05f-9cdb696ed822",
+      "stage": null,
+      "used": "0",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "0c507be0-516f-43ee-bdfa-754e4189bc23",
+      "stage": null,
+      "used": "0",
+      "reserved": "1"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "0dc35412-f89b-4613-aeef-f4ff5bceb9b5",
+      "stage": null,
+      "used": "0",
+      "reserved": "1"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "d7c1bf20-130d-46fb-80d7-35d33e16ce9c",
+      "stage": null,
+      "used": "0",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "60314b40-ea0c-483f-9cc6-97d50cf2e6f2",
+      "stage": null,
+      "used": "0",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "eb3992ea-7fb2-4da8-8178-810eb50bf469",
+      "stage": null,
+      "used": "1",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "3dc03d9d-f645-4280-8016-429ea012dc44",
+      "stage": null,
+      "used": "1",
+      "reserved": "0"
+    },
+    {
+      "account_dim": "task",
+      "scope_id": "93c6f012-793e-44e1-8176-4a94771f5536",
+      "stage": null,
+      "used": "1",
+      "reserved": "0"
+    }
+  ],
+  "claims_formal": [
+    {
+      "task_id": "93c6f012-793e-44e1-8176-4a94771f5536",
+      "outcome": "succeeded",
+      "error_type": null
+    },
+    {
+      "task_id": "3dc03d9d-f645-4280-8016-429ea012dc44",
+      "outcome": "succeeded",
+      "error_type": null
+    }
+  ]
+}

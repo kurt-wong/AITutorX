@@ -1,0 +1,97 @@
+{
+  "task_id": "FORMAL-E2E-ENABLEMENT-01",
+  "level": "L1-single-document",
+  "run": "b-physics-teacher-edition",
+  "started_at": "2026-09-26T03:06:49.654113+00:00",
+  "pdf_path": "D:\\Project\\Papers\\maintainess\\PDF\\2018北京一零一中高一分班考物理（教师版）(1).pdf",
+  "document_sha256": "311a567eb928481333c6e97e749f237cb9250e3c94cffa88ea43db681efebbe3",
+  "document_bytes": 843397,
+  "provider_target": {
+    "provider": "mimo",
+    "model": "mimo-v2.6-pro"
+  },
+  "import": {
+    "document_id": "84521034-9a6e-4eaf-b319-5c7b64b7846e",
+    "task_id": "3dc03d9d-f645-4280-8016-429ea012dc44",
+    "is_new": true,
+    "original_sha256": "311a567eb928481333c6e97e749f237cb9250e3c94cffa88ea43db681efebbe3"
+  },
+  "worker": {
+    "worker_id": "formal-e2e-l1b-ee157f30",
+    "processed": 1
+  },
+  "task_row": {
+    "id": "3dc03d9d-f645-4280-8016-429ea012dc44",
+    "status": "succeeded",
+    "llm_invocations": 1
+  },
+  "source_version": {
+    "id": "c728782f-8a76-4bc0-a8f7-95c84e6a56a5",
+    "status": "sealed",
+    "body_hash": "23549718636c0328adab84935010111c99fa1028f03a54ddd21bda6864540571",
+    "line_count": 609
+  },
+  "annotations": [
+    {
+      "id": "344e859b-4b89-46ed-b3f2-c8c18e7025e5",
+      "status": "valid",
+      "model_config_hash": "11af80e5256a3ea0fdd06e7d5c799750b3d370a34bc5263b61c2c71e856a2d3e"
+    },
+    {
+      "id": "0d76fa38-6840-4a5e-bd01-013fb974dca7",
+      "status": "valid",
+      "model_config_hash": "11af80e5256a3ea0fdd06e7d5c799750b3d370a34bc5263b61c2c71e856a2d3e"
+    }
+  ],
+  "annotation_unit_count": 20,
+  "admission_candidates": [],
+  "final_objects": {
+    "questions": 0,
+    "question_instances": 0,
+    "materials": 0,
+    "semantic_annotations": 2,
+    "admission_candidates": 0
+  },
+  "llm_call_audit_mimo": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-pro",
+      "status": "completed",
+      "start": "2026-09-26 02:59:54.514570+00:00",
+      "end": "2026-09-26 03:00:15.019889+00:00",
+      "input_tokens": null,
+      "output_tokens": null,
+      "total_tokens": null,
+      "estimated_cost": null,
+      "error_type": null
+    },
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-pro",
+      "status": "completed",
+      "start": "2026-09-26 03:06:50.413370+00:00",
+      "end": "2026-09-26 03:07:58.999430+00:00",
+      "input_tokens": null,
+      "output_tokens": null,
+      "total_tokens": null,
+      "estimated_cost": null,
+      "error_type": null
+    }
+  ],
+  "provider_reality": [
+    {
+      "request_id": "0e3d3470-5c8c-4e97-9176-64b88522873e",
+      "task_id": "3dc03d9d-f645-4280-8016-429ea012dc44",
+      "document_id": "84521034-9a6e-4eaf-b319-5c7b64b7846e",
+      "stage": "ann",
+      "configured_provider": "mimo",
+      "configured_model": "mimo-v2.6-pro",
+      "actual_provider": "mimo",
+      "execution_status": "completed",
+      "execution_timestamp": "2026-09-26T03:07:58.959185+00:00",
+      "error_type": null,
+      "extra": {}
+    }
+  ],
+  "finished_at": "2026-09-26T03:07:59.574993+00:00"
+}
