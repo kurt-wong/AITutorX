@@ -1,0 +1,13 @@
+# FORMAL-E2E-ENABLEMENT-03 worker log
+E2E_RUN_ID=E2E3-20260926T130248
+DATABASE_MODE=fresh_test
+started_at=2026-09-26T05:02:53.339831+00:00
+finished_at=2026-09-26T05:04:40.479001+00:00
+$ C:\Users\Kurtw\AppData\Local\Programs\Python\Python312\python.exe -m app.worker run --allow-live
+exit_code=0
+--- stdout ---
+provider reality evidence: provider_reality.json
+processed 2 task(s)
+
+--- stderr ---
+

@@ -1,0 +1,804 @@
+{
+  "task_id": "FORMAL-E2E-ENABLEMENT-03",
+  "evidence_metadata": {
+    "E2E_RUN_ID": "E2E3-20260926T130248",
+    "DATABASE_MODE": "fresh_test",
+    "START_TIME": "2026-09-26T05:02:49.046221+00:00",
+    "END_TIME": "2026-09-26T05:04:40.813453+00:00",
+    "GIT_COMMIT": {
+      "AITutors-v3": "7702de9c36927a30907d23791d8ab64b09bc8c5a",
+      "Papers": "e7c79b6ce9c61e1ee5f301170d0649d4f50d1b90",
+      "AITutor-X": "0e4747d90308de227a8504f411de39c7915e59e7"
+    },
+    "V3_SPEC_HASH": {
+      "00_Master_Spec.md": "c83a5f9613948099d0eda3e04ef317b17cefdba7fe0044e492a70dd205f134c4",
+      "10_Data_Model.md": "529d133c118ed14d99c012b0a3a377d8c23f95420c0a5f28ce5deb2531418ef1",
+      "20_Document_Pipeline.md": "0b7aecee3f87bba4e920f5aa9a2cd91ff1dced64b00223bc81df26bcc803005c",
+      "30_Task_LLM_Safety.md": "db9f9aad1d5b294e03c01dd65817e79576317f472ad664d04c47eba061e44c89",
+      "40_Development_Rules.md": "8b2c10a98a569586e0e7fe162e047b9dec3d07f821e24e5926a706525a6525db",
+      "50_Migration_Assets.md": "8689e741e9b12cb02a56c7816f42e34324e4ddc9ac589610d3fb3de23f157fc7"
+    },
+    "PROVIDER": "mimo",
+    "MODEL": "mimo-v2.6-pro",
+    "INPUT_DOCUMENT_SHA256": {
+      "standalone": {
+        "path": "D:\\Project\\Papers\\maintainess\\PDF\\2021北京高三二模数学汇编：集合（教师版）.pdf",
+        "sha256": "89a26462e62f03a5a56cf6d36962ac4fdfc888cab999c057252da9048d61edc1",
+        "bytes": 151212
+      },
+      "composite_material_candidate": {
+        "path": "D:\\Project\\Papers\\maintainess\\PDF\\2021北京高三一模二模政治汇编：生活与哲学（材料题）（教师版）(1).pdf",
+        "sha256": "0b8c0cc2bdd400b4530c7faa50b565327460f99c750f6b932fe1188f36e178cb",
+        "bytes": 455364
+      }
+    }
+  },
+  "formal_entries": {
+    "ingest": "POST /api/documents/import",
+    "worker": "python -m app.worker run --allow-live"
+  },
+  "api_surface_note": {
+    "Question API": "NOT PRESENT",
+    "Material API": "NOT PRESENT",
+    "Instance API": "NOT PRESENT",
+    "present": [
+      "POST /api/documents/import",
+      "GET /api/documents/{id}",
+      "GET /api/documents/{id}/source-quality",
+      "GET /api/documents/{id}/source-lines",
+      "GET /api/candidates/{id}",
+      "POST /api/candidates/{id}/approve",
+      "POST /api/candidates/{id}/reject",
+      "GET /api/admin/stats"
+    ]
+  },
+  "db_reset": {
+    "database_mode": "fresh_test",
+    "allowed_modes": [
+      "fresh_test",
+      "test"
+    ],
+    "truncated_tables": [
+      "llm_call_audit",
+      "budget",
+      "questions",
+      "question_knowledge_links",
+      "instance_figure_links",
+      "knowledge_nodes",
+      "documents",
+      "document_source_versions",
+      "materials",
+      "semantic_annotations",
+      "document_source_lines",
+      "source_figures",
+      "document_active_sources",
+      "document_source_selection_events",
+      "unit_groups",
+      "instance_role_contents",
+      "material_links",
+      "admission_candidates",
+      "question_instances",
+      "admission_events",
+      "unit_group_members",
+      "tasks",
+      "task_claims",
+      "document_source_spans",
+      "validation_events"
+    ],
+    "reset_at": "2026-09-26T05:02:49.837327+00:00"
+  },
+  "import_stage": [
+    {
+      "role": "standalone",
+      "status_code": 200,
+      "body": {
+        "document_id": "f45c7208-a840-44b4-b3d2-5b3b1940cd31",
+        "task_id": "c75d2e0d-b1a2-4651-b7ab-16498dd06bbe",
+        "sha256": "89a26462e62f03a5a56cf6d36962ac4fdfc888cab999c057252da9048d61edc1",
+        "file_name": "2021北京高三二模数学汇编：集合（教师版）.pdf",
+        "is_new": true
+      },
+      "at": "2026-09-26T05:02:52.205097+00:00"
+    },
+    {
+      "role": "composite_material_candidate",
+      "status_code": 200,
+      "body": {
+        "document_id": "c4e33dc0-84c5-4b1a-82d0-c95a5d7ca146",
+        "task_id": "8dcd9f62-1b58-4cd5-970e-1e23b399d5c5",
+        "sha256": "0b8c0cc2bdd400b4530c7faa50b565327460f99c750f6b932fe1188f36e178cb",
+        "file_name": "2021北京高三一模二模政治汇编：生活与哲学（材料题）（教师版）(1).pdf",
+        "is_new": true
+      },
+      "at": "2026-09-26T05:02:53.332685+00:00"
+    }
+  ],
+  "worker_cli": {
+    "command": "C:\\Users\\Kurtw\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m app.worker run --allow-live",
+    "exit_code": 0,
+    "log_path": "D:\\Project\\AITutor-X\\e2e_run\\formal-e2e-v3-worker-E2E3-20260926T130248.log",
+    "started_at": "2026-09-26T05:02:53.339831+00:00",
+    "finished_at": "2026-09-26T05:04:40.479001+00:00"
+  },
+  "staged": {
+    "documents": [
+      {
+        "id": "f45c7208-a840-44b4-b3d2-5b3b1940cd31",
+        "file_name": "2021北京高三二模数学汇编：集合（教师版）.pdf",
+        "original_sha256": "89a26462e62f03a5a56cf6d36962ac4fdfc888cab999c057252da9048d61edc1",
+        "processing_status": "sealed"
+      },
+      {
+        "id": "c4e33dc0-84c5-4b1a-82d0-c95a5d7ca146",
+        "file_name": "2021北京高三一模二模政治汇编：生活与哲学（材料题）（教师版）(1).pdf",
+        "original_sha256": "0b8c0cc2bdd400b4530c7faa50b565327460f99c750f6b932fe1188f36e178cb",
+        "processing_status": "sealed"
+      }
+    ],
+    "tasks": [
+      {
+        "id": "c75d2e0d-b1a2-4651-b7ab-16498dd06bbe",
+        "status": "succeeded",
+        "llm_invocations": 1,
+        "file_name": "2021北京高三二模数学汇编：集合（教师版）.pdf"
+      },
+      {
+        "id": "8dcd9f62-1b58-4cd5-970e-1e23b399d5c5",
+        "status": "succeeded",
+        "llm_invocations": 1,
+        "file_name": "2021北京高三一模二模政治汇编：生活与哲学（材料题）（教师版）(1).pdf"
+      }
+    ],
+    "claims": [
+      {
+        "id": "69e55769-4d68-4c0e-957f-f53bafca09ce",
+        "task_id": "c75d2e0d-b1a2-4651-b7ab-16498dd06bbe",
+        "claim_round": 1,
+        "outcome": "succeeded",
+        "error_type": null,
+        "start": "2026-09-26 05:02:53.883417+00:00",
+        "end": "2026-09-26 05:03:12.851017+00:00"
+      },
+      {
+        "id": "444cf7d1-fecf-45ea-b67e-1717f88c0309",
+        "task_id": "8dcd9f62-1b58-4cd5-970e-1e23b399d5c5",
+        "claim_round": 1,
+        "outcome": "succeeded",
+        "error_type": null,
+        "start": "2026-09-26 05:03:12.880278+00:00",
+        "end": "2026-09-26 05:04:40.355420+00:00"
+      }
+    ],
+    "source_versions": [
+      {
+        "id": "0d4fbca1-534c-43b2-b08b-87101333decc",
+        "document_id": "f45c7208-a840-44b4-b3d2-5b3b1940cd31",
+        "status": "sealed",
+        "body_hash": "464b89fc42ca113c6b5fb8a42ab1e4085afc52020af7ce84ecc761e7486b16c7",
+        "line_count": 90,
+        "page_count": 3
+      },
+      {
+        "id": "b8d7574e-00cd-412f-a7b3-d730dcdfcc88",
+        "document_id": "c4e33dc0-84c5-4b1a-82d0-c95a5d7ca146",
+        "status": "sealed",
+        "body_hash": "2bd6f6ec9f6a01ebfb1ba75f3b18795583e3ecde02a77de7cc4d79983d166ae6",
+        "line_count": 730,
+        "page_count": 22
+      }
+    ],
+    "import_counts": {
+      "source_figures": 8,
+      "document_source_spans": 3501,
+      "document_source_lines": 820
+    },
+    "annotations": [
+      {
+        "id": "e98c8cd7-7747-4e08-984a-a040db46e6d0",
+        "source_version_id": "0d4fbca1-534c-43b2-b08b-87101333decc",
+        "status": "valid",
+        "model_config_hash": "11af80e5256a3ea0fdd06e7d5c799750b3d370a34bc5263b61c2c71e856a2d3e",
+        "prompt_version": "semantic-annotation/v1"
+      },
+      {
+        "id": "362e0b50-fe65-44a4-a929-397f3164fd38",
+        "source_version_id": "b8d7574e-00cd-412f-a7b3-d730dcdfcc88",
+        "status": "valid",
+        "model_config_hash": "11af80e5256a3ea0fdd06e7d5c799750b3d370a34bc5263b61c2c71e856a2d3e",
+        "prompt_version": "semantic-annotation/v1"
+      }
+    ],
+    "llm_audit": [
+      {
+        "request_id": "4daed945-b300-45b4-9438-e912f9beb521",
+        "provider": "mimo",
+        "model": "mimo-v2.6-pro",
+        "status": "completed",
+        "start": "2026-09-26 05:02:54.449828+00:00",
+        "input_tokens": 2407,
+        "output_tokens": 1558,
+        "total_tokens": 3965,
+        "error_type": null
+      },
+      {
+        "request_id": "87aac64f-7e0d-4f40-9075-236d5f7be60b",
+        "provider": "mimo",
+        "model": "mimo-v2.6-pro",
+        "status": "completed",
+        "start": "2026-09-26 05:03:13.680076+00:00",
+        "input_tokens": 16341,
+        "output_tokens": 5685,
+        "total_tokens": 22026,
+        "error_type": null
+      }
+    ],
+    "final_counts": {
+      "questions": 0,
+      "question_instances": 0,
+      "materials": 0,
+      "admission_candidates": 13,
+      "admission_events": 0,
+      "unit_groups": 0
+    },
+    "candidates": [
+      {
+        "id": "deb7fd43-3b6c-4937-8850-9defc622df0e",
+        "decision_status": "pending_review"
+      },
+      {
+        "id": "83ea3a31-0455-4ffb-a8cf-8dbf460edf83",
+        "decision_status": "pending_review"
+      },
+      {
+        "id": "a27067ef-a16c-4955-9f29-8e9e983d6f3b",
+        "decision_status": "pending_review"
+      },
+      {
+        "id": "9e8f9b36-b1ed-417e-b2a2-3a7d4de2f470",
+        "decision_status": "pending_review"
+      },
+      {
+        "id": "5352ac1c-b71b-401d-9f36-5645caeaf6ae",
+        "decision_status": "pending_review"
+      },
+      {
+        "id": "ab023d2b-0b2f-4c70-982c-595ef31818a2",
+        "decision_status": "pending_review"
+      },
+      {
+        "id": "6563ab13-fe9c-4e36-90de-a747398b6269",
+        "decision_status": "pending_review"
+      },
+      {
+        "id": "59ea8dc8-32ea-4d72-8a21-4136a2f97871",
+        "decision_status": "pending_review"
+      },
+      {
+        "id": "d0852ce4-525d-446c-bbc0-1b69d74af25b",
+        "decision_status": "pending_review"
+      },
+      {
+        "id": "25b7d797-07b4-4003-9f6c-01b9cc26b1a2",
+        "decision_status": "pending_review"
+      },
+      {
+        "id": "50826f9d-97f4-4be8-b6c6-cb7e1617f08f",
+        "decision_status": "pending_review"
+      },
+      {
+        "id": "f26d054d-dbab-425b-a708-006291bae547",
+        "decision_status": "pending_review"
+      },
+      {
+        "id": "f8c076f5-54ce-47bf-bc12-ea95ea004a28",
+        "decision_status": "pending_review"
+      }
+    ]
+  },
+  "annotation_resolver_ir": [
+    {
+      "annotation_id": "e98c8cd7-7747-4e08-984a-a040db46e6d0",
+      "source_version_id": "0d4fbca1-534c-43b2-b08b-87101333decc",
+      "unit_count": 7,
+      "unit_types": [
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit"
+      ],
+      "has_shared_material": false,
+      "resolver": {
+        "resolved_spans": 32,
+        "unresolved": 17,
+        "unresolved_reasons": {
+          "stem:ambiguous": 2,
+          "option:incomplete": 8,
+          "explanation:missing": 7
+        }
+      },
+      "ir": {
+        "units": [
+          {
+            "unit_id": "Q1",
+            "unit_type": "standalone_unit",
+            "original_question_type": "single_choice",
+            "semantic_status": "incomplete",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation",
+              "option",
+              "option",
+              "option",
+              "option"
+            ]
+          },
+          {
+            "unit_id": "Q2",
+            "unit_type": "standalone_unit",
+            "original_question_type": "single_choice",
+            "semantic_status": "incomplete",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation",
+              "option",
+              "option",
+              "option",
+              "option"
+            ]
+          },
+          {
+            "unit_id": "Q3",
+            "unit_type": "standalone_unit",
+            "original_question_type": "single_choice",
+            "semantic_status": "incomplete",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation",
+              "option",
+              "option",
+              "option",
+              "option"
+            ]
+          },
+          {
+            "unit_id": "Q4",
+            "unit_type": "standalone_unit",
+            "original_question_type": "single_choice",
+            "semantic_status": "incomplete",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation",
+              "option",
+              "option",
+              "option",
+              "option"
+            ]
+          },
+          {
+            "unit_id": "Q5",
+            "unit_type": "standalone_unit",
+            "original_question_type": "single_choice",
+            "semantic_status": "incomplete",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation",
+              "option",
+              "option",
+              "option",
+              "option"
+            ]
+          },
+          {
+            "unit_id": "Q6",
+            "unit_type": "standalone_unit",
+            "original_question_type": "single_choice",
+            "semantic_status": "incomplete",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation",
+              "option",
+              "option",
+              "option",
+              "option"
+            ]
+          },
+          {
+            "unit_id": "Q7",
+            "unit_type": "standalone_unit",
+            "original_question_type": "single_choice",
+            "semantic_status": "incomplete",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation",
+              "option",
+              "option",
+              "option",
+              "option"
+            ]
+          }
+        ],
+        "ready": 0,
+        "incomplete": 7
+      }
+    },
+    {
+      "annotation_id": "362e0b50-fe65-44a4-a929-397f3164fd38",
+      "source_version_id": "b8d7574e-00cd-412f-a7b3-d730dcdfcc88",
+      "unit_count": 21,
+      "unit_types": [
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit",
+        "standalone_unit"
+      ],
+      "has_shared_material": false,
+      "resolver": {
+        "resolved_spans": 55,
+        "unresolved": 8,
+        "unresolved_reasons": {
+          "stem:ambiguous": 8
+        }
+      },
+      "ir": {
+        "units": [
+          {
+            "unit_id": "Q1",
+            "unit_type": "standalone_unit",
+            "original_question_type": "short_answer",
+            "semantic_status": "incomplete",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation"
+            ]
+          },
+          {
+            "unit_id": "Q2",
+            "unit_type": "standalone_unit",
+            "original_question_type": "short_answer",
+            "semantic_status": "incomplete",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation"
+            ]
+          },
+          {
+            "unit_id": "Q3",
+            "unit_type": "standalone_unit",
+            "original_question_type": "short_answer",
+            "semantic_status": "incomplete",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation"
+            ]
+          },
+          {
+            "unit_id": "Q4",
+            "unit_type": "standalone_unit",
+            "original_question_type": "essay",
+            "semantic_status": "incomplete",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation"
+            ]
+          },
+          {
+            "unit_id": "Q5",
+            "unit_type": "standalone_unit",
+            "original_question_type": "short_answer",
+            "semantic_status": "incomplete",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation"
+            ]
+          },
+          {
+            "unit_id": "Q6",
+            "unit_type": "standalone_unit",
+            "original_question_type": "short_answer",
+            "semantic_status": "incomplete",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation"
+            ]
+          },
+          {
+            "unit_id": "Q7",
+            "unit_type": "standalone_unit",
+            "original_question_type": "short_answer",
+            "semantic_status": "incomplete",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation"
+            ]
+          },
+          {
+            "unit_id": "Q8",
+            "unit_type": "standalone_unit",
+            "original_question_type": "short_answer",
+            "semantic_status": "incomplete",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation"
+            ]
+          },
+          {
+            "unit_id": "Q9",
+            "unit_type": "standalone_unit",
+            "original_question_type": "short_answer",
+            "semantic_status": "ready",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation"
+            ]
+          },
+          {
+            "unit_id": "Q10",
+            "unit_type": "standalone_unit",
+            "original_question_type": "short_answer",
+            "semantic_status": "ready",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation"
+            ]
+          },
+          {
+            "unit_id": "Q11",
+            "unit_type": "standalone_unit",
+            "original_question_type": "short_answer",
+            "semantic_status": "ready",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation"
+            ]
+          },
+          {
+            "unit_id": "Q12",
+            "unit_type": "standalone_unit",
+            "original_question_type": "essay",
+            "semantic_status": "ready",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation"
+            ]
+          },
+          {
+            "unit_id": "Q13",
+            "unit_type": "standalone_unit",
+            "original_question_type": "short_answer",
+            "semantic_status": "ready",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation"
+            ]
+          },
+          {
+            "unit_id": "Q14",
+            "unit_type": "standalone_unit",
+            "original_question_type": "short_answer",
+            "semantic_status": "ready",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation"
+            ]
+          },
+          {
+            "unit_id": "Q15",
+            "unit_type": "standalone_unit",
+            "original_question_type": "short_answer",
+            "semantic_status": "ready",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation"
+            ]
+          },
+          {
+            "unit_id": "Q16",
+            "unit_type": "standalone_unit",
+            "original_question_type": "short_answer",
+            "semantic_status": "ready",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation"
+            ]
+          },
+          {
+            "unit_id": "Q17",
+            "unit_type": "standalone_unit",
+            "original_question_type": "essay",
+            "semantic_status": "ready",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation"
+            ]
+          },
+          {
+            "unit_id": "Q18",
+            "unit_type": "standalone_unit",
+            "original_question_type": "short_answer",
+            "semantic_status": "ready",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation"
+            ]
+          },
+          {
+            "unit_id": "Q19",
+            "unit_type": "standalone_unit",
+            "original_question_type": "short_answer",
+            "semantic_status": "ready",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation"
+            ]
+          },
+          {
+            "unit_id": "Q20",
+            "unit_type": "standalone_unit",
+            "original_question_type": "short_answer",
+            "semantic_status": "ready",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation"
+            ]
+          },
+          {
+            "unit_id": "Q21",
+            "unit_type": "standalone_unit",
+            "original_question_type": "fill_in",
+            "semantic_status": "ready",
+            "shared_components": [],
+            "content_roles": [
+              "stem",
+              "answer",
+              "explanation"
+            ]
+          }
+        ],
+        "ready": 13,
+        "incomplete": 8
+      }
+    }
+  ],
+  "provider_reality": {
+    "generated_at": "2026-09-26T05:04:40.388233+00:00",
+    "records": [
+      {
+        "request_id": "4daed945-b300-45b4-9438-e912f9beb521",
+        "task_id": "c75d2e0d-b1a2-4651-b7ab-16498dd06bbe",
+        "document_id": "f45c7208-a840-44b4-b3d2-5b3b1940cd31",
+        "stage": "ann",
+        "configured_provider": "mimo",
+        "configured_model": "mimo-v2.6-pro",
+        "actual_provider": "mimo",
+        "actual_model": "mimo-v2.6-pro",
+        "execution_status": "completed",
+        "execution_timestamp": "2026-09-26T05:03:12.667986+00:00",
+        "error_type": null,
+        "actual_usage": {
+          "completion_tokens": 1558,
+          "prompt_tokens": 2407,
+          "total_tokens": 3965,
+          "completion_tokens_details": {
+            "reasoning_tokens": 157
+          },
+          "prompt_tokens_details": {
+            "cached_tokens": 2304
+          }
+        },
+        "finish_reason": "stop",
+        "response_chars": 4561,
+        "response_bytes": 6520,
+        "parse_error_type": null,
+        "extra": {}
+      },
+      {
+        "request_id": "87aac64f-7e0d-4f40-9075-236d5f7be60b",
+        "task_id": "8dcd9f62-1b58-4cd5-970e-1e23b399d5c5",
+        "document_id": "c4e33dc0-84c5-4b1a-82d0-c95a5d7ca146",
+        "stage": "ann",
+        "configured_provider": "mimo",
+        "configured_model": "mimo-v2.6-pro",
+        "actual_provider": "mimo",
+        "actual_model": "mimo-v2.6-pro",
+        "execution_status": "completed",
+        "execution_timestamp": "2026-09-26T05:04:39.886560+00:00",
+        "error_type": null,
+        "actual_usage": {
+          "completion_tokens": 5685,
+          "prompt_tokens": 16341,
+          "total_tokens": 22026,
+          "completion_tokens_details": {
+            "reasoning_tokens": 3947
+          },
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "finish_reason": "stop",
+        "response_chars": 7302,
+        "response_bytes": 24995,
+        "parse_error_type": null,
+        "extra": {}
+      }
+    ]
+  },
+  "outcome": "PARTIAL",
+  "first_blocking_point": {
+    "stage": "Compiler/Admission",
+    "observed": "ready IR units exist but questions=0 candidates=13"
+  }
+}
