@@ -1,0 +1,8 @@
+$ C:\Users\Kurtw\AppData\Local\Programs\Python\Python312\python.exe -m app.worker run --allow-live
+exit_code=0
+--- stdout ---
+provider reality evidence: provider_reality.json
+processed 1 task(s)
+
+--- stderr ---
+
