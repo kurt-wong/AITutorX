@@ -1,0 +1,208 @@
+{
+  "task_id": "FORMAL-E2E-ENABLEMENT-02",
+  "level": "L1-single-document",
+  "e2e_run_id": "E2E2-20260926T121829",
+  "database_mode": "fresh_test",
+  "started_at": "2026-09-26T04:18:29.568893+00:00",
+  "formal_entries": {
+    "ingest": "POST http://127.0.0.1:8077/api/documents/import",
+    "worker": "python -m app.worker run --allow-live"
+  },
+  "forbidden_practices": {
+    "direct_executor_instantiation": false,
+    "manual_task_context_injection": false,
+    "hardcoded_budget_approval": false,
+    "actual_equals_config_without_response": false
+  },
+  "db_reset": {
+    "database_mode": "fresh_test",
+    "truncated_tables": [
+      "llm_call_audit",
+      "budget",
+      "questions",
+      "question_knowledge_links",
+      "instance_figure_links",
+      "knowledge_nodes",
+      "documents",
+      "document_source_versions",
+      "materials",
+      "semantic_annotations",
+      "document_source_lines",
+      "source_figures",
+      "document_active_sources",
+      "document_source_selection_events",
+      "unit_groups",
+      "instance_role_contents",
+      "material_links",
+      "admission_candidates",
+      "question_instances",
+      "admission_events",
+      "unit_group_members",
+      "tasks",
+      "task_claims",
+      "document_source_spans",
+      "validation_events"
+    ],
+    "reset_at": "2026-09-26T04:18:30.205062+00:00"
+  },
+  "source": {
+    "pdf_path": "D:\\Project\\Papers\\maintainess\\PDF\\2018北京一零一中高一分班考物理（教师版）(1).pdf",
+    "sha256": "311a567eb928481333c6e97e749f237cb9250e3c94cffa88ea43db681efebbe3",
+    "bytes": 843397
+  },
+  "import_http": {
+    "command": "POST http://127.0.0.1:8077/api/documents/import",
+    "status_code": 200,
+    "body": {
+      "document_id": "5a5ca3bf-097c-4b91-88ac-748a658ccfe5",
+      "task_id": "5a521864-6402-4ffa-884d-5f61e80868e4",
+      "sha256": "311a567eb928481333c6e97e749f237cb9250e3c94cffa88ea43db681efebbe3",
+      "file_name": "2018北京一零一中高一分班考物理（教师版）(1).pdf",
+      "is_new": true
+    },
+    "timestamp": "2026-09-26T04:18:32.489127+00:00"
+  },
+  "worker_cli": {
+    "command": "python -m app.worker run --allow-live",
+    "exit_code": 0,
+    "log_path": "D:\\Project\\AITutor-X\\e2e_run\\formal-e2e-v2-worker-E2E2-20260926T121829.log",
+    "timestamp": "2026-09-26T04:19:27.766703+00:00"
+  },
+  "db_snapshot": {
+    "tasks": [
+      {
+        "id": "5a521864-6402-4ffa-884d-5f61e80868e4",
+        "status": "failed",
+        "llm_invocations": 1,
+        "file_name": "2018北京一零一中高一分班考物理（教师版）(1).pdf"
+      }
+    ],
+    "claims": [
+      {
+        "id": "5646f2f8-9b46-435a-955a-07fe9d5e23b6",
+        "task_id": "5a521864-6402-4ffa-884d-5f61e80868e4",
+        "claim_round": 1,
+        "outcome": "failed",
+        "error_type": "validation_error",
+        "start": "2026-09-26 04:18:33.031855+00:00",
+        "end": "2026-09-26 04:19:27.644784+00:00"
+      }
+    ],
+    "source_versions": [
+      {
+        "id": "b3e20494-d983-4df8-a5f2-aff1b2a8802b",
+        "document_id": "5a5ca3bf-097c-4b91-88ac-748a658ccfe5",
+        "status": "sealed",
+        "body_hash": "23549718636c0328adab84935010111c99fa1028f03a54ddd21bda6864540571",
+        "line_count": 609,
+        "page_count": 14
+      }
+    ],
+    "annotations": [],
+    "counts": {
+      "documents": 1,
+      "questions": 0,
+      "question_instances": 0,
+      "materials": 0,
+      "admission_candidates": 0,
+      "semantic_annotations": 0,
+      "source_figures": 16,
+      "document_source_spans": 855
+    },
+    "llm_audit": [
+      {
+        "request_id": "6123430d-f1db-4989-a2a1-68eeac4cd4f0",
+        "provider": "mimo",
+        "model": "mimo-v2.6-pro",
+        "status": "completed",
+        "start": "2026-09-26 04:18:33.783624+00:00",
+        "input_tokens": 8607,
+        "output_tokens": 4510,
+        "total_tokens": 13117,
+        "estimated_cost": null,
+        "error_type": null
+      }
+    ],
+    "budget": [
+      {
+        "account_dim": "request",
+        "scope_id": "6123430d-f1db-4989-a2a1-68eeac4cd4f0",
+        "used": "1",
+        "reserved": "0"
+      },
+      {
+        "account_dim": "task",
+        "scope_id": "5a521864-6402-4ffa-884d-5f61e80868e4",
+        "used": "1",
+        "reserved": "0"
+      },
+      {
+        "account_dim": "le",
+        "scope_id": "bae3fe88028a6ea4a0dbdb6efe07aea7311999514fe9121c69a824e34e8a6e82",
+        "used": "1",
+        "reserved": "0"
+      },
+      {
+        "account_dim": "document",
+        "scope_id": "5a5ca3bf-097c-4b91-88ac-748a658ccfe5",
+        "used": "1",
+        "reserved": "0"
+      },
+      {
+        "account_dim": "daily",
+        "scope_id": "2026-09-26",
+        "used": "1",
+        "reserved": "0"
+      }
+    ]
+  },
+  "provider_reality_file": "D:\\Project\\AITutors-v3\\backend\\provider_reality.json",
+  "provider_reality": {
+    "generated_at": "2026-09-26T04:19:27.677985+00:00",
+    "records": [
+      {
+        "request_id": "6123430d-f1db-4989-a2a1-68eeac4cd4f0",
+        "task_id": "5a521864-6402-4ffa-884d-5f61e80868e4",
+        "document_id": "5a5ca3bf-097c-4b91-88ac-748a658ccfe5",
+        "stage": "ann",
+        "configured_provider": "mimo",
+        "configured_model": "mimo-v2.6-pro",
+        "actual_provider": "mimo",
+        "actual_model": "mimo-v2.6-pro",
+        "execution_status": "completed",
+        "execution_timestamp": "2026-09-26T04:19:27.566636+00:00",
+        "error_type": null,
+        "actual_usage": {
+          "completion_tokens": 4510,
+          "prompt_tokens": 8607,
+          "total_tokens": 13117,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1323
+          },
+          "prompt_tokens_details": {
+            "cached_tokens": 8576
+          }
+        },
+        "extra": {}
+      }
+    ]
+  },
+  "final_objects": {
+    "documents": 1,
+    "questions": 0,
+    "question_instances": 0,
+    "materials": 0,
+    "admission_candidates": 0,
+    "semantic_annotations": 0,
+    "source_figures": 16,
+    "document_source_spans": 855
+  },
+  "first_blocking_point": {
+    "stage": "Semantic Annotation",
+    "observed": "0 semantic_annotations",
+    "evidence": "annotation stage produced no valid artifact",
+    "action": "RECORD_ONLY"
+  },
+  "outcome": "FIRST_BLOCKING_POINT_IDENTIFIED",
+  "finished_at": "2026-09-26T04:19:27.810301+00:00"
+}
