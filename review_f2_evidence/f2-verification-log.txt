@@ -1,0 +1,149 @@
+F2 VERIFICATION LOG — DSH independent adversarial review of FORMAL-E2E-ENABLEMENT-02
+Date: 2026-09-26  Reviewer: DSH (read-only on AITutors-v3 / Papers); no key material printed.
+
+================================================================================
+[1] GIT REFS
+================================================================================
+AITutor-X  : HEAD e038abfa2953da5adc64cf75d11645d1226389a4
+             origin/main 3a14d92cf5de72f671ae7803fc7bb3cd5132adb2      <-- 2 commits ahead, unpushed
+AITutors-v3: HEAD 7702de9c36927a30907d23791d8ab64b09bc8c5a
+             0 modified tracked; untracked = 10 pre-existing paths + backend/provider_reality.json
+Papers     : HEAD e7c79b6 ; 2 untracked run-accounting files
+
+$ git -C AITutors-v3 show --stat 7702de9        -> 9 files, +145/-16
+    app/ai/budget.py +19 (BudgetService.check)
+    app/ai/executor.py +25/-2 (actual_*, finalize tokens)
+    app/ai/gateway.py +30/-7 (authorize default False; response-derived actual_*)
+    app/ai/provider_reality.py +9 (actual_model/actual_usage fields + no-op guard)
+    app/ai/providers/http.py +7 (last_response_model / last_response_usage)
+    app/domains/task/executor.py +15/-4 (ensure -> check -> authorize)
+    app/repositories/runtime_repository.py +18 (BudgetRepository.remaining)
+    backend/scripts/step0_blind_test.py 2 (legacy default -> mimo-v2.6-pro)
+    backend/tests/test_budget_check.py +36 (4 tests)          <-- ONLY new tests
+
+$ git -C Papers show --stat e7c79b6             -> 1 file, 1 insertion / 1 deletion
+$ git -C AITutor-X show --name-status ce3c149   -> report + formal-e2e-v2-*.json + formal_e2e_v2.py
+$ git -C AITutor-X show --name-status e038abf   -> worker CLI log
+
+================================================================================
+[2] FROZEN SPEC -- all six reproduced (report prints only two)
+================================================================================
+c83a5f96...f134c4  00_Master_Spec.md
+529d133c...418ef1  10_Data_Model.md
+0b7aecee...03005c  20_Document_Pipeline.md
+db9f9aad...e44c89  30_Task_LLM_Safety.md
+8b2c10a9...6525db  40_Development_Rules.md
+8689e741...f157fc7 50_Migration_Assets.md
+=> identical to the values recorded in the two preceding rounds. Unchanged.
+
+================================================================================
+[3] FORMAL ENTRY (previous finding FE-04) -- CLOSED
+================================================================================
+e2e_run/formal_e2e_v2.py
+  :43  subprocess.Popen([PYTHON, "-m", "uvicorn", "app.main:app", ...])
+  :183 httpx.post(f"{API}/api/documents/import", files=...)
+  :55  subprocess.run([PYTHON, "-m", "app.worker", "run", "--allow-live"], capture_output=True)
+  :69  log written to OUT_DIR/formal-e2e-v2-worker-<RUN_ID>.log
+Committed worker log:
+  $ ...python.exe -m app.worker run --allow-live
+  exit_code=0
+  --- stdout ---
+  provider reality evidence: provider_reality.json     <-- CLI-only code path (worker/__main__.py)
+  processed 1 task(s)
+No in-process TaskExecutor construction anywhere in the script.
+
+================================================================================
+[4] EVIDENCE JSON (e2e_run/formal-e2e-v2-E2E2-20260926T121829.json)
+================================================================================
+import_http.status_code 200 ; body document 5a5ca3bf-097c-4b91-88ac-748a658ccfe5
+                                   task     5a521864-6402-4ffa-884d-5f61e80868e4  is_new true
+worker_cli.exit_code 0 ; db_reset.truncated_tables = 25 tables (alembic_version excluded)
+counts: documents 1, questions 0, question_instances 0, materials 0, candidates 0,
+        semantic_annotations 0, source_figures 16, document_source_spans 855
+llm_audit[0]: mimo | mimo-v2.6-pro | completed | 2026-09-26 04:18:33.783624+00
+              input 8607 | output 4510 | total 13117 | estimated_cost null
+provider_reality.records[0]: actual_model "mimo-v2.6-pro" ; actual_usage includes
+              completion_tokens_details.reasoning_tokens 1323
+              prompt_tokens_details.cached_tokens 8576      <-- provider-body-only detail
+first_blocking_point: stage "Semantic Annotation", observed "0 semantic_annotations"
+
+================================================================================
+[5] DATABASE (SELECT-only, docker exec aitutor-postgres psql -U aitutors -d aitutors)
+================================================================================
+counts: documents 1 | semantic_annotations 0 | questions 0 | admission_candidates 0 |
+        source_figures 16 | document_source_spans 855 | llm_call_audit 1 | budget 5 | tasks 1
+audit : mimo|mimo-v2.6-pro|completed|2026-09-26 04:18:33.783624+00|8607|4510|13117|(cost null)
+claim : 5646f2f8-9b46-435a-955a-07fe9d5e23b6|failed|validation_error|
+        "LLM response not valid JSON: Expecting ',' delimiter: line 1 column 9898 (char 9897)"
+budget (limit|used|reserved):
+        request  | 1    | 1 | 0      <-- binding dimension for a call; remaining 0
+        task     | 100  | 1 | 0      <-- the ONLY dimension check() probes
+        le       | 50   | 1 | 0
+        document | 500  | 1 | 0
+        daily    | 2000 | 1 | 0
+Previous round's rows are gone (its document/task/claim/42 audit rows), consistent with the
+recorded db_reset at 2026-09-26T04:18:30Z.
+
+================================================================================
+[6] F2-01 BUDGET COMPOSITION
+================================================================================
+app/domains/task/executor.py:
+    task_ref = AccountRef("task", str(task_id))
+    await budget.ensure(task_ref); await s.commit()          # get-or-create, limit=100, used=0
+    budget_ok = await budget.check([task_ref])               # remaining 100 >= probe 1 -> True
+    self._gateway.authorize(task_context=real_context, budget_ok=budget_ok)
+app/ai/budget.py:43  check(): probe=Decimal("1"); returns False only if remaining is None or < probe
+app/repositories/runtime_repository.py:171 remaining(): SELECT ("limit"-used-reserved) ...; None if missing
+gateway.authorize(): budget_ok default is now False (verified in diff)
+tests/test_budget_check.py:18-24  test_budget_check_after_ensure_available asserts ensure->check == True
+=> the authorization decision is a constant on the formal worker path.
+
+================================================================================
+[7] F2-02 BLOCKING-POINT DIAGNOSABILITY
+================================================================================
+$ git -C AITutors-v3 grep -n "finish_reason\|max_tokens" -- backend/app   -> NO HITS
+providers/http.py:63  json={"model": self._model, "messages":[{"role":"user","content":prompt}]}
+                      (no max_tokens; finish_reason never inspected)
+raw response content preserved nowhere (audit has no content column; only the one-line
+error_detail in task_claims.lease_snapshot).
+=> truncation vs malformed JSON is undecidable from the delivered evidence.
+
+================================================================================
+[8] F2-03 STICKINESS
+================================================================================
+gateway._live(): _last_actual_model/_last_actual_usage assigned AFTER await live.complete(prompt)
+                 -> on exception they retain the previous invocation's values (never reset)
+providers/http.py: last_response_model/usage written only on a successful parse
+ai/executor.py : reads them unconditionally and passes input/output/total tokens to BOTH
+                 finalize_audit(status="completed") and finalize_audit(status="failed")
+
+================================================================================
+[9] F2-04 RUN IDENTITY / DESTRUCTIVE RESET
+================================================================================
+$ git -C AITutors-v3 grep -n "DATABASE_MODE"      -> NO HITS anywhere in the repo
+formal_e2e_v2.py:157  evidence["db_reset"] = await reset_db()      # unconditional
+formal_e2e_v2.py:125  await s.execute(text("TRUNCATE " + ", ".join(tables) + " CASCADE"))
+=> E2E_RUN_ID / DATABASE_MODE are documentary labels only; the truncate is not gated by either.
+
+================================================================================
+[10] F2-07 / F2-08
+================================================================================
+$ git -C AITutors-v3 status --porcelain | Select-String provider_reality
+?? backend/provider_reality.json          (not gitignored, not committed)
+Papers: _redact present? False ; tests/test_no_config_import.py:47 still "except FileNotFoundError as e:"
+        tail assertion now expects "mimo-v2.6-pro" (the single line changed by e7c79b6)
+
+================================================================================
+[11] TESTS -- deliberately NOT executed
+================================================================================
+Report claims: "python -m pytest tests/test_gateway.py tests/test_executor.py tests/test_task_executor.py
+               tests/test_budget.py tests/test_budget_check.py -q -> 61 passed"
+Not reproduced: test_task_executor.py is destructive against the shared database, which currently holds
+this round's only evidence (1 document / 1 task / 1 claim / 1 audit row). No destructive command was run.
+
+================================================================================
+[12] REVIEWER SIDE-EFFECTS
+================================================================================
+- No write to AITutors-v3 or Papers; no test executed; DB access SELECT-only.
+- backend/provider_reality.json was created by the subject run, not by this review.
+- No key material printed.
