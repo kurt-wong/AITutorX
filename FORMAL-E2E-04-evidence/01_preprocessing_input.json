@@ -1,0 +1,21 @@
+{
+  "selected_sample": {
+    "role": "standalone + composite + material candidate",
+    "pdf_path": "D:\\Project\\Papers\\maintainess\\PDF\\2022北京丰台高一（下）期末历史（教师版）(1).pdf",
+    "pdf_sha256": "72afe58664abe8366fd0404acc332c008eebfad0863b367c926fe29bccd41a26",
+    "pdf_bytes": 791365,
+    "page_count": 21,
+    "source_markdown_path": "D:\\Project\\Papers\\Ocr-markdown\\高一\\历史\\2022北京丰台高一（下）期末历史（教师版）(1).md",
+    "source_markdown_sha256": "0938b8e8cd867da77547d3ee0b5b9f229f09c4fd3350885570dbfd755556af6a",
+    "source_markdown_bytes": 68631,
+    "source_markdown_lines": 929,
+    "selection_rationale": "existing real exam PDF + existing OCR markdown; no manual PDF/manifest fabrication"
+  },
+  "formal_entry": "python reslice_pipeline.py --file <source.md> --out FORMAL-E2E-04-evidence/preproc_out",
+  "provider_env": {
+    "LLM_PROVIDER": "mimo",
+    "MIMO_MODEL": "mimo-v2.6-pro",
+    "MIMO_BASE_URL": "https://api.xiaomimimo.com/v1",
+    "MIMO_API_KEY": "PRESENT(not recorded)"
+  }
+}

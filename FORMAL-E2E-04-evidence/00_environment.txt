@@ -1,0 +1,35 @@
+FORMAL-E2E-04 environment
+generated_at: 2026-09-26T16:41:41.009080+00:00
+platform: Windows-11-10.0.26200-SP0
+python: 3.12.9
+
+GIT HEAD
+  AITutors-v3            : 5f097f627de79a8f3c45f1c0bd22f49247f29cb9
+  Papers                 : e7c79b6ce9c61e1ee5f301170d0649d4f50d1b90
+  AITutor-X              : 5de14d1292e6f4ab3b50764af786fd3789271ad2
+  Aitutors-preprocessing : NO .git (working tree only; not a git repo)
+
+V3_SPEC SHA256
+{
+  "00_Master_Spec.md": "c83a5f9613948099d0eda3e04ef317b17cefdba7fe0044e492a70dd205f134c4",
+  "10_Data_Model.md": "529d133c118ed14d99c012b0a3a377d8c23f95420c0a5f28ce5deb2531418ef1",
+  "20_Document_Pipeline.md": "0b7aecee3f87bba4e920f5aa9a2cd91ff1dced64b00223bc81df26bcc803005c",
+  "30_Task_LLM_Safety.md": "db9f9aad1d5b294e03c01dd65817e79576317f472ad664d04c47eba061e44c89",
+  "40_Development_Rules.md": "8b2c10a98a569586e0e7fe162e047b9dec3d07f821e24e5926a706525a6525db",
+  "50_Migration_Assets.md": "8689e741e9b12cb02a56c7816f42e34324e4ddc9ac589610d3fb3de23f157fc7"
+}
+
+WORKING TREE (uncommitted noted; Frozen Spec untouched)
+  AITutors-v3: pre-existing untracked COORDINATION docs only (not modified this task)
+
+FORMAL ENTRIES USED
+  preprocessing : python reslice_pipeline.py --file <source.md> --out <dir>
+                  (Aitutors-preprocessing/scripts/reslice_pipeline.py)
+  V3 consumer   : python -m scripts.preprocessing_consumer.runner --corpus <dir> --output <json>
+                  (AITutors-v3/backend/scripts/preprocessing_consumer/runner.py)
+  NOT USED as production path: POST /api/documents/import + app.worker (PDF self-parse boundary)
+
+PROVIDER
+  configured: mimo / mimo-v2.6-pro
+  peak-time policy: DeepSeek forbidden workday 08:00-12:00 / 14:00-18:00
+  run local time Beijing: 2026-09-27 00:28 (outside peak; MIMO used anyway)

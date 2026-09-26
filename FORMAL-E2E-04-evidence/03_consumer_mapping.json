@@ -1,0 +1,102 @@
+{
+  "consumer_entry": "python -m scripts.preprocessing_consumer.runner --corpus ... --output ...",
+  "path_A_fresh_reslice_output": {
+    "artifact": "D:\\Project\\AITutor-X\\FORMAL-E2E-04-evidence\\preproc_out\\2022北京丰台高一（下）期末历史（教师版）(1).manifest.json",
+    "interface_scope": {
+      "accepted": false,
+      "code": "MISSING_IDENTITY",
+      "declared_identity_version": null,
+      "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity).",
+      "downstream_executed": false
+    },
+    "result": "BLOCKED before Track A/B"
+  },
+  "path_B_identity_complete_real_artifact": {
+    "artifact": "D:\\Project\\Papers\\Ocr-markdown\\reslice-batch-C\\会考\\历史\\2018北京夏季高中会考历史（教师版）(1).manifest.json",
+    "why": "real producer artifact WITH source_content_sha256 (not hand-crafted); used to verify consumer mapping + V3 semantic path",
+    "interface_scope": "accepted",
+    "track_a": {
+      "track": "A",
+      "status": "completed",
+      "candidates_created": 0,
+      "skipped": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6",
+        "Q7",
+        "Q8",
+        "Q9",
+        "Q10",
+        "Q11",
+        "Q12",
+        "Q13",
+        "Q14",
+        "Q15",
+        "Q16",
+        "Q17",
+        "Q18",
+        "Q19",
+        "Q20",
+        "Q21",
+        "Q22",
+        "Q23",
+        "Q24",
+        "Q25",
+        "Q26",
+        "Q27",
+        "Q28",
+        "Q29",
+        "Q30",
+        "Q31",
+        "Q32",
+        "Q33",
+        "Q34",
+        "Q35",
+        "Q36",
+        "Q37",
+        "Q38",
+        "Q39",
+        "Q40",
+        "Q41",
+        "Q42",
+        "Q43",
+        "Q44",
+        "Q45",
+        "Q46",
+        "Q47",
+        "Q48",
+        "Q49",
+        "Q50",
+        "U51",
+        "U52",
+        "U53"
+      ],
+      "gate_pass": 0,
+      "gate_rejected": 0,
+      "pending_review": 0
+    },
+    "track_b": {
+      "track": "B",
+      "status": "completed",
+      "spans_constructed": 212,
+      "spans_failed": 0,
+      "unresolved_detail": [],
+      "spans_with_bad_refs": 0
+    }
+  },
+  "mapping_checks": {
+    "standalone_question -> standalone_unit": "PERFORMED by annotation_adapter (canonical OD-2)",
+    "composite_question -> composite_unit": "PERFORMED by annotation_adapter",
+    "shared_material preserved": "shared_components.material role; NOT merged into stem (adapter code)",
+    "sub_questions preserved": "1:1 deterministic translation (GAP_SUB_QUESTION_DECOMPOSITION registered)",
+    "source lineage": "source_content_sha256 retained verbatim when present; path never used as identity"
+  },
+  "consumer_persistence": {
+    "runner_always_rollback": true,
+    "evidence": "scripts/preprocessing_consumer/runner.py run_corpus finally: await session.rollback()",
+    "impact": "Track A/B validate mapping in-transaction then discard; NO persistent V3 ingest of preprocessing artifacts exists"
+  }
+}

@@ -1,0 +1,1825 @@
+{
+ "source_file": "D:\\Project\\Papers\\Ocr-markdown\\会考\\历史\\2018北京夏季高中会考历史（教师版）(1).md",
+ "model": "mimo-x-pro-preview",
+ "annotation_meta": {
+  "prompt_version": "reslice-pilot-v2.1",
+  "validation_issues": [],
+  "warnings": []
+ },
+ "units": [
+  {
+   "unit_id": "Q1",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    1
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    9,
+    9
+   ],
+   "options_lines": [
+    11,
+    11
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    637,
+    637
+   ],
+   "explanation_lines": [
+    639,
+    641
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    1
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L9"
+  },
+  {
+   "unit_id": "Q2",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    2
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    13,
+    15
+   ],
+   "options_lines": [
+    18,
+    18
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    643,
+    643
+   ],
+   "explanation_lines": [
+    645,
+    649
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    2
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L13"
+  },
+  {
+   "unit_id": "Q3",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    3
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    20,
+    20
+   ],
+   "options_lines": [
+    22,
+    28
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    651,
+    651
+   ],
+   "explanation_lines": [
+    653,
+    653
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    3
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L20"
+  },
+  {
+   "unit_id": "Q4",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    4
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    30,
+    30
+   ],
+   "options_lines": [
+    32,
+    38
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    655,
+    655
+   ],
+   "explanation_lines": [
+    657,
+    659
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    4
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L30"
+  },
+  {
+   "unit_id": "Q5",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    5
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    40,
+    40
+   ],
+   "options_lines": [
+    42,
+    48
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    661,
+    661
+   ],
+   "explanation_lines": [
+    663,
+    667
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    5
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L40"
+  },
+  {
+   "unit_id": "Q6",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    6
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    50,
+    50
+   ],
+   "options_lines": [
+    54,
+    60
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    669,
+    669
+   ],
+   "explanation_lines": [
+    671,
+    677
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    6
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L50"
+  },
+  {
+   "unit_id": "Q7",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    7
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    62,
+    62
+   ],
+   "options_lines": [
+    64,
+    70
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    679,
+    679
+   ],
+   "explanation_lines": [
+    681,
+    683
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    7
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L62"
+  },
+  {
+   "unit_id": "Q8",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    8
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    72,
+    74
+   ],
+   "options_lines": [
+    77,
+    77
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    685,
+    685
+   ],
+   "explanation_lines": [
+    687,
+    689
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    8
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L72"
+  },
+  {
+   "unit_id": "Q9",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    9
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    79,
+    79
+   ],
+   "options_lines": [
+    81,
+    87
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    691,
+    691
+   ],
+   "explanation_lines": [
+    693,
+    695
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    9
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L79"
+  },
+  {
+   "unit_id": "Q10",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    10
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    89,
+    91
+   ],
+   "options_lines": [
+    94,
+    94
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    697,
+    697
+   ],
+   "explanation_lines": [
+    699,
+    701
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    10
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L89"
+  },
+  {
+   "unit_id": "Q11",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    11
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    96,
+    96
+   ],
+   "options_lines": [
+    98,
+    104
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    703,
+    703
+   ],
+   "explanation_lines": [
+    705,
+    707
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    11
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L96"
+  },
+  {
+   "unit_id": "Q12",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    12
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    106,
+    110
+   ],
+   "options_lines": [
+    112,
+    118
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    709,
+    709
+   ],
+   "explanation_lines": [
+    711,
+    717
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    12
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L106"
+  },
+  {
+   "unit_id": "Q13",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    13
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    120,
+    120
+   ],
+   "options_lines": [
+    122,
+    122
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    719,
+    719
+   ],
+   "explanation_lines": [
+    721,
+    723
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": null,
+   "printed_provenance": "unknown",
+   "basis": "unverified",
+   "basis_evidence": ""
+  },
+  {
+   "unit_id": "Q14",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    14
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    124,
+    132
+   ],
+   "options_lines": [
+    134,
+    140
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    725,
+    725
+   ],
+   "explanation_lines": [
+    727,
+    729
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    14
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L124"
+  },
+  {
+   "unit_id": "Q15",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    15
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    142,
+    142
+   ],
+   "options_lines": [
+    144,
+    150
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    731,
+    731
+   ],
+   "explanation_lines": [
+    733,
+    735
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    15
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L142"
+  },
+  {
+   "unit_id": "Q16",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    16
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    152,
+    154
+   ],
+   "options_lines": [
+    157,
+    163
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    737,
+    737
+   ],
+   "explanation_lines": [
+    739,
+    741
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    16
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L152"
+  },
+  {
+   "unit_id": "Q17",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    17
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    165,
+    165
+   ],
+   "options_lines": [
+    167,
+    167
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    743,
+    743
+   ],
+   "explanation_lines": [
+    745,
+    749
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    17
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L165"
+  },
+  {
+   "unit_id": "Q18",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    18
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    169,
+    169
+   ],
+   "options_lines": [
+    173,
+    179
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    751,
+    751
+   ],
+   "explanation_lines": [
+    753,
+    759
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    18
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L169"
+  },
+  {
+   "unit_id": "Q19",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    19
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    181,
+    183
+   ],
+   "options_lines": [
+    186,
+    192
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    761,
+    761
+   ],
+   "explanation_lines": [
+    763,
+    767
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": null,
+   "printed_provenance": "unknown",
+   "basis": "unverified",
+   "basis_evidence": ""
+  },
+  {
+   "unit_id": "Q20",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    20
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    194,
+    194
+   ],
+   "options_lines": [
+    196,
+    202
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    769,
+    769
+   ],
+   "explanation_lines": [
+    771,
+    773
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    20
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L194"
+  },
+  {
+   "unit_id": "Q21",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    21
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    204,
+    204
+   ],
+   "options_lines": [
+    206,
+    212
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    775,
+    775
+   ],
+   "explanation_lines": [
+    777,
+    779
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    21
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L204"
+  },
+  {
+   "unit_id": "Q22",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    22
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    214,
+    214
+   ],
+   "options_lines": [
+    216,
+    222
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    781,
+    781
+   ],
+   "explanation_lines": [
+    783,
+    785
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    22
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L214"
+  },
+  {
+   "unit_id": "Q23",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    23
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    224,
+    234
+   ],
+   "options_lines": [
+    236,
+    242
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    787,
+    787
+   ],
+   "explanation_lines": [
+    789,
+    791
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    23
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L224"
+  },
+  {
+   "unit_id": "Q24",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    24
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    244,
+    244
+   ],
+   "options_lines": [
+    246,
+    252
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    793,
+    793
+   ],
+   "explanation_lines": [
+    795,
+    805
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    24
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L244"
+  },
+  {
+   "unit_id": "Q25",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    25
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    254,
+    254
+   ],
+   "options_lines": [
+    256,
+    262
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    807,
+    807
+   ],
+   "explanation_lines": [
+    809,
+    811
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    25
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L254"
+  },
+  {
+   "unit_id": "Q26",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    26
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    264,
+    267
+   ],
+   "options_lines": [
+    269,
+    275
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    813,
+    813
+   ],
+   "explanation_lines": [
+    815,
+    817
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    26
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L264"
+  },
+  {
+   "unit_id": "Q27",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    27
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    277,
+    277
+   ],
+   "options_lines": [
+    279,
+    285
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    819,
+    819
+   ],
+   "explanation_lines": [
+    821,
+    823
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    27
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L277"
+  },
+  {
+   "unit_id": "Q28",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    28
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    287,
+    287
+   ],
+   "options_lines": [
+    289,
+    297
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    825,
+    825
+   ],
+   "explanation_lines": [
+    827,
+    829
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    28
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L287"
+  },
+  {
+   "unit_id": "Q29",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    29
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    299,
+    299
+   ],
+   "options_lines": [
+    301,
+    307
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    831,
+    831
+   ],
+   "explanation_lines": [
+    833,
+    835
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    29
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L299"
+  },
+  {
+   "unit_id": "Q30",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    30
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    309,
+    317
+   ],
+   "options_lines": [
+    319,
+    325
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    837,
+    837
+   ],
+   "explanation_lines": [
+    839,
+    841
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    30
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L309"
+  },
+  {
+   "unit_id": "Q31",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    31
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    327,
+    327
+   ],
+   "options_lines": [
+    329,
+    335
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    843,
+    843
+   ],
+   "explanation_lines": [
+    845,
+    849
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": null,
+   "printed_provenance": "unknown",
+   "basis": "unverified",
+   "basis_evidence": ""
+  },
+  {
+   "unit_id": "Q32",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    32
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    337,
+    337
+   ],
+   "options_lines": [
+    339,
+    345
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    851,
+    851
+   ],
+   "explanation_lines": [
+    853,
+    855
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    32
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L337"
+  },
+  {
+   "unit_id": "Q33",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    33
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    347,
+    347
+   ],
+   "options_lines": [
+    349,
+    355
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    857,
+    857
+   ],
+   "explanation_lines": [
+    859,
+    863
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    33
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L347"
+  },
+  {
+   "unit_id": "Q34",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    34
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    357,
+    357
+   ],
+   "options_lines": [
+    361,
+    361
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    865,
+    865
+   ],
+   "explanation_lines": [
+    867,
+    869
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    34
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L357"
+  },
+  {
+   "unit_id": "Q35",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    35
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    363,
+    363
+   ],
+   "options_lines": [
+    365,
+    371
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    871,
+    871
+   ],
+   "explanation_lines": [
+    873,
+    875
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    35
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L363"
+  },
+  {
+   "unit_id": "Q36",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    36
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    373,
+    376
+   ],
+   "options_lines": [
+    378,
+    384
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    877,
+    877
+   ],
+   "explanation_lines": [
+    879,
+    881
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    36
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L373"
+  },
+  {
+   "unit_id": "Q37",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    37
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    386,
+    386
+   ],
+   "options_lines": [
+    388,
+    394
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    883,
+    883
+   ],
+   "explanation_lines": [
+    885,
+    889
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    37
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L386"
+  },
+  {
+   "unit_id": "Q38",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    38
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    396,
+    396
+   ],
+   "options_lines": [
+    398,
+    404
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    891,
+    891
+   ],
+   "explanation_lines": [
+    893,
+    895
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    38
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L396"
+  },
+  {
+   "unit_id": "Q39",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    39
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    406,
+    406
+   ],
+   "options_lines": [
+    408,
+    414
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    897,
+    897
+   ],
+   "explanation_lines": [
+    899,
+    901
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    39
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L406"
+  },
+  {
+   "unit_id": "Q40",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    40
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    416,
+    416
+   ],
+   "options_lines": [
+    418,
+    426
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    903,
+    903
+   ],
+   "explanation_lines": [
+    905,
+    907
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": null,
+   "printed_provenance": "unknown",
+   "basis": "unverified",
+   "basis_evidence": ""
+  },
+  {
+   "unit_id": "Q41",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    41
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    428,
+    428
+   ],
+   "options_lines": [
+    430,
+    430
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    909,
+    909
+   ],
+   "explanation_lines": [
+    911,
+    913
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    41
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L428"
+  },
+  {
+   "unit_id": "Q42",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    42
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    432,
+    432
+   ],
+   "options_lines": [
+    434,
+    440
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    915,
+    915
+   ],
+   "explanation_lines": [
+    917,
+    919
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    42
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L432"
+  },
+  {
+   "unit_id": "Q43",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    43
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    442,
+    442
+   ],
+   "options_lines": [
+    444,
+    450
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    921,
+    921
+   ],
+   "explanation_lines": [
+    923,
+    929
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    43
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L442"
+  },
+  {
+   "unit_id": "Q44",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    44
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    452,
+    452
+   ],
+   "options_lines": [
+    454,
+    460
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    931,
+    931
+   ],
+   "explanation_lines": [
+    933,
+    937
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    44
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L452"
+  },
+  {
+   "unit_id": "Q45",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    45
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    462,
+    462
+   ],
+   "options_lines": [
+    464,
+    470
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    939,
+    939
+   ],
+   "explanation_lines": [
+    941,
+    951
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    45
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L462"
+  },
+  {
+   "unit_id": "Q46",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    46
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    472,
+    472
+   ],
+   "options_lines": [
+    474,
+    474
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    953,
+    953
+   ],
+   "explanation_lines": [
+    955,
+    957
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": null,
+   "printed_provenance": "unknown",
+   "basis": "unverified",
+   "basis_evidence": ""
+  },
+  {
+   "unit_id": "Q47",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    47
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    476,
+    476
+   ],
+   "options_lines": [
+    478,
+    484
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    959,
+    959
+   ],
+   "explanation_lines": [
+    961,
+    965
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    47
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L476"
+  },
+  {
+   "unit_id": "Q48",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    48
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    486,
+    496
+   ],
+   "options_lines": [
+    498,
+    504
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    969,
+    969
+   ],
+   "explanation_lines": [
+    971,
+    973
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    48
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L486"
+  },
+  {
+   "unit_id": "Q49",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    49
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    506,
+    514
+   ],
+   "options_lines": [
+    516,
+    522
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    975,
+    975
+   ],
+   "explanation_lines": [
+    977,
+    979
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    49
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L506"
+  },
+  {
+   "unit_id": "Q50",
+   "unit_type": "standalone_question",
+   "question_numbers": [
+    50
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    524,
+    524
+   ],
+   "options_lines": [
+    526,
+    532
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    981,
+    981
+   ],
+   "explanation_lines": [
+    983,
+    985
+   ],
+   "section_ref": "S3",
+   "section": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "printed_number": [
+    50
+   ],
+   "printed_provenance": "source_line",
+   "basis": "printed_as_is",
+   "basis_evidence": "题干首行印刷题号 L524"
+  },
+  {
+   "unit_id": "U51",
+   "unit_type": "composite_question",
+   "question_numbers": [
+    51
+   ],
+   "original_question_type": "short_answer",
+   "material_lines": [
+    536,
+    567
+   ],
+   "questions_lines": [
+    536,
+    567
+   ],
+   "answer_lines": [
+    989,
+    993
+   ],
+   "explanation_lines": [
+    995,
+    1005
+   ],
+   "section_ref": "S4",
+   "section": "第二部分非选择题（共50分）",
+   "printed_number": null,
+   "printed_provenance": "unknown",
+   "basis": "unverified",
+   "basis_evidence": ""
+  },
+  {
+   "unit_id": "U52",
+   "unit_type": "composite_question",
+   "question_numbers": [
+    52
+   ],
+   "original_question_type": "short_answer",
+   "material_lines": [
+    569,
+    592
+   ],
+   "questions_lines": [
+    569,
+    592
+   ],
+   "answer_lines": [
+    1007,
+    1015
+   ],
+   "explanation_lines": [
+    1017,
+    1023
+   ],
+   "section_ref": "S4",
+   "section": "第二部分非选择题（共50分）",
+   "printed_number": null,
+   "printed_provenance": "unknown",
+   "basis": "unverified",
+   "basis_evidence": ""
+  },
+  {
+   "unit_id": "U53",
+   "unit_type": "composite_question",
+   "question_numbers": [
+    53
+   ],
+   "original_question_type": "short_answer",
+   "material_lines": [
+    594,
+    627
+   ],
+   "questions_lines": [
+    594,
+    627
+   ],
+   "answer_lines": [
+    1025,
+    1033
+   ],
+   "explanation_lines": [
+    1035,
+    1045
+   ],
+   "section_ref": "S4",
+   "section": "第二部分非选择题（共50分）",
+   "printed_number": null,
+   "printed_provenance": "unknown",
+   "basis": "unverified",
+   "basis_evidence": ""
+  }
+ ],
+ "identity_version": 2,
+ "sections": [
+  {
+   "id": "S0",
+   "title": "2018 北京夏季高中会考",
+   "ordinal": 1,
+   "start_line": 1,
+   "end_line": 2,
+   "occurrence": 1
+  },
+  {
+   "id": "S1",
+   "title": "历 史",
+   "ordinal": 2,
+   "start_line": 3,
+   "end_line": 4,
+   "occurrence": 1
+  },
+  {
+   "id": "S2",
+   "title": "第一部分选择题（每小题1分，共50分）",
+   "ordinal": 3,
+   "start_line": 5,
+   "end_line": 6,
+   "occurrence": 1
+  },
+  {
+   "id": "S3",
+   "title": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "ordinal": 4,
+   "start_line": 7,
+   "end_line": 533,
+   "occurrence": 1
+  },
+  {
+   "id": "S4",
+   "title": "第二部分非选择题（共50分）",
+   "ordinal": 5,
+   "start_line": 534,
+   "end_line": 632,
+   "occurrence": 1
+  },
+  {
+   "id": "S5",
+   "title": "第一部分选择题（每小题1分，共50分）",
+   "ordinal": 6,
+   "start_line": 633,
+   "end_line": 634,
+   "occurrence": 2
+  },
+  {
+   "id": "S6",
+   "title": "在下列各题的四个选项中，只有一项是符合题意的。",
+   "ordinal": 7,
+   "start_line": 635,
+   "end_line": 802,
+   "occurrence": 2
+  },
+  {
+   "id": "S7",
+   "title": "【名师点睛】",
+   "ordinal": 8,
+   "start_line": 803,
+   "end_line": 950,
+   "occurrence": 1
+  },
+  {
+   "id": "S8",
+   "title": "【详解】",
+   "ordinal": 9,
+   "start_line": 951,
+   "end_line": 986,
+   "occurrence": 1
+  },
+  {
+   "id": "S9",
+   "title": "第二部分非选择题（共50分）",
+   "ordinal": 10,
+   "start_line": 987,
+   "end_line": 1045,
+   "occurrence": 2
+  }
+ ],
+ "source_content_sha256": "d4917437065bfcb8eda24dd45b4e92ca4e2bb6eb8bb4342170903e4c5a62e714"
+}
