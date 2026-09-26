@@ -1,0 +1,27 @@
+FORMAL-E2E-04 V3 consumer execution log
+generated_at: 2026-09-26T16:41:41.813601+00:00
+
+=== RUN 1: fresh reslice_pipeline output (formal preprocessing) ===
+command: python -m scripts.preprocessing_consumer.runner --corpus .../preproc_out --output consumer-report.json
+result: Found 1 manifests / Interface Scope blocked: 1 / Track A: 0/1 / Track B: 0/1
+FIRST BLOCKING (formal chain): MISSING_IDENTITY
+  reason: Manifest does not declare source_content_sha256;
+          cross-system identity cannot be established (path must never be used as identity).
+  downstream_executed: false
+
+=== RUN 2: identity-complete real producer artifact ===
+command: python -m scripts.preprocessing_consumer.runner --corpus .../consumer_input_identity_ok --output consumer-report-identity-ok.json
+result: Interface Scope blocked: 0 / Track A: 1/1 completed / Track B: 1/1 completed
+  track_b spans_constructed=212 spans_failed=0
+  track_a candidates_created=0 skipped=53/53 (ALL units)
+  gate_pass=0 gate_rejected=0 pending_review=0
+  persistence: session.rollback() — no rows committed
+
+=== NOT USED (wrong production boundary per task) ===
+POST /api/documents/import + python -m app.worker run  (V3 self-parse PDF path)
+
+=== API / Frontend read path ===
+Question API     : NOT IMPLEMENTED
+Material API     : NOT IMPLEMENTED
+Instance API     : NOT IMPLEMENTED
+Present read API : GET /api/documents/<built-in function id>, source-lines, source-quality, GET /api/candidates/<built-in function id>
