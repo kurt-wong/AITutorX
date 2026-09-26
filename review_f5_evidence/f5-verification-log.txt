@@ -1,0 +1,100 @@
+F5 VERIFICATION LOG — DSH independent verification of FORMAL-E2E-05
+Date: 2026-09-27  Reviewer: DSH (read-only; DB access SELECT-only)
+
+================================================================================
+[1] GIT REFS
+================================================================================
+AITutor-X  : HEAD 787e1fa2ff2f2ff86341056ef9fabd840eb749ff (child of the F4-04 review commit fa3a01c)
+             origin/main was 5de14d12… (unpushed at review start) -> pushed during this review:
+             5de14d1..787e1fa  main -> main
+AITutors-v3: 5f097f627de79a8f3c45f1c0bd22f49247f29cb9 ; 0 modified tracked files
+Papers     : e7c79b6ce9c61e1ee5f301170d0649d4f50d1b90
+$ git show --name-status 787e1fa -> report + evidence/{git_and_spec_snapshot.json,
+    preprocessing/{reslice_execution.log, consumer_execution.log, consumer_report.json,
+    output_summary.json, out/*.manifest.json, out/*.md, out/*.annotated.md}}
+
+================================================================================
+[2] HASHES — ALL REPRODUCED
+================================================================================
+evidence/preprocessing/out/
+  2022…(1).manifest.json  20579 B  sha256 44622cf8fbaf5089835f93cd49767d3a1212dd898d8ce3a62bce5f47a02188f4
+  2022…(1).md             61036 B  sha256 df907f5ea5adf6316b82f1f56f84862c28b04e3909fab28c6cdce0b63a7030d9
+  2022…(1).annotated.md   80127 B  sha256 16a5a65a7cd4417a7f3f5103e60ce46214c4dbb4aa43ecb7a1a447b8599f97fc
+  -> identical to report 1.3 and to output_summary.json.artifacts
+contract: PREPROCESSING-V3-CONTRACT-v0.2-DRAFT.md = 9c6b9063e81fb2a66d85794b280c9d931f1b0074b39abf472033218149b17528
+  -> matches report 1.1 and git_and_spec_snapshot.task_cited_contract_hash
+V3_SPEC 6/6 also re-verified unchanged (00 c83a5f96…, 10 529d133c…, 20 0b7aecee…, 30 db9f9aad…,
+  40 8b2c10a9…, 50 8689e741…) — the report prints only 3 of them (F5-03).
+
+================================================================================
+[3] GENUINE RE-RUN (not a copy of EN-04)
+================================================================================
+hash compare evidence/preprocessing/out/* vs FORMAL-E2E-04-evidence/preproc_out/*:
+  manifest  same=False   (20579 B here vs 16993 B in EN-04)
+  md        same=False   (61036 B vs 61038 B)
+  annotated same=False   (80127 B both, different hash)
+unit structure reproduced identically: 30 units = standalone_question 26 + composite_question 4,
+  with_material_lines = 4  (parsed from the manifest itself)
+
+================================================================================
+[4] MANIFEST / CONSUMER
+================================================================================
+manifest top-level keys: source_file, model, annotation_meta, units
+  -> source_content_sha256 / identity_version are ABSENT (not declared-null)          [F5-05]
+  model = mimo-v2.6-pro ; prompt_version = reslice-pilot-v2.7 ; units = 30
+consumer_report.json: total_units 30 | interface_scope_blocked 1 | Track A 0/1 | Track B 0/1 |
+  accepted false | code MISSING_IDENTITY | declared_identity_version null |
+  "Manifest does not declare source_content_sha256; cross-system identity cannot be established
+   (path must never be used as identity)." | downstream_executed false
+consumer_execution.log (runner stdout): "Found 1 manifests in …", "[1/1] …",
+  "Interface Scope blocked: 1", "Track A: 0/1 ok, 0 errors", "Track B: 0/1 ok, 0 errors",
+  "Contract gaps: 0"
+reslice_execution.log (pipeline output): "929 行, prompt 46223 字" ;
+  "units=30 覆盖题号=30 校验问题=0 警告=0" ; "完成：1/1 无校验问题"
+code order: runner.py:46 imports enforce_interface_scope ; run_corpus at :217 with continue at
+  :241/:246/:252 -> gate runs before Track A/B (report 1.4 accurate)
+
+================================================================================
+[5] AUTHORITY (F5-01)
+================================================================================
+PREPROCESSING-V3-CONTRACT-v0.2-DRAFT.md
+  :3  "> **状态**：**DRAFT（Freeze Candidate Finalized）。READY FOR FREEZE。NOT FROZEN。**"
+  :18 "### 0.1 冻结内容（六项，binding；接口键名 = `source_content_sha256`，DEC-030/031）"
+  :22 "| **① Identity** | 跨系统身份键 = `SHA256(original source bytes)`，**64 字符小写 hex**；
+       键名 = `source_content_sha256` |"
+  :66 "**V3 侧义务现状（OBSERVED，全部未实现）**：验证 Manifest（无校验，manifest_reader.py:52）·
+       重算 hash（不读 producer sha，自算为 canonical…）"
+Docs/V3_SPEC/90_DOCUMENT_GOVERNANCE.md:681-692 (frozen): defines Path B and requires ResolvedRun to be
+  the sole consumption entry, with identical downstream for both paths.
+=> Path B = frozen Spec; identity key = NOT-FROZEN contract; enforcement = contract-tier code.
+
+================================================================================
+[6] DATABASE (SELECT-only) — "no new rows" is TRUE but unevidenced in the bundle (F5-03)
+================================================================================
+documents 2 | semantic_annotations 2 | admission_candidates 13 | questions 0 | unit_groups 0 |
+tasks 2 | llm_call_audit 2 | source_figures 8 | document_source_spans 3501
+  -> identical to ENABLEMENT-03's end state; no new document/task/candidate from this round.
+No DB snapshot ships in evidence/ (EN-04 proved the same class of claim with byte-identical snapshots).
+
+================================================================================
+[7] F5-02 — EN-04 F04-02 DEMOTED
+================================================================================
+EN-04 report: "F04-02 Consumer runner 永不持久化" = numbered finding (evidence: identical 05/06 snapshots)
+EN-05 report: absent from GAP-PB-01..03; only a 3.4 parenthetical ("为已知实现事实 … 需 Owner 确认")
+  -> the gap that blocks Path B even after identity is fixed (runner.py:295-296/:316-317 rollback,
+     vs 90 §H-C "both paths must feed one ResolvedRun") is no longer a numbered decision item.
+
+================================================================================
+[8] F5-04 / F5-06
+================================================================================
+bundle location: D:\Project\AITutor-X\evidence\   (EN-04 used FORMAL-E2E-04-evidence/) — un-namespaced.
+credited: raw logs (F4-05 does not recur) ; markdown_sliced hash correctly recorded (F4-06 fixed) ;
+Spec-vs-Contract tier claim correct (F4-01 adopted) ; Aitutors-preprocessing recorded as "NO_GIT" ;
+"HEAD（验证前）= fa3a01c" accurate ; code modifications 0 verified in both git repos.
+
+================================================================================
+[9] REVIEWER SIDE-EFFECTS
+================================================================================
+- No write to any repo tree; no state-mutating command; DB access SELECT-only; no key material printed.
+- Pushed 5de14d1..787e1fa (my F4-04 review + MIMO CODE 88f0a3f/6c666ab/787e1fa) after earlier
+  network failures.
