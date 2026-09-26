@@ -1,0 +1,119 @@
+F3 VERIFICATION LOG — DSH independent adversarial review of FORMAL-E2E-ENABLEMENT-03
+Date: 2026-09-26  Reviewer: DSH (read-only on AITutors-v3 / Papers); no destructive command run.
+
+================================================================================
+[1] GIT REFS
+================================================================================
+AITutor-X  : HEAD 871ccfcc95631f85903be93250a43af5304aff2c ; origin/main 0e4747d9... (unpushed)
+AITutors-v3: HEAD 5f097f627de79a8f3c45f1c0bd22f49247f29cb9 ; 0 modified tracked
+             untracked: same pre-existing set + backend/provider_reality.json   (F2-07 repeat)
+Papers     : HEAD e7c79b6ce9c61e1ee5f301170d0649d4f50d1b90  (UNCHANGED this round)
+
+$ git -C AITutors-v3 show --stat 5f097f6    -> 5 files, +83/-5, NO test files
+    app/ai/executor.py, app/ai/gateway.py, app/ai/provider_reality.py,
+    app/ai/providers/http.py, app/domains/annotation/service.py
+$ git -C AITutor-X show --name-status 871ccfc
+    A Docs/60_REPORTS/FORMAL-E2E-ENABLEMENT-03-REPORT.md
+    A e2e_run/formal-e2e-v3-E2E3-20260926T130248.json
+    A e2e_run/formal-e2e-v3-worker-E2E3-20260926T130248.log
+    A e2e_run/formal_e2e_v3.py
+
+================================================================================
+[2] F3-01  RESOLVER/IR ARE AN OUT-OF-BAND REPLAY   (formal_e2e_v3.py:175-237)
+================================================================================
+    from app.domains.compile.ir import IRBuilder
+    from app.domains.gate.service import _annotation_identity_projection
+    from app.domains.resolver.resolver import SourceResolver
+    from app.domains.resolver.span import SourceLineView
+    ...
+    views = tuple(SourceLineView(...) for L in lines)
+    resolver = SourceResolver(source_version_id=sv_id, lines=views)
+    run = resolver.resolve(_annotation_identity_projection(payload))
+    ir = IRBuilder.build(run, _annotation_identity_projection(payload), sv_id, UUID(ann_id))
+ -> written into artifact key "annotation_resolver_ir", which is the sole source for report 5.3/5.4.
+ Corroboration (independent): DB admission_candidates = 13, matching IR ready = 13.
+
+================================================================================
+[3] F3-02  STALE FIGURES IN REPORT 5.1
+================================================================================
+report 5.1            : source_figures = 16 , document_source_spans = 855
+artifact import_counts: source_figures =  8 , document_source_spans = 3501 , lines = 820
+DB (verified)         : source_figures total 8 ; document_source_spans total 3501 ; lines 820
+   per source version  : 0d4fbca1 (90-line doc)  -> 922 spans
+                         b8d7574e (730-line doc) -> 2579 spans   (922+2579 = 3501)
+ 16 / 855 are ENABLEMENT-02's single-physics-document counts (stale carry-over).
+
+================================================================================
+[4] F3-03  ISOLATION GUARD IS DEFAULT-ALLOW
+================================================================================
+formal_e2e_v3.py
+  :68  ALLOWED_RESET_MODES = {"test", "fresh_test"}
+  :73  if database_mode not in ALLOWED_RESET_MODES: raise RuntimeError("reset_db refused: ...")
+  :242 database_mode = os.environ.get("DATABASE_MODE") or "fresh_test"     <-- ""/unset -> fresh_test
+  :244 os.environ["DATABASE_MODE"] = database_mode
+  :298 evidence["db_reset"] = await reset_db_guarded(database_mode)        <-- allowed
+  :87  await s.execute(text("TRUNCATE " + ", ".join(tables) + " CASCADE"))
+Report 1.2 claims: 'DATABASE_MODE=production / dev / "" -> REFUSE'.  The "" (and unset) case is ALLOWED.
+
+================================================================================
+[5] F3-04  RUN IDENTITY
+================================================================================
+artifact evidence_metadata.GIT_COMMIT = { v3: 7702de9 (previous task's commit),
+                                          Papers: e7c79b6,
+                                          AITutor-X: 0e4747d (review commit of the PREVIOUS round) }
+evidence contains finish_reason / response_chars / response_bytes / parse_error_type
+ -> those fields exist only in 5f097f6, committed 13:06:33, i.e. AFTER the run (13:02:48).
+ => the run executed uncommitted working-tree code; the recorded commit is the base, not the executed revision.
+Report 1.1 prints only the v3 line (delivery summary says "three-repo GIT_COMMIT").
+
+================================================================================
+[6] F3-05  RESET NOT PROVEN / NO TESTS
+================================================================================
+http.py complete(): resets last_response_model/usage/finish_reason/chars/bytes/parse_error_type first
+gateway._live():    resets _last_actual_provider/model/usage/finish_reason/chars/bytes/parse_error_type
+Report 1.4 evidence = "two usages differ (2407/1558 vs 16341/5685)" -> differs with or without reset.
+Discriminating case (success then failure -> null actual_*) absent from artifacts and from tests.
+5f097f6 contains ZERO test files; the orchestration script has no test.
+
+================================================================================
+[7] F3-06  parse_error_type SCOPE
+================================================================================
+set only in HTTPLLMProvider adapter-contract handler (KeyError/IndexError/TypeError/JSONDecodeError,
+plus ContentNull). The EN-02 failure was domains/annotation/service.py json.loads, whose new evidence
+goes into the exception MESSAGE -> task_claims.lease_snapshot.error_detail.
+Both parses succeeded here, so parse_error_type: null is trivially correct and the field is untested
+against its motivating case.
+Annotation-service diff verified to store ONLY type(exc).__name__, len(response), len(response.encode()).
+
+================================================================================
+[8] DATABASE (SELECT-only)
+================================================================================
+counts: documents 2 | semantic_annotations 2 | admission_candidates 13 | questions 0 |
+        question_instances 0 | materials 0 | unit_groups 0 | admission_events 0 |
+        source_figures 8 | document_source_spans 3501 | document_source_lines 820 |
+        llm_call_audit 2 | budget 9 | tasks 2
+candidates: pending_review 13   (13/13)
+audits    : mimo|mimo-v2.6-pro|completed|2407|1558|3965
+            mimo|mimo-v2.6-pro|completed|16341|5685|22026
+budget    : task  (c75d2e0d…) limit 100 used 1 ; task (8dcd9f62…) limit 100 used 1
+            request (4daed945…) limit 1 used 1 ; request (87aac64f…) limit 1 used 1
+            le/ann ×2 limit 50 used 1 ; document ×2 limit 500 used 1 ; daily 2026-09-26 limit 2000 used 2
+ => authorization probe still reads only the task dimension (limit 100), while the binding
+    constraint is the request dimension (limit 1).  F2-01 / D-1 remains open and unmentioned.
+
+================================================================================
+[9] CREDITED / VERIFIED CORRECT
+================================================================================
+Frozen Spec 6/6 hashes reproduced (identical to the values in the two preceding rounds and the artifact).
+Artifact staged.import_counts, source_versions (90 lines / 3 pages ; 730 lines / 22 pages),
+annotations (2, status=valid, model_config_hash 11af80e5…), candidates (13 pending_review) all match DB.
+§5.6 API table matches the app's routers (admin/stats ; candidates get/approve/reject ; documents
+import/list/get/source-quality/source-lines ; tasks) — no question/material/instance route exists.
+reality records carry finish_reason "stop", response_chars 4561/7302, response_bytes 6520/24995.
+
+================================================================================
+[10] REVIEWER SIDE-EFFECTS
+================================================================================
+- No write to AITutors-v3 or Papers; no test executed; no destructive command run; DB access SELECT-only.
+- backend/provider_reality.json was created by the subject run, not by this review.
+- No key material printed.
