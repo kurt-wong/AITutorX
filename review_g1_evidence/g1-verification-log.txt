@@ -1,0 +1,80 @@
+G1 COMPLIANCE VERIFICATION LOG — MIMO CODE task "AITutorX 文档治理体系简化与业务推进解阻"
+Date: 2026-09-27  Verifier: DSH (read-only)
+
+================================================================================
+[1] STATE AT VERIFICATION
+================================================================================
+AITutor-X   HEAD abe5827 (my F5 verification review) ; 0 modified tracked files
+            new untracked files from this task:
+              Docs/60_REPORTS/GOVERNANCE-SIMPLIFICATION-REVIEW.md        24749 B  09-27 09:36
+              Docs/60_REPORTS/RECOMMENDED-MINIMAL-GOVERNANCE-MODEL.md    16677 B  09-27 09:37
+            => deliverables exist; NOT committed (see G-05)
+AITutors-v3 HEAD 5f097f6 ; 0 modified tracked        => §21.2 PASS
+Papers      HEAD e7c79b6 ; 0 modified tracked        => §21.2 PASS
+Docs/V3_SPEC 6/6 hashes unchanged                    => §21.3/§16 PASS
+Docs/90_ARCHIVE md count = 0                         => archive plan NOT executed (§13/§15 PASS)
+
+================================================================================
+[2] COUNTS
+================================================================================
+Docs/**/*.md                      = 177   (177 - this task's own 2 deliverables = 175 ✓ claim)
+  00_GOVERNANCE 16 (top 8 + REVIEW 8) · 10_SPEC 4 · 20_ARCHITECTURE 10 · 30_CONTRACTS 2 ·
+  40_DECISIONS 22 · 50_OPERATIONS 17 · 60_REPORTS 106 · 90_ARCHIVE 0
+60_REPORTS excl. deliverables     = 104 ✓
+  DSH 51 ✓ · CLOSURE 21 ✓ · VERIFICATION 18 ✓
+  overlaps: DSH∧VERIFICATION = 10 ; DSH∧CLOSURE = 9  -> 19 double-counted (G-03)
+10_SPEC + 20_ARCHITECTURE         = 14   vs review §G.4 heading "（15 份）" (G-04)
+30_CONTRACTS 2 ✓ · 40_DECISIONS 22 ✓ · 50_OPERATIONS 17 ✓ · 00_GOVERNANCE 8 + REVIEW 8 ✓
+
+================================================================================
+[3] REGISTRY / MATRIX NUMBERS
+================================================================================
+GF-005: `### OQ-GF-` entries = 18 ; registry text: "登记仍为 18 条 OQ-GF；零 CLOSED"          ✓
+X2.6-01: `### X3P-` headings = 14                                                          ✓
+X2.6-01:589  "**统计（R1，粗粒度）**: 全部登记项 **OPEN**；**Owner Decision Required = YES** 的项占绝大多数；
+             **可立即实施的纯 D 项 = 0**（在 A/B/C 未裁前）。"   -> review quote VERBATIM    ✓
+X2.6-03:29-36  M.3 BOUNDARY AUDIT COMPLETE ; M.4…M.10 each **NOT STARTED**                 ✓
+X2.6-03:44-60  P1…P13 table ; "**Closure Progress**: 4 / 13 CLOSED（P1, P2, P7, P8）" ;
+             production-tier OPEN = P3,P4,P5,P9,P10,P11,P12 = 7                             ✓
+AITUTORX-DOC-GOVERNANCE.md:124  "任何新增文档**必须**回答以下 9 项，缺一不可"                ✓
+PREPROCESSING-V3-CONTRACT-v0.2-DRAFT.md:18,22  §0.1 binding six items ; key = source_content_sha256 ✓
+
+================================================================================
+[4] TASK-CONSTRAINT MATRIX (result)
+================================================================================
+§3 read-only / no Docs modification ............ PASS (0 tracked changes)
+§2 + §21.4 + §21.5 no new governance layer/registry/gate/contract ....... PASS
+   (only the 2 required deliverables created; both self-labelled 非 normative / RECOMMENDATION;
+    closing line: "不强制生成额外的 Registry/Gate/Contract")
+§15 action verbs + CREATE forbidden ........... PASS (§G.1 + per-group verbs + §G.8 summary; DELETE 0)
+§13 keep historical reports ................... PASS (no deletions; ARCHIVE plan under Owner Decision §5.2)
+§16 no Frozen Spec change, spec-issue vs governance separated ... PASS
+§21.14 no new business implementation ......... PASS
+§11 five Owner triggers ....................... PASS (Model §2.5 ①–⑤ = task's five)
+§12 Evidence after implementation ............. PASS (Model §1.5)
+§13/§14 three levels, no fourth ............... PASS
+§18 A–I ....................................... PASS (all sections present)
+§22 two deliverables + four Owner questions ... PASS (Model §6)
+§17 preprocessing→V3 mainline ................. PARTIAL -> G-01
+
+================================================================================
+[5] FINDINGS
+================================================================================
+G-01 MEDIUM  §17 only partially answered: no explicit judgement on Path B / Adapter / ResolvedRun
+             repackaging, and none on the Native Path fallback status (neither deliverable mentions
+             "ResolvedRun" or "Native Path"; "Path B" appears once, descriptively).
+G-02 LOW     Both deliverables dated 2026-09-23 while citing FORMAL-E2E-05 (2026-09-27); mtimes 09-27.
+G-03 LOW     60_REPORTS breakdown is not a partition: DSH∧VER=10, DSH∧CLOSURE=9 (19 double-counted).
+G-04 LOW     §G.4 heading "（15 份）" vs actual 14 (table itself covers exactly 14 files).
+G-05 LOW     Deliverables untracked in git (no commit).
+G-06 NOTE    Model §4.5 mints new OQ labels (RESOLVED-BY-OD-XX / WONT-FIX / NOTE) — by the review's
+             own §E.3 recursion rule this re-creates a terminology dependency; suggest reuse + CLOSED.
+G-07 INFO    X2.6-03 cited without directory in §D.1/§F.1; heading B typo "哟些"; class-vs-section
+             letter mapping ambiguous.
+G-08 INFO    All other headline numbers reproduced; constraint discipline clean.
+
+================================================================================
+[6] VERIFIER SIDE-EFFECTS
+================================================================================
+- Read-only: inventories, git status/rev-list, greps, file reads. No test suite run. No writes to any
+  repo path other than this review and its log (in AITutor-X). No key material printed.
