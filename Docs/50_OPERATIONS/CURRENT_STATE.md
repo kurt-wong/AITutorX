@@ -130,7 +130,26 @@ AITutors-v3 od01-r3-convergence 3bf7a09  origin 落后 4 个 commit（含 Primar
 
 ---
 
-## 5. 我该信什么 / 不该信什么
+## 5. 文档状态债务登记（未清，已量化）
+
+`ACTIVE` 已全部消除（0 份）。**但状态词表的统一尚未完成**，剩余如下，按 DOC-GOV §8A 登记而不在本轮处理：
+
+| 残余状态 | 份数 | 性质 | 处置建议 |
+|---|---|---|---|
+| 无 lifecycle Status 行 | 98 | 多数为 `60_REPORTS` 报告，本就不需要 | 无需处理 |
+| `COMPLETE …` | 23 | 阶段报告的自然语言状态，非合法词 | 可机械转 `CLOSED` |
+| `FROZEN GOVERNANCE BASELINE` | 7 | **GF-000~006**，Owner 授予的合法冻结态 | `DEFERRED`——见下方说明 |
+| `OWNER IMPLEMENTATION AUTHORIZATION / REGISTERED / VERIFICATION / ACCEPTED / …` | ~20 | 各阶段自然语言状态 | 逐个判读后再转 |
+
+> **GF-000~006 的处理（Owner 已裁定：暂缓）**：其定位正在从「AITutor-X 迁移治理规则」变为
+> 「AITutor-X 产品模板治理规则」。**在 V3 / preprocessing 真正进入本仓库之前，移动或改变其状态没有收益。**
+> 待代码接入后，再由 Owner 决定：继续作为生产治理基线，或转为历史迁移记录。
+
+本轮**不再继续**状态词统一。理由：收益已进入递减区，而项目价值释放的瓶颈已不在文档（见 §1）。
+
+---
+
+## 6. 我该信什么 / 不该信什么
 
 | 想了解 | 读这个 |
 |---|---|
