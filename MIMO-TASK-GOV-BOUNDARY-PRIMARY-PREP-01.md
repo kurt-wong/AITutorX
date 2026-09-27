@@ -203,13 +203,17 @@ B4  即使补上 identity，下游仍停在 IR
 ### 4.3 必须写进报告的三个事实边界
 
 1. **identity 字段已存在**：定义于 `PREPROCESSING-V3-CONTRACT-v0.2-DRAFT.md` §0.1 ①（键名 `source_content_sha256`，64 位小写 hex）。该 Contract 文本自身标注为 **DRAFT / NOT FROZEN**。缺的是 **producer 侧实现**，不是契约文本 → 本任务**不写、不改任何 Contract**。
-2. **生产者有两棵代码树且已分叉**：
+2. **命名澄清（Owner, 2026-09-27）：`Papers` 就是 preprocessing 项目文件夹** —— 不是"两个候选权威之一"。
    ```text
-   D:\Project\Papers                 = git 仓（remote: github.com/kurt-wong/Aitutors-preprocessing.git）
-   D:\Project\Aitutors-preprocessing = 无 .git 工作树副本
-   两棵都不写 source_content_sha256；_redact() 与非 429-4xx 立即失败分支仅副本有
+   Papers                            = preprocessing 项目文件夹（该项目的 git 仓）
+                                       remote: github.com/kurt-wong/Aitutors-preprocessing.git
+   D:\Project\Aitutors-preprocessing = 同一代码的**非版本化副本**（无 .git）
+                                       → 不是权威树，不得作为提交目标，不得在其上 git init
+   已核实差异：两棵都不写 source_content_sha256；
+               _redact() 与非 429-4xx 立即失败分支**仅副本有**（项目文件夹反而缺这两项加固）
    ```
-   → **权威树尚未裁决**，因此本任务**不提交任何 producer 代码**。
+   → ① 本任务**不提交任何 producer 代码**（本轮不写代码）；② 下一轮 identity 变更**一律提交到 `Papers`**（已澄清，无需再裁）；③ 副本中已有的 `_redact()` / 4xx 加固应作为**下一轮 LEVEL 1 项**移植进 `Papers`，消除两树分叉。
+   → 另记一条 provenance 事实：此前 ENABLEMENT-04/05 的 preprocessing 运行是从**副本**目录执行的，因此那些"正式入口"证据对应的不是项目文件夹的代码。
 3. **现有全部下游证据来自 Fallback Path**：ENABLEMENT-03 的 13 个 `admission_candidates`（全部 `pending_review`）由 `POST /api/documents/import` + worker CLI 产生，即 **Fallback（Native）Path**。**不得**把它们当作 Primary Path 的证据。
 
 ---
@@ -222,10 +226,11 @@ B4  即使补上 identity，下游仍停在 IR
 | **LEVEL 2** | 修改 Frozen Spec、修改架构边界、修改 Primary/Fallback 定义、**引入新的持久化机制** | 需 Owner Decision |
 | **LEVEL 3** | Migration、数据迁移、不可逆操作 | 保持现有严格治理 |
 
-**下一轮（Primary Path Identity Enablement）开工前必须先取两个 Owner 决定**：
+**下一轮（Primary Path Identity Enablement）开工前**：
 
-1. 生产者权威树 = `Papers` 还是 `Aitutors-preprocessing`？（影响 commit 归属与 PART 6 的 evidence 可行性）
-2. 是否引入**持久化** ingestion 入口？（B2；属 LEVEL 2。不决定则 Primary Path 只能停在 gate accepted，无法持久到达 `ResolvedRun`。）
+1. ~~生产者权威树裁决~~ —— **已澄清，不再需要**：`Papers` 是 preprocessing 项目文件夹，所有 producer 变更提交到 `Papers`（见 PART 4.3 第 2 条）。
+2. **仍需一次 Owner 决定**：是否引入**持久化** ingestion 入口？（B2；属 LEVEL 2。不决定则 Primary Path 只能停在 gate accepted，无法持久到达 `ResolvedRun`。）
+3. 下一轮的 LEVEL 1 工作项（不需 Owner Decision）：identity 字段实现、`_redact()` / 4xx 加固移植进 `Papers`、`Papers/tests/test_no_config_import.py` 断言与代码对齐（该测试当前对自家代码无法通过）、测试补充。
 
 ---
 
@@ -251,7 +256,8 @@ Primary Path（本轮）
 Repository
   ❌ 修改 AITutors-v3 工作树（本任务对 v3 应 0 改动）
   ❌ 修改 Papers 工作树（同上）
-  ❌ 自动删除历史文件 / 自动迁移仓库 / 自动 git init / 自动合并两棵 producer 树
+  ❌ 在 D:\Project\Aitutors-preprocessing（非版本化副本）上做提交、git init 或"提升为权威"
+  ❌ 自动删除历史文件 / 自动迁移仓库 / 自动合并两棵 producer 树
   ❌ 移动 Docs 目录或重排目录结构
 
 Output
@@ -328,18 +334,21 @@ Evidence 最低要求（仅此四项）：
 
 **禁止**新增 Evidence Registry / Evidence Gate / Evidence Lifecycle。
 
-**并且，本任务同时确立今后 LEVEL 1 轮次的输出形状**（写入 Deliverable 2 的第 4 节即可，不必另立文档）：
+**并且，本任务同时确立今后的输出形状与评审节奏**（写入 Deliverable 2 的第 4 节即可，不必另立文档）：
 
 ```text
 LEVEL 1 一轮 = 代码提交 + 测试输出 + ≤2 页说明
 不再产出：报告 + 证据包 + Closure + Verification + Registry 的"五件套"
-不再默认配 DSH 独立对抗评审（评审仅在 LEVEL 2 / LEVEL 3 轮次进行）
+
+DSH 独立对抗评审：默认不执行。
+  仅在 Owner 明确要求时执行 —— 与 LEVEL 无关，不由轮次、不由此前的惯例自动触发。
+  未获明确要求时，执行方不得自行发起评审，也不得为"配合评审"而额外产出文档。
 ```
 
 ---
 
 ## 完成后
 
-下一轮为 **Primary Path Identity Enablement**，其开工前提见 PART 5 的两个 Owner 决定。
+下一轮为 **Primary Path Identity Enablement**，其开工前提见 PART 5（仅剩"是否引入持久化 ingestion 入口"一项 Owner 决定）。
 
 不要提前扩展 Fallback Path；不要重新设计治理体系；不要因为历史冗余代码而恢复 Frozen Spec 中不存在的业务链。
