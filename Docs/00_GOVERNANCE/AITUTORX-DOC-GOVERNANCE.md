@@ -3,15 +3,18 @@
 **Document ID**: AITUTORX-DOC-GOVERNANCE
 **Document Type**: Governance Meta-Spec
 **Authority Level**: **L0-META**（文档治理元规范；**不定义业务语义**）
-**Status**: `ACTIVE — REVISED 2026-09-27 (MIMO-TASK-GOV-BOUNDARY-PRIMARY-PREP-01)`
+**Status**: `OPEN`（本文件为长期有效规则，非任务/追踪文档）
+**Revision**: REVISED 2026-09-27 (MIMO-TASK-GOV-BOUNDARY-PRIMARY-PREP-01)；**REVISED 2026-09-27 (Productionization Cleanup Phase 2)**
 **Normative**: YES（对**文档治理流程**规范）
-**Supersedes**: —
+**Supersedes**: 本文件 §7 的 2026-09-27 版（原「一律不做物理移动」表述已细化为 §7.1/§7.2 两分）；本文件 §8 的 2026-09-27 版（原词表未禁用 `ACTIVE`）
 **Superseded By**: —
-**Date**: 2026-09-21 / **Revised 2026-09-27**
+**Date**: 2026-09-21 / Revised 2026-09-27 ×2
 **Upstream**: V3 `90_DOCUMENT_GOVERNANCE.md`；V3 `91_PROJECT_TERMINOLOGY.md`；AITutorX `GF-000`；AITutorX `AGENTS.md`
 **Adaptation principle**: V3 Governance 为规则来源与成熟模板；AITutorX 目录结构为适配对象。最小适配，不机械复制。
 **Owner Ratification**: Owner hereby accepts and ratifies this document as the current governance baseline for AITutorX (X2.6-BASELINE-CLOSURE-RECORD.md DSH-X26-03). Authority hierarchy: Owner Decision > Frozen Contract/Spec > Architecture/Governance documents. This ratification does NOT create a new Frozen Spec/Contract.
 **Revision Authority**: MIMO-TASK-GOV-BOUNDARY-PRIMARY-PREP-01（Owner Decision，2026-09-27）。本次修订为治理边界收敛，不新增治理层。
+**Revision Authority (2nd)**: AITutor-X 生产化整理 Phase 2（Owner 授权，2026-09-27）。本次修订补 `ACTIVE` 禁用、拆分 §7、新增 staleness 判据与产出规则。**仅文档治理流程，不触及 Frozen Spec / 冻结 Contract。**
+**Productionization baseline**: tag `AITutor-X-before-cleanup` @ `43f46e8`
 
 ---
 
@@ -54,8 +57,8 @@ Normative 层变更需 Owner Decision + explicit amendment。Informative / Histo
 | `Docs/40_DECISIONS/` | Informative | Owner decisions、decision records | Operations state；audit reports |
 | `Docs/50_OPERATIONS/` | Informative | Stage state、tracking matrix | Normative rules；owner decisions |
 | `Docs/60_REPORTS/` | **Historical Evidence** | Audit / verification / evidence reports | Normative specs；owner decisions |
-| `Docs/90_ARCHIVE/` | Historical | SUPERSEDED / historical documents | 作为现行引用来源 |
-| **Root** | 入口 | README / AGENTS / 配置 / 授权 canonical docs | 报告、审计、临时分析 |
+| `Docs/90_ARCHIVE/` | Historical（只读） | SUPERSEDED / stage-ended 文档；历史证据；已退出执行路径的产物 | 作为现行引用来源；被现行文档引用为依据 |
+| **Root** | 入口 | README / AGENTS / 配置 / **§3 显式授权的 canonical docs** | 报告、审计、临时分析、Closure records |
 
 > **`Docs/60_REPORTS/` 全目录为 Historical Evidence，不构成实现约束。**
 
@@ -68,6 +71,20 @@ Normative 层变更需 Owner Decision + explicit amendment。Informative / Histo
 Root 允许：README.md / AGENTS.md / .gitignore / LICENSE / build metadata / 授权的 project-level canonical docs。
 
 Root 禁止：报告、审计、临时分析、Closure records 等属于 `Docs/*` 的文档。
+
+### 3.1 Canonical docs 显式授权清单
+
+§3 所称「授权的 project-level canonical docs」**必须在此逐一点名**，不靠推断：
+
+| 文件 | 授权依据 | 说明 |
+|------|---------|------|
+| `README.md` | 本规则 | 入口：项目身份 / 导航 / 目录结构。**不承载状态** |
+| `AGENTS.md` | 本规则 | Agent 行为约束 |
+| `MIMO-TASK-GOV-BOUNDARY-PRIMARY-PREP-01.md` | Owner Decision（2026-09-27） | 该 Owner Decision 的载体；其文件名与 commit hash 即授权记录 |
+
+**未列入本表的文件不得放在 Root。** 新增需 Owner Decision 并更新本表。
+
+> `CURRENT_STATE.md` **不在 Root**，其位置为 `Docs/50_OPERATIONS/CURRENT_STATE.md`（见 §2）。README 以链接指向它。
 
 ---
 
@@ -134,27 +151,142 @@ T-5: Current normative documents MUST NOT declare legacy terms as canonical
 
 ---
 
-## 7. Document Migration/Disposition
+## 7. Document Migration / Disposition（两分）
 
-历史报告保留为 Historical Evidence，不做物理移动。Rule M-2（不得为"看起来干净"大规模移动）继续有效。
+> **原表述**「历史报告保留为 Historical Evidence，不做物理移动」**过于笼统**：它把「为美观乱搬」与「归档处置」混为一谈，导致 `90_ARCHIVE/` 长期空置，且与 `GF-004` §4/§6（Frozen，OD-14）明文允许归档历史工件相冲突。
+> 按已确立层级（`GF-006` §8：Owner Decision > Frozen Contract/Spec > Architecture/Governance），**GF-004 优先**。本节据此细化为两类，不再一刀切。
+
+### 7.1 禁止：装饰性重排（Rule M-2，继续有效）
+
+**禁止**仅为「看起来干净」而大规模移动/重排 `Docs/` 目录或重新分类报告族。
+
+判定：**若移动的收益仅是可读性、且无类型错误或违规事实，则不做。**
+
+> 依据：`60_REPORTS` 存在大量文档间路径引用，大范围移动的成本高于收益。
+
+### 7.2 允许：归档处置（Archival Disposition）
+
+下列情形**允许移动**，但**必须逐项登记**：
+
+| 情形 | 允许动作 | 要求 |
+|------|---------|------|
+| **类型错误**（决策载体误置于 `60_REPORTS`） | 移入 `40_DECISIONS/` | 更新所有引用路径 |
+| **Root 违规文档**（报告/临时物误置于 Root） | 移入 `60_REPORTS/` 或 `90_ARCHIVE/` | 更新所有引用路径 |
+| **阶段已结束的 state / tracking 文档** | 移入 `90_ARCHIVE/stages/` **或**原地加 `ARCHIVED` 状态头 | 二选一；原地标注优先（成本更低） |
+| **已被取代的报告族** | 移入 `90_ARCHIVE/` | 保留唯一有效终态在主位 |
+| **非作者撰写的生成物**（运行账目、临时导出） | 移入 `90_ARCHIVE/evidence/` 或删除 | 见 §7.3 |
+
+### 7.3 删除规则（极窄）
+
+**删除**须**同时**满足：
+
+```text
+1. 生成物，非作者撰写
+2. 已被某份报告收录（存在替代载体）
+3. 可低成本再生（无 LLM / OCR 调用，或产物 hash 已随报告留存）
+```
+
+不满足则**归档**，不删除。**任何作者撰写的文档一律不删除**（`AGENTS.md`：不删除旧文档）。
+
+### 7.4 移动必守事项
+
+```text
+- 必须用 git mv（保留历史），不得用 rm + 新建
+- 移动后必须更新所有指向旧路径的引用
+- 移动前必须实测「哪些引用会断、分别在哪一行」（机械检查，不靠推断）
+- 裸文件名引用（无目录前缀）不受移动影响，无需修改
+```
+
+> `[RESTORED]` 本条曾以「DOC-GOVERNANCE.md §3.3 / §7.2：注明 TRACKED + migration 用 `git mv`」形式存在于
+> `X2.6-BASELINE-CLOSURE-RECORD.md` DSH-X26-02 的处理记录中，但该注记在 2026-09-27 的 DOC-GOV 重写中丢失。
+> 现于 §7.4 恢复。**已核实事实**：原 11 份 root-level DSH 报告为 **git TRACKED**；迁移须用 `git mv`
+> （已于 2026-09-27 执行，见 commit `c68e100`）。
 
 ---
 
 ## 8. Document Lifecycle Status（受限词表）
 
-适用范围：**仅任务/追踪类文档**。
+适用范围：**任务 / 追踪 / 阶段状态 / 报告类文档**。
 
 | Status | Meaning |
 |--------|---------|
 | `OPEN` | 进行中 |
 | `CLOSED` | 已完成 |
 | `DEFERRED` | 推迟 |
-| `ARCHIVED` | 归档 |
+| `ARCHIVED` | 已归档（历史，不构成现行依据） |
 
 **明确排除（不得改动、不得重命名）**：
 - 产品状态：`admission_candidates.decision_status`（如 `pending_review`）
 - Frozen Spec 定义状态：`semantic_status ∈ {ready, incomplete, unknown}`
-- GF-005 的 OQ 状态（该文件为 FROZEN GOVERNANCE BASELINE，OD-14，本任务不修改）
+- GF-005 的 OQ 状态（该文件为 FROZEN GOVERNANCE BASELINE，OD-14，不修改）
+
+### 8.1 `ACTIVE` 不再合法
+
+**`ACTIVE` 不在词表内，不得再用于新文档。** 禁止的自然语言状态包括但不限于：
+
+```text
+ACTIVE / COMPLETE / FINAL / FINAL-FINAL / DONE / IN-PROGRESS / 进行中
+```
+
+**存量处置**：若文档为**长期有效规则**（如本文档、Frozen Spec 引用），用 `OPEN` 并在 `Revision` 字段记版本；
+若为**阶段/追踪文档**，改为 `CLOSED` 或 `ARCHIVED`。
+
+> `[FACT]` 2026-09-27 前，`Docs/50_OPERATIONS/` 全部 17 份状态文档均写 `ACTIVE`（含本文档自身）。
+> 已于生产化整理 Phase 1-4 全部标记为 `ARCHIVED` 并加 `Superseded By` 指针。
+
+---
+
+## 8A. Staleness 判据（机械可判定）
+
+归档决策**不靠主观判断**，用下列机械指标：
+
+```text
+指标 A（commit offset）：文档最后修改 commit 落后 HEAD 的 commit 数
+指标 B（cited_by）    ：是否被较新文档引用为依据
+
+归档候选 = (指标 A > 50) AND (指标 B = 无)
+例外：装载「为什么」（决策依据）的文档 → 保留在主位，不归档
+```
+
+复核命令：
+
+```bash
+git log -1 --format=%h -- <path>          # 该文档最后修改 commit
+git rev-list --count <sha>..HEAD          # 落后多少
+```
+
+> 判据理由：`AGENTS.md` 要求保留决策依据。代码只记录结论，**理由在文档里**；
+> 归档「过程」但必须保留「为什么」。
+
+---
+
+## 8B. 文档产出规则（防止再膨胀）
+
+> `[FACT]` 2026-09-23 → 2026-09-27 的 4 天内，`Docs/` 由 175 份增至 183 份（+8），
+> `60_REPORTS/` 由 104 份增至 112 份（+8）。无产出上限是文档失控的直接原因。
+
+```text
+R1  每个任务最多产出 1 份文档。
+    报告 = 证据 + 结论合一；不再拆 Report / Review / Verification / Closure 四件套。
+    例外须 Owner 显式批准。
+
+R2  文件名必须可判定归属：生产者名字不得出现在文件名中。
+    禁止：CLAUDE / MIMO / DSH（那是生产者，不是文档类型）。
+
+R3  新文档文件头必须回答三个问题：
+      supersedes:     我取代了谁？（无则写 —）
+      superseded_by:  我被谁取代？（无则写 —）
+      readers:        谁读我？
+    答不出「我取代了谁」且非新增规则的文档，不应存在。
+
+R4  新增文档前先问：这是证据还是结论？
+    结论 → 40_DECISIONS/；证据 → 60_REPORTS/；规则 → 00_GOVERNANCE/。
+
+R5  每份新报告必须显式声明 disposition：RETAIN / SUPERSEDES-<file> / ARCHIVED。
+```
+
+> 依据：`GOVERNANCE-SIMPLIFICATION-REVIEW.md` 结论——「AITutor-X 本身是纯治理仓库，
+> 其文档量已超过所治理的业务代码量，属典型的『治理系统比项目本身更复杂』」。
 
 ---
 
@@ -209,3 +341,9 @@ Never hardcode API Keys/Passwords/Tokens/Secrets; Always use .env for configurat
 ---
 
 *Revised 2026-09-27 under MIMO-TASK-GOV-BOUNDARY-PRIMARY-PREP-01. Authority order simplified to 3 tiers. Creation gate reduced to 3 items. Historical Evidence declared non-blocking for Level 1.*
+
+*Revised again 2026-09-27 under the AITutor-X Productionization Cleanup (Phase 2, Owner-authorized).
+Changes: §3.1 Root canonical-docs allowlist made explicit; §7 split into 7.1 (forbid decorative
+reshuffling) / 7.2 (permit registered archival disposition) / 7.3 (narrow deletion rule) / 7.4 (git mv
+requirement + restored DSH-X26-02 note); §8.1 bans `ACTIVE`; §8A adds a mechanical staleness criterion;
+§8B adds document-production rules R1–R5 to stop re-accumulation. No Frozen Spec or frozen Contract touched.*
