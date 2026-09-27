@@ -1,9 +1,14 @@
 # REPORT-X2.5 — Pre-Migration Documentation Baseline & Cross-System Fact Base
 
+> **[ARCHIVED 2026-09-27]** 本文件已退出主读取路径，**不构成现行依据**。**正文保持原样不改写**（DOC-GOV §7）。
+> **Superseded By**: [`Docs/50_OPERATIONS/CURRENT_STATE.md`](../50_OPERATIONS/CURRENT_STATE.md) — 当前状态的唯一权威来源。
+> 归档基线：tag `AITutor-X-before-cleanup` @ `43f46e8`。
+
+
 **Document ID**: REPORT-X2.5
 **Task**: TASK-X2.5
 **Document Type**: Reports / Final Fact Base
-**Status**: `ACTIVE — PRE-MIGRATION FACT BASE COMPLETE / AUDITABLE`
+**Status**: `ARCHIVED`（原状态：`ACTIVE — PRE-MIGRATION FACT BASE COMPLETE / AUDITABLE`）
 **Date**: 2026-09-18
 **Decision actor**: Owner
 **Hard rule**:

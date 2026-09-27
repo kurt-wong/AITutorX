@@ -1,9 +1,13 @@
 # X2-06 — Decision Mapping
 
+> **[CLOSED 2026-09-27]** 本文件的生命周期已结束（阶段完成）。**正文保持原样不改写**（DOC-GOV §7）。
+> 保留在主视野：其内容仍具参考价值。当前状态见 [`Docs/50_OPERATIONS/CURRENT_STATE.md`](../50_OPERATIONS/CURRENT_STATE.md)。
+
+
 **Document ID**: X2-06
 **Task**: TASK-X2-CLAUDE
 **Document Type**: Decisions / Mapping
-**Status**: `ACTIVE — X2 MAPPING (not renumbering)`
+**Status**: `CLOSED`（原状态：`ACTIVE — X2 MAPPING (not renumbering)`）
 **Date**: 2026-09-18
 **Hard rule**: **历史 ID 不得擅自重编号**；用 mapping / alias / legacy reference
 

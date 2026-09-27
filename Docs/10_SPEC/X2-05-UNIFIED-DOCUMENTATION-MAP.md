@@ -1,9 +1,14 @@
 # X2-05 — Unified Documentation Map
 
+> **[ARCHIVED 2026-09-27]** 本文件已退出主读取路径，**不构成现行依据**。**正文保持原样不改写**（DOC-GOV §7）。
+> **Superseded By**: [`Docs/50_OPERATIONS/CURRENT_STATE.md`](../50_OPERATIONS/CURRENT_STATE.md) — 当前状态的唯一权威来源。
+> 归档基线：tag `AITutor-X-before-cleanup` @ `43f46e8`。
+
+
 **Document ID**: X2-05
 **Task**: TASK-X2-CLAUDE
 **Document Type**: Specification / Documentation Governance Map
-**Status**: `ACTIVE — X2 DOC MAP`
+**Status**: `ARCHIVED`（原状态：`ACTIVE — X2 DOC MAP`）
 **Date**: 2026-09-18
 **Upstream**: X2-00 Git FACT；任务书 §5 目标 Docs 结构
 **Scope note**: **族级 + 代表路径** map；非 100% 逐文件全量。未逐读文件标 `UNKNOWN`/`UNREVIEWED-FAMILY`。**禁止机械复制。**

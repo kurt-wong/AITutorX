@@ -1,9 +1,13 @@
 # X2-03 — Concept / Terminology Map
 
+> **[CLOSED 2026-09-27]** 本文件的生命周期已结束（阶段完成）。**正文保持原样不改写**（DOC-GOV §7）。
+> 保留在主视野：其内容仍具参考价值。当前状态见 [`Docs/50_OPERATIONS/CURRENT_STATE.md`](../50_OPERATIONS/CURRENT_STATE.md)。
+
+
 **Document ID**: X2-03
 **Task**: TASK-X2-CLAUDE
 **Document Type**: Specification / Terminology
-**Status**: `ACTIVE — X2 UNIFIED TERMS`
+**Status**: `CLOSED`（原状态：`ACTIVE — X2 UNIFIED TERMS`）
 **Date**: 2026-09-18
 **Upstream**: V3 `DICTIONARY.md`；V3 `91_PROJECT_TERMINOLOGY.md`；Contract v0.2；GF-001/002；preprocessing `prd.md`；AGENTS.md
 **Rule**: 统一术语表用于 AITutorX 叙事；**不修改** Frozen Spec/Contract 原文；历史文档不强制改写（Reconcile, don't rewrite）

@@ -1,9 +1,13 @@
 # X2-02 — Unified Architecture Baseline
 
+> **[CLOSED 2026-09-27]** 本文件的生命周期已结束（阶段完成）。**正文保持原样不改写**（DOC-GOV §7）。
+> 保留在主视野：其内容仍具参考价值。当前状态见 [`Docs/50_OPERATIONS/CURRENT_STATE.md`](../50_OPERATIONS/CURRENT_STATE.md)。
+
+
 **Document ID**: X2-02
 **Task**: TASK-X2-CLAUDE
 **Document Type**: Architecture Baseline
-**Status**: `ACTIVE — X2 AUDIT BASELINE`
+**Status**: `CLOSED`（原状态：`ACTIVE — X2 AUDIT BASELINE`）
 **Date**: 2026-09-18
 **Upstream**: `X2-01-UNIFIED-SYSTEM-BASELINE.md`；GF v0.2；Contract v0.2 Freeze Object
 **Hard rule**: Architecture Baseline 文档 ≠ Implementation；≠ Migration Authorization

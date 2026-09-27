@@ -1,9 +1,13 @@
 # X2-08 — Migration Candidate Registry
 
+> **[CLOSED 2026-09-27]** 本文件的生命周期已结束（阶段完成）。**正文保持原样不改写**（DOC-GOV §7）。
+> 保留在主视野：其内容仍具参考价值。当前状态见 [`Docs/50_OPERATIONS/CURRENT_STATE.md`](../50_OPERATIONS/CURRENT_STATE.md)。
+
+
 **Document ID**: X2-08
 **Task**: TASK-X2-CLAUDE
 **Document Type**: Decisions / Migration Candidate Registry（审计登记）
-**Status**: `ACTIVE — CANDIDATES ONLY`
+**Status**: `CLOSED`（原状态：`ACTIVE — CANDIDATES ONLY`）
 **Date**: 2026-09-18
 **Hard rule**:
 ```text

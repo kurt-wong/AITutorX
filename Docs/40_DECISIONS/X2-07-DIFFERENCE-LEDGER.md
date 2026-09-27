@@ -1,9 +1,13 @@
 # X2-07 — Difference Ledger
 
+> **[CLOSED 2026-09-27]** 本文件的生命周期已结束（阶段完成）。**正文保持原样不改写**（DOC-GOV §7）。
+> 保留在主视野：其内容仍具参考价值。当前状态见 [`Docs/50_OPERATIONS/CURRENT_STATE.md`](../50_OPERATIONS/CURRENT_STATE.md)。
+
+
 **Document ID**: X2-07
 **Task**: TASK-X2-CLAUDE
 **Document Type**: Decisions / Difference Ledger（审计登记）
-**Status**: `ACTIVE — X2 DIFFERENCE LEDGER`
+**Status**: `CLOSED`（原状态：`ACTIVE — X2 DIFFERENCE LEDGER`）
 **Date**: 2026-09-18
 **Upstream**: OD-18（建立 Difference Ledger 已裁；**不关闭 OQ-GF-007**）；X2-01 C-X2-*；REPORT-K/G/H/F
 **Hard rule**: Ledger 登记 ≠ 关闭源账本；≠ 改写历史报告；87/71/166/177 引用必须关联 disposition
