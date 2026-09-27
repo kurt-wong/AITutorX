@@ -1,7 +1,7 @@
 # FROZEN-SPEC-ERRATA-PRIMARY-PATH-01
 
 ```text
-Document Type : Frozen Spec Change Proposal（**提案，未生效**）
+Document Type : Frozen Spec Change Proposal（**已批准 / APPROVED**）
 supersedes    : —
 superseded_by : —
 readers       : Owner（批准方）；MIMO CODE（实现方）；后续 V3_SPEC 维护者
@@ -20,15 +20,19 @@ Approval:
     Implementation requires separate authorization.
 ```
 
-> ## ⚠️ 本文件是**提案**，不是已生效的 Spec
+> ## ✅ 本文件已获 Owner 批准（2026-09-27）
 >
 > ```text
-> ✗ 本文件不修改 AITutors-v3/Docs/V3_SPEC/**（Frozen Spec 位于 V3 仓，本轮零改动）
+> ✓ 本文件（Frozen Spec 变更提案）已获批准 —— 见头部 Approval 块
+> ✗ 本文件不修改 AITutors-v3/Docs/V3_SPEC/**（Frozen Spec 位于 V3 仓）
 > ✗ 本文件不产生任何 migration
 > ✗ 本文件不授权实现
 > ✓ 本文件只描述「应当改什么、为什么、影响面」
-> ✓ 生效须经 Owner 明确批准，并另立 V3 仓内的 Spec 修订动作
+> ✓ 【已批准】将本 errata 应用于 V3 仓 Spec 正文本须另立动作，与本文件批准状态无关
 > ```
+>
+> 本文件曾以「提案，未生效」形态存在；Owner 于 2026-09-27 批准后，
+> 该状态声明已被头部 `Status: FINAL APPROVED` / `Decision State: APPROVED` 取代。
 
 **放置位置说明**：`DOC-GOV:56` 定义 `Docs/30_CONTRACTS/` 为「Contract references、boundary definitions」。
 本提案属契约引用/边界定义，故置于此，**不新建目录**（避免触发「不新建目录体系」边界）。
@@ -346,9 +350,12 @@ Errata FINAL APPROVED
 
 ---
 
-## 6. Errata 正文草案（供批准后移入 V3 仓）
+## 6. Errata 正文（已批准；待移入 V3 仓）
 
-> 以下为**拟写入** `10_Data_Model.md` 的文本形状，**尚未生效**。
+> 以下为**拟写入** `10_Data_Model.md` 的文本形状。
+> **本 errata 已于 2026-09-27 获 Owner 批准**（见头部 `Status: FINAL APPROVED`）；
+> 该文本**尚未应用于 V3 仓 Spec 正文** —— 应用于 `AITutors-v3` 属另立动作，
+> 须在该仓执行并记录 Frozen Spec 新 hash（见 §7）。
 
 ```text
 §4.2 document_source_versions —— role/provider 封闭配对（amend）
