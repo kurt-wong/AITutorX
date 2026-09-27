@@ -1,64 +1,61 @@
 # AITutorX
 
-统一最终工程骨架。由 `AITutors-v3`（Consumer）和 `Aitutors-preprocessing`（Producer）经治理验证后合并。
+**交付仓库**：将 `AITutors-v3`（Consumer）与 `Aitutors-preprocessing`（Producer）经集成治理后合并为完整项目。
 
-## 当前状态
+> **当前状态请看 → [`Docs/50_OPERATIONS/CURRENT_STATE.md`](Docs/50_OPERATIONS/CURRENT_STATE.md)**
+> 本 README 只负责：你是谁 / 怎么开始 / 状态在哪里。**不要把状态写进 README。**
 
-**TASK-X2-CLAUDE — Unified Documentation Governance（文档治理已登记）**
+---
 
-`[FACT]` GF v0.2 = Frozen Governance Baseline（OD-14）；**freeze ≠ Migration Authorization**。
+## 快速定位
 
-`[FACT]` X2 统一治理文档集已写入 Docs（X2-00~10 + REPORT-X2）。X2.1 Evidence Anchor:
-- AITutorX current HEAD `7002f38`（= origin/main；已 push）
-- AITutors-v3 baseline `cc12d79`
-- Aitutors-preprocessing（本地 `D:\Project\Papers`）baseline `2b92898`
-- Contract freeze object `f4941ff` / sha256 `9c6b9063…7528`
-- `[HISTORICAL]` X2 audit parent = `331cbea`（非 current HEAD）
-- Anchor / commit / push **≠** Migration Authorization
+| 我想知道 | 去哪里 |
+|---|---|
+| **项目现在在哪一步** | `Docs/50_OPERATIONS/CURRENT_STATE.md` |
+| 文档该怎么写、该放哪 | `Docs/00_GOVERNANCE/AITUTORX-DOC-GOVERNANCE.md` |
+| Agent 行为约束 | `AGENTS.md` |
+| 系统应当长什么样 | Frozen Spec（在 `AITutors-v3/Docs/V3_SPEC/`，**不在本仓库**） |
+| 跨系统接口边界 | 冻结 Contract（`AITutors-v3/Docs/COORDINATION/CONTRACTS/PREPROCESSING-V3-CONTRACT-v0.2-DRAFT.md`） |
+| 为什么做了某个决定 | `Docs/40_DECISIONS/` |
+| 历史过程与审计 | `Docs/60_REPORTS/`（**历史证据，不是现行依据**） |
+| 已退出主视野的历史 | `Docs/90_ARCHIVE/` |
 
-`[FACT]` 代码迁移尚未开始；AITutorX `preprocessing/` `backend/` `frontend/` `tools/` `archive/` 仍为空骨架。
-
-```text
-Migration Authorization: UNAVAILABLE
-Migration Gate: NOT PASSED
-OQ-GF: 18 条零 CLOSED（OPEN-BLOCKING = 9）
-BL-09/10/11: OPEN
-D-048: pending_owner_decision
-admitted=true: 无
-Next actor: Owner
-```
-
-X2 文档入口:
-- `Docs/50_OPERATIONS/X2-00-STATE.md`
-- `Docs/60_REPORTS/REPORT-X2-UNIFIED-GOVERNANCE.md`
-- `Docs/40_DECISIONS/X2-08-MIGRATION-CANDIDATE-REGISTRY.md`
+---
 
 ## 目录结构
 
-```
+```text
 AITutorX/
+├── README.md                  # 本文件（入口）
+├── AGENTS.md                  # Agent 协作规则
 ├── Docs/
-│   ├── 00_GOVERNANCE/     # 治理基线、Authority 矩阵
-│   ├── 10_SPEC/           # 冻结规格
-│   ├── 20_ARCHITECTURE/   # 架构设计
-│   ├── 30_CONTRACTS/      # 跨系统契约
-│   ├── 40_DECISIONS/      # 决策记录
-│   ├── 50_OPERATIONS/     # 运维与状态
-│   ├── 60_REPORTS/        # 审计报告（Report A–F）
-│   └── 90_ARCHIVE/        # 历史归档
-├── preprocessing/         # Producer 代码（待迁移）
-├── backend/               # Consumer 后端（待迁移）
-├── frontend/              # Consumer 前端（待迁移）
-├── tools/                 # 工具链
-└── archive/               # 历史资产
+│   ├── 00_GOVERNANCE/         # 治理规则（GF-000~006 + DOC-GOV）
+│   ├── 10_SPEC/               # 规格
+│   ├── 20_ARCHITECTURE/       # 架构说明
+│   ├── 30_CONTRACTS/          # 跨系统契约
+│   ├── 40_DECISIONS/          # 已生效决策（含决策输入）
+│   ├── 50_OPERATIONS/         # 当前状态（CURRENT_STATE.md）
+│   ├── 60_REPORTS/            # 历史审计报告（Historical Evidence）
+│   └── 90_ARCHIVE/            # 历史归档（只读，不得作现行权威）
+├── preprocessing/             # Producer 代码（待迁移，当前为空骨架）
+├── backend/                   # Consumer 后端（待迁移，当前为空骨架）
+├── frontend/                  # Consumer 前端（待迁移，当前为空骨架）
+├── tools/                     # 工具链
+└── archive/                   # 历史资产
 ```
+
+---
 
 ## 来源仓库
 
-| 角色 | 路径 | Remote |
-|------|------|--------|
+| 角色 | 本地路径 | Remote |
+|------|---------|--------|
 | Consumer (V3) | `D:\Project\AITutors-v3` | `kurt-wong/AITutors-v3` |
-| Producer (Preprocessing) | `D:\Project\Papers` | `kurt-wong/Aitutors-preprocessing` |
+| Producer (preprocessing) | `D:\Project\Papers` | `kurt-wong/Aitutors-preprocessing` |
+
+> `D:\Project\Aitutors-preprocessing`（无 `.git`）是 `Papers` 的**非版本化副本**，不是权威树。
+
+---
 
 ## 权威层级
 
@@ -72,3 +69,21 @@ AITutorX/
 | L5 | Tests / Verification |
 | L6 | Audit / Review |
 | L7 | Working Notes |
+
+---
+
+## 变更分级（来自 DOC-GOV）
+
+```text
+LEVEL 1  bug fix / 测试 / 已定义字段实现 / integration 修复 → 直接做，测试证明
+LEVEL 2  改 Frozen Spec / 架构边界 / Primary-Fallback 定义   → 需 Owner Decision
+LEVEL 3  Migration / 不可逆操作                             → 完整迁移治理（GF-003/004）
+```
+
+---
+
+## Security
+
+```text
+Never hardcode API Keys/Passwords/Tokens/Secrets; Always use .env for configuration.
+```

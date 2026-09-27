@@ -1,5 +1,10 @@
 # X2-00 — Unified Governance Stage State
 
+> **[ARCHIVED 2026-09-27]** 本文件是**历史阶段快照**，记录产生时点的状态，**不构成现行依据**。
+> **Superseded By**: [`Docs/50_OPERATIONS/CURRENT_STATE.md`](CURRENT_STATE.md) — 当前状态的唯一权威来源。
+> 正文保持原样不改写（DOC-GOV §7）。档案基线：tag `AITutor-X-before-cleanup` @ `43f46e8`。
+
+
 **Document ID**: X2-00
 **Task**: TASK-X2-CLAUDE
 **Document Type**: Operations / Stage State
