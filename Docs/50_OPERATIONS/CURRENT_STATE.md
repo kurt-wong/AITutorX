@@ -85,7 +85,7 @@ Producer 只声明 options_lines（整段行区间）
 | `Docs/60_REPORTS/**` | **Historical Evidence** | 全目录，不构成实现约束（DOC-GOV §2） |
 | 全部 "X2 / X2.5 / X2.6 / X2.7" 阶段文档 | **历史** | 阶段已结束 |
 
-> ⚠️ `Docs/60_REPORTS/PERSISTENCE-BOUNDARY-DECISION-01.md` 等 3 份**决策载体**已于
+> ⚠️ `Docs/40_DECISIONS/PERSISTENCE-BOUNDARY-DECISION-01.md` 等 3 份**决策载体**已于
 > 2026-09-27 归入 `Docs/40_DECISIONS/`（原在 `60_REPORTS/`，属分类错误）。
 
 ### 2.3 迁移相关（未关闭，**但不阻塞 Primary Path 实现**）

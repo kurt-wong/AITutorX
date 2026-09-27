@@ -8,7 +8,7 @@
 **Document ID**: X2-09
 **Task**: TASK-X2-CLAUDE
 **Document Type**: Operations / Open Issues Queue
-**Status**: `ACTIVE — NOTHING CLOSED BY X2`
+**Status**: `ARCHIVED`（原状态：`ACTIVE — NOTHING CLOSED BY X2`）
 **Date**: 2026-09-18
 **Upstream**: GF-005 OQ-GF；REPORT-E/H/I；Papers DEC-049；X2-01/07/08
 **Hard rule**: X2 不关闭任何 OQ/BL/D-048；不代 Owner 决策

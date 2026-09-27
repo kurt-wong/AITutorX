@@ -8,7 +8,7 @@
 **Document ID**: X2-00
 **Task**: TASK-X2-CLAUDE
 **Document Type**: Operations / Stage State
-**Status**: `ACTIVE — X2 DOCUMENT GOVERNANCE`
+**Status**: `ARCHIVED`（原状态：`ACTIVE — X2 DOCUMENT GOVERNANCE`）
 **Authority**: AITutorX 目标系统文档治理（**非** Migration Authorization）
 **Date**: 2026-09-18
 **Parent Governance**: GF v0.2 Frozen（`Docs/00_GOVERNANCE/GF-000` … `GF-006`）
