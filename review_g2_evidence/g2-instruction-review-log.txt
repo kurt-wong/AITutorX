@@ -1,0 +1,77 @@
+G2 INSTRUCTION REVIEW LOG — Owner draft task book "Governance Simplification Alignment & Main Pipeline Unblocking"
+Date: 2026-09-27  Reviewer: DSH (read-only; no repository state changed)
+
+================================================================================
+[1] FACTS RE-VERIFIED FOR THIS REVIEW
+================================================================================
+app/domains/source/import_service.py:26      _ALLOWED_EXTENSIONS = {".pdf", ".docx"}
+   -> preprocessing emits .md + manifest -> cannot enter the formal import at all (T-03 #1)
+
+scripts/preprocessing_consumer/runner.py:296, :317   await session.rollback()
+   -> no persistent ingestion of preprocessing artifacts (T-03 #2)
+
+Docs/V3_SPEC/90_DOCUMENT_GOVERNANCE.md
+   :682 Native Path : Source -> Resolver -> ResolvedRun
+   :683 Path B      : Source -> preprocessing -> Adapter -> ResolvedRun
+   :686 `ResolvedRun` 必须是唯一消费入口
+   -> the instruction's "Primary Production Path" == Spec Path B (T-01)
+
+Producer trees:
+   D:\Project\Papers\scripts\reslice_pipeline.py          _redact present = False ; writes identity = False
+   D:\Project\Aitutors-preprocessing\scripts\reslice_pipeline.py  _redact present = True  ; writes identity = False
+   D:\Project\Papers\tests\test_no_config_import.py:47    "except FileNotFoundError as e:"
+                                                       :79  assert "mimo-v2.6-pro" in r.stdout
+   -> two trees have diverged in hardening; Papers' own test cannot pass (T-10 a/b)
+
+Legacy model tag survives only in historical artifacts:
+   FORMAL-E2E-04-evidence/consumer_input_identity_ok/...manifest.json  "model": "mimo-x-pro-preview"
+   -> covered by the instruction's "旧测试数据除外" (T-11)
+
+Preceding-round facts reused (all previously verified in this session):
+   ENABLEMENT-03 : POST /api/documents/import + worker CLI -> 13 candidates, ALL pending_review, 0 Question
+                   => the only downstream evidence that exists is Native-Path evidence
+   ENABLEMENT-04 : fresh manifest keys = source_file, model, annotation_meta, units (no identity)
+                   consumer MISSING_IDENTITY, downstream_executed=false; 05/06 DB snapshots byte-identical
+   ENABLEMENT-05 : same gate failure reproduced on a genuine re-run
+   identity-ok sample: 53/53 units skipped, candidates_created=0, cause asserted but unevidenced
+   Contract: PREPROCESSING-V3-CONTRACT-v0.2-DRAFT.md:18,22 defines the identity key (64-hex)
+             header :3 states "DRAFT ... NOT FROZEN"
+
+================================================================================
+[2] FINDINGS
+================================================================================
+T-01 BLOCKING  Primary Production Path and Path B are the same pipeline, given opposite statuses in the
+               same document (evidence: 90 §H-C :682-686 vs PART 0 wording).
+T-02 BLOCKING  PART 4 implementation needs PART 3's Owner decision; PART 7 "commit hash" unsatisfiable in
+               the tree without .git.
+T-03 BLOCKING  PART 6 required chain cannot pass this round: (1) .md cannot be imported,
+               (2) consumer always rolls back, (3) identity gate, (4) 53/53 skipped even with identity.
+T-04 BLOCKING  No-go list missing: hand-edited manifest / path-as-identity / gate bypass
+               (+ fabricated authorization, + relaxed test assertions).
+T-05 HIGH      PART 9 requires four documents while PART 2 forbids new documents.
+T-06 HIGH      PART 9 priority order inverted: identity (P2) is a prerequisite of integration (P1);
+               Path B (P3) is the same pipeline as P1.
+T-07 MEDIUM    Three PART 0 statements are tier-mixed under "已经通过 DSH 独立验证"; "identity contract
+               尚未完成" risks licensing a forbidden CREATE.
+T-08 MEDIUM    Repo vs code-tree naming ambiguity (Papers IS the repo whose remote is
+               Aitutors-preprocessing.git).
+T-09 MEDIUM    PART 4 must state "只实现不改契约" to stay consistent with PART 5/PART 8.
+T-10 MEDIUM    Objective #4 has no list; three verified producer-side gaps should be named
+               (_redact / failing assertion / unfalsifiable budget_ok).
+T-11 INFO      PART 1 "provider 修改" consistent with verified state; legacy tags only historical.
+
+================================================================================
+[3] ACHIEVABILITY UNDER THE CURRENT CONSTRAINTS
+================================================================================
+Fully achievable : PART 3 fact-finding; PART 2/PART 1 merge of already-delivered simplifications;
+                   PART 9 #1 current-state assessment (with the Native-Path evidence caveat)
+Achievable as patch : PART 4 identity implementation (subject to T-02 tree question)
+Achievable after that : PART 6 acceptance at the identity gate
+NOT achievable    : PART 6 persistence + ResolvedRun completeness (T-03) -> must be pre-declared
+                    best-effort/record-only
+
+================================================================================
+[4] REVIEWER SIDE-EFFECTS
+================================================================================
+- Read-only. No repository state changed; no test suite executed; no key material printed.
+- Only files created: this review + its log (in AITutor-X).
