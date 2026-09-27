@@ -1,41 +1,38 @@
 # IMPLEMENTATION-AUTHORIZATION-PRIMARY-PATH-IDENTITY-01
 
 ```text
-Document Type : Implementation Authorization（**草案 — 未签发**）
+Document Type : Implementation Authorization（**已签发 / SIGNED**）
 supersedes    : —
 superseded_by : —
 readers       : MIMO CODE（执行方）；Owner（签发方）；后续 migration 授权作者
-Status: CLOSED
-
-Signature:
-  Signed by: <kurt>
-  Date: 2026-09-27
-
-Authorization:
-  ☑ AUTHORIZED (Phase A only)Date          : 2026-09-27
+Status        : CLOSED
+Signature     : kurt
+Signed Date   : 2026-09-27
+Authorization : AUTHORIZED — Phase A only (No Migration)
 Scope         : Phase A only（No Migration）
 Authority     : OWNER-DECISION-PRIMARY-PATH-IDENTITY-01.md
                 FROZEN-SPEC-ERRATA-PRIMARY-PATH-01.md
 Security      : Never hardcode API Keys/Passwords/Tokens/Secrets; Always use .env
 ```
 
-> ## ⛔ 本文件为**草案**，尚未生效
+> ## ✅ 本文件**已签发，已生效**
 >
 > ```text
-> ✗ 未获 Owner 签署
-> ✗ 不授权任何实现
+> ✓ Owner 已签署（kurt，2026-09-27）
+> ✓ 授权范围：Phase A only（No Migration）
 > ✗ 不授权任何 migration
-> ✓ 签发后方可依据本文件执行 Phase A
+> ✗ 不授权 producer_metadata schema introduction
+> ✓ 签署后即可依据本文件执行 Phase A
 > ```
 >
-> **签发方式**：由 Owner 将本文件 `Status` 改为 `CLOSED`、`Signature` 改为署名人/日期，
-> 或在下方签署区内记录。**未签署前，本文件不构成授权。**
+> 本文件曾以「草案 — 未签发」形态存在；Owner 于 2026-09-27 签署后，
+> 上列草案声明已被本签署声明取代。
 
 ```text
 ── OWNER SIGNATURE ─────────────────────────────────────────
-Signed by : ______________________
-Date      : ______________________
-Verdict   : ☐ AUTHORIZED (Phase A only)   ☐ REJECTED   ☐ REVISE
+Signed by : kurt
+Date      : 2026-09-27
+Verdict   : ☑ AUTHORIZED (Phase A only)   ☐ REJECTED   ☐ REVISE
 ────────────────────────────────────────────────────────────
 ```
 
@@ -140,9 +137,9 @@ separate migration authorization required
 
 ### Phase B — Migration（**未授权，须另立**）
 
+```text
 Migration:
   NOT AUTHORIZED
-```text
 ⛔ producer_metadata table
 ⛔ 任何 schema migration
 ```
@@ -201,4 +198,4 @@ Errata      : READY FOR FINAL APPROVAL
 
 ---
 
-*Recorded 2026-09-27 as DRAFT. 本文件未生效，不构成授权。签发后由 Owner 更新 Status / Signature。*
+*Recorded 2026-09-27. **SIGNED & IN EFFECT** — Owner kurt 于 2026-09-27 签署，授权范围 Phase A only（No Migration）。本文件不授权任何 migration。*
