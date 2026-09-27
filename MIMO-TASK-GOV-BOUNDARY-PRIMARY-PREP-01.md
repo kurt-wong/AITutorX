@@ -40,11 +40,13 @@ Security       : Never hardcode API Keys/Passwords/Tokens/Secrets; Always use .e
 `Docs/60_REPORTS/` 下有两份**未提交**（untracked）的上轮交付物：
 
 ```text
-Docs/60_REPORTS/GOVERNANCE-SIMPLIFICATION-REVIEW.md
-Docs/60_REPORTS/RECOMMENDED-MINIMAL-GOVERNANCE-MODEL.md
+Docs/40_DECISIONS/GOVERNANCE-SIMPLIFICATION-REVIEW.md
+Docs/40_DECISIONS/RECOMMENDED-MINIMAL-GOVERNANCE-MODEL.md
 ```
 
 先单独提交它们（内容不得修改），再做本任务的任何编辑。否则本轮的文档改动会与它们一起悬空、无法追溯。
+
+> `[PATH UPDATE 2026-09-27]` 上述两份文件原位于 `Docs/60_REPORTS/`；已在生产化整理（Phase 1-2b）中归入 `Docs/40_DECISIONS/`，因为它们属决策载体而非审计报告（DOC-GOV §2：`60_REPORTS/` 禁止 owner decisions）。**本任务指令的决策语义未变，仅路径更新。**
 
 ---
 

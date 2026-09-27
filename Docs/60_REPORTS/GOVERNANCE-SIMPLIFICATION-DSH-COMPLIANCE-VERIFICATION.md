@@ -2,8 +2,8 @@
 
 **Task**: `AITutorX 文档治理体系简化与业务推进解阻`（§0–§22）
 **Deliverables verified**:
-`Docs/60_REPORTS/GOVERNANCE-SIMPLIFICATION-REVIEW.md` (472 lines, 24 749 B, mtime 2026-09-27 09:36)
-`Docs/60_REPORTS/RECOMMENDED-MINIMAL-GOVERNANCE-MODEL.md` (422 lines, 16 677 B, mtime 2026-09-27 09:37)
+`Docs/40_DECISIONS/GOVERNANCE-SIMPLIFICATION-REVIEW.md` (472 lines, 24 749 B, mtime 2026-09-27 09:36)
+`Docs/40_DECISIONS/RECOMMENDED-MINIMAL-GOVERNANCE-MODEL.md` (422 lines, 16 677 B, mtime 2026-09-27 09:37)
 **Verifier**: DSH, independent. Read-only; no destructive command; no repository state changed.
 **Date**: 2026-09-27
 
