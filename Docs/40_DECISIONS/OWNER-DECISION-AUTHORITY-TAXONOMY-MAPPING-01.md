@@ -715,6 +715,38 @@ UNKNOWN / UNMAPPED 行
 依据：AGENTS.md 原则 2「UNKNOWN is retained data」—— 不得 silent skip / fallback
 ```
 
+#### A.1.6 Row expansion rule（`[OWNER DECISION 2026-09-28]`）
+
+```text
+Rows are split by authority state when the same source_level
+contains multiple lifecycle states.
+
+Row expansion does not introduce new taxonomy levels.
+```
+
+**中文含义**：行扩展只表达同一 `source_level` 下的不同 `source_authority_state`，
+**不代表新增 authority level**。
+
+```text
+✗ `L1` → 两个 L1（新增层级）
+✓ `L1` + `proposed`
+  `L1` + `established`
+```
+
+**性质（记录）**：
+
+```text
+本规则【不是】新的 authority mapping rule，
+而是【既有 normalization rule 的适用】（existing normalization rule application）。
+
+依据：
+  · source_level ≠ source_authority_state ≠ Registration Level（§A.1.2 / §A.1.4）
+  · `L2-proposed` 已归一化为 `L2` + `proposed`（§A.1.2）
+⇒ 同一原则必须适用于 `L1`。
+```
+
+**本轮适用结果**：`L1` 拆为两行（`established` / `proposed`），行集由 9 行增至 **10 行**。
+
 ---
 
 ### A.2 Authority Mapping Table
@@ -722,21 +754,82 @@ UNKNOWN / UNMAPPED 行
 ```text
 [PROPOSED — NOT FINAL]
 source_authority_state 值域【已定】（见 §A.1.4）：{ proposed, established, deprecated }
-逐行 source_authority_state 取值与 target_level 属下一步骤（FU-05 Mapping Table Draft）。
-本表 = 【结构 + 行集】。
+本表 = 【结构 + 行集 + Draft 提案】。行集 = 10 行（`L1` 已按 §A.1.6 拆行）。
+
+标记约定：
+  无前缀           = 已裁值（`[OWNER DECISION 2026-09-28]`）
+  `[DRAFT]` 前缀   = 本阶段提案，**待 Owner 审核**，不构成裁决
 ```
 
 | # | source_system | source_axis | source_level | source_authority_state | Registration Level | target_system | target_axis | target_level |
 |---|---|---|---|---|---|---|---|---|
-| 1 | V3 | authority | `L0` | `（待裁）` | `—` | AITutor-X | authority | `（待裁）` |
-| 2 | V3 | **meta** | `L0` | `—` | `—` | AITutor-X | **meta** | **`NULL`** |
-| 3 | V3 | authority | `L1` | `（待裁）` | `REGISTERED AS L1` | AITutor-X | authority | `（待裁）` |
-| 4 | V3 | authority | `L2` | `（待裁）` | `—` | AITutor-X | authority | `（待裁）` |
-| 5 | V3 | authority | `L2` | **`proposed`** | **`NOT REGISTERED`** | AITutor-X | authority | `（待裁）` |
-| 6 | V3 | authority | `L3` | `（待裁）` | `—` | AITutor-X | authority | `（待裁）` |
-| 7 | V3 | authority | `L4` | `（待裁）` | `—` | AITutor-X | authority | `（待裁）` |
-| 8 | V3 | authority | `L5` | `（待裁）` | `—` | AITutor-X | authority | `（待裁）` |
-| 9 | `UNKNOWN` | `UNKNOWN` | `UNKNOWN` | `UNKNOWN` | `—` | AITutor-X | `（待裁）` | `（待裁）` |
+| 1 | V3 | authority | `L0` | `established` | `—` ⁽ᵃ⁾ | AITutor-X | authority | `[DRAFT]` `Authority-L1` |
+| 2 | V3 | **meta** | `L0` | `established` | `—` ⁽ᵃ⁾ | AITutor-X | **meta** | **`NULL`** |
+| 3 | V3 | authority | `L1` | `established` | `REGISTERED AS L1` | AITutor-X | authority | `[DRAFT]` `Authority-L0` |
+| 4 | V3 | authority | `L1` | **`proposed`** | **`TBD`** | AITutor-X | authority | `[DRAFT]` `NULL` |
+| 5 | V3 | authority | `L2` | `established` | `—` ⁽ᵃ⁾ | AITutor-X | authority | `[DRAFT]` `Authority-L3` |
+| 6 | V3 | authority | `L2` | **`proposed`** | **`NOT REGISTERED`** | AITutor-X | authority | `[DRAFT]` `NULL` |
+| 7 | V3 | authority | `L3` | `established` | `—` ⁽ᵃ⁾ | AITutor-X | authority | `[DRAFT]` `Authority-L6` |
+| 8 | V3 | authority | `L4` | `established` | `—` ⁽ᵃ⁾ | AITutor-X | authority | `[DRAFT]` `Authority-L5` |
+| 9 | V3 | authority | `L5` | `established` | `—` ⁽ᵃ⁾ | AITutor-X | authority | `[DRAFT]` `Authority-L7` |
+| 10 | `UNKNOWN` | `UNKNOWN` | `UNKNOWN` | `UNKNOWN` | `UNKNOWN` | AITutor-X | `[DRAFT]` `UNKNOWN` | `[DRAFT]` `NULL` |
+
+**注 (a)**：Registration Level 列的 `—` = 该概念**不适用**于该 level（该 level 非 Contract Change Record）。
+此为**【适用性判断】，非既有事实**；如 Owner 认为应改为 `NOT REGISTERED`，请指出。
+
+**已裁值（非 `[DRAFT]`）**：
+
+```text
+行 2   target_level = `NULL`（DQ-05-04）
+行 4   source_authority_state = `proposed`（L1 拆行裁决，§A.1.6）
+行 6   source_authority_state = `proposed` / Registration Level = `NOT REGISTERED`
+       （DQ-05-02 = B / 读法 B）
+```
+
+**`[DRAFT]` 提案依据**：
+
+```text
+行 1  V3 L0 Frozen Spec → `Authority-L1`
+      README：L1 = Frozen Specification；
+      REPORT-I §6:119 已把 V3 L0 Frozen Spec 送 `Docs/10_SPEC/`
+      替代：`Authority-L0`（否决：L0 = Owner/System Decision，非 spec）
+
+行 3  V3 L1 Contract Change（established）→ `Authority-L0`
+      90 §1：L1 = 「修改 L0 的唯一入口」—— 其权限高于 L0 本体，
+      对应 README L0 = Owner/System Decision
+      ⚠️ 本行为全表**最不确定行**；替代：`Authority-L2`（Cross-System Contract）
+      `§9-3` 原写「→ Owner Decision」，与本提案同向
+
+行 4  V3 L1（proposed，`67` 候选）→ `NULL`
+      提案态未成立；防 `proposed` → canonical 自动升格（DQ-05-02 理由）
+
+行 5  V3 L2 Architecture Decision Record → `Authority-L3`
+      90 §1：L2 = Architecture Decision Record；
+      README L3 = Approved Architecture / Design
+
+行 6  V3 L2（proposed）→ `NULL`（同行 4）
+
+行 7  V3 L3 Gate Report → `Authority-L6`
+      90 §1：L3 = Gate Report「证明状态」→ README L6 = Audit / Review
+      替代：`Authority-L5`（Tests / Verification）
+
+行 8  V3 L4 Experiment Report → `Authority-L5`
+      90 §1：L4 = Experiment Report「提供证据」→ README L5 = Tests / Verification
+      替代：`Authority-L6`（Audit / Review）
+      [注] 行 7 / 行 8 为全表**次不确定对**，Owner 可互换
+
+行 9  V3 L5 Status / log / restart → `Authority-L7`
+      90 §1：L5 = 项目管理与索引 → README L7 = Working Notes
+
+行 10 UNKNOWN → `NULL` + 人工裁决（§A.1.5）
+```
+
+**未使用的域值**：
+
+```text
+`deprecated` —— 当前 10 行中无实例。
+保留于值域中以备 taxonomy label 退役时使用（前向定义，非冗余）。
+```
 
 **行 2 说明**（DQ-05-04 = B）：
 
@@ -752,10 +845,12 @@ target 对象   = AITUTORX-DOC-GOVERNANCE.md（本文档级 meta authority 对�
 **行注**：
 
 ```text
-行 4 / 行 5 —— 同一 source_level = `L2`，由 source_authority_state 与
+行 3 / 行 4 —— 同一 source_level = `L1`，按 §A.1.6 拆行
+行 5 / 行 6 —— 同一 source_level = `L2`，由 source_authority_state 与
                Registration Level 区分（DQ-05-02 = B）
-行 3      —— Registration Level = `REGISTERED AS L1` 为既有实例值
-行 9      —— 不自动归类（§A.1.5）
+行 4       —— Registration Level = `TBD`：Owner 明示【不得】由
+               `NOT RELEASED` 推得 `NOT REGISTERED`（发布状态 ≠ 注册状态）
+行 10      —— 不自动归类（§A.1.5）
 ```
 
 ---
