@@ -7,7 +7,7 @@ Decision State: approved
 disposition   : RETAIN
 supersedes    : —
 superseded_by : —
-Revision      : 4 (2026-09-28) — rev.1 → rev.2：新增 §3.7 Charter Requirements Satisfaction Criteria（rev.1 内容逐字保留）；rev.2 → rev.3：新增 `Decision State` 字段、§7 增列 RC-1～RC-4 核验证据、修正 §2.5 / §3.4 引用锚点、§4 补 `GF-005` / `FU-06` 两行；rev.3 → rev.4：Owner 签署 §7.2（☑ Accepted · Signed: kurt · 2026-09-28），`Decision State` 由 `pending_review` 记为 `approved`，记明 §3.7.2 Review authority 身份不固定（不新增 FU），§1–§6 内容未改（rev.1～rev.3 内容逐字保留）
+Revision      : 5 (2026-09-28) — rev.1 → rev.2：新增 §3.7 Charter Requirements Satisfaction Criteria（rev.1 内容逐字保留）；rev.2 → rev.3：新增 `Decision State` 字段、§7 增列 RC-1～RC-4 核验证据、修正 §2.5 / §3.4 引用锚点、§4 补 `GF-005` / `FU-06` 两行；rev.3 → rev.4：Owner 签署 §7.2（☑ Accepted · Signed: kurt · 2026-09-28），`Decision State` 由 `pending_review` 记为 `approved`，记明 §3.7.2 Review authority 身份不固定（不新增 FU），§1–§6 内容未改（rev.1～rev.3 内容逐字保留）；rev.4 → rev.5：§6 禁用状态词 `DONE` → `已落盘`（DOC-GOV §8.1 与本 Charter §3.6 一致性修正；Editorial consistency correction，不影响 Owner Decision 内容、不重新签署；§3.7 / §7.2 / Status / Decision State 均未改）（rev.1～rev.4 内容逐字保留）
 Date          : 2026-09-28
 Authority     : 本文件（Owner Decision Authority — Migration Authority Charter）
 依据           : GF-006 OD-01 §2.2（Charter 目的；「Charter 全文另立」已裁）
@@ -399,7 +399,7 @@ rev.2（本次）          ：新增 §3.7；rev.1 全部内容逐字保留
 ## 6. 当前状态
 
 ```text
-Charter 落盘              = DONE（本文件 · Status OPEN · Decision State approved）
+Charter 落盘              = 已落盘（本文件 · Status OPEN · Decision State approved）
 Migration Authority       = Owner（已裁）
 角色区分（F4-2）           = 强制（§1）
 Approval Record（F4-3）    = Core = GF-003 approval_block + Extension（§2）
@@ -456,4 +456,4 @@ Date:   2026-09-28
 
 ---
 
-*GF-007 — Migration Authority Charter · 2026-09-28 · revision 4 · Status OPEN · Decision State approved · 非 Frozen · Owner Accepted 2026-09-28。*
+*GF-007 — Migration Authority Charter · 2026-09-28 · revision 5 · Status OPEN · Decision State approved · 非 Frozen · Owner Accepted 2026-09-28。*
