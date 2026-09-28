@@ -9,7 +9,7 @@ Signed Date   : （空）
 supersedes    : —
 superseded_by : —
 disposition   : RETAIN
-Revision      : 1 (2026-09-28)
+Revision      : 2 (2026-09-28) — 补「三层防护」声明（签发前确认项）
 Date          : 2026-09-28
 Authority     : —（本文尚未构成 Authority；签发前不具约束力）
 Parent        : Docs/40_DECISIONS/OWNER-DECISION-MIGRATION-AUTHORITY-TAXONOMY-01.md §6 FU-01
@@ -33,6 +33,15 @@ Security      : Never hardcode API Keys/Passwords/Tokens/Secrets; Always use .en
 · 本文不创建 GF-007。
 · 本文不修改 Frozen Spec / GF-000～006 / V3 90、91。
 · 本文不修改任何历史报告正文。
+
+三层防护（签发前确认项）：
+  ① 非 Frozen —— 本 Decision Record 不构成 Frozen Specification，
+     不创建新的 Frozen Authority Layer，不得被引作 Frozen 依据。
+  ② 非新层级 Authority Source —— 本 Decision 不产生新的 Authority Level、
+     不定义层级划分；它只在既有体系【之上】提供映射解释规则。
+     其效力来源 = Owner 裁决（GF-000:461），非自我声证。
+  ③ 非替代现有 Spec —— 不取代 README L0–L7 / V3 90·91 / DOC-GOV §9；
+     三者按 §2.3 各自保留，不被本 Decision 废除。
 
 本文生效条件：Owner 在 §8 签署。
 ```
@@ -387,6 +396,8 @@ Date:   _______________
 - 创建 GF-007
 - Migration / Gate 批准 / F5 / F10 裁决
 - 修改 Frozen Spec / GF-000～006 / V3 90、91
+- 使本文件成为 Frozen 层 / 引本文件为 Frozen 依据
+- 以本 Decision 取代 README L0–L7 / V3 90、91 / DOC-GOV §9
 - 修改任何历史报告正文（REPORT-B / REPORT-G/H/I/K / REPORT-E 队列结论）
 - 新增治理原则 / 新增 OQ·BL·OD 编号体系
 ```
@@ -425,4 +436,5 @@ Date:   _______________
 
 ---
 
-*OWNER-DECISION-AUTHORITY-TAXONOMY-MAPPING-01 · DRAFT revision 1 · 2026-09-28 · 未签发。*
+*OWNER-DECISION-AUTHORITY-TAXONOMY-MAPPING-01 · DRAFT revision 2 · 2026-09-28 · 未签发。
+三层防护见 §0（非 Frozen / 非新层级 Authority Source / 非替代现有 Spec）。*
