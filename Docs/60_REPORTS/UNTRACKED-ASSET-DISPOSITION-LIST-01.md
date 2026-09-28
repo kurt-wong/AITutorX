@@ -64,7 +64,7 @@ Docs/ 已跟踪树               : 00_GOVERNANCE 17 / 10_SPEC 5 / 20_ARCHITECTUR
 | A5 | `E2E-VERIFICATION-REPORT.md` | 58.5 KB | 2026-09-25 | E2E 验证报告（含 fixture/commit/DB evidence） | 证据 L3 | **(a) COMMIT** |
 | A6 | `E2E-VERIFICATION-EXECUTION-REPORT.md` | 47.8 KB | 2026-09-26 | E2E 执行证据记录（含 V3@d2b9a26 / Producer@2b92898 锚） | 证据 L3 | **(a) COMMIT** |
 | A7 | `MIMO-PREPROCESSING-V3-LOCAL-INDEPENDENT-VERIFICATION.md` | 51.1 KB | 2026-09-22 | Independent Forensic Audit（Evidence-first） | 证据 L3/L4 | **(a) COMMIT** |
-| A8 | `PRIMARY-PATH-MINIMAL-LOOP-PROBE-RESULT.md` | 2.3 KB | 2026-09-27 | READ-ONLY 探针结果 | 证据 L4 | **(a) COMMIT** |
+| A8 | `PRIMARY-PATH-MINIMAL-LOOP-PROBE-RESULT.md` | 2.3 KB | 2026-09-27 | READ-ONLY 探针结果 | 证据 L4 | **(a) COMMIT** → 已移至 `PRIMARY-PATH-MINIMAL-LOOP-01-artifacts/20-` |
 
 **支撑 (a) 的三条事实：**
 
@@ -77,11 +77,11 @@ Docs/ 已跟踪树               : 00_GOVERNANCE 17 / 10_SPEC 5 / 20_ARCHITECTUR
 > `REPORT-I §2.6` 自陈部分条目已 STALE（如 OD-007 git init 已完成）。
 > 故 (a) COMMIT 时应保留其**原始日期与结论**，不得回改正文；时效性另见 §5。
 
-### 2.2 Docs/60_REPORTS/PRIMARY-PATH-MINIMAL-LOOP-PROBE.py — 需单独裁决（1 份）
+### 2.2 `PRIMARY-PATH-MINIMAL-LOOP-PROBE.py` → `PRIMARY-PATH-MINIMAL-LOOP-01-artifacts/30-`（已归档）
 
-| # | 文件 | 大小 | 建议 Class | 建议动作 |
+| # | 文件（原位置 → 现位置） | 大小 | 建议 Class | 建议动作 |
 |---|---|---|---|---|
-| A9 | `PRIMARY-PATH-MINIMAL-LOOP-PROBE.py` | 7.0 KB | Probe（已失效） | **(b) ARCHIVE** 或 (c) EXCLUDE |
+| A9 | `PRIMARY-PATH-MINIMAL-LOOP-PROBE.py` → `PRIMARY-PATH-MINIMAL-LOOP-01-artifacts/30-minimal-loop-probe.py` | 7.0 KB | Probe（已失效） | **(b) ARCHIVE** — 已执行，见 `UNTRACKED-ASSET-DISPOSITION-EXECUTION-01.md` |
 
 **依据（实测）：**
 
@@ -104,10 +104,11 @@ A9 直接裸放在 `60_REPORTS/` 根，与惯例不符。
 |---|---|---|---|
 | ⚠️ **二进制语料 PDF** | `inputs/caseA_real.pdf` | 182.6 KB | **(c) EXCLUDE**（加 .gitignore） |
 | ⚠️ **二进制语料 PDF** | `inputs/caseB_real_exam.pdf` | 350.9 KB | **(c) EXCLUDE**（加 .gitignore） |
-| 空/畸形 fixture | `inputs/caseC_empty.pdf` (0 B)、`inputs/caseC_wrongext.txt` (17 B) | ~0 | 随证据 (b) ARCHIVE |
+| 空/畸形 fixture | `inputs/caseC_empty.pdf` (0 B) | ~0 | **(c) EXCLUDE**（被 `*.pdf` 规则覆盖） |
 | 运行结果 JSON | `e2e-live-*.json`、`golden-report-b2*.json`、`negB/negC-report.json`、`replay-run2.json`、`diag-*.json` | ~250 KB | **(b) ARCHIVE** |
 | 驱动脚本 | `e2e_live_full_chain.py`、`diag_ir.py`、`diag_prod_ir.py`、`_test_*.py`、`_expand_opts.py` | ~62 KB | **(b) ARCHIVE** |
 | manifest fixtures | `golden/pac-c02-01.manifest.json`、`negB/`、`negC/`、`minimal-loop-manifest.json` | ~46 KB | **(b) ARCHIVE** |
+| 畸形扩展名 fixture | `inputs/caseC_wrongext.txt` (17 B) | 17 B | **PENDING** — 见下方说明 |
 
 **支撑 (c) 的理由**：`REPORT-I §5` 明确要求数据本体 **archive/external reference only**，并标注
 `生产数据本体 Ocr-markdown/ 等 … 不入 git`。PDF 语料属同类；且 `A6` 已把这些 PDF 的文件名/来源写进执行报告，
@@ -115,6 +116,30 @@ A9 直接裸放在 `60_REPORTS/` 根，与惯例不符。
 
 **支撑 (b) 的理由**：`A5` 头部自陈「证据目录：`D:\Project\AITutor-X\e2e_run\`」——
 即 e2e_run 是被跟踪报告**引用的证据目录**，属过程证据，按 `REPORT-I §5` 归 archive-only。
+
+**`inputs/caseC_wrongext.txt` 为何单列 PENDING（本清单首次登记，非事后补充）：**
+
+```text
+文件     : e2e_run/inputs/caseC_wrongext.txt
+大小     : 17 B
+性质     : 畸形扩展名 fixture（.txt 承载本应为 PDF 的输入）
+忽略状态 : 实测 VISIBLE —— *.pdf 规则不覆盖它，git 仍视其为未跟踪
+```
+
+它既非数据本体（不适用 `REPORT-I §5` 的 archive-only 归类），
+也非证据快照（不适用 (b)），而是一个**负向测试 fixture**。
+按 `AGENTS.md`「不删除旧文档/旧代码」，**不得删除**。
+
+因此本清单首次给出裁决点，**不由执行方自裁**：
+
+| 选项 | 含义 | 影响 |
+|---|---|---|
+| (a) COMMIT | 作为畸形输入测试 fixture 入库 | `e2e_run/inputs/` 转为已跟踪目录 |
+| (b) ARCHIVE | 与 G3 运行产物一并归档 | 该 fixture 与它所服务的运行解耦 |
+| (c) EXCLUDE | 判定为一次性产物，加 ignore | 后续无法复现该负向用例 |
+
+**现状**：`e2e_run/inputs/` 因本文件**仍显示为未跟踪**；3 份 PDF 已被 `*.pdf` 覆盖。
+处置决定前，本目录保持 `?? e2e_run/inputs/caseC_wrongext.txt` 状态。
 
 ### 2.4 tools/ — 诊断脚本（46 份，0.10 MB）
 
@@ -246,9 +271,10 @@ generated_at : 2026-09-26T05:04:40Z   ← 早于 Phase A（eecd60b），非本�
 | 组 | 范围 | 份数 | 体积 | 我的建议 | 阻断关系 |
 |---|---|---|---|---|---|
 | **G1** | X `Docs/60_REPORTS/` 治理文档（A1–A8） | 8 | 0.21 MB | **(a) COMMIT** | 解 `F7`；`REPORT-I` 自身落库 |
-| **G2** | X `PRIMARY-PATH-MINIMAL-LOOP-PROBE.py`（A9） | 1 | 7 KB | (b) ARCHIVE / (c) EXCLUDE | 已失效（scratch 不存在） |
+| **G2** | X probe（A9）→ `PRIMARY-PATH-MINIMAL-LOOP-01-artifacts/30-` | 1 | 7 KB | **(b) ARCHIVE** — 已执行 | 已失效（scratch 不存在） |
 | **G3** | X `e2e_run/` 非二进制（b） | ~28 | 0.67 MB | (b) ARCHIVE | 被 A5 引用 |
-| **G4** | X `e2e_run/inputs/*.pdf`（c） | 2 | 0.53 MB | **(c) EXCLUDE** + .gitignore | 数据本体不入库 |
+| **G4** | X `e2e_run/inputs/*.pdf`（c，含 0 B `caseC_empty.pdf`） | **3** | 0.53 MB | **(c) EXCLUDE** + .gitignore — 已执行 | 数据本体不入库 |
+| **G4b** | X `e2e_run/inputs/caseC_wrongext.txt` | 1 | 17 B | **PENDING — 待 Owner 裁决**（见 §2.3） | 唯一仍可见的 inputs 文件 |
 | **G5** | X `tools/_*.py`（A10） | 46 | 0.10 MB | (b) ARCHIVE / (c) EXCLUDE | 建议独立于本决定 |
 | **G6** | X `Docs/90_ARCHIVE/misc/`（A11） | 1 | 30 KB | (b) ARCHIVE | 无 |
 | **G7** | X `review_pif1_evidence/`（A12） | 4 | 12 KB | (b) ARCHIVE | `tmp/` 已 ignore |
