@@ -240,6 +240,56 @@ FU-05 说明：FU-01 只确立映射的【表达规则】（axis-qualified 六�
 
 *§6 追注追加。上表表体未改。FU-01 关闭；FU-05 登记。*
 
+### §6 追注 ②（2026-09-28；append-only）
+
+> 本节为第二次追注。**不改上表表体，亦不改上一追注。**
+
+**③ FU-05 关闭登记**
+
+```text
+FU-05  Authority Taxonomy Mapping Table（映射表正文 rows）  →  CLOSED
+       载体  ：OWNER-DECISION-AUTHORITY-TAXONOMY-MAPPING-01 附录 A
+       commit：0acb91f（rev.6 签发）+ 9295e46（编辑一致性校正）
+       裁决  ：10 行全部接受；source_authority_state = { proposed, established, deprecated }
+       上一追注 ② 的「REQUIRED」为 rev.5 时点快照，不再反映当前状态。
+```
+
+**④ FU-02 关闭登记**
+
+```text
+FU-02  GF-007-MIGRATION-AUTHORITY-CHARTER.md 落盘  →  CLOSED（落盘完成，待 Owner review）
+       载体  ：Docs/00_GOVERNANCE/GF-007-MIGRATION-AUTHORITY-CHARTER.md
+       前置  ：F4 子项 2 / 3 / 4 已裁 ——
+                 F4-2 = A（允许同主体 + 强制角色区分）
+                 F4-3 = 统一 Approval Record Core + Artifact Extension
+                 F4-4 = A（`Docs/40_DECISIONS/`）
+       Status：OPEN（Charter 自身状态；未 Frozen）
+       上表 FU-02 行「AUTHORIZED / BLOCKED」为签发时快照，不再反映当前状态。
+```
+
+**⑤ FU-06 新增登记**
+
+| ID | 项 | 依据 | 状态 | 阻塞 |
+|---|---|---|---|---|
+| **FU-06** | **DOC-GOV §1 Authority Order 缺「Decision」档位** —— 致 `Docs/40_DECISIONS/` 落入 Informative | `FU-02-F4-CHARTER-SCHEMA-INPUT.md` §5.2 | **OPEN** | **无（不阻塞 GF-007）** |
+
+```text
+FU-06 说明：
+  DOC-GOV §1 三档（Normative / Informative / Historical Evidence）
+  【无「Owner Decision / Decision」档位】；
+  §2 将 `Docs/40_DECISIONS/` 归为 Informative，而 §1 对 Informative 的定义为
+  「用于理解，【不自动产生约束】」—— 与 README「L0 = Owner / System Decision」构成张力。
+
+  该缺口【未登记】于 CL-03 / X2-03 / 任何冲突账本。
+
+  Owner 裁决（2026-09-28）：
+    · 另立 follow-up
+    · 【不阻塞 GF-007】
+    · 后续再决定是否修订 DOC-GOV Authority Order
+```
+
+*§6 追注 ② 追加。上表表体与追注 ① 均未改。FU-05 / FU-02 关闭；FU-06 登记。*
+
 ---
 
 ## 7. Non-Authorization Boundary
