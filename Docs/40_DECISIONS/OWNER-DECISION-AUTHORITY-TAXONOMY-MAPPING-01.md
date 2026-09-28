@@ -9,7 +9,7 @@ Signed Date   : （空）
 supersedes    : —
 superseded_by : —
 disposition   : RETAIN
-Revision      : 2 (2026-09-28) — 补「三层防护」声明（签发前确认项）
+Revision      : 3 (2026-09-28) — §4.3 补完 Proposed Decision 结构（补三层防护见 rev.2）
 Date          : 2026-09-28
 Authority     : —（本文尚未构成 Authority；签发前不具约束力）
 Parent        : Docs/40_DECISIONS/OWNER-DECISION-MIGRATION-AUTHORITY-TAXONOMY-01.md §6 FU-01
@@ -285,6 +285,19 @@ target_level  = L1
 
 ### 4.3 载体（Proposed）
 
+**Facts**
+
+现有候选容器：
+
+```text
+· DOC-GOV §9                                    — 人读表；已裁非权威（C-02 / C-03）
+· AITutors-v3 docs_audit/authority_matrix.yaml  — 机器可读全表（V3 仓资产）
+· README §权威层级                               — X 侧层级定义
+· 本 Decision Record                            — 映射规则承载权威（DQ-01 = D）
+```
+
+**Options**
+
 | Option | 含义 | 约束评价 |
 |---|---|---|
 | A | 新建独立 Decision 承载映射表（人读） | 符合「须另立 Mapping Decision」；须避免与 §9 形成第三张表 |
@@ -292,13 +305,34 @@ target_level  = L1
 | C | 复用 V3 `docs_audit/authority_matrix.yaml` | 机器可读；受 V3 `91 §5.1` 冻结约束，且为 V3 仓资产 |
 | D | A + 机器可读副本（人读 / 机读双载体） | 精度最高；载体数最多 |
 
-**约束**：
+**Facts — 载体约束**：
 
 ```text
 [FACT] AITutor-X   R1（每任务最多 1 份文档）/ §8B（60_REPORTS 膨胀已登记问题）
 [FACT] AITutors-v3 91 §5.1（DG 期间冻结新建治理文档；
               再建治理文档须先证明 90/91/82/84 承载不了）
 ⇒ 两仓均有「不得以治理复制治理」约束。
+```
+
+**Proposed Decision**
+
+```text
+[PROPOSED — NOT FINAL]
+
+A（附载体限定）= 映射表置于【本 Decision Record 内】的映射表条款，
+                 不另行新建第二份 Decision 文件。
+
+理由：
+  ① DQ-01 = D 已使本 Decision 成为 Mapping Rule 的承载权威；
+     表随权威走，避免「权威在一处、表在另一处」的分裂。
+  ② R1 / §8B 与 V3 91 §5.1 构成双重「不得以治理复制治理」约束。
+  ③ B 不可用：§9 效力已由 F3-B 裁为 informational。
+     C 不可用：V3 yaml 为 V3 仓资产，且受 V3 文档冻结约束，
+                X 不应以他仓资产为自身权威载体。
+  ④ D 暂不建立机器可读副本 —— 待出现实际消费者时另行评估，
+     届时该副本按新治理资产单独处理。
+
+不预填映射表正文：映射行（source_level → target_level）属后续实质裁决，本文不含。
 ```
 
 ### 4.4 多套历史体系共存规则（Proposed）
@@ -324,6 +358,7 @@ DQ-03-B 禁止裸 L<n>:
 
 DQ-03 载体:
   ☐ A   ☐ B   ☐ C   ☐ D
+  （§4.3 Proposed = A 附「本 Decision 内」载体限定；如不接受该限定请写明）
 
 DQ-03 共存:
   ☐ 历史标签 = Evidence，规范映射 = Decision
@@ -436,5 +471,5 @@ Date:   _______________
 
 ---
 
-*OWNER-DECISION-AUTHORITY-TAXONOMY-MAPPING-01 · DRAFT revision 2 · 2026-09-28 · 未签发。
+*OWNER-DECISION-AUTHORITY-TAXONOMY-MAPPING-01 · DRAFT revision 3 · 2026-09-28 · 未签发。
 三层防护见 §0（非 Frozen / 非新层级 Authority Source / 非替代现有 Spec）。*
