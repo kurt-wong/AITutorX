@@ -6,7 +6,7 @@ Status        : OPEN
 disposition   : RETAIN
 supersedes    : —
 superseded_by : —
-Revision      : 1 (2026-09-28)
+Revision      : 2 (2026-09-28) — rev.1 → rev.2：新增 §3.7 Charter Requirements Satisfaction Criteria（rev.1 内容逐字保留）
 Date          : 2026-09-28
 Authority     : 本文件（Owner Decision Authority — Migration Authority Charter）
 依据           : GF-006 OD-01 §2.2（Charter 目的；「Charter 全文另立」已裁）
@@ -260,6 +260,104 @@ Owner 裁决（2026-09-28）：
 
 ---
 
+### 3.7 Charter Requirements Satisfaction Criteria（rev.2 新增）
+
+> **rev.1 快照说明**：§3.4 中「Charter requirements 的『satisfied 判定条件』尚未落盘」
+> 为 **rev.1 时点**的准确表述。**本 §3.7 即该判定条件**，自 rev.2 起生效。
+> §3.4 的文本按 add-only 原则**逐字保留**；本节为其 supersede 记录。
+
+#### 3.7.1 Required conditions（结构）
+
+```text
+Charter requirements satisfied SHALL require:
+
+  RC-1  Required Charter sections exist
+  RC-2  Required approval record fields are defined
+  RC-3  Required references are resolved
+  RC-4  Required governance conditions are recorded
+```
+
+| ID | 条件 | 机械核验口径 |
+|---|---|---|
+| **RC-1** | Required Charter sections exist | §1 / §2 / §3 / §4 / §5 均已落盘且非占位 |
+| **RC-2** | Required approval record fields are defined | Approval Record Core 五字段已定义（§2.1）；Artifact Extension 载体已指名（§2.3） |
+| **RC-3** | Required references are resolved | §4 全部引用对象可解析（不指向不存在文件） |
+| **RC-4** | Required governance conditions are recorded | Migration Authority 归属已裁（§1.3）；F4-2 / F4-3 / F4-4 裁决已落盘；FU-06 状态已登记（§3.3） |
+
+```text
+四项为【合取】—— 任一不满足 ⇒ requirements 未 satisfied。
+```
+
+#### 3.7.2 Declaration authority（判定主体）
+
+| 主体 | 权限 |
+|---|---|
+| **Owner** | **唯一** declaration authority —— 只有 Owner 可声明「requirements satisfied」 |
+| Migration Authority | 与 Owner 为**同一主体**（§1.3）⇒ 不构成独立第二方；其角色为**授权范围归属** |
+| Review authority（如 DSH / 外部审查） | 可出具 review 结论与证据，**【不】**具有 declaration 权 |
+
+```text
+⇒ 审查方提供【证据】，不提供【声明】。
+（与 §1.4「角色区分即使同一身份也须显式记录」一致：Owner 与 Migration Authority
+  同一身份，但二者在判定链中的角色必须分别记录。）
+```
+
+#### 3.7.3 Determination record（判定记录）
+
+```text
+Satisfied determination record SHALL contain:
+
+  reference        —— 指向本 Charter 与判定依据
+  evidence         —— 每项 RC-1 .. RC-4 的核验结果
+  decision_owner   —— Owner
+  timestamp        —— 判定日期
+```
+
+```text
+存放位置：Docs/40_DECISIONS/（依 §3.1 / F4-4 = A）
+形态    ：Decision Record（依 DOC-GOV R4「结论 → 40_DECISIONS/」）
+```
+
+#### 3.7.4 判定之后（**明确不在本 Charter 范围**）
+
+```text
+本 Charter 只定义【如何判定 satisfied】，
+【不】定义【判定之后发生什么】。
+
+不在本 Charter 范围：
+  · `approval_block.status` 的取值变更
+  · Gate 9 评估 / Gate 9 PASS
+  · Migration execution permission / Migration Authorization
+  · Migration 执行步骤
+  · runtime enforcement / database / schema
+
+⇒ requirements satisfied ≠ Migration Authorized（§3.4 继续适用）
+```
+
+#### 3.7.5 与 GF-005 `OQ-GF-014` 的关系
+
+```text
+GF-005 `OQ-GF-014`  = 历史【冻结】状态记录（OPEN-BLOCKING；2026-09-18 时点）
+本 §3.7             = 现行 Charter satisfaction rule
+
+二者层级不同：前者是冻结账本中的历史条目，后者是现行判定规则。
+```
+
+⇒ **不修改 GF-005；不改变 `OQ-GF-014`；本 Charter 提供【未来】判定规则。**
+
+#### 3.7.6 rev.1 → rev.2 变更
+
+```text
+rev.1（commit 213a78a）：§1 / §2 / §3.1–§3.6 / §4 / §5 / §6 / §7
+rev.2（本次）          ：新增 §3.7；rev.1 全部内容逐字保留
+
+背景：GF-006 OD-01 §2.2 已要求「Charter 全文与 requirements satisfied 判定条件」
+      落盘为【独立 Charter 文件】⇒ 判定条件属 Charter 的组成部分，
+      不宜外置为独立 follow-up。（Owner 2026-09-28 裁决）
+```
+
+---
+
 ## 4. Reference Relationship
 
 | 引用对象 | 关系 |
@@ -311,6 +409,11 @@ Gate activation           = NOT AUTHORIZED
 FU-06（§3.3 缺口）         = OPEN（不阻塞本 Charter）
 ```
 
+> `[rev.2 追注]` `Requirements Satisfaction Criteria` 已于 **§3.7** 定义
+> （判定条件已落盘）。**但判定尚未执行** —— requirements 未被声明为 satisfied；
+> §3.4 的状态不变：`approval_block.status` 仍为 `invalid_without_charter`，
+> **Migration Authorization 仍不可用**。本追注**不改上列状态块文本**。
+
 ---
 
 ## 7. Owner Review
@@ -327,4 +430,4 @@ Date:   _______________
 
 ---
 
-*GF-007 — Migration Authority Charter · 2026-09-28 · revision 1 · Status OPEN · 非 Frozen · 待 Owner review。*
+*GF-007 — Migration Authority Charter · 2026-09-28 · revision 2 · Status OPEN · 非 Frozen · 待 Owner review。*
