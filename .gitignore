@@ -57,6 +57,9 @@ data/
 # Binary document fixtures (source corpus; evidence kept in reports, not the binary)
 # Disposition: UNTRACKED-ASSET-DISPOSITION-LIST-01.md §2.3 (group G4, decision (c) EXCLUDE)
 *.pdf
+# Deliberately-malformed-extension fixtures (negative-test inputs; not source, not evidence)
+# Disposition: UNTRACKED-ASSET-DISPOSITION-LIST-01.md §2.3 (group G4b, decision (c) EXCLUDE)
+*_wrongext.*
 *.csv
 *.parquet
 *.db

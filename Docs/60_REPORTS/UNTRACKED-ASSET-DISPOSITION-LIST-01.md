@@ -108,7 +108,7 @@ A9 直接裸放在 `60_REPORTS/` 根，与惯例不符。
 | 运行结果 JSON | `e2e-live-*.json`、`golden-report-b2*.json`、`negB/negC-report.json`、`replay-run2.json`、`diag-*.json` | ~250 KB | **(b) ARCHIVE** |
 | 驱动脚本 | `e2e_live_full_chain.py`、`diag_ir.py`、`diag_prod_ir.py`、`_test_*.py`、`_expand_opts.py` | ~62 KB | **(b) ARCHIVE** |
 | manifest fixtures | `golden/pac-c02-01.manifest.json`、`negB/`、`negC/`、`minimal-loop-manifest.json` | ~46 KB | **(b) ARCHIVE** |
-| 畸形扩展名 fixture | `inputs/caseC_wrongext.txt` (17 B) | 17 B | **PENDING** — 见下方说明 |
+| 畸形扩展名 fixture | `inputs/caseC_wrongext.txt` (17 B) | 17 B | **(c) EXCLUDE**（已执行，加 ignore 规则 `*_wrongext.*`） |
 
 **支撑 (c) 的理由**：`REPORT-I §5` 明确要求数据本体 **archive/external reference only**，并标注
 `生产数据本体 Ocr-markdown/ 等 … 不入 git`。PDF 语料属同类；且 `A6` 已把这些 PDF 的文件名/来源写进执行报告，
@@ -117,29 +117,39 @@ A9 直接裸放在 `60_REPORTS/` 根，与惯例不符。
 **支撑 (b) 的理由**：`A5` 头部自陈「证据目录：`D:\Project\AITutor-X\e2e_run\`」——
 即 e2e_run 是被跟踪报告**引用的证据目录**，属过程证据，按 `REPORT-I §5` 归 archive-only。
 
-**`inputs/caseC_wrongext.txt` 为何单列 PENDING（本清单首次登记，非事后补充）：**
+**`inputs/caseC_wrongext.txt` — 裁决与执行（G4b）：**
 
 ```text
 文件     : e2e_run/inputs/caseC_wrongext.txt
 大小     : 17 B
 性质     : 畸形扩展名 fixture（.txt 承载本应为 PDF 的输入）
-忽略状态 : 实测 VISIBLE —— *.pdf 规则不覆盖它，git 仍视其为未跟踪
 ```
 
 它既非数据本体（不适用 `REPORT-I §5` 的 archive-only 归类），
 也非证据快照（不适用 (b)），而是一个**负向测试 fixture**。
 按 `AGENTS.md`「不删除旧文档/旧代码」，**不得删除**。
 
-因此本清单首次给出裁决点，**不由执行方自裁**：
+**Owner 裁决（2026-09-28）：(c) EXCLUDE。**
 
-| 选项 | 含义 | 影响 |
+```text
+理由：fixture-like malformed extension artifact
+      / not production evidence
+      / not authorized for repository inclusion
+执行：新增 ignore 规则 `*_wrongext.*`；文件保留在磁盘，未删除、未移动、未改内容
+```
+
+| 选项 | 含义 | 结果 |
 |---|---|---|
-| (a) COMMIT | 作为畸形输入测试 fixture 入库 | `e2e_run/inputs/` 转为已跟踪目录 |
-| (b) ARCHIVE | 与 G3 运行产物一并归档 | 该 fixture 与它所服务的运行解耦 |
-| (c) EXCLUDE | 判定为一次性产物，加 ignore | 后续无法复现该负向用例 |
+| (a) COMMIT | 作为畸形输入测试 fixture 入库 | 未采纳 |
+| (b) ARCHIVE | 与 G3 运行产物一并归档 | 未采纳 |
+| (c) EXCLUDE | 判定为一次性产物，加 ignore | ✅ **已执行** |
 
-**现状**：`e2e_run/inputs/` 因本文件**仍显示为未跟踪**；3 份 PDF 已被 `*.pdf` 覆盖。
-处置决定前，本目录保持 `?? e2e_run/inputs/caseC_wrongext.txt` 状态。
+> 采用 `*_wrongext.*` 而非精确文件名，是因为 `_wrongext` 是**刻意命名约定**
+> （用于标记"扩展名故意写错"的负向 fixture），同类文件在 future 轮次可预期再现。
+> 实测该规则**未隐藏任何已跟踪文件**。
+
+**现状**：`e2e_run/inputs/` 现已**干净**（无未跟踪文件）；3 份 PDF 由 `*.pdf` 覆盖，
+`caseC_wrongext.txt` 由 `*_wrongext.*` 覆盖。目录仍在磁盘上，内容完整。
 
 ### 2.4 tools/ — 诊断脚本（46 份，0.10 MB）
 
@@ -251,18 +261,28 @@ B11 自陈：把 9 份 CONTRACTS 文档标为 "Primary Governance Risk / Never i
 
 | # | 文件 | 大小 | 建议 Class | 建议动作 |
 |---|---|---|---|---|
-| B14 | `provider_reality.json` | 2.0 KB | 运行产物（含真实 ID） | **(c) EXCLUDE** |
+| B14 | `provider_reality.json` | 2.0 KB | 运行产物（含真实 ID） | **(c) EXCLUDE** — 已执行 |
 
 **实测特征：**
 
 ```text
+位置         : AITutors-v3/backend/provider_reality.json（非 AITutor-X）
 generated_at : 2026-09-26T05:04:40Z   ← 早于 Phase A（eecd60b），非本轮产物
-内容         : 含真实 document_id / task_id / request_id
+内容         : 含环境实例标识 document_id / task_id / request_id
+```
+
+**Owner 裁决（2026-09-28）：(c) EXCLUDE。**
+
+```text
+理由：runtime-generated snapshot
+      / 含环境实例标识（document_id / task_id / request_id）
+      / 不属于可复现治理资产
+执行：AITutors-v3/.gitignore 新增规则 `provider_reality.json`
+      未移动到 archive；未修改内容；文件保留在磁盘
 ```
 
 **依据**：`Runner` 运行产物，非身份决定证据；含真实 DB 标识符。
-建议**删除或加入 .gitignore**，并在处置记录中登记其来源为 2026-09-26 的 runner 运行。
-**不得**随 `git add -A` 进入 `eecd60b` 之后的任何提交。
+**不得**随 `git add -A` 进入 `eecd60b` 之后的任何提交（已由 ignore 规则保障）。
 
 ---
 
@@ -274,7 +294,7 @@ generated_at : 2026-09-26T05:04:40Z   ← 早于 Phase A（eecd60b），非本�
 | **G2** | X probe（A9）→ `PRIMARY-PATH-MINIMAL-LOOP-01-artifacts/30-` | 1 | 7 KB | **(b) ARCHIVE** — 已执行 | 已失效（scratch 不存在） |
 | **G3** | X `e2e_run/` 非二进制（b） | ~28 | 0.67 MB | (b) ARCHIVE | 被 A5 引用 |
 | **G4** | X `e2e_run/inputs/*.pdf`（c，含 0 B `caseC_empty.pdf`） | **3** | 0.53 MB | **(c) EXCLUDE** + .gitignore — 已执行 | 数据本体不入库 |
-| **G4b** | X `e2e_run/inputs/caseC_wrongext.txt` | 1 | 17 B | **PENDING — 待 Owner 裁决**（见 §2.3） | 唯一仍可见的 inputs 文件 |
+| **G4b** | X `e2e_run/inputs/caseC_wrongext.txt` | 1 | 17 B | **(c) EXCLUDE** — 已执行（`*_wrongext.*`） | inputs 目录已清空 |
 | **G5** | X `tools/_*.py`（A10） | 46 | 0.10 MB | (b) ARCHIVE / (c) EXCLUDE | 建议独立于本决定 |
 | **G6** | X `Docs/90_ARCHIVE/misc/`（A11） | 1 | 30 KB | (b) ARCHIVE | 无 |
 | **G7** | X `review_pif1_evidence/`（A12） | 4 | 12 KB | (b) ARCHIVE | `tmp/` 已 ignore |
