@@ -311,6 +311,20 @@ pending · approved · verified · NOT REGISTERED · REGISTERED AS L1 · ready �
 **本文对该候选集的碰撞检查结果**：见 §5 汇总 —— **4 值中 1 值直接碰撞**（`superseded`）。
 候选集本身仍待 Owner 批准；本文不批准。
 
+> **追注（2026-09-28）—— Owner 已裁，本候选集【已撤回】**
+>
+> ```text
+> Q1 = A（taxonomy label 生命周期）
+> Q2 = 独立于 `Registration Level`（附 Case A / Case B 反例）
+> 批准值域 = { proposed, established, deprecated }
+> 撤回 { proposed, accepted, superseded, retired }：
+>   proposed  → 保留
+>   accepted / superseded / retired → 不采用
+> ```
+>
+> 落点：`Docs/40_DECISIONS/OWNER-DECISION-AUTHORITY-TAXONOMY-MAPPING-01.md` §A.1.4。
+> **本节保留为【输入时点】记录，不再反映当前状态；§5 的逐值归属检查仍然有效。**
+
 ---
 
 ## 7. `L2-proposed` 的三元分解（已裁，供值域对齐）

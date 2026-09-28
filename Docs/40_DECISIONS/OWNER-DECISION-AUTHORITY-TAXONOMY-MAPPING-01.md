@@ -597,7 +597,9 @@ Registration Level
 ✗ `L2-proposed` 作为 source_level 取值
 ```
 
-#### A.1.4 `Registration Level` 值域
+#### A.1.4 State 字段值域（`source_authority_state` / `Registration Level`）
+
+**`Registration Level` 值域**：
 
 ```text
 仅沿用既有实例，不新增值域：
@@ -605,17 +607,98 @@ Registration Level
   REGISTERED AS L1
 ```
 
-```text
-[OWNER DECISION REQUIRED]
-  `source_authority_state` 的【值域】尚未定义。
-  Owner 已裁 `proposed`（用于 §A.1.2 归一化）；其余取值未定 —— 本附录不预填。
+**`source_authority_state` 值域**（`[OWNER DECISION 2026-09-28]`）：
 
-  相关风险（须一并考虑）：
-  V3 侧另有未消解的 Status 值域冲突 ——
-    `OD-01V4R-FINAL-REMEDIATION-REPORT.md:50`
-      「`90 §4:376` 与 `91 §3.1` 值域不一致（`PENDING` 归属）→ 未决依赖」
-    `:120`「OD-01-H 词汇 vs `91 §3.1` … 请 Owner 裁定二者关系」
-  新增 state 取值须避免与其再次碰撞。
+```text
+Definition:
+  Lifecycle state of a source authority taxonomy label.
+  It MUST NOT represent registration status, workflow status,
+  decision status, semantic processing status, or gate status.
+
+Allowed values:
+  - proposed
+  - established
+  - deprecated
+```
+
+| 值 | 定义 |
+|---|---|
+| `proposed` | authority taxonomy label 已提出，但尚未成为稳定生效定义 |
+| `established` | authority taxonomy label 已被治理确认，作为当前有效定义使用 |
+| `deprecated` | authority taxonomy label 已不推荐继续使用，但历史记录仍保留 |
+
+**语义域（Q1 = A）**：
+
+```text
+source_authority_state = 【taxonomy label 的生命周期状态】
+
+不表示：
+  · 来源对象治理生命周期（Q1 Option B）
+  · Mapping 参与状态（Q1 Option C）
+  · 文档流程状态
+  · 注册状态（由 Registration Level 负责）
+```
+
+**与 `Registration Level` 正交（Q2 = 独立）**：
+
+```text
+二者【不可互推】。反例（Owner 2026-09-28 记录）：
+
+Case A
+  source_authority_state = `established`
+  Registration Level     = `NOT REGISTERED`
+  语义：taxonomy label 已被治理确认，但尚未进入正式 Registration
+
+Case B
+  source_authority_state = `proposed`
+  Registration Level     = `REGISTERED AS L1`
+  语义：新的 taxonomy 提案仍在提出阶段，但注册体系中已有对应旧版本 L1
+
+⇒ source_authority_state ≠ Registration Level
+```
+
+> **注（转录说明）**：Owner 原文 Case A 使用 `accepted`；`accepted` 已在同一裁决中撤回
+> （见下方「撤回的候选集」），故按同义改记为域内的 `established`。
+> **替换不改变反例结构**（仍为「已被治理确认」对「未注册」）。
+
+**撤回的候选集**（`[OWNER DECISION 2026-09-28]`）：
+
+```text
+撤回：{ proposed, accepted, superseded, retired }
+
+  proposed    → 保留（进入批准值域）
+  accepted    → 不采用
+  superseded  → 不采用
+  retired     → 不采用
+```
+
+**`source_authority_state` 明确排除**：
+
+| 排除值 | 原因 |
+|---|---|
+| `ACTIVE` | V3 / X 双规则冲突（本附录 §A.1.3 / FU-05 输入 §2.8 M-1），不进入新字段 |
+| `APPROVED` | decision / governance 语义 |
+| `ACCEPTED` | 与既有 `ACCEPTED` / `EFFECTIVE` 组合冲突（`90:374`） |
+| `EFFECTIVE` | 生效语义 |
+| `PENDING` | workflow 状态（且为 `91 §3.1` 冻结值） |
+| `VERIFIED` | verification 状态 |
+| `SUPERSEDED` | 已冻结状态值（`91 §3.1:119`） |
+| `RETIRED` | 非当前 taxonomy 术语体系 |
+| `NOT REGISTERED` | `Registration Level` |
+| `REGISTERED AS L1` | `Registration Level` |
+| `READY` | `semantic_status` |
+| `CLOSED` | decision / status |
+| `semantic_status` 取值 | 该域值域已冻结（`20_Document_Pipeline.md:394`） |
+| `gate_decision` 取值 | 独立域（`20_Document_Pipeline.md:397`） |
+
+**相关风险（记录，不因本裁决消失）**：
+
+```text
+V3 侧另有未消解的 Status 值域冲突 ——
+  `OD-01V4R-FINAL-REMEDIATION-REPORT.md:50`
+    「`90 §4:376` 与 `91 §3.1` 值域不一致（`PENDING` 归属）→ 未决依赖」
+  `:120`「OD-01-H 词汇 vs `91 §3.1` … 请 Owner 裁定二者关系」
+本裁决的排除清单已避开该冲突；该冲突本身仍 OPEN。
 ```
 
 #### A.1.5 UNKNOWN 兜底（DQ-05-01 = B）
@@ -638,8 +721,9 @@ UNKNOWN / UNMAPPED 行
 
 ```text
 [PROPOSED — NOT FINAL]
-source_authority_state 值域未定（见 §A.1.4）；target_level 逐行待裁。
-本表 = 【结构 + 行集】；映射值属下一步骤（FU-05 Mapping Table Draft）。
+source_authority_state 值域【已定】（见 §A.1.4）：{ proposed, established, deprecated }
+逐行 source_authority_state 取值与 target_level 属下一步骤（FU-05 Mapping Table Draft）。
+本表 = 【结构 + 行集】。
 ```
 
 | # | source_system | source_axis | source_level | source_authority_state | Registration Level | target_system | target_axis | target_level |
