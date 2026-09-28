@@ -9,7 +9,7 @@ Signed Date   : 2026-09-28
 supersedes    : —
 superseded_by : —
 disposition   : RETAIN
-Revision      : 4 (2026-09-28) — Owner 签发；rev.4 = `b329f5a`（签发）+ `09f41cd`（PROPOSED→RULED 令牌转换）两次提交
+Revision      : 5 (2026-09-28) — rev.4 = `b329f5a`（签发）+ `09f41cd`（令牌转换，已签发）；rev.5 追加附录 A（FU-05，**尚未裁决**）
 Date          : 2026-09-28
 Authority     : 本文件（Owner Decision Authority — Authority Mapping Rule）
 Parent        : Docs/40_DECISIONS/OWNER-DECISION-MIGRATION-AUTHORITY-TAXONOMY-01.md §6 FU-01
@@ -483,5 +483,251 @@ Date:   2026-09-28
 
 ---
 
-*OWNER-DECISION-AUTHORITY-TAXONOMY-MAPPING-01 · SIGNED revision 4 · 2026-09-28 · Signed by kurt。
+*OWNER-DECISION-AUTHORITY-TAXONOMY-MAPPING-01 · revision 5 · 2026-09-28。
+§1–§8 已签发（rev.4 · Signed by kurt）；附录 A（rev.5）**尚未裁决**。
 三层防护见 §0（非 Frozen / 非新层级 Authority Source / 非替代现有 Spec）。*
+
+---
+
+## 附录 A — FU-05 Authority Mapping Table（rev.5）
+
+```text
+Section Status : PROPOSED — NOT FINAL（本附录尚未裁决）
+Revision       : rev.5（2026-09-28）
+Authority      : —（本附录尚未构成 Authority）
+授权依据       : Owner 2026-09-28 FU-05 授权（DQ-05-01～DQ-05-06）
+Input          : Docs/60_REPORTS/FU-05-AUTHORITY-TAXONOMY-MAPPING-TABLE-PREP.md @ b8dce53
+```
+
+> **不影响已签发部分**：§2–§5 与 §8 的签发效力（rev.4 · APPROVED · `Signed by kurt`）
+> **不因本附录而改变**。本附录的 `PROPOSED — NOT FINAL` 在 Owner review 完成前持续有效。
+>
+> `§0` 所述「映射表正文（rows）：本文不含」**在 rev.4 时点为准确表述**。
+> 本附录新增 Mapping Rule 与 Mapping Table 的**【结构】**；
+> 映射**【值】**仍不含，属下一步骤（见 §A.4 末）。rev.6 签发时将一并校正 §0 表述。
+
+---
+
+### A.1 Mapping Rule
+
+#### A.1.1 Row Identity（DQ-05-03 = C）
+
+```text
+Row Identity =
+  ( source_system, source_axis, source_level,
+    source_authority_state, Registration Level )
+```
+
+| # | 字段 | 来源 | 性质 |
+|---|---|---|---|
+| 1 | `source_system` | DQ-03-A | Mapping Core |
+| 2 | `source_axis` | DQ-03-A | Mapping Core |
+| 3 | `source_level` | DQ-03-A | Mapping Core（ontology position） |
+| 4 | `source_authority_state` | **FU-05 追加** | Row Identity Governance Metadata |
+| 5 | `Registration Level` | **FU-05 追加** | Row Identity Governance Metadata |
+
+**Mapping Core —— DQ-03-A 原六字段，保持不变**：
+
+```text
+source_system / source_axis / source_level
+target_system / target_axis / target_level
+```
+
+**DQ-03-A Extension 登记（F-3）**：
+
+```text
+Original axis-qualified six-field template remains valid.
+
+FU-05 introduces Row Identity supplementary governance fields:
+  - source_authority_state
+  - Registration Level
+
+性质：Row Identity Governance Metadata
+不改变 core mapping schema。
+```
+
+#### A.1.2 `level` / `state` 分离原则（DQ-05-02 = B · 读法 B = 归一化）
+
+```text
+level = ontology position       （是什么层级）
+state = governance lifecycle    （该层级的治理状态）
+
+二者【不可混用】。level 不携带 state。
+```
+
+**归一化后果**：
+
+```text
+`L2-proposed`  【不再】作为 source_level 取值
+                 → source_level            = `L2`
+                 → source_authority_state  = `proposed`
+                 → Registration Level      = `NOT REGISTERED`
+```
+
+**理由（记录）**：
+
+```text
+若采读法 A（source_level = `L2-proposed` + state = proposed）：
+  · level 自身携带 state
+  · state 字段退化为重复信息
+  · 后续 Resolver / Mapping Rule 无法稳定分离 ontology 与 lifecycle
+```
+
+#### A.1.3 字段名约束（F-1 / F-2）
+
+**允许**：
+
+```text
+source_authority_level
+source_authority_state
+Registration Level
+```
+
+**禁止**：
+
+```text
+✗ semantic_status        —— 与 Frozen Spec 字段同名：
+                             `20_Document_Pipeline.md:394`「值域冻结（BUG-V3-018 终裁）：
+                             `semantic_status ∈ {ready, incomplete}`（仅此二值）」；
+                             `AITUTORX-DOC-GOVERNANCE.md:220` 列为
+                             「明确排除（**不得改动、不得重命名**）」
+✗ registration_state     —— 改用 V3 既有术语 `Registration Level`
+✗ registered_state       —— 同上
+✗ status of registration —— 同上
+✗ `L2-proposed` 作为 source_level 取值
+```
+
+#### A.1.4 `Registration Level` 值域
+
+```text
+仅沿用既有实例，不新增值域：
+  NOT REGISTERED
+  REGISTERED AS L1
+```
+
+```text
+[OWNER DECISION REQUIRED]
+  `source_authority_state` 的【值域】尚未定义。
+  Owner 已裁 `proposed`（用于 §A.1.2 归一化）；其余取值未定 —— 本附录不预填。
+
+  相关风险（须一并考虑）：
+  V3 侧另有未消解的 Status 值域冲突 ——
+    `OD-01V4R-FINAL-REMEDIATION-REPORT.md:50`
+      「`90 §4:376` 与 `91 §3.1` 值域不一致（`PENDING` 归属）→ 未决依赖」
+    `:120`「OD-01-H 词汇 vs `91 §3.1` … 请 Owner 裁定二者关系」
+  新增 state 取值须避免与其再次碰撞。
+```
+
+#### A.1.5 UNKNOWN 兜底（DQ-05-01 = B）
+
+```text
+无法确认【来源体系】的标签
+        ↓
+UNKNOWN / UNMAPPED 行
+        ↓
+进入人工裁决
+
+禁止：未知 → 自动归类
+
+依据：AGENTS.md 原则 2「UNKNOWN is retained data」—— 不得 silent skip / fallback
+```
+
+---
+
+### A.2 Authority Mapping Table
+
+```text
+[PROPOSED — NOT FINAL]
+source_authority_state 值域未定（见 §A.1.4）；target_level 逐行待裁。
+本表 = 【结构 + 行集】；映射值属下一步骤（FU-05 Mapping Table Draft）。
+```
+
+| # | source_system | source_axis | source_level | source_authority_state | Registration Level | target_system | target_axis | target_level |
+|---|---|---|---|---|---|---|---|---|
+| 1 | V3 | authority | `L0` | `（待裁）` | `—` | AITutor-X | authority | `（待裁）` |
+| 2 | V3 | **meta** | `L0` | `—` | `—` | AITutor-X | **meta** | **`NULL`** |
+| 3 | V3 | authority | `L1` | `（待裁）` | `REGISTERED AS L1` | AITutor-X | authority | `（待裁）` |
+| 4 | V3 | authority | `L2` | `（待裁）` | `—` | AITutor-X | authority | `（待裁）` |
+| 5 | V3 | authority | `L2` | **`proposed`** | **`NOT REGISTERED`** | AITutor-X | authority | `（待裁）` |
+| 6 | V3 | authority | `L3` | `（待裁）` | `—` | AITutor-X | authority | `（待裁）` |
+| 7 | V3 | authority | `L4` | `（待裁）` | `—` | AITutor-X | authority | `（待裁）` |
+| 8 | V3 | authority | `L5` | `（待裁）` | `—` | AITutor-X | authority | `（待裁）` |
+| 9 | `UNKNOWN` | `UNKNOWN` | `UNKNOWN` | `UNKNOWN` | `—` | AITutor-X | `（待裁）` | `（待裁）` |
+
+**行 2 说明**（DQ-05-04 = B）：
+
+```text
+`L0-META` 归一化 → source_axis = meta / source_level = L0
+target_axis   = meta
+target_level  = NULL
+target 对象   = AITUTORX-DOC-GOVERNANCE.md（本文档级 meta authority 对象）
+
+不创建 target_meta_object / target_reference / target_document 等额外字段。
+```
+
+**行注**：
+
+```text
+行 4 / 行 5 —— 同一 source_level = `L2`，由 source_authority_state 与
+               Registration Level 区分（DQ-05-02 = B）
+行 3      —— Registration Level = `REGISTERED AS L1` 为既有实例值
+行 9      —— 不自动归类（§A.1.5）
+```
+
+---
+
+### A.3 Exceptions
+
+| ID | 项 | 例外内容 | 依据 |
+|---|---|---|---|
+| **EX-1** | `L0-META` | 不在 90 §1 的 L0–L5 阶梯内 → 由 `source_axis = meta` 承载；`target_level = NULL`；**不扩展字段** | DQ-05-04 = B |
+| **EX-2** | `L2-proposed` | 不是独立 level → 归一化为 `L2` + `proposed`；`proposed` **不得自动升格**为 canonical | DQ-05-02 = B / 读法 B |
+| **EX-3** | `L1` 的注册态依赖 | 同一类文档：未注册时写 `L2-proposed`，已注册时写 `L1`；故 `L1` 行以 `Registration Level = REGISTERED AS L1` 为条件 | DQ-05-03 = C |
+| **EX-4** | UNKNOWN / UNMAPPED | 不进自动映射；进人工裁决 | DQ-05-01 = B |
+| **EX-5** | `DOC-GOV §9` | 保留，降为 **informational mapping reference**；不替换、不废止 | DQ-05-05 = A |
+| **EX-6** | GF-002 `L1`–`L6` | 血缘轴，不进本表；引用时写 `Lineage-L<n>` | DQ-03-B（已裁） |
+
+**EX-5 细节**
+
+```text
+§9 四行（全部【保留】）：
+  §9-1  L0 Frozen Spec     → Frozen Spec（V3_SPEC）— Normative
+  §9-2  L0-META            → 本文档
+  §9-3  L1 Contract Change → Owner Decision
+  §9-4  L2 / L3 / L4 / L5  → Informative / Historical Evidence
+
+§9 效力 = informational mapping reference，【非】 mapping authority。
+
+不替换：§9 不是权威，无可替换对象
+不废止：不删除旧文档（AGENTS.md）
+```
+
+---
+
+### A.4 History Handling
+
+```text
+[PROPOSED — NOT FINAL]
+```
+
+| 规则 | 内容 |
+|---|---|
+| **H-1** | 历史标签 **immutable**（`source_authority_level` / 原标） |
+| **H-2** | 规范解释 **derived**（`mapped_authority_level` / 本附录） |
+| **H-3** | 禁止重写历史文档标签；禁止以 mapped 值替换 source 值 |
+| **H-4** | `L2-proposed` 在**历史文档中保持原样**；仅【行】做归一化（EX-2） |
+| **H-5** | `mapping_decision_id` = `OWNER-DECISION-AUTHORITY-TAXONOMY-MAPPING-01` |
+| **H-6** | CL-03 / X2-03 的 `Current interpretation` 已于 `aca02e3` 更新；历史事实列未改 |
+| **H-7** | 本附录**不关闭 CL-03**；多套体系仍并存 |
+
+**下一步（本附录未授权）**：
+
+```text
+FU-05 Mapping Table Draft —— 逐行 target 提案
+        ↓
+Owner 审核每一行 target
+        ↓
+签发 → rev.6 整体更新（含 §0 表述校正）
+```
+
+*附录 A 形成于 2026-09-28 · PROPOSED — NOT FINAL · 尚未裁决。*
