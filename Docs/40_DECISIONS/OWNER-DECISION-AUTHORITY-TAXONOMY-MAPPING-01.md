@@ -107,7 +107,7 @@ Security      : Never hardcode API Keys/Passwords/Tokens/Secrets; Always use .en
 ### 2.3 Proposed Decision
 
 ```text
-[PROPOSED — NOT FINAL]
+[RULED — OWNER DECISION 2026-09-28]
 
 D = AITutor-X Authority Mapping Rule 的承载权威为【新建 Owner Decision】。
     该 Decision 即本文件（签发后）。
@@ -180,7 +180,7 @@ Date:   2026-09-28
 ### 3.3 Proposed Decision
 
 ```text
-[PROPOSED — NOT FINAL]
+[RULED — OWNER DECISION 2026-09-28]
 
 A = Preserve Original Label + Mapping Annotation。
 
@@ -223,7 +223,7 @@ Date:   2026-09-28
 
 ### 4.1 DQ-03-A — 表示方式（Axis-qualified）
 
-`[PROPOSED — NOT FINAL]`
+`[RULED — OWNER DECISION 2026-09-28]`
 
 ```text
 映射以 axis-qualified 六字段表达：
@@ -255,7 +255,7 @@ target_level  = L1
 
 ### 4.2 DQ-03-B — 禁止裸 `L<n>`（硬规则）
 
-`[PROPOSED — NOT FINAL]`
+`[RULED — OWNER DECISION 2026-09-28]`
 
 **理由（Facts）**：
 
@@ -321,7 +321,7 @@ target_level  = L1
 **Proposed Decision**
 
 ```text
-[PROPOSED — NOT FINAL]
+[RULED — OWNER DECISION 2026-09-28]
 
 A（附载体限定）= 映射表置于【本 Decision Record 内】的映射表条款，
                  不另行新建第二份 Decision 文件。
@@ -342,7 +342,7 @@ A（附载体限定）= 映射表置于【本 Decision Record 内】的映射表
 ### 4.4 多套历史体系共存规则（Proposed）
 
 ```text
-[PROPOSED — NOT FINAL]
+[RULED — OWNER DECISION 2026-09-28]
 
 · 不立即删除任何一个历史体系。
 · Historical Authority Labels = Evidence
@@ -376,7 +376,7 @@ Date:   2026-09-28
 
 ## 5. CL-03 / X2-03 后续修正授权边界
 
-`[PROPOSED — NOT FINAL]`
+`[RULED — OWNER DECISION 2026-09-28]`
 
 **背景（Facts）**：
 
