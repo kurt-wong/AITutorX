@@ -1,17 +1,17 @@
 # OWNER-DECISION-AUTHORITY-TAXONOMY-MAPPING-01
 
 ```text
-Document Type : Owner Decision Record（本仓 Owner Decision Authority）— **草案 DRAFT**
-Status        : OPEN
-Decision State: PROPOSED — NOT FINAL（未经 Owner 批准前不构成 Authority）
-Signature     : （空 — 待 Owner 签署）
-Signed Date   : （空）
+Document Type : Owner Decision Record（本仓 Owner Decision Authority）— **已签发 / SIGNED**
+Status        : CLOSED
+Decision State: APPROVED
+Signature     : kurt
+Signed Date   : 2026-09-28
 supersedes    : —
 superseded_by : —
 disposition   : RETAIN
-Revision      : 3 (2026-09-28) — §4.3 补完 Proposed Decision 结构（补三层防护见 rev.2）
+Revision      : 4 (2026-09-28) — Owner 签发（§2–§5 的 PROPOSED 转为裁决）
 Date          : 2026-09-28
-Authority     : —（本文尚未构成 Authority；签发前不具约束力）
+Authority     : 本文件（Owner Decision Authority — Authority Mapping Rule）
 Parent        : Docs/40_DECISIONS/OWNER-DECISION-MIGRATION-AUTHORITY-TAXONOMY-01.md §6 FU-01
 Input         : Docs/60_REPORTS/FU-01-AUTHORITY-TAXONOMY-MAPPING-PREP.md @ ed35248
 Scope         : AITutor-X Authority Mapping Rule（映射解释规则层）
@@ -21,20 +21,19 @@ Security      : Never hardcode API Keys/Passwords/Tokens/Secrets; Always use .en
 
 ---
 
-## 0. 草案状态声明（先读）
+## 0. 签发状态声明（先读）
 
 ```text
-本文是【草案】。
+本文已于 2026-09-28 由 Owner 签发（§8）。
+§2 / §3 / §4 / §5 的 PROPOSED 已转为裁决。
 
-· §2 / §3 / §4 / §5 的全部内容均为 PROPOSED，【签名前不具约束力】。
-· 签名栏为空；本文未签发、未 APPROVED。
 · 本文不创建 Registry。
-· 本文不修改 CL-03 / X2-03（授权边界见 §5；执行须待本 Decision 签发）。
+· §5 授权已生效（更新 CL-03 / X2-03 的 Current interpretation；边界见 §5）。
 · 本文不创建 GF-007。
 · 本文不修改 Frozen Spec / GF-000～006 / V3 90、91。
 · 本文不修改任何历史报告正文。
 
-三层防护（签发前确认项）：
+三层防护（签发后仍适用）：
   ① 非 Frozen —— 本 Decision Record 不构成 Frozen Specification，
      不创建新的 Frozen Authority Layer，不得被引作 Frozen 依据。
   ② 非新层级 Authority Source —— 本 Decision 不产生新的 Authority Level、
@@ -43,7 +42,11 @@ Security      : Never hardcode API Keys/Passwords/Tokens/Secrets; Always use .en
   ③ 非替代现有 Spec —— 不取代 README L0–L7 / V3 90·91 / DOC-GOV §9；
      三者按 §2.3 各自保留，不被本 Decision 废除。
 
-本文生效条件：Owner 在 §8 签署。
+生效范围限定：
+  本 Decision 生效 = Authority Mapping Rule 已批准。
+  不意味着 Migration Ready / Gate Passed / Phase B Started（见 §6）。
+
+映射表正文（rows）：本文不含；见 §7 后续 REQUIRED 步骤。
 ```
 
 ---
@@ -147,11 +150,11 @@ DOC-GOV §9      = 保留为 informational 输入（已裁非权威）
 ### 2.4 Owner Verdict
 
 ```text
-☐ A   ☐ B   ☐ C   ☐ D
-其他/限定: _______________
+☐ A   ☐ B   ☐ C   ☑ D
+其他/限定: 无
 
-Signed: _______________
-Date:   _______________
+Signed: kurt
+Date:   2026-09-28
 ```
 
 ---
@@ -205,12 +208,13 @@ A = Preserve Original Label + Mapping Annotation。
 ### 3.4 Owner Verdict
 
 ```text
-☐ A   ☐ B   ☐ C
+☑ A   ☐ B   ☐ C
 
-If A, mapping record fields: _______________
+If A, mapping record fields:
+  source_authority_level / mapped_authority_level / mapping_decision_id（见 §3.3）
 
-Signed: _______________
-Date:   _______________
+Signed: kurt
+Date:   2026-09-28
 ```
 
 ---
@@ -349,23 +353,23 @@ A（附载体限定）= 映射表置于【本 Decision Record 内】的映射表
 
 ```text
 DQ-03-A 表示方式:
-  ☐ 采用 axis-qualified 六字段
-  ☐ 其他: _______________
+  ☑ 采用 axis-qualified 六字段
+  ☐ 其他: —
 
 DQ-03-B 禁止裸 L<n>:
-  ☐ 采纳为硬规则
-  ☐ 限定范围: _______________
+  ☑ 采纳为硬规则
+  ☐ 限定范围: —
 
 DQ-03 载体:
-  ☐ A   ☐ B   ☐ C   ☐ D
-  （§4.3 Proposed = A 附「本 Decision 内」载体限定；如不接受该限定请写明）
+  ☑ A   ☐ B   ☐ C   ☐ D
+  （§4.3 Proposed = A 附「本 Decision 内」载体限定 —— Owner 接受该限定）
 
 DQ-03 共存:
-  ☐ 历史标签 = Evidence，规范映射 = Decision
-  ☐ 其他: _______________
+  ☑ 历史标签 = Evidence，规范映射 = Decision
+  ☐ 其他: —
 
-Signed: _______________
-Date:   _______________
+Signed: kurt
+Date:   2026-09-28
 ```
 
 ---
@@ -413,10 +417,10 @@ Historical record      : 不可重写
 ### Owner Verdict
 
 ```text
-☐ 授权上述范围   ☐ 限定: _______________
+☑ 授权上述范围   ☐ 限定: —
 
-Signed: _______________
-Date:   _______________
+Signed: kurt
+Date:   2026-09-28
 ```
 
 ---
@@ -442,12 +446,17 @@ Date:   _______________
 ## 7. Follow-up（本 Decision 签发后）
 
 ```text
-本 Decision 签发
+本 Decision 已签发（2026-09-28）
    │
    ├──► CL-03 / X2-03:154 时效性更新（范围见 §5）
    ├──► F4 子项 2 / 3 / 4（Charter schema 依赖 Authority Level 语义）
    │        └──► GF-007 Charter 落盘
-   ├──► F5 Gate 版本批准（`authority_level` 有实指）
+   ├──► 【REQUIRED】Authority Taxonomy Mapping Table（映射表正文 rows）裁决
+   │        · 本 Decision 已定映射的【表达规则】与【载体】，但【不含任何映射行】
+   │        · 未完成此步前，Gate 2 / Gate 10 对带 V3 标签的资产仍不可填
+   │        · 不得以逐资产即席判定代替
+   │          （否则违反 F3-B：映射须来自 Owner 授权的规则，非填写者判定）
+   ├──► F5 Gate 版本批准（`authority_level` 的【表达规则】已定；具体映射值见上一步）
    └──► F10 Set B
 ```
 
@@ -457,19 +466,22 @@ Date:   _______________
 
 ```text
 Decision:
-☐ Approved（本 Decision 生效，§2–§5 的 PROPOSED 转为裁决）
+☑ Approved（本 Decision 生效，§2–§5 的 PROPOSED 转为裁决）
 ☐ Rejected
 ☐ Revise
 
-Signed: _______________
-Date:   _______________
+Signed: kurt
+Date:   2026-09-28
+
+生效范围：Authority Mapping Rule 已批准。
+          不意味着 Migration Ready / Gate Passed / Phase B Started。
 ```
 
 ```text
-注：签名前，§2 / §3 / §4 / §5 全部内容均为 PROPOSED，不具约束力。
+注：本 Decision 已于 2026-09-28 由 Owner 签发；§2–§5 的 PROPOSED 已转为裁决。
 ```
 
 ---
 
-*OWNER-DECISION-AUTHORITY-TAXONOMY-MAPPING-01 · DRAFT revision 3 · 2026-09-28 · 未签发。
+*OWNER-DECISION-AUTHORITY-TAXONOMY-MAPPING-01 · SIGNED revision 4 · 2026-09-28 · Signed by kurt。
 三层防护见 §0（非 Frozen / 非新层级 Authority Source / 非替代现有 Spec）。*
