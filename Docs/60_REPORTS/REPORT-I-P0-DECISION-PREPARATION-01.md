@@ -6,7 +6,7 @@ Status        : OPEN
 supersedes    : —
 superseded_by : —
 disposition   : RETAIN
-Revision      : 2 (2026-09-28) — 合并 ERRATA-01 修正，见 §10 Amendment Record
+Revision      : 3 (2026-09-28) — 合并 ERRATA-01（E-01～E-08）+ rev.3 自洽性修补，见 §10 Amendment Record
 readers       : Owner（裁决方）；MIMO CODE（准备方）；Migration Authority（待设立）
 Authority     : —（本文不构成任何 Authority）
 Temporal Scope: Current-state facts verified as of 2026-09-28.
@@ -219,7 +219,7 @@ OQ-GF-015 问的是「哪套 L*」；
 OD-03 未回答该问。
 
 OD-03「不废弃现有分类」的射程 = 角色分类（data lineage roles），
-并未保护三套 L* 层级体系。
+并未保护四套 L* 层级体系 / 映射。
 ```
 
 **DOC-GOV §9 的两处硬冲突：**
@@ -234,7 +234,7 @@ OD-03「不废弃现有分类」的射程 = 角色分类（data lineage roles）
 | Option | 含义 | 后果 |
 |---|---|---|
 | A | 建立单一 Authority Taxonomy（指定一套 L* 为唯一标准），并规定历史文档 L* 重映射规则 | L* 标签恢复有效；需一次性映射历史标签 |
-| B | 保持分层 Authority（三套并存，按来源域区分适用范围），但规定「跨域引用必须声明体系」 | 无需映射；但标签仍有歧义风险 |
+| B | 保持分层 Authority（四套并存，按来源域区分适用范围），但规定「跨域引用必须声明体系」 | 无需映射；但标签仍有歧义风险 |
 | C | 废除 L* 标签，全面转用 OD-03 的 GOV/EVD/EXT + Role 二维分类 | 消除 L* 歧义；需大规模文档改标 |
 
 **F3-A 前置一问：**
@@ -267,6 +267,15 @@ Date:   _______________
   V3 Docs/DECISIONS/ 应归入 40_DECISIONS/ 还是 60_REPORTS/？
   ☐ 40_DECISIONS/（结论）  ☐ 60_REPORTS/（证据）  ☐ 其他: _____
 ```
+
+**F3-A 与 F3-B 为关联裁决项，不应孤立解释。** 组合有效性提示（**不构成新 Option**，仅提示解释边界）：
+
+| F3-A（OD-03 射程） | F3-B（DOC-GOV §9 效力） | 组合 |
+|---|---|---|
+| 不覆盖 L* | §9 为唯一映射权威 | 可成立 |
+| 不覆盖 L* | §9 非权威 | 可成立（须另立映射表） |
+| 覆盖 L* | §9 为唯一映射权威 | 需解释冲突 |
+| 覆盖 L* | §9 非权威 | 高风险（须受 OD-03 约束另立映射） |
 
 **F3 实现约束**（如选 A）：
 
@@ -472,7 +481,7 @@ Date:   _______________
 | E-05 | §3 补 F5 状态头（Gate 9: UNSATISFIABLE） | 原 §3 |
 | E-06 | §5 补 Option C 边界限定 | 原 §5 |
 | E-07 | §7 OD 条目改用词表状态词（CLOSED / OPEN）+ 追注格式 | 原 §6 |
-| E-08 | §4 删映射示例（属 Taxonomy 正文，越界），改引 DOC-GOV §9 + 留空待裁 | 原 §4 |
+| E-08 | §4 保留映射示例行结构、清空映射目标值（映射结果属 F3 实质裁决，越界不预填）；DOC-GOV §9 引于 §4 事实栏与 F3-B | 原 §4 |
 
 ERRATA-01 独立文件已并入本文，不再单独存在（R1：每任务最多 1 份文档）。
 
@@ -486,9 +495,27 @@ ERRATA-01 独立文件已并入本文，不再单独存在（R1：每任务最�
 ### A-03 (2026-09-28) — F3 补充决策问题
 
 - 补 F3-B（DOC-GOV §9 效力边界），含两处具体冲突裁决项
-- §1 Current State Delta 中 F3 行更新为「四套 L* / 映射并存」
+- §1 Current State Delta 的 F3 行：原状态列保留 REPORT-I as-of 值「三套 L* 并存」，变化列记入 DOC-GOV §9 第四套映射
 - 补 DOC-GOV §9 两处硬冲突事实（§9↔README / §9↔R4）
+
+### A-04 (2026-09-28) — rev.3 自洽性修补（不改变任何裁决内容）
+
+- §4「三套」→「四套」：事实栏与 F3-A Option B 正文
+- §4 新增「F3-A 与 F3-B 为关联裁决项」提示与组合有效性矩阵（不新增 Option）
+- A-01 的 E-08 行改述：实际处置为「保留示例行结构 + 清空映射目标值」，非「删除示例」
+- A-03 的 §1 行改述：原状态列保留 REPORT-I as-of「三套」，变化列记第四套映射
+
+**工作稿 provenance 补记（`[OWNER RULING 2026-09-28]`）**：
+
+```text
+ERRATA-01 was working artifact only; not tracked;
+merged into revision 2 before governance adoption.
+
+revision 1 亦为工作稿，从未入库；其内容不构成治理资产，不可从 git 还原。
+正式治理资产自 5205208（revision 2）起算；本 revision 3 为其自洽性修补。
+不为此补建 ARCHIVE / HISTORY / ATTACHMENT 附件（不以治理复制治理）。
+```
 
 ---
 
-*Revision 2 prepared 2026-09-28. Not an Authority Decision. Owner ruling required for F3-A/F3-B/F4/F5/F10.*
+*Revision 3 prepared 2026-09-28. Not an Authority Decision. Owner ruling required for F3-A/F3-B/F4/F5/F10.*
