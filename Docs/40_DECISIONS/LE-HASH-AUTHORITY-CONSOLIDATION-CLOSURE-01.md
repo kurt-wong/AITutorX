@@ -1,13 +1,13 @@
 # LE-HASH-AUTHORITY-CONSOLIDATION-CLOSURE-01
 
 ```text
-Document Type : Closure Decision（**待签发 / AWAITING OWNER SIGNATURE**）
+Document Type : Closure Decision（**已签发 / SIGNED**）
 supersedes    : —
 superseded_by : —
 readers       : MIMO CODE（执行方）；Owner（签发方）；后续 migration 授权作者
-Status        : AWAITING OWNER SIGNATURE
-Signature     : —
-Signed Date   : —
+Status        : CLOSED WITH FINDINGS
+Signature     : kurt
+Signed Date   : 2026-09-28
 Decision      : LE Hash Authority Consolidation — CLOSED WITH FINDINGS
 Scope         : Phase A 范围内 LE hash authority consolidation
 Authority     : IMPLEMENTATION-AUTHORIZATION-PRIMARY-PATH-IDENTITY-01.md
@@ -183,17 +183,17 @@ Tests (111/111 Phase A related; full suite 0 code failures)
       ↓
 Closure Record (this document)
       ↓
-Owner Signature (pending)
+Owner Signature (kurt, 2026-09-28, CLOSED WITH FINDINGS)
 ```
 
 ---
 
 ```text
 ── OWNER SIGNATURE ─────────────────────────────────────────
-Signed by : _______________
-Date      : _______________
-Verdict   : ☐ CLOSED WITH FINDINGS   ☐ REJECTED   ☐ REVISE
+Signed by : kurt
+Date      : 2026-09-28
+Verdict   : ☑ CLOSED WITH FINDINGS   ☐ REJECTED   ☐ REVISE
 ────────────────────────────────────────────────────────────
 ```
 
-*Prepared 2026-09-27. AWAITING OWNER SIGNATURE.*
+*Signed by kurt, 2026-09-28. CLOSED WITH FINDINGS.*
