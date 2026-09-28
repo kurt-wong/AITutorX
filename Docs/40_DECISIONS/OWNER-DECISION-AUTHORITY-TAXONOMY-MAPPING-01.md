@@ -9,7 +9,7 @@ Signed Date   : 2026-09-28
 supersedes    : —
 superseded_by : —
 disposition   : RETAIN
-Revision      : 5 (2026-09-28) — rev.4 = `b329f5a`（签发）+ `09f41cd`（令牌转换，已签发）；rev.5 追加附录 A（FU-05，**尚未裁决**）
+Revision      : 6 (2026-09-28) — rev.4 = `b329f5a`（签发）+ `09f41cd`（令牌转换，已签发）；rev.5 追加附录 A；rev.6 附录 A 裁决完成（**APPROVED**）
 Date          : 2026-09-28
 Authority     : 本文件（Owner Decision Authority — Authority Mapping Rule）
 Parent        : Docs/40_DECISIONS/OWNER-DECISION-MIGRATION-AUTHORITY-TAXONOMY-01.md §6 FU-01
@@ -46,7 +46,7 @@ Security      : Never hardcode API Keys/Passwords/Tokens/Secrets; Always use .en
   本 Decision 生效 = Authority Mapping Rule 已批准。
   不意味着 Migration Ready / Gate Passed / Phase B Started（见 §6）。
 
-映射表正文（rows）：本文不含；见 §7 后续 REQUIRED 步骤。
+映射表正文（rows）：rev.4 时点本文不含 Mapping Values；FU-05 rev.6 附录 A 纳入 Mapping Rule 与 Mapping Table。
 ```
 
 ---
@@ -460,6 +460,19 @@ Date:   2026-09-28
    └──► F10 Set B
 ```
 
+> `[追注 2026-09-28 · rev.6]` 上列 **【REQUIRED】Authority Taxonomy Mapping Table** 步骤
+> **已完成** —— 映射表已纳入本文件 **附录 A**（rev.5 形成 / rev.6 裁决 · APPROVED）。
+>
+> ```text
+> 附录 A §A.1  = Mapping Rule（Row Identity / level-state 分离 / 字段名约束 / 值域 / 行扩展规则）
+> 附录 A §A.2  = Authority Mapping Table（10 行，全部取值已裁）
+> 附录 A §A.3  = Exceptions（EX-1～EX-6）
+> 附录 A §A.4  = History Handling（H-1～H-7）
+> ```
+>
+> 本追注**不改上列流程图文本**；该图保留为签发时快照。
+> Gate 2 / Gate 10 的 `authority_level` 现已有可填依据。
+
 ---
 
 ## 8. Owner Signature
@@ -484,27 +497,32 @@ Date:   2026-09-28
 ---
 
 *OWNER-DECISION-AUTHORITY-TAXONOMY-MAPPING-01 · revision 5 · 2026-09-28。
-§1–§8 已签发（rev.4 · Signed by kurt）；附录 A（rev.5）**尚未裁决**。
+§1–§8 已签发（rev.4 · Signed by kurt）；附录 A 已裁决（rev.6 · **APPROVED**）。
 三层防护见 §0（非 Frozen / 非新层级 Authority Source / 非替代现有 Spec）。*
 
 ---
 
-## 附录 A — FU-05 Authority Mapping Table（rev.5）
+## 附录 A — FU-05 Authority Mapping Table（rev.6）
 
 ```text
-Section Status : PROPOSED — NOT FINAL（本附录尚未裁决）
-Revision       : rev.5（2026-09-28）
-Authority      : —（本附录尚未构成 Authority）
+Section Status : APPROVED（`[OWNER DECISION 2026-09-28]` · 同 §8 签发人 kurt）
+Revision       : rev.6（2026-09-28）
+Authority      : 本附录（Owner Decision Authority — Authority Mapping Table）
 授权依据       : Owner 2026-09-28 FU-05 授权（DQ-05-01～DQ-05-06）
+                + Owner 2026-09-28 Mapping Table Draft 逐行裁决
 Input          : Docs/60_REPORTS/FU-05-AUTHORITY-TAXONOMY-MAPPING-TABLE-PREP.md @ b8dce53
+                 Docs/60_REPORTS/FU-05-SOURCE-AUTHORITY-STATE-DOMAIN-INPUT.md @ 9ce763a
 ```
 
 > **不影响已签发部分**：§2–§5 与 §8 的签发效力（rev.4 · APPROVED · `Signed by kurt`）
-> **不因本附录而改变**。本附录的 `PROPOSED — NOT FINAL` 在 Owner review 完成前持续有效。
+> **不因本附录而改变**。本附录已于 rev.6 裁决（APPROVED）。
 >
-> `§0` 所述「映射表正文（rows）：本文不含」**在 rev.4 时点为准确表述**。
-> 本附录新增 Mapping Rule 与 Mapping Table 的**【结构】**；
-> 映射**【值】**仍不含，属下一步骤（见 §A.4 末）。rev.6 签发时将一并校正 §0 表述。
+> `§0` 所述「映射表正文（rows）：本文不含」**在 rev.4 时点为准确表述**，
+> 已于 rev.6 依 Owner 裁决校正为：
+> 「rev.4 时点本文不含 Mapping Values；FU-05 rev.6 附录 A 纳入 Mapping Rule 与 Mapping Table。」
+>
+> **rev.5 → rev.6 变更**：附录状态 `PROPOSED — NOT FINAL` → `APPROVED`；
+> §A.2 全部 `[DRAFT]` 提案经 Owner 逐行接受后移除前缀；`§0` 表述校正；`EX-5` 修正。
 
 ---
 
@@ -752,32 +770,32 @@ Row expansion does not introduce new taxonomy levels.
 ### A.2 Authority Mapping Table
 
 ```text
-[PROPOSED — NOT FINAL]
-source_authority_state 值域【已定】（见 §A.1.4）：{ proposed, established, deprecated }
-本表 = 【结构 + 行集 + Draft 提案】。行集 = 10 行（`L1` 已按 §A.1.6 拆行）。
+[APPROVED — OWNER DECISION 2026-09-28]
+source_authority_state 值域：{ proposed, established, deprecated }（§A.1.4）
+本表 = 【结构 + 行集 + 映射值】。行集 = 10 行（`L1` 已按 §A.1.6 拆行）。
+全表取值已裁，无待审提案。
 
-标记约定：
-  无前缀           = 已裁值（`[OWNER DECISION 2026-09-28]`）
-  `[DRAFT]` 前缀   = 本阶段提案，**待 Owner 审核**，不构成裁决
+provenance：rev.5 以 `[DRAFT]` 提出逐行 target 提案；
+            rev.6 经 Owner 逐行接受，`[DRAFT]` 前缀已移除。
 ```
 
 | # | source_system | source_axis | source_level | source_authority_state | Registration Level | target_system | target_axis | target_level |
 |---|---|---|---|---|---|---|---|---|
-| 1 | V3 | authority | `L0` | `established` | `—` ⁽ᵃ⁾ | AITutor-X | authority | `[DRAFT]` `Authority-L1` |
+| 1 | V3 | authority | `L0` | `established` | `—` ⁽ᵃ⁾ | AITutor-X | authority | `Authority-L1` |
 | 2 | V3 | **meta** | `L0` | `established` | `—` ⁽ᵃ⁾ | AITutor-X | **meta** | **`NULL`** |
-| 3 | V3 | authority | `L1` | `established` | `REGISTERED AS L1` | AITutor-X | authority | `[DRAFT]` `Authority-L0` |
-| 4 | V3 | authority | `L1` | **`proposed`** | **`TBD`** | AITutor-X | authority | `[DRAFT]` `NULL` |
-| 5 | V3 | authority | `L2` | `established` | `—` ⁽ᵃ⁾ | AITutor-X | authority | `[DRAFT]` `Authority-L3` |
-| 6 | V3 | authority | `L2` | **`proposed`** | **`NOT REGISTERED`** | AITutor-X | authority | `[DRAFT]` `NULL` |
-| 7 | V3 | authority | `L3` | `established` | `—` ⁽ᵃ⁾ | AITutor-X | authority | `[DRAFT]` `Authority-L6` |
-| 8 | V3 | authority | `L4` | `established` | `—` ⁽ᵃ⁾ | AITutor-X | authority | `[DRAFT]` `Authority-L5` |
-| 9 | V3 | authority | `L5` | `established` | `—` ⁽ᵃ⁾ | AITutor-X | authority | `[DRAFT]` `Authority-L7` |
-| 10 | `UNKNOWN` | `UNKNOWN` | `UNKNOWN` | `UNKNOWN` | `UNKNOWN` | AITutor-X | `[DRAFT]` `UNKNOWN` | `[DRAFT]` `NULL` |
+| 3 | V3 | authority | `L1` | `established` | `REGISTERED AS L1` | AITutor-X | authority | `Authority-L0` |
+| 4 | V3 | authority | `L1` | **`proposed`** | **`TBD`** | AITutor-X | authority | `NULL` |
+| 5 | V3 | authority | `L2` | `established` | `—` ⁽ᵃ⁾ | AITutor-X | authority | `Authority-L3` |
+| 6 | V3 | authority | `L2` | **`proposed`** | **`NOT REGISTERED`** | AITutor-X | authority | `NULL` |
+| 7 | V3 | authority | `L3` | `established` | `—` ⁽ᵃ⁾ | AITutor-X | authority | `Authority-L6` |
+| 8 | V3 | authority | `L4` | `established` | `—` ⁽ᵃ⁾ | AITutor-X | authority | `Authority-L5` |
+| 9 | V3 | authority | `L5` | `established` | `—` ⁽ᵃ⁾ | AITutor-X | authority | `Authority-L7` |
+| 10 | `UNKNOWN` | `UNKNOWN` | `UNKNOWN` | `UNKNOWN` | `UNKNOWN` | AITutor-X | `UNKNOWN` | `NULL` |
 
 **注 (a)**：Registration Level 列的 `—` = 该概念**不适用**于该 level（该 level 非 Contract Change Record）。
 此为**【适用性判断】，非既有事实**；如 Owner 认为应改为 `NOT REGISTERED`，请指出。
 
-**已裁值（非 `[DRAFT]`）**：
+**已裁来源（rev.5 前即已确定）**：
 
 ```text
 行 2   target_level = `NULL`（DQ-05-04）
@@ -786,7 +804,7 @@ source_authority_state 值域【已定】（见 §A.1.4）：{ proposed, establi
        （DQ-05-02 = B / 读法 B）
 ```
 
-**`[DRAFT]` 提案依据**：
+**rev.6 逐行接受（原 `[DRAFT]` 提案 → 已裁 · `[OWNER DECISION 2026-09-28]`）**：
 
 ```text
 行 1  V3 L0 Frozen Spec → `Authority-L1`
@@ -797,8 +815,12 @@ source_authority_state 值域【已定】（见 §A.1.4）：{ proposed, establi
 行 3  V3 L1 Contract Change（established）→ `Authority-L0`
       90 §1：L1 = 「修改 L0 的唯一入口」—— 其权限高于 L0 本体，
       对应 README L0 = Owner/System Decision
-      ⚠️ 本行为全表**最不确定行**；替代：`Authority-L2`（Cross-System Contract）
-      `§9-3` 原写「→ Owner Decision」，与本提案同向
+      【语义解释（Owner 2026-09-28 修正）】
+        该映射表示：`L1 Contract Change` —— modifies —— `Authority-L0`
+        【不是】`L1 < L0`
+        【也不是】authority hierarchy ranking
+      `§9-3` 原写「→ Owner Decision」，语义方向一致；
+      差异属【标识符未编号化】，非冲突（见 §A.3 EX-5）
 
 行 4  V3 L1（proposed，`67` 候选）→ `NULL`
       提案态未成立；防 `proposed` → canonical 自动升格（DQ-05-02 理由）
@@ -881,12 +903,28 @@ target 对象   = AITUTORX-DOC-GOVERNANCE.md（本文档级 meta authority 对�
 不废止：不删除旧文档（AGENTS.md）
 ```
 
+**EX-5 修正（`[OWNER DECISION 2026-09-28]`，rev.6）**：
+
+```text
+§9-3 的定性由「与 README 冲突」修正为：
+
+  Contract Change → Owner Decision
+  semantic direction consistent.
+  Future normalization should use: Authority-L0 identifier.
+
+⇒ §9-3【不是冲突】（原 C-02 定性过严）。
+  其语义方向与本附录 §A.2 行 3 一致（`Authority-L0`）；
+  差异属【标识符未编号化】（写名称而非编号），不是层级错位。
+
+§9 表体仍未改动。
+```
+
 ---
 
 ### A.4 History Handling
 
 ```text
-[PROPOSED — NOT FINAL]
+[APPROVED — OWNER DECISION 2026-09-28]
 ```
 
 | 规则 | 内容 |
@@ -899,14 +937,13 @@ target 对象   = AITUTORX-DOC-GOVERNANCE.md（本文档级 meta authority 对�
 | **H-6** | CL-03 / X2-03 的 `Current interpretation` 已于 `aca02e3` 更新；历史事实列未改 |
 | **H-7** | 本附录**不关闭 CL-03**；多套体系仍并存 |
 
-**下一步（本附录未授权）**：
+**rev.6 后状态**：
 
 ```text
-FU-05 Mapping Table Draft —— 逐行 target 提案
+FU-05 Mapping Table Draft  ——  已完成并经 Owner 逐行接受（rev.6）
+rev.6 附录 A               ——  已裁决（APPROVED）
         ↓
-Owner 审核每一行 target
-        ↓
-签发 → rev.6 整体更新（含 §0 表述校正）
+后续：F4 子项 2 / 3 / 4 → GF-007 → F5 → F10
 ```
 
-*附录 A 形成于 2026-09-28 · PROPOSED — NOT FINAL · 尚未裁决。*
+*附录 A 形成于 2026-09-28（rev.5）· 裁决于 2026-09-28（rev.6）· APPROVED · `[OWNER DECISION 2026-09-28]`。*
