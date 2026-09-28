@@ -45,12 +45,15 @@ AITutor-X    main                    02a2a77
 
 ── 以下为本文件 rev.2 新增 ──
 
-AITutor-X    main                    <this commit>
+AITutor-X    main                    53082b7
     chore: exclude non-repository runtime and fixture artifacts
-    .gitignore（AITutor-X）—— G4b
+    .gitignore（G4b）+ 本文件 rev.2 + DISPOSITION-LIST-01.md 状态更新
+    3 files changed, 144 insertions(+), 43 deletions(-)
 
-AITutors-v3  od01-r3-convergence     <this commit>
-    .gitignore（AITutors-v3）—— G10
+AITutors-v3  od01-r3-convergence     2e16b1a
+    chore: exclude non-repository runtime and fixture artifacts
+    .gitignore（G10）
+    1 file changed, 5 insertions(+)
 ```
 
 **说明：为何是两个 commit 而非一个。**
