@@ -3,10 +3,11 @@
 ```text
 Document Type : Migration Authority Charter（Governance Charter）
 Status        : OPEN
+Decision State: pending_review
 disposition   : RETAIN
 supersedes    : —
 superseded_by : —
-Revision      : 2 (2026-09-28) — rev.1 → rev.2：新增 §3.7 Charter Requirements Satisfaction Criteria（rev.1 内容逐字保留）
+Revision      : 3 (2026-09-28) — rev.1 → rev.2：新增 §3.7 Charter Requirements Satisfaction Criteria（rev.1 内容逐字保留）；rev.2 → rev.3：新增 `Decision State` 字段（AGENTS.md Decision 语义状态；§7 签署后记为 `approved`），§7 增列 RC-1～RC-4 核验证据，修正 §2.5 / §3.4 引用锚点，§4 补 `GF-005` / `FU-06` 两行（rev.1 / rev.2 内容逐字保留）
 Date          : 2026-09-28
 Authority     : 本文件（Owner Decision Authority — Migration Authority Charter）
 依据           : GF-006 OD-01 §2.2（Charter 目的；「Charter 全文另立」已裁）
@@ -162,7 +163,7 @@ Migration        = 执行授权
 ### 2.5 硬规则（沿用，不放松）
 
 ```text
-[FACT] GF-003 §3.2.2：Charter requirements 未满足时
+[FACT] GF-003 §3.2.2：Migration Authority Charter（F4）不存在时
        `approval_block.status = invalid_without_charter` 强制生效。
 [FACT] GF-006 §2.4（OD-01 Non-authorizations）：NOT 将 `approval_block` 写为 `valid`。
 
@@ -225,7 +226,7 @@ Owner 裁决（2026-09-28）：
     IF Migration Authority Charter 不存在
       → approval_block.status = invalid_without_charter
 
-  条件 ②（实质）GF-006 OD-01 §2.2：
+  条件 ②（实质）GF-006 OD-01 §2.3：
     Migration Authorization remains unavailable until
     Charter requirements are satisfied.
 
@@ -234,7 +235,7 @@ Owner 裁决（2026-09-28）：
 ```
 
 ```text
-[FACT] GF-006 §2.2：Charter requirements 的「satisfied 判定条件」尚未落盘。
+[FACT] GF-006 §2.3：Charter requirements 的「satisfied 判定条件」尚未落盘。
 [FACT] GF-005 OQ-GF-014：仍 OPEN-BLOCKING。
 ```
 
@@ -366,11 +367,13 @@ rev.2（本次）          ：新增 §3.7；rev.1 全部内容逐字保留
 | `GF-003 §3.2.1` | Approval Record Core 的字段来源 |
 | `GF-003 §3.2.2` | `invalid_without_charter` 硬规则与条件 ① |
 | `GF-004 §2.2` | 四状态（exists / tracked / referenced / admitted）与 Registry 边界 |
+| `GF-005` `OQ-GF-014` | requirements satisfied 的冻结历史条目（`OPEN-BLOCKING`；不修改，见 §3.7.5） |
 | `REPORT-I §6` Gate 9 | 批准在 Gate 中的位置（当前不可满足） |
 | `REPORT-I §6.1` | Migration Record 最小字段（Migration 扩展载体） |
 | `OWNER-DECISION-MIGRATION-AUTHORITY-TAXONOMY-01` | F4 裁决；Migration Authority = Owner |
 | `OWNER-DECISION-AUTHORITY-TAXONOMY-MAPPING-01 §A` | Authority Level 与 state 语义（rev.6 APPROVED） |
 | `FU-02-F4-CHARTER-SCHEMA-INPUT.md` | 本 Charter 的裁决输入（含 §5.2 缺口事实） |
+| `FU-06` | DOC-GOV §1 权威顺序缺 Decision 档位（登记，不在本 Charter 内解决，见 §3.3） |
 | `AITUTORX-DOC-GOVERNANCE.md` R3 / R4 / §2 / §7.4 / §8 | 文件头、归属、目录层级、移动、状态词 |
 
 ---
@@ -418,6 +421,29 @@ FU-06（§3.3 缺口）         = OPEN（不阻塞本 Charter）
 
 ## 7. Owner Review
 
+### 7.1 Charter requirements verification（§3.7.1 机械口径）
+
+核验方证据（§3.7.2：审查方可出具证据，**不**具 declaration 权）· 2026-09-28
+
+| RC | 结果 | 证据 |
+|---|---|---|
+| **RC-1** | PASS | §1 / §2 / §3 / §4 / §5 均在位；占位词扫描（`TBD` / `TODO` / `FIXME` / `XXX` / `占位` / `待补` / `待填`）无实质占位（唯一 `占位` 命中为 §3.7.1 判据文本自身） |
+| **RC-2** | PASS | §2.1 五字段与 GF-003 §3.2.1 逐字一致（`status` / `migration_authority_ref` / `owner_decision_ref` / `approved_at` / `notes`）；§2.3 Extension 载体 3 项已指名；§1.4 角色区分保留 |
+| **RC-3** | PASS | §4 十二项引用可解析：涉 9 份既有文件（GF-003 / GF-004 / GF-005 / GF-006 / REPORT-I / DOC-GOV / OWNER-DECISION ×2 / FU-02）均在位；`FU-06` 为已登记 ID（无独立文件，见 §3.3） |
+| **RC-4** | PASS | Migration Authority 归属已裁（§1.3）；F4-2 / F4-3 / F4-4 已落盘（§1 / §2 / §3.1）；FU-06 已登记（§3.3） |
+
+```text
+四项为合取（§3.7.1）。全部 PASS ⇒ requirements satisfied 的【判定基础具备】。
+
+范围声明（§3.7.2 / §3.7.4）：
+  · 本核验属 Charter completeness verification
+  · 非 Migration Authorization 判定 · 非 Gate 9 判定
+  · 不构成 requirements satisfied 声明 —— 声明权唯属 Owner
+  · 本核验不改变 §3.4 / §6 的任何状态（`approval_block.status` 仍 `invalid_without_charter`）
+```
+
+### 7.2 Owner Decision
+
 ```text
 Decision:
 ☐ Accepted（本 Charter 作为 Migration Authority Charter 生效）
@@ -430,4 +456,4 @@ Date:   _______________
 
 ---
 
-*GF-007 — Migration Authority Charter · 2026-09-28 · revision 2 · Status OPEN · 非 Frozen · 待 Owner review。*
+*GF-007 — Migration Authority Charter · 2026-09-28 · revision 3 · Status OPEN · Decision State pending_review · 非 Frozen · 待 Owner review。*
