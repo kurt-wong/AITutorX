@@ -250,7 +250,7 @@ target_level  = L1
 ```
 
 ```text
-⇒ 本 Proposed 不含任何映射表正文。映射结果属 DQ-03 实质裁决，本文不预填。
+⇒ 本 Proposed 不含映射表正文；映射结果见 FU-05 rev.6 附录 A。
 ```
 
 ### 4.2 DQ-03-B — 禁止裸 `L<n>`（硬规则）
@@ -336,7 +336,7 @@ A（附载体限定）= 映射表置于【本 Decision Record 内】的映射表
   ④ D 暂不建立机器可读副本 —— 待出现实际消费者时另行评估，
      届时该副本按新治理资产单独处理。
 
-不预填映射表正文：映射行（source_level → target_level）属后续实质裁决，本文不含。
+映射表正文：rev.4 时点本文不含；FU-05 rev.6 附录 A 纳入 Mapping Rule 与 Mapping Table（10 行，全部取值已裁）。
 ```
 
 ### 4.4 多套历史体系共存规则（Proposed）
