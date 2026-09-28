@@ -6,7 +6,7 @@ Status        : OPEN
 supersedes    : —
 superseded_by : —
 disposition   : RETAIN
-Revision      : 3 (2026-09-28) — 合并 ERRATA-01（E-01～E-08）+ rev.3 自洽性修补，见 §10 Amendment Record
+Revision      : 4 (2026-09-28) — 合并 ERRATA-01（E-01～E-08）+ rev.3 自洽性修补 + A-05 裁决落盘登记，见 §10 Amendment Record
 readers       : Owner（裁决方）；MIMO CODE（准备方）；Migration Authority（待设立）
 Authority     : —（本文不构成任何 Authority）
 Temporal Scope: Current-state facts verified as of 2026-09-28.
@@ -516,6 +516,14 @@ revision 1 亦为工作稿，从未入库；其内容不构成治理资产，不
 不为此补建 ARCHIVE / HISTORY / ATTACHMENT 附件（不以治理复制治理）。
 ```
 
+### A-05 (2026-09-28) — F4 / F3 裁决落盘登记
+
+- `F4`、`F3-A（射程）`、`F3-B` 已裁 → `Docs/40_DECISIONS/OWNER-DECISION-MIGRATION-AUTHORITY-TAXONOMY-01.md`
+- `F3-A` 主选项（A 单一 / B 分层 / C 废除）**未裁决** → 转入该 Decision Record §6 FU-01
+- `F5` / `F10` **DEFERRED**（Owner 指示本轮只裁 F4 + F3，见该文件 §5）
+- 本文 Status 保持 `OPEN`（尚有 F5 / F10 待裁）
+- Decision Sheet 勾选栏**不代填**；裁决以 Decision Record 为唯一权威来源
+
 ---
 
-*Revision 3 prepared 2026-09-28. Not an Authority Decision. Owner ruling required for F3-A/F3-B/F4/F5/F10.*
+*Revision 4 prepared 2026-09-28. Not an Authority Decision. F4 / F3-A 射程 / F3-B ruled (see §10 A-05). Owner ruling still required for F3-A main options / F5 / F10.*
