@@ -3,11 +3,11 @@
 ```text
 Document Type : Migration Authority Charter（Governance Charter）
 Status        : OPEN
-Decision State: pending_review
+Decision State: approved
 disposition   : RETAIN
 supersedes    : —
 superseded_by : —
-Revision      : 3 (2026-09-28) — rev.1 → rev.2：新增 §3.7 Charter Requirements Satisfaction Criteria（rev.1 内容逐字保留）；rev.2 → rev.3：新增 `Decision State` 字段（AGENTS.md Decision 语义状态；§7 签署后记为 `approved`），§7 增列 RC-1～RC-4 核验证据，修正 §2.5 / §3.4 引用锚点，§4 补 `GF-005` / `FU-06` 两行（rev.1 / rev.2 内容逐字保留）
+Revision      : 4 (2026-09-28) — rev.1 → rev.2：新增 §3.7 Charter Requirements Satisfaction Criteria（rev.1 内容逐字保留）；rev.2 → rev.3：新增 `Decision State` 字段、§7 增列 RC-1～RC-4 核验证据、修正 §2.5 / §3.4 引用锚点、§4 补 `GF-005` / `FU-06` 两行；rev.3 → rev.4：Owner 签署 §7.2（☑ Accepted · Signed: kurt · 2026-09-28），`Decision State` 由 `pending_review` 记为 `approved`，记明 §3.7.2 Review authority 身份不固定（不新增 FU），§1–§6 内容未改（rev.1～rev.3 内容逐字保留）
 Date          : 2026-09-28
 Authority     : 本文件（Owner Decision Authority — Migration Authority Charter）
 依据           : GF-006 OD-01 §2.2（Charter 目的；「Charter 全文另立」已裁）
@@ -33,7 +33,7 @@ Status      ：OPEN
 disposition ：RETAIN
 不修改      ：GF-000～006 冻结文本
 不落入      ：OD-14 冻结基线（该基线明确为 GF-000～006）
-Review      ：待 Owner review（见 §7）
+Review      ：已完成 —— Owner Accepted（2026-09-28；见 §7.2）
 
 本文件不授权 / 不执行：
   Migration implementation · Runtime enforcement · Database schema / DDL
@@ -399,7 +399,7 @@ rev.2（本次）          ：新增 §3.7；rev.1 全部内容逐字保留
 ## 6. 当前状态
 
 ```text
-Charter 落盘              = DONE（本文件 · Status OPEN · 待 review）
+Charter 落盘              = DONE（本文件 · Status OPEN · Decision State approved）
 Migration Authority       = Owner（已裁）
 角色区分（F4-2）           = 强制（§1）
 Approval Record（F4-3）    = Core = GF-003 approval_block + Extension（§2）
@@ -446,14 +446,14 @@ FU-06（§3.3 缺口）         = OPEN（不阻塞本 Charter）
 
 ```text
 Decision:
-☐ Accepted（本 Charter 作为 Migration Authority Charter 生效）
+☑ Accepted（本 Charter 作为 Migration Authority Charter 生效）
 ☐ Rejected
 ☐ Revise
 
-Signed: _______________
-Date:   _______________
+Signed: kurt
+Date:   2026-09-28
 ```
 
 ---
 
-*GF-007 — Migration Authority Charter · 2026-09-28 · revision 3 · Status OPEN · Decision State pending_review · 非 Frozen · 待 Owner review。*
+*GF-007 — Migration Authority Charter · 2026-09-28 · revision 4 · Status OPEN · Decision State approved · 非 Frozen · Owner Accepted 2026-09-28。*
