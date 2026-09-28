@@ -151,9 +151,16 @@
 | `Gate` | V3 验证门 vs REPORT-I Migration Gate vs Gate 9 | 写 `V3 Gate` / `Migration Gate` |
 | `Frozen` | Contract content freeze vs GF governance freeze vs Design 自述冻结 | 写明 freeze object |
 | `canonical` | canonical question type vs canonical ledger vs canonical identity | 写明对象 |
-| `L0–L7` | 多套层级体系 | OD-03 分层模型为准；执行状态仍 OPEN（OQ-GF-015） |
+| `L0–L7` | 多套层级体系 | **[2026-09-28 更新]** OD-03 射程**不覆盖 L\***，故非 L\* 映射基准（原「OD-03 分层模型为准」已取代）；映射规则权威 = `OWNER-DECISION-AUTHORITY-TAXONOMY-MAPPING-01`；禁止裸 `L<n>`，须 axis-qualified（`Authority-L3` / `Lineage-L3` / `Evidence-L3`）；执行状态仍 OPEN（OQ-GF-015） |
 | `manifest` | Producer manifest vs V3 annotation manifest | 写 `Evidence Manifest` / `Annotation Manifest` |
 | `Material` | 误限为文字 | 见 §4；含视觉/外部材料 |
+
+> **追注（2026-09-28）**：`L0–L7` 一行依
+> `OWNER-DECISION-MIGRATION-AUTHORITY-TAXONOMY-01`（F3-A / F3-B）与
+> `OWNER-DECISION-AUTHORITY-TAXONOMY-MAPPING-01`（DQ-01 / DQ-03）更新。
+> 授权依据：后者 §5（**只更新解释条目**，不改历史条目、不重写）。
+> 旧读法「OD-03 分层模型为准」已取代，其字面保留于本条追注作为历史记录。
+> mapping_decision_id = `OWNER-DECISION-AUTHORITY-TAXONOMY-MAPPING-01`。
 
 ---
 

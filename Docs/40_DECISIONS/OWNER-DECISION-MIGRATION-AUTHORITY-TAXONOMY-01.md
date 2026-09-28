@@ -166,6 +166,12 @@ DOC-GOV §9（V3 Governance 对照表）【不是】当前唯一映射权威。
 ⇒ **后果**：`REPORT-I §6` Gate 2（Authority identified）与 Gate 10（`authority_level`）
 在 FU-01 完成前**仍无权威依据可填**。
 
+> `[追注 2026-09-28]` FU-01 **已完成**（`OWNER-DECISION-AUTHORITY-TAXONOMY-MAPPING-01`，`09f41cd`）。
+> **但 Gate 2 / Gate 10 对本行所述资产仍不可填** —— 该 Decision 只定映射的
+> 【表达规则】与【载体】，**不含任何映射行**（见该文件 §4.3 / §7）。
+> 故上文「在 FU-01 完成前」这一时点限定**不充分**：FU-01 关闭 ≠ 可填。
+> 映射表正文（rows）另立裁决 → 见 §6 追注 FU-05。
+
 ---
 
 ## 5. Deferred Decisions — F5 / F10
@@ -203,6 +209,36 @@ F10 状态 = DEFERRED（未裁决）
 
 > **FU-01 说明**：若不登记此项，F5 批准后 Gate 2 的 `authority_level` 字段
 > 会从「填不出来」变为「填了但无权威依据」—— 后者风险更高。
+
+### §6 追注（2026-09-28；append-only）
+
+> 本节**不改上表表体**（逐行状态字保留为签发时快照）。
+
+**① FU-01 关闭登记**
+
+```text
+FU-01  Authority Taxonomy Mapping Decision  →  CLOSED
+       载体  ：Docs/40_DECISIONS/OWNER-DECISION-AUTHORITY-TAXONOMY-MAPPING-01.md
+       commit：09f41cd（签发提交 b329f5a）
+       裁决  ：DQ-01 = D / DQ-02 = A / DQ-03-A / DQ-03-B / 载体 = A 附限定 / 共存规则
+       上表 FU-01 行「状态 = REQUIRED」为签发时快照，不再反映当前状态。
+```
+
+**② FU-05 新增登记**
+
+| ID | 项 | 依据 | 状态 | 阻塞 |
+|---|---|---|---|---|
+| **FU-05** | **Authority Taxonomy Mapping Table（映射表正文 rows）裁决** | `OWNER-DECISION-AUTHORITY-TAXONOMY-MAPPING-01` §7（REQUIRED） | **REQUIRED** | 阻塞 Gate 2 / Gate 10 |
+
+```text
+FU-05 说明：FU-01 只确立映射的【表达规则】（axis-qualified 六字段）
+            与【载体】（该 Decision 内），【不含任何映射行】。
+            FU-01 关闭 ≠ Gate 2 / Gate 10 可填。
+            不得以逐资产即席判定代替 —— 否则违反 F3-B
+            （映射须来自 Owner 授权的规则，非填写者判定）。
+```
+
+*§6 追注追加。上表表体未改。FU-01 关闭；FU-05 登记。*
 
 ---
 

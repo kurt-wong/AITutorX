@@ -9,7 +9,7 @@ Signed Date   : 2026-09-28
 supersedes    : —
 superseded_by : —
 disposition   : RETAIN
-Revision      : 4 (2026-09-28) — Owner 签发（§2–§5 的 PROPOSED 转为裁决）
+Revision      : 4 (2026-09-28) — Owner 签发；rev.4 = `b329f5a`（签发）+ `09f41cd`（PROPOSED→RULED 令牌转换）两次提交
 Date          : 2026-09-28
 Authority     : 本文件（Owner Decision Authority — Authority Mapping Rule）
 Parent        : Docs/40_DECISIONS/OWNER-DECISION-MIGRATION-AUTHORITY-TAXONOMY-01.md §6 FU-01
