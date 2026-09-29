@@ -420,20 +420,30 @@ tools/_phase3_converge.py              tools/_status_census.py
 > 更正载体说明：错误声明位于 `03c64d2` 的**提交信息**（非文件内容），
 > 故以本节为**前向更正记录**，不重写历史提交。
 
-### 8.3 V3 侧（G8 余 / G9）—— **本次未执行**
+### 8.3 V3 侧（G8 余 / G9）—— **MIMO 已执行**（2026-09-29）
 
 ```text
-G8 余（B2 / B7 / B8 / B9）    = (b) ARCHIVE    未执行
-G9（Docs/GOVERNANCE/ G0 ×4）  = (a) COMMIT     未执行
+边界（DSH rev.3 时点）：DSH 未改 V3；下列由 MIMO 在 AITutors-v3 执行。
 ```
 
-```text
-未执行理由（边界判断，非阻塞）：
-  · Owner 的 ④ 裁决以「给 MIMO」表述，V3 侧属实现仓动作
-  · MIMO 在 V3 已有执行记录：`a4cf6a6`（G8 子集）、`2e16b1a`（G10）
-  · 同一仓库并发提交存在冲突风险
+| 组 | 裁决 | 动作 | 锚 |
+|---|---|---|---|
+| **G8 余** B2/B7/B8/B9 | (b) ARCHIVE | 原地 commit（内容逐字节未改）+ 非权威声明 | V3 `e2f3fda` |
+| **G9** G0 ×4 | (a) COMMIT | 原地 commit（内容逐字节未改）as-of 2026-09-17 快照 | V3 `4108758` |
 
-⇒ 待 MIMO 执行。DSH 本轮对 AITutors-v3 的改动 = 0。
+```text
+G8 余明细（archive-only，均为已跟踪后继版的前身）：
+  DESIGN-v1.md                    → 后继 DESIGN-v1.1.md（a4cf6a6）
+  CONTRACT-CONSUMER-REVIEW.md     → 后继 ...-REVIEW-v0.2.md（已跟踪）
+  CONTRACT-v0.2-DRAFT-SKELETON.md → 后继 CONTRACT-v0.2-DRAFT.md（已跟踪）
+  CONTRACT.md                     → v0.2 DRAFT 谱系前身
+
+G9 明细（G0 Governance Reset @ 2026-09-17）：
+  00-SYSTEM-BASELINE.md / 02-AUTHORITY-MATRIX.md
+  03-DECISION-REGISTRY.md / 04-CLAIM-REGISTRY.md
+  Temporal Scope 已声明；L0–L5 重映射仍挂 F3，本次不授权。
+
+两组均：未改正文/日期/结论；入库 ≠ 授权（AGENTS.md 原则 4）。
 ```
 
 ### 8.4 收尾状态
@@ -448,7 +458,12 @@ AITutor-X 已跟踪文件数                 = 362
 ```text
 G1 ✅   G2 ✅   G3 ✅   G4 ✅   G4b ✅   G5 ✅   G6 ✅   G7 ✅   G10 ✅
 G8 子集 ✅（V3 `a4cf6a6`）
-G8 余 ⏳   G9 ⏳   ← 唯一未闭合项，在 V3 侧
+G8 余  ✅（V3 `e2f3fda`）   G9 ✅（V3 `4108758`）
+```
+
+```text
+AITutors-v3 未跟踪（非 ignore）= 0；tracked = 500；modified = 0
+Repository Hygiene（双仓）已闭合。
 ```
 
 **性质边界**：以上均为**证据资产**入库。跟踪 ≠ 权威（`AGENTS.md` 原则 4：Git presence ≠ Authority）；
@@ -480,4 +495,4 @@ G8 余 ⏳   G9 ⏳   ← 唯一未闭合项，在 V3 侧
 
 ---
 
-*Prepared 2026-09-28 by DSH（治理收口角色）；rev.3 收尾登记 2026-09-29。Status: CLOSED —— AITutor-X 侧 G1–G7 与 G10 已闭合（未跟踪 = 0）；G8 余 / G9 待 MIMO 在 V3 执行。*
+*Prepared 2026-09-28 by DSH（治理收口角色）；rev.3 收尾登记 2026-09-29。Status: CLOSED —— 双仓 G1–G10 全部闭合（AITutor-X untracked = 0；V3 untracked = 0）。G8 余 / G9 由 MIMO 于 2026-09-29 在 V3 执行（e2f3fda / 4108758）。*

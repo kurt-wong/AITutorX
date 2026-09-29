@@ -368,10 +368,13 @@ generated_at : 2026-09-26T05:04:40Z   ← 早于 Phase A（eecd60b），非本�
 | G8 subset (B1/B3–B6) | (a) COMMIT（V3） | V3 `a4cf6a6` |
 | G10 (`provider_reality.json`) | (c) EXCLUDE（V3 `.gitignore`） | V3 `2e16b1a` |
 
-### 8.2 待 Owner 裁决组（残余）
+### 8.2 已裁决并执行（2026-09-29 闭合）
 
-G3（`e2e_run/` 非二进制）、G5（`tools/_*.py` ×46）、G6（`Docs/90_ARCHIVE/misc/`）、
-G7（`review_pif1_evidence/`）、G8 余（B2/B7/B8/B9）、G9（V3 `Docs/GOVERNANCE/` G0）。
+```text
+AITutor-X：G3 (b) / G5 (c) / G6 (b) / G7 (b)  →  03c64d2 · 3555eb2 · be6f34f
+AITutors-v3：G8 余 (b) / G9 (a)               →  e2f3fda · 4108758
+双仓 untracked（非 ignore）= 0。明细见 EXECUTION-01 §8。
+```
 
 ### 8.3 R2 文件名合规修正（前进式，非回改结论）
 
