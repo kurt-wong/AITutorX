@@ -91,7 +91,8 @@ Producer 只声明 options_lines（整段行区间）
 ### 2.3 迁移相关（未关闭，**但不阻塞 Primary Path 实现**）
 
 ```text
-Migration Authorization      = UNAVAILABLE（Charter requirements 未满足）
+Migration Authorization      = UNAVAILABLE（Charter requirements 已 DECLARED satisfied 2026-09-28 · 见 OWNER-DECISION-GF-007-REQUIREMENTS-SATISFIED-01；
+                                            仍阻塞：F5 DEFERRED · Gate 9 UNSATISFIABLE · approval_block.status 后继取值未定）
 Migration Gate               = NOT PASSED / NOT RUN
 GATE_PASSED / MIGRATED       = 0 / 0
 admitted=true                = NONE
