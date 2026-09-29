@@ -2,12 +2,12 @@
 
 ```text
 Document Type : Owner Decision Record（本仓 Owner Decision Authority）
-Status        : OPEN
-Decision State: pending_review
+Status        : CLOSED
+Decision State: approved
 supersedes    : —
 superseded_by : —
 disposition   : RETAIN
-Revision      : 1 (2026-09-28)
+Revision      : 2 (2026-09-28) — rev.1 = 载体落盘（`e6bc0e2`，声明栏留空）；rev.2 = Owner 声明 `DECLARED` 并落签（§3 / §4 / §6 填入；`Status` OPEN → `CLOSED`；`Decision State` `pending_review` → `approved`）；`CLOSED` / `approved` 系本次实际选择 `DECLARED` 之结果，非预设模板
 Date          : 2026-09-28
 Authority     : 本文件（Owner Decision Authority — GF-007 Charter requirements satisfied declaration）
 依据           : GF-007 §3.7.3（Satisfied determination record：
@@ -91,7 +91,7 @@ Layer 1 的 approved ≠ Layer 2 的 declaration ≠ Layer 3 的 authorization
 | Field | Value |
 |---|---|
 | `decision_owner` | **Owner**（GF-007 §3.7.2：唯一 declaration authority） |
-| `timestamp` | —— 待 Owner 声明时填写（见 §6） |
+| `timestamp` | **2026-09-28**（见 §6） |
 
 ---
 
@@ -99,12 +99,12 @@ Layer 1 的 approved ≠ Layer 2 的 declaration ≠ Layer 3 的 authorization
 
 ```text
 Declaration:
-☐ DECLARED     —— GF-007 Charter requirements 声明为 SATISFIED
+☑ DECLARED     —— GF-007 Charter requirements 声明为 SATISFIED
 ☐ NOT DECLARED
 ☐ DEFERRED
 
-decision_owner : _______________
-timestamp      : _______________
+decision_owner : Owner
+timestamp      : 2026-09-28
 ```
 
 > 本栏**由 Owner 本人填写**。审查方**不得**代填、不得预勾选。
@@ -181,8 +181,8 @@ GF-000 / GF-001 / GF-003 / GF-005 / GF-006 内
 ## 6. Owner Signature
 
 ```text
-Signed: _______________
-Date:   _______________
+Signed: kurt
+Date:   2026-09-28
 ```
 
 ---
@@ -209,4 +209,4 @@ Date:   _______________
 
 ---
 
-*OWNER-DECISION-GF-007-REQUIREMENTS-SATISFIED-01 · 2026-09-28 · revision 1 · Status OPEN · Decision State pending_review · 声明栏待 Owner 填写。*
+*OWNER-DECISION-GF-007-REQUIREMENTS-SATISFIED-01 · 2026-09-28 · revision 2 · Status CLOSED · Decision State approved · Owner DECLARED 2026-09-28。*
