@@ -1,0 +1,377 @@
+{
+  "artifact": "E2E-LIVE-FULL-CHAIN",
+  "nature": "Engineering Verification Execution (NOT LIMIT-AUTH Phase 6)",
+  "started_at": "2026-09-26T00:07:39+08:00",
+  "environment": {
+    "python": "3.12.9",
+    "app_env": "development",
+    "llm_gateway_mode": "live",
+    "database_url_host": "localhost:5432/aitutors",
+    "mimo_base_url": "https://api.xiaomimimo.com/v1",
+    "mimo_model_used": "mimo-v2.6-pro",
+    "mimo_api_key_set": true,
+    "api_key_value": "NOT RECORDED (never log secrets)"
+  },
+  "db_before": {
+    "label": "BEFORE",
+    "at": "2026-09-26T00:07:39+08:00",
+    "counts": {
+      "documents": 2,
+      "document_source_versions": 1,
+      "document_source_lines": 338,
+      "document_source_spans": 545,
+      "source_figures": 17,
+      "semantic_annotations": 0,
+      "admission_candidates": 0,
+      "admission_events": 0,
+      "questions": 0,
+      "question_instances": 0,
+      "materials": 0,
+      "material_links": 0,
+      "unit_groups": 0,
+      "unit_group_members": 0,
+      "instance_role_contents": 0,
+      "validation_events": 0,
+      "tasks": 4,
+      "task_claims": 3,
+      "llm_call_audit": 957,
+      "budget": 3409
+    },
+    "missing_tables": [
+      "resolved_spans",
+      "ir_units",
+      "evidence_references"
+    ]
+  },
+  "input_layer_matrix": [
+    {
+      "case": "real_pdf",
+      "ext": ".pdf",
+      "bytes": 182605,
+      "sha256": "a136e47bf01ed4420a935f799a0d807182a10758ad0cf3cc1d0d280a9377350e",
+      "at": "2026-09-26T00:07:39+08:00",
+      "outcome": "ACCEPTED",
+      "document_id": "3a64909b-7bc9-4f33-a067-8c95c5a36c85",
+      "is_new": false,
+      "task_id": null
+    },
+    {
+      "case": "docx_stub",
+      "ext": ".docx",
+      "bytes": 34,
+      "sha256": "dedca9102157842d517a9cb7c979a880ae8b575f3835418e581ba3928ee29172",
+      "at": "2026-09-26T00:07:39+08:00",
+      "outcome": "ACCEPTED",
+      "document_id": "843aa5c1-3f8a-4304-ab7a-0b8c400937b7",
+      "is_new": false,
+      "task_id": null
+    },
+    {
+      "case": "doc_stub",
+      "ext": ".doc",
+      "bytes": 18,
+      "sha256": "f1ed736df3989d28f494537be89777af6997cf20be545f90210a66fa38e14991",
+      "at": "2026-09-26T00:07:39+08:00",
+      "outcome": "REJECTED",
+      "error": "ImportError_: unsupported file type: '.doc'; allowed: ['.docx', '.pdf']"
+    },
+    {
+      "case": "jpg_stub",
+      "ext": ".jpg",
+      "bytes": 19,
+      "sha256": "7941fea4774d6e1af2da5e3031e6a8e2231233cf77bf0788cc04108cb1bcb800",
+      "at": "2026-09-26T00:07:39+08:00",
+      "outcome": "REJECTED",
+      "error": "ImportError_: unsupported file type: '.jpg'; allowed: ['.docx', '.pdf']"
+    },
+    {
+      "case": "png_stub",
+      "ext": ".png",
+      "bytes": 22,
+      "sha256": "a6d1785ddb2f16d6ef789556256e86646dabb73427737bad28dc87d0027d2776",
+      "at": "2026-09-26T00:07:39+08:00",
+      "outcome": "REJECTED",
+      "error": "ImportError_: unsupported file type: '.png'; allowed: ['.docx', '.pdf']"
+    },
+    {
+      "case": "txt_stub",
+      "ext": ".txt",
+      "bytes": 10,
+      "sha256": "c9ecf5e54c7b3f2640ecca21f96d4c3625a2b7935104f41c5ede29935a9e52c9",
+      "at": "2026-09-26T00:07:39+08:00",
+      "outcome": "REJECTED",
+      "error": "ImportError_: unsupported file type: '.txt'; allowed: ['.docx', '.pdf']"
+    }
+  ],
+  "input": {
+    "path": "D:\\Project\\AITutor-X\\e2e_run\\inputs\\caseA_real.pdf",
+    "file_name": "caseA_real.pdf",
+    "bytes": 182605,
+    "sha256": "a136e47bf01ed4420a935f799a0d807182a10758ad0cf3cc1d0d280a9377350e",
+    "at": "2026-09-26T00:07:39+08:00"
+  },
+  "import": {
+    "document_id": "3a64909b-7bc9-4f33-a067-8c95c5a36c85",
+    "is_new": false,
+    "task_id": null,
+    "at": "2026-09-26T00:07:39+08:00",
+    "enqueued_fresh_task_id": "735bab6f-a03d-439b-bfb4-e714ef73e641"
+  },
+  "llm_boundary": {
+    "mode": "live",
+    "allow_live": true,
+    "authorization_basis": "Owner task §一.2 环境定义「允许：调用外部 API」 + §三 LLM API 调用规则（第一优先 MIMO V2.6 PRO）",
+    "provider_class": "HTTPLLMProvider",
+    "provider_name": "mimo",
+    "model": "mimo-v2.6-pro",
+    "endpoint": "https://api.xiaomimimo.com/v1/chat/completions",
+    "mock_used": false,
+    "fallback_used": false,
+    "deepseek_used": false
+  },
+  "pipeline": {
+    "run_once_return": true,
+    "run_once_return_semantics": "True = a task was claimed and processed; NOT a success indicator",
+    "task_id": "735bab6f-a03d-439b-bfb4-e714ef73e641",
+    "task_status_db": "queued",
+    "task_current_stage_db": null,
+    "task_llm_invocations_db": 0,
+    "claim_outcome_db": null,
+    "claim_error_type_db": null,
+    "status": "FAIL",
+    "wall_seconds": 54.96
+  },
+  "db_after": {
+    "label": "AFTER",
+    "at": "2026-09-26T00:08:34+08:00",
+    "counts": {
+      "documents": 2,
+      "document_source_versions": 1,
+      "document_source_lines": 338,
+      "document_source_spans": 545,
+      "source_figures": 17,
+      "semantic_annotations": 1,
+      "admission_candidates": 0,
+      "admission_events": 0,
+      "questions": 0,
+      "question_instances": 0,
+      "materials": 0,
+      "material_links": 0,
+      "unit_groups": 0,
+      "unit_group_members": 0,
+      "instance_role_contents": 0,
+      "validation_events": 0,
+      "tasks": 5,
+      "task_claims": 4,
+      "llm_call_audit": 958,
+      "budget": 3411
+    },
+    "missing_tables": [
+      "resolved_spans",
+      "ir_units",
+      "evidence_references"
+    ]
+  },
+  "db_delta": {
+    "semantic_annotations": {
+      "before": 0,
+      "after": 1,
+      "delta": 1
+    },
+    "tasks": {
+      "before": 4,
+      "after": 5,
+      "delta": 1
+    },
+    "task_claims": {
+      "before": 3,
+      "after": 4,
+      "delta": 1
+    },
+    "llm_call_audit": {
+      "before": 957,
+      "after": 958,
+      "delta": 1
+    },
+    "budget": {
+      "before": 3409,
+      "after": 3411,
+      "delta": 2
+    }
+  },
+  "db_detail": {
+    "tasks": [
+      {
+        "id": "abc8f489-2505-4d9b-9ed1-6ca20b9f2ccc",
+        "task_type": "document_ingest",
+        "status": "failed",
+        "current_stage": null,
+        "created_by": "e2e-verify",
+        "created_at": "2026-09-25T16:01:55.005712+00:00",
+        "decided_at": "2026-09-25T16:03:12.498115+00:00",
+        "started_at": null,
+        "llm_invocations": 0
+      },
+      {
+        "id": "735bab6f-a03d-439b-bfb4-e714ef73e641",
+        "task_type": "document_ingest",
+        "status": "queued",
+        "current_stage": null,
+        "created_by": "e2e-verify",
+        "created_at": "2026-09-25T16:07:39.941204+00:00",
+        "decided_at": null,
+        "started_at": null,
+        "llm_invocations": 0
+      },
+      {
+        "id": "c7e67c98-bc17-43ef-ac59-7bb81770cb3c",
+        "task_type": "document_ingest",
+        "status": "succeeded",
+        "current_stage": null,
+        "created_by": "e2e-verify",
+        "created_at": "2026-09-25T16:03:12.200277+00:00",
+        "decided_at": "2026-09-25T16:08:34.905841+00:00",
+        "started_at": null,
+        "llm_invocations": 1
+      },
+      {
+        "id": "284486c2-cdd1-454e-8986-4f976e95d912",
+        "task_type": "document_ingest",
+        "status": "failed",
+        "current_stage": null,
+        "created_by": "admin",
+        "created_at": "2026-09-25T07:21:07.337397+00:00",
+        "decided_at": "2026-09-25T07:22:17.795957+00:00",
+        "started_at": null,
+        "llm_invocations": 0
+      },
+      {
+        "id": "a7a52696-2126-41fd-b10d-303c24af25a5",
+        "task_type": "document_ingest",
+        "status": "failed",
+        "current_stage": null,
+        "created_by": "e2e-verify",
+        "created_at": "2026-09-25T16:01:54.955310+00:00",
+        "decided_at": "2026-09-25T16:01:55.143667+00:00",
+        "started_at": null,
+        "llm_invocations": 0
+      }
+    ],
+    "task_claims": [
+      {
+        "id": "6a79d93a-e67f-43a9-b65d-823d195b5705",
+        "task_id": "284486c2-cdd1-454e-8986-4f976e95d912",
+        "claim_round": 1,
+        "start": "2026-09-25T07:22:17.215551+00:00",
+        "end": "2026-09-25T07:22:17.795957+00:00",
+        "outcome": "failed",
+        "error_type": "conflict",
+        "lease_snapshot": "{\"worker_id\": \"worker-8f1f7999\", \"lease_token\": \"59ba328bc6054a99af035b0faa5a79d3\", \"error_detail\": \"live denied: --allow-live not granted; task context missing; budget unavailable\", \"lease_expires_at\": \"2026-09-25T07:23:17.215551+00:00\"}"
+      },
+      {
+        "id": "368c9df9-c8df-4576-86da-55ea3e12a2cb",
+        "task_id": "a7a52696-2126-41fd-b10d-303c24af25a5",
+        "claim_round": 1,
+        "start": "2026-09-25T16:01:55.031817+00:00",
+        "end": "2026-09-25T16:01:55.143667+00:00",
+        "outcome": "failed",
+        "error_type": "system_error",
+        "lease_snapshot": "{\"worker_id\": \"e2e-verify-worker\", \"lease_token\": \"4999c7d9e64c4308a733f55e32d7564e\", \"error_detail\": \"'NativeTextProvider' object is not callable\", \"lease_expires_at\": \"2026-09-25T16:02:55.031817+00:00\"}"
+      },
+      {
+        "id": "4b047b29-87b4-4579-92a8-dca8786f79b6",
+        "task_id": "abc8f489-2505-4d9b-9ed1-6ca20b9f2ccc",
+        "claim_round": 1,
+        "start": "2026-09-25T16:03:12.227339+00:00",
+        "end": "2026-09-25T16:03:12.498115+00:00",
+        "outcome": "failed",
+        "error_type": "conflict",
+        "lease_snapshot": "{\"worker_id\": \"e2e-verify-worker\", \"lease_token\": \"d003a1f26fb14381bf9b197308615959\", \"error_detail\": \"live denied: task context missing\", \"lease_expires_at\": \"2026-09-25T16:04:12.227339+00:00\"}"
+      },
+      {
+        "id": "72e1bb04-52b7-468f-a39f-79d599fec86e",
+        "task_id": "c7e67c98-bc17-43ef-ac59-7bb81770cb3c",
+        "claim_round": 1,
+        "start": "2026-09-25T16:07:39.972992+00:00",
+        "end": "2026-09-25T16:08:34.905841+00:00",
+        "outcome": "succeeded",
+        "error_type": null,
+        "lease_snapshot": "{\"worker_id\": \"e2e-verify-worker\", \"lease_token\": \"6294ea899d8041feb6dfd2308e1b654b\", \"lease_expires_at\": \"2026-09-25T16:08:39.972992+00:00\"}"
+      }
+    ],
+    "documents": [
+      {
+        "id": "3a64909b-7bc9-4f33-a067-8c95c5a36c85",
+        "file_name": "caseA_real.pdf",
+        "file_type": "pdf",
+        "original_sha256": "a136e47bf01ed4420a935f799a0d807182a10758ad0cf3cc1d0d280a9377350e",
+        "processing_status": "sealed"
+      },
+      {
+        "id": "843aa5c1-3f8a-4304-ab7a-0b8c400937b7",
+        "file_name": "extmatrix_docx_stub.docx",
+        "file_type": "docx",
+        "original_sha256": "dedca9102157842d517a9cb7c979a880ae8b575f3835418e581ba3928ee29172",
+        "processing_status": "imported"
+      }
+    ],
+    "document_source_versions": [
+      {
+        "id": "ab2ecae7-72a3-4850-8bc1-f3961841f8da",
+        "document_id": "3a64909b-7bc9-4f33-a067-8c95c5a36c85",
+        "artifact_kind": "raw_l1",
+        "role": "native",
+        "provider": "native",
+        "page_count": 2,
+        "line_count": 338,
+        "text_coverage": null,
+        "status": "sealed",
+        "body_hash": "b6f10eb629246f50156e7b6abac16806f0f02ca9711a9e44c6ca5dc076fedb3f",
+        "integrity_hash": "fc9deb0d37c9e6046ee71f7b646b662608d03131ba421a8e7f961f640c8ca9b2"
+      }
+    ],
+    "semantic_annotations": [
+      {
+        "id": "ac0bda70-020f-4dbb-a8b6-b3686410ccf1",
+        "source_version_id": "ab2ecae7-72a3-4850-8bc1-f3961841f8da",
+        "annotation_schema_version": "semantic-metadata-annotation/v0.3",
+        "prompt_version": "semantic-annotation/v1",
+        "model_config_hash": "11af80e5256a3ea0fdd06e7d5c799750b3d370a34bc5263b61c2c71e856a2d3e",
+        "status": "valid",
+        "logical_execution_hash": "d9632c9b6587b4dd7f5e23d163dbcc16b1f97897efab0419303b586f98b62176"
+      }
+    ],
+    "admission_candidates": [],
+    "admission_events": [],
+    "questions": [],
+    "question_instances": [],
+    "materials": []
+  },
+  "llm_audit": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-pro",
+      "status": "completed",
+      "prompt_chars": 3196,
+      "output_tokens": null,
+      "total_tokens": null,
+      "estimated_cost": null,
+      "error_type": null,
+      "logical_execution_stage": "ann",
+      "start": "2026-09-25T16:07:40.159943+00:00"
+    },
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-pro",
+      "status": "failed",
+      "prompt_chars": 3196,
+      "output_tokens": null,
+      "total_tokens": null,
+      "estimated_cost": null,
+      "error_type": "conflict",
+      "logical_execution_stage": "ann",
+      "start": "2026-09-25T16:03:12.414742+00:00"
+    }
+  ],
+  "finished_at": "2026-09-26T00:08:34+08:00"
+}

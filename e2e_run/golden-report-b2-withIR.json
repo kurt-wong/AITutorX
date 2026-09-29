@@ -1,0 +1,186 @@
+{
+  "dataset": "D:\\Project\\AITutor-X\\e2e_run\\golden",
+  "version": "phase0.2-r2-evidence-faithful",
+  "total_manifests": 1,
+  "total_units": 20,
+  "summary": {
+    "completed": 1,
+    "error": 0,
+    "identity_blocked": 0,
+    "ready_total": 6,
+    "skipped_total": 14,
+    "gate_auto_approve": 0,
+    "gate_rejected": 0,
+    "gate_pending_review": 6,
+    "compiled_leaves_total": 6
+  },
+  "papers": [
+    {
+      "paper": "pac-c02-01",
+      "units": 20,
+      "prompt_version": "reslice-pilot-v2.3",
+      "result": {
+        "track": "B2",
+        "status": "completed",
+        "identity_gate": {
+          "gate": "PASS",
+          "identity_state": "VERIFIED",
+          "semantic_state": "AVAILABLE",
+          "reason": "identity_verified_semantic_available",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "total_units": 20,
+        "ready": 6,
+        "skipped": 14,
+        "spans_in_run": 54,
+        "unresolved_in_run": 0,
+        "compiled_leaves": 6,
+        "compiled_materials": 0,
+        "gate_results": [
+          {
+            "unit_id": "U1-3",
+            "status": "skipped",
+            "reason": "not_ready",
+            "semantic_status": "incomplete"
+          },
+          {
+            "unit_id": "U4-6",
+            "status": "skipped",
+            "reason": "not_ready",
+            "semantic_status": "incomplete"
+          },
+          {
+            "unit_id": "U7-9",
+            "status": "skipped",
+            "reason": "not_ready",
+            "semantic_status": "incomplete"
+          },
+          {
+            "unit_id": "Q10",
+            "status": "skipped",
+            "reason": "not_ready",
+            "semantic_status": "incomplete"
+          },
+          {
+            "unit_id": "Q11",
+            "status": "skipped",
+            "reason": "not_ready",
+            "semantic_status": "incomplete"
+          },
+          {
+            "unit_id": "Q12",
+            "status": "skipped",
+            "reason": "not_ready",
+            "semantic_status": "incomplete"
+          },
+          {
+            "unit_id": "Q13",
+            "status": "skipped",
+            "reason": "not_ready",
+            "semantic_status": "incomplete"
+          },
+          {
+            "unit_id": "Q14",
+            "status": "skipped",
+            "reason": "not_ready",
+            "semantic_status": "incomplete"
+          },
+          {
+            "unit_id": "Q15",
+            "status": "skipped",
+            "reason": "not_ready",
+            "semantic_status": "incomplete"
+          },
+          {
+            "unit_id": "Q16",
+            "status": "skipped",
+            "reason": "not_ready",
+            "semantic_status": "incomplete"
+          },
+          {
+            "unit_id": "Q17",
+            "status": "skipped",
+            "reason": "not_ready",
+            "semantic_status": "incomplete"
+          },
+          {
+            "unit_id": "Q18",
+            "status": "skipped",
+            "reason": "not_ready",
+            "semantic_status": "incomplete"
+          },
+          {
+            "unit_id": "Q19",
+            "status": "skipped",
+            "reason": "not_ready",
+            "semantic_status": "incomplete"
+          },
+          {
+            "unit_id": "Q20",
+            "status": "skipped",
+            "reason": "not_ready",
+            "semantic_status": "incomplete"
+          },
+          {
+            "unit_id": "Q21",
+            "status": "evaluated",
+            "decision": "pending_review",
+            "reasons": [
+              "leaf 'Q21' type 'fill_in' not strict-auto (grammar None)"
+            ]
+          },
+          {
+            "unit_id": "Q22",
+            "status": "evaluated",
+            "decision": "pending_review",
+            "reasons": [
+              "leaf 'Q22' type 'short_answer' not strict-auto (grammar None)"
+            ]
+          },
+          {
+            "unit_id": "Q23",
+            "status": "evaluated",
+            "decision": "pending_review",
+            "reasons": [
+              "leaf 'Q23' type 'short_answer' not strict-auto (grammar None)"
+            ]
+          },
+          {
+            "unit_id": "Q24",
+            "status": "evaluated",
+            "decision": "pending_review",
+            "reasons": [
+              "leaf 'Q24' type 'short_answer' not strict-auto (grammar None)"
+            ]
+          },
+          {
+            "unit_id": "Q25",
+            "status": "evaluated",
+            "decision": "pending_review",
+            "reasons": [
+              "leaf 'Q25' type 'short_answer' not strict-auto (grammar None)"
+            ]
+          },
+          {
+            "unit_id": "Q26",
+            "status": "evaluated",
+            "decision": "pending_review",
+            "reasons": [
+              "leaf 'Q26' type 'short_answer' not strict-auto (grammar None)"
+            ]
+          }
+        ],
+        "gate_auto_approve": 0,
+        "gate_rejected": 0,
+        "gate_pending_review": 6
+      }
+    }
+  ],
+  "errors": []
+}

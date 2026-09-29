@@ -1,0 +1,642 @@
+{
+  "sections": [],
+  "semantic_units": [
+    {
+      "content": {
+        "stem": {
+          "role": "stem",
+          "question_label": "1"
+        },
+        "answer": {
+          "role": "answer",
+          "answer_zone": "answer_table",
+          "question_label": "1"
+        },
+        "options": [
+          {
+            "role": "option",
+            "label": "A",
+            "question_label": "1"
+          },
+          {
+            "role": "option",
+            "label": "B",
+            "question_label": "1"
+          },
+          {
+            "role": "option",
+            "label": "C",
+            "question_label": "1"
+          },
+          {
+            "role": "option",
+            "label": "D",
+            "question_label": "1"
+          }
+        ]
+      },
+      "unit_id": "Q1",
+      "unit_type": "standalone_unit",
+      "section_id": "SEC-1",
+      "question_number": "1",
+      "original_question_type": "single_choice"
+    },
+    {
+      "content": {
+        "stem": {
+          "role": "stem",
+          "question_label": "2"
+        },
+        "answer": {
+          "role": "answer",
+          "answer_zone": "answer_table",
+          "question_label": "2"
+        },
+        "options": [
+          {
+            "role": "option",
+            "label": "A",
+            "question_label": "2"
+          },
+          {
+            "role": "option",
+            "label": "B",
+            "question_label": "2"
+          },
+          {
+            "role": "option",
+            "label": "C",
+            "question_label": "2"
+          },
+          {
+            "role": "option",
+            "label": "D",
+            "question_label": "2"
+          }
+        ]
+      },
+      "unit_id": "Q2",
+      "unit_type": "standalone_unit",
+      "section_id": "SEC-1",
+      "question_number": "2",
+      "original_question_type": "single_choice"
+    },
+    {
+      "content": {
+        "stem": {
+          "role": "stem",
+          "question_label": "3"
+        },
+        "answer": {
+          "role": "answer",
+          "answer_zone": "answer_table",
+          "question_label": "3"
+        },
+        "options": [
+          {
+            "role": "option",
+            "label": "A",
+            "question_label": "3"
+          },
+          {
+            "role": "option",
+            "label": "B",
+            "question_label": "3"
+          },
+          {
+            "role": "option",
+            "label": "C",
+            "question_label": "3"
+          },
+          {
+            "role": "option",
+            "label": "D",
+            "question_label": "3"
+          }
+        ]
+      },
+      "unit_id": "Q3",
+      "unit_type": "standalone_unit",
+      "section_id": "SEC-1",
+      "question_number": "3",
+      "original_question_type": "single_choice"
+    },
+    {
+      "content": {
+        "stem": {
+          "role": "stem",
+          "question_label": "4"
+        },
+        "answer": {
+          "role": "answer",
+          "answer_zone": "answer_table",
+          "question_label": "4"
+        },
+        "options": [
+          {
+            "role": "option",
+            "label": "A",
+            "question_label": "4"
+          },
+          {
+            "role": "option",
+            "label": "B",
+            "question_label": "4"
+          },
+          {
+            "role": "option",
+            "label": "C",
+            "question_label": "4"
+          },
+          {
+            "role": "option",
+            "label": "D",
+            "question_label": "4"
+          }
+        ]
+      },
+      "unit_id": "Q4",
+      "unit_type": "standalone_unit",
+      "section_id": "SEC-1",
+      "question_number": "4",
+      "original_question_type": "single_choice"
+    },
+    {
+      "content": {
+        "stem": {
+          "role": "stem",
+          "question_label": "5"
+        },
+        "answer": {
+          "role": "answer",
+          "answer_zone": "answer_table",
+          "question_label": "5"
+        },
+        "options": [
+          {
+            "role": "option",
+            "label": "A",
+            "question_label": "5"
+          },
+          {
+            "role": "option",
+            "label": "B",
+            "question_label": "5"
+          },
+          {
+            "role": "option",
+            "label": "C",
+            "question_label": "5"
+          },
+          {
+            "role": "option",
+            "label": "D",
+            "question_label": "5"
+          }
+        ]
+      },
+      "unit_id": "Q5",
+      "unit_type": "standalone_unit",
+      "section_id": "SEC-1",
+      "question_number": "5",
+      "original_question_type": "single_choice"
+    },
+    {
+      "content": {
+        "stem": {
+          "role": "stem",
+          "question_label": "6"
+        },
+        "answer": {
+          "role": "answer",
+          "answer_zone": "answer_table",
+          "question_label": "6"
+        },
+        "options": [
+          {
+            "role": "option",
+            "label": "A",
+            "question_label": "6"
+          },
+          {
+            "role": "option",
+            "label": "B",
+            "question_label": "6"
+          },
+          {
+            "role": "option",
+            "label": "C",
+            "question_label": "6"
+          },
+          {
+            "role": "option",
+            "label": "D",
+            "question_label": "6"
+          }
+        ]
+      },
+      "unit_id": "Q6",
+      "unit_type": "standalone_unit",
+      "section_id": "SEC-1",
+      "question_number": "6",
+      "original_question_type": "single_choice"
+    },
+    {
+      "content": {
+        "stem": {
+          "role": "stem",
+          "question_label": "7"
+        },
+        "answer": {
+          "role": "answer",
+          "answer_zone": "answer_table",
+          "question_label": "7"
+        },
+        "options": [
+          {
+            "role": "option",
+            "label": "A",
+            "question_label": "7"
+          },
+          {
+            "role": "option",
+            "label": "B",
+            "question_label": "7"
+          },
+          {
+            "role": "option",
+            "label": "C",
+            "question_label": "7"
+          },
+          {
+            "role": "option",
+            "label": "D",
+            "question_label": "7"
+          }
+        ]
+      },
+      "unit_id": "Q7",
+      "unit_type": "standalone_unit",
+      "section_id": "SEC-1",
+      "question_number": "7",
+      "original_question_type": "single_choice"
+    },
+    {
+      "content": {
+        "stem": {
+          "role": "stem",
+          "question_label": "8"
+        },
+        "answer": {
+          "role": "answer",
+          "answer_zone": "answer_table",
+          "question_label": "8"
+        },
+        "options": [
+          {
+            "role": "option",
+            "label": "A",
+            "question_label": "8"
+          },
+          {
+            "role": "option",
+            "label": "B",
+            "question_label": "8"
+          },
+          {
+            "role": "option",
+            "label": "C",
+            "question_label": "8"
+          },
+          {
+            "role": "option",
+            "label": "D",
+            "question_label": "8"
+          }
+        ]
+      },
+      "unit_id": "Q8",
+      "unit_type": "standalone_unit",
+      "section_id": "SEC-1",
+      "question_number": "8",
+      "original_question_type": "single_choice"
+    },
+    {
+      "content": {
+        "stem": {
+          "role": "stem",
+          "question_label": "9"
+        },
+        "answer": {
+          "role": "answer",
+          "answer_zone": "answer_table",
+          "question_label": "9"
+        },
+        "options": [
+          {
+            "role": "option",
+            "label": "A",
+            "question_label": "9"
+          },
+          {
+            "role": "option",
+            "label": "B",
+            "question_label": "9"
+          },
+          {
+            "role": "option",
+            "label": "C",
+            "question_label": "9"
+          },
+          {
+            "role": "option",
+            "label": "D",
+            "question_label": "9"
+          }
+        ],
+        "explanation": {
+          "role": "explanation",
+          "question_label": "9",
+          "explanation_zone": "inline_explanation"
+        }
+      },
+      "unit_id": "Q9",
+      "unit_type": "standalone_unit",
+      "section_id": "SEC-1",
+      "question_number": "9",
+      "original_question_type": "single_choice"
+    },
+    {
+      "content": {
+        "stem": {
+          "role": "stem",
+          "question_label": "10"
+        },
+        "answer": {
+          "role": "answer",
+          "answer_zone": "answer_table",
+          "question_label": "10"
+        },
+        "options": [
+          {
+            "role": "option",
+            "label": "A",
+            "question_label": "10"
+          },
+          {
+            "role": "option",
+            "label": "B",
+            "question_label": "10"
+          },
+          {
+            "role": "option",
+            "label": "C",
+            "question_label": "10"
+          },
+          {
+            "role": "option",
+            "label": "D",
+            "question_label": "10"
+          }
+        ],
+        "explanation": {
+          "role": "explanation",
+          "question_label": "10",
+          "explanation_zone": "inline_explanation"
+        }
+      },
+      "unit_id": "Q10",
+      "unit_type": "standalone_unit",
+      "section_id": "SEC-1",
+      "question_number": "10",
+      "original_question_type": "single_choice"
+    },
+    {
+      "content": {
+        "stem": {
+          "role": "stem",
+          "question_label": "11"
+        },
+        "answer": {
+          "role": "answer",
+          "answer_zone": "inline_answer",
+          "question_label": "11"
+        }
+      },
+      "unit_id": "Q11",
+      "unit_type": "standalone_unit",
+      "section_id": "SEC-2",
+      "question_number": "11",
+      "original_question_type": "fill_in"
+    },
+    {
+      "content": {
+        "stem": {
+          "role": "stem",
+          "question_label": "12"
+        },
+        "answer": {
+          "role": "answer",
+          "answer_zone": "inline_answer",
+          "question_label": "12"
+        }
+      },
+      "unit_id": "Q12",
+      "unit_type": "standalone_unit",
+      "section_id": "SEC-2",
+      "question_number": "12",
+      "original_question_type": "fill_in"
+    },
+    {
+      "content": {
+        "stem": {
+          "role": "stem",
+          "question_label": "13"
+        },
+        "answer": {
+          "role": "answer",
+          "answer_zone": "inline_answer",
+          "question_label": "13"
+        }
+      },
+      "unit_id": "Q13",
+      "unit_type": "standalone_unit",
+      "section_id": "SEC-2",
+      "question_number": "13",
+      "original_question_type": "fill_in"
+    },
+    {
+      "content": {
+        "stem": {
+          "role": "stem",
+          "question_label": "14"
+        },
+        "answer": {
+          "role": "answer",
+          "answer_zone": "inline_answer",
+          "question_label": "14"
+        }
+      },
+      "unit_id": "Q14",
+      "unit_type": "standalone_unit",
+      "section_id": "SEC-2",
+      "question_number": "14",
+      "original_question_type": "fill_in"
+    },
+    {
+      "content": {
+        "stem": {
+          "role": "stem",
+          "question_label": "15"
+        },
+        "answer": {
+          "role": "answer",
+          "answer_zone": "inline_answer",
+          "question_label": "15"
+        }
+      },
+      "unit_id": "Q15",
+      "unit_type": "standalone_unit",
+      "section_id": "SEC-2",
+      "question_number": "15",
+      "original_question_type": "fill_in"
+    },
+    {
+      "content": {
+        "stem": {
+          "role": "stem",
+          "question_label": "16"
+        },
+        "answer": {
+          "role": "answer",
+          "answer_zone": "inline_answer",
+          "question_label": "16"
+        }
+      },
+      "unit_id": "Q16",
+      "unit_type": "standalone_unit",
+      "section_id": "SEC-2",
+      "question_number": "16",
+      "original_question_type": "fill_in"
+    },
+    {
+      "content": {
+        "stem": {
+          "role": "stem",
+          "question_label": "17"
+        },
+        "answer": {
+          "role": "answer",
+          "answer_zone": "inline_answer",
+          "question_label": "17"
+        }
+      },
+      "unit_id": "Q17",
+      "unit_type": "standalone_unit",
+      "section_id": "SEC-3",
+      "question_number": "17",
+      "original_question_type": "short_answer"
+    },
+    {
+      "content": {
+        "stem": {
+          "role": "stem",
+          "question_label": "18"
+        },
+        "answer": {
+          "role": "answer",
+          "answer_zone": "inline_answer",
+          "question_label": "18"
+        },
+        "explanation": {
+          "role": "explanation",
+          "question_label": "18",
+          "explanation_zone": "inline_explanation"
+        }
+      },
+      "unit_id": "Q18",
+      "unit_type": "standalone_unit",
+      "section_id": "SEC-3",
+      "question_number": "18",
+      "original_question_type": "short_answer"
+    },
+    {
+      "content": {
+        "stem": {
+          "role": "stem",
+          "question_label": "19"
+        },
+        "answer": {
+          "role": "answer",
+          "answer_zone": "inline_answer",
+          "question_label": "19"
+        }
+      },
+      "unit_id": "Q19",
+      "unit_type": "standalone_unit",
+      "section_id": "SEC-3",
+      "question_number": "19",
+      "original_question_type": "short_answer"
+    },
+    {
+      "content": {
+        "stem": {
+          "role": "stem",
+          "question_label": "20"
+        },
+        "answer": {
+          "role": "answer",
+          "answer_zone": "inline_answer",
+          "question_label": "20"
+        }
+      },
+      "unit_id": "Q20",
+      "unit_type": "standalone_unit",
+      "section_id": "SEC-3",
+      "question_number": "20",
+      "original_question_type": "short_answer"
+    },
+    {
+      "content": {
+        "stem": {
+          "role": "stem",
+          "question_label": "21"
+        },
+        "answer": {
+          "role": "answer",
+          "answer_zone": "inline_answer",
+          "question_label": "21"
+        }
+      },
+      "unit_id": "Q21",
+      "unit_type": "standalone_unit",
+      "section_id": "SEC-3",
+      "question_number": "21",
+      "original_question_type": "short_answer"
+    },
+    {
+      "content": {
+        "stem": {
+          "role": "stem",
+          "question_label": "22"
+        },
+        "answer": {
+          "role": "answer",
+          "answer_zone": "inline_answer",
+          "question_label": "22"
+        }
+      },
+      "unit_id": "Q22",
+      "unit_type": "standalone_unit",
+      "section_id": "SEC-3",
+      "question_number": "22",
+      "original_question_type": "short_answer"
+    }
+  ],
+  "document_metadata_claims": {
+    "year": "2021",
+    "grade": "高一",
+    "school": null,
+    "subject": "数学"
+  }
+}

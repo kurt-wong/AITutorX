@@ -1,0 +1,5805 @@
+[
+  {
+    "id": "18ff5f34-3512-4212-89e4-49dbc895c2ff",
+    "unit_type": "standalone_unit",
+    "decision_status": "pending_review",
+    "gate_decision": {
+      "layers": {
+        "semantic": {
+          "status": "pass",
+          "reasons": []
+        },
+        "admission": {
+          "status": "fail",
+          "reasons": [
+            "leaf 'Q14' type 'fill_in' not strict-auto (grammar None)"
+          ],
+          "decision": "pending_review"
+        },
+        "provenance": {
+          "status": "pass",
+          "reasons": [],
+          "auto_allowed": true
+        },
+        "structural": {
+          "status": "pass",
+          "reasons": []
+        }
+      },
+      "reasons": [
+        "leaf 'Q14' type 'fill_in' not strict-auto (grammar None)"
+      ],
+      "decision": "pending_review",
+      "gate_policy_version": "admission-gate/v1"
+    },
+    "payload_keys": [
+      "answer",
+      "evidence",
+      "figure_refs",
+      "ir_snapshot",
+      "display_hint",
+      "compiled_roles",
+      "resolved_spans",
+      "knowledge_links"
+    ],
+    "payload": {
+      "answer": [
+        {
+          "text": "14. 3;2",
+          "span_id": "sp-Q14.answer",
+          "unit_id": "Q14",
+          "complete": true,
+          "line_refs": [
+            "P6L049"
+          ],
+          "text_hash": "12a4fe7c0f32309cbeab4b04503b63ac5bdc40b0867b6e74465cd72f2361c4f8",
+          "source_located": true,
+          "question_number": "14",
+          "verified_correct": null
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": "sp-Q14.stem",
+          "evidence": [
+            "stem start",
+            "P2L104",
+            "boundary",
+            "option-or-region-end"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": "sp-Q14.answer",
+          "evidence": [
+            "answer zone",
+            "answer_table",
+            "qn=14"
+          ]
+        },
+        {
+          "kind": "compiler",
+          "role": "stem",
+          "span_id": "sp-Q14.stem",
+          "evidence": [
+            "compiled role text",
+            "text_hash over compiled text"
+          ]
+        },
+        {
+          "kind": "compiler",
+          "role": "answer",
+          "span_id": "sp-Q14.answer",
+          "evidence": [
+            "compiled role text",
+            "text_hash over compiled text"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 1 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "answer row qn=1 spans multiple lines"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 2 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=2 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 3 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=3 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 4 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=4 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 5 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=5 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 6 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=6 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 7 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 8 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=10 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 1 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "answer row qn=1 spans multiple lines"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 2 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=2 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 3 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=3 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 4 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=4 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 5 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=5 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 6 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=6 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 7 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 8 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        }
+      ],
+      "figure_refs": [],
+      "ir_snapshot": {
+        "units": [
+          {
+            "content": [
+              {
+                "role": "stem",
+                "label": null,
+                "span_id": "sp-Q14.stem",
+                "unsupported": false
+              },
+              {
+                "role": "answer",
+                "label": null,
+                "span_id": "sp-Q14.answer",
+                "unsupported": false
+              }
+            ],
+            "unit_id": "Q14",
+            "relations": [],
+            "unit_type": "standalone_unit",
+            "question_number": "14",
+            "semantic_status": "ready",
+            "shared_components": [],
+            "question_number_range": null,
+            "original_question_type": "fill_in"
+          }
+        ],
+        "ir_schema": "semantic-question-ir/v0.3",
+        "annotation_id": "3fae271a-4b01-486b-8d2c-badd8188ad93",
+        "source_version_id": "5ed951e5-a1f8-4c6a-8b48-71a60a0ea79a"
+      },
+      "display_hint": {
+        "unit_type": "standalone_unit",
+        "content_roles": [
+          "stem",
+          "answer"
+        ],
+        "canonical_question_type": "fill_in"
+      },
+      "compiled_roles": [
+        {
+          "kind": "content",
+          "role": "stem",
+          "text": "14.函数",
+          "label": null,
+          "span_id": "sp-Q14.stem",
+          "unit_id": "Q14",
+          "line_refs": [
+            "P2L104"
+          ],
+          "text_hash": "af0147e0a38f8f80e3772e3c4419b1c7618e9bfd16dbc63647101fd16619c7dc"
+        }
+      ],
+      "resolved_spans": [
+        {
+          "role": "stem",
+          "span_id": "sp-Q14.stem",
+          "line_refs": [
+            "P2L104"
+          ],
+          "text_hash": "af0147e0a38f8f80e3772e3c4419b1c7618e9bfd16dbc63647101fd16619c7dc",
+          "end_offset": null,
+          "granularity": "line",
+          "start_offset": null,
+          "resolution_status": "exact"
+        },
+        {
+          "role": "answer",
+          "span_id": "sp-Q14.answer",
+          "line_refs": [
+            "P6L049"
+          ],
+          "text_hash": "12a4fe7c0f32309cbeab4b04503b63ac5bdc40b0867b6e74465cd72f2361c4f8",
+          "end_offset": 7,
+          "granularity": "line_character",
+          "start_offset": 0,
+          "resolution_status": "exact"
+        }
+      ],
+      "knowledge_links": []
+    }
+  },
+  {
+    "id": "33d5860f-435a-494b-84ae-170b418fbc2b",
+    "unit_type": "standalone_unit",
+    "decision_status": "pending_review",
+    "gate_decision": {
+      "layers": {
+        "semantic": {
+          "status": "pass",
+          "reasons": []
+        },
+        "admission": {
+          "status": "fail",
+          "reasons": [
+            "leaf 'Q13' type 'fill_in' not strict-auto (grammar None)"
+          ],
+          "decision": "pending_review"
+        },
+        "provenance": {
+          "status": "pass",
+          "reasons": [],
+          "auto_allowed": true
+        },
+        "structural": {
+          "status": "pass",
+          "reasons": []
+        }
+      },
+      "reasons": [
+        "leaf 'Q13' type 'fill_in' not strict-auto (grammar None)"
+      ],
+      "decision": "pending_review",
+      "gate_policy_version": "admission-gate/v1"
+    },
+    "payload_keys": [
+      "answer",
+      "evidence",
+      "figure_refs",
+      "ir_snapshot",
+      "display_hint",
+      "compiled_roles",
+      "resolved_spans",
+      "knowledge_links"
+    ],
+    "payload": {
+      "answer": [
+        {
+          "text": "13. 12",
+          "span_id": "sp-Q13.answer",
+          "unit_id": "Q13",
+          "complete": true,
+          "line_refs": [
+            "P6L048"
+          ],
+          "text_hash": "e300e8d5bf763805a0a0448f6b8e8800ceb1dbd749cd6f8fc79d7d2254553c01",
+          "source_located": true,
+          "question_number": "13",
+          "verified_correct": null
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": "sp-Q13.stem",
+          "evidence": [
+            "stem start",
+            "P2L102",
+            "boundary",
+            "option-or-region-end"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": "sp-Q13.answer",
+          "evidence": [
+            "answer zone",
+            "answer_table",
+            "qn=13"
+          ]
+        },
+        {
+          "kind": "compiler",
+          "role": "stem",
+          "span_id": "sp-Q13.stem",
+          "evidence": [
+            "compiled role text",
+            "text_hash over compiled text"
+          ]
+        },
+        {
+          "kind": "compiler",
+          "role": "answer",
+          "span_id": "sp-Q13.answer",
+          "evidence": [
+            "compiled role text",
+            "text_hash over compiled text"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 1 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "answer row qn=1 spans multiple lines"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 2 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=2 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 3 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=3 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 4 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=4 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 5 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=5 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 6 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=6 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 7 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 8 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=10 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 1 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "answer row qn=1 spans multiple lines"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 2 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=2 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 3 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=3 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 4 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=4 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 5 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=5 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 6 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=6 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 7 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 8 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        }
+      ],
+      "figure_refs": [],
+      "ir_snapshot": {
+        "units": [
+          {
+            "content": [
+              {
+                "role": "stem",
+                "label": null,
+                "span_id": "sp-Q13.stem",
+                "unsupported": false
+              },
+              {
+                "role": "answer",
+                "label": null,
+                "span_id": "sp-Q13.answer",
+                "unsupported": false
+              }
+            ],
+            "unit_id": "Q13",
+            "relations": [],
+            "unit_type": "standalone_unit",
+            "question_number": "13",
+            "semantic_status": "ready",
+            "shared_components": [],
+            "question_number_range": null,
+            "original_question_type": "fill_in"
+          }
+        ],
+        "ir_schema": "semantic-question-ir/v0.3",
+        "annotation_id": "3fae271a-4b01-486b-8d2c-badd8188ad93",
+        "source_version_id": "5ed951e5-a1f8-4c6a-8b48-71a60a0ea79a"
+      },
+      "display_hint": {
+        "unit_type": "standalone_unit",
+        "content_roles": [
+          "stem",
+          "answer"
+        ],
+        "canonical_question_type": "fill_in"
+      },
+      "compiled_roles": [
+        {
+          "kind": "content",
+          "role": "stem",
+          "text": "13.某班共38 人，其中15 人喜爱篮球运动，10 人喜爱乒乓球运动，16 人对这两项运动都不喜爱，则喜爱篮球运动\n但不喜爱乒乓球运动的人数为______．",
+          "label": null,
+          "span_id": "sp-Q13.stem",
+          "unit_id": "Q13",
+          "line_refs": [
+            "P2L102",
+            "P2L103"
+          ],
+          "text_hash": "cffb231b0e127f9549bdfed200a1c398305852591b37548ea3080f0de7b1c8b1"
+        }
+      ],
+      "resolved_spans": [
+        {
+          "role": "stem",
+          "span_id": "sp-Q13.stem",
+          "line_refs": [
+            "P2L102",
+            "P2L103"
+          ],
+          "text_hash": "cffb231b0e127f9549bdfed200a1c398305852591b37548ea3080f0de7b1c8b1",
+          "end_offset": null,
+          "granularity": "line",
+          "start_offset": null,
+          "resolution_status": "exact"
+        },
+        {
+          "role": "answer",
+          "span_id": "sp-Q13.answer",
+          "line_refs": [
+            "P6L048"
+          ],
+          "text_hash": "e300e8d5bf763805a0a0448f6b8e8800ceb1dbd749cd6f8fc79d7d2254553c01",
+          "end_offset": 6,
+          "granularity": "line_character",
+          "start_offset": 0,
+          "resolution_status": "exact"
+        }
+      ],
+      "knowledge_links": []
+    }
+  },
+  {
+    "id": "54f869a3-ea87-41ab-9591-ff31f2a455b9",
+    "unit_type": "standalone_unit",
+    "decision_status": "pending_review",
+    "gate_decision": {
+      "layers": {
+        "semantic": {
+          "status": "pass",
+          "reasons": []
+        },
+        "admission": {
+          "status": "fail",
+          "reasons": [
+            "leaf 'Q11' type 'fill_in' not strict-auto (grammar None)"
+          ],
+          "decision": "pending_review"
+        },
+        "provenance": {
+          "status": "pass",
+          "reasons": [],
+          "auto_allowed": true
+        },
+        "structural": {
+          "status": "pass",
+          "reasons": []
+        }
+      },
+      "reasons": [
+        "leaf 'Q11' type 'fill_in' not strict-auto (grammar None)"
+      ],
+      "decision": "pending_review",
+      "gate_policy_version": "admission-gate/v1"
+    },
+    "payload_keys": [
+      "answer",
+      "evidence",
+      "figure_refs",
+      "ir_snapshot",
+      "display_hint",
+      "compiled_roles",
+      "resolved_spans",
+      "knowledge_links"
+    ],
+    "payload": {
+      "answer": [
+        {
+          "text": "11. ",
+          "span_id": "sp-Q11.answer",
+          "unit_id": "Q11",
+          "complete": true,
+          "line_refs": [
+            "P6L031"
+          ],
+          "text_hash": "e1a6dffe11fb7b243912ce444ef1c343a5b5fbf64386a4f3f461f3cb2493c0d4",
+          "source_located": true,
+          "question_number": "11",
+          "verified_correct": null
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": "sp-Q11.stem",
+          "evidence": [
+            "stem start",
+            "P2L073",
+            "boundary",
+            "option-or-region-end"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": "sp-Q11.answer",
+          "evidence": [
+            "answer zone",
+            "answer_table",
+            "qn=11"
+          ]
+        },
+        {
+          "kind": "compiler",
+          "role": "stem",
+          "span_id": "sp-Q11.stem",
+          "evidence": [
+            "compiled role text",
+            "text_hash over compiled text"
+          ]
+        },
+        {
+          "kind": "compiler",
+          "role": "answer",
+          "span_id": "sp-Q11.answer",
+          "evidence": [
+            "compiled role text",
+            "text_hash over compiled text"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 1 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "answer row qn=1 spans multiple lines"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 2 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=2 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 3 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=3 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 4 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=4 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 5 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=5 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 6 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=6 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 7 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 8 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=10 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 1 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "answer row qn=1 spans multiple lines"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 2 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=2 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 3 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=3 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 4 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=4 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 5 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=5 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 6 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=6 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 7 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 8 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        }
+      ],
+      "figure_refs": [],
+      "ir_snapshot": {
+        "units": [
+          {
+            "content": [
+              {
+                "role": "stem",
+                "label": null,
+                "span_id": "sp-Q11.stem",
+                "unsupported": false
+              },
+              {
+                "role": "answer",
+                "label": null,
+                "span_id": "sp-Q11.answer",
+                "unsupported": false
+              }
+            ],
+            "unit_id": "Q11",
+            "relations": [],
+            "unit_type": "standalone_unit",
+            "question_number": "11",
+            "semantic_status": "ready",
+            "shared_components": [],
+            "question_number_range": null,
+            "original_question_type": "fill_in"
+          }
+        ],
+        "ir_schema": "semantic-question-ir/v0.3",
+        "annotation_id": "3fae271a-4b01-486b-8d2c-badd8188ad93",
+        "source_version_id": "5ed951e5-a1f8-4c6a-8b48-71a60a0ea79a"
+      },
+      "display_hint": {
+        "unit_type": "standalone_unit",
+        "content_roles": [
+          "stem",
+          "answer"
+        ],
+        "canonical_question_type": "fill_in"
+      },
+      "compiled_roles": [
+        {
+          "kind": "content",
+          "role": "stem",
+          "text": "11.设全集U = R ，集合\n{ |\n2},\nA\nx x\n=\n\n集合\n{ |\n1}\nB\nx x\n=\n\n，则集合U A =\n，集合(\n)\nU A\nB =\n.",
+          "label": null,
+          "span_id": "sp-Q11.stem",
+          "unit_id": "Q11",
+          "line_refs": [
+            "P2L073",
+            "P2L074",
+            "P2L075",
+            "P2L076",
+            "P2L077",
+            "P2L078",
+            "P2L079",
+            "P2L080",
+            "P2L081",
+            "P2L082",
+            "P2L083",
+            "P2L084",
+            "P2L085",
+            "P2L086",
+            "P2L087",
+            "P2L088",
+            "P2L089",
+            "P2L090",
+            "P2L091",
+            "P2L092"
+          ],
+          "text_hash": "d48f0ffb5b92f0b20706fb432b5d38cad4f1e89b4232b48da3090eea795eea38"
+        }
+      ],
+      "resolved_spans": [
+        {
+          "role": "stem",
+          "span_id": "sp-Q11.stem",
+          "line_refs": [
+            "P2L073",
+            "P2L074",
+            "P2L075",
+            "P2L076",
+            "P2L077",
+            "P2L078",
+            "P2L079",
+            "P2L080",
+            "P2L081",
+            "P2L082",
+            "P2L083",
+            "P2L084",
+            "P2L085",
+            "P2L086",
+            "P2L087",
+            "P2L088",
+            "P2L089",
+            "P2L090",
+            "P2L091",
+            "P2L092"
+          ],
+          "text_hash": "d48f0ffb5b92f0b20706fb432b5d38cad4f1e89b4232b48da3090eea795eea38",
+          "end_offset": null,
+          "granularity": "line",
+          "start_offset": null,
+          "resolution_status": "exact"
+        },
+        {
+          "role": "answer",
+          "span_id": "sp-Q11.answer",
+          "line_refs": [
+            "P6L031"
+          ],
+          "text_hash": "e1a6dffe11fb7b243912ce444ef1c343a5b5fbf64386a4f3f461f3cb2493c0d4",
+          "end_offset": 5,
+          "granularity": "line_character",
+          "start_offset": 0,
+          "resolution_status": "exact"
+        }
+      ],
+      "knowledge_links": []
+    }
+  },
+  {
+    "id": "83044f37-8c41-4979-b1ca-d72a73ba2844",
+    "unit_type": "standalone_unit",
+    "decision_status": "pending_review",
+    "gate_decision": {
+      "layers": {
+        "semantic": {
+          "status": "pass",
+          "reasons": []
+        },
+        "admission": {
+          "status": "fail",
+          "reasons": [
+            "leaf 'Q9' answer grammar: answer not expressible as canonical value"
+          ],
+          "decision": "pending_review"
+        },
+        "provenance": {
+          "status": "pass",
+          "reasons": [],
+          "auto_allowed": true
+        },
+        "structural": {
+          "status": "pass",
+          "reasons": []
+        }
+      },
+      "reasons": [
+        "leaf 'Q9' answer grammar: answer not expressible as canonical value"
+      ],
+      "decision": "pending_review",
+      "gate_policy_version": "admission-gate/v1"
+    },
+    "payload_keys": [
+      "answer",
+      "evidence",
+      "figure_refs",
+      "ir_snapshot",
+      "display_hint",
+      "compiled_roles",
+      "resolved_spans",
+      "knowledge_links"
+    ],
+    "payload": {
+      "answer": [
+        {
+          "text": "9.",
+          "span_id": "sp-Q9.answer",
+          "unit_id": "Q9",
+          "complete": true,
+          "line_refs": [
+            "P7L333"
+          ],
+          "text_hash": "99a1b84b98650fd4581b7156cd830ef74402cc54b6b834b677c269a41e731915",
+          "source_located": true,
+          "question_number": "9",
+          "verified_correct": null
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": "sp-Q9.stem",
+          "evidence": [
+            "stem start",
+            "P2L048",
+            "boundary",
+            "option-or-region-end"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": "sp-Q9.option.A",
+          "evidence": [
+            "option label=A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": "sp-Q9.option.B",
+          "evidence": [
+            "option label=B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": "sp-Q9.option.C",
+          "evidence": [
+            "option label=C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": "sp-Q9.option.D",
+          "evidence": [
+            "option label=D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": "sp-Q9.answer",
+          "evidence": [
+            "answer zone",
+            "answer_table",
+            "qn=9"
+          ]
+        },
+        {
+          "kind": "compiler",
+          "role": "stem",
+          "span_id": "sp-Q9.stem",
+          "evidence": [
+            "compiled role text",
+            "text_hash over compiled text"
+          ]
+        },
+        {
+          "kind": "compiler",
+          "role": "option",
+          "span_id": "sp-Q9.option.A",
+          "evidence": [
+            "compiled role text",
+            "text_hash over compiled text"
+          ]
+        },
+        {
+          "kind": "compiler",
+          "role": "option",
+          "span_id": "sp-Q9.option.B",
+          "evidence": [
+            "compiled role text",
+            "text_hash over compiled text"
+          ]
+        },
+        {
+          "kind": "compiler",
+          "role": "option",
+          "span_id": "sp-Q9.option.C",
+          "evidence": [
+            "compiled role text",
+            "text_hash over compiled text"
+          ]
+        },
+        {
+          "kind": "compiler",
+          "role": "option",
+          "span_id": "sp-Q9.option.D",
+          "evidence": [
+            "compiled role text",
+            "text_hash over compiled text"
+          ]
+        },
+        {
+          "kind": "compiler",
+          "role": "answer",
+          "span_id": "sp-Q9.answer",
+          "evidence": [
+            "compiled role text",
+            "text_hash over compiled text"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 1 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "answer row qn=1 spans multiple lines"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 2 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=2 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 3 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=3 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 4 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=4 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 5 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=5 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 6 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=6 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 7 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 8 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=10 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 1 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "answer row qn=1 spans multiple lines"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 2 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=2 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 3 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=3 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 4 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=4 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 5 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=5 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 6 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=6 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 7 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 8 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        }
+      ],
+      "figure_refs": [],
+      "ir_snapshot": {
+        "units": [
+          {
+            "content": [
+              {
+                "role": "stem",
+                "label": null,
+                "span_id": "sp-Q9.stem",
+                "unsupported": false
+              },
+              {
+                "role": "answer",
+                "label": null,
+                "span_id": "sp-Q9.answer",
+                "unsupported": false
+              },
+              {
+                "role": "option",
+                "label": "A",
+                "span_id": "sp-Q9.option.A",
+                "unsupported": false
+              },
+              {
+                "role": "option",
+                "label": "B",
+                "span_id": "sp-Q9.option.B",
+                "unsupported": false
+              },
+              {
+                "role": "option",
+                "label": "C",
+                "span_id": "sp-Q9.option.C",
+                "unsupported": false
+              },
+              {
+                "role": "option",
+                "label": "D",
+                "span_id": "sp-Q9.option.D",
+                "unsupported": false
+              }
+            ],
+            "unit_id": "Q9",
+            "relations": [],
+            "unit_type": "standalone_unit",
+            "question_number": "9",
+            "semantic_status": "ready",
+            "shared_components": [],
+            "question_number_range": null,
+            "original_question_type": "single_choice"
+          }
+        ],
+        "ir_schema": "semantic-question-ir/v0.3",
+        "annotation_id": "3fae271a-4b01-486b-8d2c-badd8188ad93",
+        "source_version_id": "5ed951e5-a1f8-4c6a-8b48-71a60a0ea79a"
+      },
+      "display_hint": {
+        "unit_type": "standalone_unit",
+        "content_roles": [
+          "stem",
+          "option",
+          "answer"
+        ],
+        "canonical_question_type": "single_choice"
+      },
+      "compiled_roles": [
+        {
+          "kind": "content",
+          "role": "stem",
+          "text": "9.向某容器中匀速注水时容器水面高度h 随时间t 变化的函数\n( )\nh\nf t\n=\n的图像如右图所示，则容器的形状可以是",
+          "label": null,
+          "span_id": "sp-Q9.stem",
+          "unit_id": "Q9",
+          "line_refs": [
+            "P2L048",
+            "P2L049",
+            "P2L050",
+            "P2L051",
+            "P2L052",
+            "P2L053"
+          ],
+          "text_hash": "1f2b8b17e48a2a9dc549586e48ce23e71258383850990d7c87065065bc3f9e2a"
+        },
+        {
+          "kind": "content",
+          "role": "option",
+          "text": "(A)",
+          "label": "A",
+          "span_id": "sp-Q9.option.A",
+          "unit_id": "Q9",
+          "line_refs": [
+            "P2L054"
+          ],
+          "text_hash": "2e5b320c4307603615d67098d9e1459ea7b6705b7d553049197d1f1e3a750840"
+        },
+        {
+          "kind": "content",
+          "role": "option",
+          "text": "(B)",
+          "label": "B",
+          "span_id": "sp-Q9.option.B",
+          "unit_id": "Q9",
+          "line_refs": [
+            "P2L055"
+          ],
+          "text_hash": "79398e2d8cadfc05f0152f92591166a1f81ebeeb0156179ef1a0f6c55ebc9af9"
+        },
+        {
+          "kind": "content",
+          "role": "option",
+          "text": "(C)",
+          "label": "C",
+          "span_id": "sp-Q9.option.C",
+          "unit_id": "Q9",
+          "line_refs": [
+            "P2L056"
+          ],
+          "text_hash": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc"
+        },
+        {
+          "kind": "content",
+          "role": "option",
+          "text": "(D)",
+          "label": "D",
+          "span_id": "sp-Q9.option.D",
+          "unit_id": "Q9",
+          "line_refs": [
+            "P2L057"
+          ],
+          "text_hash": "bf97bdceb17f2739335afb287573b4a3d50f25b57916b12cab5829ee8cd768c1"
+        }
+      ],
+      "resolved_spans": [
+        {
+          "role": "stem",
+          "span_id": "sp-Q9.stem",
+          "line_refs": [
+            "P2L048",
+            "P2L049",
+            "P2L050",
+            "P2L051",
+            "P2L052",
+            "P2L053"
+          ],
+          "text_hash": "1f2b8b17e48a2a9dc549586e48ce23e71258383850990d7c87065065bc3f9e2a",
+          "end_offset": null,
+          "granularity": "line",
+          "start_offset": null,
+          "resolution_status": "exact"
+        },
+        {
+          "role": "option",
+          "span_id": "sp-Q9.option.A",
+          "line_refs": [
+            "P2L054"
+          ],
+          "text_hash": "2e5b320c4307603615d67098d9e1459ea7b6705b7d553049197d1f1e3a750840",
+          "end_offset": null,
+          "granularity": "line",
+          "start_offset": null,
+          "resolution_status": "exact"
+        },
+        {
+          "role": "option",
+          "span_id": "sp-Q9.option.B",
+          "line_refs": [
+            "P2L055"
+          ],
+          "text_hash": "79398e2d8cadfc05f0152f92591166a1f81ebeeb0156179ef1a0f6c55ebc9af9",
+          "end_offset": null,
+          "granularity": "line",
+          "start_offset": null,
+          "resolution_status": "exact"
+        },
+        {
+          "role": "option",
+          "span_id": "sp-Q9.option.C",
+          "line_refs": [
+            "P2L056"
+          ],
+          "text_hash": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+          "end_offset": null,
+          "granularity": "line",
+          "start_offset": null,
+          "resolution_status": "exact"
+        },
+        {
+          "role": "option",
+          "span_id": "sp-Q9.option.D",
+          "line_refs": [
+            "P2L057"
+          ],
+          "text_hash": "bf97bdceb17f2739335afb287573b4a3d50f25b57916b12cab5829ee8cd768c1",
+          "end_offset": null,
+          "granularity": "line",
+          "start_offset": null,
+          "resolution_status": "exact"
+        },
+        {
+          "role": "answer",
+          "span_id": "sp-Q9.answer",
+          "line_refs": [
+            "P7L333"
+          ],
+          "text_hash": "99a1b84b98650fd4581b7156cd830ef74402cc54b6b834b677c269a41e731915",
+          "end_offset": 18,
+          "granularity": "line_character",
+          "start_offset": 16,
+          "resolution_status": "exact"
+        }
+      ],
+      "knowledge_links": []
+    }
+  },
+  {
+    "id": "b1cb7197-f27f-4b84-8060-c0a48e198f9b",
+    "unit_type": "standalone_unit",
+    "decision_status": "pending_review",
+    "gate_decision": {
+      "layers": {
+        "semantic": {
+          "status": "pass",
+          "reasons": []
+        },
+        "admission": {
+          "status": "fail",
+          "reasons": [
+            "leaf 'Q15' type 'fill_in' not strict-auto (grammar None)"
+          ],
+          "decision": "pending_review"
+        },
+        "provenance": {
+          "status": "pass",
+          "reasons": [],
+          "auto_allowed": true
+        },
+        "structural": {
+          "status": "pass",
+          "reasons": []
+        }
+      },
+      "reasons": [
+        "leaf 'Q15' type 'fill_in' not strict-auto (grammar None)"
+      ],
+      "decision": "pending_review",
+      "gate_policy_version": "admission-gate/v1"
+    },
+    "payload_keys": [
+      "answer",
+      "evidence",
+      "figure_refs",
+      "ir_snapshot",
+      "display_hint",
+      "compiled_roles",
+      "resolved_spans",
+      "knowledge_links"
+    ],
+    "payload": {
+      "answer": [
+        {
+          "text": "15. −1，−2，−3（答案不唯一）",
+          "span_id": "sp-Q15.answer",
+          "unit_id": "Q15",
+          "complete": true,
+          "line_refs": [
+            "P6L050"
+          ],
+          "text_hash": "409991481a3697e64923cfe1b242f46eae56cbc310c55acccdb34e5b3cf55d57",
+          "source_located": true,
+          "question_number": "15",
+          "verified_correct": null
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": "sp-Q15.stem",
+          "evidence": [
+            "stem start",
+            "P2L118",
+            "boundary",
+            "option-or-region-end"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": "sp-Q15.answer",
+          "evidence": [
+            "answer zone",
+            "answer_table",
+            "qn=15"
+          ]
+        },
+        {
+          "kind": "compiler",
+          "role": "stem",
+          "span_id": "sp-Q15.stem",
+          "evidence": [
+            "compiled role text",
+            "text_hash over compiled text"
+          ]
+        },
+        {
+          "kind": "compiler",
+          "role": "answer",
+          "span_id": "sp-Q15.answer",
+          "evidence": [
+            "compiled role text",
+            "text_hash over compiled text"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 1 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "answer row qn=1 spans multiple lines"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 2 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=2 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 3 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=3 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 4 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=4 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 5 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=5 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 6 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=6 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 7 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 8 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=10 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 1 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "answer row qn=1 spans multiple lines"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 2 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=2 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 3 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=3 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 4 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=4 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 5 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=5 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 6 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=6 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 7 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 8 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        }
+      ],
+      "figure_refs": [],
+      "ir_snapshot": {
+        "units": [
+          {
+            "content": [
+              {
+                "role": "stem",
+                "label": null,
+                "span_id": "sp-Q15.stem",
+                "unsupported": false
+              },
+              {
+                "role": "answer",
+                "label": null,
+                "span_id": "sp-Q15.answer",
+                "unsupported": false
+              }
+            ],
+            "unit_id": "Q15",
+            "relations": [],
+            "unit_type": "standalone_unit",
+            "question_number": "15",
+            "semantic_status": "ready",
+            "shared_components": [],
+            "question_number_range": null,
+            "original_question_type": "fill_in"
+          }
+        ],
+        "ir_schema": "semantic-question-ir/v0.3",
+        "annotation_id": "3fae271a-4b01-486b-8d2c-badd8188ad93",
+        "source_version_id": "5ed951e5-a1f8-4c6a-8b48-71a60a0ea79a"
+      },
+      "display_hint": {
+        "unit_type": "standalone_unit",
+        "content_roles": [
+          "stem",
+          "answer"
+        ],
+        "canonical_question_type": "fill_in"
+      },
+      "compiled_roles": [
+        {
+          "kind": "content",
+          "role": "stem",
+          "text": "15.能够说明“设, ,\na b c 是任意实数.若a\nb\nc\n\n\n，则a\nb\nc\n+\n\n”是假命题\n．．．的一组整数\n．．, ,\na b c 的值依次为___________.\nh\nO\nt\nt1\nt2",
+          "label": null,
+          "span_id": "sp-Q15.stem",
+          "unit_id": "Q15",
+          "line_refs": [
+            "P2L118",
+            "P2L119",
+            "P2L120",
+            "P2L121",
+            "P2L122",
+            "P2L123",
+            "P2L124",
+            "P2L125",
+            "P2L126",
+            "P2L127",
+            "P2L128",
+            "P2L129",
+            "P2L130",
+            "P2L131",
+            "P2L132",
+            "P2L133",
+            "P2L134",
+            "P2L135",
+            "P2L136",
+            "P2L137"
+          ],
+          "text_hash": "34af85dfa49c567c0bf8324a3c54f20139d79a2a6ac98cca4ec3c42d6335a9e8"
+        }
+      ],
+      "resolved_spans": [
+        {
+          "role": "stem",
+          "span_id": "sp-Q15.stem",
+          "line_refs": [
+            "P2L118",
+            "P2L119",
+            "P2L120",
+            "P2L121",
+            "P2L122",
+            "P2L123",
+            "P2L124",
+            "P2L125",
+            "P2L126",
+            "P2L127",
+            "P2L128",
+            "P2L129",
+            "P2L130",
+            "P2L131",
+            "P2L132",
+            "P2L133",
+            "P2L134",
+            "P2L135",
+            "P2L136",
+            "P2L137"
+          ],
+          "text_hash": "34af85dfa49c567c0bf8324a3c54f20139d79a2a6ac98cca4ec3c42d6335a9e8",
+          "end_offset": null,
+          "granularity": "line",
+          "start_offset": null,
+          "resolution_status": "exact"
+        },
+        {
+          "role": "answer",
+          "span_id": "sp-Q15.answer",
+          "line_refs": [
+            "P6L050"
+          ],
+          "text_hash": "409991481a3697e64923cfe1b242f46eae56cbc310c55acccdb34e5b3cf55d57",
+          "end_offset": 19,
+          "granularity": "line_character",
+          "start_offset": 0,
+          "resolution_status": "exact"
+        }
+      ],
+      "knowledge_links": []
+    }
+  },
+  {
+    "id": "f448a2bf-c2f7-4a00-ac13-4bcf686270b7",
+    "unit_type": "standalone_unit",
+    "decision_status": "pending_review",
+    "gate_decision": {
+      "layers": {
+        "semantic": {
+          "status": "pass",
+          "reasons": []
+        },
+        "admission": {
+          "status": "fail",
+          "reasons": [
+            "leaf 'Q12' type 'fill_in' not strict-auto (grammar None)"
+          ],
+          "decision": "pending_review"
+        },
+        "provenance": {
+          "status": "pass",
+          "reasons": [],
+          "auto_allowed": true
+        },
+        "structural": {
+          "status": "pass",
+          "reasons": []
+        }
+      },
+      "reasons": [
+        "leaf 'Q12' type 'fill_in' not strict-auto (grammar None)"
+      ],
+      "decision": "pending_review",
+      "gate_policy_version": "admission-gate/v1"
+    },
+    "payload_keys": [
+      "answer",
+      "evidence",
+      "figure_refs",
+      "ir_snapshot",
+      "display_hint",
+      "compiled_roles",
+      "resolved_spans",
+      "knowledge_links"
+    ],
+    "payload": {
+      "answer": [
+        {
+          "text": "12.",
+          "span_id": "sp-Q12.answer",
+          "unit_id": "Q12",
+          "complete": true,
+          "line_refs": [
+            "P6L040"
+          ],
+          "text_hash": "25602777cecc667d222cfeb509c62be1591a64d751c3142c1381dee13677a294",
+          "source_located": true,
+          "question_number": "12",
+          "verified_correct": null
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": "sp-Q12.stem",
+          "evidence": [
+            "stem start",
+            "P2L093",
+            "boundary",
+            "option-or-region-end"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": "sp-Q12.answer",
+          "evidence": [
+            "answer zone",
+            "answer_table",
+            "qn=12"
+          ]
+        },
+        {
+          "kind": "compiler",
+          "role": "stem",
+          "span_id": "sp-Q12.stem",
+          "evidence": [
+            "compiled role text",
+            "text_hash over compiled text"
+          ]
+        },
+        {
+          "kind": "compiler",
+          "role": "answer",
+          "span_id": "sp-Q12.answer",
+          "evidence": [
+            "compiled role text",
+            "text_hash over compiled text"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 1 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "answer row qn=1 spans multiple lines"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 2 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=2 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 3 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=3 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 4 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=4 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 5 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=5 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 6 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=6 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 7 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 8 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=10 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 1 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "answer row qn=1 spans multiple lines"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 2 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=2 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 3 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option A"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option B"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option C"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "option",
+          "span_id": null,
+          "evidence": [
+            "unresolved incomplete",
+            "option D"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=3 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 4 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=4 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 5 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=5 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 6 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "answer",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "answer row qn=6 not found"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 7 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "stem",
+          "span_id": null,
+          "evidence": [
+            "unresolved ambiguous",
+            "question 8 start not unique"
+          ]
+        },
+        {
+          "kind": "resolver",
+          "role": "explanation",
+          "span_id": null,
+          "evidence": [
+            "unresolved missing",
+            "no 详解/解析 header"
+          ]
+        }
+      ],
+      "figure_refs": [],
+      "ir_snapshot": {
+        "units": [
+          {
+            "content": [
+              {
+                "role": "stem",
+                "label": null,
+                "span_id": "sp-Q12.stem",
+                "unsupported": false
+              },
+              {
+                "role": "answer",
+                "label": null,
+                "span_id": "sp-Q12.answer",
+                "unsupported": false
+              }
+            ],
+            "unit_id": "Q12",
+            "relations": [],
+            "unit_type": "standalone_unit",
+            "question_number": "12",
+            "semantic_status": "ready",
+            "shared_components": [],
+            "question_number_range": null,
+            "original_question_type": "fill_in"
+          }
+        ],
+        "ir_schema": "semantic-question-ir/v0.3",
+        "annotation_id": "3fae271a-4b01-486b-8d2c-badd8188ad93",
+        "source_version_id": "5ed951e5-a1f8-4c6a-8b48-71a60a0ea79a"
+      },
+      "display_hint": {
+        "unit_type": "standalone_unit",
+        "content_roles": [
+          "stem",
+          "answer"
+        ],
+        "canonical_question_type": "fill_in"
+      },
+      "compiled_roles": [
+        {
+          "kind": "content",
+          "role": "stem",
+          "text": "12.命题“",
+          "label": null,
+          "span_id": "sp-Q12.stem",
+          "unit_id": "Q12",
+          "line_refs": [
+            "P2L093"
+          ],
+          "text_hash": "e78ad6bf92e93c1a1a3c4728749dd7d082efbc2c022ce43b201e7a6579769114"
+        }
+      ],
+      "resolved_spans": [
+        {
+          "role": "stem",
+          "span_id": "sp-Q12.stem",
+          "line_refs": [
+            "P2L093"
+          ],
+          "text_hash": "e78ad6bf92e93c1a1a3c4728749dd7d082efbc2c022ce43b201e7a6579769114",
+          "end_offset": null,
+          "granularity": "line",
+          "start_offset": null,
+          "resolution_status": "exact"
+        },
+        {
+          "role": "answer",
+          "span_id": "sp-Q12.answer",
+          "line_refs": [
+            "P6L040"
+          ],
+          "text_hash": "25602777cecc667d222cfeb509c62be1591a64d751c3142c1381dee13677a294",
+          "end_offset": 3,
+          "granularity": "line_character",
+          "start_offset": 0,
+          "resolution_status": "exact"
+        }
+      ],
+      "knowledge_links": []
+    }
+  }
+]

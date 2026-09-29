@@ -1,0 +1,11 @@
+TARGET_CANDIDATE=54f869a3-ea87-41ab-9591-ff31f2a455b9
+--- GET /api/candidates/$CID ---
+{"id": "54f869a3-ea87-41ab-9591-ff31f2a455b9", "unit_type": "standalone_unit", "decision_status": "pending_review"}
+gate_decision.decision= pending_review
+payload keys= ['answer', 'evidence', 'figure_refs', 'ir_snapshot', 'display_hint', 'compiled_roles', 'resolved_spans', 'knowledge_links']
+review_trail= null
+--- POST /api/candidates/$CID/approve ---
+decision_status= approved
+gate_decision.decision= pending_review
+review_trail= [{"time": "2026-09-25T16:29:40.191746+00:00", "decision": "approve", "reviewer_id": "e2e-verify-human", "verified_by": "human", "confirmed_fields": ["stem", "answer"]}]
+decided_at= 2026-09-25T16:29:40.221878Z

@@ -1,0 +1,450 @@
+<!-- AI生成 -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>v0.3 Contract-to-Code 可行性分析</title>
+<style>
+:root{
+  --bg:#0f1419;--panel:#1a222c;--panel2:#232d3a;--ink:#e8eef5;--muted:#8b9aab;
+  --accent:#3d9cf0;--ok:#3ecf8e;--warn:#f0b429;--bad:#f07178;--block:#c792ea;
+  --line:#2a3544;--chip:#2c3848;
+  font-size:15px;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+  line-height:1.55;min-height:100%}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+.wrap{max-width:520px;margin:0 auto;padding:12px 14px 80px}
+header{position:sticky;top:0;z-index:20;background:linear-gradient(180deg,var(--bg) 70%,transparent);
+  padding:10px 0 14px;margin-bottom:4px}
+h1{font-size:1.15rem;margin:0 0 4px;font-weight:650;letter-spacing:.01em}
+.sub{color:var(--muted);font-size:.78rem;margin-bottom:10px}
+.badges{display:flex;gap:6px;flex-wrap:wrap}
+.badge{font-size:.68rem;padding:3px 8px;border-radius:999px;background:var(--chip);color:var(--muted)}
+.badge.hot{background:#3a2430;color:#f0a0a8}
+.tabs{display:flex;gap:6px;overflow-x:auto;padding:4px 0 10px;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;padding:8px 12px;border-radius:10px;background:var(--panel);color:var(--muted);font-size:.82rem}
+.tab.on{background:var(--accent);color:#fff;font-weight:600}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:10px}
+.card h2{font-size:.95rem;margin:0 0 8px}
+.card h3{font-size:.85rem;margin:12px 0 6px;color:var(--accent)}
+.kpi{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:12px}
+.kpi .n{background:var(--panel2);border-radius:12px;padding:10px}
+.kpi .n b{display:block;font-size:1.35rem;line-height:1.1}
+.kpi .n span{font-size:.7rem;color:var(--muted)}
+.row{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;
+  padding:9px 0;border-bottom:1px solid var(--line)}
+.row:last-child{border-bottom:0}
+.row .t{flex:1;font-size:.86rem}
+.row .t small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chip{flex:0 0 auto;font-size:.65rem;padding:3px 7px;border-radius:6px;font-weight:600;white-space:nowrap}
+.c-ok{background:#1a3d30;color:var(--ok)}
+.c-part{background:#3a3420;color:var(--warn)}
+.c-adapt{background:#1e3348;color:var(--accent)}
+.c-new{background:#3a2a20;color:#f0a060}
+.c-owner{background:#3a2430;color:#f0a0a8}
+.c-frozen{background:#2a2840;color:var(--block)}
+.c-schema{background:#3a2840;color:#d4a0f0}
+.c-nay{background:#2a3038;color:var(--muted)}
+.bar{height:8px;border-radius:4px;background:var(--panel2);overflow:hidden;display:flex;margin:8px 0 4px}
+.bar i{display:block;height:100%}
+.legend{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.legend span{font-size:.65rem;color:var(--muted);display:flex;align-items:center;gap:4px}
+.legend i{width:8px;height:8px;border-radius:2px;display:inline-block}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.72rem;color:var(--muted)}
+.pill{display:inline-block;font-size:.68rem;padding:2px 6px;border-radius:4px;background:var(--chip);margin:2px 3px 2px 0;color:var(--muted)}
+.qa{margin-bottom:8px}
+.qa button{width:100%;text-align:left;background:var(--panel2);border-radius:10px;padding:10px 12px;
+  font-size:.84rem;display:flex;justify-content:space-between;gap:8px;align-items:center}
+.qa .a{display:none;padding:10px 12px;font-size:.82rem;color:#c5d0dc;background:#161c24;
+  border-radius:0 0 10px 10px;margin-top:-4px}
+.qa.open .a{display:block}
+.qa.open button{border-radius:10px 10px 0 0}
+.filter{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.fbtn{font-size:.72rem;padding:5px 9px;border-radius:8px;background:var(--panel2);color:var(--muted)}
+.fbtn.on{background:var(--accent);color:#fff}
+.hidden{display:none!important}
+footer{position:fixed;left:0;right:0;bottom:0;padding:8px 14px calc(10px + env(safe-area-inset-bottom));
+  background:linear-gradient(0deg,var(--bg) 70%,transparent);text-align:center}
+footer .note{font-size:.68rem;color:var(--muted);max-width:520px;margin:0 auto}
+.path{font-size:.75rem;color:var(--muted);margin-bottom:8px;word-break:break-all}
+.dot{width:6px;height:6px;border-radius:50%;display:inline-block;margin-right:4px}
+</style>
+</head>
+<body>
+<p data-aigc-mark="1" style="margin:0 0 8px;font-size:10px;line-height:1.3;color:#6b6560;font-weight:400;">AI生成</p>
+
+<div class="wrap">
+<header>
+  <h1>v0.3 Contract-to-Code 可行性分析</h1>
+  <div class="sub">PREPROCESSING → Canonical V3 · 实现距离测量 · 非实现任务</div>
+  <div class="badges">
+    <span class="badge">DRAFT</span>
+    <span class="badge">NON-AUTHORITATIVE</span>
+    <span class="badge">NOT FROZEN</span>
+    <span class="badge hot">14 + 6 Owner Decision</span>
+  </div>
+</header>
+
+<div class="tabs" id="tabs">
+  <button class="tab on" data-v="sum">总览</button>
+  <button class="tab" data-v="matrix">矩阵</button>
+  <button class="tab" data-v="fields">字段保真</button>
+  <button class="tab" data-v="enrich">Enrichment</button>
+  <button class="tab" data-v="qa">十问</button>
+  <button class="tab" data-v="path">实现路径</button>
+  <button class="tab" data-v="owner">Owner 项</button>
+</div>
+
+<!-- SUM -->
+<section id="v-sum">
+  <div class="kpi">
+    <div class="n"><b style="color:var(--ok)">18</b><span>ALREADY IMPLEMENTED</span></div>
+    <div class="n"><b style="color:var(--warn)">22</b><span>PARTIALLY IMPLEMENTED</span></div>
+    <div class="n"><b style="color:#f0a060">14</b><span>NEW IMPLEMENTATION</span></div>
+    <div class="n"><b style="color:#f0a0a8">16+6</b><span>OWNER DECISION</span></div>
+  </div>
+
+  <div class="card">
+    <h2>一句话结论</h2>
+    <p style="font-size:.88rem;margin:0">核心准入链已按 Frozen Spec 落地；v0.3 真正新增的<strong>边界保真 / 统一 identity / Post-Admission Enrichment</strong> 分别处于「丢失未接」「半接线」「Schema+Spec 双阻塞」。</p>
+  </div>
+
+  <div class="card">
+    <h2>五块距离</h2>
+    <div class="row"><div class="t">A. Consumer Boundary<small>Scope/M1–M5/统一入口</small></div><span class="chip c-part">远</span></div>
+    <div class="row"><div class="t">B. Producer Facts 保真<small>flags/basis/answer_evidence…</small></div><span class="chip c-new">远</span></div>
+    <div class="row"><div class="t">C. Semantic Enrichment<small>difficulty/knowledge/skills</small></div><span class="chip c-part">中</span></div>
+    <div class="row"><div class="t">D. Gate / Admission<small>与 Frozen 一致</small></div><span class="chip c-ok">近</span></div>
+    <div class="row"><div class="t">E. Post-Admission Enrichment<small>Schema + Frozen 双阻塞</small></div><span class="chip c-schema">很远</span></div>
+  </div>
+
+  <div class="card">
+    <h2>分类分布</h2>
+    <div class="bar">
+      <i style="width:18%;background:var(--ok)"></i>
+      <i style="width:22%;background:var(--warn)"></i>
+      <i style="width:11%;background:var(--accent)"></i>
+      <i style="width:14%;background:#f0a060"></i>
+      <i style="width:16%;background:#f0a0a8"></i>
+      <i style="width:6%;background:var(--block)"></i>
+      <i style="width:7%;background:#d4a0f0"></i>
+      <i style="width:3%;background:var(--muted)"></i>
+    </div>
+    <div class="legend">
+      <span><i style="background:var(--ok)"></i>ALREADY 18</span>
+      <span><i style="background:var(--warn)"></i>PARTIAL 22</span>
+      <span><i style="background:var(--accent)"></i>ADAPT 11</span>
+      <span><i style="background:#f0a060"></i>NEW 14</span>
+      <span><i style="background:#f0a0a8"></i>OWNER 16</span>
+      <span><i style="background:var(--block)"></i>FROZEN 6</span>
+      <span><i style="background:#d4a0f0"></i>SCHEMA 7</span>
+      <span><i style="background:var(--muted)"></i>N/A 3</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>五个决定性事实</h2>
+    <div class="row"><div class="t">1. Consumer 层大量 silent drop<small>flags/QC 从未被读取</small></div><span class="chip c-new">P1 违反</span></div>
+    <div class="row"><div class="t">2. M1–M5 仅 runner_b2<small>TaskExecutor/GateService 未接</small></div><span class="chip c-part">NEW-F1</span></div>
+    <div class="row"><div class="t">3. mapping_registry 零 import<small>runtime 权威在 boundary</small></div><span class="chip c-owner">OD-14</span></div>
+    <div class="row"><div class="t">4. explanation 本就 optional<small>与 Frozen 一致，非缺口</small></div><span class="chip c-ok">已实现</span></div>
+    <div class="row"><div class="t">5. Enrichment 无 job/无槽<small>role_contents 禁 LLM text</small></div><span class="chip c-schema">双阻塞</span></div>
+  </div>
+
+  <div class="card">
+    <h2>合同内部矛盾 · 10</h2>
+    <div class="row"><div class="t">v0.2 UT 词面 vs OD-2 canonical</div><span class="chip c-owner">实质</span></div>
+    <div class="row"><div class="t">PAE generated vs Frozen「LLM≠live text」</div><span class="chip c-frozen">实质</span></div>
+    <div class="row"><div class="t">SAM 映射暗示 vs per-value rule 前置</div><span class="chip c-owner">实质</span></div>
+    <div class="row"><div class="t">runner.py 可执行路径 vs 统一 M1–M5</div><span class="chip c-owner">实质</span></div>
+    <div class="row"><div class="t">mapping 双权威并存</div><span class="chip c-owner">实质</span></div>
+    <div class="row"><div class="t">Enrichment 状态集 7 值 vs 4 值</div><span class="chip c-part">词汇</span></div>
+  </div>
+</section>
+
+<!-- MATRIX -->
+<section id="v-matrix" class="hidden">
+  <div class="filter" id="filters">
+    <button class="fbtn on" data-f="all">全部</button>
+    <button class="fbtn" data-f="ok">ALREADY</button>
+    <button class="fbtn" data-f="part">PARTIAL</button>
+    <button class="fbtn" data-f="adapt">ADAPT</button>
+    <button class="fbtn" data-f="new">NEW</button>
+    <button class="fbtn" data-f="owner">OWNER</button>
+    <button class="fbtn" data-f="frozen">FROZEN</button>
+    <button class="fbtn" data-f="schema">SCHEMA</button>
+  </div>
+  <div class="card" id="matrix-list"></div>
+</section>
+
+<!-- FIELDS -->
+<section id="v-fields" class="hidden">
+  <div class="card">
+    <h2>信息保真总判</h2>
+    <p style="font-size:.86rem;margin:0 0 8px"><strong>当前 V3 IR 不能完整承载 Producer Artifact。</strong>结构正文可保真；证据/质量/溯源层系统性丢失，部分 silent。</p>
+    <div class="bar">
+      <i style="width:35%;background:var(--ok)"></i>
+      <i style="width:25%;background:var(--warn)"></i>
+      <i style="width:40%;background:var(--bad)"></i>
+    </div>
+    <div class="legend">
+      <span><i style="background:var(--ok)"></i>保真</span>
+      <span><i style="background:var(--warn)"></i>部分</span>
+      <span><i style="background:var(--bad)"></i>丢失</span>
+    </div>
+  </div>
+  <div class="card" id="field-list"></div>
+  <div class="card">
+    <h2>Silent drop / 默认值</h2>
+    <div class="row"><div class="t">flags / qc_verdict<small>reader 未读</small></div><span class="chip c-new">silent</span></div>
+    <div class="row"><div class="t">sections → []<small>adapter:201</small></div><span class="chip c-new">silent</span></div>
+    <div class="row"><div class="t">metadata 全 None<small>adapter:195-200</small></div><span class="chip c-new">silent</span></div>
+    <div class="row"><div class="t">original_question_type=""<small>reader:84</small></div><span class="chip c-part">default</span></div>
+    <div class="row"><div class="t">未声明 span 静默 skip<small>resolved_span_adapter:69</small></div><span class="chip c-new">silent</span></div>
+    <div class="row"><div class="t">answer_lines or answer_evidence_lines<small>runner_b2:273</small></div><span class="chip c-owner">fallback</span></div>
+  </div>
+</section>
+
+<!-- ENRICH -->
+<section id="v-enrich" class="hidden">
+  <div class="card">
+    <h2>Post-Admission Enrichment</h2>
+    <p style="font-size:.86rem;margin:0">缺 explanation 的选择题异步生成详解 — 生命周期各阶段分类：</p>
+  </div>
+  <div class="card">
+    <h2>生命周期</h2>
+    <div class="row"><div class="t">Question persisted<small>核心物化</small></div><span class="chip c-ok">ALREADY</span></div>
+    <div class="row"><div class="t">detect missing explanation<small>无检测器</small></div><span class="chip c-new">NEW</span></div>
+    <div class="row"><div class="t">enqueue job<small>Task 可承载，无 enrichment 类型</small></div><span class="chip c-adapt">ADAPT</span></div>
+    <div class="row"><div class="t">LLM generation<small>Gateway/Executor 已有</small></div><span class="chip c-ok">可复用</span></div>
+    <div class="row"><div class="t">generated 双槽<small>role_contents 禁 LLM</small></div><span class="chip c-schema">BLOCKED</span></div>
+    <div class="row"><div class="t">validation<small>ValidationEvent 需扩展</small></div><span class="chip c-adapt">ADAPT</span></div>
+    <div class="row"><div class="t">persist enrichment<small>无 enrichment_jobs 表</small></div><span class="chip c-schema">SCHEMA</span></div>
+    <div class="row"><div class="t">failure 不回滚 Question<small>待 E2–E6 后验证</small></div><span class="chip c-nay">N/YET</span></div>
+  </div>
+  <div class="card">
+    <h2>可复用基建</h2>
+    <div class="row"><div class="t">Task / TaskService / TaskExecutor</div><span class="chip c-ok">高</span></div>
+    <div class="row"><div class="t">LLMGateway / LLMExecutor</div><span class="chip c-ok">高</span></div>
+    <div class="row"><div class="t">Budget 五账户 + live_guard</div><span class="chip c-ok">高</span></div>
+    <div class="row"><div class="t">llm_call_audit</div><span class="chip c-ok">高</span></div>
+    <div class="row"><div class="t">ValidationEvent / EvidenceAuthority</div><span class="chip c-part">中 · 需扩展</span></div>
+    <div class="row"><div class="t">KnowledgeNode 表</div><span class="chip c-part">中 · 无写路径</span></div>
+    <div class="row"><div class="t">instance_role_contents</div><span class="chip c-frozen">禁 LLM text</span></div>
+  </div>
+  <div class="card">
+    <h2>Frozen 硬约束</h2>
+    <div class="row"><div class="t">10 §1.1 LLM ≠ live text<small>role_contents 永不来自 LLM</small></div><span class="chip c-frozen">BLOCK</span></div>
+    <div class="row"><div class="t">00 §5 复杂统计富化 = 非目标<small>需 Owner 确认 explanation 生成归属</small></div><span class="chip c-owner">NEW-01</span></div>
+    <div class="row"><div class="t">00 P3 AI Generated 须显式标识<small>不得伪装 Source-derived</small></div><span class="chip c-ok">路径可行</span></div>
+    <div class="row"><div class="t">10 §2 post-admission = 独立 Repository 步骤</div><span class="chip c-ok">支持</span></div>
+    <div class="row"><div class="t">30 §3 failed 无自动出口<small>retry 需显式</small></div><span class="chip c-part">边界</span></div>
+  </div>
+</section>
+
+<!-- QA -->
+<section id="v-qa" class="hidden">
+  <div class="card" id="qa-list"></div>
+</section>
+
+<!-- PATH -->
+<section id="v-path" class="hidden">
+  <div class="card">
+    <h2>实现分类</h2>
+    <div class="row"><div class="t">KEEP<small>Resolver · IR/Compiler/Gate/Admission · M1–M5 · boundary 规则 · Budget/LLM/Task</small></div><span class="chip c-ok">KEEP</span></div>
+    <div class="row"><div class="t">ADAPT<small>adapters 证据保真 · runner 对齐 · text_hash 族 · worker 编排</small></div><span class="chip c-adapt">ADAPT</span></div>
+    <div class="row"><div class="t">NEW<small>M1–M5 接生产 · flags/basis 通道 · QT boundary · figure_refs · knowledge 写</small></div><span class="chip c-new">NEW</span></div>
+    <div class="row"><div class="t">BLOCKED<small>enrichment schema · generated 入 live content · 扩大 grammar</small></div><span class="chip c-schema">BLOCKED</span></div>
+    <div class="row"><div class="t">OWNER DECISION<small>OD-V3-01..28 + NEW-01..06</small></div><span class="chip c-owner">OWNER</span></div>
+  </div>
+  <div class="card">
+    <h2>Owner 裁决后的最小路径</h2>
+    <div class="row"><div class="t">Phase 0 治理落盘<small>OD 事件 · mapping 权威 · schema 立项</small></div><span class="chip c-owner">无代码</span></div>
+    <div class="row"><div class="t">Phase 1 统一 Identity Boundary<small>M1–M5+Scope 前置 · runner 处置</small></div><span class="chip c-new">最先</span></div>
+    <div class="row"><div class="t">Phase 2 Information Preservation<small>flags/basis/answer_evidence 透传</small></div><span class="chip c-new">P1/P3</span></div>
+    <div class="row"><div class="t">Phase 3 Canonicalization 单权威<small>mapping_registry 接线或降级</small></div><span class="chip c-adapt">OD-14</span></div>
+    <div class="row"><div class="t">Phase 4 QT Boundary Enforcement<small>closed-set · listening 按 OD-13</small></div><span class="chip c-new">边界</span></div>
+    <div class="row"><div class="t">Phase 5 Gate Review Signals<small>flags/basis → review（OD-18）</small></div><span class="chip c-adapt">可选</span></div>
+    <div class="row"><div class="t">Phase 6 Post-Admission Enrichment<small>依赖 OD-25 + NEW-01</small></div><span class="chip c-schema">最后</span></div>
+    <div class="row"><div class="t">Gate Evidence<small>全量 corpus 复跑作验收</small></div><span class="chip c-nay">另授权</span></div>
+  </div>
+  <div class="card">
+    <h2>最小 production diff 范围</h2>
+    <div class="path">app/core/* 或 app/domains/consumer/* · scripts/preprocessing_consumer/* · compile/mapping_registry.py · adapters · gate/*（可选）· Enrichment 表（OD-25 后）· tests</div>
+  </div>
+</section>
+
+<!-- OWNER -->
+<section id="v-owner" class="hidden">
+  <div class="card">
+    <h2>原 14 项 OWNER DECISION REQUIRED</h2>
+    <div id="owner-list"></div>
+  </div>
+  <div class="card">
+    <h2>本分析新增 6 项</h2>
+    <div class="row"><div class="t">NEW-01 生成详解是否被 00§5 非目标排除</div><span class="chip c-frozen">FROZEN</span></div>
+    <div class="row"><div class="t">NEW-02 verified_correct 物化语义审计</div><span class="chip c-owner">OWNER</span></div>
+    <div class="row"><div class="t">NEW-03 text_hash 族统一</div><span class="chip c-owner">OWNER</span></div>
+    <div class="row"><div class="t">NEW-04 answer_evidence_lines fallback 合法性</div><span class="chip c-owner">OWNER</span></div>
+    <div class="row"><div class="t">NEW-05 v0.2/OD-2 UT 词面消歧</div><span class="chip c-owner">OWNER</span></div>
+    <div class="row"><div class="t">NEW-06 ValidationEvent 扩展 generation provenance</div><span class="chip c-owner">OWNER</span></div>
+  </div>
+  <div class="card">
+    <h2>边界确认</h2>
+    <div class="row"><div class="t">production code</div><span class="chip c-ok">unchanged</span></div>
+    <div class="row"><div class="t">schema / migration</div><span class="chip c-ok">unchanged</span></div>
+    <div class="row"><div class="t">Frozen / Contract v0.3</div><span class="chip c-ok">unchanged</span></div>
+    <div class="row"><div class="t">corpus</div><span class="chip c-ok">unchanged</span></div>
+    <div class="row"><div class="t">是否开始实现</div><span class="chip c-nay">否</span></div>
+  </div>
+</section>
+
+<footer>
+  <div class="note">V3-CONTRACT-v0.3-IMPLEMENTATION-FEASIBILITY-ANALYSIS · AITutors-v3/Docs/COORDINATION/CONTRACTS · 只读分析 · 非迁移授权</div>
+</footer>
+</div>
+
+<script>
+const CLS={ok:'c-ok',part:'c-part',adapt:'c-adapt',new:'c-new',owner:'c-owner',frozen:'c-frozen',schema:'c-schema',nay:'c-nay'};
+const MATRIX=[
+{g:'A',t:'A1 Producer Artifact input',s:'manifest_reader + source_loader 存在，flags/qc 未读',c:'part'},
+{g:'A',t:'A2 Interface Scope',s:'boundary.enforce_interface_scope 唯一接入（harness）',c:'ok'},
+{g:'A',t:'A3–A7 M1–M5',s:'core/* 已实现，仅 runner_b2 调用',c:'part'},
+{g:'A',t:'A8 Scope∧M1–M5 统一入口',s:'runner.py 无 M1–M5 可进 GateService',c:'owner'},
+{g:'A',t:'A9 canonicalization 仅授权映射',s:'OD-2 两条 + fail closed；双权威未决',c:'part'},
+{g:'A',t:'A10 evidence preservation',s:'flags/basis 未进任何 V3 通道',c:'new'},
+{g:'A',t:'A11 provenance preservation',s:'line_refs 保留；printed_provenance 丢',c:'part'},
+{g:'A',t:'A12 fail-closed',s:'BoundaryViolation / IR ValueError / Gate pending',c:'ok'},
+{g:'A',t:'A13 no silent information loss',s:'多处 silent drop（见字段页）',c:'new'},
+{g:'A',t:'A14 no silent semantic mutation',s:'UT 合规；verified_correct 物化置 True',c:'part'},
+{g:'B',t:'B1 identity sha256',s:'能力在，入口不全',c:'part'},
+{g:'B',t:'B2 unit_id',s:'进入 IR 与 occurrence',c:'ok'},
+{g:'B',t:'B3 question_numbers',s:'原列表丢，仅首号/range',c:'part'},
+{g:'B',t:'B4 stem / B7 explanation / B8 material',s:'span 保真路径完整',c:'ok'},
+{g:'B',t:'B5 options',s:'整块保真；per-label unsup',c:'part'},
+{g:'B',t:'B6 answer',s:'正文可进；answer_evidence.type/value 丢',c:'part'},
+{g:'B',t:'B9 subquestion',s:'显式 gap；粒度 Producer Gap',c:'part'},
+{g:'B',t:'B10 question type',s:'verbatim 到 IR；boundary 无闭集',c:'part'},
+{g:'B',t:'B11 unit type',s:'规则正确；双权威',c:'part'},
+{g:'B',t:'B12 printed_number',s:'adapter/span 丢',c:'new'},
+{g:'B',t:'B13–B15 basis / basis_evidence / answer_evidence',s:'reader 有、下游无',c:'new'},
+{g:'B',t:'B16–B17 flags / QC',s:'consumer 从未读取',c:'new'},
+{g:'B',t:'B18 provenance',s:'部分 span；printed/section 丢',c:'part'},
+{g:'C',t:'C1 difficulty',s:'无列/无表',c:'schema'},
+{g:'C',t:'C2 knowledge nodes',s:'表有、写路径无；links 恒空',c:'part'},
+{g:'C',t:'C3 skills',s:'无表',c:'schema'},
+{g:'C',t:'C4 其它 V3D',s:'00§5 复杂统计富化 = 非目标',c:'nay'},
+{g:'C',t:'C5 V3D ≠ PRD',s:'投影分离；generated 槽未建',c:'part'},
+{g:'D',t:'D1–D5 IR/Gate/Admission/Persistence',s:'与 Frozen 对齐',c:'ok'},
+{g:'D',t:'D6 explanation 可缺',s:'Frozen 20§6.3 + content_roles_for',c:'ok'},
+{g:'D',t:'D7 grammar / auto_approve',s:'STRICT_AUTO 3 型；扩 auto = Frozen 变更',c:'frozen'},
+{g:'D',t:'D8 flags/basis 进 Gate',s:'policy 不读',c:'owner'},
+{g:'D',t:'D9 hard/optional 字段',s:'stem+answer 硬必；explanation optional',c:'ok'},
+{g:'D',t:'D10 pending_review 形成',s:'grammar None / 非 byte-proven',c:'ok'},
+{g:'D',t:'D11 Admission ⊥ Enrichment',s:'解耦符合 v0.3 §8.3',c:'ok'},
+{g:'E',t:'E1 detect missing explanation',s:'无检测器',c:'new'},
+{g:'E',t:'E2 async job',s:'Task 可承载；无 enrichment 类型',c:'adapt'},
+{g:'E',t:'E3 LLM generation',s:'Gateway/Executor 可复用',c:'ok'},
+{g:'E',t:'E4 generated 双槽',s:'role_contents 禁 LLM；无新槽',c:'schema'},
+{g:'E',t:'E5 validation',s:'ValidationEvent 需扩展',c:'adapt'},
+{g:'E',t:'E6 persistence',s:'无 enrichment_jobs',c:'schema'},
+{g:'E',t:'E7 retry',s:'人工显式；backoff OPEN',c:'adapt'},
+{g:'E',t:'E8 failure 不回滚',s:'待 E2–E6',c:'nay'},
+{g:'E',t:'E9 generation provenance',s:'llm_call_audit 在；job 关联未建',c:'part'},
+{g:'E',t:'E10 identity ⊥ enrichment',s:'dedup 不含 explanation',c:'ok'},
+{g:'E',t:'E11 budget/live_guard',s:'可复用',c:'ok'},
+{g:'E',t:'E12 difficulty/knowledge/skills 生成',s:'knowledge 可挂；其余无家',c:'schema'},
+];
+const FIELDS=[
+{t:'source_content_sha256 / identity_version',f:'ok',n:'判定用；失败 BLOCK'},
+{t:'unit_id / stem / material_ref',f:'ok',n:'原样或 span 保真'},
+{t:'stem_lines / answer_lines / explanation_lines',f:'ok',n:'ResolvedSpan 表示变化合法'},
+{t:'options_lines',f:'part',n:'整块保真；per-label unsup'},
+{t:'question_numbers',f:'part',n:'原列表丢'},
+{t:'unit_type',f:'ok',n:'OD-2 双值可追溯'},
+{t:'original_question_type',f:'ok',n:'verbatim → IR'},
+{t:'provenance.source_lines',f:'ok',n:'→ line_refs representation change'},
+{t:'material_lines / questions_lines',f:'part',n:'折叠/单 sub'},
+{t:'answer_evidence',f:'bad',n:'type/value 丢；仅 lines fallback'},
+{t:'basis / basis_evidence',f:'bad',n:'adapter 丢'},
+{t:'printed_provenance / printed_number',f:'bad',n:'丢；596 UNK 不可见'},
+{t:'flags / qc_verdict / disposition',f:'bad',n:'reader 未读'},
+{t:'section / section_ref',f:'bad',n:'payload sections=[]'},
+{t:'extra_lines / unresolved / confidence_state / warnings',f:'bad',n:'未进消费面'},
+];
+const QA=[
+{q:'1. Producer Artifact 能否无 silent information loss 进入当前 V3 IR？',a:'<strong>不能。</strong>结构正文可保真；证据/质量/溯源层在 Consumer 层丢失且多处 silent。'},
+{q:'2. 哪些信息目前会丢失？',a:'flags、qc_verdict、disposition、basis、basis_evidence、answer_evidence.type/value、printed_provenance、printed_number、section*、extra_lines、answers.unresolved、confidence_state、warnings、question_numbers 原列表、options per-label、subquestion 真实分解、document_metadata_claims、Manifest.sections。'},
+{q:'3. 哪些只是 representation change？',a:'line range→ResolvedSpan；options 整块；question_numbers→range（若保留原列表）；source_lines→line_refs；unit_type legacy→canonical（双值保留）；text_hash 作证据指针。'},
+{q:'4. 哪些 Producer facts 会被 V3 重新解释？',a:'① verified_correct：None→物化 True（Frozen 要求的 Admission 语义）② subject/grade 收敛 ③ answer_lines or answer_evidence_lines fallback ④ unit_type OD-2 映射（合法）⑤ identity hash 剔除 confidence/line_refs。'},
+{q:'5. 哪些 V3 semantic metadata 可安全新增？',a:'difficulty、knowledge_nodes、skills、generated explanation（V3D 分槽）。条件：新 authority 标识、不覆盖 PRD/SRC、不进 live instance_role_contents、与 identity/dedup 正交、走 Repository 步骤。'},
+{q:'6. M1–M5 可否直接复用？如何接入？',a:'<strong>可以。</strong>所有 Producer→V3 entrypoint 前置 Scope∧M1→M2→M3→M4→M5，任一拒绝则下游 NOT REACHED。建议从 scripts 提升为 production 模块。'},
+{q:'7. Resolver 哪部分必须保留？',a:'<strong>整个 Raw V3 path 的 SourceResolver 必须 KEEP。</strong>Producer path 仅可跳过 marker search（ADAPT），仍产出 ResolvedSpan。不得 REMOVE ENTIRELY。'},
+{q:'8. Gate/Admission 有哪些 Contract-to-Code gaps？',a:'主链相对 Frozen 无重大缺口。相对 v0.3：flags/basis/answer_evidence 不进 Gate/review（OD-18）；figure_refs/knowledge_links 恒空；grammar/auto 受 Frozen 限制（OD-15）。'},
+{q:'9. Post-Admission explanation enrichment 可复用什么？',a:'Task/TaskExecutor、LLMGateway、Budget 五账户、live_guard、llm_call_audit、ValidationEvent（需扩展）、KnowledgeNode 表。不可作生成物落点：instance_role_contents（Frozen 禁 LLM text）。'},
+{q:'10. Owner 裁决后最小实现范围？',a:'Phase1 identity 提升 + Phase2 证据透传为必做 production diff；Phase3–5 视裁决；Phase6 必须 schema migration + 新 task 编排。不需要改 Frozen 即可做 Phase1–5 大部分。'},
+];
+const OWNER=[
+['OD-V3-01','v1 79 份缺 identity：回填 vs 排除'],
+['OD-V3-05','16×QC_FAIL 处理策略'],
+['OD-V3-06','option-label evidence 粒度'],
+['OD-V3-07','subquestion decomposition'],
+['OD-V3-13','listening 等 QT 闭集外值'],
+['OD-V3-14','mapping 双权威唯一化'],
+['OD-V3-15','Gate grammar / auto_approve'],
+['OD-V3-16','runner.py 缺 M1–M5 处置'],
+['OD-V3-17','batch resolver IR 分发'],
+['OD-V3-18','flags/basis 进 Gate 或 review'],
+['OD-V3-19','consumer 是否 production path'],
+['OD-V3-25','enrichment jobs schema'],
+['OD-V3-27','v0.3 Freeze'],
+['OD-V3-28','与 X3 / Migration Gate 关系'],
+];
+
+// tabs
+document.getElementById('tabs').addEventListener('click',e=>{
+  const b=e.target.closest('.tab'); if(!b)return;
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('on'));
+  b.classList.add('on');
+  document.querySelectorAll('section[id^=v-]').forEach(s=>s.classList.add('hidden'));
+  document.getElementById('v-'+b.dataset.v).classList.remove('hidden');
+});
+
+// matrix
+const mList=document.getElementById('matrix-list');
+function renderMatrix(f){
+  mList.innerHTML=MATRIX.filter(m=>f==='all'||m.c===f).map(m=>
+    `<div class="row" data-c="${m.c}"><div class="t">${m.t}<small>${m.s}</small></div><span class="chip ${CLS[m.c]}">${m.c.toUpperCase()}</span></div>`
+  ).join('')||'<div class="row"><div class="t">无匹配项</div></div>';
+}
+renderMatrix('all');
+document.getElementById('filters').addEventListener('click',e=>{
+  const b=e.target.closest('.fbtn'); if(!b)return;
+  document.querySelectorAll('.fbtn').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on'); renderMatrix(b.dataset.f);
+});
+
+// fields
+document.getElementById('field-list').innerHTML=FIELDS.map(f=>{
+  const cls=f.f==='ok'?'c-ok':f.f==='part'?'c-part':'c-new';
+  const lab=f.f==='ok'?'保真':f.f==='part'?'部分':'丢失';
+  return `<div class="row"><div class="t">${f.t}<small>${f.n}</small></div><span class="chip ${cls}">${lab}</span></div>`;
+}).join('');
+
+// qa
+document.getElementById('qa-list').innerHTML=QA.map((x,i)=>
+  `<div class="qa" id="qa${i}"><button onclick="document.getElementById('qa${i}').classList.toggle('open')"><span>${x.q}</span><span style="color:var(--muted)">▾</span></button><div class="a">${x.a}</div></div>`
+).join('');
+
+// owner
+document.getElementById('owner-list').innerHTML=OWNER.map(([id,t])=>
+  `<div class="row"><div class="t"><span class="pill">${id}</span>${t}</div><span class="chip c-owner">OWNER</span></div>`
+).join('');
+</script>
+</body>
+</html>

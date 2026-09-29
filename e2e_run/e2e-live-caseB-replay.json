@@ -1,0 +1,603 @@
+{
+  "artifact": "E2E-LIVE-FULL-CHAIN",
+  "nature": "Engineering Verification Execution (NOT LIMIT-AUTH Phase 6)",
+  "started_at": "2026-09-26T00:36:34+08:00",
+  "environment": {
+    "python": "3.12.9",
+    "app_env": "development",
+    "llm_gateway_mode": "live",
+    "database_url_host": "localhost:5432/aitutors",
+    "mimo_base_url": "https://api.xiaomimimo.com/v1",
+    "mimo_model_used": "mimo-v2.6-pro",
+    "mimo_api_key_set": true,
+    "api_key_value": "NOT RECORDED (never log secrets)"
+  },
+  "db_before": {
+    "label": "BEFORE",
+    "at": "2026-09-26T00:36:34+08:00",
+    "counts": {
+      "documents": 3,
+      "document_source_versions": 2,
+      "document_source_lines": 2039,
+      "document_source_spans": 3579,
+      "source_figures": 40,
+      "semantic_annotations": 2,
+      "admission_candidates": 6,
+      "admission_events": 1,
+      "questions": 1,
+      "question_instances": 1,
+      "materials": 0,
+      "material_links": 0,
+      "unit_groups": 1,
+      "unit_group_members": 1,
+      "instance_role_contents": 2,
+      "validation_events": 1,
+      "tasks": 9,
+      "task_claims": 9,
+      "llm_call_audit": 959,
+      "budget": 3415
+    },
+    "missing_tables": [
+      "resolved_spans",
+      "ir_units",
+      "evidence_references"
+    ]
+  },
+  "input_layer_matrix": [
+    {
+      "case": "real_pdf",
+      "ext": ".pdf",
+      "bytes": 350855,
+      "sha256": "f58e39ae5e0eed28330a687d04b50a40ef4cf4d10511917643ef39161533b8ce",
+      "at": "2026-09-26T00:36:34+08:00",
+      "outcome": "ACCEPTED",
+      "document_id": "bffd8c7b-5480-42ad-905f-023cb04104e9",
+      "is_new": false,
+      "task_id": null
+    },
+    {
+      "case": "docx_stub",
+      "ext": ".docx",
+      "bytes": 34,
+      "sha256": "dedca9102157842d517a9cb7c979a880ae8b575f3835418e581ba3928ee29172",
+      "at": "2026-09-26T00:36:34+08:00",
+      "outcome": "ACCEPTED",
+      "document_id": "843aa5c1-3f8a-4304-ab7a-0b8c400937b7",
+      "is_new": false,
+      "task_id": null
+    },
+    {
+      "case": "doc_stub",
+      "ext": ".doc",
+      "bytes": 18,
+      "sha256": "f1ed736df3989d28f494537be89777af6997cf20be545f90210a66fa38e14991",
+      "at": "2026-09-26T00:36:34+08:00",
+      "outcome": "REJECTED",
+      "error": "ImportError_: unsupported file type: '.doc'; allowed: ['.docx', '.pdf']"
+    },
+    {
+      "case": "jpg_stub",
+      "ext": ".jpg",
+      "bytes": 19,
+      "sha256": "7941fea4774d6e1af2da5e3031e6a8e2231233cf77bf0788cc04108cb1bcb800",
+      "at": "2026-09-26T00:36:34+08:00",
+      "outcome": "REJECTED",
+      "error": "ImportError_: unsupported file type: '.jpg'; allowed: ['.docx', '.pdf']"
+    },
+    {
+      "case": "png_stub",
+      "ext": ".png",
+      "bytes": 22,
+      "sha256": "a6d1785ddb2f16d6ef789556256e86646dabb73427737bad28dc87d0027d2776",
+      "at": "2026-09-26T00:36:34+08:00",
+      "outcome": "REJECTED",
+      "error": "ImportError_: unsupported file type: '.png'; allowed: ['.docx', '.pdf']"
+    },
+    {
+      "case": "txt_stub",
+      "ext": ".txt",
+      "bytes": 10,
+      "sha256": "c9ecf5e54c7b3f2640ecca21f96d4c3625a2b7935104f41c5ede29935a9e52c9",
+      "at": "2026-09-26T00:36:34+08:00",
+      "outcome": "REJECTED",
+      "error": "ImportError_: unsupported file type: '.txt'; allowed: ['.docx', '.pdf']"
+    }
+  ],
+  "input": {
+    "path": "D:\\Project\\AITutor-X\\e2e_run\\inputs\\caseB_real_exam.pdf",
+    "file_name": "caseB_real_exam.pdf",
+    "bytes": 350855,
+    "sha256": "f58e39ae5e0eed28330a687d04b50a40ef4cf4d10511917643ef39161533b8ce",
+    "at": "2026-09-26T00:36:34+08:00"
+  },
+  "import": {
+    "document_id": "bffd8c7b-5480-42ad-905f-023cb04104e9",
+    "is_new": false,
+    "task_id": null,
+    "at": "2026-09-26T00:36:34+08:00",
+    "enqueued_fresh_task_id": "9720c624-929f-4a14-9e66-94d40f1e0d60"
+  },
+  "llm_boundary": {
+    "mode": "live",
+    "allow_live": true,
+    "authorization_basis": "Owner task §一.2 环境定义「允许：调用外部 API」 + §三 LLM API 调用规则（第一优先 MIMO V2.6 PRO）",
+    "provider_class": "HTTPLLMProvider",
+    "provider_name": "mimo",
+    "model": "mimo-v2.6-pro",
+    "endpoint": "https://api.xiaomimimo.com/v1/chat/completions",
+    "mock_used": false,
+    "fallback_used": false,
+    "deepseek_used": false
+  },
+  "pipeline": {
+    "run_once_returns": [
+      true
+    ],
+    "run_once_return_semantics": "True = a task was claimed and processed; NOT a success indicator",
+    "task_id": "9720c624-929f-4a14-9e66-94d40f1e0d60",
+    "task_status_db": "succeeded",
+    "task_current_stage_db": null,
+    "task_llm_invocations_db": 0,
+    "claim_outcome_db": "succeeded",
+    "claim_error_type_db": null,
+    "status": "PASS",
+    "wall_seconds": 0.43
+  },
+  "db_after": {
+    "label": "AFTER",
+    "at": "2026-09-26T00:36:35+08:00",
+    "counts": {
+      "documents": 3,
+      "document_source_versions": 2,
+      "document_source_lines": 2039,
+      "document_source_spans": 3579,
+      "source_figures": 40,
+      "semantic_annotations": 2,
+      "admission_candidates": 6,
+      "admission_events": 1,
+      "questions": 1,
+      "question_instances": 1,
+      "materials": 0,
+      "material_links": 0,
+      "unit_groups": 1,
+      "unit_group_members": 1,
+      "instance_role_contents": 2,
+      "validation_events": 1,
+      "tasks": 10,
+      "task_claims": 10,
+      "llm_call_audit": 959,
+      "budget": 3415
+    },
+    "missing_tables": [
+      "resolved_spans",
+      "ir_units",
+      "evidence_references"
+    ]
+  },
+  "db_delta": {
+    "tasks": {
+      "before": 9,
+      "after": 10,
+      "delta": 1
+    },
+    "task_claims": {
+      "before": 9,
+      "after": 10,
+      "delta": 1
+    }
+  },
+  "db_detail": {
+    "tasks": [
+      {
+        "id": "abc8f489-2505-4d9b-9ed1-6ca20b9f2ccc",
+        "task_type": "document_ingest",
+        "status": "failed",
+        "current_stage": null,
+        "created_by": "e2e-verify",
+        "created_at": "2026-09-25T16:01:55.005712+00:00",
+        "decided_at": "2026-09-25T16:03:12.498115+00:00",
+        "started_at": null,
+        "llm_invocations": 0
+      },
+      {
+        "id": "c7e67c98-bc17-43ef-ac59-7bb81770cb3c",
+        "task_type": "document_ingest",
+        "status": "succeeded",
+        "current_stage": null,
+        "created_by": "e2e-verify",
+        "created_at": "2026-09-25T16:03:12.200277+00:00",
+        "decided_at": "2026-09-25T16:08:34.905841+00:00",
+        "started_at": null,
+        "llm_invocations": 1
+      },
+      {
+        "id": "284486c2-cdd1-454e-8986-4f976e95d912",
+        "task_type": "document_ingest",
+        "status": "failed",
+        "current_stage": null,
+        "created_by": "admin",
+        "created_at": "2026-09-25T07:21:07.337397+00:00",
+        "decided_at": "2026-09-25T07:22:17.795957+00:00",
+        "started_at": null,
+        "llm_invocations": 0
+      },
+      {
+        "id": "7c5ecab8-3cf5-4c29-ba62-bf0a26099621",
+        "task_type": "document_ingest",
+        "status": "failed",
+        "current_stage": null,
+        "created_by": "e2e-verify",
+        "created_at": "2026-09-25T16:20:28.785757+00:00",
+        "decided_at": "2026-09-25T16:20:29.186975+00:00",
+        "started_at": null,
+        "llm_invocations": 0
+      },
+      {
+        "id": "a7a52696-2126-41fd-b10d-303c24af25a5",
+        "task_type": "document_ingest",
+        "status": "failed",
+        "current_stage": null,
+        "created_by": "e2e-verify",
+        "created_at": "2026-09-25T16:01:54.955310+00:00",
+        "decided_at": "2026-09-25T16:01:55.143667+00:00",
+        "started_at": null,
+        "llm_invocations": 0
+      },
+      {
+        "id": "e5df44fb-5541-4955-b3ce-46ceb17bfee1",
+        "task_type": "document_ingest",
+        "status": "failed",
+        "current_stage": null,
+        "created_by": "e2e-verify",
+        "created_at": "2026-09-25T16:18:25.230980+00:00",
+        "decided_at": "2026-09-25T16:20:28.925324+00:00",
+        "started_at": null,
+        "llm_invocations": 0
+      },
+      {
+        "id": "03127d8f-650f-4873-83ae-3ad3fd031b4d",
+        "task_type": "document_ingest",
+        "status": "failed",
+        "current_stage": null,
+        "created_by": "e2e-verify",
+        "created_at": "2026-09-25T16:18:25.302879+00:00",
+        "decided_at": "2026-09-25T16:20:29.056007+00:00",
+        "started_at": null,
+        "llm_invocations": 0
+      },
+      {
+        "id": "735bab6f-a03d-439b-bfb4-e714ef73e641",
+        "task_type": "document_ingest",
+        "status": "succeeded",
+        "current_stage": null,
+        "created_by": "e2e-verify",
+        "created_at": "2026-09-25T16:07:39.941204+00:00",
+        "decided_at": "2026-09-25T16:18:25.612024+00:00",
+        "started_at": null,
+        "llm_invocations": 0
+      },
+      {
+        "id": "6ec6bcec-814d-4ad7-82cb-55cb1c5f4ace",
+        "task_type": "document_ingest",
+        "status": "succeeded",
+        "current_stage": null,
+        "created_by": "e2e-verify",
+        "created_at": "2026-09-25T16:24:13.252058+00:00",
+        "decided_at": "2026-09-25T16:25:17.903413+00:00",
+        "started_at": null,
+        "llm_invocations": 1
+      },
+      {
+        "id": "9720c624-929f-4a14-9e66-94d40f1e0d60",
+        "task_type": "document_ingest",
+        "status": "succeeded",
+        "current_stage": null,
+        "created_by": "e2e-verify",
+        "created_at": "2026-09-25T16:36:34.804142+00:00",
+        "decided_at": "2026-09-25T16:36:35.230068+00:00",
+        "started_at": null,
+        "llm_invocations": 0
+      }
+    ],
+    "task_claims": [
+      {
+        "id": "6a79d93a-e67f-43a9-b65d-823d195b5705",
+        "task_id": "284486c2-cdd1-454e-8986-4f976e95d912",
+        "claim_round": 1,
+        "start": "2026-09-25T07:22:17.215551+00:00",
+        "end": "2026-09-25T07:22:17.795957+00:00",
+        "outcome": "failed",
+        "error_type": "conflict",
+        "lease_snapshot": "{\"worker_id\": \"worker-8f1f7999\", \"lease_token\": \"59ba328bc6054a99af035b0faa5a79d3\", \"error_detail\": \"live denied: --allow-live not granted; task context missing; budget unavailable\", \"lease_expires_at\": \"2026-09-25T07:23:17.215551+00:00\"}"
+      },
+      {
+        "id": "368c9df9-c8df-4576-86da-55ea3e12a2cb",
+        "task_id": "a7a52696-2126-41fd-b10d-303c24af25a5",
+        "claim_round": 1,
+        "start": "2026-09-25T16:01:55.031817+00:00",
+        "end": "2026-09-25T16:01:55.143667+00:00",
+        "outcome": "failed",
+        "error_type": "system_error",
+        "lease_snapshot": "{\"worker_id\": \"e2e-verify-worker\", \"lease_token\": \"4999c7d9e64c4308a733f55e32d7564e\", \"error_detail\": \"'NativeTextProvider' object is not callable\", \"lease_expires_at\": \"2026-09-25T16:02:55.031817+00:00\"}"
+      },
+      {
+        "id": "4b047b29-87b4-4579-92a8-dca8786f79b6",
+        "task_id": "abc8f489-2505-4d9b-9ed1-6ca20b9f2ccc",
+        "claim_round": 1,
+        "start": "2026-09-25T16:03:12.227339+00:00",
+        "end": "2026-09-25T16:03:12.498115+00:00",
+        "outcome": "failed",
+        "error_type": "conflict",
+        "lease_snapshot": "{\"worker_id\": \"e2e-verify-worker\", \"lease_token\": \"d003a1f26fb14381bf9b197308615959\", \"error_detail\": \"live denied: task context missing\", \"lease_expires_at\": \"2026-09-25T16:04:12.227339+00:00\"}"
+      },
+      {
+        "id": "72e1bb04-52b7-468f-a39f-79d599fec86e",
+        "task_id": "c7e67c98-bc17-43ef-ac59-7bb81770cb3c",
+        "claim_round": 1,
+        "start": "2026-09-25T16:07:39.972992+00:00",
+        "end": "2026-09-25T16:08:34.905841+00:00",
+        "outcome": "succeeded",
+        "error_type": null,
+        "lease_snapshot": "{\"worker_id\": \"e2e-verify-worker\", \"lease_token\": \"6294ea899d8041feb6dfd2308e1b654b\", \"lease_expires_at\": \"2026-09-25T16:08:39.972992+00:00\"}"
+      },
+      {
+        "id": "0584a1e1-ba7a-4ee0-9efe-3a64f449f312",
+        "task_id": "735bab6f-a03d-439b-bfb4-e714ef73e641",
+        "claim_round": 1,
+        "start": "2026-09-25T16:18:25.329457+00:00",
+        "end": "2026-09-25T16:18:25.612024+00:00",
+        "outcome": "succeeded",
+        "error_type": null,
+        "lease_snapshot": "{\"worker_id\": \"e2e-verify-worker\", \"lease_token\": \"c7e0f61ff6634a4ab789f13e3f632881\", \"lease_expires_at\": \"2026-09-25T16:19:25.329457+00:00\"}"
+      },
+      {
+        "id": "7717f76d-7c33-466c-8f06-5ba61f298f09",
+        "task_id": "e5df44fb-5541-4955-b3ce-46ceb17bfee1",
+        "claim_round": 1,
+        "start": "2026-09-25T16:20:28.814990+00:00",
+        "end": "2026-09-25T16:20:28.925324+00:00",
+        "outcome": "failed",
+        "error_type": "system_error",
+        "lease_snapshot": "{\"worker_id\": \"e2e-verify-worker-1\", \"lease_token\": \"7a5da32bd458421181a666ebacaa6cfe\", \"error_detail\": \"'NativeTextProvider' object is not callable\", \"lease_expires_at\": \"2026-09-25T16:21:28.814990+00:00\"}"
+      },
+      {
+        "id": "782e90c3-12a9-4468-87f9-9bdf85ca5638",
+        "task_id": "03127d8f-650f-4873-83ae-3ad3fd031b4d",
+        "claim_round": 1,
+        "start": "2026-09-25T16:20:28.953165+00:00",
+        "end": "2026-09-25T16:20:29.056007+00:00",
+        "outcome": "failed",
+        "error_type": "system_error",
+        "lease_snapshot": "{\"worker_id\": \"e2e-verify-worker-2\", \"lease_token\": \"c30382e3c04b4c51a1660b31c47e16a0\", \"error_detail\": \"'NativeTextProvider' object is not callable\", \"lease_expires_at\": \"2026-09-25T16:21:28.953165+00:00\"}"
+      },
+      {
+        "id": "0fd1ce00-71d0-4ba4-90a8-dcea47bfbf96",
+        "task_id": "7c5ecab8-3cf5-4c29-ba62-bf0a26099621",
+        "claim_round": 1,
+        "start": "2026-09-25T16:20:29.082485+00:00",
+        "end": "2026-09-25T16:20:29.186975+00:00",
+        "outcome": "failed",
+        "error_type": "system_error",
+        "lease_snapshot": "{\"worker_id\": \"e2e-verify-worker-3\", \"lease_token\": \"c52e7f324d9941de950c74799922342f\", \"error_detail\": \"'NativeTextProvider' object is not callable\", \"lease_expires_at\": \"2026-09-25T16:21:29.082485+00:00\"}"
+      },
+      {
+        "id": "0069ee28-6c16-486e-9559-5f8072ff7174",
+        "task_id": "6ec6bcec-814d-4ad7-82cb-55cb1c5f4ace",
+        "claim_round": 1,
+        "start": "2026-09-25T16:24:13.280452+00:00",
+        "end": "2026-09-25T16:25:17.903413+00:00",
+        "outcome": "succeeded",
+        "error_type": null,
+        "lease_snapshot": "{\"worker_id\": \"e2e-verify-worker-1\", \"lease_token\": \"2ff08abe199c425fab987731b98ef2fe\", \"lease_expires_at\": \"2026-09-25T16:25:13.280452+00:00\"}"
+      },
+      {
+        "id": "e1a07a08-cb27-433c-90be-785dab249f11",
+        "task_id": "9720c624-929f-4a14-9e66-94d40f1e0d60",
+        "claim_round": 1,
+        "start": "2026-09-25T16:36:34.833314+00:00",
+        "end": "2026-09-25T16:36:35.230068+00:00",
+        "outcome": "succeeded",
+        "error_type": null,
+        "lease_snapshot": "{\"worker_id\": \"e2e-verify-worker-1\", \"lease_token\": \"aa8dda90e60d4c3aa2aaf4334096a979\", \"lease_expires_at\": \"2026-09-25T16:37:34.833314+00:00\"}"
+      }
+    ],
+    "documents": [
+      {
+        "id": "bffd8c7b-5480-42ad-905f-023cb04104e9",
+        "file_name": "extmatrix_real_pdf.pdf",
+        "file_type": "pdf",
+        "original_sha256": "f58e39ae5e0eed28330a687d04b50a40ef4cf4d10511917643ef39161533b8ce",
+        "processing_status": "sealed"
+      },
+      {
+        "id": "3a64909b-7bc9-4f33-a067-8c95c5a36c85",
+        "file_name": "caseA_real.pdf",
+        "file_type": "pdf",
+        "original_sha256": "a136e47bf01ed4420a935f799a0d807182a10758ad0cf3cc1d0d280a9377350e",
+        "processing_status": "sealed"
+      },
+      {
+        "id": "843aa5c1-3f8a-4304-ab7a-0b8c400937b7",
+        "file_name": "extmatrix_docx_stub.docx",
+        "file_type": "docx",
+        "original_sha256": "dedca9102157842d517a9cb7c979a880ae8b575f3835418e581ba3928ee29172",
+        "processing_status": "imported"
+      }
+    ],
+    "document_source_versions": [
+      {
+        "id": "ab2ecae7-72a3-4850-8bc1-f3961841f8da",
+        "document_id": "3a64909b-7bc9-4f33-a067-8c95c5a36c85",
+        "artifact_kind": "raw_l1",
+        "role": "native",
+        "provider": "native",
+        "page_count": 2,
+        "line_count": 338,
+        "text_coverage": null,
+        "status": "sealed",
+        "body_hash": "b6f10eb629246f50156e7b6abac16806f0f02ca9711a9e44c6ca5dc076fedb3f",
+        "integrity_hash": "fc9deb0d37c9e6046ee71f7b646b662608d03131ba421a8e7f961f640c8ca9b2"
+      },
+      {
+        "id": "5ed951e5-a1f8-4c6a-8b48-71a60a0ea79a",
+        "document_id": "bffd8c7b-5480-42ad-905f-023cb04104e9",
+        "artifact_kind": "raw_l1",
+        "role": "native",
+        "provider": "native",
+        "page_count": 8,
+        "line_count": 1701,
+        "text_coverage": null,
+        "status": "sealed",
+        "body_hash": "8f695f4155f997eb2dc434f710418e4095f93da6bcabdd22378ac4e29831771d",
+        "integrity_hash": "271af3df33443bbf191d678e94aebb8d9240ac46fbb11b19a3f4e7634577ff95"
+      }
+    ],
+    "semantic_annotations": [
+      {
+        "id": "ac0bda70-020f-4dbb-a8b6-b3686410ccf1",
+        "source_version_id": "ab2ecae7-72a3-4850-8bc1-f3961841f8da",
+        "annotation_schema_version": "semantic-metadata-annotation/v0.3",
+        "prompt_version": "semantic-annotation/v1",
+        "model_config_hash": "11af80e5256a3ea0fdd06e7d5c799750b3d370a34bc5263b61c2c71e856a2d3e",
+        "status": "valid",
+        "logical_execution_hash": "d9632c9b6587b4dd7f5e23d163dbcc16b1f97897efab0419303b586f98b62176"
+      },
+      {
+        "id": "3fae271a-4b01-486b-8d2c-badd8188ad93",
+        "source_version_id": "5ed951e5-a1f8-4c6a-8b48-71a60a0ea79a",
+        "annotation_schema_version": "semantic-metadata-annotation/v0.3",
+        "prompt_version": "semantic-annotation/v1",
+        "model_config_hash": "11af80e5256a3ea0fdd06e7d5c799750b3d370a34bc5263b61c2c71e856a2d3e",
+        "status": "valid",
+        "logical_execution_hash": "3e537de47440ae8ec3b2f7f94d138c606fa97b4628ed572e626323dd53ec0f90"
+      }
+    ],
+    "admission_candidates": [
+      {
+        "id": "83044f37-8c41-4979-b1ca-d72a73ba2844",
+        "unit_type": "standalone_unit",
+        "source_version_id": "5ed951e5-a1f8-4c6a-8b48-71a60a0ea79a",
+        "annotation_id": "3fae271a-4b01-486b-8d2c-badd8188ad93",
+        "decision_status": "pending_review",
+        "gate_decision": "{\"layers\": {\"semantic\": {\"status\": \"pass\", \"reasons\": []}, \"admission\": {\"status\": \"fail\", \"reasons\": [\"leaf 'Q9' answer grammar: answer not expressible as canonical value\"], \"decision\": \"pending_review\"}, \"provenance\": {\"status\": \"pass\", \"reasons\": [], \"auto_allowed\": true}, \"structural\": {\"status\": \"pass\", \"reasons\": []}}, \"reasons\": [\"leaf 'Q9' answer grammar: answer not expressible as canonical value\"], \"decision\": \"pending_review\", \"gate_policy_version\": \"admission-gate/v1\"}",
+        "logical_execution_hash": "3a1c4ad9bf0152fb0fb0f6072415df513d04f9f784b9dc84cc573069f03111bc"
+      },
+      {
+        "id": "f448a2bf-c2f7-4a00-ac13-4bcf686270b7",
+        "unit_type": "standalone_unit",
+        "source_version_id": "5ed951e5-a1f8-4c6a-8b48-71a60a0ea79a",
+        "annotation_id": "3fae271a-4b01-486b-8d2c-badd8188ad93",
+        "decision_status": "pending_review",
+        "gate_decision": "{\"layers\": {\"semantic\": {\"status\": \"pass\", \"reasons\": []}, \"admission\": {\"status\": \"fail\", \"reasons\": [\"leaf 'Q12' type 'fill_in' not strict-auto (grammar None)\"], \"decision\": \"pending_review\"}, \"provenance\": {\"status\": \"pass\", \"reasons\": [], \"auto_allowed\": true}, \"structural\": {\"status\": \"pass\", \"reasons\": []}}, \"reasons\": [\"leaf 'Q12' type 'fill_in' not strict-auto (grammar None)\"], \"decision\": \"pending_review\", \"gate_policy_version\": \"admission-gate/v1\"}",
+        "logical_execution_hash": "25b8e0a7e39dbf57f248da56cabfb9d5b268da695f41f48df543378daed21062"
+      },
+      {
+        "id": "33d5860f-435a-494b-84ae-170b418fbc2b",
+        "unit_type": "standalone_unit",
+        "source_version_id": "5ed951e5-a1f8-4c6a-8b48-71a60a0ea79a",
+        "annotation_id": "3fae271a-4b01-486b-8d2c-badd8188ad93",
+        "decision_status": "pending_review",
+        "gate_decision": "{\"layers\": {\"semantic\": {\"status\": \"pass\", \"reasons\": []}, \"admission\": {\"status\": \"fail\", \"reasons\": [\"leaf 'Q13' type 'fill_in' not strict-auto (grammar None)\"], \"decision\": \"pending_review\"}, \"provenance\": {\"status\": \"pass\", \"reasons\": [], \"auto_allowed\": true}, \"structural\": {\"status\": \"pass\", \"reasons\": []}}, \"reasons\": [\"leaf 'Q13' type 'fill_in' not strict-auto (grammar None)\"], \"decision\": \"pending_review\", \"gate_policy_version\": \"admission-gate/v1\"}",
+        "logical_execution_hash": "f0832a16fe00b533a88ca466cc4e3288f16eaa147abdc7c77eb468a964e5a539"
+      },
+      {
+        "id": "18ff5f34-3512-4212-89e4-49dbc895c2ff",
+        "unit_type": "standalone_unit",
+        "source_version_id": "5ed951e5-a1f8-4c6a-8b48-71a60a0ea79a",
+        "annotation_id": "3fae271a-4b01-486b-8d2c-badd8188ad93",
+        "decision_status": "pending_review",
+        "gate_decision": "{\"layers\": {\"semantic\": {\"status\": \"pass\", \"reasons\": []}, \"admission\": {\"status\": \"fail\", \"reasons\": [\"leaf 'Q14' type 'fill_in' not strict-auto (grammar None)\"], \"decision\": \"pending_review\"}, \"provenance\": {\"status\": \"pass\", \"reasons\": [], \"auto_allowed\": true}, \"structural\": {\"status\": \"pass\", \"reasons\": []}}, \"reasons\": [\"leaf 'Q14' type 'fill_in' not strict-auto (grammar None)\"], \"decision\": \"pending_review\", \"gate_policy_version\": \"admission-gate/v1\"}",
+        "logical_execution_hash": "91addc79c2e2f31e94e9d6497562baf16d2011e2d4ba20007715981bb6837879"
+      },
+      {
+        "id": "b1cb7197-f27f-4b84-8060-c0a48e198f9b",
+        "unit_type": "standalone_unit",
+        "source_version_id": "5ed951e5-a1f8-4c6a-8b48-71a60a0ea79a",
+        "annotation_id": "3fae271a-4b01-486b-8d2c-badd8188ad93",
+        "decision_status": "pending_review",
+        "gate_decision": "{\"layers\": {\"semantic\": {\"status\": \"pass\", \"reasons\": []}, \"admission\": {\"status\": \"fail\", \"reasons\": [\"leaf 'Q15' type 'fill_in' not strict-auto (grammar None)\"], \"decision\": \"pending_review\"}, \"provenance\": {\"status\": \"pass\", \"reasons\": [], \"auto_allowed\": true}, \"structural\": {\"status\": \"pass\", \"reasons\": []}}, \"reasons\": [\"leaf 'Q15' type 'fill_in' not strict-auto (grammar None)\"], \"decision\": \"pending_review\", \"gate_policy_version\": \"admission-gate/v1\"}",
+        "logical_execution_hash": "83f9221c06930588b8b03f8ad13e485535c4ad5b8bb77b1be63686d4b5a795b6"
+      },
+      {
+        "id": "54f869a3-ea87-41ab-9591-ff31f2a455b9",
+        "unit_type": "standalone_unit",
+        "source_version_id": "5ed951e5-a1f8-4c6a-8b48-71a60a0ea79a",
+        "annotation_id": "3fae271a-4b01-486b-8d2c-badd8188ad93",
+        "decision_status": "approved",
+        "gate_decision": "{\"layers\": {\"semantic\": {\"status\": \"pass\", \"reasons\": []}, \"admission\": {\"status\": \"fail\", \"reasons\": [\"leaf 'Q11' type 'fill_in' not strict-auto (grammar None)\"], \"decision\": \"pending_review\"}, \"provenance\": {\"status\": \"pass\", \"reasons\": [], \"auto_allowed\": true}, \"structural\": {\"status\": \"pass\", \"reasons\": []}}, \"reasons\": [\"leaf 'Q11' type 'fill_in' not strict-auto (grammar None)\"], \"decision\": \"pending_review\", \"gate_policy_version\": \"admission-gate/v1\"}",
+        "logical_execution_hash": "2ba31a5355cff66196040bb5adffc68e72e3138371e97fddac99766272217b1d"
+      }
+    ],
+    "admission_events": [
+      {
+        "candidate_id": "54f869a3-ea87-41ab-9591-ff31f2a455b9",
+        "materialized_at": "2026-09-25T16:29:40.214326+00:00",
+        "created_question_ids": "[UUID('a35743e0-2e00-4b11-89af-138861b24c29')]",
+        "created_instance_ids": "[None]",
+        "id": "aef717e7-2fc7-481b-b7eb-a6707427e0e8"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a35743e0-2e00-4b11-89af-138861b24c29",
+        "subject": "数学",
+        "grade": "高一",
+        "canonical_question_type": "fill_in",
+        "dedup_key": "e09816aa8cb6c6f23910a71b0254bb268b26cf4d29dfa4b02f7068533fb8309a",
+        "created_at": "2026-09-25T16:29:40.204791+00:00"
+      }
+    ],
+    "question_instances": [
+      {
+        "id": "953743dd-15bb-4656-b801-3ae0206e625f",
+        "question_id": "a35743e0-2e00-4b11-89af-138861b24c29",
+        "document_id": "bffd8c7b-5480-42ad-905f-023cb04104e9",
+        "source_version_id": "5ed951e5-a1f8-4c6a-8b48-71a60a0ea79a",
+        "occurrence_key": "5cb44fde799f4f80014a0ca1a449a271769e1f23f542a3e4f9050bfa2383996a",
+        "question_number": "11",
+        "instance_order": 2073,
+        "logical_execution_hash": "2ba31a5355cff66196040bb5adffc68e72e3138371e97fddac99766272217b1d"
+      }
+    ],
+    "materials": []
+  },
+  "llm_audit": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-pro",
+      "status": "completed",
+      "prompt_chars": 8705,
+      "output_tokens": null,
+      "total_tokens": null,
+      "estimated_cost": null,
+      "error_type": null,
+      "logical_execution_stage": "ann",
+      "start": "2026-09-25T16:24:14.180079+00:00"
+    },
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-pro",
+      "status": "completed",
+      "prompt_chars": 3196,
+      "output_tokens": null,
+      "total_tokens": null,
+      "estimated_cost": null,
+      "error_type": null,
+      "logical_execution_stage": "ann",
+      "start": "2026-09-25T16:07:40.159943+00:00"
+    },
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-pro",
+      "status": "failed",
+      "prompt_chars": 3196,
+      "output_tokens": null,
+      "total_tokens": null,
+      "estimated_cost": null,
+      "error_type": "conflict",
+      "logical_execution_stage": "ann",
+      "start": "2026-09-25T16:03:12.414742+00:00"
+    }
+  ],
+  "finished_at": "2026-09-26T00:36:35+08:00"
+}

@@ -1,0 +1,36 @@
+=== admission_events ===
+  {"candidate_id": "54f869a3-ea87-41ab-9591-ff31f2a455b9", "materialized_at": "2026-09-25 16:29:40.214326+00:00", "created_question_ids": "[UUID('a35743e0-2e00-4b11-89af-138861b24c29')]", "created_instance_ids": "[None]", "id": "aef717e7-2fc7-481b-b7eb-a6707427e0e8"}
+=== instance_role_contents ===
+  {"instance_id": "953743dd-15bb-4656-b801-3ae0206e625f", "role": "stem", "label": "None", "role_index": "0", "text": "11.设全集U = R ，集合\n{ |\n2},\nA\nx x\n=\n\n集合\n{ |\n1}\nB\nx x\n=\n\n，则集合U A =\n，集合(\n)\nU A\nB =\n.", "text_hash": "d48f0ffb5b92f0b20706fb432b5d38cad4f1e89b4232b48da3090eea795eea38", "source_span": "{\"span_id\": \"sp-Q11.stem\", \"line_refs\": [\"P2L073\", \"P2L074\", \"P2L075\", \"P2L076\",", "answer_status": "null", "id": "96661a50-9f02-4a8c-bb4d-e518873ea8b6"}
+  {"instance_id": "953743dd-15bb-4656-b801-3ae0206e625f", "role": "answer", "label": "None", "role_index": "0", "text": "11. ", "text_hash": "e1a6dffe11fb7b243912ce444ef1c343a5b5fbf64386a4f3f461f3cb2493c0d4", "source_span": "{\"span_id\": \"sp-Q11.answer\", \"line_refs\": [\"P6L031\"]}", "answer_status": "{\"complete\": true, \"source_located\": true, \"verified_correct\": true}", "id": "2f09f423-1451-4f11-a8d5-b67660d6080c"}
+=== unit_groups / members ===
+  G {"unit_type": "standalone_unit", "document_id": "bffd8c7b-5480-42ad-905f-023cb04104e9", "source_version_id": "5ed951e5-a1f8-4c6a-8b48-71a60a0ea79a", "question_number_range": "None", "shared_material_id": "None", "id": "2829dc0f-da0f-4b38-9fa6-7cf80b60d202"}
+  M {"unit_group_id": "2829dc0f-da0f-4b38-9fa6-7cf80b60d202", "instance_id": "953743dd-15bb-4656-b801-3ae0206e625f", "member_order": "0", "role_in_group": "None"}
+=== PK / UNIQUE constraints ===
+  [questions_pkey] questions: PRIMARY KEY (id)
+  [uq_questions_dedup_key] questions: UNIQUE (dedup_key)
+  [question_instances_document_id_fkey] question_instances: FOREIGN KEY (document_id) REFERENCES documents(id)
+  [question_instances_question_id_fkey] question_instances: FOREIGN KEY (question_id) REFERENCES questions(id)
+  [question_instances_source_version_id_fkey] question_instances: FOREIGN KEY (source_version_id) REFERENCES document_source_versions(id)
+  [question_instances_unit_group_id_fkey] question_instances: FOREIGN KEY (unit_group_id) REFERENCES unit_groups(id)
+  [question_instances_pkey] question_instances: PRIMARY KEY (id)
+  [question_instances_question_id_source_version_id_occurrence_key] question_instances: UNIQUE (question_id, source_version_id, occurrence_key)
+  [materials_source_version_id_fkey] materials: FOREIGN KEY (source_version_id) REFERENCES document_source_versions(id)
+  [materials_pkey] materials: PRIMARY KEY (id)
+  [admission_events_candidate_id_fkey] admission_events: FOREIGN KEY (candidate_id) REFERENCES admission_candidates(id)
+  [admission_events_pkey] admission_events: PRIMARY KEY (id)
+  [admission_events_candidate_id_key] admission_events: UNIQUE (candidate_id)
+  [admission_candidates_annotation_id_fkey] admission_candidates: FOREIGN KEY (annotation_id) REFERENCES semantic_annotations(id)
+  [admission_candidates_source_version_id_fkey] admission_candidates: FOREIGN KEY (source_version_id) REFERENCES document_source_versions(id)
+  [admission_candidates_pkey] admission_candidates: PRIMARY KEY (id)
+  [admission_candidates_logical_execution_stage_logical_execut_key] admission_candidates: UNIQUE (logical_execution_stage, logical_execution_hash)
+  [semantic_annotations_source_version_id_fkey] semantic_annotations: FOREIGN KEY (source_version_id) REFERENCES document_source_versions(id)
+  [semantic_annotations_pkey] semantic_annotations: PRIMARY KEY (id)
+  [semantic_annotations_logical_execution_stage_logical_execut_key] semantic_annotations: UNIQUE (logical_execution_stage, logical_execution_hash)
+  [documents_pkey] documents: PRIMARY KEY (id)
+  [uq_documents_original_sha256] documents: UNIQUE (original_sha256)
+  [tasks_pkey] tasks: PRIMARY KEY (id)
+=== FK orphans check ===
+  question_instances.question_id not in questions: 0
+  instance_role_contents.instance_id not in question_instances: 0
+  admission_events.candidate_id not in admission_candidates: 0

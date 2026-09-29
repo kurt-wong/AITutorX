@@ -1,0 +1,719 @@
+{
+ "source_file": "D:\\Project\\Papers\\Ocr-markdown\\高一\\化学\\2016-2019北京高一化学下学期期末汇编：化学反应原理（教师版）(1).md",
+ "model": "mimo-x-pro-preview",
+ "annotation_meta": {
+  "prompt_version": "reslice-pilot-v2.3",
+  "validation_issues": [],
+  "warnings": []
+ },
+ "units": [
+  {
+   "unit_id": "Q1",
+   "unit_type": "standalone_question",
+   "section": "一．选择题",
+   "printed_number": "1",
+   "question_numbers": [
+    1
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    5,
+    5
+   ],
+   "options_lines": [
+    7,
+    13
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    296,
+    304
+   ],
+   "explanation_lines": [
+    294,
+    306
+   ],
+   "options": [
+    {
+     "label": "A",
+     "start_line": 7,
+     "end_line": 7
+    },
+    {
+     "label": "B",
+     "start_line": 9,
+     "end_line": 9
+    },
+    {
+     "label": "C",
+     "start_line": 11,
+     "end_line": 11
+    },
+    {
+     "label": "D",
+     "start_line": 13,
+     "end_line": 13
+    }
+   ]
+  },
+  {
+   "unit_id": "Q2",
+   "unit_type": "standalone_question",
+   "section": "一．选择题",
+   "printed_number": "2",
+   "question_numbers": [
+    2
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    15,
+    17
+   ],
+   "options_lines": [
+    20,
+    26
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    325,
+    331
+   ],
+   "explanation_lines": [
+    323,
+    333
+   ],
+   "options": [
+    {
+     "label": "A",
+     "start_line": 20,
+     "end_line": 20
+    },
+    {
+     "label": "B",
+     "start_line": 22,
+     "end_line": 22
+    },
+    {
+     "label": "C",
+     "start_line": 24,
+     "end_line": 24
+    },
+    {
+     "label": "D",
+     "start_line": 26,
+     "end_line": 26
+    }
+   ]
+  },
+  {
+   "unit_id": "Q3",
+   "unit_type": "standalone_question",
+   "section": "一．选择题",
+   "printed_number": "3",
+   "question_numbers": [
+    3
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    28,
+    35
+   ],
+   "options_lines": [
+    38,
+    44
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    358,
+    366
+   ],
+   "explanation_lines": [
+    350,
+    368
+   ],
+   "options": [
+    {
+     "label": "A",
+     "start_line": 38,
+     "end_line": 38
+    },
+    {
+     "label": "B",
+     "start_line": 40,
+     "end_line": 40
+    },
+    {
+     "label": "C",
+     "start_line": 42,
+     "end_line": 42
+    },
+    {
+     "label": "D",
+     "start_line": 44,
+     "end_line": 44
+    }
+   ]
+  },
+  {
+   "unit_id": "Q4",
+   "unit_type": "standalone_question",
+   "section": "一．选择题",
+   "printed_number": "4",
+   "question_numbers": [
+    4
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    46,
+    46
+   ],
+   "options_lines": [
+    49,
+    49
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    379,
+    387
+   ],
+   "explanation_lines": [
+    377,
+    389
+   ],
+   "options": [
+    {
+     "label": "A",
+     "start_line": 49,
+     "end_line": 49
+    },
+    {
+     "label": "B",
+     "start_line": 49,
+     "end_line": 49
+    },
+    {
+     "label": "C",
+     "start_line": 49,
+     "end_line": 49
+    },
+    {
+     "label": "D",
+     "start_line": 49,
+     "end_line": 49
+    }
+   ]
+  },
+  {
+   "unit_id": "Q5",
+   "unit_type": "standalone_question",
+   "section": "一．选择题",
+   "printed_number": "5",
+   "question_numbers": [
+    5
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    51,
+    53
+   ],
+   "options_lines": [
+    56,
+    62
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    410,
+    420
+   ],
+   "explanation_lines": [
+    408,
+    422
+   ],
+   "options": [
+    {
+     "label": "A",
+     "start_line": 56,
+     "end_line": 56
+    },
+    {
+     "label": "B",
+     "start_line": 58,
+     "end_line": 58
+    },
+    {
+     "label": "C",
+     "start_line": 60,
+     "end_line": 60
+    },
+    {
+     "label": "D",
+     "start_line": 62,
+     "end_line": 62
+    }
+   ]
+  },
+  {
+   "unit_id": "Q6",
+   "unit_type": "standalone_question",
+   "section": "一．选择题",
+   "printed_number": "6",
+   "question_numbers": [
+    6
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    66,
+    66
+   ],
+   "options_lines": [
+    68,
+    74
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    436,
+    444
+   ],
+   "explanation_lines": [
+    434,
+    446
+   ],
+   "options": [
+    {
+     "label": "A",
+     "start_line": 68,
+     "end_line": 68
+    },
+    {
+     "label": "B",
+     "start_line": 70,
+     "end_line": 70
+    },
+    {
+     "label": "C",
+     "start_line": 72,
+     "end_line": 72
+    },
+    {
+     "label": "D",
+     "start_line": 74,
+     "end_line": 74
+    }
+   ]
+  },
+  {
+   "unit_id": "Q7",
+   "unit_type": "standalone_question",
+   "section": "一．选择题",
+   "printed_number": "7",
+   "question_numbers": [
+    7
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    76,
+    78
+   ],
+   "options_lines": [
+    81,
+    87
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    471,
+    479
+   ],
+   "explanation_lines": [
+    463,
+    481
+   ],
+   "options": [
+    {
+     "label": "A",
+     "start_line": 81,
+     "end_line": 81
+    },
+    {
+     "label": "B",
+     "start_line": 83,
+     "end_line": 83
+    },
+    {
+     "label": "C",
+     "start_line": 85,
+     "end_line": 85
+    },
+    {
+     "label": "D",
+     "start_line": 87,
+     "end_line": 87
+    }
+   ]
+  },
+  {
+   "unit_id": "Q8",
+   "unit_type": "standalone_question",
+   "section": "一．选择题",
+   "printed_number": "8",
+   "question_numbers": [
+    8
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    89,
+    89
+   ],
+   "options_lines": [
+    91,
+    97
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    497,
+    505
+   ],
+   "explanation_lines": [
+    493,
+    507
+   ],
+   "options": [
+    {
+     "label": "A",
+     "start_line": 91,
+     "end_line": 91
+    },
+    {
+     "label": "B",
+     "start_line": 93,
+     "end_line": 93
+    },
+    {
+     "label": "C",
+     "start_line": 95,
+     "end_line": 95
+    },
+    {
+     "label": "D",
+     "start_line": 97,
+     "end_line": 97
+    }
+   ]
+  },
+  {
+   "unit_id": "Q9",
+   "unit_type": "standalone_question",
+   "section": "一．选择题",
+   "printed_number": "9",
+   "question_numbers": [
+    9
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    99,
+    99
+   ],
+   "options_lines": [
+    101,
+    109
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    527,
+    535
+   ],
+   "explanation_lines": [
+    519,
+    537
+   ],
+   "options": [
+    {
+     "label": "A",
+     "start_line": 101,
+     "end_line": 101
+    },
+    {
+     "label": "B",
+     "start_line": 103,
+     "end_line": 103
+    },
+    {
+     "label": "C",
+     "start_line": 105,
+     "end_line": 105
+    },
+    {
+     "label": "D",
+     "start_line": 109,
+     "end_line": 109
+    }
+   ]
+  },
+  {
+   "unit_id": "Q10",
+   "unit_type": "standalone_question",
+   "section": "一．选择题",
+   "printed_number": "10",
+   "question_numbers": [
+    10
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    111,
+    113
+   ],
+   "options_lines": [
+    116,
+    122
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    556,
+    566
+   ],
+   "explanation_lines": [
+    554,
+    568
+   ],
+   "options": [
+    {
+     "label": "A",
+     "start_line": 116,
+     "end_line": 116
+    },
+    {
+     "label": "B",
+     "start_line": 118,
+     "end_line": 118
+    },
+    {
+     "label": "C",
+     "start_line": 120,
+     "end_line": 120
+    },
+    {
+     "label": "D",
+     "start_line": 122,
+     "end_line": 122
+    }
+   ]
+  },
+  {
+   "unit_id": "Q11",
+   "unit_type": "standalone_question",
+   "section": "一．选择题",
+   "printed_number": "11",
+   "question_numbers": [
+    11
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    124,
+    126
+   ],
+   "options_lines": [
+    129,
+    135
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    587,
+    589
+   ],
+   "explanation_lines": [
+    585,
+    591
+   ],
+   "options": [
+    {
+     "label": "A",
+     "start_line": 129,
+     "end_line": 129
+    },
+    {
+     "label": "B",
+     "start_line": 131,
+     "end_line": 131
+    },
+    {
+     "label": "C",
+     "start_line": 133,
+     "end_line": 133
+    },
+    {
+     "label": "D",
+     "start_line": 135,
+     "end_line": 135
+    }
+   ]
+  },
+  {
+   "unit_id": "Q12",
+   "unit_type": "standalone_question",
+   "section": "一．选择题",
+   "printed_number": "12",
+   "question_numbers": [
+    12
+   ],
+   "original_question_type": "single_choice",
+   "stem_lines": [
+    137,
+    139
+   ],
+   "options_lines": [
+    142,
+    150
+   ],
+   "extra_lines": null,
+   "answer_lines": [
+    608,
+    616
+   ],
+   "explanation_lines": [
+    606,
+    620
+   ],
+   "options": [
+    {
+     "label": "A",
+     "start_line": 142,
+     "end_line": 142
+    },
+    {
+     "label": "B",
+     "start_line": 144,
+     "end_line": 144
+    },
+    {
+     "label": "C",
+     "start_line": 146,
+     "end_line": 146
+    },
+    {
+     "label": "D",
+     "start_line": 150,
+     "end_line": 150
+    }
+   ]
+  },
+  {
+   "unit_id": "Q13",
+   "unit_type": "standalone_question",
+   "section": "二、实验题",
+   "printed_number": "13",
+   "question_numbers": [
+    13
+   ],
+   "original_question_type": "short_answer",
+   "stem_lines": [
+    154,
+    166
+   ],
+   "options_lines": null,
+   "extra_lines": null,
+   "answer_lines": [
+    634,
+    646
+   ],
+   "explanation_lines": [
+    638,
+    648
+   ]
+  },
+  {
+   "unit_id": "Q14",
+   "unit_type": "standalone_question",
+   "section": "二、实验题",
+   "printed_number": "14",
+   "question_numbers": [
+    14
+   ],
+   "original_question_type": "short_answer",
+   "stem_lines": [
+    168,
+    186
+   ],
+   "options_lines": null,
+   "extra_lines": null,
+   "answer_lines": [
+    662,
+    664
+   ],
+   "explanation_lines": [
+    672,
+    684
+   ]
+  },
+  {
+   "unit_id": "Q15",
+   "unit_type": "standalone_question",
+   "section": "三．解答题",
+   "printed_number": "15",
+   "question_numbers": [
+    15
+   ],
+   "original_question_type": "short_answer",
+   "stem_lines": [
+    190,
+    218
+   ],
+   "options_lines": null,
+   "extra_lines": null,
+   "answer_lines": [
+    701,
+    716
+   ],
+   "explanation_lines": [
+    718,
+    780
+   ]
+  },
+  {
+   "unit_id": "Q16",
+   "unit_type": "standalone_question",
+   "section": "三．解答题",
+   "printed_number": "16",
+   "question_numbers": [
+    16
+   ],
+   "original_question_type": "short_answer",
+   "stem_lines": [
+    220,
+    254
+   ],
+   "options_lines": null,
+   "extra_lines": null,
+   "answer_lines": [
+    787,
+    813
+   ],
+   "explanation_lines": [
+    816,
+    877
+   ]
+  },
+  {
+   "unit_id": "Q17",
+   "unit_type": "standalone_question",
+   "section": "三．解答题",
+   "printed_number": "17",
+   "question_numbers": [
+    17
+   ],
+   "original_question_type": "short_answer",
+   "stem_lines": [
+    257,
+    273
+   ],
+   "options_lines": null,
+   "extra_lines": null,
+   "answer_lines": [
+    883,
+    895
+   ],
+   "explanation_lines": [
+    898,
+    928
+   ]
+  }
+ ]
+}

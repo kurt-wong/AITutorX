@@ -1,0 +1,8 @@
+bytes=350855
+SEAL FAILED: TypeError
+Traceback (most recent call last):
+  File "<string>", line 14, in m
+  File "D:\Project\AITutors-v3\backend\app\domains\source\seal.py", line 115, in seal_document
+    result = await extractor(file_bytes)
+                   ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NativeTextProvider' object is not callable

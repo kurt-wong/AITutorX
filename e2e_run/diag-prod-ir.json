@@ -1,0 +1,1078 @@
+{
+  "artifact": "DIAG-PROD-IR",
+  "at": "2026-09-26T00:27:41+08:00",
+  "annotation_id": "3fae271a-4b01-486b-8d2c-badd8188ad93",
+  "annotation_status": "valid",
+  "annotation_schema_version": "semantic-metadata-annotation/v0.3",
+  "source_version_id": "5ed951e5-a1f8-4c6a-8b48-71a60a0ea79a",
+  "resolver": {
+    "lines": 1701,
+    "figures": 23,
+    "resolved_spans": 27,
+    "unresolved_references": [
+      {
+        "ref": "UnresolvedReference(reference_id='Q1.stem', role='stem', resolution_status='ambiguous', evidence=('question 1 start not unique',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q1.option.A', role='option', resolution_status='incomplete', evidence=('option A',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q1.option.B', role='option', resolution_status='incomplete', evidence=('option B',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q1.option.C', role='option', resolution_status='incomplete', evidence=('option C',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q1.option.D', role='option', resolution_status='incomplete', evidence=('option D',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q1.answer', role='answer', resolution_status='ambiguous', evidence=('answer row qn=1 spans multiple lines',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q2.stem', role='stem', resolution_status='ambiguous', evidence=('question 2 start not unique',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q2.option.A', role='option', resolution_status='incomplete', evidence=('option A',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q2.option.B', role='option', resolution_status='incomplete', evidence=('option B',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q2.option.C', role='option', resolution_status='incomplete', evidence=('option C',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q2.option.D', role='option', resolution_status='incomplete', evidence=('option D',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q2.answer', role='answer', resolution_status='missing', evidence=('answer row qn=2 not found',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q3.stem', role='stem', resolution_status='ambiguous', evidence=('question 3 start not unique',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q3.option.A', role='option', resolution_status='incomplete', evidence=('option A',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q3.option.B', role='option', resolution_status='incomplete', evidence=('option B',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q3.option.C', role='option', resolution_status='incomplete', evidence=('option C',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q3.option.D', role='option', resolution_status='incomplete', evidence=('option D',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q3.answer', role='answer', resolution_status='missing', evidence=('answer row qn=3 not found',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q4.stem', role='stem', resolution_status='ambiguous', evidence=('question 4 start not unique',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q4.option.A', role='option', resolution_status='incomplete', evidence=('option A',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q4.option.B', role='option', resolution_status='incomplete', evidence=('option B',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q4.option.C', role='option', resolution_status='incomplete', evidence=('option C',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q4.option.D', role='option', resolution_status='incomplete', evidence=('option D',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q4.answer', role='answer', resolution_status='missing', evidence=('answer row qn=4 not found',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q5.stem', role='stem', resolution_status='ambiguous', evidence=('question 5 start not unique',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q5.option.A', role='option', resolution_status='incomplete', evidence=('option A',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q5.option.B', role='option', resolution_status='incomplete', evidence=('option B',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q5.option.C', role='option', resolution_status='incomplete', evidence=('option C',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q5.option.D', role='option', resolution_status='incomplete', evidence=('option D',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q5.answer', role='answer', resolution_status='missing', evidence=('answer row qn=5 not found',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q6.stem', role='stem', resolution_status='ambiguous', evidence=('question 6 start not unique',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q6.option.A', role='option', resolution_status='incomplete', evidence=('option A',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q6.option.B', role='option', resolution_status='incomplete', evidence=('option B',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q6.option.C', role='option', resolution_status='incomplete', evidence=('option C',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q6.option.D', role='option', resolution_status='incomplete', evidence=('option D',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q6.answer', role='answer', resolution_status='missing', evidence=('answer row qn=6 not found',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q7.stem', role='stem', resolution_status='ambiguous', evidence=('question 7 start not unique',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q7.option.A', role='option', resolution_status='incomplete', evidence=('option A',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q7.option.B', role='option', resolution_status='incomplete', evidence=('option B',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q7.option.C', role='option', resolution_status='incomplete', evidence=('option C',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q7.option.D', role='option', resolution_status='incomplete', evidence=('option D',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q8.stem', role='stem', resolution_status='ambiguous', evidence=('question 8 start not unique',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q8.option.A', role='option', resolution_status='incomplete', evidence=('option A',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q8.option.B', role='option', resolution_status='incomplete', evidence=('option B',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q8.option.C', role='option', resolution_status='incomplete', evidence=('option C',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q8.option.D', role='option', resolution_status='incomplete', evidence=('option D',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q10.option.A', role='option', resolution_status='incomplete', evidence=('option A',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q10.option.B', role='option', resolution_status='incomplete', evidence=('option B',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q10.option.C', role='option', resolution_status='incomplete', evidence=('option C',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q10.option.D', role='option', resolution_status='incomplete', evidence=('option D',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q10.answer', role='answer', resolution_status='missing', evidence=('answer row qn=10 not found',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q16.explanation', role='explanation', resolution_status='missing', evidence=('no 详解/解析 header',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q17.explanation', role='explanation', resolution_status='missing', evidence=('no 详解/解析 header',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q18.explanation', role='explanation', resolution_status='missing', evidence=('no 详解/解析 header',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q19.stem', role='stem', resolution_status='ambiguous', evidence=('question 1 start not unique',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q19.option.A', role='option', resolution_status='incomplete', evidence=('option A',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q19.option.B', role='option', resolution_status='incomplete', evidence=('option B',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q19.option.C', role='option', resolution_status='incomplete', evidence=('option C',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q19.option.D', role='option', resolution_status='incomplete', evidence=('option D',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q19.answer', role='answer', resolution_status='ambiguous', evidence=('answer row qn=1 spans multiple lines',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q20.stem', role='stem', resolution_status='ambiguous', evidence=('question 2 start not unique',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q20.option.A', role='option', resolution_status='incomplete', evidence=('option A',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q20.option.B', role='option', resolution_status='incomplete', evidence=('option B',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q20.option.C', role='option', resolution_status='incomplete', evidence=('option C',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q20.option.D', role='option', resolution_status='incomplete', evidence=('option D',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q20.answer', role='answer', resolution_status='missing', evidence=('answer row qn=2 not found',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q21.stem', role='stem', resolution_status='ambiguous', evidence=('question 3 start not unique',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q21.option.A', role='option', resolution_status='incomplete', evidence=('option A',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q21.option.B', role='option', resolution_status='incomplete', evidence=('option B',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q21.option.C', role='option', resolution_status='incomplete', evidence=('option C',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q21.option.D', role='option', resolution_status='incomplete', evidence=('option D',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q21.answer', role='answer', resolution_status='missing', evidence=('answer row qn=3 not found',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q22.stem', role='stem', resolution_status='ambiguous', evidence=('question 4 start not unique',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q22.answer', role='answer', resolution_status='missing', evidence=('answer row qn=4 not found',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q23.stem', role='stem', resolution_status='ambiguous', evidence=('question 5 start not unique',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q23.answer', role='answer', resolution_status='missing', evidence=('answer row qn=5 not found',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q24.stem', role='stem', resolution_status='ambiguous', evidence=('question 6 start not unique',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q24.answer', role='answer', resolution_status='missing', evidence=('answer row qn=6 not found',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q25.stem', role='stem', resolution_status='ambiguous', evidence=('question 7 start not unique',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q25.explanation', role='explanation', resolution_status='missing', evidence=('no 详解/解析 header',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q26.stem', role='stem', resolution_status='ambiguous', evidence=('question 8 start not unique',))",
+        "reason": ""
+      },
+      {
+        "ref": "UnresolvedReference(reference_id='Q26.explanation', role='explanation', resolution_status='missing', evidence=('no 详解/解析 header',))",
+        "reason": ""
+      }
+    ],
+    "unresolved_count": 82
+  },
+  "ir": {
+    "top_level_units": 26,
+    "tally": {
+      "incomplete": 20,
+      "ready": 6
+    }
+  },
+  "units": [
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_unit",
+      "original_question_type": "single_choice",
+      "canonical_type": "single_choice",
+      "semantic_status": "incomplete",
+      "content_roles": [
+        "stem",
+        "answer",
+        "option",
+        "option",
+        "option",
+        "option"
+      ],
+      "content_span_ids": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": [
+        "stem unresolved",
+        "answer unresolved",
+        "role stem unresolved",
+        "role answer unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved"
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_unit",
+      "original_question_type": "single_choice",
+      "canonical_type": "single_choice",
+      "semantic_status": "incomplete",
+      "content_roles": [
+        "stem",
+        "answer",
+        "option",
+        "option",
+        "option",
+        "option"
+      ],
+      "content_span_ids": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": [
+        "stem unresolved",
+        "answer unresolved",
+        "role stem unresolved",
+        "role answer unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved"
+      ]
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_unit",
+      "original_question_type": "single_choice",
+      "canonical_type": "single_choice",
+      "semantic_status": "incomplete",
+      "content_roles": [
+        "stem",
+        "answer",
+        "option",
+        "option",
+        "option",
+        "option"
+      ],
+      "content_span_ids": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": [
+        "stem unresolved",
+        "answer unresolved",
+        "role stem unresolved",
+        "role answer unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved"
+      ]
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_unit",
+      "original_question_type": "single_choice",
+      "canonical_type": "single_choice",
+      "semantic_status": "incomplete",
+      "content_roles": [
+        "stem",
+        "answer",
+        "option",
+        "option",
+        "option",
+        "option"
+      ],
+      "content_span_ids": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": [
+        "stem unresolved",
+        "answer unresolved",
+        "role stem unresolved",
+        "role answer unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved"
+      ]
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "standalone_unit",
+      "original_question_type": "single_choice",
+      "canonical_type": "single_choice",
+      "semantic_status": "incomplete",
+      "content_roles": [
+        "stem",
+        "answer",
+        "option",
+        "option",
+        "option",
+        "option"
+      ],
+      "content_span_ids": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": [
+        "stem unresolved",
+        "answer unresolved",
+        "role stem unresolved",
+        "role answer unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved"
+      ]
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "standalone_unit",
+      "original_question_type": "single_choice",
+      "canonical_type": "single_choice",
+      "semantic_status": "incomplete",
+      "content_roles": [
+        "stem",
+        "answer",
+        "option",
+        "option",
+        "option",
+        "option"
+      ],
+      "content_span_ids": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": [
+        "stem unresolved",
+        "answer unresolved",
+        "role stem unresolved",
+        "role answer unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved"
+      ]
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "standalone_unit",
+      "original_question_type": "single_choice",
+      "canonical_type": "single_choice",
+      "semantic_status": "incomplete",
+      "content_roles": [
+        "stem",
+        "answer",
+        "option",
+        "option",
+        "option",
+        "option"
+      ],
+      "content_span_ids": [
+        null,
+        "sp-Q7.answer",
+        null,
+        null,
+        null,
+        null
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": [
+        "stem unresolved",
+        "role stem unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved"
+      ]
+    },
+    {
+      "unit_id": "Q8",
+      "unit_type": "standalone_unit",
+      "original_question_type": "single_choice",
+      "canonical_type": "single_choice",
+      "semantic_status": "incomplete",
+      "content_roles": [
+        "stem",
+        "answer",
+        "option",
+        "option",
+        "option",
+        "option"
+      ],
+      "content_span_ids": [
+        null,
+        "sp-Q8.answer",
+        null,
+        null,
+        null,
+        null
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": [
+        "stem unresolved",
+        "role stem unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved"
+      ]
+    },
+    {
+      "unit_id": "Q9",
+      "unit_type": "standalone_unit",
+      "original_question_type": "single_choice",
+      "canonical_type": "single_choice",
+      "semantic_status": "ready",
+      "content_roles": [
+        "stem",
+        "answer",
+        "option",
+        "option",
+        "option",
+        "option"
+      ],
+      "content_span_ids": [
+        "sp-Q9.stem",
+        "sp-Q9.answer",
+        "sp-Q9.option.A",
+        "sp-Q9.option.B",
+        "sp-Q9.option.C",
+        "sp-Q9.option.D"
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": []
+    },
+    {
+      "unit_id": "Q10",
+      "unit_type": "standalone_unit",
+      "original_question_type": "single_choice",
+      "canonical_type": "single_choice",
+      "semantic_status": "incomplete",
+      "content_roles": [
+        "stem",
+        "answer",
+        "option",
+        "option",
+        "option",
+        "option"
+      ],
+      "content_span_ids": [
+        "sp-Q10.stem",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": [
+        "answer unresolved",
+        "role answer unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved"
+      ]
+    },
+    {
+      "unit_id": "Q11",
+      "unit_type": "standalone_unit",
+      "original_question_type": "fill_in",
+      "canonical_type": "fill_in",
+      "semantic_status": "ready",
+      "content_roles": [
+        "stem",
+        "answer"
+      ],
+      "content_span_ids": [
+        "sp-Q11.stem",
+        "sp-Q11.answer"
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": []
+    },
+    {
+      "unit_id": "Q12",
+      "unit_type": "standalone_unit",
+      "original_question_type": "fill_in",
+      "canonical_type": "fill_in",
+      "semantic_status": "ready",
+      "content_roles": [
+        "stem",
+        "answer"
+      ],
+      "content_span_ids": [
+        "sp-Q12.stem",
+        "sp-Q12.answer"
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": []
+    },
+    {
+      "unit_id": "Q13",
+      "unit_type": "standalone_unit",
+      "original_question_type": "fill_in",
+      "canonical_type": "fill_in",
+      "semantic_status": "ready",
+      "content_roles": [
+        "stem",
+        "answer"
+      ],
+      "content_span_ids": [
+        "sp-Q13.stem",
+        "sp-Q13.answer"
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": []
+    },
+    {
+      "unit_id": "Q14",
+      "unit_type": "standalone_unit",
+      "original_question_type": "fill_in",
+      "canonical_type": "fill_in",
+      "semantic_status": "ready",
+      "content_roles": [
+        "stem",
+        "answer"
+      ],
+      "content_span_ids": [
+        "sp-Q14.stem",
+        "sp-Q14.answer"
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": []
+    },
+    {
+      "unit_id": "Q15",
+      "unit_type": "standalone_unit",
+      "original_question_type": "fill_in",
+      "canonical_type": "fill_in",
+      "semantic_status": "ready",
+      "content_roles": [
+        "stem",
+        "answer"
+      ],
+      "content_span_ids": [
+        "sp-Q15.stem",
+        "sp-Q15.answer"
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": []
+    },
+    {
+      "unit_id": "Q16",
+      "unit_type": "standalone_unit",
+      "original_question_type": "short_answer",
+      "canonical_type": "short_answer",
+      "semantic_status": "incomplete",
+      "content_roles": [
+        "stem",
+        "answer",
+        "explanation"
+      ],
+      "content_span_ids": [
+        "sp-Q16.stem",
+        "sp-Q16.answer",
+        null
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": [
+        "role explanation unresolved"
+      ]
+    },
+    {
+      "unit_id": "Q17",
+      "unit_type": "standalone_unit",
+      "original_question_type": "short_answer",
+      "canonical_type": "short_answer",
+      "semantic_status": "incomplete",
+      "content_roles": [
+        "stem",
+        "answer",
+        "explanation"
+      ],
+      "content_span_ids": [
+        "sp-Q17.stem",
+        "sp-Q17.answer",
+        null
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": [
+        "role explanation unresolved"
+      ]
+    },
+    {
+      "unit_id": "Q18",
+      "unit_type": "standalone_unit",
+      "original_question_type": "short_answer",
+      "canonical_type": "short_answer",
+      "semantic_status": "incomplete",
+      "content_roles": [
+        "stem",
+        "answer",
+        "explanation"
+      ],
+      "content_span_ids": [
+        "sp-Q18.stem",
+        "sp-Q18.answer",
+        null
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": [
+        "role explanation unresolved"
+      ]
+    },
+    {
+      "unit_id": "Q19",
+      "unit_type": "standalone_unit",
+      "original_question_type": "single_choice",
+      "canonical_type": "single_choice",
+      "semantic_status": "incomplete",
+      "content_roles": [
+        "stem",
+        "answer",
+        "option",
+        "option",
+        "option",
+        "option"
+      ],
+      "content_span_ids": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": [
+        "stem unresolved",
+        "answer unresolved",
+        "role stem unresolved",
+        "role answer unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved"
+      ]
+    },
+    {
+      "unit_id": "Q20",
+      "unit_type": "standalone_unit",
+      "original_question_type": "single_choice",
+      "canonical_type": "single_choice",
+      "semantic_status": "incomplete",
+      "content_roles": [
+        "stem",
+        "answer",
+        "option",
+        "option",
+        "option",
+        "option"
+      ],
+      "content_span_ids": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": [
+        "stem unresolved",
+        "answer unresolved",
+        "role stem unresolved",
+        "role answer unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved"
+      ]
+    },
+    {
+      "unit_id": "Q21",
+      "unit_type": "standalone_unit",
+      "original_question_type": "single_choice",
+      "canonical_type": "single_choice",
+      "semantic_status": "incomplete",
+      "content_roles": [
+        "stem",
+        "answer",
+        "option",
+        "option",
+        "option",
+        "option"
+      ],
+      "content_span_ids": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": [
+        "stem unresolved",
+        "answer unresolved",
+        "role stem unresolved",
+        "role answer unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved"
+      ]
+    },
+    {
+      "unit_id": "Q22",
+      "unit_type": "standalone_unit",
+      "original_question_type": "fill_in",
+      "canonical_type": "fill_in",
+      "semantic_status": "incomplete",
+      "content_roles": [
+        "stem",
+        "answer"
+      ],
+      "content_span_ids": [
+        null,
+        null
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": [
+        "stem unresolved",
+        "answer unresolved",
+        "role stem unresolved",
+        "role answer unresolved"
+      ]
+    },
+    {
+      "unit_id": "Q23",
+      "unit_type": "standalone_unit",
+      "original_question_type": "fill_in",
+      "canonical_type": "fill_in",
+      "semantic_status": "incomplete",
+      "content_roles": [
+        "stem",
+        "answer"
+      ],
+      "content_span_ids": [
+        null,
+        null
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": [
+        "stem unresolved",
+        "answer unresolved",
+        "role stem unresolved",
+        "role answer unresolved"
+      ]
+    },
+    {
+      "unit_id": "Q24",
+      "unit_type": "standalone_unit",
+      "original_question_type": "fill_in",
+      "canonical_type": "fill_in",
+      "semantic_status": "incomplete",
+      "content_roles": [
+        "stem",
+        "answer"
+      ],
+      "content_span_ids": [
+        null,
+        null
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": [
+        "stem unresolved",
+        "answer unresolved",
+        "role stem unresolved",
+        "role answer unresolved"
+      ]
+    },
+    {
+      "unit_id": "Q25",
+      "unit_type": "standalone_unit",
+      "original_question_type": "short_answer",
+      "canonical_type": "short_answer",
+      "semantic_status": "incomplete",
+      "content_roles": [
+        "stem",
+        "answer",
+        "explanation"
+      ],
+      "content_span_ids": [
+        null,
+        "sp-Q25.answer",
+        null
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": [
+        "stem unresolved",
+        "role stem unresolved",
+        "role explanation unresolved"
+      ]
+    },
+    {
+      "unit_id": "Q26",
+      "unit_type": "standalone_unit",
+      "original_question_type": "short_answer",
+      "canonical_type": "short_answer",
+      "semantic_status": "incomplete",
+      "content_roles": [
+        "stem",
+        "answer",
+        "explanation"
+      ],
+      "content_span_ids": [
+        null,
+        "sp-Q26.answer",
+        null
+      ],
+      "shared_roles": [],
+      "sub_units": [],
+      "problems": [
+        "stem unresolved",
+        "role stem unresolved",
+        "role explanation unresolved"
+      ]
+    }
+  ],
+  "compiled": {
+    "leaves": 6,
+    "materials": 0,
+    "leaf_unit_ids": [
+      "Q9",
+      "Q11",
+      "Q12",
+      "Q13",
+      "Q14",
+      "Q15"
+    ]
+  }
+}
