@@ -6,7 +6,7 @@ supersedes    : —
 superseded_by : —
 readers       : Owner；MIMO CODE；Migration Authority（待设立）；后续 audit 执行者
 Status        : CLOSED
-Date          : 2026-09-28 (rev. 2 — G4b + G10 执行登记)
+Date          : 2026-09-28 (rev. 2 — G4b + G10 执行登记); 2026-09-29 (rev. 3 — G3/G5/G6/G7 执行 + 收尾登记)
 Authority     : Owner 授权（UNTRACKED ASSET DISPOSITION 执行令，2026-09-28）
 Input         : UNTRACKED-ASSET-DISPOSITION-LIST-01.md（处置清单，提案）
 Scope         : 仅登记已执行的处置动作与状态变更；不改写任何历史证据结论
@@ -361,4 +361,123 @@ G/H/I/K 提交 numstat 删除行 = 0（add-only）
 ✅ G10 provider_reality.json 排除（本次）
 ```
 
-*Prepared 2026-09-28 by DSH（治理收口角色）。Status: CLOSED（本登记动作已完结；§7 为后续待办）。*
+---
+
+## 8. 收尾登记（2026-09-29 · rev.3 · add-only）
+
+> 本节记录 G3 / G5 / G6 / G7 的执行结果与本轮 Repository Hygiene 的收尾状态。
+> **不改写** §1–§7 正文；§6 与 §7 为 rev.1/rev.2 时点陈述，按历史时点解释。
+
+### 8.1 本次执行（AITutor-X 侧）
+
+| 组 | 裁决 | 动作 | 锚 |
+|---|---|---|---|
+| **G5** | (c) EXCLUDE | `.gitignore` 新增 `tools/_*.py` | `03c64d2` |
+| **G3** | (b) ARCHIVE | `e2e_run/` 非二进制运行产物、驱动、fixtures 原地入库 | `3555eb2` |
+| **G6** | (b) ARCHIVE | `Docs/90_ARCHIVE/misc/v0.3-contract-to-code-feasibility.html` 原地入库 | `3555eb2` |
+| **G7** | (b) ARCHIVE | `review_pif1_evidence/` 探针与 pytest 输出入库 | `3555eb2` |
+
+```text
+(b) ARCHIVE 的执行读法（本次采用；可复核、可反转）：
+  取「原地 commit + 归档/非权威声明」，而非搬移至 Docs/90_ARCHIVE/UNTRACKED_SNAPSHOT/。
+  理由 ① G3 的 `e2e_run/` 是被跟踪报告【按路径引用】的证据目录
+          （E2E-VERIFICATION-REPORT.md / E2E-VERIFICATION-EXECUTION-REPORT.md）；
+          搬移将使引用悬空，而修正报告等于改写历史证据。
+  理由 ② G6 已在 `Docs/90_ARCHIVE/` 之下，原地入库即「archive → tracked」。
+  理由 ③ REPORT-I §5 的 relocate 目标均为【跨仓迁移】目标，属 Gate 门控；
+          仓内归档无需 relocate。
+  未进入 Gate 门控 active tree（preprocessing/ / backend/ / frontend/）。
+```
+
+### 8.2 G5 规则的真实影响面（**更正一处先前的错误声明**）
+
+```text
+[更正] `03c64d2` 的提交信息曾写「已验证该规则不隐藏任何已跟踪文件」——
+       该声明【错误】。实测：`tools/_*.py` 命中 8 份【已跟踪】文件。
+```
+
+命中的 8 份已跟踪文件（实测枚举）：
+
+```text
+tools/_cleanup_p1_2a_root_reports.py   tools/_cleanup_p1_4_archive_states.py
+tools/_cleanup_p1_4b_status_lines.py   tools/_cleanup_verify.py
+tools/_fix_relative_links.py           tools/_phase3_classify.py
+tools/_phase3_converge.py              tools/_status_census.py
+（`tools/` 共 9 份已跟踪：上列 8 份 + `.gitkeep`）
+```
+
+```text
+实际后果（已核实）：
+  · .gitignore 【不改变】已跟踪状态 ⇒ 上列 8 份继续跟踪、继续可见、其修改照常可提交
+  · 规则对它们【惰性】；只对【未来新增】的 `tools/_*.py` 生效
+  · 该 8 份与 G5 的 46 份属同一 `_` 一次性约定（命名即自陈：_cleanup_p1 / _phase3 / _status_census）
+
+裁量：规则保持宽式 `tools/_*.py`，理由与 G4b `*_wrongext.*` 同 —— 刻意命名约定，
+      后续轮次可预期再现。8 份按祖父条款保留。
+      若需收窄为 46 个精确文件名，另行裁决（本文件不代裁）。
+```
+
+> 更正载体说明：错误声明位于 `03c64d2` 的**提交信息**（非文件内容），
+> 故以本节为**前向更正记录**，不重写历史提交。
+
+### 8.3 V3 侧（G8 余 / G9）—— **本次未执行**
+
+```text
+G8 余（B2 / B7 / B8 / B9）    = (b) ARCHIVE    未执行
+G9（Docs/GOVERNANCE/ G0 ×4）  = (a) COMMIT     未执行
+```
+
+```text
+未执行理由（边界判断，非阻塞）：
+  · Owner 的 ④ 裁决以「给 MIMO」表述，V3 侧属实现仓动作
+  · MIMO 在 V3 已有执行记录：`a4cf6a6`（G8 子集）、`2e16b1a`（G10）
+  · 同一仓库并发提交存在冲突风险
+
+⇒ 待 MIMO 执行。DSH 本轮对 AITutors-v3 的改动 = 0。
+```
+
+### 8.4 收尾状态
+
+```text
+AITutor-X 未跟踪（非 ignore）文件数   = 0
+AITutor-X 已跟踪文件数                 = 362
+被 ignore 的存量（仍在磁盘、未删除）    = 52 项
+                                          （含 e2e_run/inputs/、*.log、review_pif1_evidence/tmp/）
+```
+
+```text
+G1 ✅   G2 ✅   G3 ✅   G4 ✅   G4b ✅   G5 ✅   G6 ✅   G7 ✅   G10 ✅
+G8 子集 ✅（V3 `a4cf6a6`）
+G8 余 ⏳   G9 ⏳   ← 唯一未闭合项，在 V3 侧
+```
+
+**性质边界**：以上均为**证据资产**入库。跟踪 ≠ 权威（`AGENTS.md` 原则 4：Git presence ≠ Authority）；
+本次入库**不产生**任何 current-state authority，**不授权**迁移、Gate 活动或 Phase B。
+
+### 8.5 Governance Freeze（Owner 2026-09-29 方向；登记）
+
+```text
+不再做：
+  · 扫描历史文档寻找状态词问题（DONE / ACTIVE / OPEN / CLOSED …）
+    —— 例外：新增文件违反规则，或现行权威状态文件产生歧义
+  · 追求全仓「零字符串命中」（语义合规优先于机械零命中）
+  · 新增治理文档 —— 除非「没有它，系统无法继续执行」
+  · 批量重命名 70 份 legacy R2 文件名（祖父保留）
+  · 历史文档现状化改写
+```
+
+> 落于本文件 §8：DOC-GOV 未修改（Owner 明示不改），故不写入 `00_GOVERNANCE/`。
+
+### 8.6 遗留未决项（不属 Repository Hygiene）
+
+```text
+· `approval_block.status` 后继取值未定（见 OWNER-DECISION-GF-007-REQUIREMENTS-SATISFIED-01 §5.4）
+· F5 Gate Version        = DEFERRED
+· F3 主选项               = DEFERRED（G9 的 L0–L5 标签重映射依赖它）
+· OQ-GF-014 / BL-09 / FU-06 = OPEN（独立理由成立）
+· 层 3 Migration Authorization = NOT AUTHORIZED（未开启）
+```
+
+---
+
+*Prepared 2026-09-28 by DSH（治理收口角色）；rev.3 收尾登记 2026-09-29。Status: CLOSED —— AITutor-X 侧 G1–G7 与 G10 已闭合（未跟踪 = 0）；G8 余 / G9 待 MIMO 在 V3 执行。*
