@@ -60,6 +60,11 @@ data/
 # Deliberately-malformed-extension fixtures (negative-test inputs; not source, not evidence)
 # Disposition: UNTRACKED-ASSET-DISPOSITION-EXECUTION-01.md §5.1 (group G4b, decision (c) EXCLUDE; Owner 2026-09-28)
 *_wrongext.*
+# Ad-hoc diagnostic scripts (underscore-prefixed one-shot tools; not source, not evidence)
+# Disposition: UNTRACKED-ASSET-DISPOSITION-EXECUTION-01.md §8 (group G5, decision (c) EXCLUDE; Owner 2026-09-29)
+# Verified 2026-09-29: zero callers (no imports, no CI, no test config referencing tools/_*.py)
+# Note: tools/ stays a Gate-gated skeleton path; this rule matches only the _* scratch prefix.
+tools/_*.py
 *.csv
 *.parquet
 *.db
