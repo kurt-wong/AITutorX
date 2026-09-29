@@ -56,7 +56,7 @@
 
 **影响**: 阻塞 V3 Phase 3+ 实现。
 
-**状态（2026-09-29 追注）**: OD-002 = (C) working reference。**D2 = (b)** 已裁（仅 DESIGN-v1.1 §4.2–§4.6 M1–M5 interface reference；§1/§2/§3 排除）。**D3 = (c)** 已裁（bugfix 级 migration only；业务 schema 扩展 STOP；N-values/multi-blank 不开口）。**D4 仍 OPEN**。
+**状态（2026-09-29 追注）**: OD-002 = (C) working reference。**D2 = (b)** 已裁（仅 DESIGN-v1.1 §4.2–§4.6 M1–M5 interface reference；§1/§2/§3 排除）。**D3 = (c)** 已裁（bugfix 级 migration only；业务 schema 扩展 STOP；N-values/multi-blank 不开口）。**D4 = (b)** 已裁（M1–M5 interface 实现授权；§1 双轴 excluded）。**OD-003 D2/D3/D4 全部 DECIDED**。Multi-blank 仍 BLOCKED。
 建议分层裁：D2（实现依据范围）→ D3（schema/migration 边界）→ D4（LIMITED 扩面）。
 多空题 representation 另见 V3 `LIMITED-…-v0.3 §D.1` **BLOCKED**（L0 冲突，未进本队列）。
 
