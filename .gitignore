@@ -55,10 +55,10 @@ temp/
 corpus/
 data/
 # Binary document fixtures (source corpus; evidence kept in reports, not the binary)
-# Disposition: UNTRACKED-ASSET-DISPOSITION-LIST-01.md §2.3 (group G4, decision (c) EXCLUDE)
+# Disposition: UNTRACKED-ASSET-DISPOSITION-EXECUTION-01.md §2.3 (group G4, decision (c) EXCLUDE; Owner 2026-09-28)
 *.pdf
 # Deliberately-malformed-extension fixtures (negative-test inputs; not source, not evidence)
-# Disposition: UNTRACKED-ASSET-DISPOSITION-LIST-01.md §2.3 (group G4b, decision (c) EXCLUDE)
+# Disposition: UNTRACKED-ASSET-DISPOSITION-EXECUTION-01.md §5.1 (group G4b, decision (c) EXCLUDE; Owner 2026-09-28)
 *_wrongext.*
 *.csv
 *.parquet

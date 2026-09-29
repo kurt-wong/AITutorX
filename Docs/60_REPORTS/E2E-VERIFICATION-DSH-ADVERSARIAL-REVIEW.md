@@ -28,7 +28,7 @@ ACCEPTED WITH FINDINGS
 | 执行证据（代码引用、DB 行数、artifact 数值） | **PASS** —— 12/12 DB 行数、6/6 Frozen Spec SHA256、核心代码引用全部复现 |
 | 数值口径（语料统计、真实输入规模） | **FAIL** —— 两处 headline 数字的**归属范围错误**，其中一处把 22 份 manifest 的子集标成「全语料」 |
 | 治理自我定位（STOP / Phase / 与既有裁决记录的关系） | **FAIL** —— 全文**零次**引用 `LIMITED-IMPLEMENTATION-AUTHORIZATION-v0.3`，且与 **11 分钟前刚闭合**的 OD-R-01 收口记录边界表相冲突而未调和 |
-| 既有工作衔接（仓内已有同类独立验证） | **FAIL** —— 同目录下 2026-09-22 的 `MIMO-PREPROCESSING-V3-LOCAL-INDEPENDENT-VERIFICATION.md`（952 行）已覆盖同一组 gap 且规模大 172 倍，报告**零引用**，并与其在两点上**结论冲突未调和** |
+| 既有工作衔接（仓内已有同类独立验证） | **FAIL** —— 同目录下 2026-09-22 的 `PREPROCESSING-V3-LOCAL-INDEPENDENT-VERIFICATION.md`（952 行；原名 `MIMO-…`，2026-09-28 按 DOC-GOV R2 重命名）已覆盖同一组 gap 且规模大 172 倍，报告**零引用**，并与其在两点上**结论冲突未调和** |
 
 **不阻断**：EV-01–EV-13 均不推翻 report 的 `PARTIAL` / `FIRST BLOCKING POINT` / `questions=0`
 等核心判定 —— 事实上 DSH 独立查库**完全确认**了这些判定。缺陷集中在「数字归属」「治理定位」
@@ -324,7 +324,7 @@ Phase 6  End-to-End Verification
 
 **DSH 实测**：同一目录下存在
 
-`AITutor-X/Docs/60_REPORTS/MIMO-PREPROCESSING-V3-LOCAL-INDEPENDENT-VERIFICATION.md`
+`AITutor-X/Docs/60_REPORTS/PREPROCESSING-V3-LOCAL-INDEPENDENT-VERIFICATION.md`
 （**952 行**，`Date: 2026-09-22`，`Authority: Independent auditor (MiMo)`，untracked）
 
 该报告已记录（DSH 逐行读取）：

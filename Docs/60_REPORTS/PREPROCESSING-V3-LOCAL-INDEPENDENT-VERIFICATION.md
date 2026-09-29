@@ -1,6 +1,7 @@
-# MIMO-PREPROCESSING-V3-LOCAL-INDEPENDENT-VERIFICATION
+# PREPROCESSING-V3-LOCAL-INDEPENDENT-VERIFICATION
 
-**Document ID**: MIMO-PREPROCESSING-V3-LOCAL-INDEPENDENT-VERIFICATION  
+**Document ID**: PREPROCESSING-V3-LOCAL-INDEPENDENT-VERIFICATION  
+**Name History**: file and Document ID renamed 2026-09-28 from `MIMO-PREPROCESSING-V3-LOCAL-INDEPENDENT-VERIFICATION` per DOC-GOV §8 R2 (producer name must not appear in filename). Body findings and Date unchanged.  
 **Document Type**: Independent Forensic Audit / Feasibility Verification  
 **Date**: 2026-09-22  
 **Authority**: Independent auditor (MiMo). Evidence-first. No architecture decision taken on behalf of Owner.  

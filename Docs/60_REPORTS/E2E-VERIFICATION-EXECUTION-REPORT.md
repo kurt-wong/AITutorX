@@ -732,7 +732,7 @@ artifact 中固化 `run_once_return_semantics` 字段。
 
 ## 9b. Prior Art / Reconciliation（EV-06 处理）
 
-对照仓内既有独立验证 `Docs/60_REPORTS/MIMO-PREPROCESSING-V3-LOCAL-INDEPENDENT-VERIFICATION.md`
+对照仓内既有独立验证 `Docs/60_REPORTS/PREPROCESSING-V3-LOCAL-INDEPENDENT-VERIFICATION.md`
 （952 行，2026-09-22，Independent auditor MiMo，X2.7 172-manifest 全量）：
 
 | 议题 | MIMO 报告（2026-09-22） | 本次实测（2026-09-26） | 判定 |

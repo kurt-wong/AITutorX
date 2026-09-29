@@ -1,11 +1,11 @@
 # UNTRACKED-ASSET-DISPOSITION-LIST-01
 
 ```text
-Document Type : Disposition List (PROPOSAL — 待 Owner 裁决，非决定)
+Document Type : Disposition List (PARTIALLY EXECUTED — 见 §8；残余组仍待 Owner 裁决)
 supersedes    : —
 superseded_by : —
 readers       : Owner（裁决方）；MIMO CODE（执行方，需单独授权）；Migration Authority（待设立）
-Status        : OPEN
+Status        : PARTIALLY EXECUTED
 Date          : 2026-09-28
 Authority     : REPORT-I-MIGRATION-GATE-DEFINITION.md §1 F7 / §5
                 AGENTS.md 原则 4（Git presence ≠ Authority）、原则 5（未经 Migration Gate 不得进入 active tree）
@@ -63,7 +63,7 @@ Docs/ 已跟踪树               : 00_GOVERNANCE 17 / 10_SPEC 5 / 20_ARCHITECTUR
 | A4 | `REPORT-K-SOURCE-LINEAGE-AUDIT.md` | 32.1 KB | 2026-09-17 | Independent Evidence Auditor | 证据 L3/L4 | **(a) COMMIT** |
 | A5 | `E2E-VERIFICATION-REPORT.md` | 58.5 KB | 2026-09-25 | E2E 验证报告（含 fixture/commit/DB evidence） | 证据 L3 | **(a) COMMIT** |
 | A6 | `E2E-VERIFICATION-EXECUTION-REPORT.md` | 47.8 KB | 2026-09-26 | E2E 执行证据记录（含 V3@d2b9a26 / Producer@2b92898 锚） | 证据 L3 | **(a) COMMIT** |
-| A7 | `MIMO-PREPROCESSING-V3-LOCAL-INDEPENDENT-VERIFICATION.md` | 51.1 KB | 2026-09-22 | Independent Forensic Audit（Evidence-first） | 证据 L3/L4 | **(a) COMMIT** |
+| A7 | `PREPROCESSING-V3-LOCAL-INDEPENDENT-VERIFICATION.md` | 51.1 KB | 2026-09-22 | Independent Forensic Audit（Evidence-first） | 证据 L3/L4 | **(a) COMMIT** |
 | A8 | `PRIMARY-PATH-MINIMAL-LOOP-PROBE-RESULT.md` | 2.3 KB | 2026-09-27 | READ-ONLY 探针结果 | 证据 L4 | **(a) COMMIT** → 已移至 `PRIMARY-PATH-MINIMAL-LOOP-01-artifacts/20-` |
 
 **支撑 (a) 的三条事实：**
@@ -350,4 +350,52 @@ generated_at : 2026-09-26T05:04:40Z   ← 早于 Phase A（eecd60b），非本�
 4. 随后才进入 REPORT-I §2.1 的 4 项 P0（Migration Authority / Gate 批准 / Taxonomy / Set B）
 ```
 
-*Prepared 2026-09-28 by DSH（治理收口角色）。Status: OPEN — 待 Owner 裁决。*
+---
+
+## 8. 执行状态追注（2026-09-28 add-only）
+
+> 本节为执行后追加的状态登记，**不改写** §1–§7 的提案正文与建议动作。
+> 执行明细见 `UNTRACKED-ASSET-DISPOSITION-EXECUTION-01.md`（CLOSED）。
+
+### 8.1 已执行组
+
+| 组 | 结果 | 锚 |
+|---|---|---|
+| G1 (A1–A8) | (a) COMMIT | `40e0816` |
+| G2 (A9 probe) | (b) ARCHIVE → `PRIMARY-PATH-MINIMAL-LOOP-01-artifacts/30-` | `40e0816` |
+| G4 (3 PDF) | (c) EXCLUDE + `.gitignore` `*.pdf` | `40e0816` |
+| G4b (`caseC_wrongext.txt`) | (c) EXCLUDE + `.gitignore` `*_wrongext.*` | `53082b7` |
+| G8 subset (B1/B3–B6) | (a) COMMIT（V3） | V3 `a4cf6a6` |
+| G10 (`provider_reality.json`) | (c) EXCLUDE（V3 `.gitignore`） | V3 `2e16b1a` |
+
+### 8.2 待 Owner 裁决组（残余）
+
+G3（`e2e_run/` 非二进制）、G5（`tools/_*.py` ×46）、G6（`Docs/90_ARCHIVE/misc/`）、
+G7（`review_pif1_evidence/`）、G8 余（B2/B7/B8/B9）、G9（V3 `Docs/GOVERNANCE/` G0）。
+
+### 8.3 R2 文件名合规修正（前进式，非回改结论）
+
+```text
+问题   : 40e0816 入库的 A7 文件名含生产者前缀 MIMO-，违反 DOC-GOV §8 R2
+         （该规则 2026-09-27 生效后新增，不受 grandfather 保护）
+动作   : git mv
+         MIMO-PREPROCESSING-V3-LOCAL-INDEPENDENT-VERIFICATION.md
+      →  PREPROCESSING-V3-LOCAL-INDEPENDENT-VERIFICATION.md
+同步   : Document ID 与 H1 对齐新名；增加 Name History 保留旧 ID
+         更新 5 处路径引用（DSH-REVIEW ×2 / EXECUTION-REPORT / EXECUTION-01 / 本清单 A7）
+未改   : Date 2026-09-22、全部 findings 与结论正文
+责任   : 本清单 A7 行曾建议 (a) COMMIT 未要求先改名 —— 源头在清单准备，非执行方
+```
+
+### 8.4 Legacy R2 命中登记（不批量改名）
+
+```text
+全仓 tracked 文件名含 MIMO / CLAUDE / DSH 者：71 份（修正后仍为 70 份 legacy）
+  Docs/60_REPORTS/            68
+  仓库根                        1  （MIMO-TASK-GOV-BOUNDARY-PRIMARY-PREP-01.md）
+  Docs/20_ARCHITECTURE/ 等     2
+其中 40e0816 新增的 A7 已于 §8.3 修正；其余 70 份为 DOC-GOV（2026-09-27）之前遗留。
+处置  : 只登记，不批量改名（批量改名属大规模重构，AGENTS.md 禁止）。
+```
+
+*Prepared 2026-09-28 by DSH（治理收口角色）。Status: PARTIALLY EXECUTED（2026-09-28）— G1/G2/G4/G4b/G8-subset/G10 已执行；G3/G5/G6/G7/G8-rest/G9 待 Owner 裁决。*
