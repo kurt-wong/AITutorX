@@ -36,6 +36,10 @@
 
 **影响**: 直接影响 D2/D3/D4 是否可执行。
 
+**状态（2026-09-29 追注）**: **Owner 裁 (C) WORKING REFERENCE (L7)**。赋权 DEFERRED 至 D2/D3/D4 closure。
+登记落点: AITutors-v3 `DESIGN-v1.1` 文首批注 + `EB008-P1-IMPLEMENTATION-NOTES.md §10` + commit `6279136`。
+**不**在本文件新建 Decision；正文选项历史保留。
+
 ---
 
 ### OD-003: D2 / D3 / D4 裁决
@@ -51,6 +55,11 @@
 **前提**: OD-002 需先解决（authority anchoring）。
 
 **影响**: 阻塞 V3 Phase 3+ 实现。
+
+**状态（2026-09-29 追注）**: OD-002 已裁 (C) working reference。D2/D3/D4 仍 **OPEN**。
+建议分层裁：D2（实现依据范围）→ D3（schema/migration 边界）→ D4（LIMITED 扩面）。
+多空题 representation 另见 V3 `LIMITED-…-v0.3 §D.1` **BLOCKED**（L0 冲突，未进本队列）。
+
 
 ---
 
