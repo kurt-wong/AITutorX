@@ -1,0 +1,70 @@
+{
+  "dataset": "D:\\Project\\Papers\\tests",
+  "version": "phase0.2-r2-evidence-faithful",
+  "total_manifests": 2,
+  "total_units": 46,
+  "summary": {
+    "completed": 0,
+    "error": 0,
+    "identity_blocked": 2,
+    "ready_total": 0,
+    "skipped_total": 0,
+    "gate_auto_approve": 0,
+    "gate_rejected": 0,
+    "gate_pending_review": 0,
+    "compiled_leaves_total": 0
+  },
+  "papers": [
+    {
+      "paper": "2019北京101中学高二（下）期中生物含答案(1)",
+      "units": 21,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "geo_2018北京春季高中会考地理（教师版）(1)",
+      "units": 25,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    }
+  ],
+  "errors": []
+}

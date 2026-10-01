@@ -1,0 +1,43 @@
+{
+  "dataset": "D:\\Project\\AITutor-X\\FORMAL-E2E-04-evidence\\consumer_input_identity_ok",
+  "version": "phase0.2-r2-evidence-faithful",
+  "total_manifests": 1,
+  "total_units": 53,
+  "summary": {
+    "completed": 0,
+    "error": 0,
+    "identity_blocked": 1,
+    "ready_total": 0,
+    "skipped_total": 0,
+    "gate_auto_approve": 0,
+    "gate_rejected": 0,
+    "gate_pending_review": 0,
+    "compiled_leaves_total": 0
+  },
+  "papers": [
+    {
+      "paper": "2018北京夏季高中会考历史（教师版）(1)",
+      "units": 53,
+      "prompt_version": "reslice-pilot-v2.1",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "VERIFIED",
+          "semantic_state": "PENDING",
+          "reason": "semantic_pending",
+          "mismatches": [],
+          "interface_scope": {
+            "accepted": true,
+            "code": null,
+            "declared_identity_version": 2,
+            "reason": "interface_scope_accepted: identity_version==2"
+          }
+        },
+        "downstream_executed": false
+      }
+    }
+  ],
+  "errors": []
+}

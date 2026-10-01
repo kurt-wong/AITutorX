@@ -1,0 +1,25 @@
+{
+  "document_id": "E2E-01-X27-COMPARE",
+  "note": "Multiset compare of (paper, class). Supports H-3 fact sentence only; no causal claim.",
+  "x27_source": "D:\\Project\\AITutor-X\\Docs\\60_REPORTS\\X2.7-INT-FULL-01-artifacts\\31-per-input-results.json",
+  "x27_leg": "legs.B2_primary.inputs",
+  "class_mapping": {
+    "B": "MISSING_IDENTITY / manifest_sha_missing",
+    "A+E": "identity VERIFIED or semantic_pending/ir_absent"
+  },
+  "x27_rows": 172,
+  "e2e01_rows": 172,
+  "x27_class_counts": {
+    "B": 85,
+    "A+E": 87
+  },
+  "e2e01_class_counts": {
+    "B": 85,
+    "A+E": 87
+  },
+  "multiset_equal": true,
+  "only_in_x27": [],
+  "only_in_e2e01": [],
+  "only_x_count": 0,
+  "only_e_count": 0
+}

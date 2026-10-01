@@ -1,0 +1,72 @@
+﻿import json, hashlib
+from pathlib import Path
+from datetime import datetime, timezone
+
+out = Path(r"D:\Project\AITutor-X\Docs\60_REPORTS\E2E-01-BOUNDARY-REALITY-artifacts\00-run-manifest.json")
+out.parent.mkdir(parents=True, exist_ok=True)
+
+five = {
+  "PREPROCESSING-V3-CONTRACT-v0.3-DRAFT.md": "1b952feec0fde866c07555dcb0ebe763ef1dd1cb1b80a050719a51666ebb6ea3",
+  "PREPROCESSING-V3-INFORMATION-PRESERVATION-MATRIX-v0.3-DRAFT.md": "3febfff53a3ace9b488bb6174b0e44271176c488de11c2ecaafbc0ae568ff2bf",
+  "PREPROCESSING-V3-OPEN-DECISIONS-v0.3-DRAFT.md": "b5800b552ce48c540c68fc1a55df696fb0bfdea1581274f7e6d9ebe9dd554eae",
+  "PREPROCESSING-V3-SEMANTIC-AUTHORITY-MATRIX-v0.3-DRAFT.md": "f0770cb975e5cb2ea83843a9983bc1a15a8ab6e556c550c38b413eb81124fd1e",
+  "V3-POST-ADMISSION-ENRICHMENT-CONTRACT-v0.3-DRAFT.md": "10c01cfbed03135449dce6602c65710b5a357ba7f3a148fb53965caa41b28056",
+}
+
+man = {
+  "document_id": "E2E-01-BOUNDARY-REALITY-RUN-MANIFEST",
+  "immutable": True,
+  "note": "Written BEFORE the full run. Not edited afterwards. Corrections go to a separate errata record.",
+  "run_id": "E2E01-BRV-" + datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ"),
+  "timestamp_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+  "authorization_unit": "OD-E2E-01 Frozen Boundary Reality Verification (Plan-A: verify only, no A8 wiring)",
+  "name": "Frozen Boundary Reality Verification",
+  "scope": {
+    "allowed": ["run runner_b2", "verify identity boundary", "verify fail-closed", "observe Gate/Admission", "record seam"],
+    "forbidden": ["A8 wiring M1-M5 to Gate", "modify runners", "modify Admission", "modify schema", "modify Frozen Contract", "Migration", "new fixtures", "modify Producer data"],
+  },
+  "commits": {
+    "papers": "969d39aac00aca54df6db8a5a52d33089dfd9150",
+    "aitutors_v3": "39840ff",
+    "aitutor_x": "3ee35e697648e58f69a9c8302d1b796a09701ecf",
+  },
+  "commit_verification": {
+    "papers_head_eq_origin_main": True,
+    "papers_push_performed": True,
+    "papers_push_result": "b2266d2..969d39a fast-forward push origin main; network blocked then retried with proxy disabled",
+    "papers_untracked": ["data/reslice_preproc_out_result.json", "logs/reslice_preproc_out_log.txt"],
+    "papers_untracked_note": "pre-existing run logs, not corpus inputs; not committed",
+  },
+  "frozen_contract": {
+    "authority": "PREPROCESSING-V3-CONTRACT-v0.3-DRAFT.md (v0.1/v0.2 superseded; NOT used as PASS criterion)",
+    "freeze_artifact_commit": "b743c5daf0806ea00c84afb1b92ca2a3b5dbfc98",
+    "freeze_registration_commit": "79348441dae0efce6855017b2b5c0491b08d6bb8",
+    "principle": "Freeze Artifact (content) != Freeze Registration (ledger action)",
+    "companion_files_sha256": five,
+  },
+  "corpus": {
+    "root": "D:\\Project\\Papers",
+    "shards": ["D:\\Project\\Papers\\Ocr-markdown", "D:\\Project\\Papers\\data", "D:\\Project\\Papers\\tests"],
+    "discovered": 204,
+    "excluded": 32,
+    "excluded_rule": "exclude any path containing .pytest_work or _archive path segment (X2.7 corpus definition)",
+    "eligible": 172,
+    "composition": {"Ocr-markdown": 166, "data": 4, "tests": 2},
+  },
+  "runner_entrypoints": [
+    {"leg": "B2", "module": "scripts.preprocessing_consumer.runner_b2", "role": "PRIMARY (M1-M5 + IR/Compiler/Gate observe)", "resolver_ir_path": None},
+    {"leg": "V1", "module": "scripts.preprocessing_consumer.runner.py", "role": "HISTORICAL COMPARISON ONLY (not PASS criterion)"},
+  ],
+  "x2_7_historical_reference": {
+    "status": "HISTORICAL EVIDENCE ONLY - not current baseline",
+    "x27_v3_commit": "3e2f9bbd2b3464453e1c42db4af75e315496b335",
+    "x27_aitutorx_commit": "a8e93191b441b188cf242d56d8a8fc9e4d97f158",
+    "x27_frozen_contract": "PREPROCESSING-V3-CONTRACT-v0.2-DRAFT.md sha256=9c6b9063e81fb2a66d85794b280c9d931f1b0074b39abf472033218149b17528",
+    "x27_primary_result": "172/172 M5 BLOCK (85 manifest_sha_missing + 87 semantic_pending/ir_absent); downstream NOT REACHED",
+    "delta_note": "Current run is against 39840ff + contract v0.3 + Papers 969d39a. X2.7 numbers are historical comparison only.",
+  },
+  "environment_note": "postgres aitutor-postgres healthy; runner_b2 is transaction-scoped with rollback (verification harness, not persistent ingest)",
+}
+out.write_text(json.dumps(man, ensure_ascii=False, indent=2), encoding="utf-8")
+print("wrote", out)
+print("sha256", hashlib.sha256(out.read_bytes()).hexdigest())

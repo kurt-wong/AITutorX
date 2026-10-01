@@ -1,0 +1,11 @@
+docs(e2e-01): v1.1 correction closure (A-E taxonomy, R3/R5)
+
+- Preserve v1.0 (ARCHIVED + superseded_by pointer); body restored via generator
+- Add v1.1 with frozen taxonomy A/B/C/D/E; 87 = A+E dual-label; D has no per-item count
+- H-3 fact sentence backed by 32-x27-vs-e2e01-compare.json (multiset equal 172)
+- M-4: 98 passed on six-file scope + 40-pytest-identity-6files.txt
+- M-5: composite 673 (Ocr) / 729 (full); M-6 mismatch combo provenance
+- Errata for immutable 00-run-manifest short SHA; no ACTIVE in any doc
+- Repoint _write_report.py away from v1.0 path
+
+Authorization: OD-E2E-01 + E2E-01-R1. Not an A8/Migration gate.

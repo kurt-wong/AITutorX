@@ -1,0 +1,1347 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\Docs\\60_REPORTS\\E2E-01-BOUNDARY-REALITY-artifacts\\30-mismatch-combo\\2018北京春季高中会考化学（教师版）(1).md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.1",
+    "validation_issues": [
+      "U-org1: 无 answer_lines（题号 [1]）",
+      "U-org2: 无 answer_lines（题号 [2]）",
+      "U-org3: 无 answer_lines（题号 [3]）",
+      "U-cp1: 无 answer_lines（题号 [1]）",
+      "U-cp2: 无 answer_lines（题号 [2]）",
+      "U-cp3: 无 answer_lines（题号 [3]）"
+    ],
+    "warnings": [
+      "U-req1: 题号 1 与 Q1 重号（可能为分节各自编号，需确认）",
+      "U-req2: 题号 2 与 Q2 重号（可能为分节各自编号，需确认）",
+      "U-req3: 题号 3 与 Q3 重号（可能为分节各自编号，需确认）",
+      "U-req4: 题号 4 与 Q4 重号（可能为分节各自编号，需确认）",
+      "U-req5: 题号 5 与 Q5 重号（可能为分节各自编号，需确认）",
+      "U-req6: 题号 6 与 Q6 重号（可能为分节各自编号，需确认）",
+      "U-cl1: 题号 1 与 U-req1 重号（可能为分节各自编号，需确认）",
+      "U-cl2: 题号 2 与 U-req2 重号（可能为分节各自编号，需确认）",
+      "U-cl3: 题号 3 与 U-req3 重号（可能为分节各自编号，需确认）",
+      "U-org1: 题号 1 与 U-cl1 重号（可能为分节各自编号，需确认）",
+      "U-org2: 题号 2 与 U-cl2 重号（可能为分节各自编号，需确认）",
+      "U-org3: 题号 3 与 U-cl3 重号（可能为分节各自编号，需确认）",
+      "U-cp1: 题号 1 与 U-org1 重号（可能为分节各自编号，需确认）",
+      "U-cp2: 题号 2 与 U-org2 重号（可能为分节各自编号，需确认）",
+      "U-cp3: 题号 3 与 U-org3 重号（可能为分节各自编号，需确认）"
+    ],
+    "bug22_migration": {
+      "round": "r31",
+      "changes": [
+        {
+          "unit_id": "U-req1",
+          "old": [
+            1
+          ],
+          "new": [
+            26
+          ],
+          "mode": "shift",
+          "evidence": "必答题顺延 +25"
+        },
+        {
+          "unit_id": "U-req2",
+          "old": [
+            2
+          ],
+          "new": [
+            27
+          ],
+          "mode": "shift",
+          "evidence": "必答题顺延 +25"
+        },
+        {
+          "unit_id": "U-req3",
+          "old": [
+            3
+          ],
+          "new": [
+            28
+          ],
+          "mode": "shift",
+          "evidence": "必答题顺延 +25"
+        },
+        {
+          "unit_id": "U-req4",
+          "old": [
+            4
+          ],
+          "new": [
+            29
+          ],
+          "mode": "shift",
+          "evidence": "必答题顺延 +25"
+        },
+        {
+          "unit_id": "U-req5",
+          "old": [
+            5
+          ],
+          "new": [
+            30
+          ],
+          "mode": "shift",
+          "evidence": "必答题顺延 +25"
+        },
+        {
+          "unit_id": "U-req6",
+          "old": [
+            6
+          ],
+          "new": [
+            31
+          ],
+          "mode": "shift",
+          "evidence": "必答题顺延 +25"
+        }
+      ],
+      "plan_evidence": "选择题答案表(L513)键位 1-25;必答题(L208)印刷 1-6;选答题(L287)三模块任选其一,模块内印刷 1-3 为合法同号",
+      "report": "data/bug22_migration_report.json"
+    }
+  },
+  "units": [
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        14,
+        14
+      ],
+      "options_lines": [
+        16,
+        16
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        18,
+        18
+      ],
+      "options_lines": [
+        20,
+        20
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L18"
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        22,
+        22
+      ],
+      "options_lines": [
+        24,
+        24
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L22"
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        26,
+        26
+      ],
+      "options_lines": [
+        28,
+        28
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": [
+        4
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L26"
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        5
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        30,
+        30
+      ],
+      "options_lines": [
+        32,
+        32
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": [
+        5
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L30"
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        6
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        34,
+        34
+      ],
+      "options_lines": [
+        36,
+        36
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": [
+        6
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L34"
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        7
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        38,
+        38
+      ],
+      "options_lines": [
+        40,
+        40
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": [
+        7
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L38"
+    },
+    {
+      "unit_id": "Q8",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        8
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        42,
+        42
+      ],
+      "options_lines": [
+        44,
+        44
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": [
+        8
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L42"
+    },
+    {
+      "unit_id": "Q9",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        9
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        46,
+        46
+      ],
+      "options_lines": [
+        51,
+        51
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q10",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        10
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        53,
+        55
+      ],
+      "options_lines": [
+        57,
+        63
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": [
+        10
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L53"
+    },
+    {
+      "unit_id": "Q11",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        11
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        65,
+        65
+      ],
+      "options_lines": [
+        67,
+        73
+      ],
+      "extra_lines": [
+        77,
+        80
+      ],
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": [
+        11
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L65"
+    },
+    {
+      "unit_id": "Q12",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        12
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        83,
+        83
+      ],
+      "options_lines": [
+        85,
+        91
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": [
+        12
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L83"
+    },
+    {
+      "unit_id": "Q13",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        13
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        93,
+        93
+      ],
+      "options_lines": [
+        95,
+        95
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q14",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        14
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        97,
+        97
+      ],
+      "options_lines": [
+        99,
+        101
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q15",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        15
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        103,
+        103
+      ],
+      "options_lines": [
+        105,
+        107
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q16",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        16
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        111,
+        111
+      ],
+      "options_lines": [
+        113,
+        119
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": [
+        16
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L111"
+    },
+    {
+      "unit_id": "Q17",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        17
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        121,
+        121
+      ],
+      "options_lines": [
+        123,
+        129
+      ],
+      "extra_lines": [
+        133,
+        133
+      ],
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": [
+        17
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L121"
+    },
+    {
+      "unit_id": "Q18",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        18
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        136,
+        136
+      ],
+      "options_lines": [
+        138,
+        140
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q19",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        19
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        142,
+        142
+      ],
+      "options_lines": [
+        145,
+        145
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q20",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        20
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        149,
+        149
+      ],
+      "options_lines": [
+        151,
+        159
+      ],
+      "extra_lines": [
+        171,
+        171
+      ],
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": [
+        20
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L149"
+    },
+    {
+      "unit_id": "Q21",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        21
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        161,
+        161
+      ],
+      "options_lines": [
+        163,
+        165
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": [
+        21
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L161"
+    },
+    {
+      "unit_id": "Q22",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        22
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        174,
+        174
+      ],
+      "options_lines": [
+        176,
+        184
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": [
+        22
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L174"
+    },
+    {
+      "unit_id": "Q23",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        23
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        186,
+        186
+      ],
+      "options_lines": [
+        188,
+        194
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": [
+        23
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L186"
+    },
+    {
+      "unit_id": "Q24",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        24
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        196,
+        196
+      ],
+      "options_lines": [
+        199,
+        199
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": [
+        24
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L196"
+    },
+    {
+      "unit_id": "Q25",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        25
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        201,
+        201
+      ],
+      "options_lines": [
+        204,
+        204
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        513,
+        513
+      ],
+      "explanation_lines": null,
+      "section": "第一部分 选择题（共50分）",
+      "section_ref": "S2",
+      "printed_number": [
+        25
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L201"
+    },
+    {
+      "unit_id": "U-req1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        26
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        210,
+        210
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        519,
+        521
+      ],
+      "explanation_lines": null,
+      "section": "一、 必答题（共30分）",
+      "section_ref": "S4",
+      "basis": "shift",
+      "basis_evidence": "必答题顺延 +25;分节标题 L208:一、 必答题（共30分）",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "U-req2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        27
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        212,
+        217
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        523,
+        526
+      ],
+      "explanation_lines": null,
+      "section": "一、 必答题（共30分）",
+      "section_ref": "S4",
+      "basis": "shift",
+      "basis_evidence": "必答题顺延 +25;分节标题 L208:一、 必答题（共30分）",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "U-req3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        28
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        219,
+        219
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        530
+      ],
+      "explanation_lines": null,
+      "section": "一、 必答题（共30分）",
+      "section_ref": "S4",
+      "basis": "shift",
+      "basis_evidence": "必答题顺延 +25;分节标题 L208:一、 必答题（共30分）",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "U-req4",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        29
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        221,
+        235
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        532,
+        540
+      ],
+      "explanation_lines": null,
+      "section": "一、 必答题（共30分）",
+      "section_ref": "S4",
+      "basis": "shift",
+      "basis_evidence": "必答题顺延 +25;分节标题 L208:一、 必答题（共30分）",
+      "printed_number": [
+        4
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "U-req5",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        30
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        237,
+        258
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        542,
+        552
+      ],
+      "explanation_lines": null,
+      "section": "一、 必答题（共30分）",
+      "section_ref": "S4",
+      "basis": "shift",
+      "basis_evidence": "必答题顺延 +25;分节标题 L208:一、 必答题（共30分）",
+      "printed_number": [
+        5
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "U-req6",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        31
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        260,
+        285
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        554,
+        562
+      ],
+      "explanation_lines": null,
+      "section": "一、 必答题（共30分）",
+      "section_ref": "S4",
+      "basis": "shift",
+      "basis_evidence": "必答题顺延 +25;分节标题 L208:一、 必答题（共30分）",
+      "printed_number": [
+        6
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "U-cl1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        291,
+        299
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        566,
+        568
+      ],
+      "explanation_lines": null,
+      "section": "《化学与生活》模块试题",
+      "section_ref": "S6",
+      "basis": "keep",
+      "basis_evidence": "选考模块互斥,印刷号 1-3 保持,身份由 section 区分;分节标题 L289:《化学与生活》模块试题",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "U-cl2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "true_false",
+      "stem_lines": [
+        301,
+        317
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        570,
+        572
+      ],
+      "explanation_lines": null,
+      "section": "《化学与生活》模块试题",
+      "section_ref": "S6",
+      "basis": "keep",
+      "basis_evidence": "选考模块互斥,印刷号 1-3 保持,身份由 section 区分;分节标题 L289:《化学与生活》模块试题",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "U-cl3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        319,
+        350
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        574,
+        584
+      ],
+      "explanation_lines": null,
+      "section": "《化学与生活》模块试题",
+      "section_ref": "S6",
+      "basis": "keep",
+      "basis_evidence": "选考模块互斥,印刷号 1-3 保持,身份由 section 区分;分节标题 L289:《化学与生活》模块试题",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "U-org1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        354,
+        401
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": null,
+      "explanation_lines": null,
+      "section": "《有机化学基础》模块试题",
+      "section_ref": "S7",
+      "basis": "keep",
+      "basis_evidence": "选考模块互斥,印刷号 1-3 保持,身份由 section 区分;分节标题 L352:《有机化学基础》模块试题",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "U-org2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        403,
+        425
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": null,
+      "explanation_lines": null,
+      "section": "《有机化学基础》模块试题",
+      "section_ref": "S7",
+      "basis": "keep",
+      "basis_evidence": "选考模块互斥,印刷号 1-3 保持,身份由 section 区分;分节标题 L352:《有机化学基础》模块试题",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "U-org3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        427,
+        440
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": null,
+      "explanation_lines": null,
+      "section": "《有机化学基础》模块试题",
+      "section_ref": "S7",
+      "basis": "keep",
+      "basis_evidence": "选考模块互斥,印刷号 1-3 保持,身份由 section 区分;分节标题 L352:《有机化学基础》模块试题",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "U-cp1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        444,
+        458
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": null,
+      "explanation_lines": null,
+      "section": "《化学反应原理》模块试题",
+      "section_ref": "S8",
+      "basis": "keep",
+      "basis_evidence": "选考模块互斥,印刷号 1-3 保持,身份由 section 区分;分节标题 L442:《化学反应原理》模块试题",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "U-cp2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        460,
+        479
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": null,
+      "explanation_lines": null,
+      "section": "《化学反应原理》模块试题",
+      "section_ref": "S8",
+      "basis": "keep",
+      "basis_evidence": "选考模块互斥,印刷号 1-3 保持,身份由 section 区分;分节标题 L442:《化学反应原理》模块试题",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "U-cp3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        481,
+        502
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": null,
+      "explanation_lines": null,
+      "section": "《化学反应原理》模块试题",
+      "section_ref": "S8",
+      "basis": "keep",
+      "basis_evidence": "选考模块互斥,印刷号 1-3 保持,身份由 section 区分;分节标题 L442:《化学反应原理》模块试题",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "migration_report"
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2018 北京春季高中会考",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "化 学",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 9,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "第一部分 选择题（共50分）",
+      "ordinal": 3,
+      "start_line": 10,
+      "end_line": 205,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "第二部分 非选择题（共50分）",
+      "ordinal": 4,
+      "start_line": 206,
+      "end_line": 207,
+      "occurrence": 1
+    },
+    {
+      "id": "S4",
+      "title": "一、 必答题（共30分）",
+      "ordinal": 5,
+      "start_line": 208,
+      "end_line": 286,
+      "occurrence": 1
+    },
+    {
+      "id": "S5",
+      "title": "二、 选答题（共20分。请在以下三个模块试题中任选一个模块试题作答，若选答了多个",
+      "ordinal": 6,
+      "start_line": 287,
+      "end_line": 288,
+      "occurrence": 1
+    },
+    {
+      "id": "S6",
+      "title": "《化学与生活》模块试题",
+      "ordinal": 7,
+      "start_line": 289,
+      "end_line": 351,
+      "occurrence": 1
+    },
+    {
+      "id": "S7",
+      "title": "《有机化学基础》模块试题",
+      "ordinal": 8,
+      "start_line": 352,
+      "end_line": 441,
+      "occurrence": 1
+    },
+    {
+      "id": "S8",
+      "title": "《化学反应原理》模块试题",
+      "ordinal": 9,
+      "start_line": 442,
+      "end_line": 507,
+      "occurrence": 1
+    },
+    {
+      "id": "S9",
+      "title": "第一部分 选择题（共50分）",
+      "ordinal": 10,
+      "start_line": 508,
+      "end_line": 514,
+      "occurrence": 2
+    },
+    {
+      "id": "S10",
+      "title": "第二部分 非选择题（共50分）",
+      "ordinal": 11,
+      "start_line": 515,
+      "end_line": 516,
+      "occurrence": 2
+    },
+    {
+      "id": "S11",
+      "title": "二、 必答题（共30分）",
+      "ordinal": 12,
+      "start_line": 517,
+      "end_line": 563,
+      "occurrence": 1
+    },
+    {
+      "id": "S12",
+      "title": "三、 《化学与生活》模块试题（共20分）",
+      "ordinal": 13,
+      "start_line": 564,
+      "end_line": 584,
+      "occurrence": 1
+    }
+  ],
+  "source_content_sha256": "0443945f4672b05da3d2d950b0a3eb20a495c1635c353c024c8c050b7fad1ffb"
+}

@@ -1,0 +1,120 @@
+{
+  "dataset": "D:\\Project\\Papers\\data",
+  "version": "phase0.2-r2-evidence-faithful",
+  "total_manifests": 4,
+  "total_units": 73,
+  "summary": {
+    "completed": 0,
+    "error": 0,
+    "identity_blocked": 4,
+    "ready_total": 0,
+    "skipped_total": 0,
+    "gate_auto_approve": 0,
+    "gate_rejected": 0,
+    "gate_pending_review": 0,
+    "compiled_leaves_total": 0
+  },
+  "papers": [
+    {
+      "paper": "2022北京丰台高一（下）期末历史（教师版）(1)",
+      "units": 30,
+      "prompt_version": "reslice-pilot-v2.5",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2010北京上地一零一中高一分班考英语（教师版）(1)",
+      "units": 20,
+      "prompt_version": "reslice-pilot-v2.5",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京通州高三（上）期中地理教师版图片(1)",
+      "units": 12,
+      "prompt_version": "reslice-pilot-v2.5",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    },
+    {
+      "paper": "2021北京高三（下）综合能力测试英语（教师版）(1)",
+      "units": 11,
+      "prompt_version": "reslice-pilot-v2.5",
+      "result": {
+        "track": "B2",
+        "status": "identity_blocked",
+        "identity_gate": {
+          "gate": "BLOCK",
+          "identity_state": "FAILED",
+          "semantic_state": null,
+          "reason": "identity_verification_failed",
+          "mismatches": [
+            "manifest_sha_missing"
+          ],
+          "interface_scope": {
+            "accepted": false,
+            "code": "MISSING_IDENTITY",
+            "declared_identity_version": null,
+            "reason": "interface_scope_rejected: MISSING_IDENTITY: Manifest does not declare source_content_sha256; cross-system identity cannot be established (path must never be used as identity)."
+          }
+        },
+        "downstream_executed": false
+      }
+    }
+  ],
+  "errors": []
+}
