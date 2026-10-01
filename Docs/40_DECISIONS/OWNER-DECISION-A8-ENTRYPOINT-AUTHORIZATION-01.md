@@ -99,13 +99,13 @@ Disposition: Deferred to separate domain modeling decision
 
 ---
 
-## 3. A8 Decision（已裁）
+## 3. A8 Decision（草案取向，待 Owner 签发）
 
 ### D-2 统一入口授权（A8 本体）
 
-| 选项 | 内容 | 裁决 |
+| 选项 | 内容 | 取向 |
 |---|---|---|
-| **B1** | **不授权**统一入口接线 | **✅ 采用** |
+| **B1** | **不授权**统一入口接线 | **✅ 拟采用（待签）** |
 | B2 | 授权（须明文语义边界） | ✗ 本件不授权 |
 
 **理由（摘要）**：`Identity VERIFIED` 不能推出 `Semantic Admission Ready`（E2E-01 已证二者分离）。缺少 Identity / Artifact / Semantic / Admission readiness 之间的正式语义前，不得接线。
@@ -148,7 +148,7 @@ Any Artifact Readiness domain change requires separate Owner Decision.
 
 ## 5. Scope / Non-scope
 
-**Scope（仅）**：A8 = 是否授权统一入口 —— 裁决结果 **B1 不授权**。
+**Scope（仅）**：A8 = 是否授权统一入口 —— 拟裁决结果 **B1 不授权（待签）**。
 
 **Non-scope**：Migration · Gate/Admission 实现或接线 · Schema/Frozen Spec 修改 · N-values · multi-blank · R-5 · production 接线 · Artifact Readiness 入模 · 修改 Papers / V3 代码 / 00-run-manifest。
 
@@ -159,7 +159,7 @@ Any Artifact Readiness domain change requires separate Owner Decision.
 ```text
 E2E 发现 E
     ↓
-A8 裁定统一入口     ← 本件（B1 不授权）
+A8 拟裁定统一入口     ← 本件（B1 不授权）
     ↓
 Artifact Readiness 另案 Decision（未开）
     ↓
