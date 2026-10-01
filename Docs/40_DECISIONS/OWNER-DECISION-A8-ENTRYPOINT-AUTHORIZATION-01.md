@@ -1,14 +1,14 @@
 # OWNER-DECISION-A8-ENTRYPOINT-AUTHORIZATION-01
 
 ```text
-Document Type : Owner Decision Record（本件 = Owner Decision Authority）
-Status        : PENDING-SIGNATURE
-Decision State: DRAFTED-FROM-OWNER-TEXT-NOT-SIGNED
+Document Type : Owner Decision Record（效力以 Owner 签字为准）
+Status        : OPEN
+Decision State: PENDING-OWNER-SIGNATURE
 Signature     : (unsigned — 2026-10-01 确认：非 Owner 签发；MIMO 误填已撤回)
 Signed Date   : —
 supersedes    : —    superseded_by : —    disposition   : RETAIN
 Date          : 2026-10-01
-Authority     : 本文件（A8 — 统一入口授权裁决）
+Authority     : This record becomes authoritative after Owner signature（签字前非 authority）
 Parent        : E2E-01 v1.1 + R2 + R3（decision input，非 authority）
 Input         : Docs/60_REPORTS/E2E-01-BOUNDARY-REALITY-VERIFICATION-v1.1.md @ d2a3425b44673532db8cb5d5f54cdc58c8cd944d
 Scope         : A8 历史语义 ONLY —— M1–M5 ↔ GateService/AdmissionService 统一入口是否授权
@@ -126,7 +126,7 @@ Observation → Decision → Spec Change Proposal → Approval → Implementatio
 
 ---
 
-## 4. Authorization（本签发生效）
+## 4. Authorization（签字前不生效）
 
 ```text
 Authorized:
@@ -172,10 +172,28 @@ Implementation / Migration
 
 ---
 
+## 6.5 Process deviation（一次性记录）
+
+```text
+Deviation: commit/push of this OD occurred before final DSH verification (2026-10-01).
+Effect   : none — file is unsigned; no authorization granted; V3/Papers/Migration untouched.
+Action   : record only; do not open A8-R5/Errata/Correction/Sync rounds.
+```
+
+---
+
 ## 7. 效力
 
 ```text
-本件生效 = A8 统一入口「不授权」已签发。
+Authorization becomes effective only after Owner signature.
+
+Before signature:
+- No A8 authorization is granted.
+- No Gate/Admission wiring is authorized.
+- No Migration is authorized.
+- No Frozen Spec change is authorized.
+
+（若 Owner 签发且采用 B1：则生效内容为「统一入口不授权」。）
 不意味着 Migration Ready / Gate Passed / 任何 Phase 开启。
 ```
 
