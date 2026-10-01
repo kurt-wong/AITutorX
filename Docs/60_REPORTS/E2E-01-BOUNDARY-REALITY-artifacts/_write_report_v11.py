@@ -1,5 +1,6 @@
 ﻿from pathlib import Path
-from datetime import datetime, timezone
+import hashlib
+import sys
 
 out = Path(r"D:\Project\AITutor-X\Docs\60_REPORTS\E2E-01-BOUNDARY-REALITY-VERIFICATION-v1.1.md")
 
@@ -20,7 +21,18 @@ if out.exists():
         )
 
 art = "Docs/60_REPORTS/E2E-01-BOUNDARY-REALITY-artifacts"
-ts = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+# R3: evidence snapshot date is FROZEN (not wall clock). Evidence is a decision-era snapshot.
+_FROZEN_DATE = "2026-10-01"
+ts = _FROZEN_DATE
+# Acceptance hook: `python _write_report_v11.py --simulate-date YYYY-MM-DD` must abort if != frozen date.
+if "--simulate-date" in sys.argv:
+    _i = sys.argv.index("--simulate-date")
+    _sim = sys.argv[_i + 1] if _i + 1 < len(sys.argv) else ""
+    if _sim != _FROZEN_DATE:
+        raise SystemExit(
+            f"ABORT (write-before): simulated date {_sim!r} != frozen {_FROZEN_DATE!r}. "
+            f"Evidence date is frozen; refusing to generate."
+        )
 
 text = r"""# E2E-01 — Frozen Boundary Reality Verification (v1.1)
 
@@ -296,5 +308,28 @@ R-5 NOT AUTHORIZED
 """
 
 text = text.replace("__DATE__", ts).replace("__ART__", art)
-out.write_text(text, encoding="utf-8")
-print("wrote", out, "bytes", out.stat().st_size)
+# R3 write-before: normalize CRLF (Windows evidence bytes) then hash CANDIDATE before any write.
+if "\r\n" in text:
+    _norm = text
+else:
+    _norm = text.replace("\n", "\r\n")
+candidate = _norm.encode("utf-8")
+cand_sha = hashlib.sha256(candidate).hexdigest()
+if cand_sha != _EXPECTED_SHA256 or len(candidate) != _EXPECTED_BYTES:
+    raise SystemExit(
+        f"ABORT (write-before): candidate fingerprint mismatch "
+        f"(sha256={cand_sha} bytes={len(candidate)}; "
+        f"expected {_EXPECTED_SHA256} / {_EXPECTED_BYTES}). No bytes written."
+    )
+if out.exists():
+    _existing = out.read_bytes()
+    _ex_sha = hashlib.sha256(_existing).hexdigest()
+    if _ex_sha != _EXPECTED_SHA256 or len(_existing) != _EXPECTED_BYTES:
+        raise SystemExit(
+            f"ABORT (write-before): existing {out.name} fingerprint mismatch "
+            f"(sha256={_ex_sha} bytes={len(_existing)}). Refusing to overwrite evidence."
+        )
+# content-addressed: write only these exact bytes (idempotent if already present)
+if (not out.exists()) or out.read_bytes() != candidate:
+    out.write_bytes(candidate)
+print(f"wrote {out} bytes={len(candidate)} sha256={cand_sha}")
