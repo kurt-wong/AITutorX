@@ -2,6 +2,23 @@
 from datetime import datetime, timezone
 
 out = Path(r"D:\Project\AITutor-X\Docs\60_REPORTS\E2E-01-BOUNDARY-REALITY-VERIFICATION-v1.1.md")
+
+# --- E2E-01-R2: sole current generator. Abort on unexpected existing output. ---
+import hashlib
+_EXPECTED_SHA256 = "2ed829216cf9dad60038ae29a4588e15e14ca235580427c3f794ec96d473bf5e"
+_EXPECTED_BYTES = 11305
+if out.exists():
+    _data = out.read_bytes()
+    _sha = hashlib.sha256(_data).hexdigest()
+    if _sha != _EXPECTED_SHA256 or len(_data) != _EXPECTED_BYTES:
+        raise SystemExit(
+            f"ABORT: {out.name} fingerprint mismatch "
+            f"(sha256={_sha} bytes={len(_data)}; "
+            f"expected {_EXPECTED_SHA256} / {_EXPECTED_BYTES}). "
+            f"Refusing to overwrite evidence. "
+            f"If regeneration is intentional, update the expected fingerprint in this generator only."
+        )
+
 art = "Docs/60_REPORTS/E2E-01-BOUNDARY-REALITY-artifacts"
 ts = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
