@@ -76,7 +76,7 @@
 **Commit / 同步复核**：
 - V3 `od01-r3-convergence` → **`b640036`**（`fix(ir): share sibling seen snapshot so composite status matches problem list`），已推送，本地与 `origin/od01-r3-convergence` 同 commit。
 - Papers `main` → **`a4a0a8c`**，既有 ahead 2 提交已推送，本地与 `origin/main` 同 commit。
-- AITutorX `main` = **`483b90a`**（报告 commits `f87b03c`→`228fad1`→`483b90a`），已推送，本地与 `origin/main` 同 commit。推送时 github.com:443 曾短暂不可达（重试后恢复）。工作区 untracked/staged 现场原样保留（误带 staged `MIMO-TASK` 的 commit 已软回退，仅提交报告）。
+- AITutorX `main`：报告内容已提交（`f87b03c`→`228fad1`→`483b90a` 已推送同步；末笔状态勘误 `31ca1b5` **本地 ahead 1，github.com:443 间歇不可达，推送未完成**）。工作区 untracked/staged 现场原样保留（误带 staged `MIMO-TASK` 的 commit 已软回退，仅提交报告）。
 - 未提交保留：V3 `backend/scripts/_p14b_*`；Papers `data/` `logs/` `_p14b_patch_producer.py`。
 
 ---
