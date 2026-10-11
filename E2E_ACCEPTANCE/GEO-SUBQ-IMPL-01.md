@@ -78,4 +78,6 @@
 
 ## 7. Git 状态
 
-代码 + 测试将提交至 `AITutors-v3 od01-r3-convergence`。commit 号见推送后同步复核（不反复改 hash）。
+- V3 `od01-r3-convergence` = **`b8ea7cf`** = origin（已同步）。
+- AITutorX `main` = **`fb5bdef`** = origin（已同步）。工作区 `MIMO-TASK` 与 untracked 现场原样保留。
+- 未提交保留：V3 `_p14b_*` 脚本、Papers `data/`/`logs/`/`_p14b_patch_producer.py`。
