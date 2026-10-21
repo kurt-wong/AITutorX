@@ -1,0 +1,969 @@
+{
+  "watch": [
+    {
+      "paper": "化学",
+      "root": "Q20",
+      "leaf": "Q20",
+      "options": [
+        {
+          "label": "A",
+          "len": 26,
+          "text": "A. 火山喷发、森林火灾会产生SO $ _{2} $",
+          "label_only": false
+        },
+        {
+          "label": "B",
+          "len": 16,
+          "text": "B. 氢、氧两种元素没有参与硫的",
+          "label_only": false
+        },
+        {
+          "label": "C",
+          "len": 20,
+          "text": "C. 工厂产生的烟气应经脱硫处理后再排放",
+          "label_only": false
+        },
+        {
+          "label": "D",
+          "len": 19,
+          "text": "D. 硫在自然界的循环过程中，涉及了氧",
+          "label_only": false
+        },
+        {
+          "label": "E",
+          "len": 4,
+          "text": "还原反应",
+          "label_only": false
+        }
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q23",
+      "leaf": "Q23",
+      "options": [
+        {
+          "label": "A",
+          "len": 62,
+          "text": "A．金属钠与水： $ 2Na + 2H_{2}O = 2Na^{+} + 2OH^{-} + H_{2}\\uparrow $",
+          "label_only": false
+        },
+        {
+          "label": "B",
+          "len": 14,
+          "text": "B．氯化钠溶液与硝酸银溶液：",
+          "label_only": false
+        },
+        {
+          "label": "C",
+          "len": 60,
+          "text": "C．稀盐酸与碳酸钙： $ CaCO_{3}+2H^{+}=Ca^{2+}+CO_{2}\\uparrow+H_{2}O $",
+          "label_only": false
+        },
+        {
+          "label": "D",
+          "len": 138,
+          "text": "$  \\mathrm{H}^{+} + \\mathrm{SO}_{4}^{2-} + \\mathrm{Ba}^{2+} + \\mathrm{",
+          "label_only": false
+        }
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q29",
+      "leaf": "Q29",
+      "options": [
+        {
+          "label": "A",
+          "len": 6,
+          "text": "A. 迪亚士",
+          "label_only": false
+        },
+        {
+          "label": "B",
+          "len": 7,
+          "text": "B. 达，伽马",
+          "label_only": false
+        },
+        {
+          "label": "C",
+          "len": 6,
+          "text": "C. 哥伦布",
+          "label_only": false
+        },
+        {
+          "label": "D",
+          "len": 5,
+          "text": "D 麦哲伦",
+          "label_only": false
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q4",
+      "leaf": "Q4",
+      "options": [
+        {
+          "label": "A",
+          "len": 23,
+          "text": "A. 关于 x 轴对称 B. 关于 y 轴对称",
+          "label_only": false
+        },
+        {
+          "label": "B",
+          "len": 1,
+          "text": "B",
+          "label_only": true
+        },
+        {
+          "label": "C",
+          "len": 32,
+          "text": "C. 关于直线 y=x 对称 2D. 关于直线 y= -x 对称",
+          "label_only": false
+        },
+        {
+          "label": "D",
+          "len": 1,
+          "text": "D",
+          "label_only": true
+        }
+      ]
+    }
+  ],
+  "degenerate": [
+    {
+      "paper": "化学",
+      "root": "Q7",
+      "leaf": "Q7",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "化学",
+      "root": "Q7",
+      "leaf": "Q7",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "化学",
+      "root": "Q7",
+      "leaf": "Q7",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "化学",
+      "root": "Q8",
+      "leaf": "Q8",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "化学",
+      "root": "Q8",
+      "leaf": "Q8",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "化学",
+      "root": "Q8",
+      "leaf": "Q8",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "化学",
+      "root": "Q13",
+      "leaf": "Q13",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "化学",
+      "root": "Q13",
+      "leaf": "Q13",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "化学",
+      "root": "Q13",
+      "leaf": "Q13",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "化学",
+      "root": "Q14",
+      "leaf": "Q14",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "化学",
+      "root": "Q14",
+      "leaf": "Q14",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "化学",
+      "root": "Q15",
+      "leaf": "Q15",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "化学",
+      "root": "Q15",
+      "leaf": "Q15",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "化学",
+      "root": "Q17",
+      "leaf": "Q17",
+      "label": "H",
+      "text": "H"
+    },
+    {
+      "paper": "化学",
+      "root": "Q18",
+      "leaf": "Q18",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "化学",
+      "root": "Q18",
+      "leaf": "Q18",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "化学",
+      "root": "Q21",
+      "leaf": "Q21",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "化学",
+      "root": "Q21",
+      "leaf": "Q21",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "历史",
+      "root": "Q1",
+      "leaf": "Q1",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "历史",
+      "root": "Q1",
+      "leaf": "Q1",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "历史",
+      "root": "Q1",
+      "leaf": "Q1",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "历史",
+      "root": "Q2",
+      "leaf": "Q2",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "历史",
+      "root": "Q2",
+      "leaf": "Q2",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "历史",
+      "root": "Q2",
+      "leaf": "Q2",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "历史",
+      "root": "Q8",
+      "leaf": "Q8",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "历史",
+      "root": "Q8",
+      "leaf": "Q8",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "历史",
+      "root": "Q8",
+      "leaf": "Q8",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "历史",
+      "root": "Q10",
+      "leaf": "Q10",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "历史",
+      "root": "Q10",
+      "leaf": "Q10",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "历史",
+      "root": "Q10",
+      "leaf": "Q10",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "历史",
+      "root": "Q13",
+      "leaf": "Q13",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "历史",
+      "root": "Q13",
+      "leaf": "Q13",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "历史",
+      "root": "Q13",
+      "leaf": "Q13",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "历史",
+      "root": "Q17",
+      "leaf": "Q17",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "历史",
+      "root": "Q17",
+      "leaf": "Q17",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "历史",
+      "root": "Q17",
+      "leaf": "Q17",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "历史",
+      "root": "Q34",
+      "leaf": "Q34",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "历史",
+      "root": "Q34",
+      "leaf": "Q34",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "历史",
+      "root": "Q34",
+      "leaf": "Q34",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "历史",
+      "root": "Q41",
+      "leaf": "Q41",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "历史",
+      "root": "Q41",
+      "leaf": "Q41",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "历史",
+      "root": "Q41",
+      "leaf": "Q41",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "历史",
+      "root": "Q46",
+      "leaf": "Q46",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "历史",
+      "root": "Q46",
+      "leaf": "Q46",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "历史",
+      "root": "Q46",
+      "leaf": "Q46",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q1",
+      "leaf": "Q1",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q1",
+      "leaf": "Q1",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q1",
+      "leaf": "Q1",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q2",
+      "leaf": "Q2",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q2",
+      "leaf": "Q2",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q2",
+      "leaf": "Q2",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q3",
+      "leaf": "Q3",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q3",
+      "leaf": "Q3",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q3",
+      "leaf": "Q3",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q4",
+      "leaf": "Q4",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q4",
+      "leaf": "Q4",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q5",
+      "leaf": "Q5",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q5",
+      "leaf": "Q5",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q5",
+      "leaf": "Q5",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q6",
+      "leaf": "Q6",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q6",
+      "leaf": "Q6",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q6",
+      "leaf": "Q6",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q7",
+      "leaf": "Q7",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q7",
+      "leaf": "Q7",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q7",
+      "leaf": "Q7",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q8",
+      "leaf": "Q8",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q8",
+      "leaf": "Q8",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q8",
+      "leaf": "Q8",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q9",
+      "leaf": "Q9",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q9",
+      "leaf": "Q9",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q9",
+      "leaf": "Q9",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q10",
+      "leaf": "Q10",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q10",
+      "leaf": "Q10",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q10",
+      "leaf": "Q10",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q11",
+      "leaf": "Q11",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q11",
+      "leaf": "Q11",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q11",
+      "leaf": "Q11",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q12",
+      "leaf": "Q12",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q12",
+      "leaf": "Q12",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q12",
+      "leaf": "Q12",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q13",
+      "leaf": "Q13",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q13",
+      "leaf": "Q13",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q13",
+      "leaf": "Q13",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q14",
+      "leaf": "Q14",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q14",
+      "leaf": "Q14",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q14",
+      "leaf": "Q14",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q15",
+      "leaf": "Q15",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q15",
+      "leaf": "Q15",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q15",
+      "leaf": "Q15",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q16",
+      "leaf": "Q16",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q16",
+      "leaf": "Q16",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q16",
+      "leaf": "Q16",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q17",
+      "leaf": "Q17",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q17",
+      "leaf": "Q17",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q17",
+      "leaf": "Q17",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q18",
+      "leaf": "Q18",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q18",
+      "leaf": "Q18",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q18",
+      "leaf": "Q18",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q19",
+      "leaf": "Q19",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q19",
+      "leaf": "Q19",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q19",
+      "leaf": "Q19",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q20",
+      "leaf": "Q20",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q20",
+      "leaf": "Q20",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q20",
+      "leaf": "Q20",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q21",
+      "leaf": "Q21",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q21",
+      "leaf": "Q21",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q21",
+      "leaf": "Q21",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q22",
+      "leaf": "Q22",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q22",
+      "leaf": "Q22",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q22",
+      "leaf": "Q22",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q23",
+      "leaf": "Q23",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q23",
+      "leaf": "Q23",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q23",
+      "leaf": "Q23",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q24",
+      "leaf": "Q24",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q24",
+      "leaf": "Q24",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q24",
+      "leaf": "Q24",
+      "label": "D",
+      "text": "D"
+    },
+    {
+      "paper": "数学",
+      "root": "Q25",
+      "leaf": "Q25",
+      "label": "B",
+      "text": "B"
+    },
+    {
+      "paper": "数学",
+      "root": "Q25",
+      "leaf": "Q25",
+      "label": "C",
+      "text": "C"
+    },
+    {
+      "paper": "数学",
+      "root": "Q25",
+      "leaf": "Q25",
+      "label": "D",
+      "text": "D"
+    }
+  ]
+}

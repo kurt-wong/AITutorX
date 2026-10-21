@@ -1,5 +1,12 @@
 # MIMO CODE TASK — Phase 1 Implementation Authorization + Minimal Real E2E Loop
 
+> **SUPERSEDED（2026-10-09 Owner 裁定）**  
+> 本文件保留为历史授权记录，**不再作为执行依据**。  
+> 执行体必须改为依据：  
+> 1. `E2E_ACCEPTANCE/TASK_B_BOUNDARY_BRIEF.md`  
+> 2. `E2E_ACCEPTANCE/ROUND2-OWNER-SCOPE-DIRECTIVE.md`  
+> 冲突时以后者为准。禁止：放宽扩展名白名单、用 Phase 1 Runner 顶替正式入口、把“表里有行”当成功。
+
 ```text
 Task ID        : MIMO-TASK-PHASE1-MINIMAL-E2E-01
 Task Type      : LEVEL 1（实现 + 真实运行验证）；本指令本身即 Owner Decision 记录

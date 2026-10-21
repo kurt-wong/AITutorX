@@ -1,0 +1,830 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\其他汇编\\理综\\14_2023届黑龙江省校哈尔滨市第三中学校高三第二次高考模拟考试 理科综合答案.md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.1",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3,
+        3
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3,
+        3
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3,
+        3
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3,
+        3
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        5
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3,
+        3
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        6
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3,
+        3
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q31",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        31
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        7,
+        13
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q32",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        32
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        15,
+        21
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q33",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        33
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        23,
+        31
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q34",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        34
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        33,
+        39
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q35",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        35
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        41,
+        47
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        7
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        53,
+        53
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q8",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        8
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        53,
+        53
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q9",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        9
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        53,
+        53
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q10",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        10
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        53,
+        53
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q11",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        11
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        53,
+        53
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q12",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        12
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        53,
+        53
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q13",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        13
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        53,
+        53
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q27",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        27
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        55,
+        65
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q28",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        28
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        67,
+        79
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q29",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        29
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        81,
+        91
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q30",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        30
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": [
+        99,
+        111
+      ],
+      "answer_lines": [
+        93,
+        111
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q14",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        14
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        122,
+        122
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q15",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        15
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        122,
+        122
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q16",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        16
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        122,
+        122
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q17",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        17
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        122,
+        122
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q18",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        18
+      ],
+      "original_question_type": "multiple_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        122,
+        122
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q19",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        19
+      ],
+      "original_question_type": "multiple_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        122,
+        122
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q20",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        20
+      ],
+      "original_question_type": "multiple_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        122,
+        122
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q21",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        21
+      ],
+      "original_question_type": "multiple_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        122,
+        122
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q22",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        22
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        124,
+        124
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q23",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        23
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        126,
+        126
+      ],
+      "explanation_lines": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q24",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        24
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        130,
+        132
+      ],
+      "explanation_lines": [
+        134,
+        159
+      ],
+      "explanation_lines_note": null,
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q25",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        25
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        161,
+        161
+      ],
+      "explanation_lines": [
+        163,
+        219
+      ],
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q26",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        26
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        221,
+        221
+      ],
+      "explanation_lines": [
+        223,
+        332
+      ],
+      "section_ref": "S0",
+      "section": "一、 单选题（每题6分，共36分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "一、 单选题（每题6分，共36分）",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 4,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "二、 非选择题（共54分）",
+      "ordinal": 2,
+      "start_line": 5,
+      "end_line": 54,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "27 \\. （每空2分，共12分）",
+      "ordinal": 3,
+      "start_line": 55,
+      "end_line": 115,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "2023年哈三中高三学年第二次高考模拟考试",
+      "ordinal": 4,
+      "start_line": 116,
+      "end_line": 332,
+      "occurrence": 1
+    }
+  ],
+  "source_content_sha256": "8aff73e58f633ca1b2381d533161cdcd72b3afca6a3f5adb5850d9fd04ac5b21"
+}

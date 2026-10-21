@@ -1,0 +1,904 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-pac-annotated\\reslice-pac\\ocr\\pac-c11-02.md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.3",
+    "validation_issues": [
+      "Q1: L137 试卷结构行混入单元区间: ### 一、选择题：本大题共 10 道小题，每小题 4 分，共 40 分。在每小"
+    ],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "section": "一、 选择题：本大题共10道小题，每小题4分，共40分。在每小题给出的四个选项中",
+      "printed_number": [
+        1
+      ],
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        11,
+        11
+      ],
+      "options_lines": [
+        13,
+        13
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        137,
+        137
+      ],
+      "explanation_lines": [
+        139,
+        149
+      ],
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L11",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 13,
+          "end_line": 13
+        },
+        {
+          "label": "B",
+          "start_line": 13,
+          "end_line": 13
+        },
+        {
+          "label": "C",
+          "start_line": 13,
+          "end_line": 13
+        },
+        {
+          "label": "D",
+          "start_line": 13,
+          "end_line": 13
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "section": "一、 选择题：本大题共10道小题，每小题4分，共40分。在每小题给出的四个选项中",
+      "printed_number": [
+        2
+      ],
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        15,
+        15
+      ],
+      "options_lines": [
+        17,
+        17
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        151,
+        151
+      ],
+      "explanation_lines": [
+        153,
+        163
+      ],
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L15",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 17,
+          "end_line": 17
+        },
+        {
+          "label": "B",
+          "start_line": 17,
+          "end_line": 17
+        },
+        {
+          "label": "C",
+          "start_line": 17,
+          "end_line": 17
+        },
+        {
+          "label": "D",
+          "start_line": 17,
+          "end_line": 17
+        }
+      ]
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "section": "一、 选择题：本大题共10道小题，每小题4分，共40分。在每小题给出的四个选项中",
+      "printed_number": [
+        3
+      ],
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        19,
+        19
+      ],
+      "options_lines": [
+        21,
+        21
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        165,
+        165
+      ],
+      "explanation_lines": [
+        167,
+        177
+      ],
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L19",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 21,
+          "end_line": 21
+        },
+        {
+          "label": "B",
+          "start_line": 21,
+          "end_line": 21
+        },
+        {
+          "label": "C",
+          "start_line": 21,
+          "end_line": 21
+        },
+        {
+          "label": "D",
+          "start_line": 21,
+          "end_line": 21
+        }
+      ]
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_question",
+      "section": "一、 选择题：本大题共10道小题，每小题4分，共40分。在每小题给出的四个选项中",
+      "printed_number": [
+        4
+      ],
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        23,
+        23
+      ],
+      "options_lines": [
+        25,
+        25
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        179,
+        179
+      ],
+      "explanation_lines": [
+        181,
+        191
+      ],
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L23",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 25,
+          "end_line": 25
+        },
+        {
+          "label": "B",
+          "start_line": 25,
+          "end_line": 25
+        },
+        {
+          "label": "C",
+          "start_line": 25,
+          "end_line": 25
+        },
+        {
+          "label": "D",
+          "start_line": 25,
+          "end_line": 25
+        }
+      ]
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "standalone_question",
+      "section": "一、 选择题：本大题共10道小题，每小题4分，共40分。在每小题给出的四个选项中",
+      "printed_number": [
+        5
+      ],
+      "question_numbers": [
+        5
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        27,
+        27
+      ],
+      "options_lines": [
+        29,
+        29
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        193,
+        193
+      ],
+      "explanation_lines": [
+        195,
+        205
+      ],
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L27",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 29,
+          "end_line": 29
+        },
+        {
+          "label": "B",
+          "start_line": 29,
+          "end_line": 29
+        },
+        {
+          "label": "C",
+          "start_line": 29,
+          "end_line": 29
+        },
+        {
+          "label": "D",
+          "start_line": 29,
+          "end_line": 29
+        }
+      ]
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "standalone_question",
+      "section": "一、 选择题：本大题共10道小题，每小题4分，共40分。在每小题给出的四个选项中",
+      "printed_number": [
+        6
+      ],
+      "question_numbers": [
+        6
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        31,
+        31
+      ],
+      "options_lines": [
+        33,
+        33
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        207,
+        207
+      ],
+      "explanation_lines": [
+        209,
+        217
+      ],
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L31",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 33,
+          "end_line": 33
+        },
+        {
+          "label": "B",
+          "start_line": 33,
+          "end_line": 33
+        },
+        {
+          "label": "C",
+          "start_line": 33,
+          "end_line": 33
+        },
+        {
+          "label": "D",
+          "start_line": 33,
+          "end_line": 33
+        }
+      ]
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "standalone_question",
+      "section": "一、 选择题：本大题共10道小题，每小题4分，共40分。在每小题给出的四个选项中",
+      "printed_number": [
+        7
+      ],
+      "question_numbers": [
+        7
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        35,
+        43
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        219,
+        219
+      ],
+      "explanation_lines": [
+        221,
+        235
+      ],
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L35"
+    },
+    {
+      "unit_id": "Q8",
+      "unit_type": "standalone_question",
+      "section": "一、 选择题：本大题共10道小题，每小题4分，共40分。在每小题给出的四个选项中",
+      "printed_number": [
+        8
+      ],
+      "question_numbers": [
+        8
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        47,
+        52
+      ],
+      "options_lines": [
+        54,
+        54
+      ],
+      "extra_lines": [
+        50,
+        50
+      ],
+      "answer_lines": [
+        237,
+        237
+      ],
+      "explanation_lines": [
+        239,
+        253
+      ],
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L47",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 54,
+          "end_line": 54
+        },
+        {
+          "label": "B",
+          "start_line": 54,
+          "end_line": 54
+        },
+        {
+          "label": "C",
+          "start_line": 54,
+          "end_line": 54
+        },
+        {
+          "label": "D",
+          "start_line": 54,
+          "end_line": 54
+        }
+      ]
+    },
+    {
+      "unit_id": "Q9",
+      "unit_type": "standalone_question",
+      "section": "一、 选择题：本大题共10道小题，每小题4分，共40分。在每小题给出的四个选项中",
+      "printed_number": [
+        9
+      ],
+      "question_numbers": [
+        9
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        56,
+        56
+      ],
+      "options_lines": [
+        58,
+        58
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        255,
+        255
+      ],
+      "explanation_lines": [
+        257,
+        265
+      ],
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L56",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 58,
+          "end_line": 58
+        },
+        {
+          "label": "B",
+          "start_line": 58,
+          "end_line": 58
+        },
+        {
+          "label": "C",
+          "start_line": 58,
+          "end_line": 58
+        },
+        {
+          "label": "D",
+          "start_line": 58,
+          "end_line": 58
+        }
+      ]
+    },
+    {
+      "unit_id": "Q10",
+      "unit_type": "standalone_question",
+      "section": "一、 选择题：本大题共10道小题，每小题4分，共40分。在每小题给出的四个选项中",
+      "printed_number": [
+        10
+      ],
+      "question_numbers": [
+        10
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        60,
+        60
+      ],
+      "options_lines": [
+        62,
+        68
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        267,
+        267
+      ],
+      "explanation_lines": [
+        269,
+        297
+      ],
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L60",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 62,
+          "end_line": 62
+        },
+        {
+          "label": "B",
+          "start_line": 64,
+          "end_line": 64
+        },
+        {
+          "label": "C",
+          "start_line": 66,
+          "end_line": 66
+        },
+        {
+          "label": "D",
+          "start_line": 68,
+          "end_line": 68
+        }
+      ]
+    },
+    {
+      "unit_id": "Q11",
+      "unit_type": "standalone_question",
+      "section": "二、 填空题：本大题共5小题，共25分.把 $ \\underset{\\cdot}",
+      "printed_number": [
+        11
+      ],
+      "question_numbers": [
+        11
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        72,
+        72
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        301,
+        301
+      ],
+      "explanation_lines": [
+        303,
+        311
+      ],
+      "section_ref": "S3",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L72"
+    },
+    {
+      "unit_id": "Q12",
+      "unit_type": "standalone_question",
+      "section": "二、 填空题：本大题共5小题，共25分.把 $ \\underset{\\cdot}",
+      "printed_number": [
+        12
+      ],
+      "question_numbers": [
+        12
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        74,
+        74
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        313,
+        313
+      ],
+      "explanation_lines": [
+        315,
+        321
+      ],
+      "section_ref": "S3",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L74"
+    },
+    {
+      "unit_id": "Q13",
+      "unit_type": "standalone_question",
+      "section": "二、 填空题：本大题共5小题，共25分.把 $ \\underset{\\cdot}",
+      "printed_number": [
+        13
+      ],
+      "question_numbers": [
+        13
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        76,
+        76
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        323,
+        323
+      ],
+      "explanation_lines": [
+        325,
+        335
+      ],
+      "section_ref": "S3",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L76"
+    },
+    {
+      "unit_id": "Q14",
+      "unit_type": "standalone_question",
+      "section": "二、 填空题：本大题共5小题，共25分.把 $ \\underset{\\cdot}",
+      "printed_number": [
+        14
+      ],
+      "question_numbers": [
+        14
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        78,
+        78
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        337,
+        337
+      ],
+      "explanation_lines": [
+        339,
+        343
+      ],
+      "section_ref": "S3",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L78"
+    },
+    {
+      "unit_id": "Q15",
+      "unit_type": "standalone_question",
+      "section": "二、 填空题：本大题共5小题，共25分.把 $ \\underset{\\cdot}",
+      "printed_number": [
+        15
+      ],
+      "question_numbers": [
+        15
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        80,
+        83
+      ],
+      "options_lines": null,
+      "extra_lines": [
+        83,
+        83
+      ],
+      "answer_lines": [
+        345,
+        345
+      ],
+      "explanation_lines": [
+        347,
+        353
+      ],
+      "section_ref": "S3",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L80"
+    },
+    {
+      "unit_id": "Q16",
+      "unit_type": "standalone_question",
+      "section": "$ \\underset{\\cdot}{题}\\underset{\\cdot}{纸}",
+      "printed_number": [
+        16
+      ],
+      "question_numbers": [
+        16
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        91,
+        95
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        357,
+        359
+      ],
+      "explanation_lines": [
+        361,
+        383
+      ],
+      "section_ref": "S5",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L91"
+    },
+    {
+      "unit_id": "Q17",
+      "unit_type": "standalone_question",
+      "section": "$ \\underset{\\cdot}{题}\\underset{\\cdot}{纸}",
+      "printed_number": [
+        17
+      ],
+      "question_numbers": [
+        17
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        97,
+        106
+      ],
+      "options_lines": null,
+      "extra_lines": [
+        100,
+        100
+      ],
+      "answer_lines": [
+        385,
+        387
+      ],
+      "explanation_lines": [
+        389,
+        434
+      ],
+      "section_ref": "S5",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L97"
+    },
+    {
+      "unit_id": "Q18",
+      "unit_type": "standalone_question",
+      "section": "$ \\underset{\\cdot}{题}\\underset{\\cdot}{纸}",
+      "printed_number": [
+        18
+      ],
+      "question_numbers": [
+        18
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        108,
+        123
+      ],
+      "options_lines": null,
+      "extra_lines": [
+        111,
+        111
+      ],
+      "answer_lines": [
+        436,
+        436
+      ],
+      "explanation_lines": [
+        438,
+        468
+      ],
+      "section_ref": "S5",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L108"
+    },
+    {
+      "unit_id": "Q19",
+      "unit_type": "standalone_question",
+      "section": "$ \\underset{\\cdot}{题}\\underset{\\cdot}{纸}",
+      "printed_number": [
+        19
+      ],
+      "question_numbers": [
+        19
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        125,
+        131
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        470,
+        474
+      ],
+      "explanation_lines": [
+        476,
+        522
+      ],
+      "section_ref": "S5",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L125"
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2023 北京一六一中高二3月月考",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "数 学",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 8,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "一、 选择题：本大题共10道小题，每小题4分，共40分。在每小题给出的四个选项中",
+      "ordinal": 3,
+      "start_line": 9,
+      "end_line": 69,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "二、 填空题：本大题共5小题，共25分.把 $ \\underset{\\cdot}",
+      "ordinal": 4,
+      "start_line": 70,
+      "end_line": 84,
+      "occurrence": 1
+    },
+    {
+      "id": "S4",
+      "title": "三、 解答题：本大题共4小题，共55分.解答应写出文字说明，证明过程或演算步骤.",
+      "ordinal": 5,
+      "start_line": 85,
+      "end_line": 88,
+      "occurrence": 1
+    },
+    {
+      "id": "S5",
+      "title": "$ \\underset{\\cdot}{题}\\underset{\\cdot}{纸}",
+      "ordinal": 6,
+      "start_line": 89,
+      "end_line": 136,
+      "occurrence": 1
+    },
+    {
+      "id": "S6",
+      "title": "一、选择题：本大题共 10 道小题，每小题 4 分，共 40 分。在每小题给出的",
+      "ordinal": 7,
+      "start_line": 137,
+      "end_line": 298,
+      "occurrence": 1
+    },
+    {
+      "id": "S7",
+      "title": "二、 填空题：本大题共5小题，共25分.把 $ \\underset{\\cdot}",
+      "ordinal": 8,
+      "start_line": 299,
+      "end_line": 354,
+      "occurrence": 2
+    },
+    {
+      "id": "S8",
+      "title": "三、 解答题：本大题共4小题，共55分.解答应写出文字说明，证明过程或演算步骤.",
+      "ordinal": 9,
+      "start_line": 355,
+      "end_line": 503,
+      "occurrence": 2
+    },
+    {
+      "id": "S9",
+      "title": "【小问3详解】",
+      "ordinal": 10,
+      "start_line": 504,
+      "end_line": 522,
+      "occurrence": 1
+    }
+  ],
+  "source_content_sha256": "b14b69109995891b0dc43b81998ac7eef15474936ad58d0e3c79d532c244fb0f"
+}

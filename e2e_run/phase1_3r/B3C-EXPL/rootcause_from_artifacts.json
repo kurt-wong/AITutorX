@@ -1,0 +1,273 @@
+{
+  "aggregate": {
+    "units": 11,
+    "opt_ok_units": 10,
+    "opt_unres_units": 1,
+    "stem_unres_units": 1
+  },
+  "detail": [
+    {
+      "paper": "化学",
+      "unit": "Q1",
+      "qn0": "1",
+      "declared_options": [
+        "A@16",
+        "B@16",
+        "C@16",
+        "D@16"
+      ],
+      "questions_lines": null,
+      "option_unresolved": [],
+      "stem_state": [
+        "resolved",
+        ""
+      ],
+      "option_line_texts": [
+        [
+          16,
+          "A. 单质 B. 氧化物 C. 无机物 D. 有机物"
+        ]
+      ]
+    },
+    {
+      "paper": "化学",
+      "unit": "Q3",
+      "qn0": "3",
+      "declared_options": [
+        "A@24",
+        "B@24",
+        "C@24",
+        "D@24"
+      ],
+      "questions_lines": null,
+      "option_unresolved": [],
+      "stem_state": [
+        "resolved",
+        ""
+      ],
+      "option_line_texts": [
+        [
+          24,
+          "A. 石墨 B. 蔗糖 C. 氯化钠 D. 稀硫酸"
+        ]
+      ]
+    },
+    {
+      "paper": "化学",
+      "unit": "Q9",
+      "qn0": "9",
+      "declared_options": [
+        "A@51",
+        "B@51",
+        "C@51",
+        "D@51"
+      ],
+      "questions_lines": null,
+      "option_unresolved": [],
+      "stem_state": [
+        "resolved",
+        ""
+      ],
+      "option_line_texts": [
+        [
+          51,
+          "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td s"
+        ]
+      ]
+    },
+    {
+      "paper": "化学",
+      "unit": "Q19",
+      "qn0": "19",
+      "declared_options": [],
+      "questions_lines": null,
+      "option_unresolved": [],
+      "stem_state": [
+        "resolved",
+        ""
+      ],
+      "option_line_texts": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q25",
+      "qn0": "25",
+      "declared_options": [],
+      "questions_lines": null,
+      "option_unresolved": [],
+      "stem_state": [
+        "resolved",
+        ""
+      ],
+      "option_line_texts": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q6",
+      "qn0": "6",
+      "declared_options": [],
+      "questions_lines": null,
+      "option_unresolved": [],
+      "stem_state": [
+        "resolved",
+        ""
+      ],
+      "option_line_texts": []
+    },
+    {
+      "paper": "政治",
+      "unit": "U9-10",
+      "qn0": "9",
+      "declared_options": [
+        "A@93",
+        "B@93",
+        "C@95",
+        "D@95"
+      ],
+      "questions_lines": [
+        86,
+        103
+      ],
+      "option_unresolved": [
+        [
+          "A",
+          [
+            "incomplete",
+            "option A"
+          ]
+        ],
+        [
+          "B",
+          [
+            "incomplete",
+            "option B"
+          ]
+        ],
+        [
+          "C",
+          [
+            "incomplete",
+            "option C"
+          ]
+        ],
+        [
+          "D",
+          [
+            "incomplete",
+            "option D"
+          ]
+        ]
+      ],
+      "stem_state": [
+        "missing",
+        "question number '9' not found"
+      ],
+      "option_line_texts": [
+        [
+          93,
+          "A. 国家监察委员会 B. 国家卫生健康委员会"
+        ],
+        [
+          95,
+          "C．国家发展和改革委员会 D．国家民族事务委员会"
+        ]
+      ]
+    },
+    {
+      "paper": "政治",
+      "unit": "Q13",
+      "qn0": "13",
+      "declared_options": [
+        "A@135",
+        "B@135",
+        "C@135",
+        "D@135"
+      ],
+      "questions_lines": null,
+      "option_unresolved": [],
+      "stem_state": [
+        "resolved",
+        ""
+      ],
+      "option_line_texts": [
+        [
+          135,
+          "A. ①② B. ①④ C. ②③ D. ③④"
+        ]
+      ]
+    },
+    {
+      "paper": "政治",
+      "unit": "Q25",
+      "qn0": "25",
+      "declared_options": [
+        "A@300",
+        "B@300",
+        "C@300",
+        "D@300"
+      ],
+      "questions_lines": null,
+      "option_unresolved": [],
+      "stem_state": [
+        "resolved",
+        ""
+      ],
+      "option_line_texts": [
+        [
+          300,
+          "A. ①② B. ①③ C. ②④ D. ③④"
+        ]
+      ]
+    },
+    {
+      "paper": "生物",
+      "unit": "Q1",
+      "qn0": "1",
+      "declared_options": [
+        "A@11",
+        "B@11",
+        "C@13",
+        "D@13"
+      ],
+      "questions_lines": null,
+      "option_unresolved": [],
+      "stem_state": [
+        "resolved",
+        ""
+      ],
+      "option_line_texts": [
+        [
+          11,
+          "A. 蛋白质 B. 水"
+        ],
+        [
+          13,
+          "C. 淀粉 D. 糖原"
+        ]
+      ]
+    },
+    {
+      "paper": "生物",
+      "unit": "Q20",
+      "qn0": "20",
+      "declared_options": [
+        "A@172",
+        "B@172",
+        "C@172",
+        "D@172"
+      ],
+      "questions_lines": null,
+      "option_unresolved": [],
+      "stem_state": [
+        "resolved",
+        ""
+      ],
+      "option_line_texts": [
+        [
+          172,
+          "A. 70%、30% B. 50%、50% C. 80%、20% D. 90%、10%"
+        ]
+      ]
+    }
+  ]
+}

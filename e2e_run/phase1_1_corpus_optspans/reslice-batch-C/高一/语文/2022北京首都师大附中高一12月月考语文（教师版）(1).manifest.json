@@ -1,0 +1,583 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\高一\\语文\\2022北京首都师大附中高一12月月考语文（教师版）(1).md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.1",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        9,
+        9
+      ],
+      "options_lines": [
+        11,
+        13
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        213,
+        213
+      ],
+      "explanation_lines": [
+        215,
+        223
+      ],
+      "section_ref": "S2",
+      "section": "一、 本大题共3小题，每小题5分，共15分。",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L9",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 11,
+          "end_line": 11
+        },
+        {
+          "label": "B",
+          "start_line": 11,
+          "end_line": 11
+        },
+        {
+          "label": "C",
+          "start_line": 13,
+          "end_line": 13
+        },
+        {
+          "label": "D",
+          "start_line": 13,
+          "end_line": 13
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        15,
+        15
+      ],
+      "options_lines": [
+        17,
+        23
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        225,
+        225
+      ],
+      "explanation_lines": [
+        227,
+        241
+      ],
+      "section_ref": "S2",
+      "section": "一、 本大题共3小题，每小题5分，共15分。",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L15",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 17,
+          "end_line": 17
+        },
+        {
+          "label": "B",
+          "start_line": 19,
+          "end_line": 19
+        },
+        {
+          "label": "C",
+          "start_line": 21,
+          "end_line": 21
+        },
+        {
+          "label": "D",
+          "start_line": 23,
+          "end_line": 23
+        }
+      ]
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        25,
+        25
+      ],
+      "options_lines": [
+        27,
+        33
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        243,
+        243
+      ],
+      "explanation_lines": [
+        245,
+        249
+      ],
+      "section_ref": "S2",
+      "section": "一、 本大题共3小题，每小题5分，共15分。",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L25",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 27,
+          "end_line": 27
+        },
+        {
+          "label": "B",
+          "start_line": 29,
+          "end_line": 29
+        },
+        {
+          "label": "C",
+          "start_line": 31,
+          "end_line": 31
+        },
+        {
+          "label": "D",
+          "start_line": 33,
+          "end_line": 33
+        }
+      ]
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        37,
+        37
+      ],
+      "options_lines": [
+        39,
+        53
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        253,
+        253
+      ],
+      "explanation_lines": [
+        255,
+        271
+      ],
+      "section_ref": "S3",
+      "section": "二、 本大题共3小题，共22分。",
+      "printed_number": [
+        4
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L37",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 39,
+          "end_line": 39
+        },
+        {
+          "label": "B",
+          "start_line": 43,
+          "end_line": 43
+        },
+        {
+          "label": "C",
+          "start_line": 47,
+          "end_line": 47
+        },
+        {
+          "label": "D",
+          "start_line": 51,
+          "end_line": 51
+        }
+      ]
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        5
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        57,
+        57
+      ],
+      "options_lines": [
+        59,
+        73
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        273,
+        273
+      ],
+      "explanation_lines": [
+        275,
+        295
+      ],
+      "section_ref": "S3",
+      "section": "二、 本大题共3小题，共22分。",
+      "printed_number": [
+        5
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L57",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 59,
+          "end_line": 59
+        },
+        {
+          "label": "B",
+          "start_line": 63,
+          "end_line": 63
+        },
+        {
+          "label": "C",
+          "start_line": 67,
+          "end_line": 67
+        },
+        {
+          "label": "D",
+          "start_line": 71,
+          "end_line": 71
+        }
+      ]
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        6
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        75,
+        83
+      ],
+      "questions_lines": [
+        75,
+        85
+      ],
+      "answer_lines": [
+        297,
+        305
+      ],
+      "explanation_lines": [
+        307,
+        317
+      ],
+      "section_ref": "S3",
+      "section": "二、 本大题共3小题，共22分。",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        7
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        89,
+        103
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        321,
+        321
+      ],
+      "explanation_lines": [
+        323,
+        327
+      ],
+      "section_ref": "S4",
+      "section": "三、 本大题共1小题，共24分。",
+      "printed_number": [
+        7
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L89"
+    },
+    {
+      "unit_id": "U8-11",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        107,
+        121
+      ],
+      "questions_lines": [
+        107,
+        147
+      ],
+      "answer_lines": [
+        331,
+        337
+      ],
+      "explanation_lines": [
+        339,
+        397
+      ],
+      "section_ref": "S5",
+      "section": "四、 本大题共4小题，共27分。",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U12-14",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        12,
+        13,
+        14
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        151,
+        187
+      ],
+      "questions_lines": [
+        151,
+        201
+      ],
+      "answer_lines": [
+        401,
+        403
+      ],
+      "explanation_lines": [
+        405,
+        453
+      ],
+      "section_ref": "S6",
+      "section": "五、 本大题共3小题，共32分。",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2022 北京首都师大附中高一 12 月月考",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "语文",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 6,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "一、 本大题共3小题，每小题5分，共15分。",
+      "ordinal": 3,
+      "start_line": 7,
+      "end_line": 34,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "二、 本大题共3小题，共22分。",
+      "ordinal": 4,
+      "start_line": 35,
+      "end_line": 86,
+      "occurrence": 1
+    },
+    {
+      "id": "S4",
+      "title": "三、 本大题共1小题，共24分。",
+      "ordinal": 5,
+      "start_line": 87,
+      "end_line": 104,
+      "occurrence": 1
+    },
+    {
+      "id": "S5",
+      "title": "四、 本大题共4小题，共27分。",
+      "ordinal": 6,
+      "start_line": 105,
+      "end_line": 148,
+      "occurrence": 1
+    },
+    {
+      "id": "S6",
+      "title": "五、 本大题共3小题，共32分。",
+      "ordinal": 7,
+      "start_line": 149,
+      "end_line": 152,
+      "occurrence": 1
+    },
+    {
+      "id": "S7",
+      "title": "北京的树",
+      "ordinal": 8,
+      "start_line": 153,
+      "end_line": 210,
+      "occurrence": 1
+    },
+    {
+      "id": "S8",
+      "title": "一、 本大题共3小题，每小题5分，共15分。",
+      "ordinal": 9,
+      "start_line": 211,
+      "end_line": 250,
+      "occurrence": 2
+    },
+    {
+      "id": "S9",
+      "title": "二、 本大题共3小题，共22分。",
+      "ordinal": 10,
+      "start_line": 251,
+      "end_line": 318,
+      "occurrence": 2
+    },
+    {
+      "id": "S10",
+      "title": "三、 本大题共1小题，共24分。",
+      "ordinal": 11,
+      "start_line": 319,
+      "end_line": 328,
+      "occurrence": 2
+    },
+    {
+      "id": "S11",
+      "title": "四、 本大题共4小题，共27分。",
+      "ordinal": 12,
+      "start_line": 329,
+      "end_line": 342,
+      "occurrence": 2
+    },
+    {
+      "id": "S12",
+      "title": "【8题详解】",
+      "ordinal": 13,
+      "start_line": 343,
+      "end_line": 354,
+      "occurrence": 1
+    },
+    {
+      "id": "S13",
+      "title": "【9题详解】",
+      "ordinal": 14,
+      "start_line": 355,
+      "end_line": 362,
+      "occurrence": 1
+    },
+    {
+      "id": "S14",
+      "title": "【10题详解】",
+      "ordinal": 15,
+      "start_line": 363,
+      "end_line": 370,
+      "occurrence": 1
+    },
+    {
+      "id": "S15",
+      "title": "【11题详解】",
+      "ordinal": 16,
+      "start_line": 371,
+      "end_line": 382,
+      "occurrence": 1
+    },
+    {
+      "id": "S16",
+      "title": "参考译文：",
+      "ordinal": 17,
+      "start_line": 383,
+      "end_line": 398,
+      "occurrence": 1
+    },
+    {
+      "id": "S17",
+      "title": "五、 本大题共3小题，共32分。",
+      "ordinal": 18,
+      "start_line": 399,
+      "end_line": 406,
+      "occurrence": 2
+    },
+    {
+      "id": "S18",
+      "title": "【12题详解】",
+      "ordinal": 19,
+      "start_line": 407,
+      "end_line": 422,
+      "occurrence": 1
+    },
+    {
+      "id": "S19",
+      "title": "【13题详解】",
+      "ordinal": 20,
+      "start_line": 423,
+      "end_line": 442,
+      "occurrence": 1
+    },
+    {
+      "id": "S20",
+      "title": "【14题详解】",
+      "ordinal": 21,
+      "start_line": 443,
+      "end_line": 453,
+      "occurrence": 1
+    }
+  ],
+  "source_content_sha256": "b4c21f1a17ecc92e6d7842a233b6f604e88e21bb51b76ea3ea836a898f8d85d8"
+}

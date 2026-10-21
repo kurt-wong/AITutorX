@@ -1,0 +1,330 @@
+{
+  "run_id": "E2E-ACCEPT-20261008T151759Z",
+  "purpose": "9-subject formal E2E Acceptance Run Round 1",
+  "frozen": {
+    "P1.4_B": "FROZEN",
+    "no_fix": true
+  },
+  "preprocessing_note": "MD = official Ocr-markdown product (not re-OCR this round). PDF hash recorded. Manifest = reslice-batch-C structural annotation.",
+  "subjects": {
+    "数学": {
+      "subject": "数学",
+      "paper_label": "2018北京春季高中会考数学",
+      "status": {
+        "gate2_machine": "PASS_COMPLETED",
+        "gate2_owner": "AWAITING_OWNER",
+        "gate1_owner": "AWAITING_OWNER"
+      },
+      "pdf": {
+        "sha256": "3b87f19f2e212c63f9afc1c159982ecb16fd0da5f36e7745ce5b66e9c46b1fdc",
+        "bytes": 718734,
+        "name": "2018北京春季高中会考数学（教师版）.pdf"
+      },
+      "preproc_md": {
+        "sha256": "934dec78dde333d21342f3f9419f524bb68e92645914c3d3db9cf482a282f176",
+        "bytes": 29955,
+        "lines": 749
+      },
+      "owner_accepted": {
+        "sha256": "934dec78dde333d21342f3f9419f524bb68e92645914c3d3db9cf482a282f176",
+        "identical_to_preproc": true,
+        "owner_decision": "AWAITING_OWNER"
+      },
+      "v3_manifest_sha256": "1d1425555a5cc23af7bd9bc5242ef3cc24fb396ec0ef5d1e63362b9695f4c814",
+      "v3": {
+        "ir_ready": 30,
+        "ir_incomplete": 0,
+        "gate_auto": 0,
+        "gate_pending": 30,
+        "gate_rejected": 0,
+        "n_units": 30,
+        "n_questions_tracked": 30,
+        "output_sha256": "1c8553620b58ba95ed782ee8c2e40e24da79614d553eed652852880a3bbbac8f"
+      }
+    },
+    "物理": {
+      "subject": "物理",
+      "paper_label": "2018北京春季高中会考物理",
+      "status": {
+        "gate2_machine": "PASS_COMPLETED",
+        "gate2_owner": "AWAITING_OWNER",
+        "gate1_owner": "AWAITING_OWNER"
+      },
+      "pdf": {
+        "sha256": "98bcc61830a73d6291182f30e2d458a6ac1bbd7839027b1b23b8194682973ae9",
+        "bytes": 704961,
+        "name": "2018北京春季高中会考物理（教师版）.pdf"
+      },
+      "preproc_md": {
+        "sha256": "81ea9b74dd71a577aede6f62fe43c0c53c5e1ff053fd1b1295195fa54c6a4797",
+        "bytes": 26329,
+        "lines": 376
+      },
+      "owner_accepted": {
+        "sha256": "81ea9b74dd71a577aede6f62fe43c0c53c5e1ff053fd1b1295195fa54c6a4797",
+        "identical_to_preproc": true,
+        "owner_decision": "AWAITING_OWNER"
+      },
+      "v3_manifest_sha256": "a676d4e8497630576e29143cee3307f2a29f86d543ae51611b7a9d051bb35f0f",
+      "v3": {
+        "ir_ready": 21,
+        "ir_incomplete": 1,
+        "gate_auto": 13,
+        "gate_pending": 8,
+        "gate_rejected": 1,
+        "n_units": 22,
+        "n_questions_tracked": 22,
+        "output_sha256": "71e53c3ce910e7e13bb9a1cf9539cf530fc4ba1d607527cd218c6722a073d046"
+      }
+    },
+    "化学": {
+      "subject": "化学",
+      "paper_label": "2018北京春季高中会考化学",
+      "status": {
+        "gate2_machine": "PASS_COMPLETED",
+        "gate2_owner": "AWAITING_OWNER",
+        "gate1_owner": "AWAITING_OWNER"
+      },
+      "pdf": {
+        "sha256": "8d3f9dad0918567b3ef375a57843d5d28d1eff77dfac467ff9eddc0f3c4f3a23",
+        "bytes": 649356,
+        "name": "2018北京春季高中会考化学（教师版）.pdf"
+      },
+      "preproc_md": {
+        "sha256": "0443945f4672b05da3d2d950b0a3eb20a495c1635c353c024c8c050b7fad1ffb",
+        "bytes": 31777,
+        "lines": 584
+      },
+      "owner_accepted": {
+        "sha256": "0443945f4672b05da3d2d950b0a3eb20a495c1635c353c024c8c050b7fad1ffb",
+        "identical_to_preproc": true,
+        "owner_decision": "AWAITING_OWNER"
+      },
+      "v3_manifest_sha256": "6d0d65515e173961cfba3facdd8a2ded87e3c76980b99834ee955873bc05a23e",
+      "v3": {
+        "ir_ready": 15,
+        "ir_incomplete": 25,
+        "gate_auto": 15,
+        "gate_pending": 0,
+        "gate_rejected": 25,
+        "n_units": 40,
+        "n_questions_tracked": 40,
+        "output_sha256": "096dda54902528de8b974d5d32dfc444efde6b6383deefa9bf628a0420cddef0"
+      }
+    },
+    "英语": {
+      "subject": "英语",
+      "paper_label": "2018北京春季高中会考英语",
+      "status": {
+        "gate2_machine": "PASS_COMPLETED",
+        "gate2_owner": "AWAITING_OWNER",
+        "gate1_owner": "AWAITING_OWNER"
+      },
+      "pdf": {
+        "sha256": "1fdbb6bd8a6a1a9bb4e8a3a80357f784e9f244731429169dc517d24ed9224d9f",
+        "bytes": 897746,
+        "name": "2018北京春季高中会考英语（教师版）.pdf"
+      },
+      "preproc_md": {
+        "sha256": "8dc9afbcb9b06195b075e638ac00b64968db9b349d39c9ad7c4bde0fa0cf9554",
+        "bytes": 29966,
+        "lines": 612
+      },
+      "owner_accepted": {
+        "sha256": "8dc9afbcb9b06195b075e638ac00b64968db9b349d39c9ad7c4bde0fa0cf9554",
+        "identical_to_preproc": true,
+        "owner_decision": "AWAITING_OWNER"
+      },
+      "v3_manifest_sha256": "127879c44f053a19ec6adef2d5eb0c80c6a94f188f097b85cbc50dd82d05db83",
+      "v3": {
+        "ir_ready": 15,
+        "ir_incomplete": 3,
+        "gate_auto": 8,
+        "gate_pending": 7,
+        "gate_rejected": 3,
+        "n_units": 18,
+        "n_questions_tracked": 18,
+        "output_sha256": "5d2389073264b4d51d84af96e75ab801374112050194a8ff4cc4e656bb97cd0d"
+      }
+    },
+    "语文": {
+      "subject": "语文",
+      "paper_label": "2018北京春季高中会考语文",
+      "status": {
+        "gate2_machine": "PASS_COMPLETED",
+        "gate2_owner": "AWAITING_OWNER",
+        "gate1_owner": "AWAITING_OWNER"
+      },
+      "pdf": {
+        "sha256": "d86db79bf1cf997fac3cf312316ec11fea2a3144d98c9b00ee6bfcc46a30baf0",
+        "bytes": 577108,
+        "name": "2018北京春季高中会考语文（教师版）.pdf"
+      },
+      "preproc_md": {
+        "sha256": "a25abe4d8c55eeb5f498cbdd0684a26258c9c64f9590a99aa4fcf3bd85edac43",
+        "bytes": 42211,
+        "lines": 463
+      },
+      "owner_accepted": {
+        "sha256": "a25abe4d8c55eeb5f498cbdd0684a26258c9c64f9590a99aa4fcf3bd85edac43",
+        "identical_to_preproc": true,
+        "owner_decision": "AWAITING_OWNER"
+      },
+      "v3_manifest_sha256": "c89e3ce6209115ff7685196acf5899a9cb495c7f7c4fd10942cef9766a31de42",
+      "v3": {
+        "ir_ready": 10,
+        "ir_incomplete": 0,
+        "gate_auto": 2,
+        "gate_pending": 8,
+        "gate_rejected": 0,
+        "n_units": 10,
+        "n_questions_tracked": 10,
+        "output_sha256": "592aa267eb7b92f9f2bd45f420d1d45eb25d2caccd9012d2db897dd8cd2df4fb"
+      }
+    },
+    "政治": {
+      "subject": "政治",
+      "paper_label": "2018北京夏季高中会考政治",
+      "status": {
+        "gate2_machine": "PASS_COMPLETED",
+        "gate2_owner": "AWAITING_OWNER",
+        "gate1_owner": "AWAITING_OWNER"
+      },
+      "pdf": {
+        "sha256": "a252e7916190df88c319bfeb97f3ebafab8300ec23cd486f577423621c785dd4",
+        "bytes": 1219480,
+        "name": "2018北京夏季高中会考政治（教师版）.pdf"
+      },
+      "preproc_md": {
+        "sha256": "86d45cfc16e32f6477fefdea27646c23df179d6a5d673ab0a520aeb6bec42d0c",
+        "bytes": 35320,
+        "lines": 650
+      },
+      "owner_accepted": {
+        "sha256": "86d45cfc16e32f6477fefdea27646c23df179d6a5d673ab0a520aeb6bec42d0c",
+        "identical_to_preproc": true,
+        "owner_decision": "AWAITING_OWNER"
+      },
+      "v3_manifest_sha256": "f9dae991c703a4e95b11478df3642f20786f45c72b83ba80e225870a41eea895",
+      "v3": {
+        "ir_ready": 29,
+        "ir_incomplete": 7,
+        "gate_auto": 20,
+        "gate_pending": 9,
+        "gate_rejected": 7,
+        "n_units": 36,
+        "n_questions_tracked": 36,
+        "output_sha256": "3e5da6a175fb1f92b6be97c77b8e5267408c83a561aac27f096e30bcd3b3f388"
+      }
+    },
+    "地理": {
+      "subject": "地理",
+      "paper_label": "2018北京春季高中会考地理",
+      "status": {
+        "gate2_machine": "PASS_COMPLETED",
+        "gate2_owner": "AWAITING_OWNER",
+        "gate1_owner": "AWAITING_OWNER"
+      },
+      "pdf": {
+        "sha256": "96344286c837d7fb3a7aa8dbde2642c3c528cfc1cfb06379469cebaa182a50f5",
+        "bytes": 1452120,
+        "name": "2018北京春季高中会考地理（教师版）.pdf"
+      },
+      "preproc_md": {
+        "sha256": "3f4a7a826b0176ceb86de53b5721de08e1d7d5ba8a364e627c33297d2a3359f0",
+        "bytes": 31326,
+        "lines": 661
+      },
+      "owner_accepted": {
+        "sha256": "3f4a7a826b0176ceb86de53b5721de08e1d7d5ba8a364e627c33297d2a3359f0",
+        "identical_to_preproc": true,
+        "owner_decision": "AWAITING_OWNER"
+      },
+      "v3_manifest_sha256": "2881023e35dfe3a4f7783b30bd914bf015594e034bdc8b25c2d5682fffe28b0e",
+      "v3": {
+        "ir_ready": 25,
+        "ir_incomplete": 0,
+        "gate_auto": 18,
+        "gate_pending": 5,
+        "gate_rejected": 2,
+        "n_units": 25,
+        "n_questions_tracked": 25,
+        "output_sha256": "eb93ae6e6c786a2c1d6c075cb3862a7772f05b91d708ca56e52c8b8f27207e2a"
+      }
+    },
+    "历史": {
+      "subject": "历史",
+      "paper_label": "2018北京夏季高中会考历史",
+      "status": {
+        "gate2_machine": "PASS_COMPLETED",
+        "gate2_owner": "AWAITING_OWNER",
+        "gate1_owner": "AWAITING_OWNER"
+      },
+      "pdf": {
+        "sha256": "149b312f36b7f75235dc3b4918e96a21a20d504754cf50c6b1d36377622ec19b",
+        "bytes": 1359799,
+        "name": "2018北京夏季高中会考历史（教师版）.pdf"
+      },
+      "preproc_md": {
+        "sha256": "d4917437065bfcb8eda24dd45b4e92ca4e2bb6eb8bb4342170903e4c5a62e714",
+        "bytes": 53305,
+        "lines": 1045
+      },
+      "owner_accepted": {
+        "sha256": "d4917437065bfcb8eda24dd45b4e92ca4e2bb6eb8bb4342170903e4c5a62e714",
+        "identical_to_preproc": true,
+        "owner_decision": "AWAITING_OWNER"
+      },
+      "v3_manifest_sha256": "f0298355eec4fae99246e6316644dd2f214032660b6fe3d94baa618de4310368",
+      "v3": {
+        "ir_ready": 53,
+        "ir_incomplete": 0,
+        "gate_auto": 50,
+        "gate_pending": 0,
+        "gate_rejected": 3,
+        "n_units": 53,
+        "n_questions_tracked": 53,
+        "output_sha256": "3e9f2b7c318c4e0c4663f30ffdcecfbb8359598497ef22e11bf4f5b949e98491"
+      }
+    },
+    "生物": {
+      "subject": "生物",
+      "paper_label": "2018北京春季高中会考生物",
+      "status": {
+        "gate2_machine": "PASS_COMPLETED",
+        "gate2_owner": "AWAITING_OWNER",
+        "gate1_owner": "AWAITING_OWNER"
+      },
+      "pdf": {
+        "sha256": "a8242fd3abe44c426688aa7167ffee75f42970e9f3429efd6c70aaebcac20752",
+        "bytes": 919837,
+        "name": "2018北京春季高中会考生物（教师版）.pdf"
+      },
+      "preproc_md": {
+        "sha256": "35e928c273fb2d2dc9187607a51c5506af3fcdf3c086737ec273d668a42363d6",
+        "bytes": 29647,
+        "lines": 601
+      },
+      "owner_accepted": {
+        "sha256": "35e928c273fb2d2dc9187607a51c5506af3fcdf3c086737ec273d668a42363d6",
+        "identical_to_preproc": true,
+        "owner_decision": "AWAITING_OWNER"
+      },
+      "v3_manifest_sha256": "aa16464dbcf4377fc5235fee006a1f674ecd149b7ff13d5e5b99ce38d05be444",
+      "v3": {
+        "ir_ready": 29,
+        "ir_incomplete": 21,
+        "gate_auto": 29,
+        "gate_pending": 0,
+        "gate_rejected": 21,
+        "n_units": 50,
+        "n_questions_tracked": 50,
+        "output_sha256": "078407e2f809eb3667d6fe33b627bdd5648840afb59487005a3e9ce64412607e"
+      }
+    }
+  },
+  "git": {
+    "AITutors_v3_HEAD": "ec62d298d68903cfa3d1e22f7cacd4a8474b7177",
+    "Papers_HEAD": "d42cde662f5b780634a206f9c47f6482de1ed26e"
+  }
+}

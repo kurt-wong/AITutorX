@@ -1,0 +1,1280 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\合格考\\数学\\2021北京高中合格考数学（第二次）（教师版）(1).md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.1",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        7,
+        7
+      ],
+      "options_lines": [
+        9,
+        9
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        214,
+        214
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出符合",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 9,
+          "end_line": 9
+        },
+        {
+          "label": "B",
+          "start_line": 9,
+          "end_line": 9
+        },
+        {
+          "label": "C",
+          "start_line": 9,
+          "end_line": 9
+        },
+        {
+          "label": "D",
+          "start_line": 9,
+          "end_line": 9
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        11,
+        11
+      ],
+      "options_lines": [
+        13,
+        13
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        214,
+        214
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出符合",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 13,
+          "end_line": 13
+        },
+        {
+          "label": "B",
+          "start_line": 13,
+          "end_line": 13
+        },
+        {
+          "label": "C",
+          "start_line": 13,
+          "end_line": 13
+        },
+        {
+          "label": "D",
+          "start_line": 13,
+          "end_line": 13
+        }
+      ]
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        15,
+        15
+      ],
+      "options_lines": [
+        17,
+        17
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        214,
+        214
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出符合",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 17,
+          "end_line": 17
+        },
+        {
+          "label": "B",
+          "start_line": 17,
+          "end_line": 17
+        },
+        {
+          "label": "C",
+          "start_line": 17,
+          "end_line": 17
+        },
+        {
+          "label": "D",
+          "start_line": 17,
+          "end_line": 17
+        }
+      ]
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        19,
+        19
+      ],
+      "options_lines": [
+        21,
+        21
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        214,
+        214
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出符合",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 21,
+          "end_line": 21
+        },
+        {
+          "label": "B",
+          "start_line": 21,
+          "end_line": 21
+        },
+        {
+          "label": "C",
+          "start_line": 21,
+          "end_line": 21
+        },
+        {
+          "label": "D",
+          "start_line": 21,
+          "end_line": 21
+        }
+      ]
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        5
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        23,
+        23
+      ],
+      "options_lines": [
+        25,
+        25
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        214,
+        214
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出符合",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 25,
+          "end_line": 25
+        },
+        {
+          "label": "B",
+          "start_line": 25,
+          "end_line": 25
+        },
+        {
+          "label": "C",
+          "start_line": 25,
+          "end_line": 25
+        },
+        {
+          "label": "D",
+          "start_line": 25,
+          "end_line": 25
+        }
+      ]
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        6
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        27,
+        27
+      ],
+      "options_lines": [
+        29,
+        35
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        214,
+        214
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出符合",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 29,
+          "end_line": 29
+        },
+        {
+          "label": "B",
+          "start_line": 31,
+          "end_line": 31
+        },
+        {
+          "label": "C",
+          "start_line": 33,
+          "end_line": 33
+        },
+        {
+          "label": "D",
+          "start_line": 35,
+          "end_line": 35
+        }
+      ]
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        7
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        37,
+        37
+      ],
+      "options_lines": [
+        39,
+        45
+      ],
+      "extra_lines": [
+        49,
+        49
+      ],
+      "answer_lines": [
+        214,
+        214
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出符合",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 39,
+          "end_line": 39
+        },
+        {
+          "label": "B",
+          "start_line": 41,
+          "end_line": 41
+        },
+        {
+          "label": "C",
+          "start_line": 43,
+          "end_line": 43
+        },
+        {
+          "label": "D",
+          "start_line": 45,
+          "end_line": 45
+        }
+      ]
+    },
+    {
+      "unit_id": "Q8",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        8
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        54,
+        54
+      ],
+      "options_lines": [
+        56,
+        56
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        214,
+        214
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出符合",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 56,
+          "end_line": 56
+        },
+        {
+          "label": "B",
+          "start_line": 56,
+          "end_line": 56
+        },
+        {
+          "label": "C",
+          "start_line": 56,
+          "end_line": 56
+        },
+        {
+          "label": "D",
+          "start_line": 56,
+          "end_line": 56
+        }
+      ]
+    },
+    {
+      "unit_id": "Q9",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        9
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        58,
+        58
+      ],
+      "options_lines": [
+        60,
+        60
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        214,
+        214
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出符合",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 60,
+          "end_line": 60
+        },
+        {
+          "label": "B",
+          "start_line": 60,
+          "end_line": 60
+        },
+        {
+          "label": "C",
+          "start_line": 60,
+          "end_line": 60
+        },
+        {
+          "label": "D",
+          "start_line": 60,
+          "end_line": 60
+        }
+      ]
+    },
+    {
+      "unit_id": "Q10",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        10
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        62,
+        62
+      ],
+      "options_lines": [
+        64,
+        64
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        214,
+        214
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出符合",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 64,
+          "end_line": 64
+        },
+        {
+          "label": "B",
+          "start_line": 64,
+          "end_line": 64
+        },
+        {
+          "label": "C",
+          "start_line": 64,
+          "end_line": 64
+        },
+        {
+          "label": "D",
+          "start_line": 64,
+          "end_line": 64
+        }
+      ]
+    },
+    {
+      "unit_id": "Q11",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        11
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        66,
+        66
+      ],
+      "options_lines": [
+        68,
+        70
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        214,
+        214
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出符合",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 68,
+          "end_line": 68
+        },
+        {
+          "label": "B",
+          "start_line": 68,
+          "end_line": 68
+        },
+        {
+          "label": "C",
+          "start_line": 70,
+          "end_line": 70
+        },
+        {
+          "label": "D",
+          "start_line": 70,
+          "end_line": 70
+        }
+      ]
+    },
+    {
+      "unit_id": "Q12",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        12
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        72,
+        72
+      ],
+      "options_lines": [
+        74,
+        74
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        214,
+        214
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出符合",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 74,
+          "end_line": 74
+        },
+        {
+          "label": "B",
+          "start_line": 74,
+          "end_line": 74
+        },
+        {
+          "label": "C",
+          "start_line": 74,
+          "end_line": 74
+        },
+        {
+          "label": "D",
+          "start_line": 74,
+          "end_line": 74
+        }
+      ]
+    },
+    {
+      "unit_id": "Q13",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        13
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        76,
+        76
+      ],
+      "options_lines": [
+        78,
+        78
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        214,
+        214
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出符合",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 78,
+          "end_line": 78
+        },
+        {
+          "label": "B",
+          "start_line": 78,
+          "end_line": 78
+        },
+        {
+          "label": "C",
+          "start_line": 78,
+          "end_line": 78
+        },
+        {
+          "label": "D",
+          "start_line": 78,
+          "end_line": 78
+        }
+      ]
+    },
+    {
+      "unit_id": "Q14",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        14
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        80,
+        80
+      ],
+      "options_lines": [
+        82,
+        82
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        214,
+        214
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出符合",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 82,
+          "end_line": 82
+        },
+        {
+          "label": "B",
+          "start_line": 82,
+          "end_line": 82
+        },
+        {
+          "label": "C",
+          "start_line": 82,
+          "end_line": 82
+        },
+        {
+          "label": "D",
+          "start_line": 82,
+          "end_line": 82
+        }
+      ]
+    },
+    {
+      "unit_id": "Q15",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        15
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        84,
+        84
+      ],
+      "options_lines": [
+        86,
+        88
+      ],
+      "extra_lines": [
+        92,
+        92
+      ],
+      "answer_lines": [
+        214,
+        214
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出符合",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 86,
+          "end_line": 86
+        },
+        {
+          "label": "B",
+          "start_line": 86,
+          "end_line": 86
+        },
+        {
+          "label": "C",
+          "start_line": 88,
+          "end_line": 88
+        },
+        {
+          "label": "D",
+          "start_line": 88,
+          "end_line": 88
+        }
+      ]
+    },
+    {
+      "unit_id": "Q16",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        16
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        95,
+        95
+      ],
+      "options_lines": [
+        97,
+        97
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        214,
+        214
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出符合",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 97,
+          "end_line": 97
+        },
+        {
+          "label": "B",
+          "start_line": 97,
+          "end_line": 97
+        },
+        {
+          "label": "C",
+          "start_line": 97,
+          "end_line": 97
+        }
+      ]
+    },
+    {
+      "unit_id": "Q17",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        17
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        99,
+        99
+      ],
+      "options_lines": [
+        101,
+        101
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        214,
+        214
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出符合",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 101,
+          "end_line": 101
+        },
+        {
+          "label": "B",
+          "start_line": 101,
+          "end_line": 101
+        },
+        {
+          "label": "C",
+          "start_line": 101,
+          "end_line": 101
+        },
+        {
+          "label": "D",
+          "start_line": 101,
+          "end_line": 101
+        }
+      ]
+    },
+    {
+      "unit_id": "Q18",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        18
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        105,
+        107
+      ],
+      "options_lines": [
+        110,
+        110
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        214,
+        214
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出符合",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 110,
+          "end_line": 110
+        },
+        {
+          "label": "B",
+          "start_line": 110,
+          "end_line": 110
+        },
+        {
+          "label": "C",
+          "start_line": 110,
+          "end_line": 110
+        },
+        {
+          "label": "D",
+          "start_line": 110,
+          "end_line": 110
+        }
+      ]
+    },
+    {
+      "unit_id": "Q19",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        19
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        112,
+        112
+      ],
+      "options_lines": [
+        114,
+        116
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        214,
+        214
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出符合",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 114,
+          "end_line": 114
+        },
+        {
+          "label": "B",
+          "start_line": 114,
+          "end_line": 114
+        },
+        {
+          "label": "C",
+          "start_line": 116,
+          "end_line": 116
+        },
+        {
+          "label": "D",
+          "start_line": 116,
+          "end_line": 116
+        }
+      ]
+    },
+    {
+      "unit_id": "Q20",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        20
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        118,
+        123
+      ],
+      "options_lines": [
+        125,
+        125
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        214,
+        214
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出符合",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 125,
+          "end_line": 125
+        },
+        {
+          "label": "B",
+          "start_line": 125,
+          "end_line": 125
+        },
+        {
+          "label": "C",
+          "start_line": 125,
+          "end_line": 125
+        },
+        {
+          "label": "D",
+          "start_line": 125,
+          "end_line": 125
+        }
+      ]
+    },
+    {
+      "unit_id": "Q21",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        21
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        131,
+        131
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        218,
+        218
+      ],
+      "explanation_lines": null,
+      "section_ref": "S4",
+      "section": "二、 填空题共4小题，每小题3分，共12分",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q22",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        22
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        133,
+        133
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        218,
+        218
+      ],
+      "explanation_lines": null,
+      "section_ref": "S4",
+      "section": "二、 填空题共4小题，每小题3分，共12分",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q23",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        23
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        135,
+        135
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        218,
+        218
+      ],
+      "explanation_lines": null,
+      "section_ref": "S4",
+      "section": "二、 填空题共4小题，每小题3分，共12分",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q24",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        24
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        139,
+        152
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        218,
+        218
+      ],
+      "explanation_lines": null,
+      "section_ref": "S4",
+      "section": "二、 填空题共4小题，每小题3分，共12分",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q25",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        25
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        156,
+        162
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        222,
+        224
+      ],
+      "explanation_lines": null,
+      "section_ref": "S5",
+      "section": "三、 解答题共4小题，共28分.解答应写出文字说明，演算步骤或证明过程",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q26",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        26
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        166,
+        188
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        226,
+        253
+      ],
+      "explanation_lines": null,
+      "section_ref": "S5",
+      "section": "三、 解答题共4小题，共28分.解答应写出文字说明，演算步骤或证明过程",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q27",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        27
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        190,
+        196
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        255,
+        255
+      ],
+      "explanation_lines": null,
+      "section_ref": "S5",
+      "section": "三、 解答题共4小题，共28分.解答应写出文字说明，演算步骤或证明过程",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q28",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        28
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        201,
+        205
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        257,
+        261
+      ],
+      "explanation_lines": null,
+      "section_ref": "S5",
+      "section": "三、 解答题共4小题，共28分.解答应写出文字说明，演算步骤或证明过程",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2021 北京高中合格考数学 （第二次）",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "第一部分（选择题 共60分）",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 4,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出符合",
+      "ordinal": 3,
+      "start_line": 5,
+      "end_line": 126,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "第二部分（非选择题 共40分）",
+      "ordinal": 4,
+      "start_line": 127,
+      "end_line": 128,
+      "occurrence": 1
+    },
+    {
+      "id": "S4",
+      "title": "二、 填空题共4小题，每小题3分，共12分",
+      "ordinal": 5,
+      "start_line": 129,
+      "end_line": 153,
+      "occurrence": 1
+    },
+    {
+      "id": "S5",
+      "title": "三、 解答题共4小题，共28分.解答应写出文字说明，演算步骤或证明过程",
+      "ordinal": 6,
+      "start_line": 154,
+      "end_line": 215,
+      "occurrence": 1
+    },
+    {
+      "id": "S6",
+      "title": "二、 填空题共4小题，每小题3分，共12分",
+      "ordinal": 7,
+      "start_line": 216,
+      "end_line": 219,
+      "occurrence": 2
+    },
+    {
+      "id": "S7",
+      "title": "三、 答题共4小题，共28分.解答应写出文字说明，演算步骤或证明过程",
+      "ordinal": 8,
+      "start_line": 220,
+      "end_line": 261,
+      "occurrence": 1
+    }
+  ],
+  "source_content_sha256": "c345e653c9fc1954053f00c18c0f053dc3c0fc1d76772c81e822ad5184f25d72"
+}

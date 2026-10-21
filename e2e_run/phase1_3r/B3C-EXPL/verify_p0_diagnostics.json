@@ -1,0 +1,13 @@
+{
+  "totals": {
+    "roots_evaluated": 227,
+    "field_present": 227,
+    "roots_with_diag": 77,
+    "diag_reason_occurrences": 77,
+    "rejected": 5
+  },
+  "per_paper": {
+    "历史": 52,
+    "地理": 25
+  }
+}

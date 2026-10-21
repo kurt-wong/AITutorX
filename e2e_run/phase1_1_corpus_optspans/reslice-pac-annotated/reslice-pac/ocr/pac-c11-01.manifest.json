@@ -1,0 +1,2567 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-pac-annotated\\reslice-pac\\ocr\\pac-c11-01.md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.3",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        1
+      ],
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        13,
+        13
+      ],
+      "options_lines": [
+        15,
+        15
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L13",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 15,
+          "end_line": 15
+        },
+        {
+          "label": "B",
+          "start_line": 15,
+          "end_line": 15
+        },
+        {
+          "label": "C",
+          "start_line": 15,
+          "end_line": 15
+        },
+        {
+          "label": "D",
+          "start_line": 15,
+          "end_line": 15
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        2
+      ],
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        17,
+        17
+      ],
+      "options_lines": [
+        19,
+        21
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L17",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 19,
+          "end_line": 19
+        },
+        {
+          "label": "B",
+          "start_line": 19,
+          "end_line": 19
+        },
+        {
+          "label": "C",
+          "start_line": 21,
+          "end_line": 21
+        },
+        {
+          "label": "D",
+          "start_line": 21,
+          "end_line": 21
+        }
+      ]
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": null,
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        23,
+        23
+      ],
+      "options_lines": [
+        25,
+        25
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 25,
+          "end_line": 25
+        },
+        {
+          "label": "B",
+          "start_line": 25,
+          "end_line": 25
+        },
+        {
+          "label": "C",
+          "start_line": 25,
+          "end_line": 25
+        },
+        {
+          "label": "D",
+          "start_line": 25,
+          "end_line": 25
+        }
+      ]
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        4
+      ],
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        27,
+        27
+      ],
+      "options_lines": [
+        29,
+        29
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L27",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 29,
+          "end_line": 29
+        },
+        {
+          "label": "B",
+          "start_line": 29,
+          "end_line": 29
+        },
+        {
+          "label": "C",
+          "start_line": 29,
+          "end_line": 29
+        },
+        {
+          "label": "D",
+          "start_line": 29,
+          "end_line": 29
+        }
+      ]
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        5
+      ],
+      "question_numbers": [
+        5
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        31,
+        31
+      ],
+      "options_lines": [
+        33,
+        33
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L31",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 33,
+          "end_line": 33
+        },
+        {
+          "label": "B",
+          "start_line": 33,
+          "end_line": 33
+        },
+        {
+          "label": "C",
+          "start_line": 33,
+          "end_line": 33
+        },
+        {
+          "label": "D",
+          "start_line": 33,
+          "end_line": 33
+        }
+      ]
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        6
+      ],
+      "question_numbers": [
+        6
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        35,
+        35
+      ],
+      "options_lines": [
+        37,
+        37
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L35",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 37,
+          "end_line": 37
+        },
+        {
+          "label": "B",
+          "start_line": 37,
+          "end_line": 37
+        },
+        {
+          "label": "C",
+          "start_line": 37,
+          "end_line": 37
+        },
+        {
+          "label": "D",
+          "start_line": 37,
+          "end_line": 37
+        }
+      ]
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        7
+      ],
+      "question_numbers": [
+        7
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        39,
+        39
+      ],
+      "options_lines": [
+        41,
+        41
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L39",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 41,
+          "end_line": 41
+        },
+        {
+          "label": "B",
+          "start_line": 41,
+          "end_line": 41
+        },
+        {
+          "label": "C",
+          "start_line": 41,
+          "end_line": 41
+        },
+        {
+          "label": "D",
+          "start_line": 41,
+          "end_line": 41
+        }
+      ]
+    },
+    {
+      "unit_id": "Q8",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        8
+      ],
+      "question_numbers": [
+        8
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        43,
+        43
+      ],
+      "options_lines": [
+        45,
+        45
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L43",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 45,
+          "end_line": 45
+        },
+        {
+          "label": "B",
+          "start_line": 45,
+          "end_line": 45
+        },
+        {
+          "label": "C",
+          "start_line": 45,
+          "end_line": 45
+        },
+        {
+          "label": "D",
+          "start_line": 45,
+          "end_line": 45
+        }
+      ]
+    },
+    {
+      "unit_id": "Q9",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        9
+      ],
+      "question_numbers": [
+        9
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        47,
+        47
+      ],
+      "options_lines": [
+        49,
+        49
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L47",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 49,
+          "end_line": 49
+        },
+        {
+          "label": "B",
+          "start_line": 49,
+          "end_line": 49
+        },
+        {
+          "label": "C",
+          "start_line": 49,
+          "end_line": 49
+        },
+        {
+          "label": "D",
+          "start_line": 49,
+          "end_line": 49
+        }
+      ]
+    },
+    {
+      "unit_id": "Q10",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        10
+      ],
+      "question_numbers": [
+        10
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        51,
+        51
+      ],
+      "options_lines": [
+        53,
+        53
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L51",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 53,
+          "end_line": 53
+        },
+        {
+          "label": "B",
+          "start_line": 53,
+          "end_line": 53
+        },
+        {
+          "label": "C",
+          "start_line": 53,
+          "end_line": 53
+        },
+        {
+          "label": "D",
+          "start_line": 53,
+          "end_line": 53
+        }
+      ]
+    },
+    {
+      "unit_id": "Q11",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        11
+      ],
+      "question_numbers": [
+        11
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        55,
+        55
+      ],
+      "options_lines": [
+        59,
+        59
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L55",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 59,
+          "end_line": 59
+        },
+        {
+          "label": "B",
+          "start_line": 59,
+          "end_line": 59
+        },
+        {
+          "label": "C",
+          "start_line": 59,
+          "end_line": 59
+        },
+        {
+          "label": "D",
+          "start_line": 59,
+          "end_line": 59
+        }
+      ]
+    },
+    {
+      "unit_id": "Q12",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": null,
+      "question_numbers": [
+        12
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        61,
+        61
+      ],
+      "options_lines": [
+        63,
+        63
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 63,
+          "end_line": 63
+        },
+        {
+          "label": "B",
+          "start_line": 63,
+          "end_line": 63
+        },
+        {
+          "label": "C",
+          "start_line": 63,
+          "end_line": 63
+        },
+        {
+          "label": "D",
+          "start_line": 63,
+          "end_line": 63
+        },
+        {
+          "label": "F",
+          "start_line": 63,
+          "end_line": 63
+        }
+      ]
+    },
+    {
+      "unit_id": "Q13",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": null,
+      "question_numbers": [
+        13
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        65,
+        65
+      ],
+      "options_lines": [
+        67,
+        67
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 67,
+          "end_line": 67
+        },
+        {
+          "label": "B",
+          "start_line": 67,
+          "end_line": 67
+        },
+        {
+          "label": "C",
+          "start_line": 67,
+          "end_line": 67
+        },
+        {
+          "label": "D",
+          "start_line": 67,
+          "end_line": 67
+        }
+      ]
+    },
+    {
+      "unit_id": "Q14",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        14
+      ],
+      "question_numbers": [
+        14
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        69,
+        69
+      ],
+      "options_lines": [
+        72,
+        72
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L69"
+    },
+    {
+      "unit_id": "Q15",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        15
+      ],
+      "question_numbers": [
+        15
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        74,
+        74
+      ],
+      "options_lines": [
+        76,
+        76
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L74",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 76,
+          "end_line": 76
+        },
+        {
+          "label": "B",
+          "start_line": 76,
+          "end_line": 76
+        },
+        {
+          "label": "C",
+          "start_line": 76,
+          "end_line": 76
+        },
+        {
+          "label": "D",
+          "start_line": 76,
+          "end_line": 76
+        }
+      ]
+    },
+    {
+      "unit_id": "Q16",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": null,
+      "question_numbers": [
+        16
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        78,
+        78
+      ],
+      "options_lines": [
+        80,
+        80
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 80,
+          "end_line": 80
+        },
+        {
+          "label": "B",
+          "start_line": 80,
+          "end_line": 80
+        },
+        {
+          "label": "C",
+          "start_line": 80,
+          "end_line": 80
+        },
+        {
+          "label": "D",
+          "start_line": 80,
+          "end_line": 80
+        }
+      ]
+    },
+    {
+      "unit_id": "Q17",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        17
+      ],
+      "question_numbers": [
+        17
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        82,
+        82
+      ],
+      "options_lines": [
+        84,
+        84
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L82",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 84,
+          "end_line": 84
+        },
+        {
+          "label": "B",
+          "start_line": 84,
+          "end_line": 84
+        },
+        {
+          "label": "C",
+          "start_line": 84,
+          "end_line": 84
+        },
+        {
+          "label": "D",
+          "start_line": 84,
+          "end_line": 84
+        }
+      ]
+    },
+    {
+      "unit_id": "Q18",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        18
+      ],
+      "question_numbers": [
+        18
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        86,
+        86
+      ],
+      "options_lines": [
+        88,
+        88
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L86",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 88,
+          "end_line": 88
+        },
+        {
+          "label": "B",
+          "start_line": 88,
+          "end_line": 88
+        },
+        {
+          "label": "C",
+          "start_line": 88,
+          "end_line": 88
+        },
+        {
+          "label": "D",
+          "start_line": 88,
+          "end_line": 88
+        }
+      ]
+    },
+    {
+      "unit_id": "Q19",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        19
+      ],
+      "question_numbers": [
+        19
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        90,
+        90
+      ],
+      "options_lines": [
+        92,
+        92
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L90",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 92,
+          "end_line": 92
+        },
+        {
+          "label": "B",
+          "start_line": 92,
+          "end_line": 92
+        },
+        {
+          "label": "C",
+          "start_line": 92,
+          "end_line": 92
+        },
+        {
+          "label": "D",
+          "start_line": 92,
+          "end_line": 92
+        }
+      ]
+    },
+    {
+      "unit_id": "Q20",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": null,
+      "question_numbers": [
+        20
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        94,
+        94
+      ],
+      "options_lines": [
+        96,
+        96
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 96,
+          "end_line": 96
+        },
+        {
+          "label": "B",
+          "start_line": 96,
+          "end_line": 96
+        },
+        {
+          "label": "C",
+          "start_line": 96,
+          "end_line": 96
+        },
+        {
+          "label": "D",
+          "start_line": 96,
+          "end_line": 96
+        }
+      ]
+    },
+    {
+      "unit_id": "Q21",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        21
+      ],
+      "question_numbers": [
+        21
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        98,
+        98
+      ],
+      "options_lines": [
+        100,
+        102
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L98",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 100,
+          "end_line": 100
+        },
+        {
+          "label": "B",
+          "start_line": 100,
+          "end_line": 100
+        },
+        {
+          "label": "C",
+          "start_line": 102,
+          "end_line": 102
+        },
+        {
+          "label": "D",
+          "start_line": 102,
+          "end_line": 102
+        }
+      ]
+    },
+    {
+      "unit_id": "Q22",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": null,
+      "question_numbers": [
+        22
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        104,
+        107
+      ],
+      "options_lines": [
+        111,
+        113
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 111,
+          "end_line": 111
+        },
+        {
+          "label": "B",
+          "start_line": 111,
+          "end_line": 111
+        },
+        {
+          "label": "C",
+          "start_line": 113,
+          "end_line": 113
+        },
+        {
+          "label": "D",
+          "start_line": 113,
+          "end_line": 113
+        }
+      ]
+    },
+    {
+      "unit_id": "Q23",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        23
+      ],
+      "question_numbers": [
+        23
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        115,
+        115
+      ],
+      "options_lines": [
+        117,
+        117
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L115",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 117,
+          "end_line": 117
+        },
+        {
+          "label": "B",
+          "start_line": 117,
+          "end_line": 117
+        },
+        {
+          "label": "C",
+          "start_line": 117,
+          "end_line": 117
+        },
+        {
+          "label": "D",
+          "start_line": 117,
+          "end_line": 117
+        }
+      ]
+    },
+    {
+      "unit_id": "Q24",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        24
+      ],
+      "question_numbers": [
+        24
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        119,
+        119
+      ],
+      "options_lines": [
+        121,
+        127
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L119",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 121,
+          "end_line": 121
+        },
+        {
+          "label": "B",
+          "start_line": 123,
+          "end_line": 123
+        },
+        {
+          "label": "C",
+          "start_line": 125,
+          "end_line": 125
+        },
+        {
+          "label": "D",
+          "start_line": 127,
+          "end_line": 127
+        }
+      ]
+    },
+    {
+      "unit_id": "Q25",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": null,
+      "question_numbers": [
+        25
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        129,
+        129
+      ],
+      "options_lines": [
+        131,
+        137
+      ],
+      "extra_lines": [
+        141,
+        141
+      ],
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 131,
+          "end_line": 131
+        },
+        {
+          "label": "B",
+          "start_line": 133,
+          "end_line": 133
+        },
+        {
+          "label": "C",
+          "start_line": 135,
+          "end_line": 135
+        },
+        {
+          "label": "D",
+          "start_line": 137,
+          "end_line": 137
+        }
+      ]
+    },
+    {
+      "unit_id": "Q26",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        26
+      ],
+      "question_numbers": [
+        26
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        144,
+        144
+      ],
+      "options_lines": [
+        146,
+        152
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L144",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 146,
+          "end_line": 146
+        },
+        {
+          "label": "B",
+          "start_line": 148,
+          "end_line": 148
+        },
+        {
+          "label": "C",
+          "start_line": 150,
+          "end_line": 150
+        },
+        {
+          "label": "D",
+          "start_line": 152,
+          "end_line": 152
+        }
+      ]
+    },
+    {
+      "unit_id": "Q27",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        27
+      ],
+      "question_numbers": [
+        27
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        154,
+        164
+      ],
+      "options_lines": [
+        166,
+        168
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L154",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 166,
+          "end_line": 166
+        },
+        {
+          "label": "B",
+          "start_line": 166,
+          "end_line": 166
+        },
+        {
+          "label": "C",
+          "start_line": 168,
+          "end_line": 168
+        },
+        {
+          "label": "D",
+          "start_line": 168,
+          "end_line": 168
+        }
+      ]
+    },
+    {
+      "unit_id": "Q28",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        28
+      ],
+      "question_numbers": [
+        28
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        170,
+        170
+      ],
+      "options_lines": [
+        172,
+        180
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L170",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 172,
+          "end_line": 172
+        },
+        {
+          "label": "B",
+          "start_line": 174,
+          "end_line": 174
+        },
+        {
+          "label": "C",
+          "start_line": 176,
+          "end_line": 176
+        },
+        {
+          "label": "D",
+          "start_line": 180,
+          "end_line": 180
+        }
+      ]
+    },
+    {
+      "unit_id": "Q29",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        29
+      ],
+      "question_numbers": [
+        29
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        182,
+        182
+      ],
+      "options_lines": [
+        184,
+        190
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L182",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 184,
+          "end_line": 184
+        },
+        {
+          "label": "B",
+          "start_line": 186,
+          "end_line": 186
+        },
+        {
+          "label": "C",
+          "start_line": 188,
+          "end_line": 188
+        },
+        {
+          "label": "D",
+          "start_line": 190,
+          "end_line": 190
+        }
+      ]
+    },
+    {
+      "unit_id": "Q30",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        30
+      ],
+      "question_numbers": [
+        30
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        192,
+        192
+      ],
+      "options_lines": [
+        194,
+        194
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L192",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 194,
+          "end_line": 194
+        },
+        {
+          "label": "B",
+          "start_line": 194,
+          "end_line": 194
+        },
+        {
+          "label": "C",
+          "start_line": 194,
+          "end_line": 194
+        },
+        {
+          "label": "D",
+          "start_line": 194,
+          "end_line": 194
+        }
+      ]
+    },
+    {
+      "unit_id": "Q31",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": null,
+      "question_numbers": [
+        31
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        196,
+        196
+      ],
+      "options_lines": [
+        198,
+        200
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 198,
+          "end_line": 198
+        },
+        {
+          "label": "B",
+          "start_line": 198,
+          "end_line": 198
+        },
+        {
+          "label": "C",
+          "start_line": 200,
+          "end_line": 200
+        },
+        {
+          "label": "D",
+          "start_line": 200,
+          "end_line": 200
+        }
+      ]
+    },
+    {
+      "unit_id": "Q32",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": null,
+      "question_numbers": [
+        32
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        202,
+        202
+      ],
+      "options_lines": [
+        204,
+        210
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 204,
+          "end_line": 204
+        },
+        {
+          "label": "B",
+          "start_line": 206,
+          "end_line": 206
+        },
+        {
+          "label": "C",
+          "start_line": 208,
+          "end_line": 208
+        },
+        {
+          "label": "D",
+          "start_line": 210,
+          "end_line": 210
+        }
+      ]
+    },
+    {
+      "unit_id": "Q33",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        33
+      ],
+      "question_numbers": [
+        33
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        212,
+        212
+      ],
+      "options_lines": [
+        214,
+        220
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L212",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 214,
+          "end_line": 214
+        },
+        {
+          "label": "B",
+          "start_line": 216,
+          "end_line": 216
+        },
+        {
+          "label": "C",
+          "start_line": 218,
+          "end_line": 218
+        },
+        {
+          "label": "D",
+          "start_line": 220,
+          "end_line": 220
+        }
+      ]
+    },
+    {
+      "unit_id": "Q34",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        34
+      ],
+      "question_numbers": [
+        34
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        222,
+        222
+      ],
+      "options_lines": [
+        224,
+        230
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L222",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 224,
+          "end_line": 224
+        },
+        {
+          "label": "B",
+          "start_line": 226,
+          "end_line": 226
+        },
+        {
+          "label": "C",
+          "start_line": 228,
+          "end_line": 228
+        },
+        {
+          "label": "D",
+          "start_line": 230,
+          "end_line": 230
+        }
+      ]
+    },
+    {
+      "unit_id": "Q35",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": null,
+      "question_numbers": [
+        35
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        232,
+        232
+      ],
+      "options_lines": [
+        234,
+        240
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 234,
+          "end_line": 234
+        },
+        {
+          "label": "B",
+          "start_line": 236,
+          "end_line": 236
+        },
+        {
+          "label": "C",
+          "start_line": 238,
+          "end_line": 238
+        },
+        {
+          "label": "D",
+          "start_line": 240,
+          "end_line": 240
+        }
+      ]
+    },
+    {
+      "unit_id": "Q36",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        36
+      ],
+      "question_numbers": [
+        36
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        244,
+        244
+      ],
+      "options_lines": [
+        247,
+        247
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L244"
+    },
+    {
+      "unit_id": "Q37",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": null,
+      "question_numbers": [
+        37
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        249,
+        249
+      ],
+      "options_lines": [
+        252,
+        252
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q38",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": null,
+      "question_numbers": [
+        38
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        254,
+        254
+      ],
+      "options_lines": [
+        257,
+        257
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 257,
+          "end_line": 257
+        },
+        {
+          "label": "B",
+          "start_line": 257,
+          "end_line": 257
+        },
+        {
+          "label": "C",
+          "start_line": 257,
+          "end_line": 257
+        },
+        {
+          "label": "D",
+          "start_line": 257,
+          "end_line": 257
+        }
+      ]
+    },
+    {
+      "unit_id": "Q39",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        39
+      ],
+      "question_numbers": [
+        39
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        259,
+        259
+      ],
+      "options_lines": [
+        261,
+        267
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L259",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 261,
+          "end_line": 261
+        },
+        {
+          "label": "B",
+          "start_line": 263,
+          "end_line": 263
+        },
+        {
+          "label": "C",
+          "start_line": 265,
+          "end_line": 265
+        }
+      ]
+    },
+    {
+      "unit_id": "Q40",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": null,
+      "question_numbers": [
+        40
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        269,
+        269
+      ],
+      "options_lines": [
+        272,
+        277
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q41",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        41
+      ],
+      "question_numbers": [
+        41
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        279,
+        279
+      ],
+      "options_lines": [
+        282,
+        282
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L279",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 282,
+          "end_line": 282
+        },
+        {
+          "label": "B",
+          "start_line": 282,
+          "end_line": 282
+        },
+        {
+          "label": "C",
+          "start_line": 282,
+          "end_line": 282
+        },
+        {
+          "label": "D",
+          "start_line": 282,
+          "end_line": 282
+        }
+      ]
+    },
+    {
+      "unit_id": "Q42",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        42
+      ],
+      "question_numbers": [
+        42
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        284,
+        286
+      ],
+      "options_lines": [
+        289,
+        295
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L284",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 289,
+          "end_line": 289
+        },
+        {
+          "label": "B",
+          "start_line": 291,
+          "end_line": 291
+        },
+        {
+          "label": "C",
+          "start_line": 293,
+          "end_line": 293
+        },
+        {
+          "label": "D",
+          "start_line": 295,
+          "end_line": 295
+        }
+      ]
+    },
+    {
+      "unit_id": "Q43",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        43
+      ],
+      "question_numbers": [
+        43
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        297,
+        297
+      ],
+      "options_lines": [
+        300,
+        300
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L297",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 300,
+          "end_line": 300
+        },
+        {
+          "label": "B",
+          "start_line": 300,
+          "end_line": 300
+        },
+        {
+          "label": "C",
+          "start_line": 300,
+          "end_line": 300
+        },
+        {
+          "label": "D",
+          "start_line": 300,
+          "end_line": 300
+        }
+      ]
+    },
+    {
+      "unit_id": "Q44",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        44
+      ],
+      "question_numbers": [
+        44
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        302,
+        302
+      ],
+      "options_lines": [
+        305,
+        310
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L302"
+    },
+    {
+      "unit_id": "Q45",
+      "unit_type": "standalone_question",
+      "section": "一、 单选题（共45题，每题1分，共45分）",
+      "printed_number": [
+        45
+      ],
+      "question_numbers": [
+        45
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        312,
+        314
+      ],
+      "options_lines": [
+        317,
+        323
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        528,
+        528
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L312",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 317,
+          "end_line": 317
+        },
+        {
+          "label": "B",
+          "start_line": 319,
+          "end_line": 319
+        },
+        {
+          "label": "C",
+          "start_line": 321,
+          "end_line": 321
+        },
+        {
+          "label": "D",
+          "start_line": 323,
+          "end_line": 323
+        }
+      ]
+    },
+    {
+      "unit_id": "Q46",
+      "unit_type": "standalone_question",
+      "section": "二、 填空题(共11题，共计55分) 注意：只有填写在答题纸上的答案才计分。",
+      "printed_number": [
+        1
+      ],
+      "question_numbers": [
+        46
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        327,
+        327
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        532,
+        532
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L327"
+    },
+    {
+      "unit_id": "Q47",
+      "unit_type": "standalone_question",
+      "section": "二、 填空题(共11题，共计55分) 注意：只有填写在答题纸上的答案才计分。",
+      "printed_number": [
+        2
+      ],
+      "question_numbers": [
+        47
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        329,
+        329
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        532,
+        532
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L329"
+    },
+    {
+      "unit_id": "Q48",
+      "unit_type": "standalone_question",
+      "section": "二、 填空题(共11题，共计55分) 注意：只有填写在答题纸上的答案才计分。",
+      "printed_number": [
+        3
+      ],
+      "question_numbers": [
+        48
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        331,
+        348
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        534,
+        539
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L331"
+    },
+    {
+      "unit_id": "Q49",
+      "unit_type": "standalone_question",
+      "section": "二、 填空题(共11题，共计55分) 注意：只有填写在答题纸上的答案才计分。",
+      "printed_number": [
+        4
+      ],
+      "question_numbers": [
+        49
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        352,
+        363
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        541,
+        543
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L352"
+    },
+    {
+      "unit_id": "Q50",
+      "unit_type": "standalone_question",
+      "section": "二、 填空题(共11题，共计55分) 注意：只有填写在答题纸上的答案才计分。",
+      "printed_number": [
+        5
+      ],
+      "question_numbers": [
+        50
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        365,
+        374
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        545,
+        545
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L365"
+    },
+    {
+      "unit_id": "Q51",
+      "unit_type": "standalone_question",
+      "section": "二、 填空题(共11题，共计55分) 注意：只有填写在答题纸上的答案才计分。",
+      "printed_number": [
+        6
+      ],
+      "question_numbers": [
+        51
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        376,
+        404
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        547,
+        547
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L376"
+    },
+    {
+      "unit_id": "Q52",
+      "unit_type": "standalone_question",
+      "section": "二、 填空题(共11题，共计55分) 注意：只有填写在答题纸上的答案才计分。",
+      "printed_number": [
+        7
+      ],
+      "question_numbers": [
+        52
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        407,
+        418
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        549,
+        549
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L407"
+    },
+    {
+      "unit_id": "Q53",
+      "unit_type": "standalone_question",
+      "section": "二、 填空题(共11题，共计55分) 注意：只有填写在答题纸上的答案才计分。",
+      "printed_number": [
+        8
+      ],
+      "question_numbers": [
+        53
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        420,
+        437
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        551,
+        551
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L420"
+    },
+    {
+      "unit_id": "Q54",
+      "unit_type": "standalone_question",
+      "section": "二、 填空题(共11题，共计55分) 注意：只有填写在答题纸上的答案才计分。",
+      "printed_number": [
+        9
+      ],
+      "question_numbers": [
+        54
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        439,
+        452
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        553,
+        553
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L439"
+    },
+    {
+      "unit_id": "Q55",
+      "unit_type": "standalone_question",
+      "section": "二、 填空题(共11题，共计55分) 注意：只有填写在答题纸上的答案才计分。",
+      "printed_number": [
+        10
+      ],
+      "question_numbers": [
+        55
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        454,
+        496
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        555,
+        555
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L454"
+    },
+    {
+      "unit_id": "Q56",
+      "unit_type": "standalone_question",
+      "section": "二、 填空题(共11题，共计55分) 注意：只有填写在答题纸上的答案才计分。",
+      "printed_number": [
+        11
+      ],
+      "question_numbers": [
+        56
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        498,
+        517
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        557,
+        561
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L498"
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2021 北京三十一中高一（下）期中 化 学",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 10,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "一、 单选题（共45题，每题1分，共45分）",
+      "ordinal": 2,
+      "start_line": 11,
+      "end_line": 324,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "二、 填空题(共11题，共计55分) 注意：只有填写在答题纸上的答案才计分。",
+      "ordinal": 3,
+      "start_line": 325,
+      "end_line": 520,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "2021 北京三十一中高一（下）期中化学",
+      "ordinal": 4,
+      "start_line": 521,
+      "end_line": 524,
+      "occurrence": 1
+    },
+    {
+      "id": "S4",
+      "title": "一 ．选择题（共45题，每题1分，共45分）",
+      "ordinal": 5,
+      "start_line": 525,
+      "end_line": 529,
+      "occurrence": 1
+    },
+    {
+      "id": "S5",
+      "title": "二、 填空题（共11题，共55分）",
+      "ordinal": 6,
+      "start_line": 530,
+      "end_line": 561,
+      "occurrence": 1
+    }
+  ],
+  "source_content_sha256": "4dbc320a366388dd17fbddc792197dcd8db4047b24aa395930d60013940856a4"
+}

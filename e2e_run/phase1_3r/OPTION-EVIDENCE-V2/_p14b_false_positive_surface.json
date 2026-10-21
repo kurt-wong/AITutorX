@@ -1,0 +1,813 @@
+{
+  "per_paper": {
+    "化学|CLEAN (current producer-like)": {
+      "counts": {
+        "OPTIONS": 94,
+        "STEM": 31
+      },
+      "false_positive_examples": [
+        {
+          "line": 53,
+          "bucket": "STEM",
+          "match": "g)",
+          "text": "10. 羰基硫（COS）可用于合成除草剂和杀虫剂。一定条件下，恒容密闭容器中，发生反应： $ \\mathrm{H_{2}S(g)+CO_{2"
+        },
+        {
+          "line": 53,
+          "bucket": "STEM",
+          "match": "g)",
+          "text": "10. 羰基硫（COS）可用于合成除草剂和杀虫剂。一定条件下，恒容密闭容器中，发生反应： $ \\mathrm{H_{2}S(g)+CO_{2"
+        },
+        {
+          "line": 53,
+          "bucket": "STEM",
+          "match": "g)",
+          "text": "10. 羰基硫（COS）可用于合成除草剂和杀虫剂。一定条件下，恒容密闭容器中，发生反应： $ \\mathrm{H_{2}S(g)+CO_{2"
+        }
+      ]
+    },
+    "化学|DIGIT_GLUE  (2D.)": {
+      "counts": {},
+      "false_positive_examples": []
+    },
+    "化学|CHAR_GLUE": {
+      "counts": {
+        "OPTIONS": 8,
+        "STEM": 10
+      },
+      "false_positive_examples": [
+        {
+          "line": 53,
+          "bucket": "STEM",
+          "match": "(g)",
+          "text": "10. 羰基硫（COS）可用于合成除草剂和杀虫剂。一定条件下，恒容密闭容器中，发生反应： $ \\mathrm{H_{2}S(g)+CO_{2"
+        },
+        {
+          "line": 265,
+          "bucket": "STEM",
+          "match": "，A、",
+          "text": "其中，A、B、C 中甲元素的化合价依次升高；B、C 为同类物质，且所含元素种类相同。请回答："
+        },
+        {
+          "line": 265,
+          "bucket": "STEM",
+          "match": "；B、",
+          "text": "其中，A、B、C 中甲元素的化合价依次升高；B、C 为同类物质，且所含元素种类相同。请回答："
+        }
+      ]
+    },
+    "化学|SPACE_SEP (D 麦哲伦)": {
+      "counts": {},
+      "false_positive_examples": []
+    },
+    "化学|SPACE_SEP_LOOSE (any)": {
+      "counts": {
+        "STEM": 17
+      },
+      "false_positive_examples": [
+        {
+          "line": 256,
+          "bucket": "STEM",
+          "match": "C ",
+          "text": "c. 从溶液 C 到绿矾的过程中，须控制条件防止其氧化"
+        },
+        {
+          "line": 258,
+          "bucket": "STEM",
+          "match": "B ",
+          "text": "（4）为测定烧渣中  $ Fe_{2}O_{3} $ 的含量，甲同学通过实验测得如下数据：烧渣的质量为 a g，固体 X 的质量为 b g，"
+        },
+        {
+          "line": 265,
+          "bucket": "STEM",
+          "match": "C ",
+          "text": "其中，A、B、C 中甲元素的化合价依次升高；B、C 为同类物质，且所含元素种类相同。请回答："
+        }
+      ]
+    },
+    "历史|CLEAN (current producer-like)": {
+      "counts": {
+        "OPTIONS": 199,
+        "OUTSIDE_ALL": 36,
+        "ANSWER/EXPL": 2
+      },
+      "false_positive_examples": [
+        {
+          "line": 653,
+          "bucket": "OUTSIDE_ALL",
+          "match": "D。",
+          "text": "【详解】宗法制是我国奴隶社会按血缘等级贵贱分配政治权力的制度，排除A；郡国并行制是西汉初期郡县制与分封制相结合的地方管理制度，排除B；材料“"
+        },
+        {
+          "line": 659,
+          "bucket": "OUTSIDE_ALL",
+          "match": "A、",
+          "text": "【详解】北宋增设参知政事、枢密使和三司使，分割宰相的行政权、军权和财权，因此枢密副使行使了宰相的部分职权。故答案为B项。知县和知府是地方行政"
+        },
+        {
+          "line": 673,
+          "bucket": "OUTSIDE_ALL",
+          "match": "A，",
+          "text": "【详解】试题分析：依据所学，题干所给材料反映的是洋务运动的破产，而洋务运动破产的标志是甲午中日战争，故 C 项正确。鸦片战争、第二次鸦片战争"
+        }
+      ]
+    },
+    "历史|DIGIT_GLUE  (2D.)": {
+      "counts": {},
+      "false_positive_examples": []
+    },
+    "历史|CHAR_GLUE": {
+      "counts": {
+        "OUTSIDE_ALL": 12
+      },
+      "false_positive_examples": [
+        {
+          "line": 653,
+          "bucket": "OUTSIDE_ALL",
+          "match": "除D。",
+          "text": "【详解】宗法制是我国奴隶社会按血缘等级贵贱分配政治权力的制度，排除A；郡国并行制是西汉初期郡县制与分封制相结合的地方管理制度，排除B；材料“"
+        },
+        {
+          "line": 659,
+          "bucket": "OUTSIDE_ALL",
+          "match": "除A、",
+          "text": "【详解】北宋增设参知政事、枢密使和三司使，分割宰相的行政权、军权和财权，因此枢密副使行使了宰相的部分职权。故答案为B项。知县和知府是地方行政"
+        },
+        {
+          "line": 747,
+          "bucket": "OUTSIDE_ALL",
+          "match": "为A。",
+          "text": "【详解】根据所学冷战时间段为1947—1991年，柏林墙的修建是在1961年，处于冷战期间，故答案为A。"
+        }
+      ]
+    },
+    "历史|SPACE_SEP (D 麦哲伦)": {
+      "counts": {
+        "OPTIONS": 1,
+        "OUTSIDE_ALL": 4
+      },
+      "false_positive_examples": [
+        {
+          "line": 749,
+          "bucket": "OUTSIDE_ALL",
+          "match": "B ",
+          "text": "B 是 1945 年，C 欧盟建立是 1993 年，D 美国 9.11 事件是 2001 年，均与冷战时间不符，排除 BCD。"
+        },
+        {
+          "line": 861,
+          "bucket": "OUTSIDE_ALL",
+          "match": "B ",
+          "text": "【详解】根据所学知识可知，福利制度使低入阶层的生活是到了基本保障，缓解了社会矛盾，有利于社会稳定，故 A 项正确；B 项是 1933 罗斯福"
+        },
+        {
+          "line": 907,
+          "bucket": "OUTSIDE_ALL",
+          "match": "A ",
+          "text": "【详解】根据“凡天下无地而得安宁者，为君也”，可知黄宗羲认为君主专制是天下不得安宁的原因，猛烈地抨击君主专制，故 C 正确；A 与材料信息无"
+        }
+      ]
+    },
+    "历史|SPACE_SEP_LOOSE (any)": {
+      "counts": {
+        "OPTIONS": 1,
+        "OUTSIDE_ALL": 44
+      },
+      "false_positive_examples": [
+        {
+          "line": 605,
+          "bucket": "OUTSIDE_ALL",
+          "match": "A ",
+          "text": "<div style=\"text-align: center;\">图 A 京师同文馆旧址</div>"
+        },
+        {
+          "line": 611,
+          "bucket": "OUTSIDE_ALL",
+          "match": "B ",
+          "text": "<div style=\"text-align: center;\">图 B 北京大学旧址</div>"
+        },
+        {
+          "line": 614,
+          "bucket": "OUTSIDE_ALL",
+          "match": "A ",
+          "text": "（2）图 A 和图 B 见证了近代中国教育发展的历程。结合相关史实，任选其中的一幅图片撰写解说词。（要求：史实准确，逻辑清晰，表述简练）"
+        }
+      ]
+    },
+    "地理|CLEAN (current producer-like)": {
+      "counts": {
+        "OUTSIDE_ALL": 217
+      },
+      "false_positive_examples": [
+        {
+          "line": 13,
+          "bucket": "OUTSIDE_ALL",
+          "match": "A.",
+          "text": "A. 地月系 B. 太阳系 C. 银河系 D. 总星系"
+        },
+        {
+          "line": 13,
+          "bucket": "OUTSIDE_ALL",
+          "match": "B.",
+          "text": "A. 地月系 B. 太阳系 C. 银河系 D. 总星系"
+        },
+        {
+          "line": 13,
+          "bucket": "OUTSIDE_ALL",
+          "match": "C.",
+          "text": "A. 地月系 B. 太阳系 C. 银河系 D. 总星系"
+        }
+      ]
+    },
+    "地理|DIGIT_GLUE  (2D.)": {
+      "counts": {},
+      "false_positive_examples": []
+    },
+    "地理|CHAR_GLUE": {
+      "counts": {
+        "OUTSIDE_ALL": 19
+      },
+      "false_positive_examples": [
+        {
+          "line": 29,
+          "bucket": "OUTSIDE_ALL",
+          "match": "②B.",
+          "text": "A.①②B. ①④C. ②③D. ③④"
+        },
+        {
+          "line": 29,
+          "bucket": "OUTSIDE_ALL",
+          "match": "④C.",
+          "text": "A.①②B. ①④C. ②③D. ③④"
+        },
+        {
+          "line": 29,
+          "bucket": "OUTSIDE_ALL",
+          "match": "③D.",
+          "text": "A.①②B. ①④C. ②③D. ③④"
+        }
+      ]
+    },
+    "地理|SPACE_SEP (D 麦哲伦)": {
+      "counts": {},
+      "false_positive_examples": []
+    },
+    "地理|SPACE_SEP_LOOSE (any)": {
+      "counts": {
+        "OUTSIDE_ALL": 8
+      },
+      "false_positive_examples": [
+        {
+          "line": 390,
+          "bucket": "OUTSIDE_ALL",
+          "match": "b ",
+          "text": "A. 减小水量一 b 中的水比 a 中的浑浊"
+        },
+        {
+          "line": 390,
+          "bucket": "OUTSIDE_ALL",
+          "match": "a ",
+          "text": "A. 减小水量一 b 中的水比 a 中的浑浊"
+        },
+        {
+          "line": 392,
+          "bucket": "OUTSIDE_ALL",
+          "match": "b ",
+          "text": "B，压实泥土一 b 中的水比 a 中的浑浊"
+        }
+      ]
+    },
+    "政治|CLEAN (current producer-like)": {
+      "counts": {
+        "OPTIONS": 100,
+        "OUTSIDE_ALL": 8,
+        "STEM": 7
+      },
+      "false_positive_examples": [
+        {
+          "line": 93,
+          "bucket": "OUTSIDE_ALL",
+          "match": "A.",
+          "text": "A. 国家监察委员会 B. 国家卫生健康委员会"
+        },
+        {
+          "line": 93,
+          "bucket": "OUTSIDE_ALL",
+          "match": "B.",
+          "text": "A. 国家监察委员会 B. 国家卫生健康委员会"
+        },
+        {
+          "line": 95,
+          "bucket": "OUTSIDE_ALL",
+          "match": "C．",
+          "text": "C．国家发展和改革委员会 D．国家民族事务委员会"
+        }
+      ]
+    },
+    "政治|DIGIT_GLUE  (2D.)": {
+      "counts": {},
+      "false_positive_examples": []
+    },
+    "政治|CHAR_GLUE": {
+      "counts": {
+        "STEM": 5
+      },
+      "false_positive_examples": [
+        {
+          "line": 450,
+          "bucket": "STEM",
+          "match": "（A）",
+          "text": "（A）择菜洗菜需8分钟，"
+        },
+        {
+          "line": 452,
+          "bucket": "STEM",
+          "match": "（B）",
+          "text": "（B）切菜需4分钟，"
+        },
+        {
+          "line": 454,
+          "bucket": "STEM",
+          "match": "（C）",
+          "text": "（C）淘米需2分钟，"
+        }
+      ]
+    },
+    "政治|SPACE_SEP (D 麦哲伦)": {
+      "counts": {
+        "OUTSIDE_ALL": 2,
+        "ANSWER/EXPL": 2
+      },
+      "false_positive_examples": [
+        {
+          "line": 503,
+          "bucket": "OUTSIDE_ALL",
+          "match": "A ",
+          "text": "A 中国代表签字加入世界贸易组织"
+        },
+        {
+          "line": 511,
+          "bucket": "OUTSIDE_ALL",
+          "match": "B ",
+          "text": "B 小岗村农民按下“大包"
+        },
+        {
+          "line": 558,
+          "bucket": "ANSWER/EXPL",
+          "match": "B ",
+          "text": "29. A 区适合摆放蔬菜水果；B 区适合摆放服装；C 区适合摆放洗涤用品。"
+        }
+      ]
+    },
+    "政治|SPACE_SEP_LOOSE (any)": {
+      "counts": {
+        "STEM": 1,
+        "OUTSIDE_ALL": 2,
+        "ANSWER/EXPL": 6
+      },
+      "false_positive_examples": [
+        {
+          "line": 366,
+          "bucket": "STEM",
+          "match": "C ",
+          "text": "29. 超市的商品陈列，看似简单却大有学问。某超市（见下图）有 A、B、C 三个区域，需要分别摆放蔬菜水果、洗涤用品和服装。请你提出摆放方案"
+        },
+        {
+          "line": 503,
+          "bucket": "OUTSIDE_ALL",
+          "match": "A ",
+          "text": "A 中国代表签字加入世界贸易组织"
+        },
+        {
+          "line": 511,
+          "bucket": "OUTSIDE_ALL",
+          "match": "B ",
+          "text": "B 小岗村农民按下“大包"
+        }
+      ]
+    },
+    "数学|CLEAN (current producer-like)": {
+      "counts": {
+        "OPTIONS": 99,
+        "STEM": 7,
+        "ANSWER/EXPL": 37
+      },
+      "false_positive_examples": [
+        {
+          "line": 11,
+          "bucket": "STEM",
+          "match": "A，",
+          "text": "2. 已知集合 A={1, 2}, B={1, m, 3}，如果 A∩B=A，那么实数 m 等于（）"
+        },
+        {
+          "line": 54,
+          "bucket": "STEM",
+          "match": "a，",
+          "text": "11. 2015 年 9 月 3 日，纪念中国人民抗日战争暨世界反法西斯战争胜利 70 周年大会在北京天安门广场隆重举行，大会中的阅兵活动向"
+        },
+        {
+          "line": 96,
+          "bucket": "STEM",
+          "match": "E，",
+          "text": "17．在正方体  $ ABCD-A_{1}B_{1}C_{1}D_{1} $ 中，E，F，G 分别是  $ A_{1}B_{1} $， $ "
+        }
+      ]
+    },
+    "数学|DIGIT_GLUE  (2D.)": {
+      "counts": {
+        "OPTIONS": 1,
+        "ANSWER/EXPL": 1
+      },
+      "false_positive_examples": [
+        {
+          "line": 346,
+          "bucket": "ANSWER/EXPL",
+          "match": "2a)",
+          "text": "∴  $ \\cos(-2a)=\\cos2a=2\\cos^2a-1=2\\times\\left(\\frac{1}{2}\\right)^2-1=-"
+        }
+      ]
+    },
+    "数学|CHAR_GLUE": {
+      "counts": {
+        "STEM": 1,
+        "ANSWER/EXPL": 26
+      },
+      "false_positive_examples": [
+        {
+          "line": 96,
+          "bucket": "STEM",
+          "match": "，E，",
+          "text": "17．在正方体  $ ABCD-A_{1}B_{1}C_{1}D_{1} $ 中，E，F，G 分别是  $ A_{1}B_{1} $， $ "
+        },
+        {
+          "line": 206,
+          "bucket": "ANSWER/EXPL",
+          "match": "：D.",
+          "text": "故选：D."
+        },
+        {
+          "line": 222,
+          "bucket": "ANSWER/EXPL",
+          "match": "选C.",
+          "text": "故选C."
+        }
+      ]
+    },
+    "数学|SPACE_SEP (D 麦哲伦)": {
+      "counts": {},
+      "false_positive_examples": []
+    },
+    "数学|SPACE_SEP_LOOSE (any)": {
+      "counts": {
+        "STEM": 5,
+        "ANSWER/EXPL": 8
+      },
+      "false_positive_examples": [
+        {
+          "line": 96,
+          "bucket": "STEM",
+          "match": "G ",
+          "text": "17．在正方体  $ ABCD-A_{1}B_{1}C_{1}D_{1} $ 中，E，F，G 分别是  $ A_{1}B_{1} $， $ "
+        },
+        {
+          "line": 109,
+          "bucket": "STEM",
+          "match": "a ",
+          "text": "18．已知圆 O $ _{1} $的方程为  $ x^{2}+y^{2}=4 $，圆 O $ _{2} $的方程为  $ (x-a)^{2}"
+        },
+        {
+          "line": 113,
+          "bucket": "STEM",
+          "match": "b ",
+          "text": "19. 在直角坐标系 xOy 中，已知点 A（4，2）和 B（0，b）满足 |BO| = |BA|，那么 b 的值为（）"
+        }
+      ]
+    },
+    "物理|CLEAN (current producer-like)": {
+      "counts": {
+        "OPTIONS": 40,
+        "OUTSIDE_ALL": 38,
+        "STEM": 12,
+        "ANSWER/EXPL": 2
+      },
+      "false_positive_examples": [
+        {
+          "line": 113,
+          "bucket": "OUTSIDE_ALL",
+          "match": "A.",
+          "text": "A. 不变"
+        },
+        {
+          "line": 115,
+          "bucket": "OUTSIDE_ALL",
+          "match": "B.",
+          "text": "B. 减小"
+        },
+        {
+          "line": 117,
+          "bucket": "OUTSIDE_ALL",
+          "match": "C.",
+          "text": "C. 增大"
+        }
+      ]
+    },
+    "物理|DIGIT_GLUE  (2D.)": {
+      "counts": {},
+      "false_positive_examples": []
+    },
+    "物理|CHAR_GLUE": {
+      "counts": {
+        "OUTSIDE_ALL": 1,
+        "STEM": 3
+      },
+      "false_positive_examples": [
+        {
+          "line": 136,
+          "bucket": "OUTSIDE_ALL",
+          "match": "，a、",
+          "text": "请阅读下述文字，完成第 12 题、第 13 题、第 14 题如图 7 所示，a、b、c 是电场中的三个点，其电场强度大小分别为  $ E_{"
+        },
+        {
+          "line": 281,
+          "bucket": "STEM",
+          "match": "，A、",
+          "text": "25.如图14所示，在电场强度  $ E=2.0\\times10^{4}N/C $ 的匀强电场中，A、B两点在同一条电场线上，它们间的距离 "
+        },
+        {
+          "line": 293,
+          "bucket": "STEM",
+          "match": "，A、",
+          "text": "26. “平安北京，绿色出行”，地铁已成为北京的主要绿色交通工具之一。图15为地铁安检场景，图16是安检时传送带运行的示意图。某乘客把一书包"
+        }
+      ]
+    },
+    "物理|SPACE_SEP (D 麦哲伦)": {
+      "counts": {},
+      "false_positive_examples": []
+    },
+    "物理|SPACE_SEP_LOOSE (any)": {
+      "counts": {
+        "STEM": 18,
+        "OUTSIDE_ALL": 6
+      },
+      "false_positive_examples": [
+        {
+          "line": 18,
+          "bucket": "STEM",
+          "match": "F ",
+          "text": "2. 如图 1 所示，书本放置在课桌上，力 F 为桌面对书本的支持力，则 F 的反作用力是"
+        },
+        {
+          "line": 18,
+          "bucket": "STEM",
+          "match": "F ",
+          "text": "2. 如图 1 所示，书本放置在课桌上，力 F 为桌面对书本的支持力，则 F 的反作用力是"
+        },
+        {
+          "line": 78,
+          "bucket": "STEM",
+          "match": "E ",
+          "text": "7. 在图4所示的电路中，电阻 R=5.0 $ \\Omega $，电源的内阻 r=1.0 $ \\Omega $，不计电流表的内阻。闭合开关 "
+        }
+      ]
+    },
+    "生物|CLEAN (current producer-like)": {
+      "counts": {
+        "OPTIONS": 156,
+        "STEM": 4
+      },
+      "false_positive_examples": [
+        {
+          "line": 402,
+          "bucket": "STEM",
+          "match": "A、",
+          "text": "5. （5分）某地分布着A、B、C等多个小水潭，A、B中都有孔雀鱼，C中无孔雀鱼。A中孔雀鱼的天敌是花鳉，专以幼小孔雀鱼为食；B中孔雀鱼的天"
+        },
+        {
+          "line": 402,
+          "bucket": "STEM",
+          "match": "B、",
+          "text": "5. （5分）某地分布着A、B、C等多个小水潭，A、B中都有孔雀鱼，C中无孔雀鱼。A中孔雀鱼的天敌是花鳉，专以幼小孔雀鱼为食；B中孔雀鱼的天"
+        },
+        {
+          "line": 402,
+          "bucket": "STEM",
+          "match": "A、",
+          "text": "5. （5分）某地分布着A、B、C等多个小水潭，A、B中都有孔雀鱼，C中无孔雀鱼。A中孔雀鱼的天敌是花鳉，专以幼小孔雀鱼为食；B中孔雀鱼的天"
+        }
+      ]
+    },
+    "生物|DIGIT_GLUE  (2D.)": {
+      "counts": {},
+      "false_positive_examples": []
+    },
+    "生物|CHAR_GLUE": {
+      "counts": {
+        "STEM": 2
+      },
+      "false_positive_examples": [
+        {
+          "line": 402,
+          "bucket": "STEM",
+          "match": "着A、",
+          "text": "5. （5分）某地分布着A、B、C等多个小水潭，A、B中都有孔雀鱼，C中无孔雀鱼。A中孔雀鱼的天敌是花鳉，专以幼小孔雀鱼为食；B中孔雀鱼的天"
+        },
+        {
+          "line": 402,
+          "bucket": "STEM",
+          "match": "，A、",
+          "text": "5. （5分）某地分布着A、B、C等多个小水潭，A、B中都有孔雀鱼，C中无孔雀鱼。A中孔雀鱼的天敌是花鳉，专以幼小孔雀鱼为食；B中孔雀鱼的天"
+        }
+      ]
+    },
+    "生物|SPACE_SEP (D 麦哲伦)": {
+      "counts": {},
+      "false_positive_examples": []
+    },
+    "生物|SPACE_SEP_LOOSE (any)": {
+      "counts": {
+        "STEM": 5
+      },
+      "false_positive_examples": [
+        {
+          "line": 381,
+          "bucket": "STEM",
+          "match": "h ",
+          "text": "表中数据显示，秋水仙素处理___ h 效果最好。秋水仙素能___，使中期细胞比例提高。"
+        },
+        {
+          "line": 404,
+          "bucket": "STEM",
+          "match": "B ",
+          "text": "（1）将 A、B 中的孔雀鱼分别饲养在无天敌的实验室内，繁殖多代后，成熟早晚的差异仍然存在，说明这种差异是由 ___ 改变而导致。判断这两个"
+        },
+        {
+          "line": 410,
+          "bucket": "STEM",
+          "match": "B ",
+          "text": "（3）若将 B 中的孔雀鱼移至 C（无狗鱼但有花鳉）中，繁殖多代后，放入 C 中的孔雀鱼成熟个体与 B 中的相比，体重将会 ___。"
+        }
+      ]
+    },
+    "英语|CLEAN (current producer-like)": {
+      "counts": {
+        "OUTSIDE_ALL": 186
+      },
+      "false_positive_examples": [
+        {
+          "line": 7,
+          "bucket": "OUTSIDE_ALL",
+          "match": "A、",
+          "text": "第一节：听下面十段对话或独白，从各题A、B、C三个选项中，选出能回答问题的最佳答案。每段对话或独白你将听两遍。"
+        },
+        {
+          "line": 7,
+          "bucket": "OUTSIDE_ALL",
+          "match": "B、",
+          "text": "第一节：听下面十段对话或独白，从各题A、B、C三个选项中，选出能回答问题的最佳答案。每段对话或独白你将听两遍。"
+        },
+        {
+          "line": 13,
+          "bucket": "OUTSIDE_ALL",
+          "match": "A.",
+          "text": "A. On Wednesday. B. On Thursday. C. On Friday."
+        }
+      ]
+    },
+    "英语|DIGIT_GLUE  (2D.)": {
+      "counts": {},
+      "false_positive_examples": []
+    },
+    "英语|CHAR_GLUE": {
+      "counts": {
+        "OUTSIDE_ALL": 2
+      },
+      "false_positive_examples": [
+        {
+          "line": 7,
+          "bucket": "OUTSIDE_ALL",
+          "match": "题A、",
+          "text": "第一节：听下面十段对话或独白，从各题A、B、C三个选项中，选出能回答问题的最佳答案。每段对话或独白你将听两遍。"
+        },
+        {
+          "line": 495,
+          "bucket": "OUTSIDE_ALL",
+          "match": "题A、",
+          "text": "第一节：听下面十段对话或独白，从各题A、B、C三个选项中，选出能回答问题的最佳答案。每段对话或独白你将听两遍。"
+        }
+      ]
+    },
+    "英语|SPACE_SEP (D 麦哲伦)": {
+      "counts": {},
+      "false_positive_examples": []
+    },
+    "英语|SPACE_SEP_LOOSE (any)": {
+      "counts": {
+        "OUTSIDE_ALL": 1
+      },
+      "false_positive_examples": [
+        {
+          "line": 190,
+          "bucket": "OUTSIDE_ALL",
+          "match": "D ",
+          "text": "第一节：阅读下面短文，从各题 A、B、C、D 四个选项中，选出最佳答案。"
+        }
+      ]
+    },
+    "语文|CLEAN (current producer-like)": {
+      "counts": {
+        "OUTSIDE_ALL": 32,
+        "OPTIONS": 8,
+        "ANSWER/EXPL": 2
+      },
+      "false_positive_examples": [
+        {
+          "line": 20,
+          "bucket": "OUTSIDE_ALL",
+          "match": "A.",
+          "text": "A. 苏子愀然 愀然：神秘的样子 B. 山川相缪 缪：缭、盘绕"
+        },
+        {
+          "line": 20,
+          "bucket": "OUTSIDE_ALL",
+          "match": "B.",
+          "text": "A. 苏子愀然 愀然：神秘的样子 B. 山川相缪 缪：缭、盘绕"
+        },
+        {
+          "line": 22,
+          "bucket": "OUTSIDE_ALL",
+          "match": "C.",
+          "text": "C. 酾酒临江 酾酒：斟酒 D. 吾与子之所共适 适：享有"
+        }
+      ]
+    },
+    "语文|DIGIT_GLUE  (2D.)": {
+      "counts": {},
+      "false_positive_examples": []
+    },
+    "语文|CHAR_GLUE": {
+      "counts": {
+        "ANSWER/EXPL": 1
+      },
+      "false_positive_examples": [
+        {
+          "line": 378,
+          "bucket": "ANSWER/EXPL",
+          "match": "选D，",
+          "text": "10\\. A（4分。选A，得4分；选D，得3分；选B或C不得分）"
+        }
+      ]
+    },
+    "语文|SPACE_SEP (D 麦哲伦)": {
+      "counts": {},
+      "false_positive_examples": []
+    },
+    "语文|SPACE_SEP_LOOSE (any)": {
+      "counts": {
+        "OUTSIDE_ALL": 2
+      },
+      "false_positive_examples": [
+        {
+          "line": 266,
+          "bucket": "OUTSIDE_ALL",
+          "match": "C ",
+          "text": "（2）文中 A、B、C 三处画线的词语不可以用其后括号内的词语替换的一处是（3分）"
+        },
+        {
+          "line": 312,
+          "bucket": "OUTSIDE_ALL",
+          "match": "C ",
+          "text": "（2）文中 A、B、C 三处画线的词语可以用其后括号内的词语替换的一处是（3分）"
+        }
+      ]
+    }
+  },
+  "totals": {
+    "CLEAN (current producer-like)": {
+      "OPTIONS": 696,
+      "STEM": 61,
+      "OUTSIDE_ALL": 517,
+      "ANSWER/EXPL": 43
+    },
+    "DIGIT_GLUE  (2D.)": {
+      "OPTIONS": 1,
+      "ANSWER/EXPL": 1
+    },
+    "CHAR_GLUE": {
+      "OPTIONS": 8,
+      "STEM": 21,
+      "OUTSIDE_ALL": 34,
+      "ANSWER/EXPL": 27
+    },
+    "SPACE_SEP (D 麦哲伦)": {
+      "OPTIONS": 1,
+      "OUTSIDE_ALL": 6,
+      "ANSWER/EXPL": 2
+    },
+    "SPACE_SEP_LOOSE (any)": {
+      "STEM": 46,
+      "OPTIONS": 1,
+      "OUTSIDE_ALL": 63,
+      "ANSWER/EXPL": 14
+    }
+  }
+}

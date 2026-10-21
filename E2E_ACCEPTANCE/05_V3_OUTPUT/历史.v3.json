@@ -1,0 +1,236 @@
+{
+  "ir_ready": 53,
+  "ir_incomplete": 0,
+  "gate_auto": 50,
+  "gate_pending": 0,
+  "gate_rejected": 3,
+  "n_units": 53,
+  "n_questions_tracked": 53,
+  "questions": [
+    {
+      "unit_id": "Q1",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "1. 【答案】C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "1. 甲骨文中的“封”字写作“卍”，“邦”字写作“礻”，意为植树为帜，划定疆界。该文字反映的中国古代政治制度是\n"
+    },
+    {
+      "unit_id": "Q2",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "2. 【答案】C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "2. 下图所示的中央机构存在于\n\n<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京夏季高中会考历史（教师版）(1)/img_i"
+    },
+    {
+      "unit_id": "Q3",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "3. 【答案】C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "3.《汉书》记载：“武帝施主父之册……使诸侯王得分户邑，以封子弟，不行黜陟，而藩国自析。”据此判断汉武帝实行的是\n"
+    },
+    {
+      "unit_id": "Q4",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "B",
+      "answer_preview": "4. 【答案】B",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "4. 寇准是北宋名臣，以刚直著称。他担任的下列官职中，行使宰相部分职权的是\n"
+    },
+    {
+      "unit_id": "Q5",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "5. 【答案】C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "5. 史学家钱穆指出：“军机处不过是皇帝御用的秘书，实实在在只是皇帝的一个南书房。”其意图是指：\n"
+    },
+    {
+      "unit_id": "Q6",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "6. 【答案】C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "6.“卅年求富更求强，造炮成船法仿洋。海面未收功一战，总归虚牝（pin）掷黄金。”诗中“海面未收功一战”指的是\n\n---\n"
+    },
+    {
+      "unit_id": "Q7",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "7. 【答案】C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "7. 有人认为：“过去五千年的中华通史，实是一部帝王专制史；而今后的中华通史，将是一部民主政治史。”下列事件体现这一历史转型的是\n"
+    },
+    {
+      "unit_id": "Q8",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "8. 【答案】C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "8. 某校组织学生利用暑期开展游学活动，参观了下图所示景点。该景点位于\n\n<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京夏季"
+    },
+    {
+      "unit_id": "Q9",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "B",
+      "answer_preview": "9. 【答案】B",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "9. 1937 年，中国共产党领导的工农红军改编为国民革命军第八路军和国民革命军陆军新编第四军。其目的是\n"
+    },
+    {
+      "unit_id": "Q10",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "10. 【答案】C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "10. 下图为解放战争中哪一战役的示意图\n\n<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京夏季高中会考历史（教师版）(1)/"
+    },
+    {
+      "unit_id": "Q11",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "D",
+      "answer_preview": "11. 【答案】D",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "11. 香港和澳门回归是完成祖国统一大业过程中的成功范例，其践行的是\n"
+    },
+    {
+      "unit_id": "Q12",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "D",
+      "answer_preview": "12. 【答案】D",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "12. 美国总统尼克松回忆1972年访华时说：“当我们的手相握时，一个时代结束了，另一个时代开始\n\n---\n\n了。”下列对尼克松的话理解正确的是\n"
+    },
+    {
+      "unit_id": "Q13",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "B",
+      "answer_preview": "13. 【答案】B",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "13\\. 罗马法体系的开端是\n"
+    },
+    {
+      "unit_id": "Q14",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "B",
+      "answer_preview": "14. 【答案】B",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "14. 麦迪逊指出，美国1787年宪法达成了一套“地域和体制的双向平衡机制”。当时这种平衡机制主要表现在\n\n①各州和联邦政府之间\n\n②总统和军队之间\n\n③立法、行政、司法部门之间\n\n④民主党和共和党之"
+    },
+    {
+      "unit_id": "Q15",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "15. 【答案】C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "15. 近代法国政局变动频繁，1789～1875年，曾出现过君主立宪制、民主共和制、军事帝国、复辟王朝等政体。这反映了法国\n"
+    }
+  ]
+}

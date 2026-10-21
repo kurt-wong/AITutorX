@@ -1,0 +1,721 @@
+{
+  "cut": "Phase 1 E2E Replay (post 873a343+7c2e51a+7c9b8aa)",
+  "baseline_note": "in-memory Native path: manifest→adapter→resolver→IR→compile→gate. Question/QuestionInstance materialization requires Admission approve() + DB; candidates below = IR-ready leaves that entered Gate.",
+  "papers": 9,
+  "units": 284,
+  "leaves": 284,
+  "funnel": {
+    "ir_status": {
+      "incomplete": 57,
+      "ready": 227
+    },
+    "gate_decisions": {
+      "auto_approve": 155,
+      "rejected": 5,
+      "pending_review": 67
+    },
+    "would_be_candidates": 227,
+    "auto_approve": 155,
+    "pending_review": 67,
+    "rejected": 5
+  },
+  "incomplete_causes": {
+    "stem unresolved": 94,
+    "option unresolved": 97,
+    "options missing for choice type": 7,
+    "answer unresolved": 12
+  },
+  "unresolved_refs": {
+    "stem:ambiguous": 41,
+    "option:incomplete": 95,
+    "answer:ambiguous": 6,
+    "stem:missing": 6,
+    "option:ambiguous": 2
+  },
+  "resolved_spans_by_role": {
+    "answer": 278,
+    "stem": 237,
+    "option": 724,
+    "material": 54,
+    "explanation": 53
+  },
+  "per_paper": [
+    {
+      "paper": "化学",
+      "units": 40,
+      "leaves": 40,
+      "ir_status": {
+        "incomplete": 25,
+        "ready": 15
+      },
+      "gate_decisions": {
+        "auto_approve": 15
+      },
+      "incomplete": [
+        {
+          "unit_id": "Q1",
+          "qtype": "single_choice",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q2",
+          "qtype": "single_choice",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q3",
+          "qtype": "single_choice",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q4",
+          "qtype": "single_choice",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q5",
+          "qtype": "single_choice",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q6",
+          "qtype": "single_choice",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q9",
+          "qtype": "single_choice",
+          "causes": [
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q19",
+          "qtype": "single_choice",
+          "causes": [
+            "options missing for choice type"
+          ]
+        },
+        {
+          "unit_id": "Q24",
+          "qtype": "single_choice",
+          "causes": [
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q25",
+          "qtype": "single_choice",
+          "causes": [
+            "options missing for choice type"
+          ]
+        },
+        {
+          "unit_id": "U-req1",
+          "qtype": "fill_in",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved"
+          ]
+        },
+        {
+          "unit_id": "U-req2",
+          "qtype": "fill_in",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved"
+          ]
+        },
+        {
+          "unit_id": "U-req3",
+          "qtype": "fill_in",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved"
+          ]
+        },
+        {
+          "unit_id": "U-req4",
+          "qtype": "short_answer",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved"
+          ]
+        },
+        {
+          "unit_id": "U-req5",
+          "qtype": "short_answer",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved"
+          ]
+        },
+        {
+          "unit_id": "U-req6",
+          "qtype": "short_answer",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved"
+          ]
+        },
+        {
+          "unit_id": "U-cl1",
+          "qtype": "fill_in",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved"
+          ]
+        },
+        {
+          "unit_id": "U-cl2",
+          "qtype": "true_false",
+          "causes": [
+            "stem unresolved",
+            "options missing for choice type",
+            "stem unresolved"
+          ]
+        },
+        {
+          "unit_id": "U-cl3",
+          "qtype": "short_answer",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved"
+          ]
+        },
+        {
+          "unit_id": "U-org1",
+          "qtype": "fill_in",
+          "causes": [
+            "stem unresolved",
+            "answer unresolved",
+            "stem unresolved",
+            "answer unresolved"
+          ]
+        },
+        {
+          "unit_id": "U-org2",
+          "qtype": "short_answer",
+          "causes": [
+            "stem unresolved",
+            "answer unresolved",
+            "stem unresolved",
+            "answer unresolved"
+          ]
+        },
+        {
+          "unit_id": "U-org3",
+          "qtype": "short_answer",
+          "causes": [
+            "stem unresolved",
+            "answer unresolved",
+            "stem unresolved",
+            "answer unresolved"
+          ]
+        },
+        {
+          "unit_id": "U-cp1",
+          "qtype": "fill_in",
+          "causes": [
+            "stem unresolved",
+            "answer unresolved",
+            "stem unresolved",
+            "answer unresolved"
+          ]
+        },
+        {
+          "unit_id": "U-cp2",
+          "qtype": "short_answer",
+          "causes": [
+            "stem unresolved",
+            "answer unresolved",
+            "stem unresolved",
+            "answer unresolved"
+          ]
+        },
+        {
+          "unit_id": "U-cp3",
+          "qtype": "short_answer",
+          "causes": [
+            "stem unresolved",
+            "answer unresolved",
+            "stem unresolved",
+            "answer unresolved"
+          ]
+        }
+      ]
+    },
+    {
+      "paper": "历史",
+      "units": 53,
+      "leaves": 53,
+      "ir_status": {
+        "ready": 53
+      },
+      "gate_decisions": {
+        "auto_approve": 50,
+        "rejected": 3
+      },
+      "incomplete": []
+    },
+    {
+      "paper": "地理",
+      "units": 25,
+      "leaves": 25,
+      "ir_status": {
+        "ready": 25
+      },
+      "gate_decisions": {
+        "auto_approve": 18,
+        "rejected": 2,
+        "pending_review": 5
+      },
+      "incomplete": []
+    },
+    {
+      "paper": "政治",
+      "units": 36,
+      "leaves": 36,
+      "ir_status": {
+        "ready": 29,
+        "incomplete": 7
+      },
+      "gate_decisions": {
+        "auto_approve": 20,
+        "pending_review": 9
+      },
+      "incomplete": [
+        {
+          "unit_id": "Q6",
+          "qtype": "single_choice",
+          "causes": [
+            "options missing for choice type"
+          ]
+        },
+        {
+          "unit_id": "Q7",
+          "qtype": "single_choice",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        },
+        {
+          "unit_id": "U9-10.sub",
+          "qtype": "single_choice",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q13",
+          "qtype": "single_choice",
+          "causes": [
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q14",
+          "qtype": "single_choice",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q25",
+          "qtype": "single_choice",
+          "causes": [
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q26",
+          "qtype": "single_choice",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "units": 30,
+      "leaves": 30,
+      "ir_status": {
+        "ready": 30
+      },
+      "gate_decisions": {
+        "pending_review": 30
+      },
+      "incomplete": []
+    },
+    {
+      "paper": "物理",
+      "units": 22,
+      "leaves": 22,
+      "ir_status": {
+        "ready": 21,
+        "incomplete": 1
+      },
+      "gate_decisions": {
+        "auto_approve": 13,
+        "pending_review": 8
+      },
+      "incomplete": [
+        {
+          "unit_id": "Q16",
+          "qtype": "single_choice",
+          "causes": [
+            "options missing for choice type"
+          ]
+        }
+      ]
+    },
+    {
+      "paper": "生物",
+      "units": 50,
+      "leaves": 50,
+      "ir_status": {
+        "incomplete": 21,
+        "ready": 29
+      },
+      "gate_decisions": {
+        "auto_approve": 29
+      },
+      "incomplete": [
+        {
+          "unit_id": "Q1",
+          "qtype": "single_choice",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q2",
+          "qtype": "single_choice",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q3",
+          "qtype": "single_choice",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q4",
+          "qtype": "single_choice",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q5",
+          "qtype": "single_choice",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q6",
+          "qtype": "single_choice",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q7",
+          "qtype": "single_choice",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q8",
+          "qtype": "single_choice",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q9",
+          "qtype": "single_choice",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q10",
+          "qtype": "single_choice",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved",
+            "option unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q30",
+          "qtype": "single_choice",
+          "causes": [
+            "options missing for choice type"
+          ]
+        },
+        {
+          "unit_id": "Q41",
+          "qtype": "fill_in",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q42",
+          "qtype": "fill_in",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q43",
+          "qtype": "fill_in",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q44",
+          "qtype": "fill_in",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q45",
+          "qtype": "fill_in",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q46",
+          "qtype": "fill_in",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q47",
+          "qtype": "fill_in",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q48",
+          "qtype": "fill_in",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q49",
+          "qtype": "fill_in",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q50",
+          "qtype": "fill_in",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved"
+          ]
+        }
+      ]
+    },
+    {
+      "paper": "英语",
+      "units": 18,
+      "leaves": 18,
+      "ir_status": {
+        "ready": 15,
+        "incomplete": 3
+      },
+      "gate_decisions": {
+        "auto_approve": 8,
+        "pending_review": 7
+      },
+      "incomplete": [
+        {
+          "unit_id": "Q3.sub",
+          "qtype": "single_choice",
+          "causes": [
+            "options missing for choice type"
+          ]
+        },
+        {
+          "unit_id": "Q21-25.sub",
+          "qtype": "fill_in",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved"
+          ]
+        },
+        {
+          "unit_id": "Q61",
+          "qtype": "essay",
+          "causes": [
+            "stem unresolved",
+            "stem unresolved"
+          ]
+        }
+      ]
+    },
+    {
+      "paper": "语文",
+      "units": 10,
+      "leaves": 10,
+      "ir_status": {
+        "ready": 10
+      },
+      "gate_decisions": {
+        "pending_review": 8,
+        "auto_approve": 2
+      },
+      "incomplete": []
+    }
+  ]
+}

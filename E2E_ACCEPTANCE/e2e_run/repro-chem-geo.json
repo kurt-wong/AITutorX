@@ -1,0 +1,53 @@
+{
+  "database": "aitutors_repro_cg",
+  "inputs": {
+    "chem": {
+      "md_sha": "0443945f4672b05da3d2d950b0a3eb20a495c1635c353c024c8c050b7fad1ffb",
+      "pdf_sha": "8d3f9dad0918567b3ef375a57843d5d28d1eff77dfac467ff9eddc0f3c4f3a23"
+    },
+    "geo": {
+      "md_sha": "3f4a7a826b0176ceb86de53b5721de08e1d7d5ba8a364e627c33297d2a3359f0",
+      "pdf_sha": "96344286c837d7fb3a7aa8dbde2642c3c528cfc1cfb06379469cebaa182a50f5"
+    }
+  },
+  "run": [
+    {
+      "label": "chem-2018-spring-huikao-teacher",
+      "md_sha": "0443945f4672b05da3d2d950b0a3eb20a495c1635c353c024c8c050b7fad1ffb",
+      "units": 40,
+      "candidates": {
+        "approved": 21,
+        "pending_review": 3
+      },
+      "questions": 21,
+      "document_id": "3540ed23-018f-4014-b7e4-f5f24ad9f528"
+    },
+    {
+      "label": "2018北京春季高中会考地理（教师版）(1)",
+      "md_sha": "3f4a7a826b0176ceb86de53b5721de08e1d7d5ba8a364e627c33297d2a3359f0",
+      "units": 25,
+      "candidates": {},
+      "questions": 0,
+      "document_id": "6acbd6a3-f062-4689-a251-399644e1e20c"
+    }
+  ],
+  "chem_stable": true,
+  "geo_stable_reject": true,
+  "expect": {
+    "chem": {
+      "questions": 21,
+      "candidates": {
+        "approved": 21,
+        "pending_review": 3
+      }
+    },
+    "geo": {
+      "questions": 0,
+      "candidates": {}
+    }
+  },
+  "code": {
+    "AITutors-v3": "27f462a",
+    "Papers": "a4a0a8c"
+  }
+}

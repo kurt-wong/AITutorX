@@ -1,0 +1,548 @@
+{
+  "totals_primary": {
+    "F": 23,
+    "A": 151,
+    "F0": 7,
+    "B": 3,
+    "D": 29,
+    "C": 1
+  },
+  "totals_rows": 214,
+  "branches": {
+    "F_answer_not_canonical": 23,
+    "A_structural_ok": 151,
+    "F0_ir_absent": 6,
+    "B_trailing_option_like_content": 1,
+    "F0_ir_absent_raw": 1,
+    "B_damaged_undeclared_label": 2,
+    "D_decomposition_gap": 29,
+    "C_no_source_for_answer_slot": 1
+  },
+  "Q1_b_count": 3,
+  "Q1_b_breakdown": [
+    {
+      "paper": "化学",
+      "root": "Q23",
+      "qn": "23",
+      "branch": "B_trailing_option_like_content",
+      "declared": [
+        "A",
+        "B",
+        "C"
+      ],
+      "src_labels_in_span": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer": "D",
+      "expected": null,
+      "b_damaged_undeclared": []
+    },
+    {
+      "paper": "历史",
+      "root": "Q29",
+      "qn": "29",
+      "branch": "B_damaged_undeclared_label",
+      "declared": [
+        "A",
+        "B",
+        "C"
+      ],
+      "src_labels_in_span": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "C",
+      "expected": 4,
+      "b_damaged_undeclared": [
+        {
+          "line": 307,
+          "kind": "space_sep_missing_dot",
+          "token": "D ",
+          "label": "D",
+          "preview": "D 麦哲伦"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q4",
+      "qn": "4",
+      "branch": "B_damaged_undeclared_label",
+      "declared": [
+        "A",
+        "B",
+        "C"
+      ],
+      "src_labels_in_span": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "A",
+      "expected": 4,
+      "b_damaged_undeclared": [
+        {
+          "line": 23,
+          "kind": "digit_glue",
+          "token": "2D.",
+          "label": "D",
+          "preview": "C. 关于直线 y=x 对称 2D. 关于直线 y= -x 对称"
+        }
+      ]
+    }
+  ],
+  "Q2_b_trailing_crossing_question_boundary": [
+    {
+      "paper": "化学",
+      "root": "Q23",
+      "leaf": "Q23",
+      "qn": "23",
+      "declared": [
+        "A",
+        "B",
+        "C"
+      ],
+      "first_trailing_line": 194,
+      "q_boundary": [
+        186,
+        186
+      ],
+      "verdict": "trailing content lies AFTER declared question boundary"
+    }
+  ],
+  "Q3_d_count": 29,
+  "Q3_d_by_paper": {
+    "地理": 20,
+    "政治": 1,
+    "物理": 3,
+    "英语": 5
+  },
+  "Q3_d_but_not_composite": 0,
+  "Q3_d_but_option_blocks_lt2": 0,
+  "Q3_d_sample": [
+    {
+      "paper": "地理",
+      "root": "U1-2",
+      "qn": "1",
+      "sub_qns": [
+        1,
+        2
+      ],
+      "n_leaves": 1,
+      "option_blocks": 2
+    },
+    {
+      "paper": "地理",
+      "root": "U3-5",
+      "qn": "3",
+      "sub_qns": [
+        3,
+        4,
+        5
+      ],
+      "n_leaves": 1,
+      "option_blocks": 3
+    },
+    {
+      "paper": "地理",
+      "root": "U6-7",
+      "qn": "6",
+      "sub_qns": [
+        6,
+        7
+      ],
+      "n_leaves": 1,
+      "option_blocks": 2
+    },
+    {
+      "paper": "地理",
+      "root": "U8-9",
+      "qn": "8",
+      "sub_qns": [
+        8,
+        9
+      ],
+      "n_leaves": 1,
+      "option_blocks": 2
+    },
+    {
+      "paper": "地理",
+      "root": "U10-12",
+      "qn": "10",
+      "sub_qns": [
+        10,
+        11,
+        12
+      ],
+      "n_leaves": 1,
+      "option_blocks": 3
+    },
+    {
+      "paper": "地理",
+      "root": "U13-15",
+      "qn": "13",
+      "sub_qns": [
+        13,
+        14,
+        15
+      ],
+      "n_leaves": 1,
+      "option_blocks": 3
+    },
+    {
+      "paper": "地理",
+      "root": "U16-17",
+      "qn": "16",
+      "sub_qns": [
+        16,
+        17
+      ],
+      "n_leaves": 1,
+      "option_blocks": 2
+    },
+    {
+      "paper": "地理",
+      "root": "U18-20",
+      "qn": "18",
+      "sub_qns": [
+        18,
+        19,
+        20
+      ],
+      "n_leaves": 1,
+      "option_blocks": 3
+    },
+    {
+      "paper": "地理",
+      "root": "U21-23",
+      "qn": "21",
+      "sub_qns": [
+        21,
+        22,
+        23
+      ],
+      "n_leaves": 1,
+      "option_blocks": 4
+    },
+    {
+      "paper": "地理",
+      "root": "U24-25",
+      "qn": "24",
+      "sub_qns": [
+        24,
+        25
+      ],
+      "n_leaves": 1,
+      "option_blocks": 2
+    },
+    {
+      "paper": "地理",
+      "root": "U26-29",
+      "qn": "26",
+      "sub_qns": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "n_leaves": 1,
+      "option_blocks": 4
+    },
+    {
+      "paper": "地理",
+      "root": "U30-31",
+      "qn": "30",
+      "sub_qns": [
+        30,
+        31
+      ],
+      "n_leaves": 1,
+      "option_blocks": 2
+    }
+  ],
+  "Q4_shortfall_count": 0,
+  "Q4_shortfall_by_primary": {},
+  "Q4_shortfall_rows": [],
+  "Q5_missed_source_labels_but_classed_A": [],
+  "Q5_missed_detail": [],
+  "focus_units": {
+    "化学/Q23": [
+      {
+        "leaf": "Q23",
+        "qn": "23",
+        "qtype": "single_choice",
+        "declared": [
+          "A",
+          "B",
+          "C"
+        ],
+        "resolved": [
+          "A",
+          "B",
+          "C"
+        ],
+        "answer": "D",
+        "q_boundary": [
+          186,
+          186
+        ],
+        "options_lines": [
+          188,
+          194
+        ],
+        "sub_qns": [
+          23
+        ],
+        "n_leaves": 1,
+        "option_blocks": 1,
+        "branch": "B_trailing_option_like_content",
+        "primary": "B",
+        "src_labels_in_span": [
+          "A",
+          "B",
+          "C"
+        ],
+        "trailing": [
+          {
+            "line": 194,
+            "preview": "$  \\mathrm{H}^{+} + \\mathrm{SO}_{4}^{2-} + \\mathrm{Ba}^{2+} + \\mathrm{OH}^{-} = \\mathrm{H}_{2}\\mathrm{O} + \\mathrm{BaSO}"
+          }
+        ],
+        "source_lines": [
+          {
+            "line": 188,
+            "text": "A．金属钠与水： $ 2Na + 2H_{2}O = 2Na^{+} + 2OH^{-} + H_{2}\\uparrow $"
+          },
+          {
+            "line": 189,
+            "text": ""
+          },
+          {
+            "line": 190,
+            "text": "B．氯化钠溶液与硝酸银溶液："
+          },
+          {
+            "line": 191,
+            "text": ""
+          },
+          {
+            "line": 192,
+            "text": "C．稀盐酸与碳酸钙： $ CaCO_{3}+2H^{+}=Ca^{2+}+CO_{2}\\uparrow+H_{2}O $"
+          },
+          {
+            "line": 193,
+            "text": ""
+          },
+          {
+            "line": 194,
+            "text": " $  \\mathrm{H}^{+} + \\mathrm{SO}_{4}^{2-} + \\mathrm{Ba}^{2+} + \\mathrm{OH}^{-} = \\mathrm{H}_{2}\\math"
+          }
+        ]
+      }
+    ],
+    "历史/Q29": [
+      {
+        "leaf": "Q29",
+        "qn": "29",
+        "qtype": "single_choice",
+        "declared": [
+          "A",
+          "B",
+          "C"
+        ],
+        "resolved": [
+          "A",
+          "B",
+          "C"
+        ],
+        "answer": "C",
+        "q_boundary": [
+          299,
+          299
+        ],
+        "options_lines": [
+          301,
+          307
+        ],
+        "sub_qns": [
+          29
+        ],
+        "n_leaves": 1,
+        "option_blocks": 1,
+        "branch": "B_damaged_undeclared_label",
+        "primary": "B",
+        "src_labels_in_span": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "trailing": [],
+        "source_lines": [
+          {
+            "line": 301,
+            "text": "A. 迪亚士"
+          },
+          {
+            "line": 302,
+            "text": ""
+          },
+          {
+            "line": 303,
+            "text": "B. 达，伽马"
+          },
+          {
+            "line": 304,
+            "text": ""
+          },
+          {
+            "line": 305,
+            "text": "C. 哥伦布"
+          },
+          {
+            "line": 306,
+            "text": ""
+          },
+          {
+            "line": 307,
+            "text": "D 麦哲伦"
+          }
+        ]
+      }
+    ],
+    "数学/Q4": [
+      {
+        "leaf": "Q4",
+        "qn": "4",
+        "qtype": "single_choice",
+        "declared": [
+          "A",
+          "B",
+          "C"
+        ],
+        "resolved": [
+          "A",
+          "B",
+          "C"
+        ],
+        "answer": "A",
+        "q_boundary": [
+          19,
+          19
+        ],
+        "options_lines": [
+          21,
+          23
+        ],
+        "sub_qns": [
+          4
+        ],
+        "n_leaves": 1,
+        "option_blocks": 1,
+        "branch": "B_damaged_undeclared_label",
+        "primary": "B",
+        "src_labels_in_span": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "trailing": [],
+        "source_lines": [
+          {
+            "line": 21,
+            "text": "A. 关于 x 轴对称 B. 关于 y 轴对称"
+          },
+          {
+            "line": 22,
+            "text": ""
+          },
+          {
+            "line": 23,
+            "text": "C. 关于直线 y=x 对称 2D. 关于直线 y= -x 对称"
+          }
+        ]
+      }
+    ],
+    "英语/Q5-6": [
+      {
+        "leaf": "Q5-6.sub",
+        "qn": "5",
+        "qtype": "single_choice",
+        "declared": [
+          "A",
+          "B"
+        ],
+        "resolved": [
+          "A",
+          "B"
+        ],
+        "answer": "C",
+        "q_boundary": [
+          39,
+          47
+        ],
+        "options_lines": [
+          null,
+          null
+        ],
+        "sub_qns": [
+          5,
+          6
+        ],
+        "n_leaves": 1,
+        "option_blocks": 2,
+        "branch": "C_no_source_for_answer_slot",
+        "primary": "C",
+        "src_labels_in_span": [
+          "A",
+          "B"
+        ],
+        "trailing": [],
+        "source_lines": [
+          {
+            "line": 39,
+            "text": "听第5段材料，回答第5题至第6题。"
+          },
+          {
+            "line": 40,
+            "text": ""
+          },
+          {
+            "line": 41,
+            "text": "5. Where does this conversation most likely take place?"
+          },
+          {
+            "line": 42,
+            "text": ""
+          },
+          {
+            "line": 43,
+            "text": "A. In a hotel. B. In an office."
+          },
+          {
+            "line": 44,
+            "text": ""
+          },
+          {
+            "line": 45,
+            "text": "6. What does the woman advise the man to buy?"
+          },
+          {
+            "line": 46,
+            "text": ""
+          },
+          {
+            "line": 47,
+            "text": "A. Larger trousers. B. Dark blue trousers."
+          }
+        ]
+      }
+    ]
+  }
+}

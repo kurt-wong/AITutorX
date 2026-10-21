@@ -1,0 +1,393 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\高三\\地理\\2021北京东城高三二模地理（教师版）(1).md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.1",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "U1-2",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        1,
+        2
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        11,
+        16
+      ],
+      "questions_lines": [
+        11,
+        31
+      ],
+      "answer_lines": [
+        334,
+        334
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "第一部分（选择题共45分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U3-4",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        3,
+        4
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        35,
+        40
+      ],
+      "questions_lines": [
+        35,
+        63
+      ],
+      "answer_lines": [
+        334,
+        334
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "第一部分（选择题共45分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U5-6",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        5,
+        6
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        65,
+        70
+      ],
+      "questions_lines": [
+        65,
+        83
+      ],
+      "answer_lines": [
+        334,
+        334
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "第一部分（选择题共45分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U7-8",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        7,
+        8
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        85,
+        90
+      ],
+      "questions_lines": [
+        85,
+        113
+      ],
+      "answer_lines": [
+        334,
+        334
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "第一部分（选择题共45分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U9-10",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        9,
+        10
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        115,
+        122
+      ],
+      "questions_lines": [
+        115,
+        135
+      ],
+      "answer_lines": [
+        334,
+        334
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "第一部分（选择题共45分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U11-12",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        11,
+        12
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        137,
+        142
+      ],
+      "questions_lines": [
+        137,
+        161
+      ],
+      "answer_lines": [
+        334,
+        334
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "第一部分（选择题共45分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U13-15",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        13,
+        14,
+        15
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        163,
+        168
+      ],
+      "questions_lines": [
+        163,
+        197
+      ],
+      "answer_lines": [
+        334,
+        334
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "第一部分（选择题共45分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q16",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        16
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        203,
+        217
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        338,
+        344
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "第二部分非选择题（共55分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q17",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        17
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        219,
+        247
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        347,
+        355
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "第二部分非选择题（共55分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q18",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        18
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        249,
+        283
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        357,
+        365
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "第二部分非选择题（共55分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q19",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        19
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        285,
+        305
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        365,
+        377
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "第二部分非选择题（共55分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q20",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        20
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        307,
+        323
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        379,
+        388
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "20 \\. (10分)",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2021 北京东城高三二模 地理",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 6,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "第一部分（选择题共45分）",
+      "ordinal": 2,
+      "start_line": 7,
+      "end_line": 198,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "第二部分非选择题（共55分）",
+      "ordinal": 3,
+      "start_line": 199,
+      "end_line": 306,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "20 \\. (10分)",
+      "ordinal": 4,
+      "start_line": 307,
+      "end_line": 326,
+      "occurrence": 1
+    },
+    {
+      "id": "S4",
+      "title": "2021 北京东城高三二模地理",
+      "ordinal": 5,
+      "start_line": 327,
+      "end_line": 330,
+      "occurrence": 1
+    },
+    {
+      "id": "S5",
+      "title": "第一部分选择题（每小题3分共45分）",
+      "ordinal": 6,
+      "start_line": 331,
+      "end_line": 335,
+      "occurrence": 1
+    },
+    {
+      "id": "S6",
+      "title": "第二部分非选择题（共55分）",
+      "ordinal": 7,
+      "start_line": 336,
+      "end_line": 389,
+      "occurrence": 2
+    }
+  ],
+  "source_content_sha256": "66da763268e55f4dd89452a67a5e0e2cd1869c0d0bd588a0c3c5d78b33db1088"
+}

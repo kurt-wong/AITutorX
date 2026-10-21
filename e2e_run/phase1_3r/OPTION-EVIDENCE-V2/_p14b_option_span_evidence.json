@@ -1,0 +1,221 @@
+[
+  {
+    "paper": "化学",
+    "root": "Q20",
+    "leaf": "Q20",
+    "decision": "auto_approve",
+    "options": [
+      {
+        "label": "A",
+        "span_id": "sp-Q20.option.A",
+        "granularity": "line",
+        "resolution_status": "exact",
+        "span_line_refs": [
+          "P1L151"
+        ],
+        "span_text": null,
+        "compiled_text": "A. 火山喷发、森林火灾会产生SO $ _{2} $"
+      },
+      {
+        "label": "B",
+        "span_id": "sp-Q20.option.B",
+        "granularity": "line",
+        "resolution_status": "exact",
+        "span_line_refs": [
+          "P1L153"
+        ],
+        "span_text": null,
+        "compiled_text": "B. 氢、氧两种元素没有参与硫的"
+      },
+      {
+        "label": "C",
+        "span_id": "sp-Q20.option.C",
+        "granularity": "line",
+        "resolution_status": "exact",
+        "span_line_refs": [
+          "P1L155"
+        ],
+        "span_text": null,
+        "compiled_text": "C. 工厂产生的烟气应经脱硫处理后再排放"
+      },
+      {
+        "label": "D",
+        "span_id": "sp-Q20.option.D",
+        "granularity": "line",
+        "resolution_status": "exact",
+        "span_line_refs": [
+          "P1L157"
+        ],
+        "span_text": null,
+        "compiled_text": "D. 硫在自然界的循环过程中，涉及了氧"
+      },
+      {
+        "label": "E",
+        "span_id": "sp-Q20.option.E",
+        "granularity": "line",
+        "resolution_status": "exact",
+        "span_line_refs": [
+          "P1L159"
+        ],
+        "span_text": null,
+        "compiled_text": "还原反应"
+      }
+    ]
+  },
+  {
+    "paper": "化学",
+    "root": "Q23",
+    "leaf": "Q23",
+    "decision": "auto_approve",
+    "options": [
+      {
+        "label": "A",
+        "span_id": "sp-Q23.option.A",
+        "granularity": "line",
+        "resolution_status": "exact",
+        "span_line_refs": [
+          "P1L188"
+        ],
+        "span_text": null,
+        "compiled_text": "A．金属钠与水： $ 2Na + 2H_{2}O = 2Na^{+} + 2OH^{-} + H_{2}\\uparrow $"
+      },
+      {
+        "label": "B",
+        "span_id": "sp-Q23.option.B",
+        "granularity": "line",
+        "resolution_status": "exact",
+        "span_line_refs": [
+          "P1L190"
+        ],
+        "span_text": null,
+        "compiled_text": "B．氯化钠溶液与硝酸银溶液："
+      },
+      {
+        "label": "C",
+        "span_id": "sp-Q23.option.C",
+        "granularity": "line",
+        "resolution_status": "exact",
+        "span_line_refs": [
+          "P1L192"
+        ],
+        "span_text": null,
+        "compiled_text": "C．稀盐酸与碳酸钙： $ CaCO_{3}+2H^{+}=Ca^{2+}+CO_{2}\\uparrow+H_{2}O $"
+      },
+      {
+        "label": "D",
+        "span_id": "sp-Q23.option.D",
+        "granularity": "line",
+        "resolution_status": "exact",
+        "span_line_refs": [
+          "P1L194"
+        ],
+        "span_text": null,
+        "compiled_text": " $  \\mathrm{H}^{+} + \\mathrm{SO}_{4}^{2-} + \\mathrm{Ba}^{2+} + \\mathrm{OH}^{-} = \\mathrm{H}_{2}\\mathrm{O} + \\mathrm{BaSO}_{4} \\downarrow  $"
+      }
+    ]
+  },
+  {
+    "paper": "历史",
+    "root": "Q29",
+    "leaf": "Q29",
+    "decision": "auto_approve",
+    "options": [
+      {
+        "label": "A",
+        "span_id": "sp-Q29.option.A",
+        "granularity": "line",
+        "resolution_status": "exact",
+        "span_line_refs": [
+          "P1L301"
+        ],
+        "span_text": null,
+        "compiled_text": "A. 迪亚士"
+      },
+      {
+        "label": "B",
+        "span_id": "sp-Q29.option.B",
+        "granularity": "line",
+        "resolution_status": "exact",
+        "span_line_refs": [
+          "P1L303"
+        ],
+        "span_text": null,
+        "compiled_text": "B. 达，伽马"
+      },
+      {
+        "label": "C",
+        "span_id": "sp-Q29.option.C",
+        "granularity": "line",
+        "resolution_status": "exact",
+        "span_line_refs": [
+          "P1L305"
+        ],
+        "span_text": null,
+        "compiled_text": "C. 哥伦布"
+      },
+      {
+        "label": "D",
+        "span_id": "sp-Q29.option.D",
+        "granularity": "line",
+        "resolution_status": "exact",
+        "span_line_refs": [
+          "P1L307"
+        ],
+        "span_text": null,
+        "compiled_text": "D 麦哲伦"
+      }
+    ]
+  },
+  {
+    "paper": "数学",
+    "root": "Q4",
+    "leaf": "Q4",
+    "decision": "pending_review",
+    "options": [
+      {
+        "label": "A",
+        "span_id": "sp-Q4.option.A",
+        "granularity": "line",
+        "resolution_status": "exact",
+        "span_line_refs": [
+          "P1L021"
+        ],
+        "span_text": null,
+        "compiled_text": "A. 关于 x 轴对称 B. 关于 y 轴对称"
+      },
+      {
+        "label": "B",
+        "span_id": "sp-Q4.option.B",
+        "granularity": "line_character",
+        "resolution_status": "exact",
+        "span_line_refs": [
+          "P1L021"
+        ],
+        "span_text": null,
+        "compiled_text": "B"
+      },
+      {
+        "label": "C",
+        "span_id": "sp-Q4.option.C",
+        "granularity": "line",
+        "resolution_status": "exact",
+        "span_line_refs": [
+          "P1L023"
+        ],
+        "span_text": null,
+        "compiled_text": "C. 关于直线 y=x 对称 2D. 关于直线 y= -x 对称"
+      },
+      {
+        "label": "D",
+        "span_id": "sp-Q4.option.D",
+        "granularity": "line_character",
+        "resolution_status": "exact",
+        "span_line_refs": [
+          "P1L023"
+        ],
+        "span_text": null,
+        "compiled_text": "D"
+      }
+    ]
+  }
+]

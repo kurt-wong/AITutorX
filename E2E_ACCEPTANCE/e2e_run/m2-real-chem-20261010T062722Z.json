@@ -1,0 +1,108 @@
+{
+  "artifact": "M2-REAL-PAPER-E2E",
+  "started_at": "2026-10-10T06:27:16.717112+00:00",
+  "repo": {
+    "path": "D:\\Project\\AITutors-v3",
+    "branch": "od01-r3-convergence",
+    "head": "d16a5e9+M1-fixes"
+  },
+  "package": {
+    "path": "D:\\Project\\AITutor-X\\E2E_ACCEPTANCE\\06_M1_PACKAGES\\chem-2018-spring-huikao-teacher",
+    "original_sha256": "8d3f9dad0918567b3ef375a57843d5d28d1eff77dfac467ff9eddc0f3c4f3a23",
+    "source_content_sha256": "0443945f4672b05da3d2d950b0a3eb20a495c1635c353c024c8c050b7fad1ffb",
+    "pairing_evidence": "D:\\Project\\AITutor-X\\E2E_ACCEPTANCE\\06_M1_PACKAGES\\chem-2018-spring-huikao-teacher\\PAIRING_EVIDENCE.json"
+  },
+  "environment": {
+    "database_url_db": "aitutors_test",
+    "llm_gateway_mode": "live",
+    "mimo_model": "mimo-v2.6-pro",
+    "formal_entry": "PreprocessingImportService.import_package + TaskExecutor"
+  },
+  "live_llm": {
+    "authorized": true,
+    "scope": "3-10 questions (Q1-Q8 verify)",
+    "budget_note": "1 document annotation call + gate; no retry storms"
+  },
+  "import": {
+    "document_id": "5d463a6c-005c-4fba-b78e-bfba09cdd037",
+    "source_version_id": "53814898-d589-4b8f-9726-e3b967a24ca5",
+    "task_id": "c8453df5-d7e6-42f6-95e6-5a017167dabe",
+    "original_sha256": "8d3f9dad0918567b3ef375a57843d5d28d1eff77dfac467ff9eddc0f3c4f3a23",
+    "source_content_sha256": "0443945f4672b05da3d2d950b0a3eb20a495c1635c353c024c8c050b7fad1ffb",
+    "is_new": true
+  },
+  "pipeline": {
+    "task_id": "c8453df5-d7e6-42f6-95e6-5a017167dabe",
+    "task_status_db": "queued",
+    "current_stage": null,
+    "llm_invocations": 0,
+    "elapsed_seconds": 5.29,
+    "stage_log": [
+      {
+        "phase": "before_run",
+        "task_status": "queued"
+      },
+      {
+        "round": 1,
+        "claimed": true
+      },
+      {
+        "round": 2,
+        "claimed": true
+      },
+      {
+        "round": 3,
+        "claimed": true
+      },
+      {
+        "round": 4,
+        "claimed": true
+      },
+      {
+        "round": 5,
+        "claimed": true
+      }
+    ]
+  },
+  "db": {
+    "source_versions": [
+      {
+        "id": "53814898-d589-4b8f-9726-e3b967a24ca5",
+        "role": "preprocessing",
+        "provider": "preprocessing",
+        "artifact_kind": "canonical_l1",
+        "status": "sealed",
+        "line_count": 273
+      }
+    ],
+    "annotations": [
+      {
+        "id": "9d3ebefc-8725-41ab-bd3d-f07bdb5ca8ff",
+        "source_version_id": "8bf87832-cafd-4180-8ac7-ee5dc91c9254",
+        "status": "valid"
+      }
+    ],
+    "candidates": [],
+    "questions": [],
+    "question_instances": []
+  },
+  "funnel": {
+    "package_id": "chem-2018-spring-huikao-teacher",
+    "started_at": "2026-10-10T06:27:16.718132+00:00",
+    "finished_at": "2026-10-10T06:27:22.221972+00:00",
+    "stages": {
+      "input_units": 40,
+      "identity_ok": 1,
+      "ir_ready": 1,
+      "candidates": 0,
+      "questions": 0,
+      "question_instances": 0,
+      "pending_review": 0
+    },
+    "failures": [],
+    "notes": [
+      "loaded package md_bytes=31777"
+    ],
+    "unexplained_loss": 39
+  }
+}

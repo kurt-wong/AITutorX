@@ -1,0 +1,196 @@
+{
+  "ir_ready": 15,
+  "ir_incomplete": 3,
+  "gate_auto": 8,
+  "gate_pending": 7,
+  "gate_rejected": 3,
+  "n_units": 18,
+  "n_questions_tracked": 18,
+  "questions": [
+    {
+      "unit_id": "Q1",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "1\\. C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 3,
+      "stem_preview": "1. When will the man go for dinner?\n"
+    },
+    {
+      "unit_id": "Q2",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "2\\. C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 3,
+      "stem_preview": "2. What place of interest is the woman going to visit this year?\n"
+    },
+    {
+      "unit_id": "Q3",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q4",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer_letter": "B",
+      "answer_preview": "4\\. B",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 3,
+      "stem_preview": "4. What is the man doing?\n"
+    },
+    {
+      "unit_id": "Q5-6",
+      "labels": [
+        "A",
+        "B"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "5\\. C",
+      "verify": null,
+      "gate": "pending_review",
+      "n_options": 2,
+      "stem_preview": "5. Where does this conversation most likely take place?\n"
+    },
+    {
+      "unit_id": "Q7-8",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "7\\. C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 3,
+      "stem_preview": "7. Why does the woman visit the man?\n"
+    },
+    {
+      "unit_id": "Q9-11",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "9\\. C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 3,
+      "stem_preview": "9. What does the woman ask the man to do?\n"
+    },
+    {
+      "unit_id": "Q12-14",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer_letter": "A",
+      "answer_preview": "12\\. A",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 3,
+      "stem_preview": "12. What does the man ask the woman to do?\n"
+    },
+    {
+      "unit_id": "Q15-17",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer_letter": "B",
+      "answer_preview": "15\\. B",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 3,
+      "stem_preview": "15. Which cinema are the speakers going to?\n"
+    },
+    {
+      "unit_id": "Q18-20",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer_letter": "B",
+      "answer_preview": "18.B",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 3,
+      "stem_preview": "18. What does the speaker mainly talk about?\n"
+    },
+    {
+      "unit_id": "Q21-25",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "U26-40",
+      "labels": [],
+      "answer_letter": "A",
+      "answer_preview": "26.A",
+      "verify": null,
+      "gate": "pending_review",
+      "n_options": 0,
+      "stem_preview": "26. A. finished B. liked C. suggested D. practised\n"
+    },
+    {
+      "unit_id": "U41-44",
+      "labels": [],
+      "answer_letter": "D",
+      "answer_preview": "41.D",
+      "verify": null,
+      "gate": "pending_review",
+      "n_options": 0,
+      "stem_preview": "41. On his trip to India, the author enjoyed ___.\n\nA. riding on an elephant B. playing with children"
+    },
+    {
+      "unit_id": "U45-48",
+      "labels": [],
+      "answer_letter": "A",
+      "answer_preview": "45.A",
+      "verify": null,
+      "gate": "pending_review",
+      "n_options": 0,
+      "stem_preview": "45. If you take the course about online communication, you can begin your course on\n\nA. 5 February 2"
+    },
+    {
+      "unit_id": "U49-52",
+      "labels": [],
+      "answer_letter": "A",
+      "answer_preview": "49.A",
+      "verify": null,
+      "gate": "pending_review",
+      "n_options": 0,
+      "stem_preview": "49. What does the second paragraph mainly talk about?\n\nA. How metal detectors work. B. Why magnetic "
+    }
+  ]
+}

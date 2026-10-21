@@ -1,0 +1,7 @@
+{
+  "A_vs_B4_intended_diff": "shared_components.material gains start_marker/end_marker multi_line_pair text",
+  "reaches_consumer": "extract_targets._material_target reads start_marker/end_marker (reference.py:95-96)",
+  "consumer_function": "resolver._material_span (resolver.py:467-510)",
+  "B1_B2_B3_invalid_if_line_fields_only": true,
+  "production_code_modified": false
+}

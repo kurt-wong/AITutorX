@@ -1,0 +1,35 @@
+{
+  "database": "aitutors_yield_v1",
+  "code": "27f462a + yield fixes (manifest_annotation composite + grammar marker)",
+  "before_expect": {
+    "math": {
+      "questions": 0,
+      "pending": 30
+    },
+    "geo": {
+      "questions": 0,
+      "candidates": 0
+    }
+  },
+  "after": [
+    {
+      "label": "2018北京春季高中会考数学（教师版）(1)",
+      "md_sha": "934dec78dde333d21342f3f9419f524bb68e92645914c3d3db9cf482a282f176",
+      "units": 30,
+      "candidates": {
+        "approved": 25,
+        "pending_review": 5
+      },
+      "questions": 25,
+      "with_stem_answer": 25
+    },
+    {
+      "label": "2018北京春季高中会考地理（教师版）(1)",
+      "md_sha": "3f4a7a826b0176ceb86de53b5721de08e1d7d5ba8a364e627c33297d2a3359f0",
+      "units": 25,
+      "candidates": {},
+      "questions": 0,
+      "with_stem_answer": 0
+    }
+  ]
+}

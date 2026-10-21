@@ -1,0 +1,29 @@
+{
+  "version": "v2-gate-provenance",
+  "viewer_data_raw_v2.json": "6b6b406a4a218f4768669138e3264186b05bc1713ee24f323d4bf18600728784",
+  "data_v2.js": "8162059a63affce7aa2b8cf5443d1dc95b611c6d7d3bd737ad4e87e880960903",
+  "protected_unchanged": {
+    "FROZEN_EVIDENCE\\data.js": "258101cb91fd338a934730f968e451b3bd0afd9dc884d01ab80007ac4ea6622d",
+    "FROZEN_EVIDENCE\\FROZEN_BASELINE_SHA256.json": "0375deb42f7ea44b236f48fbf876a5123cc22a8ad82187461639f31126657327",
+    "FROZEN_EVIDENCE\\viewer_data_raw.json": "1c2fce64e2e580258e7c6c70a1aeca40ee66eb18f1bf4035ae5fb9ad1c1a0835",
+    "05_V3_OUTPUT\\化学.v3.json": "096dda54902528de8b974d5d32dfc444efde6b6383deefa9bf628a0420cddef0",
+    "05_V3_OUTPUT\\历史.v3.json": "3e9f2b7c318c4e0c4663f30ffdcecfbb8359598497ef22e11bf4f5b949e98491",
+    "05_V3_OUTPUT\\地理.v3.json": "eb93ae6e6c786a2c1d6c075cb3862a7772f05b91d708ca56e52c8b8f27207e2a",
+    "05_V3_OUTPUT\\政治.v3.json": "3e5da6a175fb1f92b6be97c77b8e5267408c83a561aac27f096e30bcd3b3f388",
+    "05_V3_OUTPUT\\数学.v3.json": "1c8553620b58ba95ed782ee8c2e40e24da79614d553eed652852880a3bbbac8f",
+    "05_V3_OUTPUT\\物理.v3.json": "71e53c3ce910e7e13bb9a1cf9539cf530fc4ba1d607527cd218c6722a073d046",
+    "05_V3_OUTPUT\\生物.v3.json": "078407e2f809eb3667d6fe33b627bdd5648840afb59487005a3e9ce64412607e",
+    "05_V3_OUTPUT\\英语.v3.json": "5d2389073264b4d51d84af96e75ab801374112050194a8ff4cc4e656bb97cd0d",
+    "05_V3_OUTPUT\\语文.v3.json": "592aa267eb7b92f9f2bd45f420d1d45eb25d2caccd9012d2db897dd8cd2df4fb",
+    "05_V3_OUTPUT\\化学.pdf.txt": "f2215cf3fce64d119be9e405517266151b31bd8a836121b543eb47143de2b69a",
+    "05_V3_OUTPUT\\历史.pdf.txt": "6ae7fa29ce40dade50e442066845f82b1396bbdf0d47ecb8e09f4678593e2a81",
+    "05_V3_OUTPUT\\地理.pdf.txt": "ea955adb7f600c4bdc8cca4e63afc16e2b4de23fc520c7412b9616f5b63eb99d",
+    "05_V3_OUTPUT\\政治.pdf.txt": "549c936c7106238cfadffcada42d9624ac3512cc04550f865101030b04184fff",
+    "05_V3_OUTPUT\\数学.pdf.txt": "8ab05654005b9bda84c4f588be6ff282d8c6a6e010da3419916907fcebe3dca5",
+    "05_V3_OUTPUT\\物理.pdf.txt": "d42f31fde488500f6e86930323db980361ba6342d8e4c13340425395f91cdbe7",
+    "05_V3_OUTPUT\\生物.pdf.txt": "7935d6217cc15d0d19505409034e0138114cc711efbd082b7bba9a9deb1a51d8",
+    "05_V3_OUTPUT\\英语.pdf.txt": "3ff53a868b9bb78732352adddb7cfcf9a97b85a073cefee11577ba7db5d1ea36",
+    "05_V3_OUTPUT\\语文.pdf.txt": "2ae03c0d09a02dbfd6ff925f0ed3d944bd593b0d37ff3e9509bf8fb6673498ad"
+  },
+  "protected_count": 21
+}

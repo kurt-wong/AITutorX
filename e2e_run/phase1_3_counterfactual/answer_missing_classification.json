@@ -1,0 +1,8 @@
+{
+  "captured_at": "2026-10-02T05:35:06.125959+00:00",
+  "classification_rule": "answer roles have no positional read-point in ResolveTarget; all 161 missing / 15 ambiguous classified as position_not_consumed (interface blocker), not as proven-ineffective evidence",
+  "counts": {
+    "answer_missing__position_not_consumed": 167,
+    "answer_ambiguous__position_not_consumed": 13
+  }
+}

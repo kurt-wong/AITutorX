@@ -1,0 +1,63 @@
+{
+  "top_ready": 219,
+  "leaf_ready": 226,
+  "leaves": 284,
+  "divergent": [
+    [
+      "英语",
+      "Q1",
+      "incomplete",
+      {
+        "Q1.sub": "ready"
+      }
+    ],
+    [
+      "英语",
+      "Q2",
+      "incomplete",
+      {
+        "Q2.sub": "ready"
+      }
+    ],
+    [
+      "英语",
+      "Q4",
+      "incomplete",
+      {
+        "Q4.sub": "ready"
+      }
+    ],
+    [
+      "英语",
+      "Q5-6",
+      "incomplete",
+      {
+        "Q5-6.sub": "ready"
+      }
+    ],
+    [
+      "英语",
+      "Q7-8",
+      "incomplete",
+      {
+        "Q7-8.sub": "ready"
+      }
+    ],
+    [
+      "英语",
+      "Q15-17",
+      "incomplete",
+      {
+        "Q15-17.sub": "ready"
+      }
+    ],
+    [
+      "英语",
+      "Q18-20",
+      "incomplete",
+      {
+        "Q18-20.sub": "ready"
+      }
+    ]
+  ]
+}

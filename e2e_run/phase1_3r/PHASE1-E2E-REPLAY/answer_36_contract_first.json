@@ -1,0 +1,1005 @@
+{
+  "metric_scope": "root/leaf",
+  "baseline": "07d9e34",
+  "taxonomy": {
+    "N0": "no answer text",
+    "S0": "span/provenance invalid OR interval has no canonical token",
+    "Q0": "qtype not strict-auto",
+    "G1": "answer form cannot parse",
+    "G2": "answer parsed but not in option labels",
+    "G3": "canonical grammar unsupported",
+    "I0": "invariant violation"
+  },
+  "n": 36,
+  "totals": {
+    "G2": 1,
+    "S0": 25,
+    "G1": 9,
+    "G3": 1
+  },
+  "by_code_paper": {
+    "G2|化学": 1,
+    "S0|数学": 25,
+    "G1|英语": 8,
+    "G3|语文": 1,
+    "G1|语文": 1
+  },
+  "rows": [
+    {
+      "root_id": "Q23",
+      "leaf_id": "Q23",
+      "paper": "化学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "D",
+      "answer_span": "sp-Q23.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=513-513",
+        "structured_answer_table",
+        "qn=23",
+        "cell=D"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C']) -> None",
+      "first_failed_contract": "G2",
+      "detail": "parsed letter 'D' not in resolved_option_labels=('A', 'B', 'C') (option evidence contract)",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q1",
+      "leaf_id": "Q1",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "【考点】三角函数的周期性及其求法.\n\n【分析】由条件利用函数  $ y = A \\sin(\\omega x + \\phi) $ 的周期为  $ \\frac{2\\pi}{\\omega} $，求得结果.\n\n【解答】解：函数  $ y=3\\sin x+2 $ 的最小正周期为  $ 2\\pi $\n\n故选：D.",
+      "answer_span": "sp-Q1.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=200-206",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q2",
+      "leaf_id": "Q2",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "2.\n\n【考点】集合的包含关系判断及应用.\n\n【分析】由  $ A \\cap B = A $，得出  $ A \\subseteq B $，即可得出 m.\n\n【解答】解：∵A∩B=A，\n\n $$ \\therefore A\\subseteq B. $$ \n\n $ \\because A=\\{1,2\\}, B=\\{1,m,3\\} $,\n\n $$ \\therefore m=2. $$ \n\n故选C.",
+      "answer_span": "sp-Q2.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=208-222",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q3",
+      "leaf_id": "Q3",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "3.\n\n【考点】平面向量的坐标运算.\n\n【分析】根据向量的坐标的运算法则计算即可.\n\n【解答】解：向量  $ \\overrightarrow{a}=(1,2) $， $ \\overrightarrow{b}=(4,3) $，\n\n则于  $ \\overrightarrow{a}-2\\overrightarrow{b}=(1,2)-2(4,3)=(1,2)-(8,6)=(1-8,2-6)=(-7,-4",
+      "answer_span": "sp-Q3.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=224-232",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q4",
+      "leaf_id": "Q4",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "4.\n\n【考点】余弦函数的图象.\n\n【分析】根据当自变量相同时，它们的函数值相反，可得它们的图象关于x轴对称.\n\n【解答】解：由于当自变量相同时，它们的函数值相反，故它们的图象关于x轴对称，故选：A.",
+      "answer_span": "sp-Q4.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=234-240",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q5",
+      "leaf_id": "Q5",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "5.\n\n【考点】程序框图.\n\n【分析】根据题意，模拟程序框图的运行过程，即可得出输出的结果.\n\n【解答】解：模拟程序框图的运行过程，如下；\n\nx=-2， $ x\\geq0 $？，否；\n\n---\n\ny = -(-2) = 2,\n\n输出 y 的值为 2.\n\n故选：C.",
+      "answer_span": "sp-Q5.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=242-258",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q6",
+      "leaf_id": "Q6",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "6.\n\n【考点】直线的一般式方程与直线的平行关系.\n\n【分析】设所求的方程为 x - y + c = 0，代点可得关于 c 的方程，解之代入可得.\n\n【解答】解：由题意可设所求的方程为  $ 2x - y + c = 0 $，\n\n代入已知点（2，1），可得4-1+c=0，即c=-3\n\n故所求直线的方程为：2x - y - 3 = 0，\n\n故选：A.",
+      "answer_span": "sp-Q6.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=260-272",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q7",
+      "leaf_id": "Q7",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "7.\n\n【考点】分层抽样方法.\n\n【分析】先求出每个个体被抽到的概率，用每层的个体数乘以每个个体被抽到的概率等于该层应抽取的个体数.\n\n【解答】解：每个个体被抽到的概率等于 $ \\frac{3000}{270000}=\\frac{1}{90} $，\n\n则抽取初三年级的人数应为 $ 81000\\times\\frac{1}{90}=900 $人，\n\n故选：B.",
+      "answer_span": "sp-Q7.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=274-284",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q8",
+      "leaf_id": "Q8",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "8.\n\n【考点】余弦定理.\n\n【分析】由已知及余弦定理即可求值得解.\n\n【解答】解：∵$\\angle C=60^{\\circ}$，$AC=2$，$BC=3$，\n\n∴由余弦定理可得：$AB=\\sqrt{AC^{2}+BC^{2}-2AB\\cdot AC\\cdot\\cos C}=\\sqrt{4+9-2\\times2\\times3\\times\\frac{1}{2}}=\\sqrt{7}$.\n\n故选：C.",
+      "answer_span": "sp-Q8.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=286-296",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q9",
+      "leaf_id": "Q9",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "9.\n\n【考点】古典概型及其概率计算公式.\n\n【分析】根据题意，易得口袋中有6个球，其中红球和白球共有4个，由古典概型公式，计算可得答案.\n\n【解答】解：根据题意，口袋中有6个球，其中3个红球、2个黄球和1个白球，\n\n则红球和白球共有4个，\n\n故从中随机摸出1个球，那么摸到红球或白球的概率是 $ \\frac{4}{6}=\\frac{2}{3} $;\n\n故选D.",
+      "answer_span": "sp-Q9.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=298-310",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q10",
+      "leaf_id": "Q10",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "10.\n\n【考点】平面向量数量积的运算.\n\n【分析】求出 $ \\overrightarrow{AC} $， $ \\overrightarrow{AB} $的模长和夹角，代入数量积公式计算.\n\n【解答】解：∵正方形 ABCD 的边长为 1，∴ $ |\\overrightarrow{AB}|=1 $， $ |\\overrightarrow{AC}|=\\sqrt{2} $， $ \\angle BAC=\\",
+      "answer_span": "sp-Q10.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=314-324",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q11",
+      "leaf_id": "Q11",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "11.\n\n【考点】等比数列的前 n 项和.\n\n【分析】由已知得训练 n 天产生的总数据量为  $ S_{n}=a+aq+aq^{2}+\\cdots+aq^{n-1} $，由此能求出结果.\n\n【解答】解：∵训练过程中第一天产生的数据量为 a，其后每天产生的数据量都是前一天的  $ q $（ $ q>1 $）倍，∴那么训练 n 天产生的总数据量为： $ S_n = a + aq + aq^2 + \\c",
+      "answer_span": "sp-Q11.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=326-336",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q12",
+      "leaf_id": "Q12",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "12.\n\n【考点】二倍角的余弦.\n\n【分析】利用诱导公式，二倍角的余弦函数公式即可求值得解.\n\n【解答】解：∵  $ \\cos\\alpha=\\frac{1}{2} $,\n\n∴  $ \\cos(-2a)=\\cos2a=2\\cos^2a-1=2\\times\\left(\\frac{1}{2}\\right)^2-1=-\\frac{1}{2} $.\n\n故选：B.",
+      "answer_span": "sp-Q12.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=338-348",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q13",
+      "leaf_id": "Q13",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "13.\n\n【考点】函数的图象.\n\n【分析】把点（1，1）代入各个选项检验，可得结论.\n\n【解答】解：把点（1，1）代入各个选项检验，可得只有  $ y=x^{-1} $ 的图象经过点（1，1），故选：A.",
+      "answer_span": "sp-Q13.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=350-356",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q14",
+      "leaf_id": "Q14",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "14.\n\n【考点】对数的运算性质.\n\n【分析】根据对数的运算法则计算即可.\n\n【解答】解： $ \\log_{4}2 - \\log_{4}8 = \\log_{4}\\frac{2}{8} = \\log_{4}4^{-1} = -1 $，\n\n---\n\n故选：B.",
+      "answer_span": "sp-Q14.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=358-368",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q15",
+      "leaf_id": "Q15",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "15.\n\n【考点】由三视图求面积、体积.\n\n【分析】由几何体的三视图得出原几何体一个底面为正方形的长方体，结合图中数据求出它的表面积.\n\n【解答】解：由三视图可知，该几何体是一个底面为正方形的长方体，\n\n长方体的底面正方形的对角线长为2，长方体的高是3；\n\n所以，底面正方形的边长为 $ \\sqrt{1^{2}+1^{2}}=\\sqrt{2} $，\n\n该长方体的表面积为 $ 2\\times(\\sqr",
+      "answer_span": "sp-Q15.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=370-384",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q16",
+      "leaf_id": "Q16",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "16.\n\n16.\n\n【考点】不等式的基本性质.\n\n【分析】通过特殊值判断①②，通过通分判断③，通过基本不等式的性质判断④.\n\n【解答】解：如果 a＞b＞0，且 a+b=1，\n\n那么① $ \\frac{a}{b} $＜1，② $ \\frac{1}{b} $＜ $ \\frac{1}{a} $，令 a=0.8，b=0.2，显然不成立，故①②错误；\n\n③ $ \\frac{1}{b}+\\frac{1}{a}",
+      "answer_span": "sp-Q16.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=386-404",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q17",
+      "leaf_id": "Q17",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "17.\n\n17.\n\n【考点】平面与平面平行的判定；直线与平面平行的判定．\n\n【分析】由  $ FG \\parallel BC_1 $， $ BC_1 \\parallel AD_1 $，得  $ FG \\parallel AD_1 $，从而  $ FG \\parallel $ 平面  $ BC_1D_1 $， $ FG \\parallel $ 平面  $ AA_1D_1D $；由  $ EF \\pa",
+      "answer_span": "sp-Q17.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=406-430",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q18",
+      "leaf_id": "Q18",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "18.\n\n【考点】圆与圆的位置关系及其判定.\n\n【分析】两个圆有且只有一个公共点，两个圆内切或外切，分别求出 a，即可得出结论.\n\n【解答】解：∵两个圆有且只有一个公共点，\n\n∴两个圆内切或外切，\n\n内切时， $ |a|=1 $，外切时， $ |a|=3 $，\n\n∴实数 a 的取值集合是  $ \\{1, -1, 3, -3\\} $\n\n故选：C.",
+      "answer_span": "sp-Q18.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=434-448",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q19",
+      "leaf_id": "Q19",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "19.\n\n【考点】两点间距离公式的应用.\n\n【分析】根据两点间的距离公式表示 $ |BO|=|BA| $，即可求出b的值.\n\n【解答】解：∵点A（4，2）和B（0，b）满足|BO|=|BA|，\n\n $$ \\therefore b^{2}=4^{2}+(2-b)^{2}, $$ \n\n $$ \\therefore b=5. $$ \n\n故选：C.",
+      "answer_span": "sp-Q19.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=450-462",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q20",
+      "leaf_id": "Q20",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "20.\n\n【考点】指数函数的图象与性质.\n\n【分析】由已知可得  $ x_{1}+x_{2}=0 $，进而根据指数的运算性质，可得答案.\n\n【解答】解：∵以 P（x₁，f（x₁）），Q（x₂，f（x₂））为端点的线段的中点在 y 轴上，∴ x₁ + x₂ = 0，又∵ f（x）= aᵓ，∴ f（x₁）· f（x₂）= aᵓ¹ + aᵓ² = aˡ¹·ˡˡ x² = a⁰·ˡˡ = 1，故选：A.",
+      "answer_span": "sp-Q20.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=464-470",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q21",
+      "leaf_id": "Q21",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "21.\n\n【考点】二元一次不等式（组）与平面区域.\n\n【分析】作出平面区域，根据图形找出 PA 的最小值.\n\n【解答】解：作出平面区域如图，则 |PA| 的最小值为 A（0，1）到直线 x - y = 0 的距离  $ d = \\frac{1}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2} $.\n\n故选：B.\n\n---\n\n<div style=\"text-align: center",
+      "answer_span": "sp-Q21.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=472-484",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q22",
+      "leaf_id": "Q22",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "22.\n\n【考点】函数的定义域及其求法；函数的值域；函数奇偶性的判断.\n\n【分析】根据 f（x）的表达式求出其定义域，判断①正确；根据基本不等式的性质求出 f（x）的值域，判断②正确；根据奇偶性的定义，判断③正确；根据函数的单调性，判断④错误.\n\n【解答】解：①∵函数 $ f(x)=\\frac{x}{x^2+1} $\n\n $ \\therefore f(x) $ 的定义域是  $ (-∞, +∞) ",
+      "answer_span": "sp-Q22.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=487-523",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q23",
+      "leaf_id": "Q23",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "23.\n\n---\n\n【考点】函数的值.\n\n【分析】按原来的退休政策，她应该于：1964+55=2019年退休，再据此方案，能求出她退休的年份.\n\n【解答】解：∵小明的母亲是出生于1964年的女干部，\n\n∴按原来的退休政策，她应该于：1964+55=2019年退休，\n\n从2018年开始，女性退休年龄每3年延迟1岁，\n\n∴据此方案，她退休的年份是2020年.\n\n故选：B.",
+      "answer_span": "sp-Q23.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=525-541",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q24",
+      "leaf_id": "Q24",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "24.\n\n【考点】两角和与差的正弦函数.\n\n【分析】需要分类讨论，当 a=0 时，和当  $ a \\neq 0 $ 时，函数  $ f(x) = a \\sin x + b \\cos x = \\sqrt{a^2 + b^2} \\sin(x + \\theta) $，其中  $ \\tan \\theta = \\frac{b}{a} $，然后比较计算即可.\n\n【解答】解：当 a=0 时， $ f(x)=bc",
+      "answer_span": "sp-Q24.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=543-565",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q25",
+      "leaf_id": "Q25",
+      "paper": "数学",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "25.\n\n【考点】计数原理的应用.\n\n【分析】列举所有排法，即可得出结论.\n\n【解答】解：三阶幻方，是最简单的幻方，由1，2，3，4，5，6，7，8，9．其中有8种排法492、357、816；276、951、438；294、753、618；438、951、276；816、357、492；618、753、294；672、159、834；834、159、672．\n\n故选：B.",
+      "answer_span": "sp-Q25.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=567-575",
+        "multi-line block (no token extraction)"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "S0",
+      "detail": "answer_lines interval is a multi-line block without token extraction (B3c-B multi-line token NOT SPECIFIED); grammar never receives a canonical answer token — Producer/Resolver interval contract gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q1",
+      "leaf_id": "Q1.sub",
+      "paper": "英语",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "1\\. C",
+      "answer_span": "sp-Q1.sub.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=451-451",
+        "qn=1",
+        "single-line entry"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C']) -> None",
+      "first_failed_contract": "G1",
+      "detail": "answer text has Markdown escaped-dot qn prefix (`N\\. X`); _LEAD_QN_RE does not strip `\\.` — parser compatibility",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q2",
+      "leaf_id": "Q2.sub",
+      "paper": "英语",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "2\\. C",
+      "answer_span": "sp-Q2.sub.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=451-451",
+        "qn=2",
+        "single-line entry"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C']) -> None",
+      "first_failed_contract": "G1",
+      "detail": "answer text has Markdown escaped-dot qn prefix (`N\\. X`); _LEAD_QN_RE does not strip `\\.` — parser compatibility",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q4",
+      "leaf_id": "Q4.sub",
+      "paper": "英语",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "4\\. B",
+      "answer_span": "sp-Q4.sub.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=451-451",
+        "qn=4",
+        "single-line entry"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C']) -> None",
+      "first_failed_contract": "G1",
+      "detail": "answer text has Markdown escaped-dot qn prefix (`N\\. X`); _LEAD_QN_RE does not strip `\\.` — parser compatibility",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q5-6",
+      "leaf_id": "Q5-6.sub",
+      "paper": "英语",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "5\\. C",
+      "answer_span": "sp-Q5-6.sub.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=451-451",
+        "qn=5",
+        "single-line entry"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B']) -> None",
+      "first_failed_contract": "G1",
+      "detail": "answer text has Markdown escaped-dot qn prefix (`N\\. X`); _LEAD_QN_RE does not strip `\\.` — parser compatibility",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q7-8",
+      "leaf_id": "Q7-8.sub",
+      "paper": "英语",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "7\\. C",
+      "answer_span": "sp-Q7-8.sub.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=451-451",
+        "qn=7",
+        "single-line entry"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C']) -> None",
+      "first_failed_contract": "G1",
+      "detail": "answer text has Markdown escaped-dot qn prefix (`N\\. X`); _LEAD_QN_RE does not strip `\\.` — parser compatibility",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q9-11",
+      "leaf_id": "Q9-11.sub",
+      "paper": "英语",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "9\\. C",
+      "answer_span": "sp-Q9-11.sub.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=451-451",
+        "qn=9",
+        "single-line entry"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C']) -> None",
+      "first_failed_contract": "G1",
+      "detail": "answer text has Markdown escaped-dot qn prefix (`N\\. X`); _LEAD_QN_RE does not strip `\\.` — parser compatibility",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q12-14",
+      "leaf_id": "Q12-14.sub",
+      "paper": "英语",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "12\\. A",
+      "answer_span": "sp-Q12-14.sub.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=451-451",
+        "qn=12",
+        "single-line entry"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C']) -> None",
+      "first_failed_contract": "G1",
+      "detail": "answer text has Markdown escaped-dot qn prefix (`N\\. X`); _LEAD_QN_RE does not strip `\\.` — parser compatibility",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q15-17",
+      "leaf_id": "Q15-17.sub",
+      "paper": "英语",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "15\\. B",
+      "answer_span": "sp-Q15-17.sub.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=451-451",
+        "qn=15",
+        "single-line entry"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C']) -> None",
+      "first_failed_contract": "G1",
+      "detail": "answer text has Markdown escaped-dot qn prefix (`N\\. X`); _LEAD_QN_RE does not strip `\\.` — parser compatibility",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q6",
+      "leaf_id": "Q6",
+      "paper": "语文",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "6. D（2分）",
+      "answer_span": "sp-Q6.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=362-362",
+        "qn=6",
+        "single-line entry"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "G3",
+      "detail": "form 'D（2分）' = letter+trailing score; _SC_FORMS_RE covers leading score only — grammar coverage gap",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": []
+    },
+    {
+      "root_id": "Q7",
+      "leaf_id": "Q7",
+      "paper": "语文",
+      "qtype": "single_choice",
+      "canonical_qtype": "single_choice",
+      "answer_text": "7\\.C（3分）",
+      "answer_span": "sp-Q7.answer",
+      "span_evidence": [
+        "answer evidence range",
+        "lines=364-364",
+        "qn=7",
+        "single-line entry"
+      ],
+      "resolution_status": "exact",
+      "verify_return": null,
+      "resolved_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "grammar_path": "verify(single_choice, text, labels=['A', 'B', 'C', 'D']) -> None",
+      "first_failed_contract": "G1",
+      "detail": "answer text has Markdown escaped-dot qn prefix (`N\\. X`); _LEAD_QN_RE does not strip `\\.` — parser compatibility",
+      "gate_decision": "pending_review",
+      "subsequent_contracts": [
+        "G3"
+      ]
+    }
+  ],
+  "note_subsequent": "subsequent_contracts = failures remaining after first_failed_contract is fixed; not independent roots."
+}

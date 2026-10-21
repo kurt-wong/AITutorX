@@ -1,0 +1,23 @@
+{
+  "package": "chem-2018-spring-huikao-teacher",
+  "files": {
+    "paper.pdf": {
+      "sha256": "8d3f9dad0918567b3ef375a57843d5d28d1eff77dfac467ff9eddc0f3c4f3a23",
+      "bytes": 649356
+    },
+    "paper.md": {
+      "sha256": "0443945f4672b05da3d2d950b0a3eb20a495c1635c353c024c8c050b7fad1ffb",
+      "bytes": 31777
+    },
+    "manifest.json": {
+      "sha256": "5ffb7ad94204baf509346d49daef9dd159f32ed75dc0bcd6a761f005f7ac4f34"
+    }
+  },
+  "identity_split": {
+    "original_sha256": "8d3f9dad0918567b3ef375a57843d5d28d1eff77dfac467ff9eddc0f3c4f3a23",
+    "source_content_sha256": "0443945f4672b05da3d2d950b0a3eb20a495c1635c353c024c8c050b7fad1ffb",
+    "distinct": true
+  },
+  "unit_count": 40,
+  "identity_version": 2
+}

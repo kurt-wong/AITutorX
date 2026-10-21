@@ -1,0 +1,2519 @@
+{
+  "stats": {
+    "answer_blocks": 214,
+    "span_1_line": 188,
+    "span_multi_line": 26,
+    "blocks_with_token_exclusive_line": 0,
+    "blocks_with_token_only_glued_to_prose": 25,
+    "blocks_with_no_故选/答案_token_at_all": 189
+  },
+  "exclusive": [],
+  "glued": [
+    {
+      "paper": "数学",
+      "unit": "Q1",
+      "answer_lines": [
+        200,
+        206
+      ],
+      "n_lines": 7,
+      "exclusive": [],
+      "glued": [
+        [
+          206,
+          "D",
+          "故选：D."
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q2",
+      "answer_lines": [
+        208,
+        222
+      ],
+      "n_lines": 15,
+      "exclusive": [],
+      "glued": [
+        [
+          222,
+          "C",
+          "故选C."
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q3",
+      "answer_lines": [
+        224,
+        232
+      ],
+      "n_lines": 9,
+      "exclusive": [],
+      "glued": [
+        [
+          232,
+          "B",
+          "则于  $ \\overrightarrow{a}-2\\overrightarrow{b}=(1,2)-2(4,3)=(1,2)-(8,6)="
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q4",
+      "answer_lines": [
+        234,
+        240
+      ],
+      "n_lines": 7,
+      "exclusive": [],
+      "glued": [
+        [
+          240,
+          "A",
+          "【解答】解：由于当自变量相同时，它们的函数值相反，故它们的图象关于x轴对称，故选：A."
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q5",
+      "answer_lines": [
+        242,
+        258
+      ],
+      "n_lines": 17,
+      "exclusive": [],
+      "glued": [
+        [
+          258,
+          "C",
+          "故选：C."
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q6",
+      "answer_lines": [
+        260,
+        272
+      ],
+      "n_lines": 13,
+      "exclusive": [],
+      "glued": [
+        [
+          272,
+          "A",
+          "故选：A."
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q7",
+      "answer_lines": [
+        274,
+        284
+      ],
+      "n_lines": 11,
+      "exclusive": [],
+      "glued": [
+        [
+          284,
+          "B",
+          "故选：B."
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q8",
+      "answer_lines": [
+        286,
+        296
+      ],
+      "n_lines": 11,
+      "exclusive": [],
+      "glued": [
+        [
+          296,
+          "C",
+          "故选：C."
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q9",
+      "answer_lines": [
+        298,
+        310
+      ],
+      "n_lines": 13,
+      "exclusive": [],
+      "glued": [
+        [
+          310,
+          "D",
+          "故选D."
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q10",
+      "answer_lines": [
+        314,
+        324
+      ],
+      "n_lines": 11,
+      "exclusive": [],
+      "glued": [
+        [
+          324,
+          "A",
+          "故选：A."
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q11",
+      "answer_lines": [
+        326,
+        336
+      ],
+      "n_lines": 11,
+      "exclusive": [],
+      "glued": [
+        [
+          336,
+          "D",
+          "故选：D."
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q12",
+      "answer_lines": [
+        338,
+        348
+      ],
+      "n_lines": 11,
+      "exclusive": [],
+      "glued": [
+        [
+          348,
+          "B",
+          "故选：B."
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q13",
+      "answer_lines": [
+        350,
+        356
+      ],
+      "n_lines": 7,
+      "exclusive": [],
+      "glued": [
+        [
+          356,
+          "A",
+          "【解答】解：把点（1，1）代入各个选项检验，可得只有  $ y=x^{-1} $ 的图象经过点（1，1），故选：A."
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q14",
+      "answer_lines": [
+        358,
+        368
+      ],
+      "n_lines": 11,
+      "exclusive": [],
+      "glued": [
+        [
+          368,
+          "B",
+          "故选：B."
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q15",
+      "answer_lines": [
+        370,
+        384
+      ],
+      "n_lines": 15,
+      "exclusive": [],
+      "glued": [
+        [
+          384,
+          "C",
+          "故选：C."
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q16",
+      "answer_lines": [
+        386,
+        404
+      ],
+      "n_lines": 19,
+      "exclusive": [],
+      "glued": [
+        [
+          404,
+          "D",
+          "故选：D."
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q17",
+      "answer_lines": [
+        406,
+        430
+      ],
+      "n_lines": 25,
+      "exclusive": [],
+      "glued": [
+        [
+          430,
+          "A",
+          "故选：A."
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q18",
+      "answer_lines": [
+        434,
+        448
+      ],
+      "n_lines": 15,
+      "exclusive": [],
+      "glued": [
+        [
+          448,
+          "C",
+          "故选：C."
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q19",
+      "answer_lines": [
+        450,
+        462
+      ],
+      "n_lines": 13,
+      "exclusive": [],
+      "glued": [
+        [
+          462,
+          "C",
+          "故选：C."
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q20",
+      "answer_lines": [
+        464,
+        470
+      ],
+      "n_lines": 7,
+      "exclusive": [],
+      "glued": [
+        [
+          470,
+          "A",
+          "【解答】解：∵以 P（x₁，f（x₁）），Q（x₂，f（x₂））为端点的线段的中点在 y 轴上，∴ x₁ + x₂ = 0，又∵ f（x）="
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q21",
+      "answer_lines": [
+        472,
+        484
+      ],
+      "n_lines": 13,
+      "exclusive": [],
+      "glued": [
+        [
+          480,
+          "B",
+          "故选：B."
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q22",
+      "answer_lines": [
+        487,
+        523
+      ],
+      "n_lines": 37,
+      "exclusive": [],
+      "glued": [
+        [
+          523,
+          "C",
+          "故选：C."
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q23",
+      "answer_lines": [
+        525,
+        541
+      ],
+      "n_lines": 17,
+      "exclusive": [],
+      "glued": [
+        [
+          541,
+          "B",
+          "故选：B."
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q24",
+      "answer_lines": [
+        543,
+        565
+      ],
+      "n_lines": 23,
+      "exclusive": [],
+      "glued": [
+        [
+          565,
+          "D",
+          "故选：D."
+        ]
+      ]
+    },
+    {
+      "paper": "数学",
+      "unit": "Q25",
+      "answer_lines": [
+        567,
+        575
+      ],
+      "n_lines": 9,
+      "exclusive": [],
+      "glued": [
+        [
+          575,
+          "B",
+          "故选：B."
+        ]
+      ]
+    }
+  ],
+  "starved": [
+    {
+      "paper": "化学",
+      "unit": "Q1",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q2",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q3",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q4",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q5",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q6",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q7",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q8",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q9",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q10",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q11",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q12",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q13",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q14",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q15",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q16",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q17",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q18",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q19",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q20",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q21",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q22",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q23",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q24",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "Q25",
+      "answer_lines": [
+        513,
+        513
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "化学",
+      "unit": "U-cl2",
+      "answer_lines": [
+        570,
+        572
+      ],
+      "n_lines": 3,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q1",
+      "answer_lines": [
+        637,
+        637
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q2",
+      "answer_lines": [
+        643,
+        643
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q3",
+      "answer_lines": [
+        651,
+        651
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q4",
+      "answer_lines": [
+        655,
+        655
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q5",
+      "answer_lines": [
+        661,
+        661
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q6",
+      "answer_lines": [
+        669,
+        669
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q7",
+      "answer_lines": [
+        679,
+        679
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q8",
+      "answer_lines": [
+        685,
+        685
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q9",
+      "answer_lines": [
+        691,
+        691
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q10",
+      "answer_lines": [
+        697,
+        697
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q11",
+      "answer_lines": [
+        703,
+        703
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q12",
+      "answer_lines": [
+        709,
+        709
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q13",
+      "answer_lines": [
+        719,
+        719
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q14",
+      "answer_lines": [
+        725,
+        725
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q15",
+      "answer_lines": [
+        731,
+        731
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q16",
+      "answer_lines": [
+        737,
+        737
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q17",
+      "answer_lines": [
+        743,
+        743
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q18",
+      "answer_lines": [
+        751,
+        751
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q19",
+      "answer_lines": [
+        761,
+        761
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q20",
+      "answer_lines": [
+        769,
+        769
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q21",
+      "answer_lines": [
+        775,
+        775
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q22",
+      "answer_lines": [
+        781,
+        781
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q23",
+      "answer_lines": [
+        787,
+        787
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q24",
+      "answer_lines": [
+        793,
+        793
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q25",
+      "answer_lines": [
+        807,
+        807
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q26",
+      "answer_lines": [
+        813,
+        813
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q27",
+      "answer_lines": [
+        819,
+        819
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q28",
+      "answer_lines": [
+        825,
+        825
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q29",
+      "answer_lines": [
+        831,
+        831
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q30",
+      "answer_lines": [
+        837,
+        837
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q31",
+      "answer_lines": [
+        843,
+        843
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q32",
+      "answer_lines": [
+        851,
+        851
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q33",
+      "answer_lines": [
+        857,
+        857
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q34",
+      "answer_lines": [
+        865,
+        865
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q35",
+      "answer_lines": [
+        871,
+        871
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q36",
+      "answer_lines": [
+        877,
+        877
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q37",
+      "answer_lines": [
+        883,
+        883
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q38",
+      "answer_lines": [
+        891,
+        891
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q39",
+      "answer_lines": [
+        897,
+        897
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q40",
+      "answer_lines": [
+        903,
+        903
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q41",
+      "answer_lines": [
+        909,
+        909
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q42",
+      "answer_lines": [
+        915,
+        915
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q43",
+      "answer_lines": [
+        921,
+        921
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q44",
+      "answer_lines": [
+        931,
+        931
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q45",
+      "answer_lines": [
+        939,
+        939
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q46",
+      "answer_lines": [
+        953,
+        953
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q47",
+      "answer_lines": [
+        959,
+        959
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q48",
+      "answer_lines": [
+        969,
+        969
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q49",
+      "answer_lines": [
+        975,
+        975
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "历史",
+      "unit": "Q50",
+      "answer_lines": [
+        981,
+        981
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "地理",
+      "unit": "U1-2",
+      "answer_lines": [
+        601,
+        601
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "地理",
+      "unit": "U3-5",
+      "answer_lines": [
+        601,
+        601
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "地理",
+      "unit": "U6-7",
+      "answer_lines": [
+        601,
+        601
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "地理",
+      "unit": "U8-9",
+      "answer_lines": [
+        601,
+        601
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "地理",
+      "unit": "U10-12",
+      "answer_lines": [
+        601,
+        601
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "地理",
+      "unit": "U13-15",
+      "answer_lines": [
+        601,
+        601
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "地理",
+      "unit": "U16-17",
+      "answer_lines": [
+        601,
+        601
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "地理",
+      "unit": "U18-20",
+      "answer_lines": [
+        601,
+        601
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "地理",
+      "unit": "U21-23",
+      "answer_lines": [
+        601,
+        601
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "地理",
+      "unit": "U24-25",
+      "answer_lines": [
+        601,
+        601
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "地理",
+      "unit": "U26-29",
+      "answer_lines": [
+        601,
+        601
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "地理",
+      "unit": "U30-31",
+      "answer_lines": [
+        601,
+        601
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "地理",
+      "unit": "U32-33",
+      "answer_lines": [
+        601,
+        601
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "地理",
+      "unit": "U34-35",
+      "answer_lines": [
+        601,
+        601
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "地理",
+      "unit": "U36-39",
+      "answer_lines": [
+        601,
+        601
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "地理",
+      "unit": "U40-41",
+      "answer_lines": [
+        601,
+        601
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "地理",
+      "unit": "U42-43",
+      "answer_lines": [
+        601,
+        601
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "地理",
+      "unit": "U44-46",
+      "answer_lines": [
+        601,
+        601
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "地理",
+      "unit": "U47-48",
+      "answer_lines": [
+        601,
+        601
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "地理",
+      "unit": "U49-50",
+      "answer_lines": [
+        601,
+        601
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q1",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q2",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q3",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q4",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q5",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q6",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q7",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q8",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "U9-10",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q11",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q12",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q13",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q14",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q15",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q16",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q17",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q18",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q19",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q20",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q21",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q22",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q23",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q24",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q25",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q26",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q27",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "政治",
+      "unit": "Q28",
+      "answer_lines": [
+        552,
+        552
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "物理",
+      "unit": "Q1",
+      "answer_lines": [
+        356,
+        356
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "物理",
+      "unit": "Q2",
+      "answer_lines": [
+        356,
+        356
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "物理",
+      "unit": "Q3",
+      "answer_lines": [
+        356,
+        356
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "物理",
+      "unit": "Q4",
+      "answer_lines": [
+        356,
+        356
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "物理",
+      "unit": "Q5",
+      "answer_lines": [
+        356,
+        356
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "物理",
+      "unit": "Q6",
+      "answer_lines": [
+        356,
+        356
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "物理",
+      "unit": "Q7",
+      "answer_lines": [
+        356,
+        356
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "物理",
+      "unit": "Q8",
+      "answer_lines": [
+        356,
+        356
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "物理",
+      "unit": "U9-11",
+      "answer_lines": [
+        356,
+        356
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "物理",
+      "unit": "U12-14",
+      "answer_lines": [
+        356,
+        356
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "物理",
+      "unit": "Q15",
+      "answer_lines": [
+        356,
+        356
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "物理",
+      "unit": "Q16",
+      "answer_lines": [
+        356,
+        356
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "物理",
+      "unit": "Q17",
+      "answer_lines": [
+        356,
+        356
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "物理",
+      "unit": "U18-20",
+      "answer_lines": [
+        356,
+        356
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q1",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q2",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q3",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q4",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q5",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q6",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q7",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q8",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q9",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q10",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q11",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q12",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q13",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q14",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q15",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q16",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q17",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q18",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q19",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q20",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q21",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q22",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q23",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q24",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q25",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q26",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q27",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q28",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q29",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q30",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q31",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q32",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q33",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q34",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q35",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q36",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q37",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q38",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q39",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "生物",
+      "unit": "Q40",
+      "answer_lines": [
+        497,
+        497
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "英语",
+      "unit": "Q1",
+      "answer_lines": [
+        451,
+        451
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "英语",
+      "unit": "Q2",
+      "answer_lines": [
+        451,
+        451
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "英语",
+      "unit": "Q3",
+      "answer_lines": [
+        451,
+        451
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "英语",
+      "unit": "Q4",
+      "answer_lines": [
+        451,
+        451
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "英语",
+      "unit": "Q5-6",
+      "answer_lines": [
+        451,
+        451
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "英语",
+      "unit": "Q7-8",
+      "answer_lines": [
+        451,
+        451
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "英语",
+      "unit": "Q9-11",
+      "answer_lines": [
+        451,
+        451
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "英语",
+      "unit": "Q12-14",
+      "answer_lines": [
+        451,
+        451
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "英语",
+      "unit": "Q15-17",
+      "answer_lines": [
+        451,
+        451
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "英语",
+      "unit": "Q18-20",
+      "answer_lines": [
+        453,
+        453
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "语文",
+      "unit": "Q6",
+      "answer_lines": [
+        362,
+        362
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    },
+    {
+      "paper": "语文",
+      "unit": "Q7",
+      "answer_lines": [
+        364,
+        364
+      ],
+      "n_lines": 1,
+      "exclusive": [],
+      "glued": []
+    }
+  ]
+}

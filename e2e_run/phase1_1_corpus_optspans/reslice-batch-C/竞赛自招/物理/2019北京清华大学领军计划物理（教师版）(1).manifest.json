@@ -1,0 +1,579 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\竞赛自招\\物理\\2019北京清华大学领军计划物理（教师版）(1).md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.1",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        5,
+        28
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        241,
+        289
+      ],
+      "explanation_lines": [
+        241,
+        289
+      ],
+      "section_ref": "S1",
+      "section": "物 理",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        30,
+        32
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        291,
+        291
+      ],
+      "explanation_lines": [
+        293,
+        317
+      ],
+      "section_ref": "S1",
+      "section": "物 理",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L30"
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        34,
+        36
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        319,
+        319
+      ],
+      "explanation_lines": [
+        319,
+        345
+      ],
+      "section_ref": "S1",
+      "section": "物 理",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L34"
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        38,
+        46
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        347,
+        347
+      ],
+      "explanation_lines": [
+        347,
+        354
+      ],
+      "section_ref": "S1",
+      "section": "物 理",
+      "printed_number": [
+        4
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L38"
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        5
+      ],
+      "original_question_type": "multiple_choice",
+      "stem_lines": [
+        48,
+        60
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        357,
+        357
+      ],
+      "explanation_lines": [
+        357,
+        369
+      ],
+      "section_ref": "S1",
+      "section": "物 理",
+      "printed_number": [
+        5
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L48"
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        6
+      ],
+      "original_question_type": "multiple_choice",
+      "stem_lines": [
+        62,
+        74
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        371,
+        371
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "物 理",
+      "printed_number": [
+        6
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L62"
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        7
+      ],
+      "original_question_type": "multiple_choice",
+      "stem_lines": [
+        76,
+        84
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        373,
+        373
+      ],
+      "explanation_lines": [
+        373,
+        415
+      ],
+      "section_ref": "S1",
+      "section": "物 理",
+      "printed_number": [
+        7
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L76"
+    },
+    {
+      "unit_id": "Q8",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        8
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        86,
+        96
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        417,
+        417
+      ],
+      "explanation_lines": [
+        417,
+        435
+      ],
+      "section_ref": "S1",
+      "section": "物 理",
+      "printed_number": [
+        8
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L86"
+    },
+    {
+      "unit_id": "Q9",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        9
+      ],
+      "original_question_type": "multiple_choice",
+      "stem_lines": [
+        100,
+        106
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        437,
+        437
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "物 理",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q10",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        10
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        108,
+        116
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        439,
+        439
+      ],
+      "explanation_lines": [
+        439,
+        443
+      ],
+      "section_ref": "S1",
+      "section": "物 理",
+      "printed_number": [
+        10
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L108"
+    },
+    {
+      "unit_id": "Q11",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        11
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        118,
+        120
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        445,
+        445
+      ],
+      "explanation_lines": [
+        445,
+        467
+      ],
+      "section_ref": "S1",
+      "section": "物 理",
+      "printed_number": [
+        11
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L118"
+    },
+    {
+      "unit_id": "Q12",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        12
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        122,
+        130
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        469,
+        469
+      ],
+      "explanation_lines": [
+        469,
+        475
+      ],
+      "section_ref": "S1",
+      "section": "物 理",
+      "printed_number": [
+        12
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L122"
+    },
+    {
+      "unit_id": "Q13",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        13
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        132,
+        134
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        477,
+        481
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "物 理",
+      "printed_number": [
+        13
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L132"
+    },
+    {
+      "unit_id": "Q14",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        14
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        136,
+        144
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        483,
+        483
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "物 理",
+      "printed_number": [
+        14
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L136"
+    },
+    {
+      "unit_id": "Q15",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        15
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        146,
+        155
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        485,
+        485
+      ],
+      "explanation_lines": [
+        485,
+        501
+      ],
+      "section_ref": "S1",
+      "section": "物 理",
+      "printed_number": [
+        15
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L146"
+    },
+    {
+      "unit_id": "Q16",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        16
+      ],
+      "original_question_type": "multiple_choice",
+      "stem_lines": [
+        157,
+        173
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        503,
+        503
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "物 理",
+      "printed_number": [
+        6
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L157"
+    },
+    {
+      "unit_id": "Q17",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        17
+      ],
+      "original_question_type": "multiple_choice",
+      "stem_lines": [
+        175,
+        198
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        505,
+        505
+      ],
+      "explanation_lines": [
+        505,
+        507
+      ],
+      "section_ref": "S1",
+      "section": "物 理",
+      "printed_number": [
+        17
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L175"
+    },
+    {
+      "unit_id": "Q18",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        18
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        200,
+        216
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        509,
+        509
+      ],
+      "explanation_lines": [
+        509,
+        515
+      ],
+      "section_ref": "S1",
+      "section": "物 理",
+      "printed_number": [
+        18
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L200"
+    },
+    {
+      "unit_id": "Q19",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        19
+      ],
+      "original_question_type": "multiple_choice",
+      "stem_lines": [
+        218,
+        235
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        517,
+        517
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "物 理",
+      "printed_number": [
+        19
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L218"
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2019 北京清华大学领军计划",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "物 理",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 517,
+      "occurrence": 1
+    }
+  ],
+  "source_content_sha256": "220493ed24ab7ea88928d66328957d77f119eb347db3d6784a7f9914704a66e8"
+}

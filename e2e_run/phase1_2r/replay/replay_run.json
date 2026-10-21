@@ -1,0 +1,151 @@
+{
+  "captured_at": "2026-10-02T05:15:46.829164+00:00",
+  "mode": "read_only_compute (SourceResolver/IRBuilder/Compiler/evaluate)",
+  "gate_service_run_called": false,
+  "results": [
+    {
+      "source_version_id": "e0d804db-f61c-46f8-a86a-9dafcd0742c3",
+      "annotation_id": "b43183ad-6de9-4011-bd10-3b127e995a37",
+      "lines": 584,
+      "resolved_spans": 61,
+      "unresolved": 112,
+      "ir_status": {
+        "incomplete": 39,
+        "ready": 1
+      },
+      "ir_ready": 1,
+      "gate_if_ready": {
+        "pending_review": 1
+      },
+      "mode": "read_only_compute",
+      "writes_attempted": false
+    },
+    {
+      "source_version_id": "0942fabb-4ab2-43a3-b163-5407244366ce",
+      "annotation_id": "37e78628-6556-42b2-859e-00f1eadd3bcc",
+      "lines": 1045,
+      "resolved_spans": 266,
+      "unresolved": 95,
+      "ir_status": {
+        "ready": 1,
+        "incomplete": 52
+      },
+      "ir_ready": 1,
+      "gate_if_ready": {
+        "auto_approve": 1
+      },
+      "mode": "read_only_compute",
+      "writes_attempted": false
+    },
+    {
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "annotation_id": "bdc4921a-f335-4306-93ee-9acb5bd4edb0",
+      "lines": 661,
+      "resolved_spans": 11,
+      "unresolved": 64,
+      "ir_status": {
+        "incomplete": 25
+      },
+      "ir_ready": 0,
+      "gate_if_ready": {},
+      "mode": "read_only_compute",
+      "writes_attempted": false
+    },
+    {
+      "source_version_id": "0f7c3e77-dcab-44c4-b1e7-fe80c79f9d4f",
+      "annotation_id": "b7421cae-fc51-443e-84f1-ab118b181600",
+      "lines": 650,
+      "resolved_spans": 94,
+      "unresolved": 80,
+      "ir_status": {
+        "incomplete": 32,
+        "ready": 4
+      },
+      "ir_ready": 4,
+      "gate_if_ready": {
+        "pending_review": 4
+      },
+      "mode": "read_only_compute",
+      "writes_attempted": false
+    },
+    {
+      "source_version_id": "69b45a6a-031f-41ca-ade1-d029f9e0a2da",
+      "annotation_id": "63dee5d6-19be-4b10-a25a-b14e46e3de7e",
+      "lines": 749,
+      "resolved_spans": 145,
+      "unresolved": 14,
+      "ir_status": {
+        "ready": 23,
+        "incomplete": 7
+      },
+      "ir_ready": 23,
+      "gate_if_ready": {
+        "pending_review": 23
+      },
+      "mode": "read_only_compute",
+      "writes_attempted": false
+    },
+    {
+      "source_version_id": "f842285c-328b-4f08-9994-6000e1165c75",
+      "annotation_id": "d6940efd-401b-4288-9d10-87397f0928e1",
+      "lines": 376,
+      "resolved_spans": 60,
+      "unresolved": 27,
+      "ir_status": {
+        "incomplete": 19,
+        "ready": 3
+      },
+      "ir_ready": 3,
+      "gate_if_ready": {
+        "pending_review": 3
+      },
+      "mode": "read_only_compute",
+      "writes_attempted": false
+    },
+    {
+      "source_version_id": "75c7efc6-89ad-49b1-8347-0a5c8ec1c182",
+      "annotation_id": "ee915e58-e5cc-4961-9f6b-0b4e1a0a2cea",
+      "lines": 601,
+      "resolved_spans": 87,
+      "unresolved": 169,
+      "ir_status": {
+        "incomplete": 50
+      },
+      "ir_ready": 0,
+      "gate_if_ready": {},
+      "mode": "read_only_compute",
+      "writes_attempted": false
+    },
+    {
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "annotation_id": "5de6d301-f848-48f6-b4ad-e89013079df6",
+      "lines": 612,
+      "resolved_spans": 27,
+      "unresolved": 26,
+      "ir_status": {
+        "incomplete": 18
+      },
+      "ir_ready": 0,
+      "gate_if_ready": {},
+      "mode": "read_only_compute",
+      "writes_attempted": false
+    },
+    {
+      "source_version_id": "b155783e-7c29-4b9f-a03f-dcaa1e1e6bcb",
+      "annotation_id": "d288ff6a-d2a6-4bec-a37d-40b5af930464",
+      "lines": 463,
+      "resolved_spans": 23,
+      "unresolved": 9,
+      "ir_status": {
+        "incomplete": 7,
+        "ready": 3
+      },
+      "ir_ready": 3,
+      "gate_if_ready": {
+        "pending_review": 3
+      },
+      "mode": "read_only_compute",
+      "writes_attempted": false
+    }
+  ]
+}

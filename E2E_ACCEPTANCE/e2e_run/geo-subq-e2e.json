@@ -1,0 +1,140 @@
+{
+  "database": "aitutors_geo_subq_v2",
+  "code": "b640036 + geo subq_expand",
+  "papers": [
+    {
+      "label": "chem-2018-spring-huikao-teacher",
+      "units": 40,
+      "candidates": {
+        "approved": 21,
+        "pending_review": 3
+      },
+      "questions": 21,
+      "with_stem_answer_option": 21,
+      "with_4_options": 21,
+      "task_status": "succeeded",
+      "samples": [
+        {
+          "qn": "1",
+          "stem": "1\\. 2017年，我国科学家实现了二氧化碳高稳定性加氢合成甲醇（CH $ _{",
+          "ans": "D"
+        },
+        {
+          "qn": "2",
+          "stem": "2．下列各组元素中，属于同一周期的是\n",
+          "ans": "A"
+        },
+        {
+          "qn": "3",
+          "stem": "3．下列物质中，属于电解质的是\n",
+          "ans": "C"
+        }
+      ]
+    },
+    {
+      "label": "2018北京春季高中会考数学（教师版）(1)",
+      "units": 30,
+      "candidates": {
+        "approved": 25,
+        "pending_review": 5
+      },
+      "questions": 25,
+      "with_stem_answer_option": 25,
+      "with_4_options": 25,
+      "task_status": "succeeded",
+      "samples": [
+        {
+          "qn": "1",
+          "stem": "1. 函数  $ y=3\\sin x+2 $ 的最小正周期是（）\n",
+          "ans": "【考点】三角函数的周期性及其求法.\n\n【"
+        },
+        {
+          "qn": "2",
+          "stem": "2. 已知集合 A={1, 2}, B={1, m, 3}，如果 A∩B=A，那",
+          "ans": "2.\n\n【考点】集合的包含关系判断及应用"
+        },
+        {
+          "qn": "3",
+          "stem": "3. 如果向量  $ \\overrightarrow{a} = (1, 2) $",
+          "ans": "3.\n\n【考点】平面向量的坐标运算.\n\n"
+        }
+      ]
+    },
+    {
+      "label": "2018北京春季高中会考物理（教师版）(1)",
+      "units": 22,
+      "candidates": {
+        "approved": 13,
+        "pending_review": 8
+      },
+      "questions": 19,
+      "with_stem_answer_option": 19,
+      "with_4_options": 19,
+      "task_status": "succeeded",
+      "samples": [
+        {
+          "qn": "1",
+          "stem": "1\\. 下列物理量中，属于矢量的是\n",
+          "ans": "D"
+        },
+        {
+          "qn": "2",
+          "stem": "2. 如图 1 所示，书本放置在课桌上，力 F 为桌面对书本的支持力，则 F 的",
+          "ans": "C"
+        },
+        {
+          "qn": "3",
+          "stem": "3.铜是良好的导电材料。在一段通电铜导线内，定向移动形成电流的微粒是\n",
+          "ans": "A"
+        }
+      ]
+    },
+    {
+      "label": "2018北京春季高中会考地理（教师版）(1)",
+      "units": 25,
+      "candidates": {
+        "approved": 16,
+        "rejected": 2
+      },
+      "questions": 37,
+      "with_stem_answer_option": 37,
+      "with_4_options": 37,
+      "task_status": "succeeded",
+      "samples": [
+        {
+          "qn": "1",
+          "stem": "1\\. 与 “卡西尼号” 探测的天体系统级别相同的是\n",
+          "ans": "A"
+        },
+        {
+          "qn": "2",
+          "stem": "2. 为推断土星卫星上是否存在生命，需要寻找的最关键证据是该卫星\n",
+          "ans": "D"
+        },
+        {
+          "qn": "3",
+          "stem": "3. 本次耀斑爆发时，伦敦正值\n",
+          "ans": "B"
+        }
+      ]
+    }
+  ],
+  "input_hashes": {
+    "chem-2018-spring-huikao-teacher": {
+      "md_sha": "0443945f4672b05da3d2d950b0a3eb20a495c1635c353c024c8c050b7fad1ffb",
+      "pdf_sha": "8d3f9dad0918567b3ef375a57843d5d28d1eff77dfac467ff9eddc0f3c4f3a23"
+    },
+    "2018北京春季高中会考数学（教师版）(1)": {
+      "md_sha": "934dec78dde333d21342f3f9419f524bb68e92645914c3d3db9cf482a282f176",
+      "pdf_sha": "3b87f19f2e212c63f9afc1c159982ecb16fd0da5f36e7745ce5b66e9c46b1fdc"
+    },
+    "2018北京春季高中会考物理（教师版）(1)": {
+      "md_sha": "81ea9b74dd71a577aede6f62fe43c0c53c5e1ff053fd1b1295195fa54c6a4797",
+      "pdf_sha": "98bcc61830a73d6291182f30e2d458a6ac1bbd7839027b1b23b8194682973ae9"
+    },
+    "2018北京春季高中会考地理（教师版）(1)": {
+      "md_sha": "3f4a7a826b0176ceb86de53b5721de08e1d7d5ba8a364e627c33297d2a3359f0",
+      "pdf_sha": "96344286c837d7fb3a7aa8dbde2642c3c528cfc1cfb06379469cebaa182a50f5"
+    }
+  }
+}

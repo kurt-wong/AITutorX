@@ -1,0 +1,122 @@
+{
+  "rows": [
+    {
+      "paper": "化学",
+      "units": 40,
+      "top_ready": 15,
+      "top_incomplete": 25,
+      "leaf_ready": 15,
+      "leaves": 40,
+      "gate": {
+        "auto_approve": 14,
+        "pending_review": 1
+      }
+    },
+    {
+      "paper": "历史",
+      "units": 53,
+      "top_ready": 53,
+      "top_incomplete": 0,
+      "leaf_ready": 53,
+      "leaves": 53,
+      "gate": {
+        "auto_approve": 50,
+        "rejected": 3
+      }
+    },
+    {
+      "paper": "地理",
+      "units": 25,
+      "top_ready": 25,
+      "top_incomplete": 0,
+      "leaf_ready": 25,
+      "leaves": 25,
+      "gate": {
+        "auto_approve": 18,
+        "rejected": 2,
+        "pending_review": 5
+      }
+    },
+    {
+      "paper": "政治",
+      "units": 36,
+      "top_ready": 29,
+      "top_incomplete": 7,
+      "leaf_ready": 29,
+      "leaves": 36,
+      "gate": {
+        "auto_approve": 20,
+        "pending_review": 9
+      }
+    },
+    {
+      "paper": "数学",
+      "units": 30,
+      "top_ready": 30,
+      "top_incomplete": 0,
+      "leaf_ready": 30,
+      "leaves": 30,
+      "gate": {
+        "pending_review": 30
+      }
+    },
+    {
+      "paper": "物理",
+      "units": 22,
+      "top_ready": 21,
+      "top_incomplete": 1,
+      "leaf_ready": 21,
+      "leaves": 22,
+      "gate": {
+        "auto_approve": 13,
+        "pending_review": 8
+      }
+    },
+    {
+      "paper": "生物",
+      "units": 50,
+      "top_ready": 29,
+      "top_incomplete": 21,
+      "leaf_ready": 29,
+      "leaves": 50,
+      "gate": {
+        "auto_approve": 29
+      }
+    },
+    {
+      "paper": "英语",
+      "units": 18,
+      "top_ready": 15,
+      "top_incomplete": 3,
+      "leaf_ready": 15,
+      "leaves": 18,
+      "gate": {
+        "auto_approve": 8,
+        "pending_review": 7
+      }
+    },
+    {
+      "paper": "语文",
+      "units": 10,
+      "top_ready": 10,
+      "top_incomplete": 0,
+      "leaf_ready": 10,
+      "leaves": 10,
+      "gate": {
+        "pending_review": 8,
+        "auto_approve": 2
+      }
+    }
+  ],
+  "totals": {
+    "units": 284,
+    "top_ready": 227,
+    "top_incomplete": 57,
+    "leaf_ready": 227,
+    "leaves": 284,
+    "gate_auto_approve": 154,
+    "gate_pending_review": 68,
+    "gate_rejected": 5
+  },
+  "gate_sum": 227
+}

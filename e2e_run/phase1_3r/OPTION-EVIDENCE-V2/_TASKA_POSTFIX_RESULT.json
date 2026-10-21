@@ -1,0 +1,7976 @@
+{
+  "now": {
+    "化学": {
+      "Q1": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q2": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q3": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q4": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q5": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q6": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q7": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " KCl 溶液",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "  $ C_{2}H_{5}OH $ 溶液",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "  $ H_{2}SO_{4} $ 溶液",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "  $ \\mathrm{Fe(OH)}_{3} $ 胶体",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q8": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " HCl",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " $CO_{2}$",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " $MgCl_{2}$",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " $CH_{4}$",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q9": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q10": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 正、逆反应速率都等于零",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "  $ H_{2}S $、 $ CO_{2} $、COS、 $ H_{2}O $ 的浓度相等",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "  $ H_{2}S $、 $ CO_{2} $、COS、H_{2}O 的浓度不再变化",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "  $ H_{2}S $、 $ CO_{2} $、COS、H_{2}O 在密闭容器中共存",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q11": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 能将电能转化为化学能",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 电子从铜片经导线流向锌片",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 锌片为负极，发生氧化反应",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 铜片上发生的反应为  $ Cu^{2+} + 2e^{-} = Cu $",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q12": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 质子数为 31",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 中子数为 68",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 质量数为 99",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 核外电子数为 37",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q13": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 淀粉",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 植物油",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 葡萄糖",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 蛋白质",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q14": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 苯与氢气反应生成环己烷",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 甲烷与氯气反应生成三氯甲烷",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "乙醇与氯气反应生成乙醛",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "乙烯与溴反应生成1,2-二溴乙烷",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q15": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 观察颜色",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 通入紫色石蕊溶液",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 通入水中",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 通入酸性  $ KMnO_{4} $ 溶液",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q16": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 核外电子数为 18",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 核外有 3 个电子层",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 属于带负电荷的粒子",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 在化学反应中易得电子",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q17": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "H",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " Cl: Cl",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "B. H: O: H",
+            "bare": false,
+            "swallow": true
+          },
+          {
+            "label": "H",
+            "text_raw": " O: H",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " Na: Cl:",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "D. H: N: H",
+            "bare": false,
+            "swallow": true
+          }
+        ]
+      },
+      "Q18": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 氧化性： $ Cl_{2} > Br_{2} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 稳定性： $ HCl > H_{2}S $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 酸性： $ H_{2}SO_{4} > H_{2}SO_{3} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 碱性：NaOH > Mg(OH) $ _{2} $",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q19": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q20": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 火山喷发、森林火灾会产生SO $ _{2} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 氢、氧两种元素没有参与硫的",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 工厂产生的烟气应经脱硫处理后再排放",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 硫在自然界的循环过程中，涉及了氧",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "E",
+            "text_raw": "还原反应",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q21": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 验纯后点燃甲烷气体",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 将水倒入浓硫酸中进行稀释",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 在集气瓶口上方扇闻气体",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 实验时将剩余的钠及时放回原试剂瓶",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q22": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": "  $ 22 \\, g \\, CO_{2} $ 物质的量为  $ 0.5 \\, mol $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "  $ 0.1 \\, mol \\cdot L^{-1} $ NaOH 溶液中含有  $ 0.1 \\, mol \\, Na^{+} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "  $ 1 \\, mol \\, Cl_{2} $ 中含有的氯原子数约为  $ 6.02 \\times 10^{23} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "标准状况下，44.8 L $H_{2}O$ 的物质的量为 2 mol",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q23": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": "金属钠与水： $ 2Na + 2H_{2}O = 2Na^{+} + 2OH^{-} + H_{2}\\uparrow $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "氯化钠溶液与硝酸银溶液：",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "稀盐酸与碳酸钙： $ CaCO_{3}+2H^{+}=Ca^{2+}+CO_{2}\\uparrow+H_{2}O $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " $  \\mathrm{H}^{+} + \\mathrm{SO}_{4}^{2-} + \\mathrm{Ba}^{2+} + \\mathrm{OH}^{-} = \\mathrm{H}_{2}\\mathrm{O} + \\mathrm{BaSO}_{4} \\downarrow  $",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q24": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q25": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "U-req1": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "U-req2": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "U-req3": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "U-req4": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "U-req5": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "U-req6": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "U-cl1": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "U-cl2": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "U-cl3": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "U-org1": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "U-org2": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "U-org3": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "U-cp1": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "U-cp2": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "U-cp3": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      }
+    },
+    "历史": {
+      "Q1": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 禅让制",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 内外服制",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 分封制",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 郡县制",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q2": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 秦朝",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 汉朝",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 宋朝",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 明朝",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q3": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 宗法制",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 郡国并行制",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 推恩令",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 行省制度",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q4": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 知县",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 枢密副使",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 知府",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 工部侍郎",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q5": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 中央对地方控制减弱",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 南书房参与机要事务",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 进一步加强君主专制",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 军机处决策重大事务",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q6": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 鸦片战争",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 第二次鸦片战争",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 甲午中日战争",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 八国联军侵华战争",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q7": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 太平天国运动",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 义和团运动",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 辛亥革命",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 国民大革命",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q8": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 北京",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 上海",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 南昌",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 延安",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q9": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 维护国家统一",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 实现团结抗日",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 推翻北洋军阀",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 发展统一战线",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q10": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 辽沈战役",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 淮海战役",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 平津战役",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 渡江战役",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q11": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 政治协商制度",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " “九二共识”",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 民族区域自治制度",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " “一国两制”构想",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q12": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 两极格局最终解体",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 中美两国正式建交",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 形成了多极化格局",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 中美两国结束对抗",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q13": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 习惯法的形成",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 《十二铜表法》的制定",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 公民法的形成",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 《查士丁尼民法大全》",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q14": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " ①②",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " ①③",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " ②④",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " ③④",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q15": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 地方割据势力强大",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 启蒙思想深入人心",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 民主进程艰难曲折",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 政治体制不断完善",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q16": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 法国大革命的爆发",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 德意志的统一",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 俄国十月革命胜利",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 新中国的成立",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q17": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 柏林墙的修建",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 联合国的成立",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 欧盟正式成立",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 美国9.11事件",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q18": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 日本谋求政治大国地位",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 美国丧失世界霸主地位",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 两极格局走向土崩瓦解",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " “一超多强”格局形成",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q19": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 战国时期",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 秦汉时期",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 曹魏时期",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 唐朝时期",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q20": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 男耕女织",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 精耕细作",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 因地制宜",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 注重农时",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q21": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 景德镇",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 佛山镇",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 盛泽镇",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 朱仙镇",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q22": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 奖励耕织",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 重农抑商",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 盐铁专卖",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 闭关锁国",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q23": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " ①②",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " ③④",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " ②③",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " ①④",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q24": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 洋务运动的民用工业",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 戊戌变法时期的民族工业",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 民国初年的民族工业",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 国民政府时期的官僚资本",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q25": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 社会剧变导致人口的大量迁徙",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 近代交通工具改变人们的生活",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 马车及木船是人们出行的工具",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 近代以来出国留学热潮的兴起",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q26": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 重工业",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 轻工业",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 农业",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 商业",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q27": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 不切实际的浮夸之风",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 经济建设的重大成就",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 农业科技的巨大进步",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 农业生产的真实情况",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q28": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 建立长江三角洲经济特区",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 在广东等地设经济特区",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 建立环渤海经济区",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 开发上海浦东新区",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q29": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 迪亚士",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 达，伽马",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 哥伦布",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "麦哲伦",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q30": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " ①②③",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " ②③④",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " ①②④",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " ①③④",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q31": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 计划经济与市场经济相结合",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 高度集中的计划经济",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 扩大国有企业的自主经营权",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 多种所有制经济并存",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q32": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 整顿财政金融",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 调整农业政策",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 加强工业指导",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 兴办公共工程",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q33": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " “福利国家”政策的实施",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 政府实施以工代赈",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 第三产业的日渐发达",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " “新经济”的崛起",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q34": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 恢复集权管理体制",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 放弃对经济的计划指导",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 承认市场调节作用",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 接受西方自由放任原则",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q35": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 北美自由贸易区",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 上海合作组织",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 亚太经合组织",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 欧洲联盟",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q36": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 汉字由繁到简",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 小篆逐渐失传",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 隶书日益推广",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 书法成为艺术",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q37": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 己所不欲，勿施于人",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 祸兮福之所倚，福兮祸之所伏",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 兼爱非攻，节俭尚贤",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 法不阿贵，以法治国",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q38": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 老子",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 程颢",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 朱熹",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 陆九渊",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q39": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 以民为本",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 天人感应",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 忠孝节义",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 安土重迁",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q40": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 维护封建礼教",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 提倡经世致用",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 抨击君主专制",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 主张君主立宪",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q41": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 地动仪",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 造纸术",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 雕版印刷术",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 指南针",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q42": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 《西游记》",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 《三国演义》",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 《水浒传》",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 《红楼梦》",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q43": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 《伤寒杂病论》",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 《黄帝内经》",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 《千金方》",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 《本草纲目》",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q44": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 倡导学习西方科学技术",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 阐明“中体西用”思想",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 提出进行政治体制改革",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 宣传西方民主共和思想",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q45": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 满洲贵族统治",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 军阀割据混战",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 君主专制制度",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 外国列强侵略",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q46": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 中共一大",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 八七会议",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 遵义会议",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 中共七大",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q47": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 以宗教题材弘扬人性之美",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 以抨击教会的腐败为创作主题",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 注重鲜明的色彩和夸张的形式",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 以浪漫主义为其创作风格",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q48": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " ①②",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " ③④",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " ①③",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " ②④",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q49": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " ①②",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " ②③",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " ①③",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " ②④",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q50": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 电的发明和利用",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 原子能的应用",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 经典力学的创立",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 相对论的提出",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U51": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "U52": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "U53": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      }
+    },
+    "地理": {
+      "U1-2": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 地月系",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 太阳系",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 银河系",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 总星系",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U3-5": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 上午",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 中午",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 下午",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 晚上",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U6-7": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 晴朗的凌晨",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 晴朗的午后",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 多云的黄昏",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 多云的夜晚",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U8-9": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " ①",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " ②",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " ③",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " ④",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U10-12": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 软流层",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 岩石圈",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "下地幔",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "外地核",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U13-15": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 全年炎热干燥",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 全年高温多雨",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 夏季炎热干燥，冬季温和多雨",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 夏季高温多雨，冬季寒冷干燥",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U16-17": {
+        "gate": "rejected",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 河流频繁改道",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 生产用水被严重污染",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 人均水资源少",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 居民饮用水供应困难",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U18-20": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 冰川侵蚀",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 流水搬运",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 风力侵蚀",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 风力沉积",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U21-23": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 高出生率、高死亡率、低自然增长率",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 低出生率、高死亡率、高自然增长率",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "高出生率、低死亡率、高自然增长率",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "低出生率、低死亡率、低自然增长率",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U24-25": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 住宅区",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 商业区",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 工业区",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 行政区",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U26-29": {
+        "gate": "rejected",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 西城区大量拆除古老院落",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 东城区扩建物流仓储设施",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 海淀区提升科技创新水平",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 密云山区发展现代制造业",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U30-31": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 气候",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 地形",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 技术",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 资金",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U32-33": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 政策",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 市场",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 交通",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 廉价劳动力",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U34-35": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 受天气影响大",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 客运量大",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 灵活性强",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 速度快",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U36-39": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 划分指标不同",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 行政等级相同",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "均有明确边界",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "地理位置相同",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U40-41": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 科技发达、劳动力充足",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 交通便利、环境优美",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "地价低廉、工业基础好",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "市场广阔、水源充足",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U42-43": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 大雁塔位于西安，是海上丝绸之路的起点",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 帆船靠风力行驶，是地域联系的唯一方式",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 椰子为海南特产，是丝路贸易的主要商品",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 骆驼为运输工具，适应干旱自然地理环境",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U44-46": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 全球变暖",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 酸雨危害",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 水土流失",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "物种减少",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U47-48": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " ①②③",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " ①②④",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " ①③④",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " ②③④",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U49-50": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " ①③",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " ①④",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " ②③",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " ②④",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U-P2-1": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "U-P2-2": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "U-P2-3": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "U-P2-4": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "U-P2-5": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      }
+    },
+    "政治": {
+      "Q1": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 大规模发展",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 高质量发展",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 可持续发展",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 包容性发展",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q2": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 外汇汇率降低，美元币值下降，人民币币值上升",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "外汇汇率升高，美元币值上升，人民币币值下降",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "外汇汇率升高，美元币值下降，人民币币值上升",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "外汇汇率降低，美元币值上升，人民币币值下降",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q3": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " ①②",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " ①③",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " ②④",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " ③④",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q4": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " ①②",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " ①③",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " ②④",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " ③④",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q5": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 国有经济",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 集体经济",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 私营经济",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 混合所有制经济",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q6": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q7": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q8": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 按劳动要素分配",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 按资本要素分配",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "按技术要素分配",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "按生产要素分配",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U9-10": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q11": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 社情民意反映制度",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 舆论监督制度",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "社会听证制度",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "信访举报制度",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q12": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 外出务工者必须按时返乡参加选举",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 牲畜毁坏他人农作物被打死不赔偿",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 村委会定期张榜公布村内重要事项",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 村民发生纠纷必须服从村委会裁定",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q13": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q14": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q15": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " ①②",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " ①④",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " ②③",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " ③④",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q16": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 根据我国国家利益决定自己的态度和对策",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 按照国际条约决定自己的态度和对策",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 按照联合国的决议决定自己的态度和对策",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 根据大国一致原则决定自己的态度和对策",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q17": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 继承性",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 多样性",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 同一性",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 稳定性",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q18": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 体现出对传统文化的继承与发展",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 是中国传统文化的重要标志",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 使汉字成为中华文化的基本载体",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 表明传统文化是文化创新的源泉",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q19": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " ①②",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " ①③",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " ②④",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " ③④",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q20": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 文化是经济的基础",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 科技带动文化发展",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 文化能推动经济发展",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 经济促进文化发展",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q21": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " ①②③",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " ①②④",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " ①③④",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " ②③④",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q22": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " ①②③",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " ①②④",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " ①③④",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " ②③④",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q23": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 不入虎穴，焉得虎子",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 捡了芝麻，丢了西瓜",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 一着不慎，满盘皆输",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 好高骛远，不切实际",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q24": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " ①③",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " ①④",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " ②③",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " ②④",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q25": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q26": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q27": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 音声相和，前后相随",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 百尺竿头，更进一步",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 尺有所短，寸有所长",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 动中有静，静中有动",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q28": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 对同一个确定对象的认识，会有许多真理",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 事物是丰富多彩的，其性质根本无法确定",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 看问题的角度不同，对问题的认识会不同",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 价值判断是多样的，没有统一的衡量尺度",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q29": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q30": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q31": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q32": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q33": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q34": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q35": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q36": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q37": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      }
+    },
+    "数学": {
+      "Q1": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 1",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 2",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "  $ \\pi $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "  $ 2\\pi $",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q2": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " -1",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 0",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 2",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 4",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q3": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": "  $ (9, 8) $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "  $ (-7, -4) $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "  $ (7, 4) $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "  $ (-9, -8) $",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q4": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 关于 x 轴对称",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 关于 y 轴对称",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 关于直线 y=x 对称",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 关于直线 y= -x 对称",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q5": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " -2",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 0",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 2",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "  $ \\pm2 $",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q6": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": "  $ 2x - y - 3 = 0 $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "  $ x + 2y - 4 = 0 $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "  $ 2x - y - 4 = 0 $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "  $ x - 2y - 4 = 0 $",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q7": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 800",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 900",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 1000",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 1100",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q8": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " $\\sqrt{5}$",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " $\\sqrt{6}$",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " $\\sqrt{7}$",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " $2\\sqrt{2}$",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q9": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": "  $ \\frac{1}{6} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "  $ \\frac{1}{3} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "  $ \\frac{1}{2} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "  $ \\frac{2}{3} $",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q10": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 1",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "  $ \\sqrt{2} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "  $ \\sqrt{3} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 2",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q11": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": "  $ aq^{n-1} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "  $ aq^n $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "  $ \\frac{a(1-q^{n-1})}{1-q} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "  $ \\frac{a(1-q^n)}{1-q} $",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q12": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": "  $ -\\frac{\\sqrt{3}}{2} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "  $ -\\frac{1}{2} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "  $ \\frac{1}{2} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "  $ \\frac{\\sqrt{3}}{2} $",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q13": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " ①",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " ②",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " ③",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " ④",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q14": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " -2",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " -1",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 1",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 2",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q15": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 32",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 24",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "  $ 4+12\\sqrt{2} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "  $ 12\\sqrt{2} $",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q16": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " ①",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " ②",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " ③",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " ④",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q17": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " ①③",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " ①④",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " ②③",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " ②④",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q18": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": "  $ \\{1, -1\\} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "  $ \\{3, -3\\} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "  $ \\{1, -1, 3, -3\\} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "  $ \\{5, -5, 3, -3\\} $",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q19": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 3",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 4",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 5",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 6",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q20": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 1",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " a",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 2",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "  $ a^{2} $",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q21": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": "  $ \\frac{1}{2} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "  $ \\frac{\\sqrt{2}}{2} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "  $ \\frac{\\sqrt{3}}{2} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 1",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q22": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 1",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 2",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 3",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 4",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q23": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 2019",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 2020",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 2021",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 2022",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q24": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " ①",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " ②",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " ③",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " ④",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q25": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 9",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 8",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 6",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 4",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q26": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q27": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q28": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q29": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q30": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      }
+    },
+    "物理": {
+      "Q1": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 质量",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 时间",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 路程",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 速度",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q2": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 书本所受的重力",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 课桌所受的重力",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 书本对桌面的压力",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 地面对课桌的支持力",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q3": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 电子",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 原子核",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 既有电子也有原子核",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 原子",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q4": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 只受重力和支持力",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 只受重力和摩擦力",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 只受支持力和摩擦力",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 只受重力、支持力和摩擦力",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q5": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": "10J",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "60J  $ F_{1} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "600J",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "6000J",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q6": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": "10N",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "50N",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "70N",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "1200N",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q7": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": "1.0V",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "2.0V",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "3.0V",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "4.0V",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q8": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": "变大",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "不变",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "变小",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 先变大后变小",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U9-11": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 不变",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 减小",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 增大",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 先增大后减小",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U12-14": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": "  $ E_{a} > E_{b} > E_{c} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "  $ E_{a} < E_{b} < E_{c} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "  $ E_{a} = E_{b} = E_{c} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "  $ E_{a} = E_{b} > E_{c} $",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q15": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": "5m",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "10m",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "20m",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "40m",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q16": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q17": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 电梯加速运动时，小明处于失重状态",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 电梯加速运动时，小明处于超重状态",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 电梯匀速运动时，小明处于失重状态",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 电梯匀速运动时，小明处于超重状态",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "U18-20": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": "  $ v_t - v_0 $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "  $ v_0 - v_t $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "  $ \\frac{v_0 + v_t}{t} $",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "  $ \\frac{v_t - v_0}{t} $",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q21": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q22": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q23": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q24": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q25": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q26": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q27": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q28": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      }
+    },
+    "生物": {
+      "Q1": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q2": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q3": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q4": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q5": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q6": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q7": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q8": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q9": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q10": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q11": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " Ab, aB, ab",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " ab, AB, AB",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " AB, ab, ab",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " AB, AB, AB",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q12": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 狗的短毛和狗的卷毛",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 人的右利手和人的左利手",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 豌豆的红花和豌豆的高茎",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 羊的黑毛和兔的白毛",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q13": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 将花粉涂在雌蕊柱头上",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 采集另一植株的花粉",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 除去未成熟花的雄蕊",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 人工传粉后套上纸袋",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q14": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 44, XX",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 44, XY",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 22, X",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 22, Y",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q15": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 1种",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 2种",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 3种",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 4种",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q16": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 是 DNA 母链的片段",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 与 DNA 母链之一相同",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 与 DNA 母链相同，但 U 取代 T",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 与 DNA 母链完全不同",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q17": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 血液中镰刀状的红细胞易破裂",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 血红蛋白中一个氨基酸不正常",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " mRNA中一个碱基发生了改变",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 基因中一个碱基对发生了改变",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q18": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 是定向的",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 对人类都有益",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 为人工选择提供原材料",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 不能遗传给后代",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q19": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 受精卵",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 体细胞",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 精原细胞",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 精子",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q20": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 70%、30%",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 50%、50%",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 80%、20%",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 90%、10%",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q21": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 果实发育与受精作用有关",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 果实发育与种子形成有关",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 生长素抑制了种子生长",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 果实发育需要生长素",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q22": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 浓度为0.9%的氯化钠溶液",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 可以作为注射药物的溶剂",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 与健康人体内环境渗透压相近",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 可为无法进食的患者提供能量",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q23": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 性激素",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 胰岛素",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 抗利尿激素",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 生长激素",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q24": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 汗腺分泌活动减弱",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 代谢活动增强",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 皮肤的血流量增加",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 皮肤血管收缩",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q25": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 人体抵御流感病毒需要细胞免疫和体液免疫",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 细胞免疫主要消灭侵入人体细胞内部的病原体",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 效应T细胞识别被病毒侵染的细胞并将其裂解",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 浆细胞、B细胞和记忆细胞均能够产生抗体",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q26": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 刺激",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 反射",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 反射弧",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 条件反",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q27": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 多糖",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 核酸",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 脂质",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 蛋白质",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q28": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 同种生物所有成熟个体的总和",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 所有生物成熟个体的总和",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 同种生物所有个体的总和",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 所有生物个体的总和",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q29": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 从火山岩（裸岩）开始的演替",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 从过量砍伐的森林开始的演替",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "从弃耕荒废的农田开始的演替",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "从火灾过后的草原开始的演替",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q30": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q31": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 核膜",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 核孔",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 核仁",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 染色质",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q32": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 叶黄素",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 花青素",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 叶绿素",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 胡萝卜素",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q33": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 2 和 3",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 1 和 3",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 2 和 2",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 4 和 6",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q34": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 细胞具有各项生理功能",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "已分化的细胞能恢复到分化前的状态",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 已分化的细胞全部能再进一步分化",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "已分化的细胞仍具有发育成完整个体的潜能",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q35": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 有丝分裂与受精作用",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 细胞增殖与细胞分化",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": "减数分裂与有丝分裂",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "减数分裂与受精作用",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q36": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " DNA 是遗传物质",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " RNA 是遗传物质",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 蛋白质是遗传物质",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 糖类是遗传物质",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q37": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 杂交育种",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 多倍体育种",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 单倍体育种",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 诱变育种",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q38": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 生长素",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 细胞分裂素",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 脱落酸",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 乙烯",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q39": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 体液",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " 血液",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 细胞外液",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 细胞内液",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q40": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " 为美化城市环境，随意从国外引进多种观赏类植物",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "为保护草场、减少沙化，杀死所有危害草原的黄鼠",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 为控制水葫芦在我国造成的严重灾害，将其天敌引入我国",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " 将东北虎迁入野生动物园繁殖，并进行部分野外回归实验",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q41": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q42": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q43": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q44": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q45": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q46": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q47": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q48": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q49": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q50": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      }
+    },
+    "英语": {
+      "Q1": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " On Wednesday.",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " On Thursday.",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " On Friday.",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q2": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " The Forbidden City.",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " The Summer Palace.",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " The West Lake.",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q3": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "Q4": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " Giving advice.",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " Asking the way.",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " Offering help.",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q5-6": {
+        "gate": "pending_review",
+        "labels": [
+          "A",
+          "B"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " In a hotel.",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " In an office.",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q7-8": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " To clean the house.",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " To buy furniture.",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " To rent the flat.",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q9-11": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " Go to Simon's house.",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " Play basketball.",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " Tidy the bedroom.",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q12-14": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " Check the computer.",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " Watch the program.",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " Change the computer.",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q15-17": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " The one by the market.",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " The one opposite the park.",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " The one in the shopping center.",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q18-20": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " The skills of photographing.",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " The work as a photographer.",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " The qualities of a photographer.",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q21-25": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      },
+      "U26-40": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "U41-44": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "U45-48": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "U49-52": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "U53-56": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "U57-60": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q61": {
+        "gate": "rejected",
+        "labels": [],
+        "options": []
+      }
+    },
+    "语文": {
+      "U1-5": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q6": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": "《诗经》的内容包括风、雅、颂三部分，“风”是各地的民歌。“卫风”中的《氓》记述了一个女子从恋爱、结婚到被弃的过程。",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": "《陈情表》是西晋李密写给皇帝的奏章。作者陈述了与祖母相依为命的亲情，表达了对朝廷任用的婉言拒绝和不能从命的苦衷。",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " 老舍的剧作《茶馆》展现了清末、军阀混战和抗战结束三个历史阶段的风云变幻，描绘了老北京的市井百态，揭露了社会的黑暗腐朽。",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": "契诃夫是19世纪俄国批判现实主义文学家。他在《装在套子里的人》中塑造的别里科夫，是当时俄国社会中善于见风使舵者的代表。",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q7": {
+        "gate": "auto_approve",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text_raw": " “微风早经停息了；枯草支支直立，有如铜丝。一丝发抖的声音，在空气中愈颤愈细，细到没有，周围便都是死一般静。……许多的工夫过去了；上坟的人渐渐增多，几个老的小的，在土坟间出没。”这是《药》中描绘的清明节的景象。",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "B",
+            "text_raw": " “当地妇女小孩子，莫不穿了新衣，额角上用雄黄蘸酒画了个王字。……大约上午十一点钟左右，全茶峒人就吃了午饭，把饭吃过后，在城里住家的，莫不倒锁了门，全家出城到河边看划船。”这是《边城》中描绘的端午节的场景。",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "C",
+            "text_raw": " “两岸的豆麦和河底的水草所发散出来的清香，夹杂在水气中扑面的吹来；月色便朦胧在这水气里。”这是《社戏》中描绘的中秋节的景色。",
+            "bare": false,
+            "swallow": false
+          },
+          {
+            "label": "D",
+            "text_raw": " “两府中都换了门神、联对、挂牌，新油了桃符，焕然一新。宁国府从大门、仪门、大厅、暖阁、内厅、内三门、内仪门并内塞门，直到正堂，一路正门大开，两边阶下一色朱红大高照，点的两条金龙一般。”这是《红楼梦》中描绘的除夕的场景。",
+            "bare": false,
+            "swallow": false
+          }
+        ]
+      },
+      "Q8": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q9": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "U10-13": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "U14": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "U15": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q16": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      },
+      "Q17": {
+        "gate": "pending_review",
+        "labels": [],
+        "options": []
+      }
+    }
+  },
+  "changed": [
+    [
+      "化学",
+      "Q7",
+      4,
+      4
+    ],
+    [
+      "化学",
+      "Q8",
+      4,
+      4
+    ],
+    [
+      "化学",
+      "Q10",
+      4,
+      4
+    ],
+    [
+      "化学",
+      "Q11",
+      4,
+      4
+    ],
+    [
+      "化学",
+      "Q12",
+      4,
+      4
+    ],
+    [
+      "化学",
+      "Q13",
+      4,
+      4
+    ],
+    [
+      "化学",
+      "Q14",
+      4,
+      4
+    ],
+    [
+      "化学",
+      "Q15",
+      4,
+      4
+    ],
+    [
+      "化学",
+      "Q16",
+      4,
+      4
+    ],
+    [
+      "化学",
+      "Q17",
+      5,
+      5
+    ],
+    [
+      "化学",
+      "Q18",
+      4,
+      4
+    ],
+    [
+      "化学",
+      "Q20",
+      5,
+      5
+    ],
+    [
+      "化学",
+      "Q21",
+      4,
+      4
+    ],
+    [
+      "化学",
+      "Q22",
+      4,
+      4
+    ],
+    [
+      "化学",
+      "Q23",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q1",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q2",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q3",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q4",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q5",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q6",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q7",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q8",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q9",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q10",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q11",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q12",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q13",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q14",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q15",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q16",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q17",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q18",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q19",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q20",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q21",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q22",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q23",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q24",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q25",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q26",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q27",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q28",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q29",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q30",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q31",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q32",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q33",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q34",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q35",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q36",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q37",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q38",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q39",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q40",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q41",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q42",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q43",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q44",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q45",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q46",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q47",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q48",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q49",
+      4,
+      4
+    ],
+    [
+      "历史",
+      "Q50",
+      4,
+      4
+    ],
+    [
+      "地理",
+      "U1-2",
+      4,
+      4
+    ],
+    [
+      "地理",
+      "U3-5",
+      4,
+      4
+    ],
+    [
+      "地理",
+      "U6-7",
+      4,
+      4
+    ],
+    [
+      "地理",
+      "U8-9",
+      4,
+      4
+    ],
+    [
+      "地理",
+      "U10-12",
+      4,
+      4
+    ],
+    [
+      "地理",
+      "U13-15",
+      4,
+      4
+    ],
+    [
+      "地理",
+      "U16-17",
+      4,
+      4
+    ],
+    [
+      "地理",
+      "U18-20",
+      4,
+      4
+    ],
+    [
+      "地理",
+      "U21-23",
+      4,
+      4
+    ],
+    [
+      "地理",
+      "U24-25",
+      4,
+      4
+    ],
+    [
+      "地理",
+      "U26-29",
+      4,
+      4
+    ],
+    [
+      "地理",
+      "U30-31",
+      4,
+      4
+    ],
+    [
+      "地理",
+      "U32-33",
+      4,
+      4
+    ],
+    [
+      "地理",
+      "U34-35",
+      4,
+      4
+    ],
+    [
+      "地理",
+      "U36-39",
+      4,
+      4
+    ],
+    [
+      "地理",
+      "U40-41",
+      4,
+      4
+    ],
+    [
+      "地理",
+      "U42-43",
+      4,
+      4
+    ],
+    [
+      "地理",
+      "U44-46",
+      4,
+      4
+    ],
+    [
+      "地理",
+      "U47-48",
+      4,
+      4
+    ],
+    [
+      "地理",
+      "U49-50",
+      4,
+      4
+    ],
+    [
+      "政治",
+      "Q1",
+      4,
+      4
+    ],
+    [
+      "政治",
+      "Q2",
+      4,
+      4
+    ],
+    [
+      "政治",
+      "Q3",
+      4,
+      4
+    ],
+    [
+      "政治",
+      "Q4",
+      4,
+      4
+    ],
+    [
+      "政治",
+      "Q5",
+      4,
+      4
+    ],
+    [
+      "政治",
+      "Q8",
+      4,
+      4
+    ],
+    [
+      "政治",
+      "Q11",
+      4,
+      4
+    ],
+    [
+      "政治",
+      "Q12",
+      4,
+      4
+    ],
+    [
+      "政治",
+      "Q15",
+      4,
+      4
+    ],
+    [
+      "政治",
+      "Q16",
+      4,
+      4
+    ],
+    [
+      "政治",
+      "Q17",
+      4,
+      4
+    ],
+    [
+      "政治",
+      "Q18",
+      4,
+      4
+    ],
+    [
+      "政治",
+      "Q19",
+      4,
+      4
+    ],
+    [
+      "政治",
+      "Q20",
+      4,
+      4
+    ],
+    [
+      "政治",
+      "Q21",
+      4,
+      4
+    ],
+    [
+      "政治",
+      "Q22",
+      4,
+      4
+    ],
+    [
+      "政治",
+      "Q23",
+      4,
+      4
+    ],
+    [
+      "政治",
+      "Q24",
+      4,
+      4
+    ],
+    [
+      "政治",
+      "Q27",
+      4,
+      4
+    ],
+    [
+      "政治",
+      "Q28",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q1",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q2",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q3",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q4",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q5",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q6",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q7",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q8",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q9",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q10",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q11",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q12",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q13",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q14",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q15",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q16",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q17",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q18",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q19",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q20",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q21",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q22",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q23",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q24",
+      4,
+      4
+    ],
+    [
+      "数学",
+      "Q25",
+      4,
+      4
+    ],
+    [
+      "物理",
+      "Q1",
+      4,
+      4
+    ],
+    [
+      "物理",
+      "Q2",
+      4,
+      4
+    ],
+    [
+      "物理",
+      "Q3",
+      4,
+      4
+    ],
+    [
+      "物理",
+      "Q4",
+      4,
+      4
+    ],
+    [
+      "物理",
+      "Q5",
+      4,
+      4
+    ],
+    [
+      "物理",
+      "Q6",
+      4,
+      4
+    ],
+    [
+      "物理",
+      "Q7",
+      4,
+      4
+    ],
+    [
+      "物理",
+      "Q8",
+      4,
+      4
+    ],
+    [
+      "物理",
+      "U9-11",
+      4,
+      4
+    ],
+    [
+      "物理",
+      "U12-14",
+      4,
+      4
+    ],
+    [
+      "物理",
+      "Q15",
+      4,
+      4
+    ],
+    [
+      "物理",
+      "Q17",
+      4,
+      4
+    ],
+    [
+      "物理",
+      "U18-20",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q11",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q12",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q13",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q14",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q15",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q16",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q17",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q18",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q19",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q20",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q21",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q22",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q23",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q24",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q25",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q26",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q27",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q28",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q29",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q31",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q32",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q33",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q34",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q35",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q36",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q37",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q38",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q39",
+      4,
+      4
+    ],
+    [
+      "生物",
+      "Q40",
+      4,
+      4
+    ],
+    [
+      "英语",
+      "Q1",
+      3,
+      3
+    ],
+    [
+      "英语",
+      "Q2",
+      3,
+      3
+    ],
+    [
+      "英语",
+      "Q4",
+      3,
+      3
+    ],
+    [
+      "英语",
+      "Q5-6",
+      2,
+      2
+    ],
+    [
+      "英语",
+      "Q7-8",
+      3,
+      3
+    ],
+    [
+      "英语",
+      "Q9-11",
+      3,
+      3
+    ],
+    [
+      "英语",
+      "Q12-14",
+      3,
+      3
+    ],
+    [
+      "英语",
+      "Q15-17",
+      3,
+      3
+    ],
+    [
+      "英语",
+      "Q18-20",
+      3,
+      3
+    ],
+    [
+      "语文",
+      "Q6",
+      4,
+      4
+    ],
+    [
+      "语文",
+      "Q7",
+      4,
+      4
+    ]
+  ]
+}

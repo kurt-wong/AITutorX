@@ -1,0 +1,78 @@
+{
+  "purpose": "v1 viewer data superseded — DO NOT use as current evidence",
+  "reason": "v1 export applied option split/patch (improve_options / fix_q4_opts); replaced by RAW + v2 provenance",
+  "files": [
+    {
+      "original_path": "viewer_data.json",
+      "sha256": "df8d745bb319cc4d5b6dbdabf3e534bc7dc6946246b41314f93e54ea09fe0bca",
+      "bytes": 300258,
+      "version_use": "v1 viewer / helper — superseded",
+      "archived_to": "_ARCHIVE_v1_viewer_superseded\\viewer_data.json",
+      "moved": true
+    },
+    {
+      "original_path": "data.js",
+      "sha256": "258101cb91fd338a934730f968e451b3bd0afd9dc884d01ab80007ac4ea6622d",
+      "bytes": 1006790,
+      "version_use": "v1 viewer / helper — superseded",
+      "archived_to": "_ARCHIVE_v1_viewer_superseded\\data.js",
+      "moved": true
+    },
+    {
+      "original_path": "_improve_options.py",
+      "sha256": "e9e7bd7762cdb7677ee9ae70330caf33d94f5467ad322c8430e3360f6f1acceb",
+      "bytes": 4187,
+      "version_use": "v1 viewer / helper — superseded",
+      "archived_to": "_ARCHIVE_v1_viewer_superseded\\_improve_options.py",
+      "moved": true
+    },
+    {
+      "original_path": "_fix_q4_opts.py",
+      "sha256": "715c5f0d93755078c9b4dc3f54ce01b77f8f4ba4dc6cc786fab9a777e63679fd",
+      "bytes": 2565,
+      "version_use": "v1 viewer / helper — superseded",
+      "archived_to": "_ARCHIVE_v1_viewer_superseded\\_fix_q4_opts.py",
+      "moved": true
+    },
+    {
+      "original_path": "_build_html.py",
+      "sha256": "41e82f9a04b5fdd5dd14f8643311e58864d6881785abe634bf795ad7fe3b0de0",
+      "bytes": 11991,
+      "version_use": "v1 viewer / helper — superseded",
+      "archived_to": "_ARCHIVE_v1_viewer_superseded\\_build_html.py",
+      "moved": true
+    },
+    {
+      "original_path": "_build_viewer.py",
+      "sha256": "c85e931740989fb23ff9eca598d4ac06dd9c6531cfbf9350998849f31e9730f7",
+      "bytes": 17325,
+      "version_use": "v1 viewer / helper — superseded",
+      "archived_to": "_ARCHIVE_v1_viewer_superseded\\_build_viewer.py",
+      "moved": true
+    },
+    {
+      "original_path": "_build_raw_viewer.py",
+      "sha256": "fe5508275905592fafcf850f7f31a1f52aedad4fec850d8b3e251cb69ce2b2d0",
+      "bytes": 17134,
+      "version_use": "v1 viewer / helper — superseded",
+      "archived_to": "_ARCHIVE_v1_viewer_superseded\\_build_raw_viewer.py",
+      "moved": true
+    },
+    {
+      "original_path": "export_viewer_data.py",
+      "sha256": "722fd8819314dc1a23dcac64220a7ac0df00e4bc2a8743897697b7095d3d5f4b",
+      "bytes": 8829,
+      "version_use": "v1 viewer / helper — superseded",
+      "archived_to": "_ARCHIVE_v1_viewer_superseded\\export_viewer_data.py",
+      "moved": true
+    },
+    {
+      "original_path": "export_raw_viewer_data.py",
+      "sha256": "0e9b455a40e0f4b061b5133feac33201607af1e4462ae6033fc2495972b00117",
+      "bytes": 8193,
+      "version_use": "v1 viewer / helper — superseded",
+      "archived_to": "_ARCHIVE_v1_viewer_superseded\\export_raw_viewer_data.py",
+      "moved": true
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "six": [
+    {
+      "uid": "Q1",
+      "file": "2018北京春季高中会考英语（教师版）(1).m",
+      "decl": [
+        497,
+        502
+      ],
+      "n": 6,
+      "res": 0,
+      "infl": null,
+      "markers": false,
+      "explosion": false
+    },
+    {
+      "uid": "Q2",
+      "file": "2018北京春季高中会考英语（教师版）(1).m",
+      "decl": [
+        504,
+        507
+      ],
+      "n": 4,
+      "res": 6,
+      "infl": 1.5,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "Q4",
+      "file": "2018北京春季高中会考英语（教师版）(1).m",
+      "decl": [
+        516,
+        520
+      ],
+      "n": 5,
+      "res": 0,
+      "infl": null,
+      "markers": false,
+      "explosion": false
+    },
+    {
+      "uid": "Q5-6",
+      "file": "2018北京春季高中会考英语（教师版）(1).m",
+      "decl": [
+        522,
+        527
+      ],
+      "n": 6,
+      "res": 0,
+      "infl": null,
+      "markers": false,
+      "explosion": false
+    },
+    {
+      "uid": "Q7-8",
+      "file": "2018北京春季高中会考英语（教师版）(1).m",
+      "decl": [
+        529,
+        536
+      ],
+      "n": 8,
+      "res": 10,
+      "infl": 1.25,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "Q18-20",
+      "file": "2018北京春季高中会考英语（教师版）(1).m",
+      "decl": [
+        580,
+        584
+      ],
+      "n": 5,
+      "res": 7,
+      "infl": 1.4,
+      "markers": true,
+      "explosion": false
+    }
+  ],
+  "ir_ready": 41,
+  "interior_empty": 0,
+  "mat_resolved": 30,
+  "mat_unresolved": 24,
+  "gt2x": 0,
+  "max_inflation": 1.667,
+  "all_inflation_top": [
+    {
+      "uid": "U10-12",
+      "file": "2018北京春季高中会考地理（教师版）(1).m",
+      "decl": [
+        70,
+        72
+      ],
+      "n": 3,
+      "res": 5,
+      "infl": 1.667,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "U13-15",
+      "file": "2018北京春季高中会考地理（教师版）(1).m",
+      "decl": [
+        97,
+        99
+      ],
+      "n": 3,
+      "res": 5,
+      "infl": 1.667,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "Q2",
+      "file": "2018北京春季高中会考英语（教师版）(1).m",
+      "decl": [
+        504,
+        507
+      ],
+      "n": 4,
+      "res": 6,
+      "infl": 1.5,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "Q9-11",
+      "file": "2018北京春季高中会考英语（教师版）(1).m",
+      "decl": [
+        538,
+        541
+      ],
+      "n": 4,
+      "res": 6,
+      "infl": 1.5,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "Q18-20",
+      "file": "2018北京春季高中会考英语（教师版）(1).m",
+      "decl": [
+        580,
+        584
+      ],
+      "n": 5,
+      "res": 7,
+      "infl": 1.4,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "U1-5",
+      "file": "2018北京春季高中会考语文（教师版）(1).m",
+      "decl": [
+        12,
+        16
+      ],
+      "n": 5,
+      "res": 7,
+      "infl": 1.4,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "U21-23",
+      "file": "2018北京春季高中会考地理（教师版）(1).m",
+      "decl": [
+        169,
+        174
+      ],
+      "n": 6,
+      "res": 8,
+      "infl": 1.333,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "U57-60",
+      "file": "2018北京春季高中会考英语（教师版）(1).m",
+      "decl": [
+        401,
+        407
+      ],
+      "n": 7,
+      "res": 9,
+      "infl": 1.286,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "Q7-8",
+      "file": "2018北京春季高中会考英语（教师版）(1).m",
+      "decl": [
+        529,
+        536
+      ],
+      "n": 8,
+      "res": 10,
+      "infl": 1.25,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "U-P2-3",
+      "file": "2018北京春季高中会考地理（教师版）(1).m",
+      "decl": [
+        518,
+        532
+      ],
+      "n": 15,
+      "res": 17,
+      "infl": 1.133,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "U41-44",
+      "file": "2018北京春季高中会考英语（教师版）(1).m",
+      "decl": [
+        192,
+        206
+      ],
+      "n": 15,
+      "res": 17,
+      "infl": 1.133,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "U49-52",
+      "file": "2018北京春季高中会考英语（教师版）(1).m",
+      "decl": [
+        298,
+        315
+      ],
+      "n": 18,
+      "res": 20,
+      "infl": 1.111,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "Q12-14",
+      "file": "2018北京春季高中会考英语（教师版）(1).m",
+      "decl": [
+        543,
+        561
+      ],
+      "n": 19,
+      "res": 21,
+      "infl": 1.105,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "U26-40",
+      "file": "2018北京春季高中会考英语（教师版）(1).m",
+      "decl": [
+        138,
+        156
+      ],
+      "n": 19,
+      "res": 21,
+      "infl": 1.105,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "U53-56",
+      "file": "2018北京春季高中会考英语（教师版）(1).m",
+      "decl": [
+        341,
+        361
+      ],
+      "n": 21,
+      "res": 23,
+      "infl": 1.095,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "U-P2-2",
+      "file": "2018北京春季高中会考地理（教师版）(1).m",
+      "decl": [
+        484,
+        506
+      ],
+      "n": 23,
+      "res": 25,
+      "infl": 1.087,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "U52",
+      "file": "2018北京夏季高中会考历史（教师版）(1).m",
+      "decl": [
+        569,
+        592
+      ],
+      "n": 24,
+      "res": 26,
+      "infl": 1.083,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "Q21-25",
+      "file": "2018北京春季高中会考英语（教师版）(1).m",
+      "decl": [
+        586,
+        610
+      ],
+      "n": 25,
+      "res": 27,
+      "infl": 1.08,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "U45-48",
+      "file": "2018北京春季高中会考英语（教师版）(1).m",
+      "decl": [
+        232,
+        268
+      ],
+      "n": 37,
+      "res": 39,
+      "infl": 1.054,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "U10-13",
+      "file": "2018北京春季高中会考语文（教师版）(1).m",
+      "decl": [
+        80,
+        188
+      ],
+      "n": 109,
+      "res": 111,
+      "infl": 1.018,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "U1-2",
+      "file": "2018北京春季高中会考地理（教师版）(1).m",
+      "decl": [
+        9,
+        9
+      ],
+      "n": 1,
+      "res": 1,
+      "infl": 1.0,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "U3-5",
+      "file": "2018北京春季高中会考地理（教师版）(1).m",
+      "decl": [
+        19,
+        19
+      ],
+      "n": 1,
+      "res": 1,
+      "infl": 1.0,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "U6-7",
+      "file": "2018北京春季高中会考地理（教师版）(1).m",
+      "decl": [
+        35,
+        35
+      ],
+      "n": 1,
+      "res": 1,
+      "infl": 1.0,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "U8-9",
+      "file": "2018北京春季高中会考地理（教师版）(1).m",
+      "decl": [
+        45,
+        45
+      ],
+      "n": 1,
+      "res": 1,
+      "infl": 1.0,
+      "markers": true,
+      "explosion": false
+    },
+    {
+      "uid": "U16-17",
+      "file": "2018北京春季高中会考地理（教师版）(1).m",
+      "decl": [
+        133,
+        133
+      ],
+      "n": 1,
+      "res": 1,
+      "infl": 1.0,
+      "markers": true,
+      "explosion": false
+    }
+  ],
+  "guard_41": true
+}

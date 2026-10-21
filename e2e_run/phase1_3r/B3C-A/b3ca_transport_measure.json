@@ -1,0 +1,7007 @@
+{
+  "cut": "B3C-A Answer Evidence Transport Repair",
+  "acceptance": "Producer answer_lines → Resolver ResolvedSpan.line_refs position binding; NOT BARE→0",
+  "corpus": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考",
+  "papers": 9,
+  "units": 284,
+  "answer_targets": 284,
+  "with_declared_answer_lines": 278,
+  "transport_emitted": 278,
+  "binding": {
+    "multi_line": {
+      "n": 74,
+      "match": 74,
+      "rate": 1.0
+    },
+    "single_line": {
+      "n": 204,
+      "match": 204,
+      "rate": 1.0
+    },
+    "all_declared": {
+      "n": 278,
+      "match": 278,
+      "rate": 1.0
+    }
+  },
+  "resolution_status": {
+    "exact": 280,
+    "ambiguous": 4
+  },
+  "binding_mode": {
+    "single_line": 204,
+    "multi_line_full_range": 74,
+    "no_declared_range": 2,
+    "null": 4
+  },
+  "q27_sample": {
+    "unit_id": "Q27",
+    "target_id": "Q27.answer",
+    "declared_answer_lines": [
+      593,
+      623
+    ],
+    "transport_emitted": true,
+    "resolved": true,
+    "resolution_status": "exact",
+    "resolved_line_refs": [
+      "P1L593",
+      "P1L594",
+      "P1L595",
+      "P1L596",
+      "P1L597",
+      "P1L598",
+      "P1L599",
+      "P1L600",
+      "P1L601",
+      "P1L602",
+      "P1L603",
+      "P1L604",
+      "P1L605",
+      "P1L606",
+      "P1L607",
+      "P1L608",
+      "P1L609",
+      "P1L610",
+      "P1L611",
+      "P1L612",
+      "P1L613",
+      "P1L614",
+      "P1L615",
+      "P1L616",
+      "P1L617",
+      "P1L618",
+      "P1L619",
+      "P1L620",
+      "P1L621",
+      "P1L622",
+      "P1L623"
+    ],
+    "resolved_start_end": [
+      "P1L593",
+      "P1L623"
+    ],
+    "granularity": "line",
+    "binding_match": true,
+    "binding_mode": "multi_line_full_range"
+  },
+  "funnel": {
+    "ir_status": {
+      "incomplete": 152,
+      "ready": 132
+    },
+    "gate_decisions": {
+      "pending_review": 131,
+      "auto_approve": 1
+    }
+  },
+  "per_paper": [
+    {
+      "paper": "化学/2018北京春季高中会考化学（教师版）(1).manifest.json",
+      "units": 40,
+      "ir_status": {
+        "incomplete": 31,
+        "ready": 9
+      },
+      "gate_decisions": {
+        "pending_review": 9
+      },
+      "binding_rows": 40,
+      "binding_match": 34
+    },
+    {
+      "paper": "历史/2018北京夏季高中会考历史（教师版）(1).manifest.json",
+      "units": 53,
+      "ir_status": {
+        "ready": 40,
+        "incomplete": 13
+      },
+      "gate_decisions": {
+        "auto_approve": 1,
+        "pending_review": 39
+      },
+      "binding_rows": 53,
+      "binding_match": 53
+    },
+    {
+      "paper": "地理/2018北京春季高中会考地理（教师版）(1).manifest.json",
+      "units": 25,
+      "ir_status": {
+        "incomplete": 25
+      },
+      "gate_decisions": {},
+      "binding_rows": 25,
+      "binding_match": 25
+    },
+    {
+      "paper": "政治/2018北京夏季高中会考政治（教师版）(1).manifest.json",
+      "units": 36,
+      "ir_status": {
+        "incomplete": 15,
+        "ready": 21
+      },
+      "gate_decisions": {
+        "pending_review": 21
+      },
+      "binding_rows": 36,
+      "binding_match": 36
+    },
+    {
+      "paper": "数学/2018北京春季高中会考数学（教师版）(1).manifest.json",
+      "units": 30,
+      "ir_status": {
+        "ready": 28,
+        "incomplete": 2
+      },
+      "gate_decisions": {
+        "pending_review": 28
+      },
+      "binding_rows": 30,
+      "binding_match": 30
+    },
+    {
+      "paper": "物理/2018北京春季高中会考物理（教师版）(1).manifest.json",
+      "units": 22,
+      "ir_status": {
+        "incomplete": 5,
+        "ready": 17
+      },
+      "gate_decisions": {
+        "pending_review": 17
+      },
+      "binding_rows": 22,
+      "binding_match": 22
+    },
+    {
+      "paper": "生物/2018北京春季高中会考生物（教师版）(1).manifest.json",
+      "units": 50,
+      "ir_status": {
+        "incomplete": 39,
+        "ready": 11
+      },
+      "gate_decisions": {
+        "pending_review": 11
+      },
+      "binding_rows": 50,
+      "binding_match": 50
+    },
+    {
+      "paper": "英语/2018北京春季高中会考英语（教师版）(1).manifest.json",
+      "units": 18,
+      "ir_status": {
+        "incomplete": 18
+      },
+      "gate_decisions": {},
+      "binding_rows": 18,
+      "binding_match": 18
+    },
+    {
+      "paper": "语文/2018北京春季高中会考语文（教师版）(1).manifest.json",
+      "units": 10,
+      "ir_status": {
+        "incomplete": 4,
+        "ready": 6
+      },
+      "gate_decisions": {
+        "pending_review": 6
+      },
+      "binding_rows": 10,
+      "binding_match": 10
+    }
+  ],
+  "rows": [
+    {
+      "unit_id": "Q1",
+      "target_id": "Q1.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q2",
+      "target_id": "Q2.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q3",
+      "target_id": "Q3.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q4",
+      "target_id": "Q4.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q5",
+      "target_id": "Q5.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q6",
+      "target_id": "Q6.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q7",
+      "target_id": "Q7.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q8",
+      "target_id": "Q8.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q9",
+      "target_id": "Q9.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q10",
+      "target_id": "Q10.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q11",
+      "target_id": "Q11.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q12",
+      "target_id": "Q12.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q13",
+      "target_id": "Q13.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q14",
+      "target_id": "Q14.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q15",
+      "target_id": "Q15.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q16",
+      "target_id": "Q16.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q17",
+      "target_id": "Q17.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q18",
+      "target_id": "Q18.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q19",
+      "target_id": "Q19.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q20",
+      "target_id": "Q20.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q21",
+      "target_id": "Q21.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q22",
+      "target_id": "Q22.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q23",
+      "target_id": "Q23.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q24",
+      "target_id": "Q24.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q25",
+      "target_id": "Q25.answer",
+      "declared_answer_lines": [
+        513,
+        513
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L513"
+      ],
+      "resolved_start_end": [
+        "P1L513",
+        "P1L513"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U-req1",
+      "target_id": "U-req1.answer",
+      "declared_answer_lines": [
+        519,
+        521
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L519",
+        "P1L520",
+        "P1L521"
+      ],
+      "resolved_start_end": [
+        "P1L519",
+        "P1L521"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "U-req2",
+      "target_id": "U-req2.answer",
+      "declared_answer_lines": [
+        523,
+        526
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L523",
+        "P1L524",
+        "P1L525",
+        "P1L526"
+      ],
+      "resolved_start_end": [
+        "P1L523",
+        "P1L526"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "U-req3",
+      "target_id": "U-req3.answer",
+      "declared_answer_lines": [
+        528,
+        530
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L528",
+        "P1L529",
+        "P1L530"
+      ],
+      "resolved_start_end": [
+        "P1L528",
+        "P1L530"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "U-req4",
+      "target_id": "U-req4.answer",
+      "declared_answer_lines": [
+        532,
+        540
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L532",
+        "P1L533",
+        "P1L534",
+        "P1L535",
+        "P1L536",
+        "P1L537",
+        "P1L538",
+        "P1L539",
+        "P1L540"
+      ],
+      "resolved_start_end": [
+        "P1L532",
+        "P1L540"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "U-req5",
+      "target_id": "U-req5.answer",
+      "declared_answer_lines": [
+        542,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L542",
+        "P1L543",
+        "P1L544",
+        "P1L545",
+        "P1L546",
+        "P1L547",
+        "P1L548",
+        "P1L549",
+        "P1L550",
+        "P1L551",
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L542",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "U-req6",
+      "target_id": "U-req6.answer",
+      "declared_answer_lines": [
+        554,
+        562
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L554",
+        "P1L555",
+        "P1L556",
+        "P1L557",
+        "P1L558",
+        "P1L559",
+        "P1L560",
+        "P1L561",
+        "P1L562"
+      ],
+      "resolved_start_end": [
+        "P1L554",
+        "P1L562"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "U-cl1",
+      "target_id": "U-cl1.answer",
+      "declared_answer_lines": [
+        566,
+        568
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L566",
+        "P1L567",
+        "P1L568"
+      ],
+      "resolved_start_end": [
+        "P1L566",
+        "P1L568"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "U-cl2",
+      "target_id": "U-cl2.answer",
+      "declared_answer_lines": [
+        570,
+        572
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L570",
+        "P1L571",
+        "P1L572"
+      ],
+      "resolved_start_end": [
+        "P1L570",
+        "P1L572"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "U-cl3",
+      "target_id": "U-cl3.answer",
+      "declared_answer_lines": [
+        574,
+        584
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L574",
+        "P1L575",
+        "P1L576",
+        "P1L577",
+        "P1L578",
+        "P1L579",
+        "P1L580",
+        "P1L581",
+        "P1L582",
+        "P1L583",
+        "P1L584"
+      ],
+      "resolved_start_end": [
+        "P1L574",
+        "P1L584"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "U-org1",
+      "target_id": "U-org1.answer",
+      "declared_answer_lines": null,
+      "transport_emitted": false,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L566"
+      ],
+      "resolved_start_end": [
+        "P1L566",
+        "P1L566"
+      ],
+      "granularity": "line_character",
+      "binding_match": null,
+      "binding_mode": "no_declared_range"
+    },
+    {
+      "unit_id": "U-org2",
+      "target_id": "U-org2.answer",
+      "declared_answer_lines": null,
+      "transport_emitted": false,
+      "resolved": false,
+      "resolution_status": "ambiguous",
+      "resolved_line_refs": [],
+      "binding_match": null
+    },
+    {
+      "unit_id": "U-org3",
+      "target_id": "U-org3.answer",
+      "declared_answer_lines": null,
+      "transport_emitted": false,
+      "resolved": false,
+      "resolution_status": "ambiguous",
+      "resolved_line_refs": [],
+      "binding_match": null
+    },
+    {
+      "unit_id": "U-cp1",
+      "target_id": "U-cp1.answer",
+      "declared_answer_lines": null,
+      "transport_emitted": false,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L566"
+      ],
+      "resolved_start_end": [
+        "P1L566",
+        "P1L566"
+      ],
+      "granularity": "line_character",
+      "binding_match": null,
+      "binding_mode": "no_declared_range"
+    },
+    {
+      "unit_id": "U-cp2",
+      "target_id": "U-cp2.answer",
+      "declared_answer_lines": null,
+      "transport_emitted": false,
+      "resolved": false,
+      "resolution_status": "ambiguous",
+      "resolved_line_refs": [],
+      "binding_match": null
+    },
+    {
+      "unit_id": "U-cp3",
+      "target_id": "U-cp3.answer",
+      "declared_answer_lines": null,
+      "transport_emitted": false,
+      "resolved": false,
+      "resolution_status": "ambiguous",
+      "resolved_line_refs": [],
+      "binding_match": null
+    },
+    {
+      "unit_id": "Q1",
+      "target_id": "Q1.answer",
+      "declared_answer_lines": [
+        637,
+        637
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L637"
+      ],
+      "resolved_start_end": [
+        "P1L637",
+        "P1L637"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q2",
+      "target_id": "Q2.answer",
+      "declared_answer_lines": [
+        643,
+        643
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L643"
+      ],
+      "resolved_start_end": [
+        "P1L643",
+        "P1L643"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q3",
+      "target_id": "Q3.answer",
+      "declared_answer_lines": [
+        651,
+        651
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L651"
+      ],
+      "resolved_start_end": [
+        "P1L651",
+        "P1L651"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q4",
+      "target_id": "Q4.answer",
+      "declared_answer_lines": [
+        655,
+        655
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L655"
+      ],
+      "resolved_start_end": [
+        "P1L655",
+        "P1L655"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q5",
+      "target_id": "Q5.answer",
+      "declared_answer_lines": [
+        661,
+        661
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L661"
+      ],
+      "resolved_start_end": [
+        "P1L661",
+        "P1L661"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q6",
+      "target_id": "Q6.answer",
+      "declared_answer_lines": [
+        669,
+        669
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L669"
+      ],
+      "resolved_start_end": [
+        "P1L669",
+        "P1L669"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q7",
+      "target_id": "Q7.answer",
+      "declared_answer_lines": [
+        679,
+        679
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L679"
+      ],
+      "resolved_start_end": [
+        "P1L679",
+        "P1L679"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q8",
+      "target_id": "Q8.answer",
+      "declared_answer_lines": [
+        685,
+        685
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L685"
+      ],
+      "resolved_start_end": [
+        "P1L685",
+        "P1L685"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q9",
+      "target_id": "Q9.answer",
+      "declared_answer_lines": [
+        691,
+        691
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L691"
+      ],
+      "resolved_start_end": [
+        "P1L691",
+        "P1L691"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q10",
+      "target_id": "Q10.answer",
+      "declared_answer_lines": [
+        697,
+        697
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L697"
+      ],
+      "resolved_start_end": [
+        "P1L697",
+        "P1L697"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q11",
+      "target_id": "Q11.answer",
+      "declared_answer_lines": [
+        703,
+        703
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L703"
+      ],
+      "resolved_start_end": [
+        "P1L703",
+        "P1L703"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q12",
+      "target_id": "Q12.answer",
+      "declared_answer_lines": [
+        709,
+        709
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L709"
+      ],
+      "resolved_start_end": [
+        "P1L709",
+        "P1L709"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q13",
+      "target_id": "Q13.answer",
+      "declared_answer_lines": [
+        719,
+        719
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L719"
+      ],
+      "resolved_start_end": [
+        "P1L719",
+        "P1L719"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q14",
+      "target_id": "Q14.answer",
+      "declared_answer_lines": [
+        725,
+        725
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L725"
+      ],
+      "resolved_start_end": [
+        "P1L725",
+        "P1L725"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q15",
+      "target_id": "Q15.answer",
+      "declared_answer_lines": [
+        731,
+        731
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L731"
+      ],
+      "resolved_start_end": [
+        "P1L731",
+        "P1L731"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q16",
+      "target_id": "Q16.answer",
+      "declared_answer_lines": [
+        737,
+        737
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L737"
+      ],
+      "resolved_start_end": [
+        "P1L737",
+        "P1L737"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q17",
+      "target_id": "Q17.answer",
+      "declared_answer_lines": [
+        743,
+        743
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L743"
+      ],
+      "resolved_start_end": [
+        "P1L743",
+        "P1L743"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q18",
+      "target_id": "Q18.answer",
+      "declared_answer_lines": [
+        751,
+        751
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L751"
+      ],
+      "resolved_start_end": [
+        "P1L751",
+        "P1L751"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q19",
+      "target_id": "Q19.answer",
+      "declared_answer_lines": [
+        761,
+        761
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L761"
+      ],
+      "resolved_start_end": [
+        "P1L761",
+        "P1L761"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q20",
+      "target_id": "Q20.answer",
+      "declared_answer_lines": [
+        769,
+        769
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L769"
+      ],
+      "resolved_start_end": [
+        "P1L769",
+        "P1L769"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q21",
+      "target_id": "Q21.answer",
+      "declared_answer_lines": [
+        775,
+        775
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L775"
+      ],
+      "resolved_start_end": [
+        "P1L775",
+        "P1L775"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q22",
+      "target_id": "Q22.answer",
+      "declared_answer_lines": [
+        781,
+        781
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L781"
+      ],
+      "resolved_start_end": [
+        "P1L781",
+        "P1L781"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q23",
+      "target_id": "Q23.answer",
+      "declared_answer_lines": [
+        787,
+        787
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L787"
+      ],
+      "resolved_start_end": [
+        "P1L787",
+        "P1L787"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q24",
+      "target_id": "Q24.answer",
+      "declared_answer_lines": [
+        793,
+        793
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L793"
+      ],
+      "resolved_start_end": [
+        "P1L793",
+        "P1L793"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q25",
+      "target_id": "Q25.answer",
+      "declared_answer_lines": [
+        807,
+        807
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L807"
+      ],
+      "resolved_start_end": [
+        "P1L807",
+        "P1L807"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q26",
+      "target_id": "Q26.answer",
+      "declared_answer_lines": [
+        813,
+        813
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L813"
+      ],
+      "resolved_start_end": [
+        "P1L813",
+        "P1L813"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q27",
+      "target_id": "Q27.answer",
+      "declared_answer_lines": [
+        819,
+        819
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L819"
+      ],
+      "resolved_start_end": [
+        "P1L819",
+        "P1L819"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q28",
+      "target_id": "Q28.answer",
+      "declared_answer_lines": [
+        825,
+        825
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L825"
+      ],
+      "resolved_start_end": [
+        "P1L825",
+        "P1L825"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q29",
+      "target_id": "Q29.answer",
+      "declared_answer_lines": [
+        831,
+        831
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L831"
+      ],
+      "resolved_start_end": [
+        "P1L831",
+        "P1L831"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q30",
+      "target_id": "Q30.answer",
+      "declared_answer_lines": [
+        837,
+        837
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L837"
+      ],
+      "resolved_start_end": [
+        "P1L837",
+        "P1L837"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q31",
+      "target_id": "Q31.answer",
+      "declared_answer_lines": [
+        843,
+        843
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L843"
+      ],
+      "resolved_start_end": [
+        "P1L843",
+        "P1L843"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q32",
+      "target_id": "Q32.answer",
+      "declared_answer_lines": [
+        851,
+        851
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L851"
+      ],
+      "resolved_start_end": [
+        "P1L851",
+        "P1L851"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q33",
+      "target_id": "Q33.answer",
+      "declared_answer_lines": [
+        857,
+        857
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L857"
+      ],
+      "resolved_start_end": [
+        "P1L857",
+        "P1L857"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q34",
+      "target_id": "Q34.answer",
+      "declared_answer_lines": [
+        865,
+        865
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L865"
+      ],
+      "resolved_start_end": [
+        "P1L865",
+        "P1L865"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q35",
+      "target_id": "Q35.answer",
+      "declared_answer_lines": [
+        871,
+        871
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L871"
+      ],
+      "resolved_start_end": [
+        "P1L871",
+        "P1L871"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q36",
+      "target_id": "Q36.answer",
+      "declared_answer_lines": [
+        877,
+        877
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L877"
+      ],
+      "resolved_start_end": [
+        "P1L877",
+        "P1L877"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q37",
+      "target_id": "Q37.answer",
+      "declared_answer_lines": [
+        883,
+        883
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L883"
+      ],
+      "resolved_start_end": [
+        "P1L883",
+        "P1L883"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q38",
+      "target_id": "Q38.answer",
+      "declared_answer_lines": [
+        891,
+        891
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L891"
+      ],
+      "resolved_start_end": [
+        "P1L891",
+        "P1L891"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q39",
+      "target_id": "Q39.answer",
+      "declared_answer_lines": [
+        897,
+        897
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L897"
+      ],
+      "resolved_start_end": [
+        "P1L897",
+        "P1L897"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q40",
+      "target_id": "Q40.answer",
+      "declared_answer_lines": [
+        903,
+        903
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L903"
+      ],
+      "resolved_start_end": [
+        "P1L903",
+        "P1L903"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q41",
+      "target_id": "Q41.answer",
+      "declared_answer_lines": [
+        909,
+        909
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L909"
+      ],
+      "resolved_start_end": [
+        "P1L909",
+        "P1L909"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q42",
+      "target_id": "Q42.answer",
+      "declared_answer_lines": [
+        915,
+        915
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L915"
+      ],
+      "resolved_start_end": [
+        "P1L915",
+        "P1L915"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q43",
+      "target_id": "Q43.answer",
+      "declared_answer_lines": [
+        921,
+        921
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L921"
+      ],
+      "resolved_start_end": [
+        "P1L921",
+        "P1L921"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q44",
+      "target_id": "Q44.answer",
+      "declared_answer_lines": [
+        931,
+        931
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L931"
+      ],
+      "resolved_start_end": [
+        "P1L931",
+        "P1L931"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q45",
+      "target_id": "Q45.answer",
+      "declared_answer_lines": [
+        939,
+        939
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L939"
+      ],
+      "resolved_start_end": [
+        "P1L939",
+        "P1L939"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q46",
+      "target_id": "Q46.answer",
+      "declared_answer_lines": [
+        953,
+        953
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L953"
+      ],
+      "resolved_start_end": [
+        "P1L953",
+        "P1L953"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q47",
+      "target_id": "Q47.answer",
+      "declared_answer_lines": [
+        959,
+        959
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L959"
+      ],
+      "resolved_start_end": [
+        "P1L959",
+        "P1L959"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q48",
+      "target_id": "Q48.answer",
+      "declared_answer_lines": [
+        969,
+        969
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L969"
+      ],
+      "resolved_start_end": [
+        "P1L969",
+        "P1L969"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q49",
+      "target_id": "Q49.answer",
+      "declared_answer_lines": [
+        975,
+        975
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L975"
+      ],
+      "resolved_start_end": [
+        "P1L975",
+        "P1L975"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q50",
+      "target_id": "Q50.answer",
+      "declared_answer_lines": [
+        981,
+        981
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L981"
+      ],
+      "resolved_start_end": [
+        "P1L981",
+        "P1L981"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U51.sub",
+      "target_id": "U51.sub.answer",
+      "declared_answer_lines": [
+        989,
+        993
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L989",
+        "P1L990",
+        "P1L991",
+        "P1L992",
+        "P1L993"
+      ],
+      "resolved_start_end": [
+        "P1L989",
+        "P1L993"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "U52.sub",
+      "target_id": "U52.sub.answer",
+      "declared_answer_lines": [
+        1007,
+        1015
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L1007",
+        "P1L1008",
+        "P1L1009",
+        "P1L1010",
+        "P1L1011",
+        "P1L1012",
+        "P1L1013",
+        "P1L1014",
+        "P1L1015"
+      ],
+      "resolved_start_end": [
+        "P1L1007",
+        "P1L1015"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "U53.sub",
+      "target_id": "U53.sub.answer",
+      "declared_answer_lines": [
+        1025,
+        1033
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L1025",
+        "P1L1026",
+        "P1L1027",
+        "P1L1028",
+        "P1L1029",
+        "P1L1030",
+        "P1L1031",
+        "P1L1032",
+        "P1L1033"
+      ],
+      "resolved_start_end": [
+        "P1L1025",
+        "P1L1033"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "U1-2.sub",
+      "target_id": "U1-2.sub.answer",
+      "declared_answer_lines": [
+        601,
+        601
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L601"
+      ],
+      "resolved_start_end": [
+        "P1L601",
+        "P1L601"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U3-5.sub",
+      "target_id": "U3-5.sub.answer",
+      "declared_answer_lines": [
+        601,
+        601
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L601"
+      ],
+      "resolved_start_end": [
+        "P1L601",
+        "P1L601"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U6-7.sub",
+      "target_id": "U6-7.sub.answer",
+      "declared_answer_lines": [
+        601,
+        601
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L601"
+      ],
+      "resolved_start_end": [
+        "P1L601",
+        "P1L601"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U8-9.sub",
+      "target_id": "U8-9.sub.answer",
+      "declared_answer_lines": [
+        601,
+        601
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L601"
+      ],
+      "resolved_start_end": [
+        "P1L601",
+        "P1L601"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U10-12.sub",
+      "target_id": "U10-12.sub.answer",
+      "declared_answer_lines": [
+        601,
+        601
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L601"
+      ],
+      "resolved_start_end": [
+        "P1L601",
+        "P1L601"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U13-15.sub",
+      "target_id": "U13-15.sub.answer",
+      "declared_answer_lines": [
+        601,
+        601
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L601"
+      ],
+      "resolved_start_end": [
+        "P1L601",
+        "P1L601"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U16-17.sub",
+      "target_id": "U16-17.sub.answer",
+      "declared_answer_lines": [
+        601,
+        601
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L601"
+      ],
+      "resolved_start_end": [
+        "P1L601",
+        "P1L601"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U18-20.sub",
+      "target_id": "U18-20.sub.answer",
+      "declared_answer_lines": [
+        601,
+        601
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L601"
+      ],
+      "resolved_start_end": [
+        "P1L601",
+        "P1L601"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U21-23.sub",
+      "target_id": "U21-23.sub.answer",
+      "declared_answer_lines": [
+        601,
+        601
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L601"
+      ],
+      "resolved_start_end": [
+        "P1L601",
+        "P1L601"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U24-25.sub",
+      "target_id": "U24-25.sub.answer",
+      "declared_answer_lines": [
+        601,
+        601
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L601"
+      ],
+      "resolved_start_end": [
+        "P1L601",
+        "P1L601"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U26-29.sub",
+      "target_id": "U26-29.sub.answer",
+      "declared_answer_lines": [
+        601,
+        601
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L601"
+      ],
+      "resolved_start_end": [
+        "P1L601",
+        "P1L601"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U30-31.sub",
+      "target_id": "U30-31.sub.answer",
+      "declared_answer_lines": [
+        601,
+        601
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L601"
+      ],
+      "resolved_start_end": [
+        "P1L601",
+        "P1L601"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U32-33.sub",
+      "target_id": "U32-33.sub.answer",
+      "declared_answer_lines": [
+        601,
+        601
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L601"
+      ],
+      "resolved_start_end": [
+        "P1L601",
+        "P1L601"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U34-35.sub",
+      "target_id": "U34-35.sub.answer",
+      "declared_answer_lines": [
+        601,
+        601
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L601"
+      ],
+      "resolved_start_end": [
+        "P1L601",
+        "P1L601"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U36-39.sub",
+      "target_id": "U36-39.sub.answer",
+      "declared_answer_lines": [
+        601,
+        601
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L601"
+      ],
+      "resolved_start_end": [
+        "P1L601",
+        "P1L601"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U40-41.sub",
+      "target_id": "U40-41.sub.answer",
+      "declared_answer_lines": [
+        601,
+        601
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L601"
+      ],
+      "resolved_start_end": [
+        "P1L601",
+        "P1L601"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U42-43.sub",
+      "target_id": "U42-43.sub.answer",
+      "declared_answer_lines": [
+        601,
+        601
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L601"
+      ],
+      "resolved_start_end": [
+        "P1L601",
+        "P1L601"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U44-46.sub",
+      "target_id": "U44-46.sub.answer",
+      "declared_answer_lines": [
+        601,
+        601
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L601"
+      ],
+      "resolved_start_end": [
+        "P1L601",
+        "P1L601"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U47-48.sub",
+      "target_id": "U47-48.sub.answer",
+      "declared_answer_lines": [
+        601,
+        601
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L601"
+      ],
+      "resolved_start_end": [
+        "P1L601",
+        "P1L601"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U49-50.sub",
+      "target_id": "U49-50.sub.answer",
+      "declared_answer_lines": [
+        601,
+        601
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L601"
+      ],
+      "resolved_start_end": [
+        "P1L601",
+        "P1L601"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U-P2-1.sub",
+      "target_id": "U-P2-1.sub.answer",
+      "declared_answer_lines": [
+        605,
+        615
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L605",
+        "P1L606",
+        "P1L607",
+        "P1L608",
+        "P1L609",
+        "P1L610",
+        "P1L611",
+        "P1L612",
+        "P1L613",
+        "P1L614",
+        "P1L615"
+      ],
+      "resolved_start_end": [
+        "P1L605",
+        "P1L615"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "U-P2-2.sub",
+      "target_id": "U-P2-2.sub.answer",
+      "declared_answer_lines": [
+        617,
+        629
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L617",
+        "P1L618",
+        "P1L619",
+        "P1L620",
+        "P1L621",
+        "P1L622",
+        "P1L623",
+        "P1L624",
+        "P1L625",
+        "P1L626",
+        "P1L627",
+        "P1L628",
+        "P1L629"
+      ],
+      "resolved_start_end": [
+        "P1L617",
+        "P1L629"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "U-P2-3.sub",
+      "target_id": "U-P2-3.sub.answer",
+      "declared_answer_lines": [
+        631,
+        639
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L631",
+        "P1L632",
+        "P1L633",
+        "P1L634",
+        "P1L635",
+        "P1L636",
+        "P1L637",
+        "P1L638",
+        "P1L639"
+      ],
+      "resolved_start_end": [
+        "P1L631",
+        "P1L639"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "U-P2-4.sub",
+      "target_id": "U-P2-4.sub.answer",
+      "declared_answer_lines": [
+        641,
+        651
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L641",
+        "P1L642",
+        "P1L643",
+        "P1L644",
+        "P1L645",
+        "P1L646",
+        "P1L647",
+        "P1L648",
+        "P1L649",
+        "P1L650",
+        "P1L651"
+      ],
+      "resolved_start_end": [
+        "P1L641",
+        "P1L651"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "U-P2-5.sub",
+      "target_id": "U-P2-5.sub.answer",
+      "declared_answer_lines": [
+        653,
+        660
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L653",
+        "P1L654",
+        "P1L655",
+        "P1L656",
+        "P1L657",
+        "P1L658",
+        "P1L659",
+        "P1L660"
+      ],
+      "resolved_start_end": [
+        "P1L653",
+        "P1L660"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q1",
+      "target_id": "Q1.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q2",
+      "target_id": "Q2.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q3",
+      "target_id": "Q3.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q4",
+      "target_id": "Q4.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q5",
+      "target_id": "Q5.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q6",
+      "target_id": "Q6.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q7",
+      "target_id": "Q7.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q8",
+      "target_id": "Q8.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U9-10.sub",
+      "target_id": "U9-10.sub.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q11",
+      "target_id": "Q11.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q12",
+      "target_id": "Q12.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q13",
+      "target_id": "Q13.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q14",
+      "target_id": "Q14.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q15",
+      "target_id": "Q15.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q16",
+      "target_id": "Q16.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q17",
+      "target_id": "Q17.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q18",
+      "target_id": "Q18.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q19",
+      "target_id": "Q19.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q20",
+      "target_id": "Q20.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q21",
+      "target_id": "Q21.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q22",
+      "target_id": "Q22.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q23",
+      "target_id": "Q23.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q24",
+      "target_id": "Q24.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q25",
+      "target_id": "Q25.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q26",
+      "target_id": "Q26.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q27",
+      "target_id": "Q27.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q28",
+      "target_id": "Q28.answer",
+      "declared_answer_lines": [
+        552,
+        552
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L552"
+      ],
+      "resolved_start_end": [
+        "P1L552",
+        "P1L552"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q29",
+      "target_id": "Q29.answer",
+      "declared_answer_lines": [
+        558,
+        572
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L558",
+        "P1L559",
+        "P1L560",
+        "P1L561",
+        "P1L562",
+        "P1L563",
+        "P1L564",
+        "P1L565",
+        "P1L566",
+        "P1L567",
+        "P1L568",
+        "P1L569",
+        "P1L570",
+        "P1L571",
+        "P1L572"
+      ],
+      "resolved_start_end": [
+        "P1L558",
+        "P1L572"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q30",
+      "target_id": "Q30.answer",
+      "declared_answer_lines": [
+        574,
+        590
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L574",
+        "P1L575",
+        "P1L576",
+        "P1L577",
+        "P1L578",
+        "P1L579",
+        "P1L580",
+        "P1L581",
+        "P1L582",
+        "P1L583",
+        "P1L584",
+        "P1L585",
+        "P1L586",
+        "P1L587",
+        "P1L588",
+        "P1L589",
+        "P1L590"
+      ],
+      "resolved_start_end": [
+        "P1L574",
+        "P1L590"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q31",
+      "target_id": "Q31.answer",
+      "declared_answer_lines": [
+        594,
+        600
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L594",
+        "P1L595",
+        "P1L596",
+        "P1L597",
+        "P1L598",
+        "P1L599",
+        "P1L600"
+      ],
+      "resolved_start_end": [
+        "P1L594",
+        "P1L600"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q32",
+      "target_id": "Q32.answer",
+      "declared_answer_lines": [
+        602,
+        616
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L602",
+        "P1L603",
+        "P1L604",
+        "P1L605",
+        "P1L606",
+        "P1L607",
+        "P1L608",
+        "P1L609",
+        "P1L610",
+        "P1L611",
+        "P1L612",
+        "P1L613",
+        "P1L614",
+        "P1L615",
+        "P1L616"
+      ],
+      "resolved_start_end": [
+        "P1L602",
+        "P1L616"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q33",
+      "target_id": "Q33.answer",
+      "declared_answer_lines": [
+        620,
+        620
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L620"
+      ],
+      "resolved_start_end": [
+        "P1L620",
+        "P1L620"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q34",
+      "target_id": "Q34.answer",
+      "declared_answer_lines": [
+        622,
+        622
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L622"
+      ],
+      "resolved_start_end": [
+        "P1L622",
+        "P1L622"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q35",
+      "target_id": "Q35.answer",
+      "declared_answer_lines": [
+        624,
+        624
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L624"
+      ],
+      "resolved_start_end": [
+        "P1L624",
+        "P1L624"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q36",
+      "target_id": "Q36.answer",
+      "declared_answer_lines": [
+        626,
+        628
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L626",
+        "P1L627",
+        "P1L628"
+      ],
+      "resolved_start_end": [
+        "P1L626",
+        "P1L628"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q37.sub",
+      "target_id": "Q37.sub.answer",
+      "declared_answer_lines": [
+        632,
+        650
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L632",
+        "P1L633",
+        "P1L634",
+        "P1L635",
+        "P1L636",
+        "P1L637",
+        "P1L638",
+        "P1L639",
+        "P1L640",
+        "P1L641",
+        "P1L642",
+        "P1L643",
+        "P1L644",
+        "P1L645",
+        "P1L646",
+        "P1L647",
+        "P1L648",
+        "P1L649",
+        "P1L650"
+      ],
+      "resolved_start_end": [
+        "P1L632",
+        "P1L650"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q1",
+      "target_id": "Q1.answer",
+      "declared_answer_lines": [
+        200,
+        206
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L200",
+        "P1L201",
+        "P1L202",
+        "P1L203",
+        "P1L204",
+        "P1L205",
+        "P1L206"
+      ],
+      "resolved_start_end": [
+        "P1L200",
+        "P1L206"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q2",
+      "target_id": "Q2.answer",
+      "declared_answer_lines": [
+        208,
+        222
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L208",
+        "P1L209",
+        "P1L210",
+        "P1L211",
+        "P1L212",
+        "P1L213",
+        "P1L214",
+        "P1L215",
+        "P1L216",
+        "P1L217",
+        "P1L218",
+        "P1L219",
+        "P1L220",
+        "P1L221",
+        "P1L222"
+      ],
+      "resolved_start_end": [
+        "P1L208",
+        "P1L222"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q3",
+      "target_id": "Q3.answer",
+      "declared_answer_lines": [
+        224,
+        232
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L224",
+        "P1L225",
+        "P1L226",
+        "P1L227",
+        "P1L228",
+        "P1L229",
+        "P1L230",
+        "P1L231",
+        "P1L232"
+      ],
+      "resolved_start_end": [
+        "P1L224",
+        "P1L232"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q4",
+      "target_id": "Q4.answer",
+      "declared_answer_lines": [
+        234,
+        240
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L234",
+        "P1L235",
+        "P1L236",
+        "P1L237",
+        "P1L238",
+        "P1L239",
+        "P1L240"
+      ],
+      "resolved_start_end": [
+        "P1L234",
+        "P1L240"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q5",
+      "target_id": "Q5.answer",
+      "declared_answer_lines": [
+        242,
+        258
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L242",
+        "P1L243",
+        "P1L244",
+        "P1L245",
+        "P1L246",
+        "P1L247",
+        "P1L248",
+        "P1L249",
+        "P1L250",
+        "P1L251",
+        "P1L252",
+        "P1L253",
+        "P1L254",
+        "P1L255",
+        "P1L256",
+        "P1L257",
+        "P1L258"
+      ],
+      "resolved_start_end": [
+        "P1L242",
+        "P1L258"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q6",
+      "target_id": "Q6.answer",
+      "declared_answer_lines": [
+        260,
+        272
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L260",
+        "P1L261",
+        "P1L262",
+        "P1L263",
+        "P1L264",
+        "P1L265",
+        "P1L266",
+        "P1L267",
+        "P1L268",
+        "P1L269",
+        "P1L270",
+        "P1L271",
+        "P1L272"
+      ],
+      "resolved_start_end": [
+        "P1L260",
+        "P1L272"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q7",
+      "target_id": "Q7.answer",
+      "declared_answer_lines": [
+        274,
+        284
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L274",
+        "P1L275",
+        "P1L276",
+        "P1L277",
+        "P1L278",
+        "P1L279",
+        "P1L280",
+        "P1L281",
+        "P1L282",
+        "P1L283",
+        "P1L284"
+      ],
+      "resolved_start_end": [
+        "P1L274",
+        "P1L284"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q8",
+      "target_id": "Q8.answer",
+      "declared_answer_lines": [
+        286,
+        296
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L286",
+        "P1L287",
+        "P1L288",
+        "P1L289",
+        "P1L290",
+        "P1L291",
+        "P1L292",
+        "P1L293",
+        "P1L294",
+        "P1L295",
+        "P1L296"
+      ],
+      "resolved_start_end": [
+        "P1L286",
+        "P1L296"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q9",
+      "target_id": "Q9.answer",
+      "declared_answer_lines": [
+        298,
+        310
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L298",
+        "P1L299",
+        "P1L300",
+        "P1L301",
+        "P1L302",
+        "P1L303",
+        "P1L304",
+        "P1L305",
+        "P1L306",
+        "P1L307",
+        "P1L308",
+        "P1L309",
+        "P1L310"
+      ],
+      "resolved_start_end": [
+        "P1L298",
+        "P1L310"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q10",
+      "target_id": "Q10.answer",
+      "declared_answer_lines": [
+        314,
+        324
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L314",
+        "P1L315",
+        "P1L316",
+        "P1L317",
+        "P1L318",
+        "P1L319",
+        "P1L320",
+        "P1L321",
+        "P1L322",
+        "P1L323",
+        "P1L324"
+      ],
+      "resolved_start_end": [
+        "P1L314",
+        "P1L324"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q11",
+      "target_id": "Q11.answer",
+      "declared_answer_lines": [
+        326,
+        336
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L326",
+        "P1L327",
+        "P1L328",
+        "P1L329",
+        "P1L330",
+        "P1L331",
+        "P1L332",
+        "P1L333",
+        "P1L334",
+        "P1L335",
+        "P1L336"
+      ],
+      "resolved_start_end": [
+        "P1L326",
+        "P1L336"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q12",
+      "target_id": "Q12.answer",
+      "declared_answer_lines": [
+        338,
+        348
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L338",
+        "P1L339",
+        "P1L340",
+        "P1L341",
+        "P1L342",
+        "P1L343",
+        "P1L344",
+        "P1L345",
+        "P1L346",
+        "P1L347",
+        "P1L348"
+      ],
+      "resolved_start_end": [
+        "P1L338",
+        "P1L348"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q13",
+      "target_id": "Q13.answer",
+      "declared_answer_lines": [
+        350,
+        356
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L350",
+        "P1L351",
+        "P1L352",
+        "P1L353",
+        "P1L354",
+        "P1L355",
+        "P1L356"
+      ],
+      "resolved_start_end": [
+        "P1L350",
+        "P1L356"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q14",
+      "target_id": "Q14.answer",
+      "declared_answer_lines": [
+        358,
+        368
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L358",
+        "P1L359",
+        "P1L360",
+        "P1L361",
+        "P1L362",
+        "P1L363",
+        "P1L364",
+        "P1L365",
+        "P1L366",
+        "P1L367",
+        "P1L368"
+      ],
+      "resolved_start_end": [
+        "P1L358",
+        "P1L368"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q15",
+      "target_id": "Q15.answer",
+      "declared_answer_lines": [
+        370,
+        384
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L370",
+        "P1L371",
+        "P1L372",
+        "P1L373",
+        "P1L374",
+        "P1L375",
+        "P1L376",
+        "P1L377",
+        "P1L378",
+        "P1L379",
+        "P1L380",
+        "P1L381",
+        "P1L382",
+        "P1L383",
+        "P1L384"
+      ],
+      "resolved_start_end": [
+        "P1L370",
+        "P1L384"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q16",
+      "target_id": "Q16.answer",
+      "declared_answer_lines": [
+        386,
+        404
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L386",
+        "P1L387",
+        "P1L388",
+        "P1L389",
+        "P1L390",
+        "P1L391",
+        "P1L392",
+        "P1L393",
+        "P1L394",
+        "P1L395",
+        "P1L396",
+        "P1L397",
+        "P1L398",
+        "P1L399",
+        "P1L400",
+        "P1L401",
+        "P1L402",
+        "P1L403",
+        "P1L404"
+      ],
+      "resolved_start_end": [
+        "P1L386",
+        "P1L404"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q17",
+      "target_id": "Q17.answer",
+      "declared_answer_lines": [
+        406,
+        430
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L406",
+        "P1L407",
+        "P1L408",
+        "P1L409",
+        "P1L410",
+        "P1L411",
+        "P1L412",
+        "P1L413",
+        "P1L414",
+        "P1L415",
+        "P1L416",
+        "P1L417",
+        "P1L418",
+        "P1L419",
+        "P1L420",
+        "P1L421",
+        "P1L422",
+        "P1L423",
+        "P1L424",
+        "P1L425",
+        "P1L426",
+        "P1L427",
+        "P1L428",
+        "P1L429",
+        "P1L430"
+      ],
+      "resolved_start_end": [
+        "P1L406",
+        "P1L430"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q18",
+      "target_id": "Q18.answer",
+      "declared_answer_lines": [
+        434,
+        448
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L434",
+        "P1L435",
+        "P1L436",
+        "P1L437",
+        "P1L438",
+        "P1L439",
+        "P1L440",
+        "P1L441",
+        "P1L442",
+        "P1L443",
+        "P1L444",
+        "P1L445",
+        "P1L446",
+        "P1L447",
+        "P1L448"
+      ],
+      "resolved_start_end": [
+        "P1L434",
+        "P1L448"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q19",
+      "target_id": "Q19.answer",
+      "declared_answer_lines": [
+        450,
+        462
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L450",
+        "P1L451",
+        "P1L452",
+        "P1L453",
+        "P1L454",
+        "P1L455",
+        "P1L456",
+        "P1L457",
+        "P1L458",
+        "P1L459",
+        "P1L460",
+        "P1L461",
+        "P1L462"
+      ],
+      "resolved_start_end": [
+        "P1L450",
+        "P1L462"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q20",
+      "target_id": "Q20.answer",
+      "declared_answer_lines": [
+        464,
+        470
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L464",
+        "P1L465",
+        "P1L466",
+        "P1L467",
+        "P1L468",
+        "P1L469",
+        "P1L470"
+      ],
+      "resolved_start_end": [
+        "P1L464",
+        "P1L470"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q21",
+      "target_id": "Q21.answer",
+      "declared_answer_lines": [
+        472,
+        484
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L472",
+        "P1L473",
+        "P1L474",
+        "P1L475",
+        "P1L476",
+        "P1L477",
+        "P1L478",
+        "P1L479",
+        "P1L480",
+        "P1L481",
+        "P1L482",
+        "P1L483",
+        "P1L484"
+      ],
+      "resolved_start_end": [
+        "P1L472",
+        "P1L484"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q22",
+      "target_id": "Q22.answer",
+      "declared_answer_lines": [
+        487,
+        523
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L487",
+        "P1L488",
+        "P1L489",
+        "P1L490",
+        "P1L491",
+        "P1L492",
+        "P1L493",
+        "P1L494",
+        "P1L495",
+        "P1L496",
+        "P1L497",
+        "P1L498",
+        "P1L499",
+        "P1L500",
+        "P1L501",
+        "P1L502",
+        "P1L503",
+        "P1L504",
+        "P1L505",
+        "P1L506",
+        "P1L507",
+        "P1L508",
+        "P1L509",
+        "P1L510",
+        "P1L511",
+        "P1L512",
+        "P1L513",
+        "P1L514",
+        "P1L515",
+        "P1L516",
+        "P1L517",
+        "P1L518",
+        "P1L519",
+        "P1L520",
+        "P1L521",
+        "P1L522",
+        "P1L523"
+      ],
+      "resolved_start_end": [
+        "P1L487",
+        "P1L523"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q23",
+      "target_id": "Q23.answer",
+      "declared_answer_lines": [
+        525,
+        541
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L525",
+        "P1L526",
+        "P1L527",
+        "P1L528",
+        "P1L529",
+        "P1L530",
+        "P1L531",
+        "P1L532",
+        "P1L533",
+        "P1L534",
+        "P1L535",
+        "P1L536",
+        "P1L537",
+        "P1L538",
+        "P1L539",
+        "P1L540",
+        "P1L541"
+      ],
+      "resolved_start_end": [
+        "P1L525",
+        "P1L541"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q24",
+      "target_id": "Q24.answer",
+      "declared_answer_lines": [
+        543,
+        565
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L543",
+        "P1L544",
+        "P1L545",
+        "P1L546",
+        "P1L547",
+        "P1L548",
+        "P1L549",
+        "P1L550",
+        "P1L551",
+        "P1L552",
+        "P1L553",
+        "P1L554",
+        "P1L555",
+        "P1L556",
+        "P1L557",
+        "P1L558",
+        "P1L559",
+        "P1L560",
+        "P1L561",
+        "P1L562",
+        "P1L563",
+        "P1L564",
+        "P1L565"
+      ],
+      "resolved_start_end": [
+        "P1L543",
+        "P1L565"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q25",
+      "target_id": "Q25.answer",
+      "declared_answer_lines": [
+        567,
+        575
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L567",
+        "P1L568",
+        "P1L569",
+        "P1L570",
+        "P1L571",
+        "P1L572",
+        "P1L573",
+        "P1L574",
+        "P1L575"
+      ],
+      "resolved_start_end": [
+        "P1L567",
+        "P1L575"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q26",
+      "target_id": "Q26.answer",
+      "declared_answer_lines": [
+        579,
+        591
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L579",
+        "P1L580",
+        "P1L581",
+        "P1L582",
+        "P1L583",
+        "P1L584",
+        "P1L585",
+        "P1L586",
+        "P1L587",
+        "P1L588",
+        "P1L589",
+        "P1L590",
+        "P1L591"
+      ],
+      "resolved_start_end": [
+        "P1L579",
+        "P1L591"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q27",
+      "target_id": "Q27.answer",
+      "declared_answer_lines": [
+        593,
+        623
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L593",
+        "P1L594",
+        "P1L595",
+        "P1L596",
+        "P1L597",
+        "P1L598",
+        "P1L599",
+        "P1L600",
+        "P1L601",
+        "P1L602",
+        "P1L603",
+        "P1L604",
+        "P1L605",
+        "P1L606",
+        "P1L607",
+        "P1L608",
+        "P1L609",
+        "P1L610",
+        "P1L611",
+        "P1L612",
+        "P1L613",
+        "P1L614",
+        "P1L615",
+        "P1L616",
+        "P1L617",
+        "P1L618",
+        "P1L619",
+        "P1L620",
+        "P1L621",
+        "P1L622",
+        "P1L623"
+      ],
+      "resolved_start_end": [
+        "P1L593",
+        "P1L623"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q28",
+      "target_id": "Q28.answer",
+      "declared_answer_lines": [
+        625,
+        651
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L625",
+        "P1L626",
+        "P1L627",
+        "P1L628",
+        "P1L629",
+        "P1L630",
+        "P1L631",
+        "P1L632",
+        "P1L633",
+        "P1L634",
+        "P1L635",
+        "P1L636",
+        "P1L637",
+        "P1L638",
+        "P1L639",
+        "P1L640",
+        "P1L641",
+        "P1L642",
+        "P1L643",
+        "P1L644",
+        "P1L645",
+        "P1L646",
+        "P1L647",
+        "P1L648",
+        "P1L649",
+        "P1L650",
+        "P1L651"
+      ],
+      "resolved_start_end": [
+        "P1L625",
+        "P1L651"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q29",
+      "target_id": "Q29.answer",
+      "declared_answer_lines": [
+        653,
+        689
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L653",
+        "P1L654",
+        "P1L655",
+        "P1L656",
+        "P1L657",
+        "P1L658",
+        "P1L659",
+        "P1L660",
+        "P1L661",
+        "P1L662",
+        "P1L663",
+        "P1L664",
+        "P1L665",
+        "P1L666",
+        "P1L667",
+        "P1L668",
+        "P1L669",
+        "P1L670",
+        "P1L671",
+        "P1L672",
+        "P1L673",
+        "P1L674",
+        "P1L675",
+        "P1L676",
+        "P1L677",
+        "P1L678",
+        "P1L679",
+        "P1L680",
+        "P1L681",
+        "P1L682",
+        "P1L683",
+        "P1L684",
+        "P1L685",
+        "P1L686",
+        "P1L687",
+        "P1L688",
+        "P1L689"
+      ],
+      "resolved_start_end": [
+        "P1L653",
+        "P1L689"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q30",
+      "target_id": "Q30.answer",
+      "declared_answer_lines": [
+        691,
+        749
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L691",
+        "P1L692",
+        "P1L693",
+        "P1L694",
+        "P1L695",
+        "P1L696",
+        "P1L697",
+        "P1L698",
+        "P1L699",
+        "P1L700",
+        "P1L701",
+        "P1L702",
+        "P1L703",
+        "P1L704",
+        "P1L705",
+        "P1L706",
+        "P1L707",
+        "P1L708",
+        "P1L709",
+        "P1L710",
+        "P1L711",
+        "P1L712",
+        "P1L713",
+        "P1L714",
+        "P1L715",
+        "P1L716",
+        "P1L717",
+        "P1L718",
+        "P1L719",
+        "P1L720",
+        "P1L721",
+        "P1L722",
+        "P1L723",
+        "P1L724",
+        "P1L725",
+        "P1L726",
+        "P1L727",
+        "P1L728",
+        "P1L729",
+        "P1L730",
+        "P1L731",
+        "P1L732",
+        "P1L733",
+        "P1L734",
+        "P1L735",
+        "P1L736",
+        "P1L737",
+        "P1L738",
+        "P1L739",
+        "P1L740",
+        "P1L741",
+        "P1L742",
+        "P1L743",
+        "P1L744",
+        "P1L745",
+        "P1L746",
+        "P1L747",
+        "P1L748",
+        "P1L749"
+      ],
+      "resolved_start_end": [
+        "P1L691",
+        "P1L749"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q1",
+      "target_id": "Q1.answer",
+      "declared_answer_lines": [
+        356,
+        356
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L356"
+      ],
+      "resolved_start_end": [
+        "P1L356",
+        "P1L356"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q2",
+      "target_id": "Q2.answer",
+      "declared_answer_lines": [
+        356,
+        356
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L356"
+      ],
+      "resolved_start_end": [
+        "P1L356",
+        "P1L356"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q3",
+      "target_id": "Q3.answer",
+      "declared_answer_lines": [
+        356,
+        356
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L356"
+      ],
+      "resolved_start_end": [
+        "P1L356",
+        "P1L356"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q4",
+      "target_id": "Q4.answer",
+      "declared_answer_lines": [
+        356,
+        356
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L356"
+      ],
+      "resolved_start_end": [
+        "P1L356",
+        "P1L356"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q5",
+      "target_id": "Q5.answer",
+      "declared_answer_lines": [
+        356,
+        356
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L356"
+      ],
+      "resolved_start_end": [
+        "P1L356",
+        "P1L356"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q6",
+      "target_id": "Q6.answer",
+      "declared_answer_lines": [
+        356,
+        356
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L356"
+      ],
+      "resolved_start_end": [
+        "P1L356",
+        "P1L356"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q7",
+      "target_id": "Q7.answer",
+      "declared_answer_lines": [
+        356,
+        356
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L356"
+      ],
+      "resolved_start_end": [
+        "P1L356",
+        "P1L356"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q8",
+      "target_id": "Q8.answer",
+      "declared_answer_lines": [
+        356,
+        356
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L356"
+      ],
+      "resolved_start_end": [
+        "P1L356",
+        "P1L356"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U9-11.sub",
+      "target_id": "U9-11.sub.answer",
+      "declared_answer_lines": [
+        356,
+        356
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L356"
+      ],
+      "resolved_start_end": [
+        "P1L356",
+        "P1L356"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U12-14.sub",
+      "target_id": "U12-14.sub.answer",
+      "declared_answer_lines": [
+        356,
+        356
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L356"
+      ],
+      "resolved_start_end": [
+        "P1L356",
+        "P1L356"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q15",
+      "target_id": "Q15.answer",
+      "declared_answer_lines": [
+        356,
+        356
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L356"
+      ],
+      "resolved_start_end": [
+        "P1L356",
+        "P1L356"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q16",
+      "target_id": "Q16.answer",
+      "declared_answer_lines": [
+        356,
+        356
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L356"
+      ],
+      "resolved_start_end": [
+        "P1L356",
+        "P1L356"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q17",
+      "target_id": "Q17.answer",
+      "declared_answer_lines": [
+        356,
+        356
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L356"
+      ],
+      "resolved_start_end": [
+        "P1L356",
+        "P1L356"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U18-20.sub",
+      "target_id": "U18-20.sub.answer",
+      "declared_answer_lines": [
+        356,
+        356
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L356"
+      ],
+      "resolved_start_end": [
+        "P1L356",
+        "P1L356"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q21",
+      "target_id": "Q21.answer",
+      "declared_answer_lines": [
+        363,
+        363
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L363"
+      ],
+      "resolved_start_end": [
+        "P1L363",
+        "P1L363"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q22",
+      "target_id": "Q22.answer",
+      "declared_answer_lines": [
+        363,
+        363
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L363"
+      ],
+      "resolved_start_end": [
+        "P1L363",
+        "P1L363"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q23",
+      "target_id": "Q23.answer",
+      "declared_answer_lines": [
+        363,
+        363
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L363"
+      ],
+      "resolved_start_end": [
+        "P1L363",
+        "P1L363"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q24",
+      "target_id": "Q24.answer",
+      "declared_answer_lines": [
+        368,
+        368
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L368"
+      ],
+      "resolved_start_end": [
+        "P1L368",
+        "P1L368"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q25",
+      "target_id": "Q25.answer",
+      "declared_answer_lines": [
+        368,
+        368
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L368"
+      ],
+      "resolved_start_end": [
+        "P1L368",
+        "P1L368"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q26",
+      "target_id": "Q26.answer",
+      "declared_answer_lines": [
+        368,
+        373
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L368",
+        "P1L369",
+        "P1L370",
+        "P1L371",
+        "P1L372",
+        "P1L373"
+      ],
+      "resolved_start_end": [
+        "P1L368",
+        "P1L373"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q27",
+      "target_id": "Q27.answer",
+      "declared_answer_lines": [
+        373,
+        373
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L373"
+      ],
+      "resolved_start_end": [
+        "P1L373",
+        "P1L373"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q28",
+      "target_id": "Q28.answer",
+      "declared_answer_lines": [
+        373,
+        373
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L373"
+      ],
+      "resolved_start_end": [
+        "P1L373",
+        "P1L373"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q1",
+      "target_id": "Q1.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q2",
+      "target_id": "Q2.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q3",
+      "target_id": "Q3.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q4",
+      "target_id": "Q4.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q5",
+      "target_id": "Q5.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q6",
+      "target_id": "Q6.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q7",
+      "target_id": "Q7.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q8",
+      "target_id": "Q8.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q9",
+      "target_id": "Q9.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q10",
+      "target_id": "Q10.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q11",
+      "target_id": "Q11.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q12",
+      "target_id": "Q12.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q13",
+      "target_id": "Q13.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q14",
+      "target_id": "Q14.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q15",
+      "target_id": "Q15.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q16",
+      "target_id": "Q16.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q17",
+      "target_id": "Q17.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q18",
+      "target_id": "Q18.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q19",
+      "target_id": "Q19.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q20",
+      "target_id": "Q20.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q21",
+      "target_id": "Q21.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q22",
+      "target_id": "Q22.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q23",
+      "target_id": "Q23.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q24",
+      "target_id": "Q24.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q25",
+      "target_id": "Q25.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q26",
+      "target_id": "Q26.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q27",
+      "target_id": "Q27.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q28",
+      "target_id": "Q28.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q29",
+      "target_id": "Q29.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q30",
+      "target_id": "Q30.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q31",
+      "target_id": "Q31.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q32",
+      "target_id": "Q32.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q33",
+      "target_id": "Q33.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q34",
+      "target_id": "Q34.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q35",
+      "target_id": "Q35.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q36",
+      "target_id": "Q36.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q37",
+      "target_id": "Q37.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q38",
+      "target_id": "Q38.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q39",
+      "target_id": "Q39.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q40",
+      "target_id": "Q40.answer",
+      "declared_answer_lines": [
+        497,
+        497
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L497"
+      ],
+      "resolved_start_end": [
+        "P1L497",
+        "P1L497"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q41",
+      "target_id": "Q41.answer",
+      "declared_answer_lines": [
+        501,
+        507
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L501",
+        "P1L502",
+        "P1L503",
+        "P1L504",
+        "P1L505",
+        "P1L506",
+        "P1L507"
+      ],
+      "resolved_start_end": [
+        "P1L501",
+        "P1L507"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q42",
+      "target_id": "Q42.answer",
+      "declared_answer_lines": [
+        509,
+        515
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L509",
+        "P1L510",
+        "P1L511",
+        "P1L512",
+        "P1L513",
+        "P1L514",
+        "P1L515"
+      ],
+      "resolved_start_end": [
+        "P1L509",
+        "P1L515"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q43",
+      "target_id": "Q43.answer",
+      "declared_answer_lines": [
+        517,
+        525
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L517",
+        "P1L518",
+        "P1L519",
+        "P1L520",
+        "P1L521",
+        "P1L522",
+        "P1L523",
+        "P1L524",
+        "P1L525"
+      ],
+      "resolved_start_end": [
+        "P1L517",
+        "P1L525"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q44",
+      "target_id": "Q44.answer",
+      "declared_answer_lines": [
+        527,
+        535
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L527",
+        "P1L528",
+        "P1L529",
+        "P1L530",
+        "P1L531",
+        "P1L532",
+        "P1L533",
+        "P1L534",
+        "P1L535"
+      ],
+      "resolved_start_end": [
+        "P1L527",
+        "P1L535"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q45",
+      "target_id": "Q45.answer",
+      "declared_answer_lines": [
+        537,
+        543
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L537",
+        "P1L538",
+        "P1L539",
+        "P1L540",
+        "P1L541",
+        "P1L542",
+        "P1L543"
+      ],
+      "resolved_start_end": [
+        "P1L537",
+        "P1L543"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q46",
+      "target_id": "Q46.answer",
+      "declared_answer_lines": [
+        545,
+        551
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L545",
+        "P1L546",
+        "P1L547",
+        "P1L548",
+        "P1L549",
+        "P1L550",
+        "P1L551"
+      ],
+      "resolved_start_end": [
+        "P1L545",
+        "P1L551"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q47",
+      "target_id": "Q47.answer",
+      "declared_answer_lines": [
+        553,
+        559
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L553",
+        "P1L554",
+        "P1L555",
+        "P1L556",
+        "P1L557",
+        "P1L558",
+        "P1L559"
+      ],
+      "resolved_start_end": [
+        "P1L553",
+        "P1L559"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q48",
+      "target_id": "Q48.answer",
+      "declared_answer_lines": [
+        561,
+        567
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L561",
+        "P1L562",
+        "P1L563",
+        "P1L564",
+        "P1L565",
+        "P1L566",
+        "P1L567"
+      ],
+      "resolved_start_end": [
+        "P1L561",
+        "P1L567"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q49",
+      "target_id": "Q49.answer",
+      "declared_answer_lines": [
+        569,
+        577
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L569",
+        "P1L570",
+        "P1L571",
+        "P1L572",
+        "P1L573",
+        "P1L574",
+        "P1L575",
+        "P1L576",
+        "P1L577"
+      ],
+      "resolved_start_end": [
+        "P1L569",
+        "P1L577"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q50",
+      "target_id": "Q50.answer",
+      "declared_answer_lines": [
+        579,
+        601
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L579",
+        "P1L580",
+        "P1L581",
+        "P1L582",
+        "P1L583",
+        "P1L584",
+        "P1L585",
+        "P1L586",
+        "P1L587",
+        "P1L588",
+        "P1L589",
+        "P1L590",
+        "P1L591",
+        "P1L592",
+        "P1L593",
+        "P1L594",
+        "P1L595",
+        "P1L596",
+        "P1L597",
+        "P1L598",
+        "P1L599",
+        "P1L600",
+        "P1L601"
+      ],
+      "resolved_start_end": [
+        "P1L579",
+        "P1L601"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q1.sub",
+      "target_id": "Q1.sub.answer",
+      "declared_answer_lines": [
+        451,
+        451
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L451"
+      ],
+      "resolved_start_end": [
+        "P1L451",
+        "P1L451"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q2.sub",
+      "target_id": "Q2.sub.answer",
+      "declared_answer_lines": [
+        451,
+        451
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L451"
+      ],
+      "resolved_start_end": [
+        "P1L451",
+        "P1L451"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q3.sub",
+      "target_id": "Q3.sub.answer",
+      "declared_answer_lines": [
+        451,
+        451
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L451"
+      ],
+      "resolved_start_end": [
+        "P1L451",
+        "P1L451"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q4.sub",
+      "target_id": "Q4.sub.answer",
+      "declared_answer_lines": [
+        451,
+        451
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L451"
+      ],
+      "resolved_start_end": [
+        "P1L451",
+        "P1L451"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q5-6.sub",
+      "target_id": "Q5-6.sub.answer",
+      "declared_answer_lines": [
+        451,
+        451
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L451"
+      ],
+      "resolved_start_end": [
+        "P1L451",
+        "P1L451"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q7-8.sub",
+      "target_id": "Q7-8.sub.answer",
+      "declared_answer_lines": [
+        451,
+        451
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L451"
+      ],
+      "resolved_start_end": [
+        "P1L451",
+        "P1L451"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q9-11.sub",
+      "target_id": "Q9-11.sub.answer",
+      "declared_answer_lines": [
+        451,
+        451
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L451"
+      ],
+      "resolved_start_end": [
+        "P1L451",
+        "P1L451"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q12-14.sub",
+      "target_id": "Q12-14.sub.answer",
+      "declared_answer_lines": [
+        451,
+        451
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L451"
+      ],
+      "resolved_start_end": [
+        "P1L451",
+        "P1L451"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q15-17.sub",
+      "target_id": "Q15-17.sub.answer",
+      "declared_answer_lines": [
+        451,
+        451
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L451"
+      ],
+      "resolved_start_end": [
+        "P1L451",
+        "P1L451"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q18-20.sub",
+      "target_id": "Q18-20.sub.answer",
+      "declared_answer_lines": [
+        453,
+        453
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L453"
+      ],
+      "resolved_start_end": [
+        "P1L453",
+        "P1L453"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q21-25.sub",
+      "target_id": "Q21-25.sub.answer",
+      "declared_answer_lines": [
+        455,
+        455
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L455"
+      ],
+      "resolved_start_end": [
+        "P1L455",
+        "P1L455"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U26-40.sub",
+      "target_id": "U26-40.sub.answer",
+      "declared_answer_lines": [
+        459,
+        459
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L459"
+      ],
+      "resolved_start_end": [
+        "P1L459",
+        "P1L459"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U41-44.sub",
+      "target_id": "U41-44.sub.answer",
+      "declared_answer_lines": [
+        463,
+        463
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L463"
+      ],
+      "resolved_start_end": [
+        "P1L463",
+        "P1L463"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U45-48.sub",
+      "target_id": "U45-48.sub.answer",
+      "declared_answer_lines": [
+        463,
+        463
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L463"
+      ],
+      "resolved_start_end": [
+        "P1L463",
+        "P1L463"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U49-52.sub",
+      "target_id": "U49-52.sub.answer",
+      "declared_answer_lines": [
+        463,
+        463
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L463"
+      ],
+      "resolved_start_end": [
+        "P1L463",
+        "P1L463"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U53-56.sub",
+      "target_id": "U53-56.sub.answer",
+      "declared_answer_lines": [
+        463,
+        463
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L463"
+      ],
+      "resolved_start_end": [
+        "P1L463",
+        "P1L463"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "U57-60.sub",
+      "target_id": "U57-60.sub.answer",
+      "declared_answer_lines": [
+        465,
+        471
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L465",
+        "P1L466",
+        "P1L467",
+        "P1L468",
+        "P1L469",
+        "P1L470",
+        "P1L471"
+      ],
+      "resolved_start_end": [
+        "P1L465",
+        "P1L471"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q61",
+      "target_id": "Q61.answer",
+      "declared_answer_lines": [
+        475,
+        487
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L475",
+        "P1L476",
+        "P1L477",
+        "P1L478",
+        "P1L479",
+        "P1L480",
+        "P1L481",
+        "P1L482",
+        "P1L483",
+        "P1L484",
+        "P1L485",
+        "P1L486",
+        "P1L487"
+      ],
+      "resolved_start_end": [
+        "P1L475",
+        "P1L487"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "U1-5.sub",
+      "target_id": "U1-5.sub.answer",
+      "declared_answer_lines": [
+        346,
+        358
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L346",
+        "P1L347",
+        "P1L348",
+        "P1L349",
+        "P1L350",
+        "P1L351",
+        "P1L352",
+        "P1L353",
+        "P1L354",
+        "P1L355",
+        "P1L356",
+        "P1L357",
+        "P1L358"
+      ],
+      "resolved_start_end": [
+        "P1L346",
+        "P1L358"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q6",
+      "target_id": "Q6.answer",
+      "declared_answer_lines": [
+        362,
+        362
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L362"
+      ],
+      "resolved_start_end": [
+        "P1L362",
+        "P1L362"
+      ],
+      "granularity": "line_character",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q7",
+      "target_id": "Q7.answer",
+      "declared_answer_lines": [
+        364,
+        364
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L364"
+      ],
+      "resolved_start_end": [
+        "P1L364",
+        "P1L364"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "single_line"
+    },
+    {
+      "unit_id": "Q8",
+      "target_id": "Q8.answer",
+      "declared_answer_lines": [
+        366,
+        370
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L366",
+        "P1L367",
+        "P1L368",
+        "P1L369",
+        "P1L370"
+      ],
+      "resolved_start_end": [
+        "P1L366",
+        "P1L370"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q9",
+      "target_id": "Q9.answer",
+      "declared_answer_lines": [
+        372,
+        374
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L372",
+        "P1L373",
+        "P1L374"
+      ],
+      "resolved_start_end": [
+        "P1L372",
+        "P1L374"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "U10-13.sub",
+      "target_id": "U10-13.sub.answer",
+      "declared_answer_lines": [
+        378,
+        406
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L378",
+        "P1L379",
+        "P1L380",
+        "P1L381",
+        "P1L382",
+        "P1L383",
+        "P1L384",
+        "P1L385",
+        "P1L386",
+        "P1L387",
+        "P1L388",
+        "P1L389",
+        "P1L390",
+        "P1L391",
+        "P1L392",
+        "P1L393",
+        "P1L394",
+        "P1L395",
+        "P1L396",
+        "P1L397",
+        "P1L398",
+        "P1L399",
+        "P1L400",
+        "P1L401",
+        "P1L402",
+        "P1L403",
+        "P1L404",
+        "P1L405",
+        "P1L406"
+      ],
+      "resolved_start_end": [
+        "P1L378",
+        "P1L406"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "U14.sub",
+      "target_id": "U14.sub.answer",
+      "declared_answer_lines": [
+        412,
+        426
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L412",
+        "P1L413",
+        "P1L414",
+        "P1L415",
+        "P1L416",
+        "P1L417",
+        "P1L418",
+        "P1L419",
+        "P1L420",
+        "P1L421",
+        "P1L422",
+        "P1L423",
+        "P1L424",
+        "P1L425",
+        "P1L426"
+      ],
+      "resolved_start_end": [
+        "P1L412",
+        "P1L426"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "U15.sub",
+      "target_id": "U15.sub.answer",
+      "declared_answer_lines": [
+        430,
+        446
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L430",
+        "P1L431",
+        "P1L432",
+        "P1L433",
+        "P1L434",
+        "P1L435",
+        "P1L436",
+        "P1L437",
+        "P1L438",
+        "P1L439",
+        "P1L440",
+        "P1L441",
+        "P1L442",
+        "P1L443",
+        "P1L444",
+        "P1L445",
+        "P1L446"
+      ],
+      "resolved_start_end": [
+        "P1L430",
+        "P1L446"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q16",
+      "target_id": "Q16.answer",
+      "declared_answer_lines": [
+        448,
+        463
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L448",
+        "P1L449",
+        "P1L450",
+        "P1L451",
+        "P1L452",
+        "P1L453",
+        "P1L454",
+        "P1L455",
+        "P1L456",
+        "P1L457",
+        "P1L458",
+        "P1L459",
+        "P1L460",
+        "P1L461",
+        "P1L462",
+        "P1L463"
+      ],
+      "resolved_start_end": [
+        "P1L448",
+        "P1L463"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    },
+    {
+      "unit_id": "Q17",
+      "target_id": "Q17.answer",
+      "declared_answer_lines": [
+        448,
+        463
+      ],
+      "transport_emitted": true,
+      "resolved": true,
+      "resolution_status": "exact",
+      "resolved_line_refs": [
+        "P1L448",
+        "P1L449",
+        "P1L450",
+        "P1L451",
+        "P1L452",
+        "P1L453",
+        "P1L454",
+        "P1L455",
+        "P1L456",
+        "P1L457",
+        "P1L458",
+        "P1L459",
+        "P1L460",
+        "P1L461",
+        "P1L462",
+        "P1L463"
+      ],
+      "resolved_start_end": [
+        "P1L448",
+        "P1L463"
+      ],
+      "granularity": "line",
+      "binding_match": true,
+      "binding_mode": "multi_line_full_range"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "shared": {
+    "documents": 13,
+    "admission_candidates": 0,
+    "questions": 0,
+    "question_instances": 0,
+    "instance_role_contents": 0,
+    "question_feedbacks": "ERR UndefinedTableError"
+  },
+  "test": {
+    "documents": 20,
+    "admission_candidates": 25,
+    "questions": 25,
+    "question_instances": 25,
+    "instance_role_contents": 130,
+    "question_feedbacks": 13
+  },
+  "q8_content_rows": [
+    {
+      "role": "answer",
+      "label": "",
+      "text_hash": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d",
+      "t": "C"
+    },
+    {
+      "role": "option",
+      "label": "A",
+      "text_hash": "1be217153abe75ed6ff8bd03facc4364330d977db38fd62850ea265c335d3ee7",
+      "t": " HCl"
+    },
+    {
+      "role": "option",
+      "label": "B",
+      "text_hash": "e07646d3c8ae09ec84a9da9bbfa3df911e00bbce048d3fb9b683076cc1c52c9b",
+      "t": " $CO_{2}$"
+    },
+    {
+      "role": "option",
+      "label": "C",
+      "text_hash": "664a13d833b4932f12188486dcb061c991fa8953e6256d4b6a3ae9ecf06b777d",
+      "t": " $MgCl_{2}$"
+    },
+    {
+      "role": "option",
+      "label": "D",
+      "text_hash": "444c96c14cbe9c9d06afda12d9b02db182cc0031adb62dbfcb0e83111f47633b",
+      "t": " $CH_{4}$"
+    },
+    {
+      "role": "stem",
+      "label": "",
+      "text_hash": "c20aab5cef3b4cf7e00f524d6ea14bfede2dc5df8d4d96bc35b14e5e6d065283",
+      "t": "8．下列物质中，含有离子键的是\n"
+    }
+  ],
+  "pre_fix_status": "rejected",
+  "q8_feedback_count": 1
+}

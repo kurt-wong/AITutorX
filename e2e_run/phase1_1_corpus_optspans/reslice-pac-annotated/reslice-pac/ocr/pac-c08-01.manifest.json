@@ -1,0 +1,499 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-pac-annotated\\reslice-pac\\ocr\\pac-c08-01.md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.3",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "U-Cloze-1-10",
+      "unit_type": "composite_question",
+      "section": "第一节 完形填空（共10小题；每小题1.5分，共15分）",
+      "printed_number": null,
+      "question_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "original_question_type": "cloze",
+      "material_lines": [
+        23,
+        35
+      ],
+      "questions_lines": [
+        23,
+        57
+      ],
+      "answer_lines": [
+        376,
+        376
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U-GF-11-20",
+      "unit_type": "composite_question",
+      "section": "A",
+      "printed_number": null,
+      "question_numbers": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "original_question_type": "grammar_fill",
+      "material_lines": [
+        63,
+        73
+      ],
+      "questions_lines": [
+        63,
+        73
+      ],
+      "answer_lines": [
+        380,
+        386
+      ],
+      "explanation_lines": null,
+      "section_ref": "S4",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U-RA-21-23",
+      "unit_type": "composite_question",
+      "section": "A",
+      "printed_number": null,
+      "question_numbers": [
+        21,
+        22,
+        23
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        81,
+        97
+      ],
+      "questions_lines": [
+        81,
+        121
+      ],
+      "answer_lines": [
+        392,
+        392
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U-RB-24-27",
+      "unit_type": "composite_question",
+      "section": "B",
+      "printed_number": null,
+      "question_numbers": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        123,
+        147
+      ],
+      "questions_lines": [
+        123,
+        183
+      ],
+      "answer_lines": [
+        392,
+        392
+      ],
+      "explanation_lines": null,
+      "section_ref": "S9",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U-RC-28-31",
+      "unit_type": "composite_question",
+      "section": "C",
+      "printed_number": null,
+      "question_numbers": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        185,
+        195
+      ],
+      "questions_lines": [
+        185,
+        233
+      ],
+      "answer_lines": [
+        392,
+        392
+      ],
+      "explanation_lines": null,
+      "section_ref": "S10",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U-RD-32-34",
+      "unit_type": "composite_question",
+      "section": "D",
+      "printed_number": null,
+      "question_numbers": [
+        32,
+        33,
+        34
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        235,
+        252
+      ],
+      "questions_lines": [
+        235,
+        282
+      ],
+      "answer_lines": [
+        392,
+        392
+      ],
+      "explanation_lines": null,
+      "section_ref": "S11",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U-7to5-35-39",
+      "unit_type": "composite_question",
+      "section": "The Case for Classics",
+      "printed_number": null,
+      "question_numbers": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "original_question_type": "seven_to_five",
+      "material_lines": [
+        288,
+        302
+      ],
+      "questions_lines": [
+        288,
+        316
+      ],
+      "answer_lines": [
+        396,
+        396
+      ],
+      "explanation_lines": null,
+      "section_ref": "S13",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U-RE-40-43",
+      "unit_type": "composite_question",
+      "section": "第一节阅读表达(共4小题;第1、2题各2分,第3题3分,第4题5分,共12分)",
+      "printed_number": null,
+      "question_numbers": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "original_question_type": "reading_expression",
+      "material_lines": [
+        324,
+        332
+      ],
+      "questions_lines": [
+        324,
+        342
+      ],
+      "answer_lines": [
+        402,
+        481
+      ],
+      "explanation_lines": null,
+      "section_ref": "S15",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U-Essay-44",
+      "unit_type": "standalone_question",
+      "section": "第二节 应用文写作(共20分)",
+      "printed_number": null,
+      "question_numbers": [
+        44
+      ],
+      "original_question_type": "essay",
+      "stem_lines": [
+        346,
+        362
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        485,
+        533
+      ],
+      "explanation_lines": null,
+      "section_ref": "S16",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2021 北京丰台高三二模 英语",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 16,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "第一部分：知识运用（共两节，30分）",
+      "ordinal": 2,
+      "start_line": 17,
+      "end_line": 18,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "第一节 完形填空（共10小题；每小题1.5分，共15分）",
+      "ordinal": 3,
+      "start_line": 19,
+      "end_line": 58,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "第二节 语法填空(共10小题;每小题1.5分,共15分)",
+      "ordinal": 4,
+      "start_line": 59,
+      "end_line": 62,
+      "occurrence": 1
+    },
+    {
+      "id": "S4",
+      "title": "A",
+      "ordinal": 5,
+      "start_line": 63,
+      "end_line": 66,
+      "occurrence": 1
+    },
+    {
+      "id": "S5",
+      "title": "B",
+      "ordinal": 6,
+      "start_line": 67,
+      "end_line": 70,
+      "occurrence": 1
+    },
+    {
+      "id": "S6",
+      "title": "C",
+      "ordinal": 7,
+      "start_line": 71,
+      "end_line": 74,
+      "occurrence": 1
+    },
+    {
+      "id": "S7",
+      "title": "第二部分：阅读理解（共两节，38分）",
+      "ordinal": 8,
+      "start_line": 75,
+      "end_line": 80,
+      "occurrence": 1
+    },
+    {
+      "id": "S8",
+      "title": "A",
+      "ordinal": 9,
+      "start_line": 81,
+      "end_line": 122,
+      "occurrence": 2
+    },
+    {
+      "id": "S9",
+      "title": "B",
+      "ordinal": 10,
+      "start_line": 123,
+      "end_line": 184,
+      "occurrence": 2
+    },
+    {
+      "id": "S10",
+      "title": "C",
+      "ordinal": 11,
+      "start_line": 185,
+      "end_line": 234,
+      "occurrence": 2
+    },
+    {
+      "id": "S11",
+      "title": "D",
+      "ordinal": 12,
+      "start_line": 235,
+      "end_line": 283,
+      "occurrence": 1
+    },
+    {
+      "id": "S12",
+      "title": "第二节(共5小题;每小题2分,共10分)",
+      "ordinal": 13,
+      "start_line": 284,
+      "end_line": 287,
+      "occurrence": 1
+    },
+    {
+      "id": "S13",
+      "title": "The Case for Classics",
+      "ordinal": 14,
+      "start_line": 288,
+      "end_line": 317,
+      "occurrence": 1
+    },
+    {
+      "id": "S14",
+      "title": "第三部分：书面表达（共两节，32分）",
+      "ordinal": 15,
+      "start_line": 318,
+      "end_line": 319,
+      "occurrence": 1
+    },
+    {
+      "id": "S15",
+      "title": "第一节阅读表达(共4小题;第1、2题各2分,第3题3分,第4题5分,共12分)",
+      "ordinal": 16,
+      "start_line": 320,
+      "end_line": 343,
+      "occurrence": 1
+    },
+    {
+      "id": "S16",
+      "title": "第二节 应用文写作(共20分)",
+      "ordinal": 17,
+      "start_line": 344,
+      "end_line": 365,
+      "occurrence": 1
+    },
+    {
+      "id": "S17",
+      "title": "2021 北京丰台高三二模英语",
+      "ordinal": 18,
+      "start_line": 366,
+      "end_line": 371,
+      "occurrence": 1
+    },
+    {
+      "id": "S18",
+      "title": "第一部分 知识运用",
+      "ordinal": 19,
+      "start_line": 372,
+      "end_line": 387,
+      "occurrence": 1
+    },
+    {
+      "id": "S19",
+      "title": "第二部分 阅读理解",
+      "ordinal": 20,
+      "start_line": 388,
+      "end_line": 397,
+      "occurrence": 1
+    },
+    {
+      "id": "S20",
+      "title": "第三部分 书面表达",
+      "ordinal": 21,
+      "start_line": 398,
+      "end_line": 423,
+      "occurrence": 1
+    },
+    {
+      "id": "S21",
+      "title": "二、 语言：准确、连贯。",
+      "ordinal": 22,
+      "start_line": 424,
+      "end_line": 429,
+      "occurrence": 1
+    },
+    {
+      "id": "S22",
+      "title": "【第2题】",
+      "ordinal": 23,
+      "start_line": 430,
+      "end_line": 441,
+      "occurrence": 1
+    },
+    {
+      "id": "S23",
+      "title": "【第3题】",
+      "ordinal": 24,
+      "start_line": 442,
+      "end_line": 443,
+      "occurrence": 1
+    },
+    {
+      "id": "S24",
+      "title": "一、 划线标准",
+      "ordinal": 25,
+      "start_line": 444,
+      "end_line": 524,
+      "occurrence": 1
+    },
+    {
+      "id": "S25",
+      "title": "【注释】",
+      "ordinal": 26,
+      "start_line": 525,
+      "end_line": 537,
+      "occurrence": 1
+    }
+  ],
+  "source_content_sha256": "3dd4a874757ec698b7bb288dbad4a0f298f916db618af510b8f60e21426d49df"
+}

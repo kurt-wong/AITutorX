@@ -1,0 +1,20 @@
+{
+  "captured_at": "2026-10-02T06:11:48.630900+00:00",
+  "producer_material_lines": {
+    "definition": "reslice_pipeline.py prompt schema: [起始行号, 结束行号]",
+    "validation": "chk_range rg[0]>=1, rg[1]<=n_lines, rg[0]<=rg[1] (start==end legal → single line)",
+    "semantics": "INCLUSIVE content line range (material ⊆ questions; image baseline treats as content zone)",
+    "evidence": "reslice_pipeline.py:312,391-397,581-584; reslice_qc.py C12 material⊆questions"
+  },
+  "resolver_marker_interior": {
+    "definition": "resolver.py:_material_span multi_line_pair",
+    "semantics": "EXCLUSIVE interior between marker lines: refs = between(s_seq+1, e_seq)",
+    "evidence": "resolver.py:485-496 comment 'material 正文 = start/end marker 之间（排他）'"
+  },
+  "bridge_used_in_1_3": {
+    "mapping": "start_marker.text = source line at material_lines[0]; end_marker.text = line at material_lines[1]",
+    "effect": "Producer inclusive content endpoints become markers; resolver returns INTERIOR only",
+    "mismatch": "MISALIGNED — drops first and last content lines; N<=2 → INTERIOR_EMPTY"
+  },
+  "q5_alignment": "MISALIGNED"
+}

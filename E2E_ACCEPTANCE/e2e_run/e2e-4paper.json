@@ -1,0 +1,114 @@
+{
+  "database": "aitutors_e2e_4paper",
+  "code": "2ab57e5 + composite no-fake-single + ir no-empty-subs",
+  "papers": [
+    {
+      "label": "chem-2018-spring-huikao-teacher",
+      "md_sha": "0443945f4672b05da3d2d950b0a3eb20a495c1635c353c024c8c050b7fad1ffb",
+      "pdf_sha": "8d3f9dad0918567b3ef375a57843d5d28d1eff77dfac467ff9eddc0f3c4f3a23",
+      "units": 40,
+      "candidates": {
+        "approved": 21,
+        "pending_review": 3
+      },
+      "questions": 21,
+      "with_stem_answer_option": 21,
+      "missing_stem_or_answer": 0,
+      "task_status": "succeeded",
+      "samples": [
+        {
+          "qn": "1",
+          "stem": "1\\. 2017年，我国科学家实现了二氧化碳高稳定性加氢合成甲醇（CH $ _{3} $OH），在二",
+          "ans": "D"
+        },
+        {
+          "qn": "2",
+          "stem": "2．下列各组元素中，属于同一周期的是\n",
+          "ans": "A"
+        }
+      ]
+    },
+    {
+      "label": "2018北京春季高中会考数学（教师版）(1)",
+      "md_sha": "934dec78dde333d21342f3f9419f524bb68e92645914c3d3db9cf482a282f176",
+      "pdf_sha": "3b87f19f2e212c63f9afc1c159982ecb16fd0da5f36e7745ce5b66e9c46b1fdc",
+      "units": 30,
+      "candidates": {
+        "approved": 25,
+        "pending_review": 5
+      },
+      "questions": 25,
+      "with_stem_answer_option": 25,
+      "missing_stem_or_answer": 0,
+      "task_status": "succeeded",
+      "samples": [
+        {
+          "qn": "1",
+          "stem": "1. 函数  $ y=3\\sin x+2 $ 的最小正周期是（）\n",
+          "ans": "【考点】三角函数的周期性及其求法.\n\n【分析】由条件利用函数  $ y = A "
+        },
+        {
+          "qn": "2",
+          "stem": "2. 已知集合 A={1, 2}, B={1, m, 3}，如果 A∩B=A，那么实数 m 等于（）",
+          "ans": "2.\n\n【考点】集合的包含关系判断及应用.\n\n【分析】由  $ A \\cap B"
+        }
+      ]
+    },
+    {
+      "label": "2018北京春季高中会考物理（教师版）(1)",
+      "md_sha": "81ea9b74dd71a577aede6f62fe43c0c53c5e1ff053fd1b1295195fa54c6a4797",
+      "pdf_sha": "98bcc61830a73d6291182f30e2d458a6ac1bbd7839027b1b23b8194682973ae9",
+      "units": 22,
+      "candidates": {
+        "approved": 10,
+        "pending_review": 8
+      },
+      "questions": 10,
+      "with_stem_answer_option": 10,
+      "missing_stem_or_answer": 0,
+      "task_status": "succeeded",
+      "samples": [
+        {
+          "qn": "1",
+          "stem": "1\\. 下列物理量中，属于矢量的是\n",
+          "ans": "D"
+        },
+        {
+          "qn": "2",
+          "stem": "2. 如图 1 所示，书本放置在课桌上，力 F 为桌面对书本的支持力，则 F 的反作用力是\n",
+          "ans": "C"
+        }
+      ]
+    },
+    {
+      "label": "2018北京春季高中会考地理（教师版）(1)",
+      "md_sha": "3f4a7a826b0176ceb86de53b5721de08e1d7d5ba8a364e627c33297d2a3359f0",
+      "pdf_sha": "96344286c837d7fb3a7aa8dbde2642c3c528cfc1cfb06379469cebaa182a50f5",
+      "units": 25,
+      "candidates": {},
+      "questions": 0,
+      "with_stem_answer_option": 0,
+      "missing_stem_or_answer": 0,
+      "task_status": "succeeded",
+      "samples": []
+    }
+  ],
+  "input_hashes": {
+    "chem-2018-spring-huikao-teacher": {
+      "md_sha": "0443945f4672b05da3d2d950b0a3eb20a495c1635c353c024c8c050b7fad1ffb",
+      "pdf_sha": "8d3f9dad0918567b3ef375a57843d5d28d1eff77dfac467ff9eddc0f3c4f3a23"
+    },
+    "2018北京春季高中会考数学（教师版）(1)": {
+      "md_sha": "934dec78dde333d21342f3f9419f524bb68e92645914c3d3db9cf482a282f176",
+      "pdf_sha": "3b87f19f2e212c63f9afc1c159982ecb16fd0da5f36e7745ce5b66e9c46b1fdc"
+    },
+    "2018北京春季高中会考物理（教师版）(1)": {
+      "md_sha": "81ea9b74dd71a577aede6f62fe43c0c53c5e1ff053fd1b1295195fa54c6a4797",
+      "pdf_sha": "98bcc61830a73d6291182f30e2d458a6ac1bbd7839027b1b23b8194682973ae9"
+    },
+    "2018北京春季高中会考地理（教师版）(1)": {
+      "md_sha": "3f4a7a826b0176ceb86de53b5721de08e1d7d5ba8a364e627c33297d2a3359f0",
+      "pdf_sha": "96344286c837d7fb3a7aa8dbde2642c3c528cfc1cfb06379469cebaa182a50f5"
+    }
+  }
+}

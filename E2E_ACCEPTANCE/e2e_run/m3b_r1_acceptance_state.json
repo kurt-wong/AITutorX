@@ -1,0 +1,75 @@
+{
+  "shared": {
+    "documents": 13,
+    "admission_candidates": 0,
+    "questions": 0,
+    "question_instances": 0,
+    "instance_role_contents": 0,
+    "question_feedbacks": "ERR:UndefinedTableError",
+    "qn8": 0
+  },
+  "acceptance": {
+    "documents": 16,
+    "admission_candidates": 25,
+    "questions": 21,
+    "question_instances": 21,
+    "instance_role_contents": 126,
+    "question_feedbacks": 1,
+    "qn8": 1
+  },
+  "testsuite": {
+    "documents": 0,
+    "admission_candidates": 0,
+    "questions": 0,
+    "question_instances": 0,
+    "instance_role_contents": 0,
+    "question_feedbacks": 0,
+    "qn8": 0
+  },
+  "real_q8": {
+    "id": "5f461ef4-1362-417a-bd11-06723bbe0dc9",
+    "subject": "化学",
+    "grade": "高一",
+    "iid": "5ce35672-f285-4cb1-ac9a-75ff7e097a4e",
+    "occurrence_key": "13e7a1366f7a55e3619c234998b7161088896c9061804213d854e2b818bf1d9c"
+  },
+  "real_feedback": {
+    "id": "50a38c8b-72d8-4a4e-9b87-79ed0a177775",
+    "question_id": "5f461ef4-1362-417a-bd11-06723bbe0dc9",
+    "instance_id": "5ce35672-f285-4cb1-ac9a-75ff7e097a4e",
+    "category": "latex_render_error",
+    "description": "选项B/C/D公式下标显示异常（E2E验收）"
+  },
+  "q8_content": [
+    {
+      "role": "answer",
+      "label": "",
+      "t": "C"
+    },
+    {
+      "role": "option",
+      "label": "A",
+      "t": " HCl"
+    },
+    {
+      "role": "option",
+      "label": "B",
+      "t": " $CO_{2}$"
+    },
+    {
+      "role": "option",
+      "label": "C",
+      "t": " $MgCl_{2}$"
+    },
+    {
+      "role": "option",
+      "label": "D",
+      "t": " $CH_{4}$"
+    },
+    {
+      "role": "stem",
+      "label": "",
+      "t": "8．下列物质中，含有离子键的是\n"
+    }
+  ]
+}

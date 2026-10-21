@@ -1,0 +1,29 @@
+{
+  "database": "aitutors_e2e_4paper",
+  "run_id": "baae0135-650d-4a29-ad66-3021e8246dfc-030d54f3",
+  "stages": {
+    "input_units": 25,
+    "identity_ok": 0,
+    "ir_ready": 0,
+    "candidates": 0,
+    "questions": 0,
+    "question_instances": 0,
+    "pending_review": 0
+  },
+  "n_failures": 25,
+  "sample_reasons": [
+    "shared component material unresolved; composite has no sub_questions",
+    "shared component material unresolved; composite has no sub_questions",
+    "shared component material unresolved; composite has no sub_questions",
+    "shared component material unresolved; composite has no sub_questions"
+  ],
+  "unit_ids": [
+    "U1-2",
+    "U3-5",
+    "U6-7",
+    "U8-9"
+  ],
+  "reasons_match_ir_validator": false,
+  "no_leaf_drift": true,
+  "funnel_file": "baae0135-650d-4a29-ad66-3021e8246dfc_baae0135-650d-4a29-ad66-3021e8246dfc-030d54f3.json"
+}

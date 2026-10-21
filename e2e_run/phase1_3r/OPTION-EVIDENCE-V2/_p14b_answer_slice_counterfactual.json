@@ -1,0 +1,5563 @@
+{
+  "choice_leaves": 183,
+  "pending_leaves": 27,
+  "pending_answer_token": 2,
+  "pending_answer_blob": 25,
+  "answer_slice_unlockable_upper_bound": 25,
+  "not_unlockable": 0,
+  "rows": [
+    {
+      "paper": "化学",
+      "root": "Q7",
+      "leaf": "Q7",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        513,
+        513
+      ],
+      "manifest_options_lines": [
+        40,
+        40
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q8",
+      "leaf": "Q8",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        513,
+        513
+      ],
+      "manifest_options_lines": [
+        44,
+        44
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q10",
+      "leaf": "Q10",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        513,
+        513
+      ],
+      "manifest_options_lines": [
+        57,
+        63
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q11",
+      "leaf": "Q11",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        513,
+        513
+      ],
+      "manifest_options_lines": [
+        67,
+        73
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q12",
+      "leaf": "Q12",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        513,
+        513
+      ],
+      "manifest_options_lines": [
+        85,
+        91
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q13",
+      "leaf": "Q13",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        513,
+        513
+      ],
+      "manifest_options_lines": [
+        95,
+        95
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q14",
+      "leaf": "Q14",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        513,
+        513
+      ],
+      "manifest_options_lines": [
+        99,
+        101
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q15",
+      "leaf": "Q15",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        513,
+        513
+      ],
+      "manifest_options_lines": [
+        105,
+        107
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q16",
+      "leaf": "Q16",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        513,
+        513
+      ],
+      "manifest_options_lines": [
+        113,
+        119
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q17",
+      "leaf": "Q17",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "H",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        513,
+        513
+      ],
+      "manifest_options_lines": [
+        123,
+        129
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "H",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q18",
+      "leaf": "Q18",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        513,
+        513
+      ],
+      "manifest_options_lines": [
+        138,
+        140
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q20",
+      "leaf": "Q20",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        513,
+        513
+      ],
+      "manifest_options_lines": [
+        151,
+        159
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q21",
+      "leaf": "Q21",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        513,
+        513
+      ],
+      "manifest_options_lines": [
+        163,
+        165
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q22",
+      "leaf": "Q22",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        513,
+        513
+      ],
+      "manifest_options_lines": [
+        176,
+        184
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q23",
+      "leaf": "Q23",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        513,
+        513
+      ],
+      "manifest_options_lines": [
+        188,
+        194
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q1",
+      "leaf": "Q1",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        637,
+        637
+      ],
+      "manifest_options_lines": [
+        11,
+        11
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q2",
+      "leaf": "Q2",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        643,
+        643
+      ],
+      "manifest_options_lines": [
+        18,
+        18
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q3",
+      "leaf": "Q3",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        651,
+        651
+      ],
+      "manifest_options_lines": [
+        22,
+        28
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q4",
+      "leaf": "Q4",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        655,
+        655
+      ],
+      "manifest_options_lines": [
+        32,
+        38
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q5",
+      "leaf": "Q5",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        661,
+        661
+      ],
+      "manifest_options_lines": [
+        42,
+        48
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q6",
+      "leaf": "Q6",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        669,
+        669
+      ],
+      "manifest_options_lines": [
+        54,
+        60
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q7",
+      "leaf": "Q7",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        679,
+        679
+      ],
+      "manifest_options_lines": [
+        64,
+        70
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q8",
+      "leaf": "Q8",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        685,
+        685
+      ],
+      "manifest_options_lines": [
+        77,
+        77
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q9",
+      "leaf": "Q9",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        691,
+        691
+      ],
+      "manifest_options_lines": [
+        81,
+        87
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q10",
+      "leaf": "Q10",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        697,
+        697
+      ],
+      "manifest_options_lines": [
+        94,
+        94
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q11",
+      "leaf": "Q11",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        703,
+        703
+      ],
+      "manifest_options_lines": [
+        98,
+        104
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q12",
+      "leaf": "Q12",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        709,
+        709
+      ],
+      "manifest_options_lines": [
+        112,
+        118
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q13",
+      "leaf": "Q13",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        719,
+        719
+      ],
+      "manifest_options_lines": [
+        122,
+        122
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q14",
+      "leaf": "Q14",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        725,
+        725
+      ],
+      "manifest_options_lines": [
+        134,
+        140
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q15",
+      "leaf": "Q15",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        731,
+        731
+      ],
+      "manifest_options_lines": [
+        144,
+        150
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q16",
+      "leaf": "Q16",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        737,
+        737
+      ],
+      "manifest_options_lines": [
+        157,
+        163
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q17",
+      "leaf": "Q17",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        743,
+        743
+      ],
+      "manifest_options_lines": [
+        167,
+        167
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q18",
+      "leaf": "Q18",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        751,
+        751
+      ],
+      "manifest_options_lines": [
+        173,
+        179
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q19",
+      "leaf": "Q19",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        761,
+        761
+      ],
+      "manifest_options_lines": [
+        186,
+        192
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q20",
+      "leaf": "Q20",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        769,
+        769
+      ],
+      "manifest_options_lines": [
+        196,
+        202
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q21",
+      "leaf": "Q21",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        775,
+        775
+      ],
+      "manifest_options_lines": [
+        206,
+        212
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q22",
+      "leaf": "Q22",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        781,
+        781
+      ],
+      "manifest_options_lines": [
+        216,
+        222
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q23",
+      "leaf": "Q23",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        787,
+        787
+      ],
+      "manifest_options_lines": [
+        236,
+        242
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q24",
+      "leaf": "Q24",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        793,
+        793
+      ],
+      "manifest_options_lines": [
+        246,
+        252
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q25",
+      "leaf": "Q25",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        807,
+        807
+      ],
+      "manifest_options_lines": [
+        256,
+        262
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q26",
+      "leaf": "Q26",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        813,
+        813
+      ],
+      "manifest_options_lines": [
+        269,
+        275
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q27",
+      "leaf": "Q27",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        819,
+        819
+      ],
+      "manifest_options_lines": [
+        279,
+        285
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q28",
+      "leaf": "Q28",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        825,
+        825
+      ],
+      "manifest_options_lines": [
+        289,
+        297
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q29",
+      "leaf": "Q29",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        831,
+        831
+      ],
+      "manifest_options_lines": [
+        301,
+        307
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q30",
+      "leaf": "Q30",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        837,
+        837
+      ],
+      "manifest_options_lines": [
+        319,
+        325
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q31",
+      "leaf": "Q31",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        843,
+        843
+      ],
+      "manifest_options_lines": [
+        329,
+        335
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q32",
+      "leaf": "Q32",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        851,
+        851
+      ],
+      "manifest_options_lines": [
+        339,
+        345
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q33",
+      "leaf": "Q33",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        857,
+        857
+      ],
+      "manifest_options_lines": [
+        349,
+        355
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q34",
+      "leaf": "Q34",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        865,
+        865
+      ],
+      "manifest_options_lines": [
+        361,
+        361
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q35",
+      "leaf": "Q35",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        871,
+        871
+      ],
+      "manifest_options_lines": [
+        365,
+        371
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q36",
+      "leaf": "Q36",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        877,
+        877
+      ],
+      "manifest_options_lines": [
+        378,
+        384
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q37",
+      "leaf": "Q37",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        883,
+        883
+      ],
+      "manifest_options_lines": [
+        388,
+        394
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q38",
+      "leaf": "Q38",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        891,
+        891
+      ],
+      "manifest_options_lines": [
+        398,
+        404
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q39",
+      "leaf": "Q39",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        897,
+        897
+      ],
+      "manifest_options_lines": [
+        408,
+        414
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q40",
+      "leaf": "Q40",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        903,
+        903
+      ],
+      "manifest_options_lines": [
+        418,
+        426
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q41",
+      "leaf": "Q41",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        909,
+        909
+      ],
+      "manifest_options_lines": [
+        430,
+        430
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q42",
+      "leaf": "Q42",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        915,
+        915
+      ],
+      "manifest_options_lines": [
+        434,
+        440
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q43",
+      "leaf": "Q43",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        921,
+        921
+      ],
+      "manifest_options_lines": [
+        444,
+        450
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q44",
+      "leaf": "Q44",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        931,
+        931
+      ],
+      "manifest_options_lines": [
+        454,
+        460
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q45",
+      "leaf": "Q45",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        939,
+        939
+      ],
+      "manifest_options_lines": [
+        464,
+        470
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q46",
+      "leaf": "Q46",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        953,
+        953
+      ],
+      "manifest_options_lines": [
+        474,
+        474
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q47",
+      "leaf": "Q47",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        959,
+        959
+      ],
+      "manifest_options_lines": [
+        478,
+        484
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q48",
+      "leaf": "Q48",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        969,
+        969
+      ],
+      "manifest_options_lines": [
+        498,
+        504
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q49",
+      "leaf": "Q49",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        975,
+        975
+      ],
+      "manifest_options_lines": [
+        516,
+        522
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q50",
+      "leaf": "Q50",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "【答案】D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        981,
+        981
+      ],
+      "manifest_options_lines": [
+        526,
+        532
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U1-2",
+      "leaf": "U1-2.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        601,
+        601
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U3-5",
+      "leaf": "U3-5.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        601,
+        601
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U6-7",
+      "leaf": "U6-7.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        601,
+        601
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U8-9",
+      "leaf": "U8-9.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        601,
+        601
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U10-12",
+      "leaf": "U10-12.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        601,
+        601
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U13-15",
+      "leaf": "U13-15.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        601,
+        601
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U16-17",
+      "leaf": "U16-17.sub",
+      "decision": "rejected",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        601,
+        601
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U18-20",
+      "leaf": "U18-20.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        601,
+        601
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U21-23",
+      "leaf": "U21-23.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        601,
+        601
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U24-25",
+      "leaf": "U24-25.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        601,
+        601
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U26-29",
+      "leaf": "U26-29.sub",
+      "decision": "rejected",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        601,
+        601
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U30-31",
+      "leaf": "U30-31.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        601,
+        601
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U32-33",
+      "leaf": "U32-33.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        601,
+        601
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U34-35",
+      "leaf": "U34-35.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        601,
+        601
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U36-39",
+      "leaf": "U36-39.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        601,
+        601
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U40-41",
+      "leaf": "U40-41.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        601,
+        601
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U42-43",
+      "leaf": "U42-43.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        601,
+        601
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U44-46",
+      "leaf": "U44-46.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        601,
+        601
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U47-48",
+      "leaf": "U47-48.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        601,
+        601
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U49-50",
+      "leaf": "U49-50.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        601,
+        601
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q1",
+      "leaf": "Q1",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        552,
+        552
+      ],
+      "manifest_options_lines": [
+        15,
+        17
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q2",
+      "leaf": "Q2",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        552,
+        552
+      ],
+      "manifest_options_lines": [
+        33,
+        39
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q3",
+      "leaf": "Q3",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        552,
+        552
+      ],
+      "manifest_options_lines": [
+        47,
+        47
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q4",
+      "leaf": "Q4",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        552,
+        552
+      ],
+      "manifest_options_lines": [
+        57,
+        59
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q5",
+      "leaf": "Q5",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        552,
+        552
+      ],
+      "manifest_options_lines": [
+        65,
+        65
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q8",
+      "leaf": "Q8",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        552,
+        552
+      ],
+      "manifest_options_lines": [
+        82,
+        84
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q11",
+      "leaf": "Q11",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        552,
+        552
+      ],
+      "manifest_options_lines": [
+        109,
+        111
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q12",
+      "leaf": "Q12",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        552,
+        552
+      ],
+      "manifest_options_lines": [
+        117,
+        123
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q15",
+      "leaf": "Q15",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        552,
+        552
+      ],
+      "manifest_options_lines": [
+        159,
+        159
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q16",
+      "leaf": "Q16",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        552,
+        552
+      ],
+      "manifest_options_lines": [
+        163,
+        169
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q17",
+      "leaf": "Q17",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        552,
+        552
+      ],
+      "manifest_options_lines": [
+        195,
+        201
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q18",
+      "leaf": "Q18",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        552,
+        552
+      ],
+      "manifest_options_lines": [
+        205,
+        211
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q19",
+      "leaf": "Q19",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        552,
+        552
+      ],
+      "manifest_options_lines": [
+        223,
+        223
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q20",
+      "leaf": "Q20",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        552,
+        552
+      ],
+      "manifest_options_lines": [
+        227,
+        229
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q21",
+      "leaf": "Q21",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        552,
+        552
+      ],
+      "manifest_options_lines": [
+        255,
+        255
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q22",
+      "leaf": "Q22",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        552,
+        552
+      ],
+      "manifest_options_lines": [
+        267,
+        267
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q23",
+      "leaf": "Q23",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        552,
+        552
+      ],
+      "manifest_options_lines": [
+        271,
+        277
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q24",
+      "leaf": "Q24",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        552,
+        552
+      ],
+      "manifest_options_lines": [
+        285,
+        285
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q27",
+      "leaf": "Q27",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        552,
+        552
+      ],
+      "manifest_options_lines": [
+        327,
+        333
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q28",
+      "leaf": "Q28",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        552,
+        552
+      ],
+      "manifest_options_lines": [
+        354,
+        360
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q1",
+      "leaf": "Q1",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 151,
+      "answer_head": "【考点】三角函数的周期性及其求法.\n\n【分析】由条件利用函数  $ y = A ",
+      "terminal_answer_letter": "D",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        200,
+        206
+      ],
+      "manifest_options_lines": [
+        9,
+        9
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q2",
+      "leaf": "Q2",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 191,
+      "answer_head": "【考点】集合的包含关系判断及应用.\n\n【分析】由  $ A \\cap B = A",
+      "terminal_answer_letter": "C",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        208,
+        222
+      ],
+      "manifest_options_lines": [
+        13,
+        13
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q3",
+      "leaf": "Q3",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 205,
+      "answer_head": "【考点】平面向量的坐标运算.\n\n【分析】根据向量的坐标的运算法则计算即可.\n\n【",
+      "terminal_answer_letter": "B",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        224,
+        232
+      ],
+      "manifest_options_lines": [
+        17,
+        17
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q4",
+      "leaf": "Q4",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer_len": 96,
+      "answer_head": "【考点】余弦函数的图象.\n\n【分析】根据当自变量相同时，它们的函数值相反，可得它",
+      "terminal_answer_letter": "A",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        234,
+        240
+      ],
+      "manifest_options_lines": [
+        21,
+        23
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q5",
+      "leaf": "Q5",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 128,
+      "answer_head": "【考点】程序框图.\n\n【分析】根据题意，模拟程序框图的运行过程，即可得出输出的结",
+      "terminal_answer_letter": "C",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        242,
+        258
+      ],
+      "manifest_options_lines": [
+        30,
+        30
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q6",
+      "leaf": "Q6",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 171,
+      "answer_head": "【考点】直线的一般式方程与直线的平行关系.\n\n【分析】设所求的方程为 x - y",
+      "terminal_answer_letter": "A",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        260,
+        272
+      ],
+      "manifest_options_lines": [
+        34,
+        34
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q7",
+      "leaf": "Q7",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 175,
+      "answer_head": "【考点】分层抽样方法.\n\n【分析】先求出每个个体被抽到的概率，用每层的个体数乘以",
+      "terminal_answer_letter": "B",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        274,
+        284
+      ],
+      "manifest_options_lines": [
+        38,
+        38
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q8",
+      "leaf": "Q8",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 195,
+      "answer_head": "【考点】余弦定理.\n\n【分析】由已知及余弦定理即可求值得解.\n\n【解答】解：∵$",
+      "terminal_answer_letter": "C",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        286,
+        296
+      ],
+      "manifest_options_lines": [
+        42,
+        42
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q9",
+      "leaf": "Q9",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 177,
+      "answer_head": "【考点】古典概型及其概率计算公式.\n\n【分析】根据题意，易得口袋中有6个球，其中",
+      "terminal_answer_letter": "D",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        298,
+        310
+      ],
+      "manifest_options_lines": [
+        48,
+        48
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q10",
+      "leaf": "Q10",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 341,
+      "answer_head": "【考点】平面向量数量积的运算.\n\n【分析】求出 $ \\overrightarro",
+      "terminal_answer_letter": "A",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        314,
+        324
+      ],
+      "manifest_options_lines": [
+        52,
+        52
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q11",
+      "leaf": "Q11",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 253,
+      "answer_head": "【考点】等比数列的前 n 项和.\n\n【分析】由已知得训练 n 天产生的总数据量为",
+      "terminal_answer_letter": "D",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        326,
+        336
+      ],
+      "manifest_options_lines": [
+        56,
+        56
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q12",
+      "leaf": "Q12",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 172,
+      "answer_head": "【考点】二倍角的余弦.\n\n【分析】利用诱导公式，二倍角的余弦函数公式即可求值得解",
+      "terminal_answer_letter": "B",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        338,
+        348
+      ],
+      "manifest_options_lines": [
+        60,
+        60
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q13",
+      "leaf": "Q13",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 97,
+      "answer_head": "【考点】函数的图象.\n\n【分析】把点（1，1）代入各个选项检验，可得结论.\n\n【",
+      "terminal_answer_letter": "A",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        350,
+        356
+      ],
+      "manifest_options_lines": [
+        64,
+        64
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q14",
+      "leaf": "Q14",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 123,
+      "answer_head": "【考点】对数的运算性质.\n\n【分析】根据对数的运算法则计算即可.\n\n【解答】解：",
+      "terminal_answer_letter": "B",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        358,
+        368
+      ],
+      "manifest_options_lines": [
+        68,
+        68
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q15",
+      "leaf": "Q15",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 250,
+      "answer_head": "【考点】由三视图求面积、体积.\n\n【分析】由几何体的三视图得出原几何体一个底面为",
+      "terminal_answer_letter": "C",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        370,
+        384
+      ],
+      "manifest_options_lines": [
+        90,
+        90
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q16",
+      "leaf": "Q16",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 332,
+      "answer_head": "16.\n\n【考点】不等式的基本性质.\n\n【分析】通过特殊值判断①②，通过通分判断",
+      "terminal_answer_letter": "D",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        386,
+        404
+      ],
+      "manifest_options_lines": [
+        94,
+        94
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q17",
+      "leaf": "Q17",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 948,
+      "answer_head": "17.\n\n【考点】平面与平面平行的判定；直线与平面平行的判定．\n\n【分析】由  ",
+      "terminal_answer_letter": "A",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        406,
+        430
+      ],
+      "manifest_options_lines": [
+        107,
+        107
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q18",
+      "leaf": "Q18",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 168,
+      "answer_head": "【考点】圆与圆的位置关系及其判定.\n\n【分析】两个圆有且只有一个公共点，两个圆内",
+      "terminal_answer_letter": "C",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        434,
+        448
+      ],
+      "manifest_options_lines": [
+        111,
+        111
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q19",
+      "leaf": "Q19",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 166,
+      "answer_head": "【考点】两点间距离公式的应用.\n\n【分析】根据两点间的距离公式表示 $ |BO|",
+      "terminal_answer_letter": "C",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        450,
+        462
+      ],
+      "manifest_options_lines": [
+        115,
+        115
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q20",
+      "leaf": "Q20",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 194,
+      "answer_head": "【考点】指数函数的图象与性质.\n\n【分析】由已知可得  $ x_{1}+x_{2",
+      "terminal_answer_letter": "A",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        464,
+        470
+      ],
+      "manifest_options_lines": [
+        119,
+        119
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q21",
+      "leaf": "Q21",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 311,
+      "answer_head": "【考点】二元一次不等式（组）与平面区域.\n\n【分析】作出平面区域，根据图形找出 ",
+      "terminal_answer_letter": "B",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        472,
+        484
+      ],
+      "manifest_options_lines": [
+        123,
+        123
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q22",
+      "leaf": "Q22",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 603,
+      "answer_head": "【考点】函数的定义域及其求法；函数的值域；函数奇偶性的判断.\n\n【分析】根据 f",
+      "terminal_answer_letter": "C",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        487,
+        523
+      ],
+      "manifest_options_lines": [
+        133,
+        133
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q23",
+      "leaf": "Q23",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 180,
+      "answer_head": "---\n\n【考点】函数的值.\n\n【分析】按原来的退休政策，她应该于：1964+5",
+      "terminal_answer_letter": "B",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        525,
+        541
+      ],
+      "manifest_options_lines": [
+        137,
+        137
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q24",
+      "leaf": "Q24",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 598,
+      "answer_head": "【考点】两角和与差的正弦函数.\n\n【分析】需要分类讨论，当 a=0 时，和当  ",
+      "terminal_answer_letter": "D",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        543,
+        565
+      ],
+      "manifest_options_lines": [
+        141,
+        141
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q25",
+      "leaf": "Q25",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 182,
+      "answer_head": "【考点】计数原理的应用.\n\n【分析】列举所有排法，即可得出结论.\n\n【解答】解：",
+      "terminal_answer_letter": "B",
+      "terminal_in_labels": true,
+      "manifest_answer_lines": [
+        567,
+        575
+      ],
+      "manifest_options_lines": [
+        153,
+        153
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "物理",
+      "root": "Q1",
+      "leaf": "Q1",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        356,
+        356
+      ],
+      "manifest_options_lines": [
+        14,
+        16
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "物理",
+      "root": "Q2",
+      "leaf": "Q2",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        356,
+        356
+      ],
+      "manifest_options_lines": [
+        20,
+        26
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "物理",
+      "root": "Q3",
+      "leaf": "Q3",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        356,
+        356
+      ],
+      "manifest_options_lines": [
+        36,
+        38
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "物理",
+      "root": "Q4",
+      "leaf": "Q4",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        356,
+        356
+      ],
+      "manifest_options_lines": [
+        42,
+        48
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "物理",
+      "root": "Q5",
+      "leaf": "Q5",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        356,
+        356
+      ],
+      "manifest_options_lines": [
+        58,
+        60
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "物理",
+      "root": "Q6",
+      "leaf": "Q6",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        356,
+        356
+      ],
+      "manifest_options_lines": [
+        74,
+        76
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "物理",
+      "root": "Q7",
+      "leaf": "Q7",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        356,
+        356
+      ],
+      "manifest_options_lines": [
+        80,
+        80
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "物理",
+      "root": "Q8",
+      "leaf": "Q8",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        356,
+        356
+      ],
+      "manifest_options_lines": [
+        90,
+        96
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "物理",
+      "root": "U9-11",
+      "leaf": "U9-11.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        356,
+        356
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "物理",
+      "root": "U12-14",
+      "leaf": "U12-14.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        356,
+        356
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "物理",
+      "root": "Q15",
+      "leaf": "Q15",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        356,
+        356
+      ],
+      "manifest_options_lines": [
+        160,
+        160
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "物理",
+      "root": "Q17",
+      "leaf": "Q17",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        356,
+        356
+      ],
+      "manifest_options_lines": [
+        193,
+        199
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "物理",
+      "root": "U18-20",
+      "leaf": "U18-20.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        356,
+        356
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q11",
+      "leaf": "Q11",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        98,
+        104
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q12",
+      "leaf": "Q12",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        108,
+        114
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q13",
+      "leaf": "Q13",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        118,
+        124
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q14",
+      "leaf": "Q14",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        128,
+        134
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q15",
+      "leaf": "Q15",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        140,
+        140
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q16",
+      "leaf": "Q16",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        144,
+        150
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q17",
+      "leaf": "Q17",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        154,
+        160
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q18",
+      "leaf": "Q18",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        164,
+        164
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q19",
+      "leaf": "Q19",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        168,
+        168
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q20",
+      "leaf": "Q20",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        172,
+        172
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q21",
+      "leaf": "Q21",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        176,
+        182
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q22",
+      "leaf": "Q22",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        186,
+        192
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q23",
+      "leaf": "Q23",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        196,
+        202
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q24",
+      "leaf": "Q24",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        206,
+        212
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q25",
+      "leaf": "Q25",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        218,
+        224
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q26",
+      "leaf": "Q26",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        228,
+        228
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q27",
+      "leaf": "Q27",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        232,
+        232
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q28",
+      "leaf": "Q28",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        236,
+        242
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q29",
+      "leaf": "Q29",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        246,
+        248
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q31",
+      "leaf": "Q31",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        257,
+        257
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q32",
+      "leaf": "Q32",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        261,
+        261
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q33",
+      "leaf": "Q33",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        265,
+        271
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q34",
+      "leaf": "Q34",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        277,
+        283
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q35",
+      "leaf": "Q35",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        287,
+        289
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q36",
+      "leaf": "Q36",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        293,
+        295
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q37",
+      "leaf": "Q37",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        299,
+        305
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q38",
+      "leaf": "Q38",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        309,
+        309
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q39",
+      "leaf": "Q39",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        313,
+        313
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q40",
+      "leaf": "Q40",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 1,
+      "answer_head": "D",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        497,
+        497
+      ],
+      "manifest_options_lines": [
+        317,
+        323
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "英语",
+      "root": "Q1",
+      "leaf": "Q1.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        451,
+        451
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "paper": "英语",
+      "root": "Q2",
+      "leaf": "Q2.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        451,
+        451
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "paper": "英语",
+      "root": "Q4",
+      "leaf": "Q4.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer_len": 1,
+      "answer_head": "B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        451,
+        451
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "paper": "英语",
+      "root": "Q5-6",
+      "leaf": "Q5-6.sub",
+      "decision": "pending_review",
+      "grammar": null,
+      "labels": [
+        "A",
+        "B"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        451,
+        451
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "paper": "英语",
+      "root": "Q7-8",
+      "leaf": "Q7-8.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        451,
+        451
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "paper": "英语",
+      "root": "Q9-11",
+      "leaf": "Q9-11.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer_len": 1,
+      "answer_head": "C",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        451,
+        451
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "paper": "英语",
+      "root": "Q12-14",
+      "leaf": "Q12-14.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer_len": 1,
+      "answer_head": "A",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        451,
+        451
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "paper": "英语",
+      "root": "Q15-17",
+      "leaf": "Q15-17.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer_len": 1,
+      "answer_head": "B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        451,
+        451
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "paper": "英语",
+      "root": "Q18-20",
+      "leaf": "Q18-20.sub",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer_len": 1,
+      "answer_head": "B",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        453,
+        453
+      ],
+      "manifest_options_lines": null,
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "paper": "语文",
+      "root": "Q6",
+      "leaf": "Q6",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "D（2分）",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        362,
+        362
+      ],
+      "manifest_options_lines": [
+        56,
+        62
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "paper": "语文",
+      "root": "Q7",
+      "leaf": "Q7",
+      "decision": "auto_approve",
+      "grammar": true,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_len": 5,
+      "answer_head": "C（3分）",
+      "terminal_answer_letter": null,
+      "terminal_in_labels": null,
+      "manifest_answer_lines": [
+        364,
+        364
+      ],
+      "manifest_options_lines": [
+        66,
+        72
+      ],
+      "manifest_declared_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    }
+  ]
+}

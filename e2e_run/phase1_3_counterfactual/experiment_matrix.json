@@ -1,0 +1,167 @@
+{
+  "captured_at": "2026-10-02T05:35:06.125959+00:00",
+  "git_binding": {
+    "branch": "od01-r3-convergence",
+    "head": "39840ff8f0b3d7e9e2c75155ba043a8ed6b03aa4",
+    "match_norm": "match-norm/v1.1 dirty blob 015cdfa vs HEAD 73badc3"
+  },
+  "matrix": {
+    "A": {
+      "evidence": "none",
+      "ir_ready": 35,
+      "ir_not_ready": 249,
+      "delta_vs_A": 0,
+      "unresolved_material": 54,
+      "unresolved_answer": 215,
+      "interface": "production-equivalent payload"
+    },
+    "B1": {
+      "evidence": "stem",
+      "ir_ready": null,
+      "ir_not_ready": null,
+      "delta_vs_A": null,
+      "newly_ready": [],
+      "status": "INTERFACE_BLOCKER",
+      "blocker": {
+        "reason": "ResolveTarget for this role has no positional/marker input channel",
+        "stem": "reference.py:_stem_target uses only question_label (172-183)",
+        "option": "reference.py:_option_target uses only label/question_label (186-199)",
+        "answer": "reference.py:_answer_target uses only answer_zone/question_label (202-218)",
+        "consumer": "resolver._locate_question_start/_locate_options/_answer_span never read line numbers",
+        "why_prev_experiment_invalid": "start_line/end_line injected into role dicts are ignored by extract_targets",
+        "contract_change_needed_for_evidence_use": "ResolveTarget + extract_targets + resolver policy (LEVEL 2)"
+      }
+    },
+    "B2": {
+      "evidence": "option",
+      "ir_ready": null,
+      "ir_not_ready": null,
+      "delta_vs_A": null,
+      "newly_ready": [],
+      "status": "INTERFACE_BLOCKER",
+      "blocker": {
+        "reason": "ResolveTarget for this role has no positional/marker input channel",
+        "stem": "reference.py:_stem_target uses only question_label (172-183)",
+        "option": "reference.py:_option_target uses only label/question_label (186-199)",
+        "answer": "reference.py:_answer_target uses only answer_zone/question_label (202-218)",
+        "consumer": "resolver._locate_question_start/_locate_options/_answer_span never read line numbers",
+        "why_prev_experiment_invalid": "start_line/end_line injected into role dicts are ignored by extract_targets",
+        "contract_change_needed_for_evidence_use": "ResolveTarget + extract_targets + resolver policy (LEVEL 2)"
+      }
+    },
+    "B3": {
+      "evidence": "answer",
+      "ir_ready": null,
+      "ir_not_ready": null,
+      "delta_vs_A": null,
+      "newly_ready": [],
+      "status": "INTERFACE_BLOCKER",
+      "blocker": {
+        "reason": "ResolveTarget for this role has no positional/marker input channel",
+        "stem": "reference.py:_stem_target uses only question_label (172-183)",
+        "option": "reference.py:_option_target uses only label/question_label (186-199)",
+        "answer": "reference.py:_answer_target uses only answer_zone/question_label (202-218)",
+        "consumer": "resolver._locate_question_start/_locate_options/_answer_span never read line numbers",
+        "why_prev_experiment_invalid": "start_line/end_line injected into role dicts are ignored by extract_targets",
+        "contract_change_needed_for_evidence_use": "ResolveTarget + extract_targets + resolver policy (LEVEL 2)"
+      }
+    },
+    "B4": {
+      "evidence": "material (multi_line_pair marker text from producer material_lines)",
+      "ir_ready": 35,
+      "ir_not_ready": 249,
+      "delta_vs_A": 0,
+      "newly_ready_count": 0,
+      "unresolved_material_after": 43,
+      "unresolved_material_before": 54,
+      "materials_injected": 54,
+      "interface": "shared_components.material.start_marker/end_marker (reference.py:_material_target:88-97 → resolver._material_span:467-510)",
+      "bridge": "producer material_lines → sealed source line TEXT as marker strings",
+      "per_document": [
+        {
+          "file_name": "2018北京春季高中会考化学（教师版）(1).md",
+          "injected_materials": 0,
+          "ir_ready": 1,
+          "unresolved_material": 0
+        },
+        {
+          "file_name": "2018北京夏季高中会考历史（教师版）(1).md",
+          "injected_materials": 3,
+          "ir_ready": 1,
+          "unresolved_material": 2
+        },
+        {
+          "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+          "injected_materials": 25,
+          "ir_ready": 0,
+          "unresolved_material": 17
+        },
+        {
+          "file_name": "2018北京夏季高中会考政治（教师版）(1).md",
+          "injected_materials": 2,
+          "ir_ready": 4,
+          "unresolved_material": 2
+        },
+        {
+          "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+          "injected_materials": 0,
+          "ir_ready": 23,
+          "unresolved_material": 0
+        },
+        {
+          "file_name": "2018北京春季高中会考物理（教师版）(1).md",
+          "injected_materials": 3,
+          "ir_ready": 3,
+          "unresolved_material": 2
+        },
+        {
+          "file_name": "2018北京春季高中会考生物（教师版）(1).md",
+          "injected_materials": 0,
+          "ir_ready": 0,
+          "unresolved_material": 0
+        },
+        {
+          "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+          "injected_materials": 17,
+          "ir_ready": 0,
+          "unresolved_material": 17
+        },
+        {
+          "file_name": "2018北京春季高中会考语文（教师版）(1).md",
+          "injected_materials": 4,
+          "ir_ready": 3,
+          "unresolved_material": 3
+        }
+      ]
+    },
+    "C": {
+      "evidence": "all supported channels (only material bridge is valid)",
+      "ir_ready": 35,
+      "ir_not_ready": 249,
+      "delta_vs_A": 0,
+      "newly_ready_count": 0,
+      "note": "C == B4 because stem/option/answer channels are INTERFACE_BLOCKER",
+      "newly_ready_unit_ids": []
+    }
+  },
+  "newly_ready_by_experiment": {
+    "B4": []
+  },
+  "answer_classification": {
+    "answer_missing__position_not_consumed": 167,
+    "answer_ambiguous__position_not_consumed": 13
+  },
+  "composite_material_before_primary": {
+    "material_missing_or_incomplete": 54
+  },
+  "composite_ir_status_after_B4": {
+    "incomplete": 54
+  },
+  "validity": {
+    "A_vs_B4_intended_diff": "shared_components.material gains start_marker/end_marker multi_line_pair text",
+    "reaches_consumer": "extract_targets._material_target reads start_marker/end_marker (reference.py:95-96)",
+    "consumer_function": "resolver._material_span (resolver.py:467-510)",
+    "B1_B2_B3_invalid_if_line_fields_only": true,
+    "production_code_modified": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "focus_copies": {
+    "2018北京夏季高中会考历史（教师版）(1).md": [
+      "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\历史\\2018北京夏季高中会考历史（教师版）(1).md"
+    ],
+    "2018北京春季高中会考化学（教师版）(1).md": [
+      "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\化学\\2018北京春季高中会考化学（教师版）(1).md"
+    ],
+    "2018北京春季高中会考数学（教师版）(1).md": [
+      "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\数学\\2018北京春季高中会考数学（教师版）(1).md",
+      "D:\\Project\\AITutor-X\\e2e_run\\phase1_min_corpus\\2018北京春季高中会考数学（教师版）(1).md"
+    ]
+  },
+  "papers_multi": 4,
+  "identical": 3,
+  "divergent": 1,
+  "models": {
+    "mimo-x-pro-preview": 91
+  },
+  "identity_versions": {
+    "2": 87,
+    "None": 4
+  }
+}

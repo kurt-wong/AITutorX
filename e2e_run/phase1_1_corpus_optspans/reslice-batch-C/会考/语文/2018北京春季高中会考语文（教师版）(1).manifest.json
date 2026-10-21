@@ -1,0 +1,428 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\语文\\2018北京春季高中会考语文（教师版）(1).md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.1",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "U1-5",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        12,
+        16
+      ],
+      "questions_lines": [
+        12,
+        50
+      ],
+      "answer_lines": [
+        346,
+        358
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 文言文阅读（12分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        6
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        54,
+        54
+      ],
+      "options_lines": [
+        56,
+        62
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        362,
+        362
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "二、 文学常识及背诵默写（12分）",
+      "printed_number": [
+        6
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L54",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 56,
+          "end_line": 56
+        },
+        {
+          "label": "B",
+          "start_line": 58,
+          "end_line": 58
+        },
+        {
+          "label": "C",
+          "start_line": 60,
+          "end_line": 60
+        },
+        {
+          "label": "D",
+          "start_line": 62,
+          "end_line": 62
+        }
+      ]
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        7
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        64,
+        64
+      ],
+      "options_lines": [
+        66,
+        72
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        364,
+        364
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "二、 文学常识及背诵默写（12分）",
+      "printed_number": [
+        7
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L64",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 66,
+          "end_line": 66
+        },
+        {
+          "label": "B",
+          "start_line": 68,
+          "end_line": 68
+        },
+        {
+          "label": "C",
+          "start_line": 70,
+          "end_line": 70
+        },
+        {
+          "label": "D",
+          "start_line": 72,
+          "end_line": 72
+        }
+      ]
+    },
+    {
+      "unit_id": "Q8",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        8
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        74,
+        74
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        366,
+        370
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "二、 文学常识及背诵默写（12分）",
+      "printed_number": [
+        8
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L74"
+    },
+    {
+      "unit_id": "Q9",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        9
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        76,
+        76
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        372,
+        374
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "二、 文学常识及背诵默写（12分）",
+      "printed_number": [
+        9
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L76"
+    },
+    {
+      "unit_id": "U10-13",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        80,
+        188
+      ],
+      "questions_lines": [
+        80,
+        234
+      ],
+      "answer_lines": [
+        378,
+        406
+      ],
+      "explanation_lines": null,
+      "section_ref": "S4",
+      "section": "三、 文学类文本阅读（23分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U14",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        14
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        246,
+        260
+      ],
+      "questions_lines": [
+        244,
+        282
+      ],
+      "answer_lines": [
+        412,
+        426
+      ],
+      "explanation_lines": null,
+      "section_ref": "S6",
+      "section": "四、 论述类文本阅读（13分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U15",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        15
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        288,
+        308
+      ],
+      "questions_lines": [
+        286,
+        324
+      ],
+      "answer_lines": [
+        430,
+        446
+      ],
+      "explanation_lines": null,
+      "section_ref": "S7",
+      "section": "五、 实用类文本阅读（13分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q16",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        16
+      ],
+      "original_question_type": "essay",
+      "stem_lines": [
+        328,
+        330
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        448,
+        463
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "六、 作文（40分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q17",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        17
+      ],
+      "original_question_type": "essay",
+      "stem_lines": [
+        332,
+        336
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        448,
+        463
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "六、 作文（40分）",
+      "printed_number": [
+        17
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L332"
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2018 北京春季高中会考",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "语文",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 9,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "一、 文言文阅读（12分）",
+      "ordinal": 3,
+      "start_line": 10,
+      "end_line": 51,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "二、 文学常识及背诵默写（12分）",
+      "ordinal": 4,
+      "start_line": 52,
+      "end_line": 77,
+      "occurrence": 1
+    },
+    {
+      "id": "S4",
+      "title": "三、 文学类文本阅读（23分）",
+      "ordinal": 5,
+      "start_line": 78,
+      "end_line": 235,
+      "occurrence": 1
+    },
+    {
+      "id": "S5",
+      "title": "选答题",
+      "ordinal": 6,
+      "start_line": 236,
+      "end_line": 241,
+      "occurrence": 1
+    },
+    {
+      "id": "S6",
+      "title": "四、 论述类文本阅读（13分）",
+      "ordinal": 7,
+      "start_line": 242,
+      "end_line": 283,
+      "occurrence": 1
+    },
+    {
+      "id": "S7",
+      "title": "五、 实用类文本阅读（13分）",
+      "ordinal": 8,
+      "start_line": 284,
+      "end_line": 325,
+      "occurrence": 1
+    },
+    {
+      "id": "S8",
+      "title": "六、 作文（40分）",
+      "ordinal": 9,
+      "start_line": 326,
+      "end_line": 341,
+      "occurrence": 1
+    },
+    {
+      "id": "S9",
+      "title": "必答题",
+      "ordinal": 10,
+      "start_line": 342,
+      "end_line": 407,
+      "occurrence": 1
+    },
+    {
+      "id": "S10",
+      "title": "选答题",
+      "ordinal": 11,
+      "start_line": 408,
+      "end_line": 463,
+      "occurrence": 2
+    }
+  ],
+  "source_content_sha256": "a25abe4d8c55eeb5f498cbdd0684a26258c9c64f9590a99aa4fcf3bd85edac43"
+}

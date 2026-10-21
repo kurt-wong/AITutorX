@@ -1,0 +1,746 @@
+{
+  "rows": [
+    {
+      "paper": "历史",
+      "unit": "U51",
+      "declared": [
+        536,
+        567
+      ],
+      "derived": [
+        534,
+        567
+      ],
+      "extends_beyond": true,
+      "unresolved": false
+    },
+    {
+      "paper": "历史",
+      "unit": "U52",
+      "declared": [
+        569,
+        592
+      ],
+      "derived": [
+        569,
+        592
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "历史",
+      "unit": "U53",
+      "declared": [
+        594,
+        627
+      ],
+      "derived": [
+        594,
+        629
+      ],
+      "extends_beyond": true,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U1-2",
+      "declared": [
+        9,
+        9
+      ],
+      "derived": [
+        9,
+        9
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U3-5",
+      "declared": [
+        19,
+        19
+      ],
+      "derived": [
+        19,
+        19
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U6-7",
+      "declared": [
+        35,
+        35
+      ],
+      "derived": [
+        35,
+        35
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U8-9",
+      "declared": [
+        45,
+        45
+      ],
+      "derived": [
+        45,
+        45
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U10-12",
+      "declared": [
+        70,
+        72
+      ],
+      "derived": [
+        70,
+        72
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U13-15",
+      "declared": [
+        97,
+        99
+      ],
+      "derived": [
+        97,
+        99
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U16-17",
+      "declared": [
+        133,
+        133
+      ],
+      "derived": [
+        133,
+        133
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U18-20",
+      "declared": [
+        143,
+        143
+      ],
+      "derived": [
+        143,
+        143
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U21-23",
+      "declared": [
+        169,
+        174
+      ],
+      "derived": [
+        169,
+        174
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U24-25",
+      "declared": [
+        194,
+        194
+      ],
+      "derived": [
+        194,
+        194
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U26-29",
+      "declared": [
+        222,
+        222
+      ],
+      "derived": [
+        222,
+        222
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U30-31",
+      "declared": [
+        260,
+        260
+      ],
+      "derived": [
+        260,
+        260
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U32-33",
+      "declared": [
+        274,
+        274
+      ],
+      "derived": [
+        274,
+        274
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U34-35",
+      "declared": [
+        288,
+        288
+      ],
+      "derived": [
+        288,
+        288
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U36-39",
+      "declared": [
+        300,
+        300
+      ],
+      "derived": [
+        300,
+        300
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U40-41",
+      "declared": [
+        330,
+        330
+      ],
+      "derived": [
+        330,
+        330
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U42-43",
+      "declared": [
+        344,
+        344
+      ],
+      "derived": [
+        344,
+        344
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U44-46",
+      "declared": [
+        378,
+        378
+      ],
+      "derived": [
+        378,
+        378
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U47-48",
+      "declared": [
+        410,
+        410
+      ],
+      "derived": [
+        410,
+        410
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U49-50",
+      "declared": [
+        438,
+        438
+      ],
+      "derived": [
+        438,
+        438
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U-P2-1",
+      "declared": [
+        456,
+        467
+      ],
+      "derived": [
+        456,
+        467
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U-P2-2",
+      "declared": [
+        484,
+        506
+      ],
+      "derived": [
+        484,
+        506
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U-P2-3",
+      "declared": [
+        518,
+        532
+      ],
+      "derived": [
+        518,
+        532
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U-P2-4",
+      "declared": [
+        544,
+        548
+      ],
+      "derived": [
+        542,
+        548
+      ],
+      "extends_beyond": true,
+      "unresolved": false
+    },
+    {
+      "paper": "地理",
+      "unit": "U-P2-5",
+      "declared": [
+        570,
+        575
+      ],
+      "derived": [
+        570,
+        575
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "政治",
+      "unit": "U9-10",
+      "declared": [
+        86,
+        86
+      ],
+      "derived": [
+        86,
+        86
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "政治",
+      "unit": "Q37",
+      "declared": [
+        472,
+        496
+      ],
+      "derived": [
+        470,
+        496
+      ],
+      "extends_beyond": true,
+      "unresolved": false
+    },
+    {
+      "paper": "物理",
+      "unit": "U9-11",
+      "declared": [
+        101,
+        108
+      ],
+      "derived": [
+        101,
+        108
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "物理",
+      "unit": "U12-14",
+      "declared": [
+        136,
+        136
+      ],
+      "derived": [
+        136,
+        136
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "物理",
+      "unit": "U18-20",
+      "declared": [
+        201,
+        201
+      ],
+      "derived": [
+        201,
+        201
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "英语",
+      "unit": "Q1",
+      "declared": [
+        497,
+        502
+      ],
+      "derived": null,
+      "extends_beyond": false,
+      "unresolved": true
+    },
+    {
+      "paper": "英语",
+      "unit": "Q2",
+      "declared": [
+        504,
+        507
+      ],
+      "derived": null,
+      "extends_beyond": false,
+      "unresolved": true
+    },
+    {
+      "paper": "英语",
+      "unit": "Q3",
+      "declared": [
+        509,
+        514
+      ],
+      "derived": null,
+      "extends_beyond": false,
+      "unresolved": true
+    },
+    {
+      "paper": "英语",
+      "unit": "Q4",
+      "declared": [
+        516,
+        520
+      ],
+      "derived": null,
+      "extends_beyond": false,
+      "unresolved": true
+    },
+    {
+      "paper": "英语",
+      "unit": "Q5-6",
+      "declared": [
+        522,
+        527
+      ],
+      "derived": null,
+      "extends_beyond": false,
+      "unresolved": true
+    },
+    {
+      "paper": "英语",
+      "unit": "Q7-8",
+      "declared": [
+        529,
+        536
+      ],
+      "derived": null,
+      "extends_beyond": false,
+      "unresolved": true
+    },
+    {
+      "paper": "英语",
+      "unit": "Q9-11",
+      "declared": [
+        538,
+        541
+      ],
+      "derived": [
+        538,
+        541
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "英语",
+      "unit": "Q12-14",
+      "declared": [
+        543,
+        561
+      ],
+      "derived": [
+        543,
+        561
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "英语",
+      "unit": "Q15-17",
+      "declared": [
+        563,
+        578
+      ],
+      "derived": null,
+      "extends_beyond": false,
+      "unresolved": true
+    },
+    {
+      "paper": "英语",
+      "unit": "Q18-20",
+      "declared": [
+        580,
+        584
+      ],
+      "derived": null,
+      "extends_beyond": false,
+      "unresolved": true
+    },
+    {
+      "paper": "英语",
+      "unit": "Q21-25",
+      "declared": [
+        586,
+        610
+      ],
+      "derived": [
+        586,
+        610
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "英语",
+      "unit": "U26-40",
+      "declared": [
+        138,
+        156
+      ],
+      "derived": [
+        138,
+        156
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "英语",
+      "unit": "U41-44",
+      "declared": [
+        192,
+        206
+      ],
+      "derived": [
+        192,
+        206
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "英语",
+      "unit": "U45-48",
+      "declared": [
+        232,
+        268
+      ],
+      "derived": [
+        232,
+        268
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "英语",
+      "unit": "U49-52",
+      "declared": [
+        298,
+        315
+      ],
+      "derived": [
+        298,
+        315
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "英语",
+      "unit": "U53-56",
+      "declared": [
+        341,
+        361
+      ],
+      "derived": [
+        341,
+        361
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "英语",
+      "unit": "U57-60",
+      "declared": [
+        401,
+        407
+      ],
+      "derived": [
+        401,
+        407
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "语文",
+      "unit": "U1-5",
+      "declared": [
+        12,
+        16
+      ],
+      "derived": [
+        12,
+        16
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "语文",
+      "unit": "U10-13",
+      "declared": [
+        80,
+        188
+      ],
+      "derived": [
+        80,
+        188
+      ],
+      "extends_beyond": false,
+      "unresolved": false
+    },
+    {
+      "paper": "语文",
+      "unit": "U14",
+      "declared": [
+        246,
+        260
+      ],
+      "derived": [
+        246,
+        264
+      ],
+      "extends_beyond": true,
+      "unresolved": false
+    },
+    {
+      "paper": "语文",
+      "unit": "U15",
+      "declared": [
+        288,
+        308
+      ],
+      "derived": [
+        288,
+        310
+      ],
+      "extends_beyond": true,
+      "unresolved": false
+    }
+  ],
+  "overlaps": {
+    "英语/Q1.material": "overlaps material sp-Q2.material / material overlap → unresolved",
+    "英语/Q2.material": "overlaps material sp-Q1.material / material overlap → unresolved",
+    "英语/Q3.material": "overlaps material sp-Q4.material / material overlap → unresolved",
+    "英语/Q4.material": "overlaps material sp-Q3.material / overlaps material sp-Q5-6.material / material overlap → unresolved",
+    "英语/Q5-6.material": "overlaps material sp-Q4.material / overlaps material sp-Q7-8.material / material overlap → unresolved",
+    "英语/Q7-8.material": "overlaps material sp-Q5-6.material / material overlap → unresolved",
+    "英语/Q15-17.material": "overlaps material sp-Q18-20.material / material overlap → unresolved",
+    "英语/Q18-20.material": "overlaps material sp-Q15-17.material / material overlap → unresolved"
+  }
+}

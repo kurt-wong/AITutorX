@@ -1,0 +1,3735 @@
+{
+  "metric_scope": "root",
+  "simulation": "P0-A: role_region does not set auto_allowed=False and is not an auto_blocker (diagnostic retained)",
+  "current": {
+    "ir_incomplete": 57,
+    "auto_approve": 78,
+    "pending_review": 144,
+    "rejected": 5
+  },
+  "p0_predicted": {
+    "ir_incomplete": 57,
+    "auto_approve": 145,
+    "pending_review": 77,
+    "rejected": 5
+  },
+  "delta": {
+    "auto_approve": 67,
+    "pending_review": -67,
+    "rejected": 0
+  },
+  "flipped_to_auto": 67,
+  "algorithm_mismatches": 0,
+  "flips": [
+    {
+      "paper": "历史",
+      "root": "Q2",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q2",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q3",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q3",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q4",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q4",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q5",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q5",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q6",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q6",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q7",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q7",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q8",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q8",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q9",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q9",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q10",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q10",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q11",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q11",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q12",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q12",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q13",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q13",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q14",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q14",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q15",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q15",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q16",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q16",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q17",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q17",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q18",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q18",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q19",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q19",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q20",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q20",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q21",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q21",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q22",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q22",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q23",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q23",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q24",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q24",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q25",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q25",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q26",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q26",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q27",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q27",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q28",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q28",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q29",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q29",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q30",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q30",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q31",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q31",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q32",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q32",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q33",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q33",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q34",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q34",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q35",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q35",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q36",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q36",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q37",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q37",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q38",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q38",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q39",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q39",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q40",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q40",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q41",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q41",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q42",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q42",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q43",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q43",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q44",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q44",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q45",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q45",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q46",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q46",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q47",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q47",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q48",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q48",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q49",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q49",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q50",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "Q50",
+          "bad_role": "explanation",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U1-2",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "U1-2.sub",
+          "bad_role": "question",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U3-5",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "U3-5.sub",
+          "bad_role": "question",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U6-7",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "U6-7.sub",
+          "bad_role": "question",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U8-9",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "U8-9.sub",
+          "bad_role": "question",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U10-12",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "U10-12.sub",
+          "bad_role": "question",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U13-15",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "U13-15.sub",
+          "bad_role": "question",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U18-20",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "U18-20.sub",
+          "bad_role": "question",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U21-23",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "U21-23.sub",
+          "bad_role": "question",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U24-25",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "U24-25.sub",
+          "bad_role": "question",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U30-31",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "U30-31.sub",
+          "bad_role": "question",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U32-33",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "U32-33.sub",
+          "bad_role": "question",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U34-35",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "U34-35.sub",
+          "bad_role": "question",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U36-39",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "U36-39.sub",
+          "bad_role": "question",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U40-41",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "U40-41.sub",
+          "bad_role": "question",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U42-43",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "U42-43.sub",
+          "bad_role": "question",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U44-46",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "U44-46.sub",
+          "bad_role": "question",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U47-48",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "U47-48.sub",
+          "bad_role": "question",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U49-50",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "role_region_hits": [
+        {
+          "leaf": "U49-50.sub",
+          "bad_role": "question",
+          "n_lines": 1
+        }
+      ],
+      "remaining_blockers_after_p0": [],
+      "chk_mismatch": false
+    }
+  ],
+  "rows": [
+    {
+      "paper": "化学",
+      "root": "Q7",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "化学",
+      "root": "Q8",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "化学",
+      "root": "Q10",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "化学",
+      "root": "Q11",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "化学",
+      "root": "Q12",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "化学",
+      "root": "Q13",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "化学",
+      "root": "Q14",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "化学",
+      "root": "Q15",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "化学",
+      "root": "Q16",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "化学",
+      "root": "Q17",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "化学",
+      "root": "Q18",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "化学",
+      "root": "Q20",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "化学",
+      "root": "Q21",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "化学",
+      "root": "Q22",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "化学",
+      "root": "Q23",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q23"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q1",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q2",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q3",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q4",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q5",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q6",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q7",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q8",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q9",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q10",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q11",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q12",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q13",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q14",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q15",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q16",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q17",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q18",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q19",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q20",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q21",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q22",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q23",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q24",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q25",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q26",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q27",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q28",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q29",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q30",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q31",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q32",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q33",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q34",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q35",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q36",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q37",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q38",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q39",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q40",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q41",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q42",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q43",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q44",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q45",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q46",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q47",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q48",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q49",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "Q50",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "历史",
+      "root": "U51",
+      "current": "rejected",
+      "p0": "rejected",
+      "flipped": false,
+      "role_region": 0
+    },
+    {
+      "paper": "历史",
+      "root": "U52",
+      "current": "rejected",
+      "p0": "rejected",
+      "flipped": false,
+      "role_region": 0
+    },
+    {
+      "paper": "历史",
+      "root": "U53",
+      "current": "rejected",
+      "p0": "rejected",
+      "flipped": false,
+      "role_region": 0
+    },
+    {
+      "paper": "地理",
+      "root": "U1-2",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U3-5",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U6-7",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U8-9",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U10-12",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U13-15",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U16-17",
+      "current": "rejected",
+      "p0": "rejected",
+      "flipped": false,
+      "role_region": 0
+    },
+    {
+      "paper": "地理",
+      "root": "U18-20",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U21-23",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U24-25",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U26-29",
+      "current": "rejected",
+      "p0": "rejected",
+      "flipped": false,
+      "role_region": 0
+    },
+    {
+      "paper": "地理",
+      "root": "U30-31",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U32-33",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U34-35",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U36-39",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U40-41",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U42-43",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U44-46",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U47-48",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U49-50",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "auto_approve",
+      "flipped": true,
+      "role_region": 1,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U-P2-1",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 1,
+      "blockers_after_p0": [
+        "not strict-auto:short_answer"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U-P2-2",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 1,
+      "blockers_after_p0": [
+        "not strict-auto:short_answer"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U-P2-3",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 1,
+      "blockers_after_p0": [
+        "not strict-auto:short_answer"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U-P2-4",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 1,
+      "blockers_after_p0": [
+        "not strict-auto:short_answer"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "地理",
+      "root": "U-P2-5",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 1,
+      "blockers_after_p0": [
+        "not strict-auto:short_answer"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q1",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q2",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q3",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q4",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q5",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q8",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q11",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q12",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q15",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q16",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q17",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q18",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q19",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q20",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q21",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q22",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q23",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q24",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q27",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q28",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q29",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:short_answer"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q30",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:short_answer"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q31",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:short_answer"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q32",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:short_answer"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q33",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:fill_in"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q34",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:fill_in"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q35",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:fill_in"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q36",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:short_answer"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "政治",
+      "root": "Q37",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:short_answer"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q1",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q1"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q2",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q2"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q3",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q3"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q4",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q4"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q5",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q5"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q6",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q6"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q7",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q7"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q8",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q8"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q9",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q9"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q10",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q10"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q11",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q11"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q12",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q12"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q13",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q13"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q14",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q14"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q15",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q15"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q16",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q16"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q17",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q17"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q18",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q18"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q19",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q19"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q20",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q20"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q21",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q21"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q22",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q22"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q23",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q23"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q24",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q24"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q25",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q25"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q26",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:short_answer"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q27",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:short_answer"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q28",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:short_answer"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q29",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:short_answer"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q30",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:short_answer"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "物理",
+      "root": "Q1",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "物理",
+      "root": "Q2",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "物理",
+      "root": "Q3",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "物理",
+      "root": "Q4",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "物理",
+      "root": "Q5",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "物理",
+      "root": "Q6",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "物理",
+      "root": "Q7",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "物理",
+      "root": "Q8",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "物理",
+      "root": "U9-11",
+      "unit_type": "composite_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "物理",
+      "root": "U12-14",
+      "unit_type": "composite_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "物理",
+      "root": "Q15",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "物理",
+      "root": "Q17",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "物理",
+      "root": "U18-20",
+      "unit_type": "composite_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "物理",
+      "root": "Q21",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:fill_in"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "物理",
+      "root": "Q22",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:fill_in"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "物理",
+      "root": "Q23",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:fill_in"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "物理",
+      "root": "Q24",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:short_answer"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "物理",
+      "root": "Q25",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:short_answer"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "物理",
+      "root": "Q26",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:short_answer"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "物理",
+      "root": "Q27",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:short_answer"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "物理",
+      "root": "Q28",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:short_answer"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q11",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q12",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q13",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q14",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q15",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q16",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q17",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q18",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q19",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q20",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q21",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q22",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q23",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q24",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q25",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q26",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q27",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q28",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q29",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q31",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q32",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q33",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q34",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q35",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q36",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q37",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q38",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q39",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "生物",
+      "root": "Q40",
+      "unit_type": "standalone_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "英语",
+      "root": "Q1",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q1.sub"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "英语",
+      "root": "Q2",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q2.sub"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "英语",
+      "root": "Q4",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q4.sub"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "英语",
+      "root": "Q5-6",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q5-6.sub"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "英语",
+      "root": "Q7-8",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q7-8.sub"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "英语",
+      "root": "Q9-11",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q9-11.sub"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "英语",
+      "root": "Q12-14",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q12-14.sub"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "英语",
+      "root": "Q15-17",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q15-17.sub"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "英语",
+      "root": "Q18-20",
+      "unit_type": "composite_unit",
+      "current": "auto_approve",
+      "p0": "auto_approve",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "英语",
+      "root": "U26-40",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:cloze"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "英语",
+      "root": "U41-44",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:reading"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "英语",
+      "root": "U45-48",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:reading"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "英语",
+      "root": "U49-52",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:reading"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "英语",
+      "root": "U53-56",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:reading"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "英语",
+      "root": "U57-60",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:reading_expression"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "语文",
+      "root": "U1-5",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:reading"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "语文",
+      "root": "Q6",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q6"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "语文",
+      "root": "Q7",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "answer grammar:not expressible:Q7"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "语文",
+      "root": "Q8",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:short_answer"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "语文",
+      "root": "Q9",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:fill_in"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "语文",
+      "root": "U10-13",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:reading"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "语文",
+      "root": "U14",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:reading"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "语文",
+      "root": "U15",
+      "unit_type": "composite_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:reading"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "语文",
+      "root": "Q16",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:essay"
+      ],
+      "chk_mismatch": false
+    },
+    {
+      "paper": "语文",
+      "root": "Q17",
+      "unit_type": "standalone_unit",
+      "current": "pending_review",
+      "p0": "pending_review",
+      "flipped": false,
+      "role_region": 0,
+      "blockers_after_p0": [
+        "not strict-auto:essay"
+      ],
+      "chk_mismatch": false
+    }
+  ]
+}

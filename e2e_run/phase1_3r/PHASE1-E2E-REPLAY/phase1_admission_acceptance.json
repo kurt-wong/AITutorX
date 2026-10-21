@@ -1,0 +1,50 @@
+{
+  "question": "Gate accepted candidate → Admission approve() → Question/QuestionInstance?",
+  "code_path": "admission.py approve(): auto_gate requires gate_decision=auto_approve; human/golden requires review_trail. Then _materialize() → create_question + create_instance per leaf. Question.canonical_question_type = map_canonical_type(original_question_type). candidate.unit_type is a separate A-domain field (Unit Type).",
+  "gate_outcomes": {
+    "auto_approve": 154,
+    "pending_review": 68,
+    "rejected": 5
+  },
+  "admission_classification": {
+    "auto_gate_approvable": 154,
+    "planned_questions_from_root": 227,
+    "planned_instances_from_root": 227,
+    "pending_review_needs_human": 68,
+    "machine_rejected": 5
+  },
+  "answers": {
+    "q1_ready_to_candidate": 227,
+    "q1_pending_review": 68,
+    "q1_auto_approve": 154,
+    "q1_machine_rejected": 5,
+    "q2_question_1_to_N_instance": "YES — _materialize plans one Question + one QuestionInstance per leaf occurrence; dedup_key reuse creates only a new Instance.",
+    "q3_leaf_root_confusion": "NO composite in Question Type — see unit_type_qtype_audit"
+  },
+  "unit_type_qtype_audit": {
+    "unit_types": {
+      "standalone_unit": 230,
+      "composite_unit": 54
+    },
+    "leaf_unit_types": {
+      "standalone_unit": 284
+    },
+    "canonical_qtypes": {
+      "single_choice": 213,
+      "fill_in": 24,
+      "short_answer": 33,
+      "true_false": 1,
+      "cloze": 1,
+      "reading": 8,
+      "reading_expression": 1,
+      "essay": 3
+    },
+    "composite_in_question_type": false,
+    "composite_question_type_violations": [],
+    "verdict": "PASS — composite appears only as Unit Type; Question Type stays single_choice/reading/..."
+  },
+  "materialize_safety": {
+    "parent_composite_not_materialized": "YES (_leaf_units skips composite parent)",
+    "question_dedup": "exact dedup_key → REUSE + new Instance only"
+  }
+}

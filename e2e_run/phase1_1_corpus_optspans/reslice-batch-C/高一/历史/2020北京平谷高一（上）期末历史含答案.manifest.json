@@ -1,0 +1,2899 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\高一\\历史\\2020北京平谷高一（上）期末历史含答案.md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.1",
+    "validation_issues": [
+      "Q2: 无 answer_lines（题号 [2]）",
+      "Q12: 无 answer_lines（题号 [12]）",
+      "Q25: 无 answer_lines（题号 [25]）",
+      "Q39: 无 answer_lines（题号 [39]）",
+      "Q44: 无 answer_lines（题号 [44]）"
+    ],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        21,
+        21
+      ],
+      "options_lines": [
+        23,
+        29
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        578,
+        578
+      ],
+      "explanation_lines": [
+        580,
+        582
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L21",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 23,
+          "end_line": 23
+        },
+        {
+          "label": "B",
+          "start_line": 25,
+          "end_line": 25
+        },
+        {
+          "label": "C",
+          "start_line": 27,
+          "end_line": 27
+        },
+        {
+          "label": "D",
+          "start_line": 29,
+          "end_line": 29
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        31,
+        39
+      ],
+      "options_lines": [
+        41,
+        41
+      ],
+      "extra_lines": null,
+      "answer_lines": null,
+      "explanation_lines": [
+        584,
+        586
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L31",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 41,
+          "end_line": 41
+        },
+        {
+          "label": "B",
+          "start_line": 41,
+          "end_line": 41
+        },
+        {
+          "label": "C",
+          "start_line": 41,
+          "end_line": 41
+        },
+        {
+          "label": "D",
+          "start_line": 41,
+          "end_line": 41
+        }
+      ]
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        43,
+        45
+      ],
+      "options_lines": [
+        50,
+        54
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        588,
+        588
+      ],
+      "explanation_lines": [
+        590,
+        592
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L43",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 50,
+          "end_line": 50
+        },
+        {
+          "label": "B",
+          "start_line": 50,
+          "end_line": 50
+        },
+        {
+          "label": "C",
+          "start_line": 52,
+          "end_line": 52
+        },
+        {
+          "label": "D",
+          "start_line": 54,
+          "end_line": 54
+        }
+      ]
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        56,
+        56
+      ],
+      "options_lines": [
+        58,
+        58
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        594,
+        594
+      ],
+      "explanation_lines": [
+        596,
+        598
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        4
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L56",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 58,
+          "end_line": 58
+        },
+        {
+          "label": "B",
+          "start_line": 58,
+          "end_line": 58
+        },
+        {
+          "label": "C",
+          "start_line": 58,
+          "end_line": 58
+        },
+        {
+          "label": "D",
+          "start_line": 58,
+          "end_line": 58
+        }
+      ]
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        5
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        60,
+        60
+      ],
+      "options_lines": [
+        62,
+        68
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        600,
+        600
+      ],
+      "explanation_lines": [
+        602,
+        606
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        5
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L60",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 62,
+          "end_line": 62
+        },
+        {
+          "label": "B",
+          "start_line": 64,
+          "end_line": 64
+        },
+        {
+          "label": "C",
+          "start_line": 66,
+          "end_line": 66
+        },
+        {
+          "label": "D",
+          "start_line": 68,
+          "end_line": 68
+        }
+      ]
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        6
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        70,
+        70
+      ],
+      "options_lines": [
+        72,
+        78
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        608,
+        608
+      ],
+      "explanation_lines": [
+        610,
+        612
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        6
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L70",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 72,
+          "end_line": 72
+        },
+        {
+          "label": "B",
+          "start_line": 74,
+          "end_line": 74
+        },
+        {
+          "label": "C",
+          "start_line": 76,
+          "end_line": 76
+        },
+        {
+          "label": "D",
+          "start_line": 78,
+          "end_line": 78
+        }
+      ]
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        7
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        80,
+        80
+      ],
+      "options_lines": [
+        83,
+        83
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        614,
+        614
+      ],
+      "explanation_lines": [
+        616,
+        618
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        7
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L80"
+    },
+    {
+      "unit_id": "Q8",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        8
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        85,
+        85
+      ],
+      "options_lines": [
+        87,
+        87
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        620,
+        620
+      ],
+      "explanation_lines": [
+        622,
+        624
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        8
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L85",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 87,
+          "end_line": 87
+        },
+        {
+          "label": "B",
+          "start_line": 87,
+          "end_line": 87
+        },
+        {
+          "label": "C",
+          "start_line": 87,
+          "end_line": 87
+        },
+        {
+          "label": "D",
+          "start_line": 87,
+          "end_line": 87
+        }
+      ]
+    },
+    {
+      "unit_id": "Q9",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        9
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        89,
+        93
+      ],
+      "options_lines": [
+        95,
+        95
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        626,
+        626
+      ],
+      "explanation_lines": [
+        628,
+        630
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        9
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L89",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 95,
+          "end_line": 95
+        },
+        {
+          "label": "B",
+          "start_line": 95,
+          "end_line": 95
+        },
+        {
+          "label": "C",
+          "start_line": 95,
+          "end_line": 95
+        },
+        {
+          "label": "D",
+          "start_line": 95,
+          "end_line": 95
+        }
+      ]
+    },
+    {
+      "unit_id": "Q10",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        10
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        97,
+        97
+      ],
+      "options_lines": [
+        99,
+        99
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        632,
+        632
+      ],
+      "explanation_lines": [
+        634,
+        636
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        10
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L97",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 99,
+          "end_line": 99
+        },
+        {
+          "label": "B",
+          "start_line": 99,
+          "end_line": 99
+        },
+        {
+          "label": "C",
+          "start_line": 99,
+          "end_line": 99
+        },
+        {
+          "label": "D",
+          "start_line": 99,
+          "end_line": 99
+        }
+      ]
+    },
+    {
+      "unit_id": "Q11",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        11
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        101,
+        101
+      ],
+      "options_lines": [
+        103,
+        103
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        638,
+        638
+      ],
+      "explanation_lines": [
+        640,
+        646
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        11
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L101",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 103,
+          "end_line": 103
+        },
+        {
+          "label": "B",
+          "start_line": 103,
+          "end_line": 103
+        },
+        {
+          "label": "C",
+          "start_line": 103,
+          "end_line": 103
+        },
+        {
+          "label": "D",
+          "start_line": 103,
+          "end_line": 103
+        }
+      ]
+    },
+    {
+      "unit_id": "Q12",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        12
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        105,
+        105
+      ],
+      "options_lines": [
+        109,
+        115
+      ],
+      "extra_lines": null,
+      "answer_lines": null,
+      "explanation_lines": [
+        648,
+        648
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        12
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L105",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 109,
+          "end_line": 109
+        },
+        {
+          "label": "B",
+          "start_line": 111,
+          "end_line": 111
+        },
+        {
+          "label": "C",
+          "start_line": 113,
+          "end_line": 113
+        },
+        {
+          "label": "D",
+          "start_line": 115,
+          "end_line": 115
+        }
+      ]
+    },
+    {
+      "unit_id": "Q13",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        13
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        117,
+        117
+      ],
+      "options_lines": [
+        119,
+        119
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        650,
+        650
+      ],
+      "explanation_lines": [
+        652,
+        654
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        13
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L117",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 119,
+          "end_line": 119
+        },
+        {
+          "label": "B",
+          "start_line": 119,
+          "end_line": 119
+        },
+        {
+          "label": "C",
+          "start_line": 119,
+          "end_line": 119
+        },
+        {
+          "label": "D",
+          "start_line": 119,
+          "end_line": 119
+        }
+      ]
+    },
+    {
+      "unit_id": "Q14",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        14
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        121,
+        121
+      ],
+      "options_lines": [
+        123,
+        123
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        656,
+        656
+      ],
+      "explanation_lines": [
+        658,
+        660
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        14
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L121",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 123,
+          "end_line": 123
+        },
+        {
+          "label": "B",
+          "start_line": 123,
+          "end_line": 123
+        },
+        {
+          "label": "C",
+          "start_line": 123,
+          "end_line": 123
+        },
+        {
+          "label": "D",
+          "start_line": 123,
+          "end_line": 123
+        }
+      ]
+    },
+    {
+      "unit_id": "Q15",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        15
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        125,
+        129
+      ],
+      "options_lines": [
+        131,
+        131
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        662,
+        662
+      ],
+      "explanation_lines": [
+        664,
+        666
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        15
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L125",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 131,
+          "end_line": 131
+        },
+        {
+          "label": "B",
+          "start_line": 131,
+          "end_line": 131
+        },
+        {
+          "label": "C",
+          "start_line": 131,
+          "end_line": 131
+        },
+        {
+          "label": "D",
+          "start_line": 131,
+          "end_line": 131
+        }
+      ]
+    },
+    {
+      "unit_id": "Q16",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        16
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        133,
+        133
+      ],
+      "options_lines": [
+        135,
+        135
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        668,
+        668
+      ],
+      "explanation_lines": [
+        670,
+        672
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        16
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L133",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 135,
+          "end_line": 135
+        },
+        {
+          "label": "B",
+          "start_line": 135,
+          "end_line": 135
+        },
+        {
+          "label": "C",
+          "start_line": 135,
+          "end_line": 135
+        },
+        {
+          "label": "D",
+          "start_line": 135,
+          "end_line": 135
+        }
+      ]
+    },
+    {
+      "unit_id": "Q17",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        17
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        137,
+        139
+      ],
+      "options_lines": [
+        142,
+        142
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        676,
+        676
+      ],
+      "explanation_lines": [
+        678,
+        680
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        17
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L137",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 142,
+          "end_line": 142
+        },
+        {
+          "label": "B",
+          "start_line": 142,
+          "end_line": 142
+        },
+        {
+          "label": "C",
+          "start_line": 142,
+          "end_line": 142
+        },
+        {
+          "label": "D",
+          "start_line": 142,
+          "end_line": 142
+        }
+      ]
+    },
+    {
+      "unit_id": "Q18",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        18
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        144,
+        144
+      ],
+      "options_lines": [
+        146,
+        146
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        682,
+        682
+      ],
+      "explanation_lines": [
+        684,
+        686
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        18
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L144",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 146,
+          "end_line": 146
+        },
+        {
+          "label": "B",
+          "start_line": 146,
+          "end_line": 146
+        },
+        {
+          "label": "C",
+          "start_line": 146,
+          "end_line": 146
+        },
+        {
+          "label": "D",
+          "start_line": 146,
+          "end_line": 146
+        }
+      ]
+    },
+    {
+      "unit_id": "Q19",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        19
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        148,
+        166
+      ],
+      "options_lines": [
+        168,
+        174
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        688,
+        688
+      ],
+      "explanation_lines": [
+        690,
+        692
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        19
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L148",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 168,
+          "end_line": 168
+        },
+        {
+          "label": "B",
+          "start_line": 170,
+          "end_line": 170
+        },
+        {
+          "label": "C",
+          "start_line": 172,
+          "end_line": 172
+        },
+        {
+          "label": "D",
+          "start_line": 174,
+          "end_line": 174
+        }
+      ]
+    },
+    {
+      "unit_id": "Q20",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        20
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        176,
+        176
+      ],
+      "options_lines": [
+        178,
+        204
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        694,
+        694
+      ],
+      "explanation_lines": [
+        696,
+        698
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        20
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L176",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 183,
+          "end_line": 183
+        },
+        {
+          "label": "B",
+          "start_line": 190,
+          "end_line": 190
+        },
+        {
+          "label": "C",
+          "start_line": 202,
+          "end_line": 202
+        },
+        {
+          "label": "D",
+          "start_line": 204,
+          "end_line": 204
+        }
+      ]
+    },
+    {
+      "unit_id": "Q21",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        21
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        206,
+        206
+      ],
+      "options_lines": [
+        208,
+        208
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        700,
+        700
+      ],
+      "explanation_lines": [
+        702,
+        704
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        21
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L206",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 208,
+          "end_line": 208
+        },
+        {
+          "label": "B",
+          "start_line": 208,
+          "end_line": 208
+        },
+        {
+          "label": "C",
+          "start_line": 208,
+          "end_line": 208
+        },
+        {
+          "label": "D",
+          "start_line": 208,
+          "end_line": 208
+        }
+      ]
+    },
+    {
+      "unit_id": "Q22",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        22
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        210,
+        210
+      ],
+      "options_lines": [
+        212,
+        218
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        706,
+        706
+      ],
+      "explanation_lines": [
+        708,
+        710
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        22
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L210",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 212,
+          "end_line": 212
+        },
+        {
+          "label": "B",
+          "start_line": 214,
+          "end_line": 214
+        },
+        {
+          "label": "C",
+          "start_line": 216,
+          "end_line": 216
+        },
+        {
+          "label": "D",
+          "start_line": 218,
+          "end_line": 218
+        }
+      ]
+    },
+    {
+      "unit_id": "Q23",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        23
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        220,
+        220
+      ],
+      "options_lines": [
+        222,
+        222
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        712,
+        712
+      ],
+      "explanation_lines": [
+        714,
+        718
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        23
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L220",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 222,
+          "end_line": 222
+        },
+        {
+          "label": "B",
+          "start_line": 222,
+          "end_line": 222
+        },
+        {
+          "label": "C",
+          "start_line": 222,
+          "end_line": 222
+        },
+        {
+          "label": "D",
+          "start_line": 222,
+          "end_line": 222
+        }
+      ]
+    },
+    {
+      "unit_id": "Q24",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        24
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        224,
+        228
+      ],
+      "options_lines": [
+        230,
+        230
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        720,
+        720
+      ],
+      "explanation_lines": [
+        722,
+        726
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        24
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L224",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 230,
+          "end_line": 230
+        },
+        {
+          "label": "B",
+          "start_line": 230,
+          "end_line": 230
+        },
+        {
+          "label": "C",
+          "start_line": 230,
+          "end_line": 230
+        },
+        {
+          "label": "D",
+          "start_line": 230,
+          "end_line": 230
+        }
+      ]
+    },
+    {
+      "unit_id": "Q25",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        25
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        232,
+        232
+      ],
+      "options_lines": [
+        234,
+        240
+      ],
+      "extra_lines": null,
+      "answer_lines": null,
+      "explanation_lines": [
+        728,
+        732
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 234,
+          "end_line": 234
+        },
+        {
+          "label": "B",
+          "start_line": 236,
+          "end_line": 236
+        },
+        {
+          "label": "C",
+          "start_line": 238,
+          "end_line": 238
+        },
+        {
+          "label": "D",
+          "start_line": 240,
+          "end_line": 240
+        }
+      ]
+    },
+    {
+      "unit_id": "Q26",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        26
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        242,
+        246
+      ],
+      "options_lines": [
+        249,
+        255
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        734,
+        734
+      ],
+      "explanation_lines": [
+        736,
+        738
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        26
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L242",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 249,
+          "end_line": 249
+        },
+        {
+          "label": "B",
+          "start_line": 251,
+          "end_line": 251
+        },
+        {
+          "label": "C",
+          "start_line": 253,
+          "end_line": 253
+        },
+        {
+          "label": "D",
+          "start_line": 255,
+          "end_line": 255
+        }
+      ]
+    },
+    {
+      "unit_id": "Q27",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        27
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        257,
+        257
+      ],
+      "options_lines": [
+        259,
+        265
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        740,
+        740
+      ],
+      "explanation_lines": [
+        742,
+        744
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        27
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L257",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 259,
+          "end_line": 259
+        },
+        {
+          "label": "B",
+          "start_line": 261,
+          "end_line": 261
+        },
+        {
+          "label": "C",
+          "start_line": 263,
+          "end_line": 263
+        },
+        {
+          "label": "D",
+          "start_line": 265,
+          "end_line": 265
+        }
+      ]
+    },
+    {
+      "unit_id": "Q28",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        28
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        267,
+        267
+      ],
+      "options_lines": [
+        269,
+        275
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        746,
+        746
+      ],
+      "explanation_lines": [
+        748,
+        752
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        28
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L267",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 269,
+          "end_line": 269
+        },
+        {
+          "label": "B",
+          "start_line": 271,
+          "end_line": 271
+        },
+        {
+          "label": "C",
+          "start_line": 273,
+          "end_line": 273
+        },
+        {
+          "label": "D",
+          "start_line": 275,
+          "end_line": 275
+        }
+      ]
+    },
+    {
+      "unit_id": "Q29",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        29
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        277,
+        281
+      ],
+      "options_lines": [
+        283,
+        283
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        754,
+        754
+      ],
+      "explanation_lines": [
+        756,
+        758
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        29
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L277",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 283,
+          "end_line": 283
+        },
+        {
+          "label": "B",
+          "start_line": 283,
+          "end_line": 283
+        },
+        {
+          "label": "C",
+          "start_line": 283,
+          "end_line": 283
+        },
+        {
+          "label": "D",
+          "start_line": 283,
+          "end_line": 283
+        }
+      ]
+    },
+    {
+      "unit_id": "Q30",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        30
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        285,
+        285
+      ],
+      "options_lines": [
+        287,
+        293
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        760,
+        760
+      ],
+      "explanation_lines": [
+        762,
+        766
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        30
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L285",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 287,
+          "end_line": 287
+        },
+        {
+          "label": "B",
+          "start_line": 289,
+          "end_line": 289
+        },
+        {
+          "label": "C",
+          "start_line": 291,
+          "end_line": 291
+        },
+        {
+          "label": "D",
+          "start_line": 293,
+          "end_line": 293
+        }
+      ]
+    },
+    {
+      "unit_id": "Q31",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        31
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        295,
+        295
+      ],
+      "options_lines": [
+        297,
+        303
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        768,
+        768
+      ],
+      "explanation_lines": [
+        770,
+        774
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        31
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L295",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 297,
+          "end_line": 297
+        },
+        {
+          "label": "B",
+          "start_line": 299,
+          "end_line": 299
+        },
+        {
+          "label": "C",
+          "start_line": 301,
+          "end_line": 301
+        },
+        {
+          "label": "D",
+          "start_line": 303,
+          "end_line": 303
+        }
+      ]
+    },
+    {
+      "unit_id": "Q32",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        32
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        305,
+        305
+      ],
+      "options_lines": [
+        307,
+        313
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        776,
+        776
+      ],
+      "explanation_lines": [
+        778,
+        780
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        32
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L305",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 307,
+          "end_line": 307
+        },
+        {
+          "label": "B",
+          "start_line": 309,
+          "end_line": 309
+        },
+        {
+          "label": "C",
+          "start_line": 311,
+          "end_line": 311
+        },
+        {
+          "label": "D",
+          "start_line": 313,
+          "end_line": 313
+        }
+      ]
+    },
+    {
+      "unit_id": "Q33",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        33
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        315,
+        319
+      ],
+      "options_lines": [
+        322,
+        324
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        782,
+        782
+      ],
+      "explanation_lines": [
+        784,
+        786
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        33
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L315",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 322,
+          "end_line": 322
+        },
+        {
+          "label": "B",
+          "start_line": 322,
+          "end_line": 322
+        },
+        {
+          "label": "C",
+          "start_line": 324,
+          "end_line": 324
+        },
+        {
+          "label": "D",
+          "start_line": 324,
+          "end_line": 324
+        }
+      ]
+    },
+    {
+      "unit_id": "Q34",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        34
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        326,
+        326
+      ],
+      "options_lines": [
+        328,
+        334
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        788,
+        788
+      ],
+      "explanation_lines": [
+        790,
+        794
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        34
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L326",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 328,
+          "end_line": 328
+        },
+        {
+          "label": "B",
+          "start_line": 330,
+          "end_line": 330
+        },
+        {
+          "label": "C",
+          "start_line": 332,
+          "end_line": 332
+        },
+        {
+          "label": "D",
+          "start_line": 334,
+          "end_line": 334
+        }
+      ]
+    },
+    {
+      "unit_id": "Q35",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        35
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        336,
+        336
+      ],
+      "options_lines": [
+        338,
+        344
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        796,
+        796
+      ],
+      "explanation_lines": [
+        798,
+        800
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        35
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L336",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 338,
+          "end_line": 338
+        },
+        {
+          "label": "B",
+          "start_line": 340,
+          "end_line": 340
+        },
+        {
+          "label": "C",
+          "start_line": 342,
+          "end_line": 342
+        },
+        {
+          "label": "D",
+          "start_line": 344,
+          "end_line": 344
+        }
+      ]
+    },
+    {
+      "unit_id": "Q36",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        36
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        346,
+        350
+      ],
+      "options_lines": [
+        352,
+        352
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        802,
+        802
+      ],
+      "explanation_lines": [
+        804,
+        806
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        36
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L346",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 352,
+          "end_line": 352
+        },
+        {
+          "label": "B",
+          "start_line": 352,
+          "end_line": 352
+        },
+        {
+          "label": "C",
+          "start_line": 352,
+          "end_line": 352
+        },
+        {
+          "label": "D",
+          "start_line": 352,
+          "end_line": 352
+        }
+      ]
+    },
+    {
+      "unit_id": "Q37",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        37
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        354,
+        354
+      ],
+      "options_lines": [
+        356,
+        356
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        808,
+        808
+      ],
+      "explanation_lines": [
+        810,
+        812
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        37
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L354",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 356,
+          "end_line": 356
+        },
+        {
+          "label": "B",
+          "start_line": 356,
+          "end_line": 356
+        },
+        {
+          "label": "C",
+          "start_line": 356,
+          "end_line": 356
+        },
+        {
+          "label": "D",
+          "start_line": 356,
+          "end_line": 356
+        }
+      ]
+    },
+    {
+      "unit_id": "Q38",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        38
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        358,
+        360
+      ],
+      "options_lines": [
+        363,
+        369
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        814,
+        814
+      ],
+      "explanation_lines": [
+        816,
+        818
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        38
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L358",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 363,
+          "end_line": 363
+        },
+        {
+          "label": "B",
+          "start_line": 365,
+          "end_line": 365
+        },
+        {
+          "label": "C",
+          "start_line": 367,
+          "end_line": 367
+        },
+        {
+          "label": "D",
+          "start_line": 369,
+          "end_line": 369
+        }
+      ]
+    },
+    {
+      "unit_id": "Q39",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        39
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        371,
+        371
+      ],
+      "options_lines": [
+        373,
+        373
+      ],
+      "extra_lines": null,
+      "answer_lines": null,
+      "explanation_lines": [
+        820,
+        820
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        39
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L371",
+      "options": [
+        {
+          "label": "B",
+          "start_line": 373,
+          "end_line": 373
+        },
+        {
+          "label": "C",
+          "start_line": 373,
+          "end_line": 373
+        },
+        {
+          "label": "D",
+          "start_line": 373,
+          "end_line": 373
+        }
+      ]
+    },
+    {
+      "unit_id": "Q40",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        40
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        377,
+        377
+      ],
+      "options_lines": [
+        379,
+        379
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        822,
+        822
+      ],
+      "explanation_lines": [
+        826,
+        828
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        40
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L377",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 379,
+          "end_line": 379
+        },
+        {
+          "label": "B",
+          "start_line": 379,
+          "end_line": 379
+        },
+        {
+          "label": "C",
+          "start_line": 379,
+          "end_line": 379
+        },
+        {
+          "label": "D",
+          "start_line": 379,
+          "end_line": 379
+        }
+      ]
+    },
+    {
+      "unit_id": "Q41",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        41
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        381,
+        381
+      ],
+      "options_lines": [
+        383,
+        383
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        830,
+        830
+      ],
+      "explanation_lines": [
+        832,
+        834
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        41
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L381",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 383,
+          "end_line": 383
+        },
+        {
+          "label": "B",
+          "start_line": 383,
+          "end_line": 383
+        },
+        {
+          "label": "C",
+          "start_line": 383,
+          "end_line": 383
+        },
+        {
+          "label": "D",
+          "start_line": 383,
+          "end_line": 383
+        }
+      ]
+    },
+    {
+      "unit_id": "Q42",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        42
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        385,
+        387
+      ],
+      "options_lines": [
+        390,
+        396
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        836,
+        836
+      ],
+      "explanation_lines": [
+        838,
+        840
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        42
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L385",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 390,
+          "end_line": 390
+        },
+        {
+          "label": "B",
+          "start_line": 392,
+          "end_line": 392
+        },
+        {
+          "label": "C",
+          "start_line": 394,
+          "end_line": 394
+        },
+        {
+          "label": "D",
+          "start_line": 396,
+          "end_line": 396
+        }
+      ]
+    },
+    {
+      "unit_id": "Q43",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        43
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        398,
+        398
+      ],
+      "options_lines": [
+        400,
+        406
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        842,
+        842
+      ],
+      "explanation_lines": [
+        844,
+        846
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        43
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L398",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 400,
+          "end_line": 400
+        },
+        {
+          "label": "B",
+          "start_line": 402,
+          "end_line": 402
+        },
+        {
+          "label": "C",
+          "start_line": 404,
+          "end_line": 404
+        },
+        {
+          "label": "D",
+          "start_line": 406,
+          "end_line": 406
+        }
+      ]
+    },
+    {
+      "unit_id": "Q44",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        44
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        408,
+        408
+      ],
+      "options_lines": [
+        410,
+        416
+      ],
+      "extra_lines": null,
+      "answer_lines": null,
+      "explanation_lines": [
+        848,
+        850
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        44
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L408",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 410,
+          "end_line": 410
+        },
+        {
+          "label": "B",
+          "start_line": 412,
+          "end_line": 412
+        },
+        {
+          "label": "C",
+          "start_line": 414,
+          "end_line": 414
+        },
+        {
+          "label": "D",
+          "start_line": 416,
+          "end_line": 416
+        }
+      ]
+    },
+    {
+      "unit_id": "Q45",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        45
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        418,
+        422
+      ],
+      "options_lines": [
+        424,
+        424
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        852,
+        852
+      ],
+      "explanation_lines": [
+        854,
+        856
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 424,
+          "end_line": 424
+        },
+        {
+          "label": "B",
+          "start_line": 424,
+          "end_line": 424
+        },
+        {
+          "label": "C",
+          "start_line": 424,
+          "end_line": 424
+        },
+        {
+          "label": "D",
+          "start_line": 424,
+          "end_line": 424
+        }
+      ]
+    },
+    {
+      "unit_id": "Q46",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        46
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        426,
+        426
+      ],
+      "options_lines": [
+        428,
+        428
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        858,
+        858
+      ],
+      "explanation_lines": [
+        862,
+        864
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 428,
+          "end_line": 428
+        },
+        {
+          "label": "B",
+          "start_line": 428,
+          "end_line": 428
+        },
+        {
+          "label": "C",
+          "start_line": 428,
+          "end_line": 428
+        },
+        {
+          "label": "D",
+          "start_line": 428,
+          "end_line": 428
+        }
+      ]
+    },
+    {
+      "unit_id": "Q47",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        47
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        432,
+        432
+      ],
+      "options_lines": [
+        434,
+        440
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        866,
+        866
+      ],
+      "explanation_lines": [
+        868,
+        870
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        47
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L432",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 434,
+          "end_line": 434
+        },
+        {
+          "label": "B",
+          "start_line": 436,
+          "end_line": 436
+        },
+        {
+          "label": "C",
+          "start_line": 438,
+          "end_line": 438
+        },
+        {
+          "label": "D",
+          "start_line": 440,
+          "end_line": 440
+        }
+      ]
+    },
+    {
+      "unit_id": "Q48",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        48
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        442,
+        444
+      ],
+      "options_lines": [
+        447,
+        453
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        872,
+        872
+      ],
+      "explanation_lines": [
+        874,
+        876
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        48
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L442",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 447,
+          "end_line": 447
+        },
+        {
+          "label": "B",
+          "start_line": 449,
+          "end_line": 449
+        },
+        {
+          "label": "C",
+          "start_line": 451,
+          "end_line": 451
+        },
+        {
+          "label": "D",
+          "start_line": 453,
+          "end_line": 453
+        }
+      ]
+    },
+    {
+      "unit_id": "Q49",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        49
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        455,
+        455
+      ],
+      "options_lines": [
+        457,
+        463
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        878,
+        878
+      ],
+      "explanation_lines": [
+        880,
+        882
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        49
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L455",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 457,
+          "end_line": 457
+        },
+        {
+          "label": "B",
+          "start_line": 459,
+          "end_line": 459
+        },
+        {
+          "label": "C",
+          "start_line": 461,
+          "end_line": 461
+        },
+        {
+          "label": "D",
+          "start_line": 463,
+          "end_line": 463
+        }
+      ]
+    },
+    {
+      "unit_id": "Q50",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        50
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        465,
+        465
+      ],
+      "options_lines": [
+        467,
+        469
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        884,
+        884
+      ],
+      "explanation_lines": [
+        886,
+        888
+      ],
+      "section_ref": "S3",
+      "section": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "printed_number": [
+        50
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L465",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 467,
+          "end_line": 467
+        },
+        {
+          "label": "B",
+          "start_line": 467,
+          "end_line": 467
+        },
+        {
+          "label": "C",
+          "start_line": 469,
+          "end_line": 469
+        },
+        {
+          "label": "D",
+          "start_line": 469,
+          "end_line": 469
+        }
+      ]
+    },
+    {
+      "unit_id": "Q51",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        51
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        477,
+        508
+      ],
+      "questions_lines": [
+        475,
+        510
+      ],
+      "answer_lines": [
+        890,
+        892
+      ],
+      "explanation_lines": [
+        894,
+        902
+      ],
+      "section_ref": "S4",
+      "section": "第二部分 非选择题（共50分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q52",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        52
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        514,
+        527
+      ],
+      "questions_lines": [
+        512,
+        529
+      ],
+      "answer_lines": [
+        904,
+        908
+      ],
+      "explanation_lines": [
+        910,
+        916
+      ],
+      "section_ref": "S4",
+      "section": "第二部分 非选择题（共50分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q53",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        53
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        533,
+        547
+      ],
+      "questions_lines": [
+        531,
+        552
+      ],
+      "answer_lines": [
+        918,
+        926
+      ],
+      "explanation_lines": [
+        928,
+        930
+      ],
+      "section_ref": "S4",
+      "section": "第二部分 非选择题（共50分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q54",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        54
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        556,
+        564
+      ],
+      "questions_lines": [
+        554,
+        566
+      ],
+      "answer_lines": [
+        932,
+        936
+      ],
+      "explanation_lines": [
+        938,
+        944
+      ],
+      "section_ref": "S4",
+      "section": "第二部分 非选择题（共50分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2020 北京平谷高一（上）期末",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "历史",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 16,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "第一部分 选择题(共50分)",
+      "ordinal": 3,
+      "start_line": 17,
+      "end_line": 18,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "一、 选择题(本大题共50小题,每题1分,共50分。每小题四个选项中只有一项符合",
+      "ordinal": 4,
+      "start_line": 19,
+      "end_line": 470,
+      "occurrence": 1
+    },
+    {
+      "id": "S4",
+      "title": "第二部分 非选择题（共50分）",
+      "ordinal": 5,
+      "start_line": 471,
+      "end_line": 569,
+      "occurrence": 1
+    },
+    {
+      "id": "S5",
+      "title": "2020 北京平谷高一（上）期末历史",
+      "ordinal": 6,
+      "start_line": 570,
+      "end_line": 573,
+      "occurrence": 1
+    },
+    {
+      "id": "S6",
+      "title": "第一部分 选择题(共50分)",
+      "ordinal": 7,
+      "start_line": 574,
+      "end_line": 944,
+      "occurrence": 2
+    }
+  ],
+  "source_content_sha256": "370c149651852d2f9ce4e0f250217861f27bbd3daf40e02a685bd349a1a6b25d"
+}

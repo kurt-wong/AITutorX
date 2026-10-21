@@ -1,0 +1,583 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\高三\\英语\\2020北京大兴高三（上）期末英语（教师版）(1).md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.1",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "Q1-3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1,
+        2,
+        3
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        15,
+        15
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        383,
+        385
+      ],
+      "explanation_lines": null,
+      "section_ref": "S4",
+      "section": "A",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q4-6",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        4,
+        5,
+        6
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        19,
+        19
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        383,
+        385
+      ],
+      "explanation_lines": null,
+      "section_ref": "S5",
+      "section": "B",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q7-10",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        23,
+        23
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        383,
+        385
+      ],
+      "explanation_lines": null,
+      "section_ref": "S6",
+      "section": "C",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U11-30",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "original_question_type": "cloze",
+      "material_lines": [
+        29,
+        39
+      ],
+      "questions_lines": [
+        29,
+        79
+      ],
+      "answer_lines": [
+        388,
+        388
+      ],
+      "explanation_lines": null,
+      "section_ref": "S7",
+      "section": "第二节 完形填空(共20小题；每小题1.5分，共30分)",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U31-33",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        31,
+        32,
+        33
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        89,
+        101
+      ],
+      "questions_lines": [
+        89,
+        127
+      ],
+      "answer_lines": [
+        388,
+        388
+      ],
+      "explanation_lines": null,
+      "section_ref": "S9",
+      "section": "A",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U34-37",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        34,
+        35,
+        36,
+        37
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        131,
+        152
+      ],
+      "questions_lines": [
+        131,
+        184
+      ],
+      "answer_lines": [
+        388,
+        388
+      ],
+      "explanation_lines": null,
+      "section_ref": "S10",
+      "section": "B",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U38-41",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        38,
+        39,
+        40,
+        41
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        188,
+        200
+      ],
+      "questions_lines": [
+        188,
+        236
+      ],
+      "answer_lines": [
+        388,
+        388
+      ],
+      "explanation_lines": null,
+      "section_ref": "S11",
+      "section": "C",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U42-45",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        240,
+        252
+      ],
+      "questions_lines": [
+        240,
+        288
+      ],
+      "answer_lines": [
+        388,
+        388
+      ],
+      "explanation_lines": null,
+      "section_ref": "S12",
+      "section": "D",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U46-50",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "original_question_type": "seven_to_five",
+      "material_lines": [
+        294,
+        322
+      ],
+      "questions_lines": [
+        294,
+        336
+      ],
+      "answer_lines": [
+        388,
+        388
+      ],
+      "explanation_lines": null,
+      "section_ref": "S14",
+      "section": "Things to Keep Your Brain Sharp and Heal",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q51",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        51
+      ],
+      "original_question_type": "essay",
+      "stem_lines": [
+        342,
+        358
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        394,
+        420
+      ],
+      "explanation_lines": null,
+      "section_ref": "S20",
+      "section": "第一节(15分)",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q52",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        52
+      ],
+      "original_question_type": "essay",
+      "stem_lines": [
+        364,
+        373
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        424,
+        463
+      ],
+      "explanation_lines": null,
+      "section_ref": "S20",
+      "section": "第一节(15分)",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2020 北京大兴高三（上）期末",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "英语",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 6,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "第一部分 知识运用(共两节，45分)",
+      "ordinal": 3,
+      "start_line": 7,
+      "end_line": 8,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "第一节 语法填空(共10小题；每小题15分，共15分)",
+      "ordinal": 4,
+      "start_line": 9,
+      "end_line": 12,
+      "occurrence": 1
+    },
+    {
+      "id": "S4",
+      "title": "A",
+      "ordinal": 5,
+      "start_line": 13,
+      "end_line": 16,
+      "occurrence": 1
+    },
+    {
+      "id": "S5",
+      "title": "B",
+      "ordinal": 6,
+      "start_line": 17,
+      "end_line": 20,
+      "occurrence": 1
+    },
+    {
+      "id": "S6",
+      "title": "C",
+      "ordinal": 7,
+      "start_line": 21,
+      "end_line": 24,
+      "occurrence": 1
+    },
+    {
+      "id": "S7",
+      "title": "第二节 完形填空(共20小题；每小题1.5分，共30分)",
+      "ordinal": 8,
+      "start_line": 25,
+      "end_line": 80,
+      "occurrence": 1
+    },
+    {
+      "id": "S8",
+      "title": "第二部分 阅读理解(共两节，40分)",
+      "ordinal": 9,
+      "start_line": 81,
+      "end_line": 86,
+      "occurrence": 1
+    },
+    {
+      "id": "S9",
+      "title": "A",
+      "ordinal": 10,
+      "start_line": 87,
+      "end_line": 128,
+      "occurrence": 2
+    },
+    {
+      "id": "S10",
+      "title": "B",
+      "ordinal": 11,
+      "start_line": 129,
+      "end_line": 185,
+      "occurrence": 2
+    },
+    {
+      "id": "S11",
+      "title": "C",
+      "ordinal": 12,
+      "start_line": 186,
+      "end_line": 237,
+      "occurrence": 2
+    },
+    {
+      "id": "S12",
+      "title": "D",
+      "ordinal": 13,
+      "start_line": 238,
+      "end_line": 289,
+      "occurrence": 1
+    },
+    {
+      "id": "S13",
+      "title": "第二节(共5小题；每小题2分，共10分)",
+      "ordinal": 14,
+      "start_line": 290,
+      "end_line": 293,
+      "occurrence": 1
+    },
+    {
+      "id": "S14",
+      "title": "Things to Keep Your Brain Sharp and Heal",
+      "ordinal": 15,
+      "start_line": 294,
+      "end_line": 297,
+      "occurrence": 1
+    },
+    {
+      "id": "S15",
+      "title": "Keep learning new things",
+      "ordinal": 16,
+      "start_line": 298,
+      "end_line": 309,
+      "occurrence": 1
+    },
+    {
+      "id": "S16",
+      "title": "Socialize and have fun!",
+      "ordinal": 17,
+      "start_line": 310,
+      "end_line": 313,
+      "occurrence": 1
+    },
+    {
+      "id": "S17",
+      "title": "Be health conscious",
+      "ordinal": 18,
+      "start_line": 314,
+      "end_line": 317,
+      "occurrence": 1
+    },
+    {
+      "id": "S18",
+      "title": "Slow down and appreciate the silence",
+      "ordinal": 19,
+      "start_line": 318,
+      "end_line": 337,
+      "occurrence": 1
+    },
+    {
+      "id": "S19",
+      "title": "第三部分 书面表达(共两节，35分)",
+      "ordinal": 20,
+      "start_line": 338,
+      "end_line": 339,
+      "occurrence": 1
+    },
+    {
+      "id": "S20",
+      "title": "第一节(15分)",
+      "ordinal": 21,
+      "start_line": 340,
+      "end_line": 380,
+      "occurrence": 1
+    },
+    {
+      "id": "S21",
+      "title": "第一部分 知识运用（共两节，45分）",
+      "ordinal": 22,
+      "start_line": 381,
+      "end_line": 389,
+      "occurrence": 1
+    },
+    {
+      "id": "S22",
+      "title": "第三部分 书面表达（共两节，35分）",
+      "ordinal": 23,
+      "start_line": 390,
+      "end_line": 397,
+      "occurrence": 1
+    },
+    {
+      "id": "S23",
+      "title": "二、 各档次的给分范围和要求",
+      "ordinal": 24,
+      "start_line": 398,
+      "end_line": 409,
+      "occurrence": 1
+    },
+    {
+      "id": "S24",
+      "title": "Dear Jim,",
+      "ordinal": 25,
+      "start_line": 410,
+      "end_line": 417,
+      "occurrence": 1
+    },
+    {
+      "id": "S25",
+      "title": "Yours,",
+      "ordinal": 26,
+      "start_line": 418,
+      "end_line": 419,
+      "occurrence": 1
+    },
+    {
+      "id": "S26",
+      "title": "Li Hua",
+      "ordinal": 27,
+      "start_line": 420,
+      "end_line": 421,
+      "occurrence": 1
+    },
+    {
+      "id": "S27",
+      "title": "第二节：",
+      "ordinal": 28,
+      "start_line": 422,
+      "end_line": 435,
+      "occurrence": 1
+    },
+    {
+      "id": "S28",
+      "title": "二、 内容要点：",
+      "ordinal": 29,
+      "start_line": 436,
+      "end_line": 443,
+      "occurrence": 1
+    },
+    {
+      "id": "S29",
+      "title": "三、 各档次的给分范围和要求：",
+      "ordinal": 30,
+      "start_line": 444,
+      "end_line": 463,
+      "occurrence": 1
+    }
+  ],
+  "source_content_sha256": "566d121e9a366707fce6a1f67bb8781ec76280ae9f61679f9dda183bac2d7d33"
+}

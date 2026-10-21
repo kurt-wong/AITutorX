@@ -1,0 +1,143 @@
+{
+  "note": "READ-ONLY pre-fix impact simulation; no production change",
+  "findings": [
+    {
+      "paper": "化学",
+      "root": "Q23",
+      "leaf": "Q23",
+      "canonical_type": "single_choice",
+      "answer_text": "D",
+      "option_labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "option_texts": [
+        "A．金属钠与水： $ 2Na + 2H_{2}O = 2Na^{+} + 2OH^{-} + H_{2}\\uparrow",
+        "B．氯化钠溶液与硝酸银溶液：",
+        "C．稀盐酸与碳酸钙： $ CaCO_{3}+2H^{+}=Ca^{2+}+CO_{2}\\uparrow+H_{2}O $"
+      ],
+      "current_gate": {
+        "decision": "pending_review",
+        "reasons": [
+          "leaf 'Q23' answer grammar: answer not expressible as canonical value"
+        ]
+      },
+      "answer_source_located": true,
+      "answer_complete": true,
+      "answer_span_id": "sp-Q23.answer",
+      "answer_resolution_status": "exact",
+      "simulated_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "simulated_gate": {
+        "decision": "auto_approve",
+        "reasons": [
+          "strict-auto: all answers verified_correct=true"
+        ]
+      },
+      "decision_delta": "pending_review -> auto_approve",
+      "grammar_old": null,
+      "grammar_new": true,
+      "answer_letter": "D",
+      "answer_in_old_labels": false,
+      "answer_in_new_labels": true,
+      "binding_constraint_is_option_set": true
+    },
+    {
+      "paper": "历史",
+      "root": "Q29",
+      "leaf": "Q29",
+      "canonical_type": "single_choice",
+      "answer_text": "29. 【答案】C",
+      "option_labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "option_texts": [
+        "A. 迪亚士",
+        "B. 达，伽马",
+        "C. 哥伦布"
+      ],
+      "current_gate": {
+        "decision": "auto_approve",
+        "reasons": [
+          "strict-auto: all answers verified_correct=true"
+        ]
+      },
+      "answer_source_located": true,
+      "answer_complete": true,
+      "answer_span_id": "sp-Q29.answer",
+      "answer_resolution_status": "exact",
+      "simulated_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "simulated_gate": {
+        "decision": "auto_approve",
+        "reasons": [
+          "strict-auto: all answers verified_correct=true"
+        ]
+      },
+      "decision_delta": "auto_approve -> auto_approve",
+      "grammar_old": true,
+      "grammar_new": true,
+      "answer_letter": "【",
+      "answer_in_old_labels": false,
+      "answer_in_new_labels": false,
+      "binding_constraint_is_option_set": false
+    },
+    {
+      "paper": "数学",
+      "root": "Q4",
+      "leaf": "Q4",
+      "canonical_type": "single_choice",
+      "answer_text": "4.\n\n【考点】余弦函数的图象.\n\n【分析】根据当自变量相同时，它们的函数值相反，可得它们的图象关于x轴对称.\n\n【解答】解：由于当自变量相同时，它们的函数值相反，故它们的图象关于x轴对称，故选：A.",
+      "option_labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "option_texts": [
+        "A. 关于 x 轴对称 B. 关于 y 轴对称",
+        "B",
+        "C. 关于直线 y=x 对称 2D. 关于直线 y= -x 对称"
+      ],
+      "current_gate": {
+        "decision": "pending_review",
+        "reasons": [
+          "leaf 'Q4' answer grammar: answer not expressible as canonical value"
+        ]
+      },
+      "answer_source_located": true,
+      "answer_complete": true,
+      "answer_span_id": "sp-Q4.answer",
+      "answer_resolution_status": "exact",
+      "simulated_option_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "simulated_gate": {
+        "decision": "pending_review",
+        "reasons": [
+          "leaf 'Q4' answer grammar: answer not expressible as canonical value"
+        ]
+      },
+      "decision_delta": "pending_review -> pending_review",
+      "grammar_old": null,
+      "grammar_new": null,
+      "answer_letter": "【",
+      "answer_in_old_labels": false,
+      "answer_in_new_labels": false,
+      "binding_constraint_is_option_set": false
+    }
+  ]
+}

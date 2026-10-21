@@ -1,0 +1,131 @@
+{
+  "task": "Option Evidence survey correction (READ-ONLY)",
+  "baseline_accepted": {
+    "commit": "af70d64",
+    "G1_G3": "PASS",
+    "auto_baseline": "154 / 68 / 5 / 57",
+    "S0": 25,
+    "STRICT_AUTO_TYPES": "unchanged",
+    "decomposition": "FROZEN — not modified",
+    "console": "still deferred"
+  },
+  "rejected": [
+    "MIMO survey conclusion 'real anomalies only B=1 + D=1'",
+    "chem Q23 as isolated Option Evidence defect",
+    "DSH B=3 counting english Q5 as B while also calling it C"
+  ],
+  "classification_model": {
+    "B": "source contains option content; label damaged / missing / unrecognized by Producer",
+    "C": "source does NOT contain the option content",
+    "D": "PER-SUB options composite with sibling qn lacking leaf (decomposition frozen). Shared-option composites are NOT D.",
+    "A": "structural alignment OK",
+    "F": "answer not canonical (answer-side, not option root)",
+    "F0": "not compiled — out of answer-evidence scope"
+  },
+  "primary_totals_mutually_exclusive": {
+    "F": 23,
+    "A": 151,
+    "F0": 7,
+    "B": 3,
+    "D": 29,
+    "C": 1
+  },
+  "subsequent_not_roots": {
+    "D": 1
+  },
+  "focus_adjudication": {
+    "chem_Q23": {
+      "primary": "B",
+      "form": "4th content present, D label missing"
+    },
+    "math_Q4": {
+      "primary": "B",
+      "form": "4th content present, label glued `2D.`",
+      "2_proof": "digit `2` is label-boundary glue — NOT C content, NOT D content"
+    },
+    "history_Q29": {
+      "primary": "B",
+      "form": "4th content `D Mailun`, missing `.` separator"
+    },
+    "english_Q5_6": {
+      "primary": "C",
+      "subsequent": [
+        "D"
+      ],
+      "split": "Q5 C-option content absent (C) vs Q6 A/B exist without leaf (D)"
+    }
+  },
+  "math_Q4_2D_verdict": {
+    "2_belongs_to_previous_option": false,
+    "2_is_D_content": false,
+    "2_is_label_boundary_glue": true,
+    "B_subtype": "B2_label_damaged_glued (digit_glue)",
+    "producer_gap": "label regex lookbehind excludes alnum prefix; digit-glued `2D.` invisible to CLEAN and prior GLUED probe"
+  },
+  "b_generalization_answer": "YES — narrow deterministic Producer option-label parsing compatibility gap, NOT a recovery mechanism. Confirmed samples share: option CONTENT present + label token damaged/missing/unrecognized + label letter recoverable from source form WITHOUT answer evidence. Subtypes: B1 complete label drop (化学 Q23, 历史 Q29 space-sep), B2 digit/char glue (数学 Q4 `2D.`). Common contract: Producer must accept damaged-but-deterministically-identifiable option labels (G1/G3-class parser compatibility). NO Answer→Option Recovery.",
+  "b_samples": [
+    {
+      "paper": "化学",
+      "root": "Q23",
+      "subtype": "B1",
+      "form": "4th content L194, `D．` dropped entirely",
+      "declared": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q4",
+      "subtype": "B2",
+      "form": "4th content L23, label glued as `2D.`",
+      "declared": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q29",
+      "subtype": "B1/B2",
+      "form": "4th content L307 `D 麦哲伦` missing `.` separator",
+      "declared": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  ],
+  "authority_red_line": "Answer Evidence may DETECT option inconsistency but must NEVER generate Option Evidence. No Answer->Option Recovery.",
+  "independent_verification_2026": {
+    "verifier_artifact": "OPTION-EVIDENCE-V2/_indep_verify_2026.py + _indep_verify_report.json",
+    "method": "re-ran the pipeline with a branch-instrumented copy of the classifier; did not read executive_summary/report conclusions first",
+    "totals_reproduced": "F 23 | A 151 | F0 7 | B 3 | D 29 | C 1 (214 rows) — exact match",
+    "B_route_breakdown": {
+      "B_damaged_undeclared_label": 2,
+      "B_trailing_option_like_content": 1,
+      "answer_dependent_B_routes": 0,
+      "note": "化学 Q23 = B1 (label dropped entirely -> trailing-content route, no label token at all); 数学 Q4 + 历史 Q29 = B2 (damaged label token). Report's B1/B2 subtype mapping is correct."
+    },
+    "B_is_answer_independent": "TRUE for all 3 samples: answer_driven route 'B_damaged_label_for_answer_slot'/'B_trailing_for_answer_slot' fired 0 times. 历史 Q29 answer=C and 数学 Q4 answer=A both lie INSIDE declared=[A,B,C], so answer evidence could not have prompted the B call there.",
+    "C_route_is_answer_dependent": "C=1 relies on 'C_no_source_for_answer_slot'; C can only fire when the answer letter is outside declared. Label-missing-with-content cases are routed to B first, so C is a conservative undercount of content-absent, not an overcount.",
+    "2D_glue_corroborated_across_corpus_variants": [
+      "reslice-batch-C/会考/数学/... L23: 'C. 关于直线 y=x 对称 2D. 关于直线 y= -x 对称'",
+      "reslice-pac-annotated/reslice-pac/ocr/pac-c01-01.md L23: identical",
+      "phase1_min_corpus/2018北京春季高中会考数学（教师版）(1).md L61: identical"
+    ],
+    "decisive_negative_control": "No corpus variant anywhere contains a clean 'D. 关于直线' form; the parallel-history paper shows 'D 麦哲伦' (separator damaged, no digit). The malformed token is a stable OCR/slice artifact, not a producer artifact.",
+    "D_audit": "All 29 D rows are composites with option_blocks >= 2; 地理 U1-2..U30-31 carry one option block per sub-qn (2,3,2,2,3,3,2,3,4,2,4,2) against n_leaves=1 — per-sub option groups genuinely present, decomposition gap genuine.",
+    "missed_B_census": "0 units are classed A while carrying source labels outside declared; 0 units declare labels absent from source. No additional B samples found.",
+    "finding_1": "化学 Q23 trailing L194 lies AFTER its declared question boundary (q_boundary=[186,186], options_lines=[188,194]). The evidence is sound but the boundary annotation is loose; a stricter boundary would re-route Q23 to the expected-shortfall C branch. Not a miscount, but a boundary-precision caveat.",
+    "finding_2": "英语 Q5-6 is a conjunction of two independent facts: Q5 answer slot C has NO source content at all (source span L39-L47 carries only A./B. for Q5 at L43 and A./B. for Q6 at L47), and Q6 has no leaf. C and D are therefore not competing descriptions of one failure; the dual-layer reporting is coherent."
+  },
+  "production_changes": "NONE (zero code / Schema / Gate / Resolver / Producer / Decomposition / DB)",
+  "artifacts": [
+    "OPTION-EVIDENCE-V2/option_evidence_survey_v2.json",
+    "OPTION-EVIDENCE-V2/option_evidence_survey_v2.py",
+    "OPTION-EVIDENCE-V2/option_evidence_focus_report.md"
+  ]
+}

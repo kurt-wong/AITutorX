@@ -1,0 +1,3281 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\高三\\化学\\1_16_专题十六　化学实验综合　教师用书PDF.md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.1",
+    "validation_issues": [
+      "Q2: 无 answer_lines（题号 [2]）",
+      "Q2: 无 answer_lines（题号 [2]）"
+    ],
+    "warnings": [
+      "U1: 题号 1 与 U1 重号（可能为分节各自编号，需确认）",
+      "Q2: 题号 2 与 Q2 重号（可能为分节各自编号，需确认）",
+      "U1: 题号 1 与 U1 重号（可能为分节各自编号，需确认）",
+      "Q2: 题号 2 与 Q2 重号（可能为分节各自编号，需确认）",
+      "Q1: 题号 1 与 U1 重号（可能为分节各自编号，需确认）",
+      "Q2: 题号 2 与 Q2 重号（可能为分节各自编号，需确认）",
+      "Q1: 题号 1 与 Q1 重号（可能为分节各自编号，需确认）",
+      "Q2: 题号 2 与 Q2 重号（可能为分节各自编号，需确认）",
+      "U-eg1: 题号 1 与 Q1 重号（可能为分节各自编号，需确认）",
+      "U-eg2: 题号 2 与 Q2 重号（可能为分节各自编号，需确认）",
+      "Q1: 题号 1 与 U-eg1 重号（可能为分节各自编号，需确认）",
+      "Q2: 题号 2 与 U-eg2 重号（可能为分节各自编号，需确认）",
+      "Q1: 题号 1 与 Q1 重号（可能为分节各自编号，需确认）",
+      "Q2: 题号 2 与 Q2 重号（可能为分节各自编号，需确认）",
+      "Q3: 题号 3 与 Q3 重号（可能为分节各自编号，需确认）",
+      "Q1: 题号 1 与 Q1 重号（可能为分节各自编号，需确认）",
+      "Q2: 题号 2 与 Q2 重号（可能为分节各自编号，需确认）",
+      "Q1: 题号 1 与 Q1 重号（可能为分节各自编号，需确认）",
+      "Q2: 题号 2 与 Q2 重号（可能为分节各自编号，需确认）",
+      "Q3: 题号 3 与 Q3 重号（可能为分节各自编号，需确认）",
+      "Q1: 题号 1 与 Q1 重号（可能为分节各自编号，需确认）",
+      "Q2: 题号 2 与 Q2 重号（可能为分节各自编号，需确认）",
+      "Q3: 题号 3 与 Q3 重号（可能为分节各自编号，需确认）",
+      "Q4: 题号 4 与 Q4 重号（可能为分节各自编号，需确认）",
+      "Q1: 题号 1 与 Q1 重号（可能为分节各自编号，需确认）",
+      "Q2: 题号 2 与 Q2 重号（可能为分节各自编号，需确认）",
+      "Q3: 题号 3 与 Q3 重号（可能为分节各自编号，需确认）",
+      "Q4: 题号 4 与 Q4 重号（可能为分节各自编号，需确认）",
+      "Q1: 题号 1 与 Q1 重号（可能为分节各自编号，需确认）",
+      "Q2: 题号 2 与 Q2 重号（可能为分节各自编号，需确认）",
+      "Q3: 题号 3 与 Q3 重号（可能为分节各自编号，需确认）",
+      "Q1: 题号 1 与 Q1 重号（可能为分节各自编号，需确认）",
+      "Q2: 题号 2 与 Q2 重号（可能为分节各自编号，需确认）",
+      "Q3: 题号 3 与 Q3 重号（可能为分节各自编号，需确认）",
+      "Q4: 题号 4 与 Q4 重号（可能为分节各自编号，需确认）",
+      "Q5: 题号 5 与 Q5 重号（可能为分节各自编号，需确认）",
+      "Q6: 题号 6 与 Q6 重号（可能为分节各自编号，需确认）",
+      "Q1: 题号 1 与 Q1 重号（可能为分节各自编号，需确认）",
+      "Q2: 题号 2 与 Q2 重号（可能为分节各自编号，需确认）",
+      "Q3: 题号 3 与 Q3 重号（可能为分节各自编号，需确认）",
+      "Q1: 题号 1 与 Q1 重号（可能为分节各自编号，需确认）",
+      "Q2: 题号 2 与 Q2 重号（可能为分节各自编号，需确认）",
+      "Q3: 题号 3 与 Q3 重号（可能为分节各自编号，需确认）",
+      "Q1: 题号 1 与 Q1 重号（可能为分节各自编号，需确认）",
+      "Q2: 题号 2 与 Q2 重号（可能为分节各自编号，需确认）",
+      "Q3: 题号 3 与 Q3 重号（可能为分节各自编号，需确认）",
+      "Q4: 题号 4 与 Q4 重号（可能为分节各自编号，需确认）",
+      "Q1: 题号 1 与 Q1 重号（可能为分节各自编号，需确认）",
+      "Q2: 题号 2 与 Q2 重号（可能为分节各自编号，需确认）",
+      "Q3: 题号 3 与 Q3 重号（可能为分节各自编号，需确认）",
+      "Q1: 题号 1 与 Q1 重号（可能为分节各自编号，需确认）",
+      "Q2: 题号 2 与 Q2 重号（可能为分节各自编号，需确认）",
+      "Q3: 题号 3 与 Q3 重号（可能为分节各自编号，需确认）",
+      "Q4: 题号 4 与 Q4 重号（可能为分节各自编号，需确认）",
+      "Q5: 题号 5 与 Q5 重号（可能为分节各自编号，需确认）",
+      "Q6: 题号 6 与 Q6 重号（可能为分节各自编号，需确认）",
+      "Q7: 题号 7 与 Q7 重号（可能为分节各自编号，需确认）",
+      "Q8: 题号 8 与 Q8 重号（可能为分节各自编号，需确认）",
+      "Q1: 题号 1 与 Q1 重号（可能为分节各自编号，需确认）",
+      "Q2: 题号 2 与 Q2 重号（可能为分节各自编号，需确认）",
+      "Q3: 题号 3 与 Q3 重号（可能为分节各自编号，需确认）",
+      "Q4: 题号 4 与 Q4 重号（可能为分节各自编号，需确认）",
+      "Q5: 题号 5 与 Q5 重号（可能为分节各自编号，需确认）",
+      "Q6: 题号 6 与 Q6 重号（可能为分节各自编号，需确认）",
+      "Q7: 题号 7 与 Q7 重号（可能为分节各自编号，需确认）",
+      "Q1: 题号 1 与 Q1 重号（可能为分节各自编号，需确认）",
+      "Q2: 题号 2 与 Q2 重号（可能为分节各自编号，需确认）",
+      "Q3: 题号 3 与 Q3 重号（可能为分节各自编号，需确认）",
+      "Q4: 题号 4 与 Q4 重号（可能为分节各自编号，需确认）",
+      "Q5: 题号 5 与 Q5 重号（可能为分节各自编号，需确认）",
+      "Q6: 题号 6 与 Q6 重号（可能为分节各自编号，需确认）",
+      "Q7: 题号 7 与 Q7 重号（可能为分节各自编号，需确认）"
+    ],
+    "bug22_migration": {
+      "round": "r31",
+      "changes": [],
+      "plan_evidence": "教师用书汇编:各考点/针对训练/考向块独立成篇,各自从 1 编号,无全卷编号体系——身份由 section(含重复标题消歧)区分",
+      "report": "data/bug22_migration_report.json"
+    }
+  },
+  "units": [
+    {
+      "unit_id": "U1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "true_false",
+      "stem_lines": [
+        302,
+        319
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        320,
+        320
+      ],
+      "explanation_lines": null,
+      "section": "针对训练",
+      "section_ref": "S13",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L300:针对训练",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        322,
+        322
+      ],
+      "options_lines": [
+        326,
+        369
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        370,
+        370
+      ],
+      "explanation_lines": null,
+      "section": "针对训练",
+      "section_ref": "S13",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L300:针对训练",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 362,
+          "end_line": 362
+        },
+        {
+          "label": "B",
+          "start_line": 364,
+          "end_line": 364
+        },
+        {
+          "label": "C",
+          "start_line": 366,
+          "end_line": 366
+        },
+        {
+          "label": "D",
+          "start_line": 368,
+          "end_line": 368
+        }
+      ]
+    },
+    {
+      "unit_id": "U1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "true_false",
+      "stem_lines": [
+        402,
+        427
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        428,
+        430
+      ],
+      "explanation_lines": null,
+      "section": "针对训练",
+      "section_ref": "S17",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L400:针对训练",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        432,
+        432
+      ],
+      "options_lines": [
+        434,
+        451
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        453,
+        453
+      ],
+      "explanation_lines": null,
+      "section": "针对训练",
+      "section_ref": "S17",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L400:针对训练",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 443,
+          "end_line": 443
+        },
+        {
+          "label": "B",
+          "start_line": 447,
+          "end_line": 447
+        },
+        {
+          "label": "C",
+          "start_line": 449,
+          "end_line": 449
+        },
+        {
+          "label": "D",
+          "start_line": 451,
+          "end_line": 451
+        }
+      ]
+    },
+    {
+      "unit_id": "U1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "true_false",
+      "stem_lines": [
+        568,
+        584
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        586,
+        588
+      ],
+      "explanation_lines": null,
+      "section": "针对训练",
+      "section_ref": "S20",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L566:针对训练",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        590,
+        590
+      ],
+      "options_lines": [
+        593,
+        593
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        595,
+        595
+      ],
+      "explanation_lines": null,
+      "section": "针对训练",
+      "section_ref": "S20",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L566:针对训练",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        699,
+        699
+      ],
+      "options_lines": [
+        701,
+        701
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        704,
+        704
+      ],
+      "explanation_lines": null,
+      "section": "针对训练",
+      "section_ref": "S25",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L697:针对训练",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        706,
+        722
+      ],
+      "options_lines": null,
+      "extra_lines": [
+        726,
+        726
+      ],
+      "answer_lines": [
+        724,
+        724
+      ],
+      "explanation_lines": null,
+      "section": "针对训练",
+      "section_ref": "S25",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L697:针对训练",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        752,
+        768
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        771,
+        771
+      ],
+      "explanation_lines": null,
+      "section": "探究实验方案的设计与评价",
+      "section_ref": "S26",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L729:探究实验方案的设计与评价",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        773,
+        773
+      ],
+      "options_lines": [
+        776,
+        776
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        778,
+        778
+      ],
+      "explanation_lines": null,
+      "section": "探究实验方案的设计与评价",
+      "section_ref": "S26",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L729:探究实验方案的设计与评价",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "U-eg1",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        867,
+        931
+      ],
+      "questions_lines": [
+        867,
+        931
+      ],
+      "answer_lines": [
+        932,
+        948
+      ],
+      "explanation_lines": [
+        932,
+        934
+      ],
+      "section": "4. 热重曲线计算",
+      "section_ref": "S39",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L855:4. 热重曲线计算",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "U-eg2",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        986,
+        1031
+      ],
+      "questions_lines": [
+        986,
+        1031
+      ],
+      "answer_lines": [
+        1032,
+        1048
+      ],
+      "explanation_lines": [
+        1032,
+        1034
+      ],
+      "section": "3. 影响因素的探究",
+      "section_ref": "S45",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L982:3. 影响因素的探究",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1058,
+        1058
+      ],
+      "options_lines": [
+        1061,
+        1061
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        1063,
+        1063
+      ],
+      "explanation_lines": null,
+      "section": "考点1 常见仪器的使用和实验基本操作",
+      "section_ref": "S48",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1054:考点1 常见仪器的使用和实验基本操作",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1065,
+        1065
+      ],
+      "options_lines": [
+        1068,
+        1068
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        1070,
+        1070
+      ],
+      "explanation_lines": null,
+      "section": "考点1 常见仪器的使用和实验基本操作",
+      "section_ref": "S48",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1054:考点1 常见仪器的使用和实验基本操作",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 1068,
+          "end_line": 1068
+        },
+        {
+          "label": "B",
+          "start_line": 1068,
+          "end_line": 1068
+        },
+        {
+          "label": "C",
+          "start_line": 1068,
+          "end_line": 1068
+        },
+        {
+          "label": "D",
+          "start_line": 1068,
+          "end_line": 1068
+        }
+      ]
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1072,
+        1084
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        1086,
+        1088
+      ],
+      "explanation_lines": null,
+      "section": "考点1 常见仪器的使用和实验基本操作",
+      "section_ref": "S48",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1054:考点1 常见仪器的使用和实验基本操作",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1095,
+        1097
+      ],
+      "options_lines": [
+        1101,
+        1101
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        1103,
+        1103
+      ],
+      "explanation_lines": null,
+      "section": "物质的检验、分离和提纯",
+      "section_ref": "S49",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1091:物质的检验、分离和提纯",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1105,
+        1105
+      ],
+      "options_lines": [
+        1108,
+        1108
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        1112,
+        1112
+      ],
+      "explanation_lines": null,
+      "section": "物质的检验、分离和提纯",
+      "section_ref": "S49",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1091:物质的检验、分离和提纯",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1114,
+        1116
+      ],
+      "options_lines": [
+        1120,
+        1120
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        1122,
+        1122
+      ],
+      "explanation_lines": null,
+      "section": "物质的检验、分离和提纯",
+      "section_ref": "S49",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1091:物质的检验、分离和提纯",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1128,
+        1128
+      ],
+      "options_lines": [
+        1131,
+        1131
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        1133,
+        1133
+      ],
+      "explanation_lines": null,
+      "section": "考点3 制备实验方案的设计与评价",
+      "section_ref": "S50",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1124:考点3 制备实验方案的设计与评价",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1135,
+        1135
+      ],
+      "options_lines": [
+        1137,
+        1162
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        1164,
+        1164
+      ],
+      "explanation_lines": null,
+      "section": "考点3 制备实验方案的设计与评价",
+      "section_ref": "S50",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1124:考点3 制备实验方案的设计与评价",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1170,
+        1173
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        1185,
+        1185
+      ],
+      "explanation_lines": null,
+      "section": "考点4 探究实验方案的设计与评价",
+      "section_ref": "S51",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1166:考点4 探究实验方案的设计与评价",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1187,
+        1190
+      ],
+      "options_lines": [
+        1192,
+        1200
+      ],
+      "extra_lines": null,
+      "answer_lines": null,
+      "explanation_lines": null,
+      "section": "考点4 探究实验方案的设计与评价",
+      "section_ref": "S51",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1166:考点4 探究实验方案的设计与评价",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 1192,
+          "end_line": 1192
+        },
+        {
+          "label": "B",
+          "start_line": 1194,
+          "end_line": 1194
+        },
+        {
+          "label": "C",
+          "start_line": 1198,
+          "end_line": 1198
+        },
+        {
+          "label": "D",
+          "start_line": 1200,
+          "end_line": 1200
+        }
+      ]
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        1202,
+        1213
+      ],
+      "questions_lines": [
+        1202,
+        1237
+      ],
+      "answer_lines": [
+        1238,
+        1254
+      ],
+      "explanation_lines": null,
+      "section": "考点4 探究实验方案的设计与评价",
+      "section_ref": "S51",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1166:考点4 探究实验方案的设计与评价",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        1256,
+        1280
+      ],
+      "questions_lines": [
+        1256,
+        1300
+      ],
+      "answer_lines": [
+        1302,
+        1312
+      ],
+      "explanation_lines": null,
+      "section": "考点4 探究实验方案的设计与评价",
+      "section_ref": "S51",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1166:考点4 探究实验方案的设计与评价",
+      "printed_number": [
+        4
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        5
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        1314,
+        1318
+      ],
+      "questions_lines": [
+        1314,
+        1356
+      ],
+      "answer_lines": [
+        1359,
+        1373
+      ],
+      "explanation_lines": null,
+      "section": "考点4 探究实验方案的设计与评价",
+      "section_ref": "S51",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1166:考点4 探究实验方案的设计与评价",
+      "printed_number": [
+        5
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        6
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        1375,
+        1377
+      ],
+      "questions_lines": [
+        1375,
+        1411
+      ],
+      "answer_lines": [
+        1413,
+        1428
+      ],
+      "explanation_lines": null,
+      "section": "考点4 探究实验方案的设计与评价",
+      "section_ref": "S51",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1166:考点4 探究实验方案的设计与评价",
+      "printed_number": [
+        6
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        7
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        1430,
+        1433
+      ],
+      "questions_lines": [
+        1430,
+        1473
+      ],
+      "answer_lines": [
+        1475,
+        1492
+      ],
+      "explanation_lines": null,
+      "section": "考点4 探究实验方案的设计与评价",
+      "section_ref": "S51",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1166:考点4 探究实验方案的设计与评价",
+      "printed_number": [
+        7
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q8",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        8
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        1494,
+        1498
+      ],
+      "questions_lines": [
+        1494,
+        1522
+      ],
+      "answer_lines": [
+        1524,
+        1542
+      ],
+      "explanation_lines": null,
+      "section": "考点4 探究实验方案的设计与评价",
+      "section_ref": "S51",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1166:考点4 探究实验方案的设计与评价",
+      "printed_number": [
+        8
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1548,
+        1548
+      ],
+      "options_lines": [
+        1550,
+        1592
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        1594,
+        1594
+      ],
+      "explanation_lines": null,
+      "section": "B 组 其他地区高考题",
+      "section_ref": "S52",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1544:B 组 其他地区高考题",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 1586,
+          "end_line": 1586
+        },
+        {
+          "label": "B",
+          "start_line": 1588,
+          "end_line": 1588
+        },
+        {
+          "label": "C",
+          "start_line": 1590,
+          "end_line": 1590
+        },
+        {
+          "label": "D",
+          "start_line": 1592,
+          "end_line": 1592
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1596,
+        1596
+      ],
+      "options_lines": [
+        1598,
+        1604
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        1606,
+        1606
+      ],
+      "explanation_lines": null,
+      "section": "B 组 其他地区高考题",
+      "section_ref": "S52",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1544:B 组 其他地区高考题",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 1598,
+          "end_line": 1598
+        },
+        {
+          "label": "B",
+          "start_line": 1600,
+          "end_line": 1600
+        },
+        {
+          "label": "C",
+          "start_line": 1602,
+          "end_line": 1602
+        },
+        {
+          "label": "D",
+          "start_line": 1604,
+          "end_line": 1604
+        }
+      ]
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1608,
+        1632
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        1635,
+        1635
+      ],
+      "explanation_lines": null,
+      "section": "B 组 其他地区高考题",
+      "section_ref": "S52",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1544:B 组 其他地区高考题",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1637,
+        1637
+      ],
+      "options_lines": [
+        1639,
+        1645
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        1647,
+        1647
+      ],
+      "explanation_lines": null,
+      "section": "B 组 其他地区高考题",
+      "section_ref": "S52",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1544:B 组 其他地区高考题",
+      "printed_number": [
+        4
+      ],
+      "printed_provenance": "migration_report",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 1639,
+          "end_line": 1639
+        },
+        {
+          "label": "B",
+          "start_line": 1641,
+          "end_line": 1641
+        },
+        {
+          "label": "C",
+          "start_line": 1643,
+          "end_line": 1643
+        },
+        {
+          "label": "D",
+          "start_line": 1645,
+          "end_line": 1645
+        }
+      ]
+    },
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1655,
+        1655
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        1665,
+        1665
+      ],
+      "explanation_lines": null,
+      "section": "考点2 物质的检验、分离和提纯",
+      "section_ref": "S53",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1651:考点2 物质的检验、分离和提纯",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1667,
+        1667
+      ],
+      "options_lines": [
+        1669,
+        1675
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        1677,
+        1677
+      ],
+      "explanation_lines": null,
+      "section": "考点2 物质的检验、分离和提纯",
+      "section_ref": "S53",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1651:考点2 物质的检验、分离和提纯",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 1669,
+          "end_line": 1669
+        },
+        {
+          "label": "B",
+          "start_line": 1671,
+          "end_line": 1671
+        },
+        {
+          "label": "C",
+          "start_line": 1673,
+          "end_line": 1673
+        },
+        {
+          "label": "D",
+          "start_line": 1675,
+          "end_line": 1675
+        }
+      ]
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1679,
+        1687
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        1689,
+        1689
+      ],
+      "explanation_lines": null,
+      "section": "考点2 物质的检验、分离和提纯",
+      "section_ref": "S53",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1651:考点2 物质的检验、分离和提纯",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1691,
+        1701
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        1703,
+        1705
+      ],
+      "explanation_lines": null,
+      "section": "考点2 物质的检验、分离和提纯",
+      "section_ref": "S53",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1651:考点2 物质的检验、分离和提纯",
+      "printed_number": [
+        4
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1712,
+        1732
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        1734,
+        1734
+      ],
+      "explanation_lines": null,
+      "section": "3 制备实验方案的设计与评价",
+      "section_ref": "S54",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1708:3 制备实验方案的设计与评价",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1736,
+        1759
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        1762,
+        1762
+      ],
+      "explanation_lines": null,
+      "section": "3 制备实验方案的设计与评价",
+      "section_ref": "S54",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1708:3 制备实验方案的设计与评价",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1764,
+        1793
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        1795,
+        1797
+      ],
+      "explanation_lines": null,
+      "section": "3 制备实验方案的设计与评价",
+      "section_ref": "S54",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1708:3 制备实验方案的设计与评价",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1804,
+        1804
+      ],
+      "options_lines": [
+        1807,
+        1807
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        1809,
+        1809
+      ],
+      "explanation_lines": null,
+      "section": "探究实验方案的设计与评价",
+      "section_ref": "S55",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1800:探究实验方案的设计与评价",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1811,
+        1811
+      ],
+      "options_lines": [
+        1814,
+        1821
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        1823,
+        1823
+      ],
+      "explanation_lines": null,
+      "section": "探究实验方案的设计与评价",
+      "section_ref": "S55",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1800:探究实验方案的设计与评价",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1825,
+        1825
+      ],
+      "options_lines": [
+        1828,
+        1828
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        1830,
+        1830
+      ],
+      "explanation_lines": null,
+      "section": "探究实验方案的设计与评价",
+      "section_ref": "S55",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1800:探究实验方案的设计与评价",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1832,
+        1832
+      ],
+      "options_lines": [
+        1835,
+        1840
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        1842,
+        1842
+      ],
+      "explanation_lines": null,
+      "section": "探究实验方案的设计与评价",
+      "section_ref": "S55",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1800:探究实验方案的设计与评价",
+      "printed_number": [
+        4
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        5
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1844,
+        1844
+      ],
+      "options_lines": [
+        1847,
+        1847
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        1849,
+        1849
+      ],
+      "explanation_lines": null,
+      "section": "探究实验方案的设计与评价",
+      "section_ref": "S55",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1800:探究实验方案的设计与评价",
+      "printed_number": [
+        5
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        6
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1851,
+        1851
+      ],
+      "options_lines": [
+        1854,
+        1854
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        1856,
+        1856
+      ],
+      "explanation_lines": null,
+      "section": "探究实验方案的设计与评价",
+      "section_ref": "S55",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1800:探究实验方案的设计与评价",
+      "printed_number": [
+        6
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1868,
+        1868
+      ],
+      "options_lines": [
+        1870,
+        1906
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        1908,
+        1908
+      ],
+      "explanation_lines": null,
+      "section": "点1 常见仪器的使用和实验基本操作",
+      "section_ref": "S58",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1864:点1 常见仪器的使用和实验基本操作",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 1900,
+          "end_line": 1900
+        },
+        {
+          "label": "B",
+          "start_line": 1902,
+          "end_line": 1902
+        },
+        {
+          "label": "C",
+          "start_line": 1904,
+          "end_line": 1904
+        },
+        {
+          "label": "D",
+          "start_line": 1906,
+          "end_line": 1906
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1910,
+        1913
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        1915,
+        1915
+      ],
+      "explanation_lines": null,
+      "section": "点1 常见仪器的使用和实验基本操作",
+      "section_ref": "S58",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1864:点1 常见仪器的使用和实验基本操作",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1917,
+        1925
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        1927,
+        1927
+      ],
+      "explanation_lines": null,
+      "section": "点1 常见仪器的使用和实验基本操作",
+      "section_ref": "S58",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1864:点1 常见仪器的使用和实验基本操作",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1938,
+        1944
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        1946,
+        1946
+      ],
+      "explanation_lines": null,
+      "section": "物质的检验、分离和提纯",
+      "section_ref": "S59",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1931:物质的检验、分离和提纯",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1949,
+        1949
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        1953,
+        1953
+      ],
+      "explanation_lines": null,
+      "section": "物质的检验、分离和提纯",
+      "section_ref": "S59",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1931:物质的检验、分离和提纯",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1955,
+        1958
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        1960,
+        1962
+      ],
+      "explanation_lines": null,
+      "section": "物质的检验、分离和提纯",
+      "section_ref": "S59",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1931:物质的检验、分离和提纯",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1969,
+        1975
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        1977,
+        1977
+      ],
+      "explanation_lines": null,
+      "section": "考点3 制备实验方案的设计与评价",
+      "section_ref": "S60",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1965:考点3 制备实验方案的设计与评价",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        1979,
+        2018
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        2020,
+        2020
+      ],
+      "explanation_lines": null,
+      "section": "考点3 制备实验方案的设计与评价",
+      "section_ref": "S60",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1965:考点3 制备实验方案的设计与评价",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        2022,
+        2051
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        2054,
+        2054
+      ],
+      "explanation_lines": null,
+      "section": "考点3 制备实验方案的设计与评价",
+      "section_ref": "S60",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1965:考点3 制备实验方案的设计与评价",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        2056,
+        2084
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        2086,
+        2088
+      ],
+      "explanation_lines": null,
+      "section": "考点3 制备实验方案的设计与评价",
+      "section_ref": "S60",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L1965:考点3 制备实验方案的设计与评价",
+      "printed_number": [
+        4
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        2095,
+        2103
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        2115,
+        2115
+      ],
+      "explanation_lines": null,
+      "section": "探究实验方案的设计与评价",
+      "section_ref": "S61",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L2091:探究实验方案的设计与评价",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        2117,
+        2129
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": null,
+      "explanation_lines": null,
+      "section": "探究实验方案的设计与评价",
+      "section_ref": "S61",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L2091:探究实验方案的设计与评价",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        2131,
+        2134
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        2136,
+        2138
+      ],
+      "explanation_lines": null,
+      "section": "探究实验方案的设计与评价",
+      "section_ref": "S61",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L2091:探究实验方案的设计与评价",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q1",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        2142,
+        2150
+      ],
+      "questions_lines": [
+        2142,
+        2162
+      ],
+      "answer_lines": [
+        2164,
+        2164
+      ],
+      "explanation_lines": null,
+      "section": "B 组 综合题组",
+      "section_ref": "S62",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L2140:B 组 综合题组",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        2166,
+        2168
+      ],
+      "options_lines": [
+        2173,
+        2179
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        2181,
+        2181
+      ],
+      "explanation_lines": null,
+      "section": "B 组 综合题组",
+      "section_ref": "S62",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L2140:B 组 综合题组",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 2173,
+          "end_line": 2173
+        },
+        {
+          "label": "B",
+          "start_line": 2175,
+          "end_line": 2175
+        },
+        {
+          "label": "C",
+          "start_line": 2177,
+          "end_line": 2177
+        },
+        {
+          "label": "D",
+          "start_line": 2179,
+          "end_line": 2179
+        }
+      ]
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        2185,
+        2188
+      ],
+      "questions_lines": [
+        2185,
+        2198
+      ],
+      "answer_lines": [
+        2200,
+        2200
+      ],
+      "explanation_lines": null,
+      "section": "B 组 综合题组",
+      "section_ref": "S62",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L2140:B 组 综合题组",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        2202,
+        2216
+      ],
+      "questions_lines": [
+        2202,
+        2226
+      ],
+      "answer_lines": [
+        2227,
+        2227
+      ],
+      "explanation_lines": null,
+      "section": "B 组 综合题组",
+      "section_ref": "S62",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L2140:B 组 综合题组",
+      "printed_number": [
+        4
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        5
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        2228,
+        2232
+      ],
+      "questions_lines": [
+        2228,
+        2266
+      ],
+      "answer_lines": [
+        2268,
+        2282
+      ],
+      "explanation_lines": null,
+      "section": "B 组 综合题组",
+      "section_ref": "S62",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L2140:B 组 综合题组",
+      "printed_number": [
+        5
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        6
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        2284,
+        2288
+      ],
+      "questions_lines": [
+        2284,
+        2344
+      ],
+      "answer_lines": [
+        2346,
+        2358
+      ],
+      "explanation_lines": null,
+      "section": "B 组 综合题组",
+      "section_ref": "S62",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L2140:B 组 综合题组",
+      "printed_number": [
+        6
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        7
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        2360,
+        2368
+      ],
+      "questions_lines": [
+        2360,
+        2405
+      ],
+      "answer_lines": [
+        2407,
+        2415
+      ],
+      "explanation_lines": null,
+      "section": "B 组 综合题组",
+      "section_ref": "S62",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L2140:B 组 综合题组",
+      "printed_number": [
+        7
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q8",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        8
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        2417,
+        2429
+      ],
+      "questions_lines": [
+        2417,
+        2462
+      ],
+      "answer_lines": [
+        2464,
+        2476
+      ],
+      "explanation_lines": null,
+      "section": "【查阅资料】",
+      "section_ref": "S63",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L2382:【查阅资料】",
+      "printed_number": [
+        8
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q9",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        9
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        2480,
+        2489
+      ],
+      "questions_lines": [
+        2480,
+        2522
+      ],
+      "answer_lines": [
+        2524,
+        2534
+      ],
+      "explanation_lines": null,
+      "section": "【查阅资料】",
+      "section_ref": "S63",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L2382:【查阅资料】",
+      "printed_number": [
+        9
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q10",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        10
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        2536,
+        2550
+      ],
+      "questions_lines": [
+        2536,
+        2575
+      ],
+      "answer_lines": [
+        2577,
+        2581
+      ],
+      "explanation_lines": null,
+      "section": "【查阅资料】",
+      "section_ref": "S63",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L2382:【查阅资料】",
+      "printed_number": [
+        10
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q11",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        11
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        2583,
+        2589
+      ],
+      "questions_lines": [
+        2583,
+        2643
+      ],
+      "answer_lines": [
+        2644,
+        2663
+      ],
+      "explanation_lines": null,
+      "section": "【查阅资料】",
+      "section_ref": "S63",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L2382:【查阅资料】",
+      "printed_number": [
+        11
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q12",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        12
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        2665,
+        2673
+      ],
+      "questions_lines": [
+        2665,
+        2724
+      ],
+      "answer_lines": [
+        2726,
+        2726
+      ],
+      "explanation_lines": null,
+      "section": "【查阅资料】",
+      "section_ref": "S63",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L2382:【查阅资料】",
+      "printed_number": [
+        12
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q1",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        2736,
+        2743
+      ],
+      "questions_lines": [
+        2736,
+        2768
+      ],
+      "answer_lines": [
+        2770,
+        2786
+      ],
+      "explanation_lines": null,
+      "section": "考法 | 定量分析实验综合题",
+      "section_ref": "S66",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L2732:考法 | 定量分析实验综合题",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        2788,
+        2801
+      ],
+      "questions_lines": [
+        2788,
+        2821
+      ],
+      "answer_lines": [
+        2823,
+        2829
+      ],
+      "explanation_lines": null,
+      "section": "考法 | 定量分析实验综合题",
+      "section_ref": "S66",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L2732:考法 | 定量分析实验综合题",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        2831,
+        2831
+      ],
+      "questions_lines": [
+        2831,
+        2849
+      ],
+      "answer_lines": [
+        2853,
+        2859
+      ],
+      "explanation_lines": null,
+      "section": "考法 | 定量分析实验综合题",
+      "section_ref": "S66",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L2732:考法 | 定量分析实验综合题",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        2861,
+        2875
+      ],
+      "questions_lines": [
+        2861,
+        2891
+      ],
+      "answer_lines": [
+        2893,
+        2914
+      ],
+      "explanation_lines": null,
+      "section": "考法 | 定量分析实验综合题",
+      "section_ref": "S66",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L2732:考法 | 定量分析实验综合题",
+      "printed_number": [
+        4
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        5
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        2916,
+        2929
+      ],
+      "questions_lines": [
+        2916,
+        2949
+      ],
+      "answer_lines": [
+        2953,
+        2959
+      ],
+      "explanation_lines": null,
+      "section": "考法 | 定量分析实验综合题",
+      "section_ref": "S66",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L2732:考法 | 定量分析实验综合题",
+      "printed_number": [
+        5
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        6
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        2961,
+        2970
+      ],
+      "questions_lines": [
+        2961,
+        3002
+      ],
+      "answer_lines": [
+        3004,
+        3008
+      ],
+      "explanation_lines": null,
+      "section": "考法 | 定量分析实验综合题",
+      "section_ref": "S66",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L2732:考法 | 定量分析实验综合题",
+      "printed_number": [
+        6
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        7
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        3010,
+        3020
+      ],
+      "questions_lines": [
+        3010,
+        3040
+      ],
+      "answer_lines": [
+        3042,
+        3052
+      ],
+      "explanation_lines": null,
+      "section": "考法 | 定量分析实验综合题",
+      "section_ref": "S66",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L2732:考法 | 定量分析实验综合题",
+      "printed_number": [
+        7
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q1",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        3060,
+        3062
+      ],
+      "questions_lines": [
+        3060,
+        3091
+      ],
+      "answer_lines": [
+        3093,
+        3105
+      ],
+      "explanation_lines": null,
+      "section": "微专题 探究实验综合题解题策略",
+      "section_ref": "S67",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L3056:微专题 探究实验综合题解题策略",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        3109,
+        3117
+      ],
+      "questions_lines": [
+        3109,
+        3146
+      ],
+      "answer_lines": [
+        3148,
+        3158
+      ],
+      "explanation_lines": null,
+      "section": "微专题 探究实验综合题解题策略",
+      "section_ref": "S67",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L3056:微专题 探究实验综合题解题策略",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        3160,
+        3162
+      ],
+      "questions_lines": [
+        3160,
+        3203
+      ],
+      "answer_lines": [
+        3206,
+        3206
+      ],
+      "explanation_lines": null,
+      "section": "微专题 探究实验综合题解题策略",
+      "section_ref": "S67",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L3056:微专题 探究实验综合题解题策略",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        3208,
+        3211
+      ],
+      "questions_lines": [
+        3208,
+        3230
+      ],
+      "answer_lines": [
+        3232,
+        3232
+      ],
+      "explanation_lines": null,
+      "section": "微专题 探究实验综合题解题策略",
+      "section_ref": "S67",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L3056:微专题 探究实验综合题解题策略",
+      "printed_number": [
+        4
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        5
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        3234,
+        3245
+      ],
+      "questions_lines": [
+        3234,
+        3290
+      ],
+      "answer_lines": [
+        3292,
+        3296
+      ],
+      "explanation_lines": null,
+      "section": "微专题 探究实验综合题解题策略",
+      "section_ref": "S67",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L3056:微专题 探究实验综合题解题策略",
+      "printed_number": [
+        5
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        6
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        3298,
+        3311
+      ],
+      "questions_lines": [
+        3298,
+        3331
+      ],
+      "answer_lines": [
+        3333,
+        3341
+      ],
+      "explanation_lines": null,
+      "section": "微专题 探究实验综合题解题策略",
+      "section_ref": "S67",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L3056:微专题 探究实验综合题解题策略",
+      "printed_number": [
+        6
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        7
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        3343,
+        3350
+      ],
+      "questions_lines": [
+        3343,
+        3395
+      ],
+      "answer_lines": [
+        3397,
+        3401
+      ],
+      "explanation_lines": null,
+      "section": "微专题 探究实验综合题解题策略",
+      "section_ref": "S67",
+      "basis": "keep",
+      "basis_evidence": "汇编保持印刷号,scoped 身份;分节标题 L3056:微专题 探究实验综合题解题策略",
+      "printed_number": [
+        7
+      ],
+      "printed_provenance": "migration_report"
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "专题十六 化学实验综合",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "考点讲解",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 4,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "考点1 常见仪器的使用和实验基本操作",
+      "ordinal": 3,
+      "start_line": 5,
+      "end_line": 6,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "一、 常见仪器的使用",
+      "ordinal": 4,
+      "start_line": 7,
+      "end_line": 196,
+      "occurrence": 1
+    },
+    {
+      "id": "S4",
+      "title": "二、 化学实验基本操作",
+      "ordinal": 5,
+      "start_line": 197,
+      "end_line": 198,
+      "occurrence": 1
+    },
+    {
+      "id": "S5",
+      "title": "1. 药品的取用",
+      "ordinal": 6,
+      "start_line": 199,
+      "end_line": 202,
+      "occurrence": 1
+    },
+    {
+      "id": "S6",
+      "title": "2. 物质的溶解、加热",
+      "ordinal": 7,
+      "start_line": 203,
+      "end_line": 214,
+      "occurrence": 1
+    },
+    {
+      "id": "S7",
+      "title": "3. 试纸的使用",
+      "ordinal": 8,
+      "start_line": 215,
+      "end_line": 236,
+      "occurrence": 1
+    },
+    {
+      "id": "S8",
+      "title": "4. 气密性检查的常用方法",
+      "ordinal": 9,
+      "start_line": 237,
+      "end_line": 241,
+      "occurrence": 1
+    },
+    {
+      "id": "S9",
+      "title": "5. 仪器的洗涤",
+      "ordinal": 10,
+      "start_line": 242,
+      "end_line": 248,
+      "occurrence": 1
+    },
+    {
+      "id": "S10",
+      "title": "三、 化学实验安全措施",
+      "ordinal": 11,
+      "start_line": 249,
+      "end_line": 266,
+      "occurrence": 1
+    },
+    {
+      "id": "S11",
+      "title": "3. 防污染",
+      "ordinal": 12,
+      "start_line": 267,
+      "end_line": 294,
+      "occurrence": 1
+    },
+    {
+      "id": "S12",
+      "title": "6. 实验常见事故的处理",
+      "ordinal": 13,
+      "start_line": 295,
+      "end_line": 299,
+      "occurrence": 1
+    },
+    {
+      "id": "S13",
+      "title": "针对训练",
+      "ordinal": 14,
+      "start_line": 300,
+      "end_line": 371,
+      "occurrence": 1
+    },
+    {
+      "id": "S14",
+      "title": "考点2 物质的检验、分离和提纯",
+      "ordinal": 15,
+      "start_line": 372,
+      "end_line": 373,
+      "occurrence": 1
+    },
+    {
+      "id": "S15",
+      "title": "考向1 物质的检验和鉴别",
+      "ordinal": 16,
+      "start_line": 374,
+      "end_line": 389,
+      "occurrence": 1
+    },
+    {
+      "id": "S16",
+      "title": "2. 常见离子的检验",
+      "ordinal": 17,
+      "start_line": 390,
+      "end_line": 399,
+      "occurrence": 1
+    },
+    {
+      "id": "S17",
+      "title": "针对训练",
+      "ordinal": 18,
+      "start_line": 400,
+      "end_line": 454,
+      "occurrence": 2
+    },
+    {
+      "id": "S18",
+      "title": "考向2 物质的分离和提纯",
+      "ordinal": 19,
+      "start_line": 455,
+      "end_line": 532,
+      "occurrence": 1
+    },
+    {
+      "id": "S19",
+      "title": "2. 物质分离与提纯的常见类型",
+      "ordinal": 20,
+      "start_line": 533,
+      "end_line": 565,
+      "occurrence": 1
+    },
+    {
+      "id": "S20",
+      "title": "针对训练",
+      "ordinal": 21,
+      "start_line": 566,
+      "end_line": 596,
+      "occurrence": 3
+    },
+    {
+      "id": "S21",
+      "title": "点3 制备实验方案的设计与评价",
+      "ordinal": 22,
+      "start_line": 597,
+      "end_line": 598,
+      "occurrence": 1
+    },
+    {
+      "id": "S22",
+      "title": "1. 物质制备实验的基本形式",
+      "ordinal": 23,
+      "start_line": 599,
+      "end_line": 618,
+      "occurrence": 1
+    },
+    {
+      "id": "S23",
+      "title": "2. 制备实验方案的评价",
+      "ordinal": 24,
+      "start_line": 619,
+      "end_line": 628,
+      "occurrence": 1
+    },
+    {
+      "id": "S24",
+      "title": "3. 常见气体的制备方法",
+      "ordinal": 25,
+      "start_line": 629,
+      "end_line": 696,
+      "occurrence": 1
+    },
+    {
+      "id": "S25",
+      "title": "针对训练",
+      "ordinal": 26,
+      "start_line": 697,
+      "end_line": 728,
+      "occurrence": 4
+    },
+    {
+      "id": "S26",
+      "title": "探究实验方案的设计与评价",
+      "ordinal": 27,
+      "start_line": 729,
+      "end_line": 779,
+      "occurrence": 1
+    },
+    {
+      "id": "S27",
+      "title": "考法讲解",
+      "ordinal": 28,
+      "start_line": 780,
+      "end_line": 781,
+      "occurrence": 1
+    },
+    {
+      "id": "S28",
+      "title": "考法 | 定量分析实验综合题",
+      "ordinal": 29,
+      "start_line": 782,
+      "end_line": 783,
+      "occurrence": 1
+    },
+    {
+      "id": "S29",
+      "title": "一、 定量测定数据的方法",
+      "ordinal": 30,
+      "start_line": 784,
+      "end_line": 785,
+      "occurrence": 1
+    },
+    {
+      "id": "S30",
+      "title": "1. 测沉淀质量法",
+      "ordinal": 31,
+      "start_line": 786,
+      "end_line": 809,
+      "occurrence": 1
+    },
+    {
+      "id": "S31",
+      "title": "3. 测气体质量法",
+      "ordinal": 32,
+      "start_line": 810,
+      "end_line": 813,
+      "occurrence": 1
+    },
+    {
+      "id": "S32",
+      "title": "4. 滴定法",
+      "ordinal": 33,
+      "start_line": 814,
+      "end_line": 817,
+      "occurrence": 1
+    },
+    {
+      "id": "S33",
+      "title": "5. 热重法",
+      "ordinal": 34,
+      "start_line": 818,
+      "end_line": 821,
+      "occurrence": 1
+    },
+    {
+      "id": "S34",
+      "title": "二、 定量实验数据的处理方法",
+      "ordinal": 35,
+      "start_line": 822,
+      "end_line": 831,
+      "occurrence": 1
+    },
+    {
+      "id": "S35",
+      "title": "三、 定量分析实验的常用计算方法",
+      "ordinal": 36,
+      "start_line": 832,
+      "end_line": 835,
+      "occurrence": 1
+    },
+    {
+      "id": "S36",
+      "title": "1. 关系式法",
+      "ordinal": 37,
+      "start_line": 836,
+      "end_line": 844,
+      "occurrence": 1
+    },
+    {
+      "id": "S37",
+      "title": "2. 守恒法",
+      "ordinal": 38,
+      "start_line": 845,
+      "end_line": 848,
+      "occurrence": 1
+    },
+    {
+      "id": "S38",
+      "title": "3. 多步滴定计算",
+      "ordinal": 39,
+      "start_line": 849,
+      "end_line": 854,
+      "occurrence": 1
+    },
+    {
+      "id": "S39",
+      "title": "4. 热重曲线计算",
+      "ordinal": 40,
+      "start_line": 855,
+      "end_line": 868,
+      "occurrence": 1
+    },
+    {
+      "id": "S40",
+      "title": "I. 甲方案",
+      "ordinal": 41,
+      "start_line": 869,
+      "end_line": 888,
+      "occurrence": 1
+    },
+    {
+      "id": "S41",
+      "title": "Ⅱ. 乙方案",
+      "ordinal": 42,
+      "start_line": 889,
+      "end_line": 949,
+      "occurrence": 1
+    },
+    {
+      "id": "S42",
+      "title": "微专题 探究实验综合题解题策略",
+      "ordinal": 43,
+      "start_line": 950,
+      "end_line": 951,
+      "occurrence": 1
+    },
+    {
+      "id": "S43",
+      "title": "1. 物质成分的探究",
+      "ordinal": 44,
+      "start_line": 952,
+      "end_line": 970,
+      "occurrence": 1
+    },
+    {
+      "id": "S44",
+      "title": "2. 物质性质的探究",
+      "ordinal": 45,
+      "start_line": 971,
+      "end_line": 981,
+      "occurrence": 1
+    },
+    {
+      "id": "S45",
+      "title": "3. 影响因素的探究",
+      "ordinal": 46,
+      "start_line": 982,
+      "end_line": 1049,
+      "occurrence": 1
+    },
+    {
+      "id": "S46",
+      "title": "五 年高考",
+      "ordinal": 47,
+      "start_line": 1050,
+      "end_line": 1051,
+      "occurrence": 1
+    },
+    {
+      "id": "S47",
+      "title": "A 组 本地区高考题",
+      "ordinal": 48,
+      "start_line": 1052,
+      "end_line": 1053,
+      "occurrence": 1
+    },
+    {
+      "id": "S48",
+      "title": "考点1 常见仪器的使用和实验基本操作",
+      "ordinal": 49,
+      "start_line": 1054,
+      "end_line": 1090,
+      "occurrence": 2
+    },
+    {
+      "id": "S49",
+      "title": "物质的检验、分离和提纯",
+      "ordinal": 50,
+      "start_line": 1091,
+      "end_line": 1123,
+      "occurrence": 1
+    },
+    {
+      "id": "S50",
+      "title": "考点3 制备实验方案的设计与评价",
+      "ordinal": 51,
+      "start_line": 1124,
+      "end_line": 1165,
+      "occurrence": 1
+    },
+    {
+      "id": "S51",
+      "title": "考点4 探究实验方案的设计与评价",
+      "ordinal": 52,
+      "start_line": 1166,
+      "end_line": 1543,
+      "occurrence": 1
+    },
+    {
+      "id": "S52",
+      "title": "B 组 其他地区高考题",
+      "ordinal": 53,
+      "start_line": 1544,
+      "end_line": 1650,
+      "occurrence": 1
+    },
+    {
+      "id": "S53",
+      "title": "考点2 物质的检验、分离和提纯",
+      "ordinal": 54,
+      "start_line": 1651,
+      "end_line": 1707,
+      "occurrence": 2
+    },
+    {
+      "id": "S54",
+      "title": "3 制备实验方案的设计与评价",
+      "ordinal": 55,
+      "start_line": 1708,
+      "end_line": 1799,
+      "occurrence": 1
+    },
+    {
+      "id": "S55",
+      "title": "探究实验方案的设计与评价",
+      "ordinal": 56,
+      "start_line": 1800,
+      "end_line": 1859,
+      "occurrence": 2
+    },
+    {
+      "id": "S56",
+      "title": "三年模拟",
+      "ordinal": 57,
+      "start_line": 1860,
+      "end_line": 1861,
+      "occurrence": 1
+    },
+    {
+      "id": "S57",
+      "title": "A 组 基础题组",
+      "ordinal": 58,
+      "start_line": 1862,
+      "end_line": 1863,
+      "occurrence": 1
+    },
+    {
+      "id": "S58",
+      "title": "点1 常见仪器的使用和实验基本操作",
+      "ordinal": 59,
+      "start_line": 1864,
+      "end_line": 1930,
+      "occurrence": 1
+    },
+    {
+      "id": "S59",
+      "title": "物质的检验、分离和提纯",
+      "ordinal": 60,
+      "start_line": 1931,
+      "end_line": 1964,
+      "occurrence": 2
+    },
+    {
+      "id": "S60",
+      "title": "考点3 制备实验方案的设计与评价",
+      "ordinal": 61,
+      "start_line": 1965,
+      "end_line": 2090,
+      "occurrence": 2
+    },
+    {
+      "id": "S61",
+      "title": "探究实验方案的设计与评价",
+      "ordinal": 62,
+      "start_line": 2091,
+      "end_line": 2139,
+      "occurrence": 3
+    },
+    {
+      "id": "S62",
+      "title": "B 组 综合题组",
+      "ordinal": 63,
+      "start_line": 2140,
+      "end_line": 2381,
+      "occurrence": 1
+    },
+    {
+      "id": "S63",
+      "title": "【查阅资料】",
+      "ordinal": 64,
+      "start_line": 2382,
+      "end_line": 2717,
+      "occurrence": 1
+    },
+    {
+      "id": "S64",
+      "title": "【获得结论】",
+      "ordinal": 65,
+      "start_line": 2718,
+      "end_line": 2729,
+      "occurrence": 1
+    },
+    {
+      "id": "S65",
+      "title": "考法训练",
+      "ordinal": 66,
+      "start_line": 2730,
+      "end_line": 2731,
+      "occurrence": 1
+    },
+    {
+      "id": "S66",
+      "title": "考法 | 定量分析实验综合题",
+      "ordinal": 67,
+      "start_line": 2732,
+      "end_line": 3055,
+      "occurrence": 2
+    },
+    {
+      "id": "S67",
+      "title": "微专题 探究实验综合题解题策略",
+      "ordinal": 68,
+      "start_line": 3056,
+      "end_line": 3375,
+      "occurrence": 2
+    },
+    {
+      "id": "S68",
+      "title": "【深入探究】",
+      "ordinal": 69,
+      "start_line": 3376,
+      "end_line": 3403,
+      "occurrence": 1
+    }
+  ],
+  "source_content_sha256": "eb8ef93fa233e93466bea6f72b64255960a23098b25b1dbf2f4b38d1b4ab4b16"
+}

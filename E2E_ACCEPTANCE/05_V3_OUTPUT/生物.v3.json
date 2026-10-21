@@ -1,0 +1,186 @@
+{
+  "ir_ready": 29,
+  "ir_incomplete": 21,
+  "gate_auto": 29,
+  "gate_pending": 0,
+  "gate_rejected": 21,
+  "n_units": 50,
+  "n_questions_tracked": 50,
+  "questions": [
+    {
+      "unit_id": "Q1",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q2",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q3",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q4",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q5",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q6",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q7",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q8",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q9",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q10",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q11",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "11．某动物的基因型为AaBb，这两对基因独立遗传。若它的一个精原细胞经减数分裂后产生的四个精细胞中，有一个精细胞的基因型为AB，则另外三个的基因型分别是\n"
+    },
+    {
+      "unit_id": "Q12",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "B",
+      "answer_preview": "B",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "12\\. 下列各对生物性状中，属于相对性状的是\n"
+    },
+    {
+      "unit_id": "Q13",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "13\\. 在豌豆杂交实验中，为防止自花传粉应\n"
+    },
+    {
+      "unit_id": "Q14",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "14. 人类在正常情况下，女性的卵细胞中常染色体的数目和性染色体为\n"
+    },
+    {
+      "unit_id": "Q15",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "15. 一株基因型为Dd的小麦自交，后代的基因型有\n"
+    }
+  ]
+}

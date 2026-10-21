@@ -1,0 +1,454 @@
+{
+  "ir_semantic_status_roots": {
+    "incomplete": 57,
+    "ready": 227
+  },
+  "gate_decisions_roots": {
+    "rejected": 62,
+    "auto_approve": 154,
+    "pending_review": 68
+  },
+  "gate_decisions_leaves": {
+    "auto_approve": 154,
+    "pending_review": 68,
+    "rejected": 5
+  },
+  "rejected_roots": [
+    {
+      "paper": "化学",
+      "root": "Q1",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q1' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "Q2",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q2' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "Q3",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q3' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "Q4",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q4' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "Q5",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q5' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "Q6",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q6' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "Q9",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q9' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "Q19",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q19' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "Q24",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q24' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "Q25",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q25' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "U-req1",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'U-req1' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "U-req2",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'U-req2' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "U-req3",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'U-req3' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "U-req4",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'U-req4' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "U-req5",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'U-req5' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "U-req6",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'U-req6' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "U-cl1",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'U-cl1' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "U-cl2",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'U-cl2' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "U-cl3",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'U-cl3' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "U-org1",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'U-org1' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "U-org2",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'U-org2' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "U-org3",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'U-org3' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "U-cp1",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'U-cp1' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "U-cp2",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'U-cp2' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "化学",
+      "root": "U-cp3",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'U-cp3' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "历史",
+      "root": "U51",
+      "semantic_status": "ready",
+      "n_sub": 1,
+      "first_reason": "leaf 'U51.sub' has no non-empty stem text"
+    },
+    {
+      "paper": "历史",
+      "root": "U52",
+      "semantic_status": "ready",
+      "n_sub": 1,
+      "first_reason": "leaf 'U52.sub' has no non-empty stem text"
+    },
+    {
+      "paper": "历史",
+      "root": "U53",
+      "semantic_status": "ready",
+      "n_sub": 1,
+      "first_reason": "leaf 'U53.sub' has no non-empty stem text"
+    },
+    {
+      "paper": "地理",
+      "root": "U16-17",
+      "semantic_status": "ready",
+      "n_sub": 1,
+      "first_reason": "leaf 'U16-17.sub' has no non-empty stem text"
+    },
+    {
+      "paper": "地理",
+      "root": "U26-29",
+      "semantic_status": "ready",
+      "n_sub": 1,
+      "first_reason": "leaf 'U26-29.sub' has no non-empty stem text"
+    },
+    {
+      "paper": "政治",
+      "root": "Q6",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q6' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "政治",
+      "root": "Q7",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q7' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "政治",
+      "root": "U9-10",
+      "semantic_status": "incomplete",
+      "n_sub": 1,
+      "first_reason": "unit 'U9-10' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "政治",
+      "root": "Q13",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q13' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "政治",
+      "root": "Q14",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q14' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "政治",
+      "root": "Q25",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q25' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "政治",
+      "root": "Q26",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q26' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "物理",
+      "root": "Q16",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q16' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "生物",
+      "root": "Q1",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q1' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "生物",
+      "root": "Q2",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q2' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "生物",
+      "root": "Q3",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q3' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "生物",
+      "root": "Q4",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q4' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "生物",
+      "root": "Q5",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q5' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "生物",
+      "root": "Q6",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q6' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "生物",
+      "root": "Q7",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q7' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "生物",
+      "root": "Q8",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q8' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "生物",
+      "root": "Q9",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q9' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "生物",
+      "root": "Q10",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q10' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "生物",
+      "root": "Q30",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q30' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "生物",
+      "root": "Q41",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q41' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "生物",
+      "root": "Q42",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q42' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "生物",
+      "root": "Q43",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q43' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "生物",
+      "root": "Q44",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q44' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "生物",
+      "root": "Q45",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q45' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "生物",
+      "root": "Q46",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q46' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "生物",
+      "root": "Q47",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q47' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "生物",
+      "root": "Q48",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q48' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "生物",
+      "root": "Q49",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q49' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "生物",
+      "root": "Q50",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q50' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "英语",
+      "root": "Q3",
+      "semantic_status": "incomplete",
+      "n_sub": 1,
+      "first_reason": "unit 'Q3' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "英语",
+      "root": "Q21-25",
+      "semantic_status": "incomplete",
+      "n_sub": 1,
+      "first_reason": "unit 'Q21-25' semantic_status=incomplete (not ready)"
+    },
+    {
+      "paper": "英语",
+      "root": "Q61",
+      "semantic_status": "incomplete",
+      "n_sub": 0,
+      "first_reason": "unit 'Q61' semantic_status=incomplete (not ready)"
+    }
+  ],
+  "rejected_root_count": 62,
+  "note": "replay is READ-ONLY; compares root-scope vs leaf-scope decision counts"
+}

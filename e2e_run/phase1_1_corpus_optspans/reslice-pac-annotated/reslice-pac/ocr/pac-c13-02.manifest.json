@@ -1,0 +1,542 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-pac-annotated\\reslice-pac\\ocr\\pac-c13-02.md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.3",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "section": "一、 本大题共3小题，共6分。",
+      "printed_number": [
+        1
+      ],
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        7,
+        7
+      ],
+      "options_lines": [
+        9,
+        23
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        297,
+        307
+      ],
+      "explanation_lines": [
+        297,
+        307
+      ],
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L7",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 9,
+          "end_line": 9
+        },
+        {
+          "label": "B",
+          "start_line": 13,
+          "end_line": 13
+        },
+        {
+          "label": "C",
+          "start_line": 17,
+          "end_line": 17
+        },
+        {
+          "label": "D",
+          "start_line": 21,
+          "end_line": 21
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "section": "一、 本大题共3小题，共6分。",
+      "printed_number": [
+        2
+      ],
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        25,
+        31
+      ],
+      "options_lines": [
+        33,
+        35
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        309,
+        319
+      ],
+      "explanation_lines": [
+        309,
+        319
+      ],
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L25",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 33,
+          "end_line": 33
+        },
+        {
+          "label": "B",
+          "start_line": 33,
+          "end_line": 33
+        },
+        {
+          "label": "C",
+          "start_line": 35,
+          "end_line": 35
+        },
+        {
+          "label": "D",
+          "start_line": 35,
+          "end_line": 35
+        }
+      ]
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "section": "一、 本大题共3小题，共6分。",
+      "printed_number": [
+        3
+      ],
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        37,
+        37
+      ],
+      "options_lines": [
+        39,
+        45
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        321,
+        339
+      ],
+      "explanation_lines": [
+        321,
+        339
+      ],
+      "section_ref": "S2",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L37",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 39,
+          "end_line": 39
+        },
+        {
+          "label": "B",
+          "start_line": 41,
+          "end_line": 41
+        },
+        {
+          "label": "C",
+          "start_line": 43,
+          "end_line": 43
+        },
+        {
+          "label": "D",
+          "start_line": 45,
+          "end_line": 45
+        }
+      ]
+    },
+    {
+      "unit_id": "U4-8",
+      "unit_type": "composite_question",
+      "section": "二、 本大题共5小题，共13分。",
+      "printed_number": null,
+      "question_numbers": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        51,
+        95
+      ],
+      "questions_lines": [
+        49,
+        113
+      ],
+      "answer_lines": [
+        367,
+        377
+      ],
+      "explanation_lines": [
+        343,
+        387
+      ],
+      "section_ref": "S3",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U9-12",
+      "unit_type": "composite_question",
+      "section": "三、 本大题共7小题，共24分。",
+      "printed_number": null,
+      "question_numbers": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        119,
+        133
+      ],
+      "questions_lines": [
+        117,
+        169
+      ],
+      "answer_lines": [
+        407,
+        417
+      ],
+      "explanation_lines": [
+        391,
+        441
+      ],
+      "section_ref": "S5",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U13-14",
+      "unit_type": "composite_question",
+      "section": "渔翁 $ ^{[1]} $ 柳宗元",
+      "printed_number": null,
+      "question_numbers": [
+        13,
+        14
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        173,
+        181
+      ],
+      "questions_lines": [
+        171,
+        193
+      ],
+      "answer_lines": [
+        451,
+        457
+      ],
+      "explanation_lines": [
+        443,
+        473
+      ],
+      "section_ref": "S7",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q15",
+      "unit_type": "standalone_question",
+      "section": "渔翁 $ ^{[1]} $ 柳宗元",
+      "printed_number": [
+        15
+      ],
+      "question_numbers": [
+        15
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        195,
+        201
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        477,
+        483
+      ],
+      "explanation_lines": [
+        475,
+        487
+      ],
+      "section_ref": "S7",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L195"
+    },
+    {
+      "unit_id": "U16-17",
+      "unit_type": "composite_question",
+      "section": "想北平（节选）",
+      "printed_number": null,
+      "question_numbers": [
+        16,
+        17
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        207,
+        223
+      ],
+      "questions_lines": [
+        205,
+        235
+      ],
+      "answer_lines": [
+        501,
+        505
+      ],
+      "explanation_lines": [
+        493,
+        507
+      ],
+      "section_ref": "S8",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U18-19",
+      "unit_type": "composite_question",
+      "section": "乡土本色 费孝通",
+      "printed_number": null,
+      "question_numbers": [
+        18,
+        19
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        241,
+        269
+      ],
+      "questions_lines": [
+        239,
+        273
+      ],
+      "answer_lines": [
+        521,
+        525
+      ],
+      "explanation_lines": [
+        511,
+        529
+      ],
+      "section_ref": "S9",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q20",
+      "unit_type": "standalone_question",
+      "section": "乡土本色 费孝通",
+      "printed_number": null,
+      "question_numbers": [
+        20
+      ],
+      "original_question_type": "essay",
+      "stem_lines": [
+        277,
+        285
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        535,
+        635
+      ],
+      "explanation_lines": [
+        535,
+        635
+      ],
+      "section_ref": "S9",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2020 北京石景山高一（上）期末",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "语文",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 4,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "一、 本大题共3小题，共6分。",
+      "ordinal": 3,
+      "start_line": 5,
+      "end_line": 46,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "二、 本大题共5小题，共13分。",
+      "ordinal": 4,
+      "start_line": 47,
+      "end_line": 78,
+      "occurrence": 1
+    },
+    {
+      "id": "S4",
+      "title": "材料二",
+      "ordinal": 5,
+      "start_line": 79,
+      "end_line": 114,
+      "occurrence": 1
+    },
+    {
+      "id": "S5",
+      "title": "三、 本大题共7小题，共24分。",
+      "ordinal": 6,
+      "start_line": 115,
+      "end_line": 134,
+      "occurrence": 1
+    },
+    {
+      "id": "S6",
+      "title": "9. 下列语句中，加点词语的解释不正确的一项是（2分）",
+      "ordinal": 7,
+      "start_line": 135,
+      "end_line": 172,
+      "occurrence": 1
+    },
+    {
+      "id": "S7",
+      "title": "渔翁 $ ^{[1]} $ 柳宗元",
+      "ordinal": 8,
+      "start_line": 173,
+      "end_line": 206,
+      "occurrence": 1
+    },
+    {
+      "id": "S8",
+      "title": "想北平（节选）",
+      "ordinal": 9,
+      "start_line": 207,
+      "end_line": 240,
+      "occurrence": 1
+    },
+    {
+      "id": "S9",
+      "title": "乡土本色 费孝通",
+      "ordinal": 10,
+      "start_line": 241,
+      "end_line": 292,
+      "occurrence": 1
+    },
+    {
+      "id": "S10",
+      "title": "2020 北京石景山高一（上）期末语文 参考答案",
+      "ordinal": 11,
+      "start_line": 293,
+      "end_line": 294,
+      "occurrence": 1
+    },
+    {
+      "id": "S11",
+      "title": "一、 本大题共3小题，共6分，每题2分",
+      "ordinal": 12,
+      "start_line": 295,
+      "end_line": 340,
+      "occurrence": 1
+    },
+    {
+      "id": "S12",
+      "title": "二、 本大题共1小题，共13分",
+      "ordinal": 13,
+      "start_line": 341,
+      "end_line": 388,
+      "occurrence": 1
+    },
+    {
+      "id": "S13",
+      "title": "三、 本大题共3小题，共24分",
+      "ordinal": 14,
+      "start_line": 389,
+      "end_line": 488,
+      "occurrence": 1
+    },
+    {
+      "id": "S14",
+      "title": "四、 本大题共1小题，共7分",
+      "ordinal": 15,
+      "start_line": 489,
+      "end_line": 508,
+      "occurrence": 1
+    },
+    {
+      "id": "S15",
+      "title": "五、 本大题共1小题，共10分",
+      "ordinal": 16,
+      "start_line": 509,
+      "end_line": 546,
+      "occurrence": 1
+    },
+    {
+      "id": "S16",
+      "title": "青春的价值",
+      "ordinal": 17,
+      "start_line": 547,
+      "end_line": 586,
+      "occurrence": 1
+    },
+    {
+      "id": "S17",
+      "title": "那一刻，我仿佛第一次看到人性光辉",
+      "ordinal": 18,
+      "start_line": 587,
+      "end_line": 635,
+      "occurrence": 1
+    }
+  ],
+  "source_content_sha256": "bd39d337f689e10d3dc20d7c964fb30e608c8a2e3b386cb03e0be41b4f103f81"
+}

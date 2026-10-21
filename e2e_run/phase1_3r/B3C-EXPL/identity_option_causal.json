@@ -1,0 +1,258 @@
+{
+  "rows": [
+    {
+      "unit": "U1-2",
+      "qn": [
+        1,
+        2
+      ],
+      "declared": 4,
+      "resolved": 4,
+      "unresolved": 0,
+      "stem_ok": true,
+      "class": "all options resolved"
+    },
+    {
+      "unit": "U3-5",
+      "qn": [
+        3,
+        4,
+        5
+      ],
+      "declared": 4,
+      "resolved": 4,
+      "unresolved": 0,
+      "stem_ok": true,
+      "class": "all options resolved"
+    },
+    {
+      "unit": "U6-7",
+      "qn": [
+        6,
+        7
+      ],
+      "declared": 4,
+      "resolved": 4,
+      "unresolved": 0,
+      "stem_ok": true,
+      "class": "all options resolved"
+    },
+    {
+      "unit": "U8-9",
+      "qn": [
+        8,
+        9
+      ],
+      "declared": 4,
+      "resolved": 4,
+      "unresolved": 0,
+      "stem_ok": true,
+      "class": "all options resolved"
+    },
+    {
+      "unit": "U10-12",
+      "qn": [
+        10,
+        11,
+        12
+      ],
+      "declared": 4,
+      "resolved": 4,
+      "unresolved": 0,
+      "stem_ok": true,
+      "class": "all options resolved"
+    },
+    {
+      "unit": "U13-15",
+      "qn": [
+        13,
+        14,
+        15
+      ],
+      "declared": 4,
+      "resolved": 4,
+      "unresolved": 0,
+      "stem_ok": true,
+      "class": "all options resolved"
+    },
+    {
+      "unit": "U16-17",
+      "qn": [
+        16,
+        17
+      ],
+      "declared": 4,
+      "resolved": 4,
+      "unresolved": 0,
+      "stem_ok": true,
+      "class": "all options resolved"
+    },
+    {
+      "unit": "U18-20",
+      "qn": [
+        18,
+        19,
+        20
+      ],
+      "declared": 4,
+      "resolved": 4,
+      "unresolved": 0,
+      "stem_ok": true,
+      "class": "all options resolved"
+    },
+    {
+      "unit": "U21-23",
+      "qn": [
+        21,
+        22,
+        23
+      ],
+      "declared": 4,
+      "resolved": 4,
+      "unresolved": 0,
+      "stem_ok": true,
+      "class": "all options resolved"
+    },
+    {
+      "unit": "U24-25",
+      "qn": [
+        24,
+        25
+      ],
+      "declared": 4,
+      "resolved": 4,
+      "unresolved": 0,
+      "stem_ok": true,
+      "class": "all options resolved"
+    },
+    {
+      "unit": "U26-29",
+      "qn": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "declared": 4,
+      "resolved": 4,
+      "unresolved": 0,
+      "stem_ok": true,
+      "class": "all options resolved"
+    },
+    {
+      "unit": "U30-31",
+      "qn": [
+        30,
+        31
+      ],
+      "declared": 4,
+      "resolved": 4,
+      "unresolved": 0,
+      "stem_ok": true,
+      "class": "all options resolved"
+    },
+    {
+      "unit": "U32-33",
+      "qn": [
+        32,
+        33
+      ],
+      "declared": 4,
+      "resolved": 4,
+      "unresolved": 0,
+      "stem_ok": true,
+      "class": "all options resolved"
+    },
+    {
+      "unit": "U34-35",
+      "qn": [
+        34,
+        35
+      ],
+      "declared": 4,
+      "resolved": 4,
+      "unresolved": 0,
+      "stem_ok": true,
+      "class": "all options resolved"
+    },
+    {
+      "unit": "U36-39",
+      "qn": [
+        36,
+        37,
+        38,
+        39
+      ],
+      "declared": 4,
+      "resolved": 4,
+      "unresolved": 0,
+      "stem_ok": true,
+      "class": "all options resolved"
+    },
+    {
+      "unit": "U40-41",
+      "qn": [
+        40,
+        41
+      ],
+      "declared": 4,
+      "resolved": 4,
+      "unresolved": 0,
+      "stem_ok": true,
+      "class": "all options resolved"
+    },
+    {
+      "unit": "U42-43",
+      "qn": [
+        42,
+        43
+      ],
+      "declared": 4,
+      "resolved": 4,
+      "unresolved": 0,
+      "stem_ok": true,
+      "class": "all options resolved"
+    },
+    {
+      "unit": "U44-46",
+      "qn": [
+        44,
+        45,
+        46
+      ],
+      "declared": 4,
+      "resolved": 3,
+      "unresolved": 1,
+      "stem_ok": true,
+      "class": "unresolved despite start_ref (separate mechanism)"
+    },
+    {
+      "unit": "U47-48",
+      "qn": [
+        47,
+        48
+      ],
+      "declared": 4,
+      "resolved": 4,
+      "unresolved": 0,
+      "stem_ok": true,
+      "class": "all options resolved"
+    },
+    {
+      "unit": "U49-50",
+      "qn": [
+        49,
+        50
+      ],
+      "declared": 4,
+      "resolved": 4,
+      "unresolved": 0,
+      "stem_ok": true,
+      "class": "all options resolved"
+    }
+  ],
+  "class_totals": {
+    "all options resolved": 19,
+    "unresolved despite start_ref (separate mechanism)": 1
+  }
+}

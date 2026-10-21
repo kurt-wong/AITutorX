@@ -1,0 +1,509 @@
+{
+  "purpose": "Evidence binding inventory — source_file declaration vs actual path vs SHA256",
+  "note": "Freeze prevents later mutation; does NOT prove initial correctness. Bindings must be verified.",
+  "subjects": {
+    "数学": {
+      "subject": "数学",
+      "bindings": {
+        "manifest": {
+          "path": "04_V3_INPUT\\数学.manifest.json",
+          "sha256": "1d1425555a5cc23af7bd9bc5242ef3cc24fb396ec0ef5d1e63362b9695f4c814",
+          "declared_source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\数学\\2018北京春季高中会考数学（教师版）(1).md"
+        },
+        "preprocessing_md": {
+          "path": "02_PREPROCESSING_OUTPUT\\2018北京春季高中会考数学（教师版）(1).md",
+          "sha256": "934dec78dde333d21342f3f9419f524bb68e92645914c3d3db9cf482a282f176",
+          "expected_sha_from_v2": "934dec78dde333d21342f3f9419f524bb68e92645914c3d3db9cf482a282f176",
+          "sha_match": true
+        },
+        "input_pdf": {
+          "path": "01_INPUT_PDF\\2018北京春季高中会考数学（教师版）.pdf",
+          "sha256": "3b87f19f2e212c63f9afc1c159982ecb16fd0da5f36e7745ce5b66e9c46b1fdc",
+          "expected_sha_from_v2": "3b87f19f2e212c63f9afc1c159982ecb16fd0da5f36e7745ce5b66e9c46b1fdc",
+          "sha_match": true
+        },
+        "pdf_text_extract": {
+          "path": "05_V3_OUTPUT\\数学.pdf.txt",
+          "sha256": "8ab05654005b9bda84c4f588be6ff282d8c6a6e010da3419916907fcebe3dca5",
+          "derived_from": "01_INPUT_PDF\\2018北京春季高中会考数学（教师版）.pdf"
+        },
+        "v3_output": {
+          "path": "05_V3_OUTPUT\\数学.v3.json",
+          "sha256": "1c8553620b58ba95ed782ee8c2e40e24da79614d553eed652852880a3bbbac8f",
+          "inputs": {
+            "manifest": "04_V3_INPUT\\数学.manifest.json",
+            "md": "02_PREPROCESSING_OUTPUT\\2018北京春季高中会考数学（教师版）(1).md"
+          }
+        },
+        "owner_accepted_md": {
+          "path": "03_OWNER_ACCEPTED\\2018北京春季高中会考数学（教师版）(1).md",
+          "sha256": "934dec78dde333d21342f3f9419f524bb68e92645914c3d3db9cf482a282f176",
+          "identical_to_preprocessing": true
+        },
+        "declared_source_sha256": {
+          "declared_source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\数学\\2018北京春季高中会考数学（教师版）(1).md",
+          "source_content_sha256": "934dec78dde333d21342f3f9419f524bb68e92645914c3d3db9cf482a282f176",
+          "declared_source_file_exists": true,
+          "declared_source_file_sha256": "934dec78dde333d21342f3f9419f524bb68e92645914c3d3db9cf482a282f176",
+          "packaged_md_sha256": "934dec78dde333d21342f3f9419f524bb68e92645914c3d3db9cf482a282f176",
+          "packaged_md_path": "02_PREPROCESSING_OUTPUT\\2018北京春季高中会考数学（教师版）(1).md",
+          "checks": {
+            "manifest_has_source_content_sha256": true,
+            "declared_source_file_exists": true,
+            "packaged_md_sha_matches_declared_source_file": true,
+            "packaged_md_sha_matches_source_content_sha256": true
+          }
+        }
+      }
+    },
+    "物理": {
+      "subject": "物理",
+      "bindings": {
+        "manifest": {
+          "path": "04_V3_INPUT\\物理.manifest.json",
+          "sha256": "a676d4e8497630576e29143cee3307f2a29f86d543ae51611b7a9d051bb35f0f",
+          "declared_source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\物理\\2018北京春季高中会考物理（教师版）(1).md"
+        },
+        "preprocessing_md": {
+          "path": "02_PREPROCESSING_OUTPUT\\2018北京春季高中会考物理（教师版）(1).md",
+          "sha256": "81ea9b74dd71a577aede6f62fe43c0c53c5e1ff053fd1b1295195fa54c6a4797",
+          "expected_sha_from_v2": "81ea9b74dd71a577aede6f62fe43c0c53c5e1ff053fd1b1295195fa54c6a4797",
+          "sha_match": true
+        },
+        "input_pdf": {
+          "path": "01_INPUT_PDF\\2018北京春季高中会考物理（教师版）.pdf",
+          "sha256": "98bcc61830a73d6291182f30e2d458a6ac1bbd7839027b1b23b8194682973ae9",
+          "expected_sha_from_v2": "98bcc61830a73d6291182f30e2d458a6ac1bbd7839027b1b23b8194682973ae9",
+          "sha_match": true
+        },
+        "pdf_text_extract": {
+          "path": "05_V3_OUTPUT\\物理.pdf.txt",
+          "sha256": "d42f31fde488500f6e86930323db980361ba6342d8e4c13340425395f91cdbe7",
+          "derived_from": "01_INPUT_PDF\\2018北京春季高中会考物理（教师版）.pdf"
+        },
+        "v3_output": {
+          "path": "05_V3_OUTPUT\\物理.v3.json",
+          "sha256": "71e53c3ce910e7e13bb9a1cf9539cf530fc4ba1d607527cd218c6722a073d046",
+          "inputs": {
+            "manifest": "04_V3_INPUT\\物理.manifest.json",
+            "md": "02_PREPROCESSING_OUTPUT\\2018北京春季高中会考物理（教师版）(1).md"
+          }
+        },
+        "owner_accepted_md": {
+          "path": "03_OWNER_ACCEPTED\\2018北京春季高中会考物理（教师版）(1).md",
+          "sha256": "81ea9b74dd71a577aede6f62fe43c0c53c5e1ff053fd1b1295195fa54c6a4797",
+          "identical_to_preprocessing": true
+        },
+        "declared_source_sha256": {
+          "declared_source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\物理\\2018北京春季高中会考物理（教师版）(1).md",
+          "source_content_sha256": "81ea9b74dd71a577aede6f62fe43c0c53c5e1ff053fd1b1295195fa54c6a4797",
+          "declared_source_file_exists": true,
+          "declared_source_file_sha256": "81ea9b74dd71a577aede6f62fe43c0c53c5e1ff053fd1b1295195fa54c6a4797",
+          "packaged_md_sha256": "81ea9b74dd71a577aede6f62fe43c0c53c5e1ff053fd1b1295195fa54c6a4797",
+          "packaged_md_path": "02_PREPROCESSING_OUTPUT\\2018北京春季高中会考物理（教师版）(1).md",
+          "checks": {
+            "manifest_has_source_content_sha256": true,
+            "declared_source_file_exists": true,
+            "packaged_md_sha_matches_declared_source_file": true,
+            "packaged_md_sha_matches_source_content_sha256": true
+          }
+        }
+      }
+    },
+    "化学": {
+      "subject": "化学",
+      "bindings": {
+        "manifest": {
+          "path": "04_V3_INPUT\\化学.manifest.json",
+          "sha256": "6d0d65515e173961cfba3facdd8a2ded87e3c76980b99834ee955873bc05a23e",
+          "declared_source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\化学\\2018北京春季高中会考化学（教师版）(1).md"
+        },
+        "preprocessing_md": {
+          "path": "02_PREPROCESSING_OUTPUT\\2018北京春季高中会考化学（教师版）(1).md",
+          "sha256": "0443945f4672b05da3d2d950b0a3eb20a495c1635c353c024c8c050b7fad1ffb",
+          "expected_sha_from_v2": "0443945f4672b05da3d2d950b0a3eb20a495c1635c353c024c8c050b7fad1ffb",
+          "sha_match": true
+        },
+        "input_pdf": {
+          "path": "01_INPUT_PDF\\2018北京春季高中会考化学（教师版）.pdf",
+          "sha256": "8d3f9dad0918567b3ef375a57843d5d28d1eff77dfac467ff9eddc0f3c4f3a23",
+          "expected_sha_from_v2": "8d3f9dad0918567b3ef375a57843d5d28d1eff77dfac467ff9eddc0f3c4f3a23",
+          "sha_match": true
+        },
+        "pdf_text_extract": {
+          "path": "05_V3_OUTPUT\\化学.pdf.txt",
+          "sha256": "f2215cf3fce64d119be9e405517266151b31bd8a836121b543eb47143de2b69a",
+          "derived_from": "01_INPUT_PDF\\2018北京春季高中会考化学（教师版）.pdf"
+        },
+        "v3_output": {
+          "path": "05_V3_OUTPUT\\化学.v3.json",
+          "sha256": "096dda54902528de8b974d5d32dfc444efde6b6383deefa9bf628a0420cddef0",
+          "inputs": {
+            "manifest": "04_V3_INPUT\\化学.manifest.json",
+            "md": "02_PREPROCESSING_OUTPUT\\2018北京春季高中会考化学（教师版）(1).md"
+          }
+        },
+        "owner_accepted_md": {
+          "path": "03_OWNER_ACCEPTED\\2018北京春季高中会考化学（教师版）(1).md",
+          "sha256": "0443945f4672b05da3d2d950b0a3eb20a495c1635c353c024c8c050b7fad1ffb",
+          "identical_to_preprocessing": true
+        },
+        "declared_source_sha256": {
+          "declared_source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\化学\\2018北京春季高中会考化学（教师版）(1).md",
+          "source_content_sha256": "0443945f4672b05da3d2d950b0a3eb20a495c1635c353c024c8c050b7fad1ffb",
+          "declared_source_file_exists": true,
+          "declared_source_file_sha256": "0443945f4672b05da3d2d950b0a3eb20a495c1635c353c024c8c050b7fad1ffb",
+          "packaged_md_sha256": "0443945f4672b05da3d2d950b0a3eb20a495c1635c353c024c8c050b7fad1ffb",
+          "packaged_md_path": "02_PREPROCESSING_OUTPUT\\2018北京春季高中会考化学（教师版）(1).md",
+          "checks": {
+            "manifest_has_source_content_sha256": true,
+            "declared_source_file_exists": true,
+            "packaged_md_sha_matches_declared_source_file": true,
+            "packaged_md_sha_matches_source_content_sha256": true
+          }
+        }
+      }
+    },
+    "英语": {
+      "subject": "英语",
+      "bindings": {
+        "manifest": {
+          "path": "04_V3_INPUT\\英语.manifest.json",
+          "sha256": "127879c44f053a19ec6adef2d5eb0c80c6a94f188f097b85cbc50dd82d05db83",
+          "declared_source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\英语\\2018北京春季高中会考英语（教师版）(1).md"
+        },
+        "preprocessing_md": {
+          "path": "02_PREPROCESSING_OUTPUT\\2018北京春季高中会考英语（教师版）(1).md",
+          "sha256": "8dc9afbcb9b06195b075e638ac00b64968db9b349d39c9ad7c4bde0fa0cf9554",
+          "expected_sha_from_v2": "8dc9afbcb9b06195b075e638ac00b64968db9b349d39c9ad7c4bde0fa0cf9554",
+          "sha_match": true
+        },
+        "input_pdf": {
+          "path": "01_INPUT_PDF\\2018北京春季高中会考英语（教师版）.pdf",
+          "sha256": "1fdbb6bd8a6a1a9bb4e8a3a80357f784e9f244731429169dc517d24ed9224d9f",
+          "expected_sha_from_v2": "1fdbb6bd8a6a1a9bb4e8a3a80357f784e9f244731429169dc517d24ed9224d9f",
+          "sha_match": true
+        },
+        "pdf_text_extract": {
+          "path": "05_V3_OUTPUT\\英语.pdf.txt",
+          "sha256": "3ff53a868b9bb78732352adddb7cfcf9a97b85a073cefee11577ba7db5d1ea36",
+          "derived_from": "01_INPUT_PDF\\2018北京春季高中会考英语（教师版）.pdf"
+        },
+        "v3_output": {
+          "path": "05_V3_OUTPUT\\英语.v3.json",
+          "sha256": "5d2389073264b4d51d84af96e75ab801374112050194a8ff4cc4e656bb97cd0d",
+          "inputs": {
+            "manifest": "04_V3_INPUT\\英语.manifest.json",
+            "md": "02_PREPROCESSING_OUTPUT\\2018北京春季高中会考英语（教师版）(1).md"
+          }
+        },
+        "owner_accepted_md": {
+          "path": "03_OWNER_ACCEPTED\\2018北京春季高中会考英语（教师版）(1).md",
+          "sha256": "8dc9afbcb9b06195b075e638ac00b64968db9b349d39c9ad7c4bde0fa0cf9554",
+          "identical_to_preprocessing": true
+        },
+        "declared_source_sha256": {
+          "declared_source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\英语\\2018北京春季高中会考英语（教师版）(1).md",
+          "source_content_sha256": "8dc9afbcb9b06195b075e638ac00b64968db9b349d39c9ad7c4bde0fa0cf9554",
+          "declared_source_file_exists": true,
+          "declared_source_file_sha256": "8dc9afbcb9b06195b075e638ac00b64968db9b349d39c9ad7c4bde0fa0cf9554",
+          "packaged_md_sha256": "8dc9afbcb9b06195b075e638ac00b64968db9b349d39c9ad7c4bde0fa0cf9554",
+          "packaged_md_path": "02_PREPROCESSING_OUTPUT\\2018北京春季高中会考英语（教师版）(1).md",
+          "checks": {
+            "manifest_has_source_content_sha256": true,
+            "declared_source_file_exists": true,
+            "packaged_md_sha_matches_declared_source_file": true,
+            "packaged_md_sha_matches_source_content_sha256": true
+          }
+        }
+      }
+    },
+    "语文": {
+      "subject": "语文",
+      "bindings": {
+        "manifest": {
+          "path": "04_V3_INPUT\\语文.manifest.json",
+          "sha256": "c89e3ce6209115ff7685196acf5899a9cb495c7f7c4fd10942cef9766a31de42",
+          "declared_source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\语文\\2018北京春季高中会考语文（教师版）(1).md"
+        },
+        "preprocessing_md": {
+          "path": "02_PREPROCESSING_OUTPUT\\2018北京春季高中会考语文（教师版）(1).md",
+          "sha256": "a25abe4d8c55eeb5f498cbdd0684a26258c9c64f9590a99aa4fcf3bd85edac43",
+          "expected_sha_from_v2": "a25abe4d8c55eeb5f498cbdd0684a26258c9c64f9590a99aa4fcf3bd85edac43",
+          "sha_match": true
+        },
+        "input_pdf": {
+          "path": "01_INPUT_PDF\\2018北京春季高中会考语文（教师版）.pdf",
+          "sha256": "d86db79bf1cf997fac3cf312316ec11fea2a3144d98c9b00ee6bfcc46a30baf0",
+          "expected_sha_from_v2": "d86db79bf1cf997fac3cf312316ec11fea2a3144d98c9b00ee6bfcc46a30baf0",
+          "sha_match": true
+        },
+        "pdf_text_extract": {
+          "path": "05_V3_OUTPUT\\语文.pdf.txt",
+          "sha256": "2ae03c0d09a02dbfd6ff925f0ed3d944bd593b0d37ff3e9509bf8fb6673498ad",
+          "derived_from": "01_INPUT_PDF\\2018北京春季高中会考语文（教师版）.pdf"
+        },
+        "v3_output": {
+          "path": "05_V3_OUTPUT\\语文.v3.json",
+          "sha256": "592aa267eb7b92f9f2bd45f420d1d45eb25d2caccd9012d2db897dd8cd2df4fb",
+          "inputs": {
+            "manifest": "04_V3_INPUT\\语文.manifest.json",
+            "md": "02_PREPROCESSING_OUTPUT\\2018北京春季高中会考语文（教师版）(1).md"
+          }
+        },
+        "owner_accepted_md": {
+          "path": "03_OWNER_ACCEPTED\\2018北京春季高中会考语文（教师版）(1).md",
+          "sha256": "a25abe4d8c55eeb5f498cbdd0684a26258c9c64f9590a99aa4fcf3bd85edac43",
+          "identical_to_preprocessing": true
+        },
+        "declared_source_sha256": {
+          "declared_source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\语文\\2018北京春季高中会考语文（教师版）(1).md",
+          "source_content_sha256": "a25abe4d8c55eeb5f498cbdd0684a26258c9c64f9590a99aa4fcf3bd85edac43",
+          "declared_source_file_exists": true,
+          "declared_source_file_sha256": "a25abe4d8c55eeb5f498cbdd0684a26258c9c64f9590a99aa4fcf3bd85edac43",
+          "packaged_md_sha256": "a25abe4d8c55eeb5f498cbdd0684a26258c9c64f9590a99aa4fcf3bd85edac43",
+          "packaged_md_path": "02_PREPROCESSING_OUTPUT\\2018北京春季高中会考语文（教师版）(1).md",
+          "checks": {
+            "manifest_has_source_content_sha256": true,
+            "declared_source_file_exists": true,
+            "packaged_md_sha_matches_declared_source_file": true,
+            "packaged_md_sha_matches_source_content_sha256": true
+          }
+        }
+      }
+    },
+    "政治": {
+      "subject": "政治",
+      "bindings": {
+        "manifest": {
+          "path": "04_V3_INPUT\\政治.manifest.json",
+          "sha256": "f9dae991c703a4e95b11478df3642f20786f45c72b83ba80e225870a41eea895",
+          "declared_source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\政治\\2018北京夏季高中会考政治（教师版）(1).md"
+        },
+        "preprocessing_md": {
+          "path": "02_PREPROCESSING_OUTPUT\\2018北京夏季高中会考政治（教师版）(1).md",
+          "sha256": "86d45cfc16e32f6477fefdea27646c23df179d6a5d673ab0a520aeb6bec42d0c",
+          "expected_sha_from_v2": "86d45cfc16e32f6477fefdea27646c23df179d6a5d673ab0a520aeb6bec42d0c",
+          "sha_match": true
+        },
+        "input_pdf": {
+          "path": "01_INPUT_PDF\\2018北京夏季高中会考政治（教师版）.pdf",
+          "sha256": "a252e7916190df88c319bfeb97f3ebafab8300ec23cd486f577423621c785dd4",
+          "expected_sha_from_v2": "a252e7916190df88c319bfeb97f3ebafab8300ec23cd486f577423621c785dd4",
+          "sha_match": true
+        },
+        "pdf_text_extract": {
+          "path": "05_V3_OUTPUT\\政治.pdf.txt",
+          "sha256": "549c936c7106238cfadffcada42d9624ac3512cc04550f865101030b04184fff",
+          "derived_from": "01_INPUT_PDF\\2018北京夏季高中会考政治（教师版）.pdf"
+        },
+        "v3_output": {
+          "path": "05_V3_OUTPUT\\政治.v3.json",
+          "sha256": "3e5da6a175fb1f92b6be97c77b8e5267408c83a561aac27f096e30bcd3b3f388",
+          "inputs": {
+            "manifest": "04_V3_INPUT\\政治.manifest.json",
+            "md": "02_PREPROCESSING_OUTPUT\\2018北京夏季高中会考政治（教师版）(1).md"
+          }
+        },
+        "owner_accepted_md": {
+          "path": "03_OWNER_ACCEPTED\\2018北京夏季高中会考政治（教师版）(1).md",
+          "sha256": "86d45cfc16e32f6477fefdea27646c23df179d6a5d673ab0a520aeb6bec42d0c",
+          "identical_to_preprocessing": true
+        },
+        "declared_source_sha256": {
+          "declared_source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\政治\\2018北京夏季高中会考政治（教师版）(1).md",
+          "source_content_sha256": "86d45cfc16e32f6477fefdea27646c23df179d6a5d673ab0a520aeb6bec42d0c",
+          "declared_source_file_exists": true,
+          "declared_source_file_sha256": "86d45cfc16e32f6477fefdea27646c23df179d6a5d673ab0a520aeb6bec42d0c",
+          "packaged_md_sha256": "86d45cfc16e32f6477fefdea27646c23df179d6a5d673ab0a520aeb6bec42d0c",
+          "packaged_md_path": "02_PREPROCESSING_OUTPUT\\2018北京夏季高中会考政治（教师版）(1).md",
+          "checks": {
+            "manifest_has_source_content_sha256": true,
+            "declared_source_file_exists": true,
+            "packaged_md_sha_matches_declared_source_file": true,
+            "packaged_md_sha_matches_source_content_sha256": true
+          }
+        }
+      }
+    },
+    "地理": {
+      "subject": "地理",
+      "bindings": {
+        "manifest": {
+          "path": "04_V3_INPUT\\地理.manifest.json",
+          "sha256": "2881023e35dfe3a4f7783b30bd914bf015594e034bdc8b25c2d5682fffe28b0e",
+          "declared_source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\地理\\2018北京春季高中会考地理（教师版）(1).md"
+        },
+        "preprocessing_md": {
+          "path": "02_PREPROCESSING_OUTPUT\\2018北京春季高中会考地理（教师版）(1).md",
+          "sha256": "3f4a7a826b0176ceb86de53b5721de08e1d7d5ba8a364e627c33297d2a3359f0",
+          "expected_sha_from_v2": "3f4a7a826b0176ceb86de53b5721de08e1d7d5ba8a364e627c33297d2a3359f0",
+          "sha_match": true
+        },
+        "input_pdf": {
+          "path": "01_INPUT_PDF\\2018北京春季高中会考地理（教师版）.pdf",
+          "sha256": "96344286c837d7fb3a7aa8dbde2642c3c528cfc1cfb06379469cebaa182a50f5",
+          "expected_sha_from_v2": "96344286c837d7fb3a7aa8dbde2642c3c528cfc1cfb06379469cebaa182a50f5",
+          "sha_match": true
+        },
+        "pdf_text_extract": {
+          "path": "05_V3_OUTPUT\\地理.pdf.txt",
+          "sha256": "ea955adb7f600c4bdc8cca4e63afc16e2b4de23fc520c7412b9616f5b63eb99d",
+          "derived_from": "01_INPUT_PDF\\2018北京春季高中会考地理（教师版）.pdf"
+        },
+        "v3_output": {
+          "path": "05_V3_OUTPUT\\地理.v3.json",
+          "sha256": "eb93ae6e6c786a2c1d6c075cb3862a7772f05b91d708ca56e52c8b8f27207e2a",
+          "inputs": {
+            "manifest": "04_V3_INPUT\\地理.manifest.json",
+            "md": "02_PREPROCESSING_OUTPUT\\2018北京春季高中会考地理（教师版）(1).md"
+          }
+        },
+        "owner_accepted_md": {
+          "path": "03_OWNER_ACCEPTED\\2018北京春季高中会考地理（教师版）(1).md",
+          "sha256": "3f4a7a826b0176ceb86de53b5721de08e1d7d5ba8a364e627c33297d2a3359f0",
+          "identical_to_preprocessing": true
+        },
+        "declared_source_sha256": {
+          "declared_source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\地理\\2018北京春季高中会考地理（教师版）(1).md",
+          "source_content_sha256": "3f4a7a826b0176ceb86de53b5721de08e1d7d5ba8a364e627c33297d2a3359f0",
+          "declared_source_file_exists": true,
+          "declared_source_file_sha256": "3f4a7a826b0176ceb86de53b5721de08e1d7d5ba8a364e627c33297d2a3359f0",
+          "packaged_md_sha256": "3f4a7a826b0176ceb86de53b5721de08e1d7d5ba8a364e627c33297d2a3359f0",
+          "packaged_md_path": "02_PREPROCESSING_OUTPUT\\2018北京春季高中会考地理（教师版）(1).md",
+          "checks": {
+            "manifest_has_source_content_sha256": true,
+            "declared_source_file_exists": true,
+            "packaged_md_sha_matches_declared_source_file": true,
+            "packaged_md_sha_matches_source_content_sha256": true
+          }
+        }
+      }
+    },
+    "历史": {
+      "subject": "历史",
+      "bindings": {
+        "manifest": {
+          "path": "04_V3_INPUT\\历史.manifest.json",
+          "sha256": "f0298355eec4fae99246e6316644dd2f214032660b6fe3d94baa618de4310368",
+          "declared_source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\历史\\2018北京夏季高中会考历史（教师版）(1).md"
+        },
+        "preprocessing_md": {
+          "path": "02_PREPROCESSING_OUTPUT\\2018北京夏季高中会考历史（教师版）(1).md",
+          "sha256": "d4917437065bfcb8eda24dd45b4e92ca4e2bb6eb8bb4342170903e4c5a62e714",
+          "expected_sha_from_v2": "d4917437065bfcb8eda24dd45b4e92ca4e2bb6eb8bb4342170903e4c5a62e714",
+          "sha_match": true
+        },
+        "input_pdf": {
+          "path": "01_INPUT_PDF\\2018北京夏季高中会考历史（教师版）.pdf",
+          "sha256": "149b312f36b7f75235dc3b4918e96a21a20d504754cf50c6b1d36377622ec19b",
+          "expected_sha_from_v2": "149b312f36b7f75235dc3b4918e96a21a20d504754cf50c6b1d36377622ec19b",
+          "sha_match": true
+        },
+        "pdf_text_extract": {
+          "path": "05_V3_OUTPUT\\历史.pdf.txt",
+          "sha256": "6ae7fa29ce40dade50e442066845f82b1396bbdf0d47ecb8e09f4678593e2a81",
+          "derived_from": "01_INPUT_PDF\\2018北京夏季高中会考历史（教师版）.pdf"
+        },
+        "v3_output": {
+          "path": "05_V3_OUTPUT\\历史.v3.json",
+          "sha256": "3e9f2b7c318c4e0c4663f30ffdcecfbb8359598497ef22e11bf4f5b949e98491",
+          "inputs": {
+            "manifest": "04_V3_INPUT\\历史.manifest.json",
+            "md": "02_PREPROCESSING_OUTPUT\\2018北京夏季高中会考历史（教师版）(1).md"
+          }
+        },
+        "owner_accepted_md": {
+          "path": "03_OWNER_ACCEPTED\\2018北京夏季高中会考历史（教师版）(1).md",
+          "sha256": "d4917437065bfcb8eda24dd45b4e92ca4e2bb6eb8bb4342170903e4c5a62e714",
+          "identical_to_preprocessing": true
+        },
+        "declared_source_sha256": {
+          "declared_source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\历史\\2018北京夏季高中会考历史（教师版）(1).md",
+          "source_content_sha256": "d4917437065bfcb8eda24dd45b4e92ca4e2bb6eb8bb4342170903e4c5a62e714",
+          "declared_source_file_exists": true,
+          "declared_source_file_sha256": "d4917437065bfcb8eda24dd45b4e92ca4e2bb6eb8bb4342170903e4c5a62e714",
+          "packaged_md_sha256": "d4917437065bfcb8eda24dd45b4e92ca4e2bb6eb8bb4342170903e4c5a62e714",
+          "packaged_md_path": "02_PREPROCESSING_OUTPUT\\2018北京夏季高中会考历史（教师版）(1).md",
+          "checks": {
+            "manifest_has_source_content_sha256": true,
+            "declared_source_file_exists": true,
+            "packaged_md_sha_matches_declared_source_file": true,
+            "packaged_md_sha_matches_source_content_sha256": true
+          }
+        }
+      }
+    },
+    "生物": {
+      "subject": "生物",
+      "bindings": {
+        "manifest": {
+          "path": "04_V3_INPUT\\生物.manifest.json",
+          "sha256": "aa16464dbcf4377fc5235fee006a1f674ecd149b7ff13d5e5b99ce38d05be444",
+          "declared_source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\生物\\2018北京春季高中会考生物（教师版）(1).md"
+        },
+        "preprocessing_md": {
+          "path": "02_PREPROCESSING_OUTPUT\\2018北京春季高中会考生物（教师版）(1).md",
+          "sha256": "35e928c273fb2d2dc9187607a51c5506af3fcdf3c086737ec273d668a42363d6",
+          "expected_sha_from_v2": "35e928c273fb2d2dc9187607a51c5506af3fcdf3c086737ec273d668a42363d6",
+          "sha_match": true
+        },
+        "input_pdf": {
+          "path": "01_INPUT_PDF\\2018北京春季高中会考生物（教师版）.pdf",
+          "sha256": "a8242fd3abe44c426688aa7167ffee75f42970e9f3429efd6c70aaebcac20752",
+          "expected_sha_from_v2": "a8242fd3abe44c426688aa7167ffee75f42970e9f3429efd6c70aaebcac20752",
+          "sha_match": true
+        },
+        "pdf_text_extract": {
+          "path": "05_V3_OUTPUT\\生物.pdf.txt",
+          "sha256": "7935d6217cc15d0d19505409034e0138114cc711efbd082b7bba9a9deb1a51d8",
+          "derived_from": "01_INPUT_PDF\\2018北京春季高中会考生物（教师版）.pdf"
+        },
+        "v3_output": {
+          "path": "05_V3_OUTPUT\\生物.v3.json",
+          "sha256": "078407e2f809eb3667d6fe33b627bdd5648840afb59487005a3e9ce64412607e",
+          "inputs": {
+            "manifest": "04_V3_INPUT\\生物.manifest.json",
+            "md": "02_PREPROCESSING_OUTPUT\\2018北京春季高中会考生物（教师版）(1).md"
+          }
+        },
+        "owner_accepted_md": {
+          "path": "03_OWNER_ACCEPTED\\2018北京春季高中会考生物（教师版）(1).md",
+          "sha256": "35e928c273fb2d2dc9187607a51c5506af3fcdf3c086737ec273d668a42363d6",
+          "identical_to_preprocessing": true
+        },
+        "declared_source_sha256": {
+          "declared_source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\生物\\2018北京春季高中会考生物（教师版）(1).md",
+          "source_content_sha256": "35e928c273fb2d2dc9187607a51c5506af3fcdf3c086737ec273d668a42363d6",
+          "declared_source_file_exists": true,
+          "declared_source_file_sha256": "35e928c273fb2d2dc9187607a51c5506af3fcdf3c086737ec273d668a42363d6",
+          "packaged_md_sha256": "35e928c273fb2d2dc9187607a51c5506af3fcdf3c086737ec273d668a42363d6",
+          "packaged_md_path": "02_PREPROCESSING_OUTPUT\\2018北京春季高中会考生物（教师版）(1).md",
+          "checks": {
+            "manifest_has_source_content_sha256": true,
+            "declared_source_file_exists": true,
+            "packaged_md_sha_matches_declared_source_file": true,
+            "packaged_md_sha_matches_source_content_sha256": true
+          }
+        }
+      }
+    }
+  },
+  "evidence_scope": {
+    "this_inventory_proves": "Acceptance-package INTERNAL bindings: declared source_file, actual path, SHA-256 of packaged files, and v3 input/output correspondence.",
+    "upstream_ocr_provenance": "PDF ↔ OCR-output source correspondence is provided by Papers/data/ocr_output_manifest.jsonl (OCR ledger). See notes.upstream_ocr_ledger below.",
+    "hash_match_does_NOT_prove": [
+      "OCR content is correct (needs human Gate 1 / Owner acceptance)",
+      "formal V3 product chain (TaskExecutor document_ingest → … → frontend) is verified",
+      "initial binding was correct at generation time — only that current files match recorded hashes"
+    ]
+  },
+  "notes": {
+    "upstream_ocr_ledger": {
+      "path": "D:/Project/Papers/data/ocr_output_manifest.jsonl",
+      "role": "upstream source credential for PDF → OCR markdown",
+      "scope": "outside acceptance package; not re-verified in this inventory"
+    },
+    "declared_source_sha256_meaning": "source_content_sha256 from manifest (if present) is the Producer-declared hash of the source document; actual_sha256 is the hash of the file currently on disk. match=false means declared vs actual diverge (wrong file bound or file changed)."
+  }
+}

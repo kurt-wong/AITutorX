@@ -1,0 +1,242 @@
+{
+  "current_packages": {
+    "2018北京春季高中会考地理（教师版）(1)": {
+      "md_sha": "3f4a7a826b0176ceb86de53b5721de08e1d7d5ba8a364e627c33297d2a3359f0",
+      "md_lines": 661,
+      "pdf_sha": "96344286c837d7fb3a7aa8dbde2642c3c528cfc1cfb06379469cebaa182a50f5",
+      "manifest_sha": "f717f3c8e81c714600f67ed576bb60152d1cc0f35422e31940a5bd0942fe640b",
+      "md_head": [
+        "# 2018 北京春季高中会考",
+        "",
+        "# 地 理"
+      ]
+    },
+    "2018北京春季高中会考数学（教师版）(1)": {
+      "md_sha": "934dec78dde333d21342f3f9419f524bb68e92645914c3d3db9cf482a282f176",
+      "md_lines": 749,
+      "pdf_sha": "3b87f19f2e212c63f9afc1c159982ecb16fd0da5f36e7745ce5b66e9c46b1fdc",
+      "manifest_sha": "3cab3d8d568d9204b350df46a3215bad734e2455137e3787e6d4070bd9e06da4",
+      "md_head": [
+        "# 2018 北京春季高中会考",
+        "",
+        "# 数 学"
+      ]
+    },
+    "2018北京春季高中会考物理（教师版）(1)": {
+      "md_sha": "81ea9b74dd71a577aede6f62fe43c0c53c5e1ff053fd1b1295195fa54c6a4797",
+      "md_lines": 376,
+      "pdf_sha": "98bcc61830a73d6291182f30e2d458a6ac1bbd7839027b1b23b8194682973ae9",
+      "manifest_sha": "d7b2600bf265faeb0af5b13135e215a588671e2f2d098d23c3c6368619108f25",
+      "md_head": [
+        "# 2018 北京春季高中会考",
+        "",
+        "# 物 理"
+      ]
+    }
+  },
+  "large_funnels": [
+    {
+      "file": "bac5b9c1-ee56-412e-825c-15603ef2470b.json",
+      "mtime": 1791685396.6580145,
+      "stages": {
+        "input_units": 40,
+        "identity_ok": 0,
+        "ir_ready": 24,
+        "candidates": 24,
+        "questions": 0,
+        "question_instances": 0,
+        "pending_review": 3
+      },
+      "n_failures": 16,
+      "package_id": "sv-33058c58-dfe2-4a3c-b046-7735e11c8a0d",
+      "notes": [
+        "compile_stage candidates=24 skipped=16"
+      ]
+    },
+    {
+      "file": "95c1cc19-86c4-4cf6-bb50-fa48cfb451db.json",
+      "mtime": 1791685437.5785625,
+      "stages": {
+        "input_units": 25,
+        "identity_ok": 0,
+        "ir_ready": 0,
+        "candidates": 0,
+        "questions": 0,
+        "question_instances": 0,
+        "pending_review": 0
+      },
+      "n_failures": 25,
+      "package_id": "sv-1893766b-2691-4510-b01c-3d5ca87c07b0",
+      "notes": [
+        "compile_stage candidates=0 skipped=25"
+      ]
+    },
+    {
+      "file": "92ca9248-769a-487c-9d51-8dca3a30b50c.json",
+      "mtime": 1791685438.4717236,
+      "stages": {
+        "input_units": 30,
+        "identity_ok": 0,
+        "ir_ready": 0,
+        "candidates": 0,
+        "questions": 0,
+        "question_instances": 0,
+        "pending_review": 0
+      },
+      "n_failures": 30,
+      "package_id": "sv-25a7bbfc-55e0-4d85-8ec5-620bb538afc1",
+      "notes": [
+        "compile_stage candidates=0 skipped=30"
+      ]
+    },
+    {
+      "file": "1141253d-1bc7-4b62-b0dc-b3bca2e5f1c8.json",
+      "mtime": 1791685439.3375452,
+      "stages": {
+        "input_units": 22,
+        "identity_ok": 0,
+        "ir_ready": 0,
+        "candidates": 0,
+        "questions": 0,
+        "question_instances": 0,
+        "pending_review": 0
+      },
+      "n_failures": 22,
+      "package_id": "sv-2d6b4257-64a6-4dee-86b3-29e249bd7f78",
+      "notes": [
+        "compile_stage candidates=0 skipped=22"
+      ]
+    },
+    {
+      "file": "9d3d2cec-9167-4731-8611-ba054451431c.json",
+      "mtime": 1791685527.8102584,
+      "stages": {
+        "input_units": 25,
+        "identity_ok": 0,
+        "ir_ready": 0,
+        "candidates": 0,
+        "questions": 0,
+        "question_instances": 0,
+        "pending_review": 0
+      },
+      "n_failures": 25,
+      "package_id": "sv-1893766b-2691-4510-b01c-3d5ca87c07b0",
+      "notes": [
+        "compile_stage candidates=0 skipped=25"
+      ]
+    },
+    {
+      "file": "77a97199-a186-4333-b00f-cd16cd5ba6d3.json",
+      "mtime": 1791685529.5159771,
+      "stages": {
+        "input_units": 30,
+        "identity_ok": 0,
+        "ir_ready": 0,
+        "candidates": 0,
+        "questions": 0,
+        "question_instances": 0,
+        "pending_review": 0
+      },
+      "n_failures": 30,
+      "package_id": "sv-25a7bbfc-55e0-4d85-8ec5-620bb538afc1",
+      "notes": [
+        "compile_stage candidates=0 skipped=30"
+      ]
+    },
+    {
+      "file": "49ec7eef-eb12-44a5-a435-75c07f8341b3.json",
+      "mtime": 1791685532.280976,
+      "stages": {
+        "input_units": 22,
+        "identity_ok": 0,
+        "ir_ready": 0,
+        "candidates": 0,
+        "questions": 0,
+        "question_instances": 0,
+        "pending_review": 0
+      },
+      "n_failures": 22,
+      "package_id": "sv-2d6b4257-64a6-4dee-86b3-29e249bd7f78",
+      "notes": [
+        "compile_stage candidates=0 skipped=22"
+      ]
+    },
+    {
+      "file": "8663c4dc-4d82-42e0-859d-08e1821d5923.json",
+      "mtime": 1791685677.8498375,
+      "stages": {
+        "input_units": 40,
+        "identity_ok": 0,
+        "ir_ready": 24,
+        "candidates": 24,
+        "questions": 0,
+        "question_instances": 0,
+        "pending_review": 3
+      },
+      "n_failures": 16,
+      "package_id": "sv-ba3ef228-7538-4c33-b428-8fcd8500aaa9",
+      "notes": [
+        "compile_stage candidates=24 skipped=16"
+      ]
+    },
+    {
+      "file": "a82edf96-76a0-400b-a5fc-412f7335202d.json",
+      "mtime": 1791685680.5686414,
+      "stages": {
+        "input_units": 25,
+        "identity_ok": 0,
+        "ir_ready": 0,
+        "candidates": 0,
+        "questions": 0,
+        "question_instances": 0,
+        "pending_review": 0
+      },
+      "n_failures": 25,
+      "package_id": "sv-f0afd154-83d3-40ce-85c9-64289bd29c35",
+      "notes": [
+        "compile_stage candidates=0 skipped=25"
+      ]
+    },
+    {
+      "file": "1b943b63-52e9-4876-86ad-ab07d6969e6b.json",
+      "mtime": 1791685684.2787664,
+      "stages": {
+        "input_units": 30,
+        "identity_ok": 0,
+        "ir_ready": 30,
+        "candidates": 30,
+        "questions": 0,
+        "question_instances": 0,
+        "pending_review": 30
+      },
+      "n_failures": 0,
+      "package_id": "sv-02e42ab5-0a0c-43e3-9cb4-e3c5aea687ef",
+      "notes": [
+        "compile_stage candidates=30 skipped=0"
+      ]
+    },
+    {
+      "file": "3f2dc5d0-df06-44e0-a13f-c05a45ce19fc.json",
+      "mtime": 1791685687.6658914,
+      "stages": {
+        "input_units": 22,
+        "identity_ok": 0,
+        "ir_ready": 18,
+        "candidates": 18,
+        "questions": 0,
+        "question_instances": 0,
+        "pending_review": 8
+      },
+      "n_failures": 4,
+      "package_id": "sv-d1bd4394-1a20-4440-b746-2087c2afe5f7",
+      "notes": [
+        "compile_stage candidates=18 skipped=4"
+      ]
+    }
+  ],
+  "hypothesis": {
+    "run1_wrong_md": "reslice-batch-C slice md (答案区/题干区 markers)",
+    "run2_original_md": "Ocr-markdown original OCR md",
+    "code_same": "both runs at Papers a4a0a8c / V3 9a4bfb7 in this session"
+  }
+}

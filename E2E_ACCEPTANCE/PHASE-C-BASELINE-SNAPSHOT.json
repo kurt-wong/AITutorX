@@ -1,0 +1,218 @@
+{
+  "source": "aitutors_test (read-only)",
+  "experiment_db": "aitutors_phasec_exp",
+  "question_count": 21,
+  "role_content_count": 126,
+  "candidate_status_dist": {
+    "approved": 21,
+    "pending_review": 3
+  },
+  "feedback_count": 3,
+  "questions": [
+    {
+      "qid": "47c22b00-a475-4306-8402-b5a40d84239b",
+      "iid": "e01e4dc6-078d-4ee3-abbd-83750d7c5e2e",
+      "qn": "1",
+      "occurrence_key": "b6921dc504832ae7c4c378c29f2ac0edc13f6d7a45ad20c3b4abddcc397494f7",
+      "dedup_key": "bc0f1599b16c2bfd1e74cda4ad9ec6a2e4f48b4e8d5edab7d86a35faa272d2aa",
+      "subject": "化学",
+      "grade": "高一"
+    },
+    {
+      "qid": "3332aaa6-a108-4e03-b6e2-8c713e44aaca",
+      "iid": "ace003ae-08ce-4bc2-8bb5-00d1000afc71",
+      "qn": "2",
+      "occurrence_key": "52948422a206064d11ab42c45e78ec093166e4becff24ee58070060cc95c66ff",
+      "dedup_key": "9b1f8e04c710472804a2f29c3b866fca549b63186565e428215964e00ca48a71",
+      "subject": "化学",
+      "grade": "高一"
+    },
+    {
+      "qid": "d5a8c260-a76b-45f0-a169-5f49817eadc6",
+      "iid": "7474dc7f-1f9e-480b-b09f-51bddac1b9b2",
+      "qn": "3",
+      "occurrence_key": "080347cdacb296f08de4cfe0680c0fb7fc22f42732127a0c90d2d88407033b22",
+      "dedup_key": "331a9881c392899a24e98b48b2018d62780b43a46d4480d8733a6a72e34109a0",
+      "subject": "化学",
+      "grade": "高一"
+    },
+    {
+      "qid": "e65f567d-05dd-4a88-b167-c0b507d56e8e",
+      "iid": "24a3a724-64c9-4028-8235-59a0a89c69d8",
+      "qn": "4",
+      "occurrence_key": "3eaea0a47dba9d547de5193a6a6453580ea23c25b8fbdf5a596cb14af2593c00",
+      "dedup_key": "c6adc7ab1330f283333ee71133b4a3670519a8390609c8ecb8cafd27960da305",
+      "subject": "化学",
+      "grade": "高一"
+    },
+    {
+      "qid": "2cfa253a-6e0a-421f-8a20-6d8c24ed923f",
+      "iid": "d689ebe4-8e97-40c0-ae02-839e58897eb9",
+      "qn": "5",
+      "occurrence_key": "f823b9ec45582545641d819017debea2481254f2733eaaaf142edc5190aedc4b",
+      "dedup_key": "1053b2606d006c74ccc5e0e9f47efad04b1d099f276626b20113c6820f132051",
+      "subject": "化学",
+      "grade": "高一"
+    },
+    {
+      "qid": "1a66f3bb-d219-4b3c-b98d-526bdd5888be",
+      "iid": "eb36b324-0f2e-47f9-91a6-1d015b1d34e3",
+      "qn": "6",
+      "occurrence_key": "615edb8ad5926ea32dabee74d4a064a95e38d5293b4ca653160ccfb6ca9060d6",
+      "dedup_key": "cc4f9b1516e702f365d278b01f5c1e63d44d1c219ac582ada13614c0731c4736",
+      "subject": "化学",
+      "grade": "高一"
+    },
+    {
+      "qid": "b9659f78-121c-4e9c-9ca0-a3027389211f",
+      "iid": "9ce64ca4-7b68-47d2-a177-d22d33c76476",
+      "qn": "7",
+      "occurrence_key": "67ab2fec6d53b3bbe0eed8c6550d7ce118c0ada40ead5e90b3ee2a71d0a3d083",
+      "dedup_key": "c81531a0d3e244b2725a2c9c83d317cd0cbce0143a7c66b198553b3d8dba0e8b",
+      "subject": "化学",
+      "grade": "高一"
+    },
+    {
+      "qid": "5f461ef4-1362-417a-bd11-06723bbe0dc9",
+      "iid": "5ce35672-f285-4cb1-ac9a-75ff7e097a4e",
+      "qn": "8",
+      "occurrence_key": "13e7a1366f7a55e3619c234998b7161088896c9061804213d854e2b818bf1d9c",
+      "dedup_key": "a3ded7abff5db0e7e8207d9efcfacfa61e9b9de4ffe9dd3bec573adec7b181e7",
+      "subject": "化学",
+      "grade": "高一"
+    },
+    {
+      "qid": "38781392-a886-46be-9aa9-54d54f022005",
+      "iid": "8a4f9b49-c50c-4394-b5d7-d574f2cc2b52",
+      "qn": "10",
+      "occurrence_key": "570b2423ad7a24f7824bd770dbd29e8d7b3cf78b1c8a57af148c5dbd27111798",
+      "dedup_key": "a9811ec5f10acdf71a374429078308e3fe66f4e0269c8c0f0a881f1191dcc15c",
+      "subject": "化学",
+      "grade": "高一"
+    },
+    {
+      "qid": "876a38de-53bb-40f3-8537-a713e5fb21a3",
+      "iid": "760fc710-501c-4ae0-aec9-8797783a9e88",
+      "qn": "11",
+      "occurrence_key": "bc467429b53876ebbe889669f092d036bfbe6a38b7679239633af4118f0c652d",
+      "dedup_key": "727def6f156ba143692061efc38325b28e275de4f9aa21bb1311b2d3cb085ccd",
+      "subject": "化学",
+      "grade": "高一"
+    },
+    {
+      "qid": "ad7419ff-85bd-4c51-8953-88475de6c894",
+      "iid": "27ead7ed-d7f8-4404-84e2-0a487e835d6a",
+      "qn": "12",
+      "occurrence_key": "0f9105b7bb7452796b1c21aa1ea7e2570b4eda56827a30cb18fdc00621bd223c",
+      "dedup_key": "cddc795ecdbc22b16df1e96748c29d9a630c9f2e94b82ddf647fccf381f55980",
+      "subject": "化学",
+      "grade": "高一"
+    },
+    {
+      "qid": "75d68e1a-0c9e-4573-a570-f6c285b3644b",
+      "iid": "545d0770-3dc9-4b0c-86e6-e312d4293203",
+      "qn": "13",
+      "occurrence_key": "d777fe6b8d58943bbd7c46bf537feb23e6e19916cde421d20b8587fab5d06984",
+      "dedup_key": "843f9bf40ca8a8499f8f8f141916ed860ed0c81f45b75fdc88bb15a7f4b4cc69",
+      "subject": "化学",
+      "grade": "高一"
+    },
+    {
+      "qid": "558866e4-f5ce-41fd-aa53-a648d448a29f",
+      "iid": "418d3916-d0c7-4ae2-bdf0-4f9db4e18a9d",
+      "qn": "14",
+      "occurrence_key": "faa9a2c3a21b8adfaa085f02e2460bbd2a86fc44b6807a9fae4718819421099f",
+      "dedup_key": "055b779dab3f08bf623a6930e235cdb172408ac6676e08bd7a02ad9ded6c91c0",
+      "subject": "化学",
+      "grade": "高一"
+    },
+    {
+      "qid": "665008a7-4d0f-4d06-ad91-14566db05597",
+      "iid": "6030f5aa-8e1e-49db-b4fe-770d3a9e3fa6",
+      "qn": "15",
+      "occurrence_key": "bc2057eb8cd9a0cfec4262230a40e7f963f8d7b60162a25bc15ef255124bc320",
+      "dedup_key": "1776e5c7bfa072ad34918633954332fb5c222a33cb1b64bacfdc2d862d82f7f4",
+      "subject": "化学",
+      "grade": "高一"
+    },
+    {
+      "qid": "b22b5c75-490a-4699-9f30-af7ce8924ab3",
+      "iid": "a6c92843-d691-4930-8301-d29e29a73c41",
+      "qn": "16",
+      "occurrence_key": "f2b3b9187e6a832f1bcde8164ca7f6e52559ff88aeb5d2b6ed74afb43dfa3cf4",
+      "dedup_key": "79457d15453aeec3c3e7bec2e481c640336529c8947753099d9a8a11555e5021",
+      "subject": "化学",
+      "grade": "高一"
+    },
+    {
+      "qid": "42f8624a-b9fd-4df7-a0b0-9e39fcc26eed",
+      "iid": "faa456b6-327f-402f-9954-4d7b043b998f",
+      "qn": "17",
+      "occurrence_key": "aa34b096aa64911cab7856ddbceea44a84a38bbc22863be9bdfd045ac5931154",
+      "dedup_key": "0222077e4c482f4126454cce7e1035210ed596f2ef22c38b13f8eb176e3a872a",
+      "subject": "化学",
+      "grade": "高一"
+    },
+    {
+      "qid": "3156701a-aded-46bd-b3b4-0a745f7ebb59",
+      "iid": "3b3197bd-4f6e-4042-a14b-9f659997a7fb",
+      "qn": "18",
+      "occurrence_key": "8d9388158e8d14271fa9a174a8e0226ded96652361bc8f107f358f2f22f72175",
+      "dedup_key": "bbbb290b55db794ef699a52d54649e03f672cc65d1a0ed225387c7dee37a6960",
+      "subject": "化学",
+      "grade": "高一"
+    },
+    {
+      "qid": "a616052e-8958-44ca-b87c-1bdcc08b07eb",
+      "iid": "7c3eca1c-e205-4368-a70b-54784e5bc94d",
+      "qn": "20",
+      "occurrence_key": "a483b7f5492174bb5e14d97eb25ff1f9b68070d01a082ebdc97109f74aee76d3",
+      "dedup_key": "ba300c3f11d7bfbe60bcde81ae4d76b51581dba0f6fce508eb47dadbd2a9c5d0",
+      "subject": "化学",
+      "grade": "高一"
+    },
+    {
+      "qid": "a1cdd401-a3bd-4df7-ba0c-f2213e22ec6d",
+      "iid": "20de1195-4b4c-40f0-b92e-53348b929147",
+      "qn": "21",
+      "occurrence_key": "e1746395a6fd1958fb0f26faee59b3feb6a3221b112604a9688fe4429e4b6610",
+      "dedup_key": "1383b382351679867e2b704cf43e9605dbefb22a23f80f1ebe36c35e4e2e4dd6",
+      "subject": "化学",
+      "grade": "高一"
+    },
+    {
+      "qid": "f0607ca0-47b8-41e0-8cd8-a71a2479ed4b",
+      "iid": "7d8c0137-c022-4f36-8207-382ab50782f0",
+      "qn": "22",
+      "occurrence_key": "537b55c5d4b6f620b52542cf1df24bb5ea9ebe7ca1c7c3bbb7217945de880833",
+      "dedup_key": "530bd4731aa8b86ed3f07eaaff284b933db48134c2ed756c111eccc13afbec5f",
+      "subject": "化学",
+      "grade": "高一"
+    },
+    {
+      "qid": "a68d2863-4bd9-4f61-8db9-d82873480a18",
+      "iid": "594ecab8-3d56-4d8f-a665-cffcc896e221",
+      "qn": "23",
+      "occurrence_key": "05f1f0e05dcb457cd70af748f3352896b1eabf550c744084acff74c3e1d042e6",
+      "dedup_key": "bf4844bcb1830a29a5476526d0e6f4606f961677c6a7f49e5efd155f6f604d7f",
+      "subject": "化学",
+      "grade": "高一"
+    }
+  ],
+  "content_hash": "8945aff32ebdb4b5da3aed0d6978b05ac32eb52ba12d237323aa968c10fdb62a",
+  "question_hash": "5f0da7d06716669362b9f2bd4fd4c189aaa4f5b08cd46e0ed0ec759a09a27525",
+  "feedback_hashes": [
+    {
+      "id": "50a38c8b-72d8-4a4e-9b87-79ed0a177775",
+      "sha256": "43be720d66bf2acd8fa7ae572e4131704dc52f0d1c8ca987fdaf34cb183ce3a0"
+    },
+    {
+      "id": "880b092a-1be6-4c21-8717-896bc45d4cb2",
+      "sha256": "447aa2009e708ffd8acbc54de708120a9c54c4cfd7b5b74d37a457f9dfddf636"
+    },
+    {
+      "id": "f335fd96-0899-4a82-842e-9ac8c5374ab5",
+      "sha256": "5c372557d54f0ae5afdfdca23547de60a6b350a2db0c066e6c3094b5b4127046"
+    }
+  ]
+}

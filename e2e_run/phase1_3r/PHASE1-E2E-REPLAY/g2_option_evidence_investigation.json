@@ -1,0 +1,88 @@
+{
+  "investigation": "G2 option evidence — 化学 Q23",
+  "metric_scope": "root/leaf",
+  "baseline": "07d9e34",
+  "paper": "化学",
+  "root": "Q23",
+  "question_identity": {
+    "unit_id": "Q23",
+    "question_numbers": [23],
+    "qtype": "single_choice",
+    "stem_lines": [186, 186],
+    "options_lines": [188, 194]
+  },
+  "answer": {
+    "text": "D",
+    "span_id": "sp-Q23.answer",
+    "source_lines": ["P1L513"],
+    "declared_answer_lines": [513, 513],
+    "resolution_status": "exact",
+    "evidence": ["answer evidence range", "lines=513-513", "structured_answer_table", "qn=23", "cell=D"],
+    "table_decode": {"qn": "23", "cell": "D", "offsets": [3720, 3721]},
+    "verdict_answer_correctness": "answer=D is CONFIRMED by self-describing answer table (题号 row + 答案 row, same column). NOT an answer error."
+  },
+  "options": {
+    "resolved_labels": ["A", "B", "C"],
+    "option_spans": [
+      {"label": "A", "span_id": "sp-Q23.option.A", "line_refs": ["P1L188"], "text": "A．金属钠与水： $ 2Na + 2H_{2}O = ... $"},
+      {"label": "B", "span_id": "sp-Q23.option.B", "line_refs": ["P1L190"], "text": "B．氯化钠溶液与硝酸银溶液："},
+      {"label": "C", "span_id": "sp-Q23.option.C", "line_refs": ["P1L192"], "text": "C．稀盐酸与碳酸钙： $ CaCO_{3}+2H^{+}=... $"}
+    ],
+    "manifest_options": [
+      {"label": "A", "start_line": 188, "end_line": 188},
+      {"label": "B", "start_line": 190, "end_line": 190},
+      {"label": "C", "start_line": 192, "end_line": 192}
+    ]
+  },
+  "source_verification": {
+    "source_contains_D_label_for_Q23": false,
+    "source_contains_4th_option_content": true,
+    "D_source_span": null,
+    "unlabeled_4th_option_line": {
+      "line": 194,
+      "line_ref": "P1L194",
+      "text": " $  \\mathrm{H}^{+} + \\mathrm{SO}_{4}^{2-} + \\mathrm{Ba}^{2+} + \\mathrm{OH}^{-} = \\mathrm{BaSO}_{4}\\downarrow + \\mathrm{H}_{2}O $"
+    },
+    "neighbour_D_labels": [
+      {"line": 184, "note": "Q22 option D (belongs to Q22, options_lines=(176,184))", "text": "D．标准状况下，44.8 L $H_{2}O$ 的物质的量为 2 mol"}
+    ],
+    "source_q23_block": {
+      "L186": "23. 下列反应的离子方程式书写不正确的是",
+      "L188": "A．金属钠与水： ...",
+      "L190": "B．氯化钠溶液与硝酸银溶液：",
+      "L192": "C．稀盐酸与碳酸钙： ...",
+      "L194": "$ \\mathrm{H}^{+} + \\mathrm{SO}_{4}^{2-} + \\mathrm{Ba}^{2+} + \\mathrm{OH}^{-} = ... $   <-- 4th option, NO 'D' label",
+      "L196": "24. 下列实验装置或操作与实验目的..."
+    }
+  },
+  "identity": {
+    "question_boundary": "L186 stem, L188-194 options_lines covers A/B/C + unlabeled 4th",
+    "answer_binding": "answer_lines=(513,513) → structured_answer_table qn=23 cell=D — CORRECT",
+    "option_binding": "A/B/C labels found at L188/190/192; 4th option L194 has no label token, so not declared"
+  },
+  "first_failed_contract": "G2",
+  "classification": "SOURCE_HAS_NO_D",
+  "candidate_owner": "source artifact / OCR (label `D．` dropped before L194 equation)",
+  "evidence": [
+    "answer table decode qn=23 → D (self-describing, same-column) — answer correct",
+    "source L188/190/192 have A．/B．/C． labels",
+    "source L194 holds the 4th option ionic equation but NO `D` label token",
+    "Producer declared only labels that exist in source (A,B,C) — no fabrication",
+    "Resolver resolved A,B,C to their lines — correct",
+    "verify(sc, 'D', ('A','B','C')) = None is CORRECT fail-closed: D not in declared labels"
+  ],
+  "confidence": "high",
+  "notes": [
+    "This is NOT an answer error: D is the correct answer per the answer table.",
+    "This is NOT a Producer/Resolver/Answer binding bug: all three faithfully consume source.",
+    "Root cause = sealed source missing the `D` label on the 4th option line (OCR/layout).",
+    "If a future repair is authorized it belongs to source artifact repair or optional-label tolerance — NOT to AnswerTokenContract or option transport."
+  ],
+  "classification_enum_used": "SOURCE_HAS_NO_D",
+  "alternatives_considered": {
+    "OPTION_MISSING_IN_PRODUCER": "rejected — Producer must not invent labels absent from source",
+    "OPTION_BINDING_ERROR": "rejected — A/B/C bound correctly",
+    "ANSWER_BINDING_ERROR": "rejected — answer table decode correct",
+    "UNRESOLVED": "not needed — evidence chain complete"
+  }
+}

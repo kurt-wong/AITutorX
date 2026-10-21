@@ -1,0 +1,737 @@
+{
+  "q27_across_papers": [
+    {
+      "paper": "历史",
+      "unit_id": "Q27",
+      "qn": "27",
+      "declared": [
+        819,
+        819
+      ],
+      "resolved_refs": [
+        "P1L819"
+      ],
+      "granularity": "line_character",
+      "status": "exact",
+      "resolved_text_head": "27. 【答案】A",
+      "range_len": 1,
+      "first_line": "27. 【答案】A",
+      "last_line": "27. 【答案】A",
+      "resolved_n": 1,
+      "binding_ok": true
+    },
+    {
+      "paper": "政治",
+      "unit_id": "Q27",
+      "qn": "27",
+      "declared": [
+        552,
+        552
+      ],
+      "resolved_refs": [
+        "P1L552"
+      ],
+      "granularity": "line",
+      "status": "exact",
+      "resolved_text_head": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>",
+      "range_len": 1,
+      "first_line": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; word-wrap: break-word;'>1</td><td style='text-align: center; word-wrap: break-word;'>2</td><td style='text-align: center; word-wrap: break-word;'>3</td><td style='text-align: center; word-wrap: break-word;'>4</td><td style='text-align: center; word-wrap: break-word;'>5</td><td style='text-align: center; word-wrap: break-word;'>6</td><td style='text-align: center; word-wrap: break-word;'>7</td><td style='text-align: center; word-wrap: break-word;'>8</td><td style='text-align: center; word-wrap: break-word;'>9</td><td style='text-align: center; word-wrap: break-word;'>10</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>答案</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>B</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; word-wrap: break-word;'>11</td><td style='text-align: center; word-wrap: break-word;'>12</td><td style='text-align: center; word-wrap: break-word;'>13</td><td style='text-align: center; word-wrap: break-word;'>14</td><td style='text-align: center; word-wrap: break-word;'>15</td><td style='text-align: center; word-wrap: break-word;'>16</td><td style='text-align: center; word-wrap: break-word;'>17</td><td style='text-align: center; word-wrap: break-word;'>18</td><td style='text-align: center; word-wrap: break-word;'>19</td><td style='text-align: center; word-wrap: break-word;'>20</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>答案</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>C</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; word-wrap: break-word;'>21</td><td style='text-align: center; word-wrap: break-word;'>22</td><td style='text-align: center; word-wrap: break-word;'>23</td><td style='text-align: center; word-wrap: break-word;'>24</td><td style='text-align: center; word-wrap: break-word;'>25</td><td style='text-align: center; word-wrap: break-word;'>26</td><td style='text-align: center; word-wrap: break-word;'>27</td><td style='text-align: center; word-wrap: break-word;'>28</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>答案</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr></table>",
+      "last_line": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; word-wrap: break-word;'>1</td><td style='text-align: center; word-wrap: break-word;'>2</td><td style='text-align: center; word-wrap: break-word;'>3</td><td style='text-align: center; word-wrap: break-word;'>4</td><td style='text-align: center; word-wrap: break-word;'>5</td><td style='text-align: center; word-wrap: break-word;'>6</td><td style='text-align: center; word-wrap: break-word;'>7</td><td style='text-align: center; word-wrap: break-word;'>8</td><td style='text-align: center; word-wrap: break-word;'>9</td><td style='text-align: center; word-wrap: break-word;'>10</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>答案</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>B</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; word-wrap: break-word;'>11</td><td style='text-align: center; word-wrap: break-word;'>12</td><td style='text-align: center; word-wrap: break-word;'>13</td><td style='text-align: center; word-wrap: break-word;'>14</td><td style='text-align: center; word-wrap: break-word;'>15</td><td style='text-align: center; word-wrap: break-word;'>16</td><td style='text-align: center; word-wrap: break-word;'>17</td><td style='text-align: center; word-wrap: break-word;'>18</td><td style='text-align: center; word-wrap: break-word;'>19</td><td style='text-align: center; word-wrap: break-word;'>20</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>答案</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>C</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; word-wrap: break-word;'>21</td><td style='text-align: center; word-wrap: break-word;'>22</td><td style='text-align: center; word-wrap: break-word;'>23</td><td style='text-align: center; word-wrap: break-word;'>24</td><td style='text-align: center; word-wrap: break-word;'>25</td><td style='text-align: center; word-wrap: break-word;'>26</td><td style='text-align: center; word-wrap: break-word;'>27</td><td style='text-align: center; word-wrap: break-word;'>28</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>答案</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr></table>",
+      "resolved_n": 1,
+      "binding_ok": true
+    },
+    {
+      "paper": "数学",
+      "unit_id": "Q27",
+      "qn": "27",
+      "declared": [
+        593,
+        623
+      ],
+      "resolved_refs": [
+        "P1L593",
+        "P1L594",
+        "P1L595",
+        "P1L596",
+        "P1L597",
+        "P1L598",
+        "P1L599",
+        "P1L600",
+        "P1L601",
+        "P1L602",
+        "P1L603",
+        "P1L604",
+        "P1L605",
+        "P1L606",
+        "P1L607",
+        "P1L608",
+        "P1L609",
+        "P1L610",
+        "P1L611",
+        "P1L612",
+        "P1L613",
+        "P1L614",
+        "P1L615",
+        "P1L616",
+        "P1L617",
+        "P1L618",
+        "P1L619",
+        "P1L620",
+        "P1L621",
+        "P1L622",
+        "P1L623"
+      ],
+      "granularity": "line",
+      "status": "exact",
+      "resolved_text_head": "27.",
+      "range_len": 31,
+      "first_line": "27.",
+      "last_line": "即  $ V_{B-ACD}=\\frac{1}{3} $.",
+      "resolved_n": 31,
+      "binding_ok": true
+    },
+    {
+      "paper": "物理",
+      "unit_id": "Q27",
+      "qn": "27",
+      "declared": [
+        373,
+        373
+      ],
+      "resolved_refs": [
+        "P1L373"
+      ],
+      "granularity": "line",
+      "status": "exact",
+      "resolved_text_head": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>",
+      "range_len": 1,
+      "first_line": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>$ t=\\frac{L}{V}=8.0s $\\n（2）该同学的观点不正确。\\n因为书包做匀速直线运动，加速度为0，所以合力为0。假设书包受到摩擦力的作用，其合力就不可能为0，因此\\n书包不受摩擦力的作用。</td><td style='text-align: center; word-wrap: break-word;'>4分</td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>27（6分）</td><td style='text-align: center; word-wrap: break-word;'>解：（1）返回舱加速度的方向竖直向上。\\n根据匀变速直线运动规律\\n $ x=V t_{0}-\\frac{1}{2}a t^{2} $\\n解得  $ a=45m/s^{2} $\\n（2）以航天员为研究对象，根据牛顿第二定律\\n $ F-m g=m a $\\n解得  $ F=3.3 \\times 10^{3} N $</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>28（6分）</td><td style='text-align: center; word-wrap: break-word;'>解：（1）每秒钟到达B板的电子数为N，电荷量\\n $ Q=N e $\\n根据电流的定义式  $ I=\\frac{Q}{t} $\\n解得  $ N=\\frac{I}{e} $\\n（2）a. 以具有最大动能的电子为研究对象，当其速度减小到0时，电子恰好运动到接近B板，设其最大动能为 $ E_{km} $，根据动能定理\\n $ -e U_{0}=0-E_{km} $\\n解得  $ E_{km}=e U_{0} $\\nb. 这种说法不正确。\\n电子的最大速度为定值，电子的最大动能也是定值。以具有最大动能的电子为研究对象，当移动B板后，设当电压为U时，其速度减小到0，根据动能定理\\n $ -e U=0-E_{km} $\\n结合上一问结果，解得  $ U=U_{0} $，即电子也是恰好运动到接近B板速度减为0，故仍然没有电流。</td><td style='text-align: center; word-wrap: break-word;'>2分\\n2分</td><td style='text-align: center; word-wrap: break-word;'></td></tr></table>",
+      "last_line": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>$ t=\\frac{L}{V}=8.0s $\\n（2）该同学的观点不正确。\\n因为书包做匀速直线运动，加速度为0，所以合力为0。假设书包受到摩擦力的作用，其合力就不可能为0，因此\\n书包不受摩擦力的作用。</td><td style='text-align: center; word-wrap: break-word;'>4分</td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>27（6分）</td><td style='text-align: center; word-wrap: break-word;'>解：（1）返回舱加速度的方向竖直向上。\\n根据匀变速直线运动规律\\n $ x=V t_{0}-\\frac{1}{2}a t^{2} $\\n解得  $ a=45m/s^{2} $\\n（2）以航天员为研究对象，根据牛顿第二定律\\n $ F-m g=m a $\\n解得  $ F=3.3 \\times 10^{3} N $</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>28（6分）</td><td style='text-align: center; word-wrap: break-word;'>解：（1）每秒钟到达B板的电子数为N，电荷量\\n $ Q=N e $\\n根据电流的定义式  $ I=\\frac{Q}{t} $\\n解得  $ N=\\frac{I}{e} $\\n（2）a. 以具有最大动能的电子为研究对象，当其速度减小到0时，电子恰好运动到接近B板，设其最大动能为 $ E_{km} $，根据动能定理\\n $ -e U_{0}=0-E_{km} $\\n解得  $ E_{km}=e U_{0} $\\nb. 这种说法不正确。\\n电子的最大速度为定值，电子的最大动能也是定值。以具有最大动能的电子为研究对象，当移动B板后，设当电压为U时，其速度减小到0，根据动能定理\\n $ -e U=0-E_{km} $\\n结合上一问结果，解得  $ U=U_{0} $，即电子也是恰好运动到接近B板速度减为0，故仍然没有电流。</td><td style='text-align: center; word-wrap: break-word;'>2分\\n2分</td><td style='text-align: center; word-wrap: break-word;'></td></tr></table>",
+      "resolved_n": 1,
+      "binding_ok": true
+    },
+    {
+      "paper": "生物",
+      "unit_id": "Q27",
+      "qn": "27",
+      "declared": [
+        497,
+        497
+      ],
+      "resolved_refs": [
+        "P1L497"
+      ],
+      "granularity": "line",
+      "status": "exact",
+      "resolved_text_head": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>",
+      "range_len": 1,
+      "first_line": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; word-wrap: break-word;'>1</td><td style='text-align: center; word-wrap: break-word;'>2</td><td style='text-align: center; word-wrap: break-word;'>3</td><td style='text-align: center; word-wrap: break-word;'>4</td><td style='text-align: center; word-wrap: break-word;'>5</td><td style='text-align: center; word-wrap: break-word;'>6</td><td style='text-align: center; word-wrap: break-word;'>7</td><td style='text-align: center; word-wrap: break-word;'>8</td><td style='text-align: center; word-wrap: break-word;'>9</td><td style='text-align: center; word-wrap: break-word;'>10</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>答案</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>A</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; word-wrap: break-word;'>11</td><td style='text-align: center; word-wrap: break-word;'>12</td><td style='text-align: center; word-wrap: break-word;'>13</td><td style='text-align: center; word-wrap: break-word;'>14</td><td style='text-align: center; word-wrap: break-word;'>15</td><td style='text-align: center; word-wrap: break-word;'>16</td><td style='text-align: center; word-wrap: break-word;'>17</td><td style='text-align: center; word-wrap: break-word;'>18</td><td style='text-align: center; word-wrap: break-word;'>19</td><td style='text-align: center; word-wrap: break-word;'>20</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>答案</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>C</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; word-wrap: break-word;'>21</td><td style='text-align: center; word-wrap: break-word;'>22</td><td style='text-align: center; word-wrap: break-word;'>23</td><td style='text-align: center; word-wrap: break-word;'>24</td><td style='text-align: center; word-wrap: break-word;'>25</td><td style='text-align: center; word-wrap: break-word;'>26</td><td style='text-align: center; word-wrap: break-word;'>27</td><td style='text-align: center; word-wrap: break-word;'>28</td><td style='text-align: center; word-wrap: break-word;'>29</td><td style='text-align: center; word-wrap: break-word;'>30</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>答案</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>B</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; word-wrap: break-word;'>31</td><td style='text-align: center; word-wrap: break-word;'>32</td><td style='text-align: center; word-wrap: break-word;'>33</td><td style='text-align: center; word-wrap: break-word;'>34</td><td style='text-align: center; word-wrap: break-word;'>35</td><td style='text-align: center; word-wrap: break-word;'>36</td><td style='text-align: center; word-wrap: break-word;'>37</td><td style='text-align: center; word-wrap: break-word;'>38</td><td style='text-align: center; word-wrap: break-word;'>39</td><td style='text-align: center; word-wrap: break-word;'>40</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>答案</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>D</td></tr></table>",
+      "last_line": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; word-wrap: break-word;'>1</td><td style='text-align: center; word-wrap: break-word;'>2</td><td style='text-align: center; word-wrap: break-word;'>3</td><td style='text-align: center; word-wrap: break-word;'>4</td><td style='text-align: center; word-wrap: break-word;'>5</td><td style='text-align: center; word-wrap: break-word;'>6</td><td style='text-align: center; word-wrap: break-word;'>7</td><td style='text-align: center; word-wrap: break-word;'>8</td><td style='text-align: center; word-wrap: break-word;'>9</td><td style='text-align: center; word-wrap: break-word;'>10</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>答案</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>A</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; word-wrap: break-word;'>11</td><td style='text-align: center; word-wrap: break-word;'>12</td><td style='text-align: center; word-wrap: break-word;'>13</td><td style='text-align: center; word-wrap: break-word;'>14</td><td style='text-align: center; word-wrap: break-word;'>15</td><td style='text-align: center; word-wrap: break-word;'>16</td><td style='text-align: center; word-wrap: break-word;'>17</td><td style='text-align: center; word-wrap: break-word;'>18</td><td style='text-align: center; word-wrap: break-word;'>19</td><td style='text-align: center; word-wrap: break-word;'>20</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>答案</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>C</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; word-wrap: break-word;'>21</td><td style='text-align: center; word-wrap: break-word;'>22</td><td style='text-align: center; word-wrap: break-word;'>23</td><td style='text-align: center; word-wrap: break-word;'>24</td><td style='text-align: center; word-wrap: break-word;'>25</td><td style='text-align: center; word-wrap: break-word;'>26</td><td style='text-align: center; word-wrap: break-word;'>27</td><td style='text-align: center; word-wrap: break-word;'>28</td><td style='text-align: center; word-wrap: break-word;'>29</td><td style='text-align: center; word-wrap: break-word;'>30</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>答案</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>B</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; word-wrap: break-word;'>31</td><td style='text-align: center; word-wrap: break-word;'>32</td><td style='text-align: center; word-wrap: break-word;'>33</td><td style='text-align: center; word-wrap: break-word;'>34</td><td style='text-align: center; word-wrap: break-word;'>35</td><td style='text-align: center; word-wrap: break-word;'>36</td><td style='text-align: center; word-wrap: break-word;'>37</td><td style='text-align: center; word-wrap: break-word;'>38</td><td style='text-align: center; word-wrap: break-word;'>39</td><td style='text-align: center; word-wrap: break-word;'>40</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>答案</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>D</td></tr></table>",
+      "resolved_n": 1,
+      "binding_ok": true
+    }
+  ],
+  "math_q27_declared": [
+    593,
+    623
+  ],
+  "math_q27_resolved_refs": [
+    "P1L593",
+    "P1L594",
+    "P1L595",
+    "P1L596",
+    "P1L597",
+    "P1L598",
+    "P1L599",
+    "P1L600",
+    "P1L601",
+    "P1L602",
+    "P1L603",
+    "P1L604",
+    "P1L605",
+    "P1L606",
+    "P1L607",
+    "P1L608",
+    "P1L609",
+    "P1L610",
+    "P1L611",
+    "P1L612",
+    "P1L613",
+    "P1L614",
+    "P1L615",
+    "P1L616",
+    "P1L617",
+    "P1L618",
+    "P1L619",
+    "P1L620",
+    "P1L621",
+    "P1L622",
+    "P1L623"
+  ],
+  "math_q27_granularity": "line",
+  "math_q27_window": [
+    {
+      "line": 590,
+      "in_range": false,
+      "text": ""
+    },
+    {
+      "line": 591,
+      "in_range": false,
+      "text": "（Ⅱ）∵ cos （θ +  $ \\frac{\\pi}{2} $）= cos θ cos  $ \\frac{\\pi}{2} $ - sin θ sin  $ \\frac{\\pi}{2} $ = - $ \\frac{4}{4} $， $ \\frac{1}{2} $ -  $ \\frac{3}{3} $， $ \\frac{\\sqrt{3}}{2} $ -  $ \\frac{4 + 3\\sqrt{3}}{3} $"
+    },
+    {
+      "line": 592,
+      "in_range": false,
+      "text": ""
+    },
+    {
+      "line": 593,
+      "in_range": true,
+      "text": "27."
+    },
+    {
+      "line": 594,
+      "in_range": true,
+      "text": ""
+    },
+    {
+      "line": 595,
+      "in_range": true,
+      "text": "【考点】棱柱、棱锥、棱台的体积；空间中直线与直线之间的位置关系."
+    },
+    {
+      "line": 596,
+      "in_range": true,
+      "text": ""
+    },
+    {
+      "line": 597,
+      "in_range": true,
+      "text": "【分析】（Ⅰ）根据线面垂直的性质定理证明 BC⊥平面  $ ABB_{1}A_{1} $，即可证明：BC⊥AD；"
+    },
+    {
+      "line": 598,
+      "in_range": true,
+      "text": ""
+    },
+    {
+      "line": 599,
+      "in_range": true,
+      "text": "（Ⅱ）利用转化法结合三棱锥的体积公式即可求三棱锥 B-ACD 的体积."
+    },
+    {
+      "line": 600,
+      "in_range": true,
+      "text": ""
+    },
+    {
+      "line": 601,
+      "in_range": true,
+      "text": "【解答】证明：（Ⅰ）在三棱柱 ABC - A_{1}B_{1}C_{1} 中，BB_{1}⊥平面 ABC， $ \\angle ABC=90^{\\circ} $"
+    },
+    {
+      "line": 602,
+      "in_range": true,
+      "text": ""
+    },
+    {
+      "line": 603,
+      "in_range": true,
+      "text": " $$ \\therefore\\mathrm{BC}\\perp\\mathrm{AB}, $$ "
+    },
+    {
+      "line": 604,
+      "in_range": true,
+      "text": ""
+    },
+    {
+      "line": 605,
+      "in_range": true,
+      "text": "∵$BB_{1}$⊥平面 ABC，BZ⊂平面 ABC，"
+    },
+    {
+      "line": 606,
+      "in_range": true,
+      "text": ""
+    },
+    {
+      "line": 607,
+      "in_range": true,
+      "text": " $$ \\therefore\\mathrm{BB}_{1}\\perp\\mathrm{BC}, $$ "
+    },
+    {
+      "line": 608,
+      "in_range": true,
+      "text": ""
+    },
+    {
+      "line": 609,
+      "in_range": true,
+      "text": " $$ \\because BB_{1}\\cap AB=B, $$ "
+    },
+    {
+      "line": 610,
+      "in_range": true,
+      "text": ""
+    },
+    {
+      "line": 611,
+      "in_range": true,
+      "text": " $ \\therefore BC \\perp $ 平面  $ ABB_{1}A_{1} $"
+    },
+    {
+      "line": 612,
+      "in_range": true,
+      "text": ""
+    },
+    {
+      "line": 613,
+      "in_range": true,
+      "text": "∵AD⊂平面  $ ABB_{1}A_{1} $,"
+    },
+    {
+      "line": 614,
+      "in_range": true,
+      "text": ""
+    },
+    {
+      "line": 615,
+      "in_range": true,
+      "text": " $$ \\therefore\\mathrm{BC}\\perp\\mathrm{AD}. $$ "
+    },
+    {
+      "line": 616,
+      "in_range": true,
+      "text": ""
+    },
+    {
+      "line": 617,
+      "in_range": true,
+      "text": "（Ⅱ）$\\because BC \\perp$ 平面 $ABB_{1}A_{1}$，"
+    },
+    {
+      "line": 618,
+      "in_range": true,
+      "text": ""
+    },
+    {
+      "line": 619,
+      "in_range": true,
+      "text": "∴BC 是三棱锥 C-ABD 的高，"
+    },
+    {
+      "line": 620,
+      "in_range": true,
+      "text": ""
+    },
+    {
+      "line": 621,
+      "in_range": true,
+      "text": "则  $ V_{B-ACD}=V_{C-ABD}=\\frac{1}{3}S_{\\triangle ABD}\\cdot BC=\\frac{1}{3}\\times\\frac{1}{2}AB\\cdot BB_{1}\\cdot BC=\\frac{1}{3}\\times\\frac{1}{2}\\times2\\times1=\\frac{1}{3} $"
+    },
+    {
+      "line": 622,
+      "in_range": true,
+      "text": ""
+    },
+    {
+      "line": 623,
+      "in_range": true,
+      "text": "即  $ V_{B-ACD}=\\frac{1}{3} $."
+    },
+    {
+      "line": 624,
+      "in_range": false,
+      "text": ""
+    },
+    {
+      "line": 625,
+      "in_range": false,
+      "text": "28."
+    },
+    {
+      "line": 626,
+      "in_range": false,
+      "text": ""
+    },
+    {
+      "line": 627,
+      "in_range": false,
+      "text": "【考点】直线与圆的位置关系."
+    }
+  ],
+  "math_multi_declared": [
+    {
+      "unit_id": "Q1",
+      "declared": [
+        200,
+        206
+      ],
+      "len": 7,
+      "first_line": "【考点】三角函数的周期性及其求法."
+    },
+    {
+      "unit_id": "Q2",
+      "declared": [
+        208,
+        222
+      ],
+      "len": 15,
+      "first_line": "2."
+    },
+    {
+      "unit_id": "Q3",
+      "declared": [
+        224,
+        232
+      ],
+      "len": 9,
+      "first_line": "3."
+    },
+    {
+      "unit_id": "Q4",
+      "declared": [
+        234,
+        240
+      ],
+      "len": 7,
+      "first_line": "4."
+    },
+    {
+      "unit_id": "Q5",
+      "declared": [
+        242,
+        258
+      ],
+      "len": 17,
+      "first_line": "5."
+    },
+    {
+      "unit_id": "Q6",
+      "declared": [
+        260,
+        272
+      ],
+      "len": 13,
+      "first_line": "6."
+    },
+    {
+      "unit_id": "Q7",
+      "declared": [
+        274,
+        284
+      ],
+      "len": 11,
+      "first_line": "7."
+    },
+    {
+      "unit_id": "Q8",
+      "declared": [
+        286,
+        296
+      ],
+      "len": 11,
+      "first_line": "8."
+    },
+    {
+      "unit_id": "Q9",
+      "declared": [
+        298,
+        310
+      ],
+      "len": 13,
+      "first_line": "9."
+    },
+    {
+      "unit_id": "Q10",
+      "declared": [
+        314,
+        324
+      ],
+      "len": 11,
+      "first_line": "10."
+    },
+    {
+      "unit_id": "Q11",
+      "declared": [
+        326,
+        336
+      ],
+      "len": 11,
+      "first_line": "11."
+    },
+    {
+      "unit_id": "Q12",
+      "declared": [
+        338,
+        348
+      ],
+      "len": 11,
+      "first_line": "12."
+    },
+    {
+      "unit_id": "Q13",
+      "declared": [
+        350,
+        356
+      ],
+      "len": 7,
+      "first_line": "13."
+    },
+    {
+      "unit_id": "Q14",
+      "declared": [
+        358,
+        368
+      ],
+      "len": 11,
+      "first_line": "14."
+    },
+    {
+      "unit_id": "Q15",
+      "declared": [
+        370,
+        384
+      ],
+      "len": 15,
+      "first_line": "15."
+    },
+    {
+      "unit_id": "Q16",
+      "declared": [
+        386,
+        404
+      ],
+      "len": 19,
+      "first_line": "16."
+    },
+    {
+      "unit_id": "Q17",
+      "declared": [
+        406,
+        430
+      ],
+      "len": 25,
+      "first_line": "17."
+    },
+    {
+      "unit_id": "Q18",
+      "declared": [
+        434,
+        448
+      ],
+      "len": 15,
+      "first_line": "18."
+    },
+    {
+      "unit_id": "Q19",
+      "declared": [
+        450,
+        462
+      ],
+      "len": 13,
+      "first_line": "19."
+    },
+    {
+      "unit_id": "Q20",
+      "declared": [
+        464,
+        470
+      ],
+      "len": 7,
+      "first_line": "20."
+    },
+    {
+      "unit_id": "Q21",
+      "declared": [
+        472,
+        484
+      ],
+      "len": 13,
+      "first_line": "21."
+    },
+    {
+      "unit_id": "Q22",
+      "declared": [
+        487,
+        523
+      ],
+      "len": 37,
+      "first_line": "22."
+    },
+    {
+      "unit_id": "Q23",
+      "declared": [
+        525,
+        541
+      ],
+      "len": 17,
+      "first_line": "23."
+    },
+    {
+      "unit_id": "Q24",
+      "declared": [
+        543,
+        565
+      ],
+      "len": 23,
+      "first_line": "24."
+    },
+    {
+      "unit_id": "Q25",
+      "declared": [
+        567,
+        575
+      ],
+      "len": 9,
+      "first_line": "25."
+    },
+    {
+      "unit_id": "Q26",
+      "declared": [
+        579,
+        591
+      ],
+      "len": 13,
+      "first_line": "26."
+    },
+    {
+      "unit_id": "Q27",
+      "declared": [
+        593,
+        623
+      ],
+      "len": 31,
+      "first_line": "27."
+    },
+    {
+      "unit_id": "Q28",
+      "declared": [
+        625,
+        651
+      ],
+      "len": 27,
+      "first_line": "28."
+    },
+    {
+      "unit_id": "Q29",
+      "declared": [
+        653,
+        689
+      ],
+      "len": 37,
+      "first_line": "29."
+    },
+    {
+      "unit_id": "Q30",
+      "declared": [
+        691,
+        749
+      ],
+      "len": 59,
+      "first_line": "30."
+    }
+  ],
+  "overlap": {
+    "per_paper": {
+      "化学": 300,
+      "地理": 190,
+      "政治": 351,
+      "物理": 100,
+      "生物": 780,
+      "英语": 42,
+      "语文": 1
+    },
+    "total": 1764,
+    "both_single_line_same_or_adjacent": 1759,
+    "at_least_one_multiline": 5,
+    "multiline_samples": [
+      {
+        "paper": "物理",
+        "a": [
+          "Q24",
+          [
+            368,
+            368
+          ]
+        ],
+        "b": [
+          "Q26",
+          [
+            368,
+            373
+          ]
+        ]
+      },
+      {
+        "paper": "物理",
+        "a": [
+          "Q25",
+          [
+            368,
+            368
+          ]
+        ],
+        "b": [
+          "Q26",
+          [
+            368,
+            373
+          ]
+        ]
+      },
+      {
+        "paper": "物理",
+        "a": [
+          "Q26",
+          [
+            368,
+            373
+          ]
+        ],
+        "b": [
+          "Q27",
+          [
+            373,
+            373
+          ]
+        ]
+      },
+      {
+        "paper": "物理",
+        "a": [
+          "Q26",
+          [
+            368,
+            373
+          ]
+        ],
+        "b": [
+          "Q28",
+          [
+            373,
+            373
+          ]
+        ]
+      },
+      {
+        "paper": "语文",
+        "a": [
+          "Q16",
+          [
+            448,
+            463
+          ]
+        ],
+        "b": [
+          "Q17",
+          [
+            448,
+            463
+          ]
+        ]
+      }
+    ]
+  }
+}

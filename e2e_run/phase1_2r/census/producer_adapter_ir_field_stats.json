@@ -1,0 +1,41 @@
+{
+  "captured_at": "2026-10-02T05:17:20.749155+00:00",
+  "total_units": 284,
+  "fields": {
+    "material": {
+      "producer_has": 54,
+      "adapter_preserves_position_or_role": 0,
+      "adapter_drops": 54
+    },
+    "stem": {
+      "producer_has": 230,
+      "adapter_preserves_position_or_role": 0,
+      "adapter_drops": 230
+    },
+    "options": {
+      "producer_has": 174,
+      "adapter_preserves_position_or_role": 0,
+      "adapter_drops": 174
+    },
+    "options_lines": {
+      "producer_has": 176,
+      "adapter_preserves_position_or_role": 0,
+      "adapter_drops": 176
+    },
+    "answer": {
+      "producer_has": 278,
+      "adapter_preserves_position_or_role": 0,
+      "adapter_drops": 278
+    },
+    "explanation": {
+      "producer_has": 53,
+      "adapter_preserves_position_or_role": 53,
+      "adapter_drops": 0
+    }
+  },
+  "notes": {
+    "preserves_definition": "adapter_preserves = producer has field AND adapter emits corresponding position (explanation: role only, by adapter design)",
+    "code_evidence_adapter_drop_material": "annotation_adapter.py:131-132 if unit.material_lines: shared['material']={'role':'material'}",
+    "code_evidence_manifest_parses": "manifest_reader.py:51,96-107 material_lines/stem_lines/options/answer_lines/explanation_lines parsed into ManifestUnit"
+  }
+}

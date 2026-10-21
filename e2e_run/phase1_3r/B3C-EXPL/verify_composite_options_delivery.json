@@ -1,0 +1,1825 @@
+{
+  "rows": [
+    {
+      "paper": "化学",
+      "units": 40,
+      "composite": 0,
+      "composite_with_options": 0,
+      "units_with_options_declared": 23,
+      "option_spans_resolved": 60,
+      "ir_leaves_with_option_content": 23,
+      "ir_leaves": 40,
+      "ir_ready": 15,
+      "material_marker_missing": 0,
+      "unresolved": [
+        {
+          "role": "option",
+          "status": "incomplete",
+          "evidence": "option A",
+          "count": 8
+        },
+        {
+          "role": "option",
+          "status": "incomplete",
+          "evidence": "option B",
+          "count": 8
+        },
+        {
+          "role": "option",
+          "status": "incomplete",
+          "evidence": "option C",
+          "count": 8
+        },
+        {
+          "role": "option",
+          "status": "incomplete",
+          "evidence": "option D",
+          "count": 8
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 1 start not unique",
+          "count": 4
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 2 start not unique",
+          "count": 4
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 3 start not unique",
+          "count": 4
+        },
+        {
+          "role": "answer",
+          "status": "ambiguous",
+          "evidence": "answer row qn=1 spans multiple lines",
+          "count": 2
+        },
+        {
+          "role": "answer",
+          "status": "ambiguous",
+          "evidence": "answer row qn=2 spans multiple lines",
+          "count": 2
+        },
+        {
+          "role": "answer",
+          "status": "ambiguous",
+          "evidence": "answer row qn=3 spans multiple lines",
+          "count": 2
+        },
+        {
+          "role": "option",
+          "status": "incomplete",
+          "evidence": "option F",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 4 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 5 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 6 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 26 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 27 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 28 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 29 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 30 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 31 start not unique",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "paper": "历史",
+      "units": 53,
+      "composite": 3,
+      "composite_with_options": 0,
+      "units_with_options_declared": 50,
+      "option_spans_resolved": 199,
+      "ir_leaves_with_option_content": 50,
+      "ir_leaves": 53,
+      "ir_ready": 53,
+      "material_marker_missing": 0,
+      "unresolved": []
+    },
+    {
+      "paper": "地理",
+      "units": 25,
+      "composite": 25,
+      "composite_with_options": 20,
+      "units_with_options_declared": 20,
+      "option_spans_resolved": 79,
+      "ir_leaves_with_option_content": 20,
+      "ir_leaves": 25,
+      "ir_ready": 24,
+      "material_marker_missing": 0,
+      "unresolved": [
+        {
+          "role": "option",
+          "status": "incomplete",
+          "evidence": "option D",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "paper": "政治",
+      "units": 36,
+      "composite": 2,
+      "composite_with_options": 1,
+      "units_with_options_declared": 26,
+      "option_spans_resolved": 80,
+      "ir_leaves_with_option_content": 26,
+      "ir_leaves": 36,
+      "ir_ready": 29,
+      "material_marker_missing": 0,
+      "unresolved": [
+        {
+          "role": "option",
+          "status": "incomplete",
+          "evidence": "option B",
+          "count": 6
+        },
+        {
+          "role": "option",
+          "status": "incomplete",
+          "evidence": "option C",
+          "count": 6
+        },
+        {
+          "role": "option",
+          "status": "incomplete",
+          "evidence": "option D",
+          "count": 6
+        },
+        {
+          "role": "option",
+          "status": "incomplete",
+          "evidence": "option A",
+          "count": 4
+        },
+        {
+          "role": "option",
+          "status": "ambiguous",
+          "evidence": "option A",
+          "count": 2
+        },
+        {
+          "role": "stem",
+          "status": "missing",
+          "evidence": "question number '7' not found",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "missing",
+          "evidence": "question number '9' not found",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "missing",
+          "evidence": "question number '14' not found",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "missing",
+          "evidence": "question number '26' not found",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "units": 30,
+      "composite": 0,
+      "composite_with_options": 0,
+      "units_with_options_declared": 25,
+      "option_spans_resolved": 99,
+      "ir_leaves_with_option_content": 25,
+      "ir_leaves": 30,
+      "ir_ready": 30,
+      "material_marker_missing": 0,
+      "unresolved": []
+    },
+    {
+      "paper": "物理",
+      "units": 22,
+      "composite": 3,
+      "composite_with_options": 3,
+      "units_with_options_declared": 13,
+      "option_spans_resolved": 52,
+      "ir_leaves_with_option_content": 13,
+      "ir_leaves": 22,
+      "ir_ready": 21,
+      "material_marker_missing": 0,
+      "unresolved": []
+    },
+    {
+      "paper": "生物",
+      "units": 50,
+      "composite": 0,
+      "composite_with_options": 0,
+      "units_with_options_declared": 39,
+      "option_spans_resolved": 116,
+      "ir_leaves_with_option_content": 39,
+      "ir_leaves": 50,
+      "ir_ready": 29,
+      "material_marker_missing": 0,
+      "unresolved": [
+        {
+          "role": "option",
+          "status": "incomplete",
+          "evidence": "option A",
+          "count": 10
+        },
+        {
+          "role": "option",
+          "status": "incomplete",
+          "evidence": "option B",
+          "count": 10
+        },
+        {
+          "role": "option",
+          "status": "incomplete",
+          "evidence": "option C",
+          "count": 10
+        },
+        {
+          "role": "option",
+          "status": "incomplete",
+          "evidence": "option D",
+          "count": 10
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 1 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 2 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 3 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 4 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 5 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 6 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 7 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 8 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 9 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 10 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 41 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 42 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 43 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 44 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 45 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 46 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 47 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 48 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 49 start not unique",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "ambiguous",
+          "evidence": "question 50 start not unique",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "paper": "英语",
+      "units": 18,
+      "composite": 17,
+      "composite_with_options": 9,
+      "units_with_options_declared": 9,
+      "option_spans_resolved": 26,
+      "ir_leaves_with_option_content": 9,
+      "ir_leaves": 18,
+      "ir_ready": 8,
+      "material_marker_missing": 0,
+      "unresolved": [
+        {
+          "role": "stem",
+          "status": "missing",
+          "evidence": "question number '21' not found",
+          "count": 1
+        },
+        {
+          "role": "stem",
+          "status": "missing",
+          "evidence": "question number '61' not found",
+          "count": 1
+        },
+        {
+          "role": "material",
+          "status": "incomplete",
+          "evidence": "overlaps material sp-Q2.material / material overlap → unresolved",
+          "count": 1
+        },
+        {
+          "role": "material",
+          "status": "incomplete",
+          "evidence": "overlaps material sp-Q1.material / material overlap → unresolved",
+          "count": 1
+        },
+        {
+          "role": "material",
+          "status": "incomplete",
+          "evidence": "overlaps material sp-Q4.material / material overlap → unresolved",
+          "count": 1
+        },
+        {
+          "role": "material",
+          "status": "incomplete",
+          "evidence": "overlaps material sp-Q3.material / overlaps material sp-Q5-6.material / material overlap → unresolved",
+          "count": 1
+        },
+        {
+          "role": "material",
+          "status": "incomplete",
+          "evidence": "overlaps material sp-Q4.material / overlaps material sp-Q7-8.material / material overlap → unresolved",
+          "count": 1
+        },
+        {
+          "role": "material",
+          "status": "incomplete",
+          "evidence": "overlaps material sp-Q5-6.material / material overlap → unresolved",
+          "count": 1
+        },
+        {
+          "role": "material",
+          "status": "incomplete",
+          "evidence": "overlaps material sp-Q18-20.material / material overlap → unresolved",
+          "count": 1
+        },
+        {
+          "role": "material",
+          "status": "incomplete",
+          "evidence": "overlaps material sp-Q15-17.material / material overlap → unresolved",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "paper": "语文",
+      "units": 10,
+      "composite": 4,
+      "composite_with_options": 0,
+      "units_with_options_declared": 2,
+      "option_spans_resolved": 8,
+      "ir_leaves_with_option_content": 2,
+      "ir_leaves": 10,
+      "ir_ready": 10,
+      "material_marker_missing": 0,
+      "unresolved": []
+    }
+  ],
+  "totals": {
+    "units": 284,
+    "composite": 54,
+    "composite_with_options": 33,
+    "units_with_options_declared": 207,
+    "option_spans_resolved": 719,
+    "ir_leaves_with_option_content": 207,
+    "ir_leaves": 284,
+    "ir_ready": 219,
+    "material_marker_missing": 0
+  },
+  "collapse": [
+    {
+      "unit": "sp-Q7",
+      "line": [
+        "P1L040"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q8",
+      "line": [
+        "P1L044"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q13",
+      "line": [
+        "P1L095"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q1",
+      "line": [
+        "P1L011"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q2",
+      "line": [
+        "P1L018"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q8",
+      "line": [
+        "P1L077"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q10",
+      "line": [
+        "P1L094"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q13",
+      "line": [
+        "P1L122"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q17",
+      "line": [
+        "P1L167"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q34",
+      "line": [
+        "P1L361"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q41",
+      "line": [
+        "P1L430"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q46",
+      "line": [
+        "P1L474"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-U1-2.sub",
+      "line": [
+        "P1L013"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-U3-5.sub",
+      "line": [
+        "P1L023"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-U6-7.sub",
+      "line": [
+        "P1L039"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-U8-9.sub",
+      "line": [
+        "P1L064"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-U16-17.sub",
+      "line": [
+        "P1L135"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-U18-20.sub",
+      "line": [
+        "P1L158"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-U30-31.sub",
+      "line": [
+        "P1L264"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-U32-33.sub",
+      "line": [
+        "P1L280"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-U34-35.sub",
+      "line": [
+        "P1L292"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-U47-48.sub",
+      "line": [
+        "P1L422"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-U49-50.sub",
+      "line": [
+        "P1L446"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q3",
+      "line": [
+        "P1L047"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q4",
+      "line": [
+        "P1L059"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q5",
+      "line": [
+        "P1L065"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q15",
+      "line": [
+        "P1L159"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q19",
+      "line": [
+        "P1L223"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q21",
+      "line": [
+        "P1L255"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q22",
+      "line": [
+        "P1L267"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q24",
+      "line": [
+        "P1L285"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q1",
+      "line": [
+        "P1L009"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q2",
+      "line": [
+        "P1L013"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q3",
+      "line": [
+        "P1L017"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q5",
+      "line": [
+        "P1L030"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q6",
+      "line": [
+        "P1L034"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q7",
+      "line": [
+        "P1L038"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q8",
+      "line": [
+        "P1L042"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q9",
+      "line": [
+        "P1L048"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q10",
+      "line": [
+        "P1L052"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q11",
+      "line": [
+        "P1L056"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q12",
+      "line": [
+        "P1L060"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q13",
+      "line": [
+        "P1L064"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q14",
+      "line": [
+        "P1L068"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q15",
+      "line": [
+        "P1L090"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q16",
+      "line": [
+        "P1L094"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q17",
+      "line": [
+        "P1L107"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q18",
+      "line": [
+        "P1L111"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q19",
+      "line": [
+        "P1L115"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q20",
+      "line": [
+        "P1L119"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q21",
+      "line": [
+        "P1L123"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q22",
+      "line": [
+        "P1L133"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q23",
+      "line": [
+        "P1L137"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q24",
+      "line": [
+        "P1L141"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q25",
+      "line": [
+        "P1L153"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q7",
+      "line": [
+        "P1L080"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-U12-14.sub",
+      "line": [
+        "P1L140"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q15",
+      "line": [
+        "P1L160"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q15",
+      "line": [
+        "P1L140"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q18",
+      "line": [
+        "P1L164"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q19",
+      "line": [
+        "P1L168"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q20",
+      "line": [
+        "P1L172"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q26",
+      "line": [
+        "P1L228"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q27",
+      "line": [
+        "P1L232"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q31",
+      "line": [
+        "P1L257"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q32",
+      "line": [
+        "P1L261"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q38",
+      "line": [
+        "P1L309"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q39",
+      "line": [
+        "P1L313"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q1.sub",
+      "line": [
+        "P1L013"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q5-6.sub",
+      "line": [
+        "P1L043"
+      ],
+      "labels": [
+        "A",
+        "B"
+      ],
+      "gran": [
+        "line",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q7-8.sub",
+      "line": [
+        "P1L053"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q9-11.sub",
+      "line": [
+        "P1L063"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character"
+      ]
+    },
+    {
+      "unit": "sp-Q12-14.sub",
+      "line": [
+        "P1L079"
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "gran": [
+        "line",
+        "line_character",
+        "line_character"
+      ]
+    }
+  ]
+}

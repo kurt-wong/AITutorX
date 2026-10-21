@@ -1,0 +1,1517 @@
+{
+  "化学": {
+    "findings": [
+      {
+        "line": 6,
+        "status": "ABSENT",
+        "raw": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td rowspan=\"4\">考生须知</td><td style='text-alig",
+        "norm": "tableborder1stylemarginautowordwrapbreakwordtrtdrowspan4考生须知"
+      },
+      {
+        "line": 30,
+        "status": "PARTIAL",
+        "raw": "5. 下列关于氨的性质的描述 $ \\underset{\\cdot}{不}\\underset{\\cdot}{正}\\underset{\\cdot}{确} $的是",
+        "norm": "5下列关于氨的性质的描述undersetcdot不undersetcdot正undersetcdot确的是"
+      },
+      {
+        "line": 40,
+        "status": "PARTIAL",
+        "raw": "A. KCl 溶液 B.  $ C_{2}H_{5}OH $ 溶液 C.  $ H_{2}SO_{4} $ 溶液 D.  $ \\mathrm{Fe(OH)}_{3} $ 胶体",
+        "norm": "AKCl溶液BC2H5OH溶液CH2SO4溶液DmathrmFeOH3胶体"
+      },
+      {
+        "line": 51,
+        "status": "ABSENT",
+        "raw": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: bre",
+        "norm": "tableborder1stylemarginautowordwrapbreakwordtrtdstyletextali"
+      },
+      {
+        "line": 53,
+        "status": "PARTIAL",
+        "raw": "10. 羰基硫（COS）可用于合成除草剂和杀虫剂。一定条件下，恒容密闭容器中，发生反应： $ \\mathrm{H_{2}S(g)+CO_{2}(g)} $  $ \\mathrm{COS(g)+H_{2}O(g)} $ 列",
+        "norm": "10羰基硫COS可用于合成除草剂和杀虫剂一定条件下恒容密闭容器中发生反应mathrmH2SgCO2gmathrmCOSg"
+      },
+      {
+        "line": 77,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_749_611_864_748",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考化学教师版1imginimag"
+      },
+      {
+        "line": 80,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\">稀 $ H_{2}SO_{4} $</div>",
+        "norm": "divstyletextaligncenter稀H2SO4div"
+      },
+      {
+        "line": 83,
+        "status": "PARTIAL",
+        "raw": "12．2017年，我国科学家在利用镓（ $ ^{68}_{31} $）进行肿瘤的早期精准诊断方面取得重大突破。下列关于的说法正确的是 $ ^{68}_{31} $Ga",
+        "norm": "122017年我国科学家在利用镓6831进行肿瘤的早期精准诊断方面取得重大突破下列关于的说法正确的是6831Ga"
+      },
+      {
+        "line": 93,
+        "status": "ABSENT",
+        "raw": "13\\. 下列营养物质中， $ \\underset{\\cdot}{不}\\underset{\\cdot}{能} $发生水解反应的是",
+        "norm": "13下列营养物质中undersetcdot不undersetcdot能发生水解反应的是"
+      },
+      {
+        "line": 101,
+        "status": "ABSENT",
+        "raw": "C．乙醇与氯气反应生成乙醛 D．乙烯与溴反应生成1,2-二溴乙烷",
+        "norm": "C乙醇与氯气反应生成乙醛D乙烯与溴反应生成12二溴乙烷"
+      },
+      {
+        "line": 111,
+        "status": "PARTIAL",
+        "raw": "16. 某粒子的结构示意图为  $ \\begin{array}{c} +16 \\\\ 2 \\quad 8 \\quad 8 \\end{array} $，关于该粒子的说法 $ \\underset{\\cdot}{不}\\under",
+        "norm": "16某粒子的结构示意图为beginarrayc162quad8quad8endarray关于该粒子的说法underset"
+      },
+      {
+        "line": 133,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_329_49_407_133.",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考化学教师版1imginimag"
+      },
+      {
+        "line": 145,
+        "status": "ABSENT",
+        "raw": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: bre",
+        "norm": "tableborder1stylemarginautowordwrapbreakwordtrtdstyletextali"
+      },
+      {
+        "line": 149,
+        "status": "PARTIAL",
+        "raw": "20. 硫在自然界的循环过程如右图所示。下列说法中， $ \\underset{\\cdot}{不}\\underset{\\cdot}{正}\\underset{\\cdot}{确} $的是",
+        "norm": "20硫在自然界的循环过程如右图所示下列说法中undersetcdot不undersetcdot正undersetcdot"
+      },
+      {
+        "line": 161,
+        "status": "ABSENT",
+        "raw": "21. 下列行为 $ \\underset{\\cdot}{不}\\underset{\\cdot}{符}\\underset{\\cdot}{合} $安全要求的是",
+        "norm": "21下列行为undersetcdot不undersetcdot符undersetcdot合安全要求的是"
+      },
+      {
+        "line": 171,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_546_847_908_107",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考化学教师版1imginimag"
+      },
+      {
+        "line": 178,
+        "status": "ABSENT",
+        "raw": "B.  $ 0.1 \\, mol \\cdot L^{-1} $ NaOH 溶液中含有  $ 0.1 \\, mol \\, Na^{+} $",
+        "norm": "B01molcdotL1NaOH溶液中含有01molNa"
+      },
+      {
+        "line": 182,
+        "status": "PARTIAL",
+        "raw": "C.  $ 1 \\, mol \\, Cl_{2} $ 中含有的氯原子数约为  $ 6.02 \\times 10^{23} $",
+        "norm": "C1molCl2中含有的氯原子数约为602times1023"
+      },
+      {
+        "line": 188,
+        "status": "PARTIAL",
+        "raw": "A．金属钠与水： $ 2Na + 2H_{2}O = 2Na^{+} + 2OH^{-} + H_{2}\\uparrow $",
+        "norm": "A金属钠与水2Na2H2O2Na2OHH2uparrow"
+      },
+      {
+        "line": 192,
+        "status": "PARTIAL",
+        "raw": "C．稀盐酸与碳酸钙： $ CaCO_{3}+2H^{+}=Ca^{2+}+CO_{2}\\uparrow+H_{2}O $",
+        "norm": "C稀盐酸与碳酸钙CaCO32HCa2CO2uparrowH2O"
+      },
+      {
+        "line": 194,
+        "status": "ABSENT",
+        "raw": "$  \\mathrm{H}^{+} + \\mathrm{SO}_{4}^{2-} + \\mathrm{Ba}^{2+} + \\mathrm{OH}^{-} = \\mathrm{H}_{2}\\mathrm{O} + \\ma",
+        "norm": "mathrmHmathrmSO42mathrmBa2mathrmOHmathrmH2mathrmOmathrmBaSO4"
+      },
+      {
+        "line": 196,
+        "status": "PARTIAL",
+        "raw": "24. 下列实验装置或操作与实验目的 $ \\underset{\\cdot}{不}\\underset{\\cdot}{相}\\underset{\\cdot}{符} $的是",
+        "norm": "24下列实验装置或操作与实验目的undersetcdot不undersetcdot相undersetcdot符的是"
+      },
+      {
+        "line": 199,
+        "status": "ABSENT",
+        "raw": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: bre",
+        "norm": "tableborder1stylemarginautowordwrapbreakwordtrtdstyletextali"
+      },
+      {
+        "line": 204,
+        "status": "ABSENT",
+        "raw": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: bre",
+        "norm": "tableborder1stylemarginautowordwrapbreakwordtrtdstyletextali"
+      },
+      {
+        "line": 210,
+        "status": "PARTIAL",
+        "raw": "1. （3分）中国首款完全自主知识产权民用客机C919的钛合金用量达9.3%。制备海绵钛的化学方程式为  $ TiCl_{4} + 2Mg \\xlongequal{\\Delta} 2MgCl_{2} + Ti $。该反应",
+        "norm": "13分中国首款完全自主知识产权民用客机C919的钛合金用量达93制备海绵钛的化学方程式为TiCl42Mgxlongequ"
+      },
+      {
+        "line": 217,
+        "status": "ABSENT",
+        "raw": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: bre",
+        "norm": "tableborder1stylemarginautowordwrapbreakwordtrtdstyletextali"
+      },
+      {
+        "line": 224,
+        "status": "ABSENT",
+        "raw": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td rowspan=\"4\"><img src=\"../../_imgs/2018北京春",
+        "norm": "tableborder1stylemarginautowordwrapbreakwordtrtdrowspan4imgs"
+      },
+      {
+        "line": 225,
+        "status": "ABSENT",
+        "raw": "NaOH溶液</td><td style='text-align: center; word-wrap: break-word;'>序号</td><td style='text-align: center; word-w",
+        "norm": "NaOH溶液tdtdstyletextaligncenterwordwrapbreakword序号tdtdstylete"
+      },
+      {
+        "line": 237,
+        "status": "PARTIAL",
+        "raw": "5. （8分）某同学采用硫铁矿焙烧后的烧渣（主要成分为  $ Fe_{2}O_{3} $、 $ SiO_{2} $、 $ Al_{2}O_{3} $，不考虑其他杂质）制取绿矾  $ (FeSO_{4} \\cdot 7H_",
+        "norm": "58分某同学采用硫铁矿焙烧后的烧渣主要成分为Fe2O3SiO2Al2O3不考虑其他杂质制取绿矾FeSO4cdot7H2O"
+      },
+      {
+        "line": 241,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_198_72_993_277.",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考化学教师版1imginimag"
+      },
+      {
+        "line": 262,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_210_929_981_101",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考化学教师版1imginimag"
+      },
+      {
+        "line": 299,
+        "status": "ABSENT",
+        "raw": "（4）属于调味剂的是O。",
+        "norm": "4属于调味剂的是O"
+      },
+      {
+        "line": 321,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_101_1238_890_12",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考化学教师版1imginimag"
+      },
+      {
+        "line": 336,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_chart_box_98_87_453_274.j",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考化学教师版1imginchar"
+      },
+      {
+        "line": 339,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\">图1</div>",
+        "norm": "divstyletextaligncenter图1div"
+      },
+      {
+        "line": 342,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_chart_box_449_88_921_272.",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考化学教师版1imginchar"
+      },
+      {
+        "line": 345,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\">图2</div>",
+        "norm": "divstyletextaligncenter图2div"
+      },
+      {
+        "line": 356,
+        "status": "ABSENT",
+        "raw": "$$ \\mathrm{CH}_{3}\\mathrm{CH}_{2}\\mathrm{CH}_{2}\\mathrm{Br} $$",
+        "norm": "mathrmCH3mathrmCH2mathrmCH2mathrmBr"
+      },
+      {
+        "line": 368,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_136_708_280_777",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考化学教师版1imginimag"
+      },
+      {
+        "line": 373,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\">④</div>",
+        "norm": "divstyletextaligncenterdiv"
+      },
+      {
+        "line": 376,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_526_707_705_775",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考化学教师版1imginimag"
+      },
+      {
+        "line": 381,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_99_836_246_900.",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考化学教师版1imginimag"
+      },
+      {
+        "line": 386,
+        "status": "ABSENT",
+        "raw": "$ ^{6} $Br  $ CH_{3}CHCH_{3} $",
+        "norm": "6BrCH3CHCH3"
+      },
+      {
+        "line": 388,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_529_837_634_900",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考化学教师版1imginimag"
+      },
+      {
+        "line": 405,
+        "status": "ABSENT",
+        "raw": "①  $  \\mathrm{CH_{3}C\\equiv CCH_{3}}  $ ②  $  \\mathrm{CH_{3}CH_{2}CHO}  $ ③",
+        "norm": "mathrmCH3CequivCCH3mathrmCH3CH2CHO"
+      },
+      {
+        "line": 407,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_499_1238_622_13",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考化学教师版1imginimag"
+      },
+      {
+        "line": 410,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_688_1236_876_13",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考化学教师版1imginimag"
+      },
+      {
+        "line": 417,
+        "status": "ABSENT",
+        "raw": "（2）能发生加聚反应生成  $ \\begin{array}{c} +C=C \\\\ CH_{3}CH_{3} \\end{array} $ 的是___（填序号）。",
+        "norm": "2能发生加聚反应生成beginarraycCCCH3CH3endarray的是填序号"
+      },
+      {
+        "line": 423,
+        "status": "ABSENT",
+        "raw": "（4）选出能与新制的  $ \\mathrm{Cu(OH)}_{2} $ 反应生成红色沉淀的物质，并将下列化学方程式补充完整：",
+        "norm": "4选出能与新制的mathrmCuOH2反应生成红色沉淀的物质并将下列化学方程式补充完整"
+      },
+      {
+        "line": 425,
+        "status": "ABSENT",
+        "raw": "$$ \\underline{\\hspace{5cm}}+2Cu(OH)_{2}+NaOH\\quad\\xrightarrow{\\Delta}\\underline{\\hspace{5cm}}+Cu_{2}O\\downarro",
+        "norm": "underlinehspace5cm2CuOH2NaOHquadxrightarrowDeltaunderlinehsp"
+      },
+      {
+        "line": 429,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_284_243_908_449",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考化学教师版1imginimag"
+      },
+      {
+        "line": 438,
+        "status": "ABSENT",
+        "raw": "（3）E 的分子式是 O。",
+        "norm": "3E的分子式是O"
+      },
+      {
+        "line": 446,
+        "status": "ABSENT",
+        "raw": "已知：①  $ \\mathrm{CO}_{2}(\\mathrm{~g})+4\\mathrm{H}_{2}(\\mathrm{~g})\\rightleftharpoons\\mathrm{CH}_{4}(\\mathrm{~g}",
+        "norm": "已知mathrmCO2mathrmg4mathrmH2mathrmgrightleftharpoonsmathrmCH4"
+      },
+      {
+        "line": 448,
+        "status": "ABSENT",
+        "raw": "$$ \\textcircled{2}2\\mathrm{H}_{2}0(1)~=~2\\mathrm{H}_{2}(\\mathrm{g})~+0_{2}(\\mathrm{g})\\quad\\Delta H=+571.6~\\ma",
+        "norm": "textcircled22mathrmH2012mathrmH2mathrmg02mathrmgquadDeltaH57"
+      },
+      {
+        "line": 458,
+        "status": "ABSENT",
+        "raw": "（4）反应  $ \\mathrm{CH_{4}(g)+2O_{2}(g)=CO_{2}(g)+2H_{2}O(l)} $  $ \\Delta H= $ ___ kJ/mol。",
+        "norm": "4反应mathrmCH4g2O2gCO2g2H2OlDeltaHkJmol"
+      },
+      {
+        "line": 462,
+        "status": "ABSENT",
+        "raw": "$$ \\begin{array}{r}{\\Longleftrightarrow2\\mathrm{A}\\left(\\mathrm{g}\\right)\\quad4\\mathrm{B}\\left(\\mathrm{g}\\righ",
+        "norm": "beginarrayrLongleftrightarrow2mathrmAleftmathrmgrightquad4ma"
+      },
+      {
+        "line": 464,
+        "status": "PARTIAL",
+        "raw": "某温度下，向容积为  $ 1 \\, L $ 的密闭容器中充入  $ 5.0 \\, mol \\, A(g) $，发生上述反应。反应过程中  $ \\mathrm{A}(g) $ 的浓度随时间变化如下图所示。",
+        "norm": "某温度下向容积为1L的密闭容器中充入50molAg发生上述反应反应过程中mathrmAg的浓度随时间变化如下图所示"
+      },
+      {
+        "line": 468,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_chart_box_104_76_459_266.",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考化学教师版1imginchar"
+      },
+      {
+        "line": 473,
+        "status": "ABSENT",
+        "raw": "（1） $ 0 \\sim 500 $ s 内， $ v(\\mathrm{A}) =  $___mol/( $ L \\cdot s $)。",
+        "norm": "10sim500s内vmathrmAmolLcdots"
+      },
+      {
+        "line": 481,
+        "status": "PARTIAL",
+        "raw": "3. （8分）乙酸和碳酸钠在生产、生活及医药方面有广泛用途。 $ 25^{\\circ} $C时，有两种溶液：",
+        "norm": "38分乙酸和碳酸钠在生产生活及医药方面有广泛用途25circC时有两种溶液"
+      },
+      {
+        "line": 485,
+        "status": "ABSENT",
+        "raw": "（1）①中， $  \\mathrm{c}(\\mathrm{H}^{+})  $ ___  $  \\mathrm{c}(\\mathrm{OH}^{-})  $ （填“＞”“＝”或“＜”）。",
+        "norm": "1中mathrmcmathrmHmathrmcmathrmOH填或"
+      },
+      {
+        "line": 493,
+        "status": "ABSENT",
+        "raw": "b. ①中： $ c(\\text{CH}_3\\text{COOH}) + c(\\text{CH}_3\\text{COO}^-) = 0.10\\ \\text{mol} \\cdot \\text{L}^{-1} $",
+        "norm": "b中ctextCH3textCOOHctextCH3textCOO010textmolcdottextL1"
+      },
+      {
+        "line": 495,
+        "status": "ABSENT",
+        "raw": "c. ②中： $ c(\\mathrm{Na}^{+})>c(\\mathrm{OH}^{-})>c(\\mathrm{CO}_{3}^{2-})>c(\\mathrm{HCO}_{3}^{-})>c(\\mathrm{H}^{+",
+        "norm": "c中cmathrmNacmathrmOHcmathrmCO32cmathrmHCO3cmathrmH"
+      },
+      {
+        "line": 499,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_221_1026_654_11",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考化学教师版1imginimag"
+      },
+      {
+        "line": 502,
+        "status": "PARTIAL",
+        "raw": "将阳极的电极反应式补充完整： $ 4CO_{3}^{2-}+4HCO_{3}^{-}+O_{2}\\uparrow $",
+        "norm": "将阳极的电极反应式补充完整4CO324HCO3O2uparrow"
+      },
+      {
+        "line": 513,
+        "status": "ABSENT",
+        "raw": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: bre",
+        "norm": "tableborder1stylemarginautowordwrapbreakwordtrtdstyletextali"
+      },
+      {
+        "line": 526,
+        "status": "ABSENT",
+        "raw": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: bre",
+        "norm": "tableborder1stylemarginautowordwrapbreakwordtrtdstyletextali"
+      },
+      {
+        "line": 540,
+        "status": "ABSENT",
+        "raw": "(4) $ SO_{2}+2OH^{-}=SO_{3}^{2-}+H_{2}O $，吸收 $ SO_{2} $，防止环境污染",
+        "norm": "4SO22OHSO32H2O吸收SO2防止环境污染"
+      },
+      {
+        "line": 558,
+        "status": "ABSENT",
+        "raw": "$$ \\textcircled{2}\\mathrm{~a~b~c~} $$",
+        "norm": "textcircled2mathrmabc"
+      },
+      {
+        "line": 578,
+        "status": "ABSENT",
+        "raw": "（2）pH=8、 $ 32^{\\circ} $C",
+        "norm": "2pH832circC"
+      },
+      {
+        "line": 582,
+        "status": "ABSENT",
+        "raw": "(3) $ 2HNO_{2}+O_{2}\\xlongequal{\\Delta}2HNO_{3} $",
+        "norm": "32HNO2O2xlongequalDelta2HNO3"
+      }
+    ],
+    "md_lines": 584
+  },
+  "数学": {
+    "findings": [
+      {
+        "line": 5,
+        "status": "PARTIAL",
+        "raw": "## 一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+        "norm": "一在每个小题给出的四个备选答案中只有一个符合题目要求的"
+      },
+      {
+        "line": 9,
+        "status": "ABSENT",
+        "raw": "A. 1 B. 2 C.  $ \\pi $ D.  $ 2\\pi $",
+        "norm": "A1B2CpiD2pi"
+      },
+      {
+        "line": 15,
+        "status": "ABSENT",
+        "raw": "3. 如果向量  $ \\overrightarrow{a} = (1, 2) $， $ \\overrightarrow{b} = (4, 3) $，那么等于  $ \\overrightarrow{a} - 2\\overr",
+        "norm": "3如果向量overrightarrowa12overrightarrowb43那么等于overrightarrowa2o"
+      },
+      {
+        "line": 27,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考数学（教师版）(1)/img_in_image_box_77_675_283_1080",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考数学教师版1imginimag"
+      },
+      {
+        "line": 30,
+        "status": "ABSENT",
+        "raw": "A. -2 B. 0 C. 2 D.  $ \\pm2 $",
+        "norm": "A2B0C2Dpm2"
+      },
+      {
+        "line": 40,
+        "status": "ABSENT",
+        "raw": "8. 在$\\triangle ABC$中，$\\angle C=60^{\\circ}$，$AC=2$，$BC=3$，那么$AB$等于（ ）",
+        "norm": "8在triangleABC中angleC60circAC2BC3那么AB等于"
+      },
+      {
+        "line": 42,
+        "status": "ABSENT",
+        "raw": "A. $\\sqrt{5}$ B. $\\sqrt{6}$ C. $\\sqrt{7}$ D. $2\\sqrt{2}$",
+        "norm": "Asqrt5Bsqrt6Csqrt7D2sqrt2"
+      },
+      {
+        "line": 48,
+        "status": "ABSENT",
+        "raw": "A.  $ \\frac{1}{6} $ B.  $ \\frac{1}{3} $ C.  $ \\frac{1}{2} $ D.  $ \\frac{2}{3} $",
+        "norm": "Afrac16Bfrac13Cfrac12Dfrac23"
+      },
+      {
+        "line": 50,
+        "status": "PARTIAL",
+        "raw": "10. 如果正方形 ABCD 的边长为 1，那么  $ \\overrightarrow{AC} \\cdot \\overrightarrow{AB} $ 等于（ ）",
+        "norm": "10如果正方形ABCD的边长为1那么overrightarrowACcdotoverrightarrowAB等于"
+      },
+      {
+        "line": 52,
+        "status": "ABSENT",
+        "raw": "A. 1    B.  $ \\sqrt{2} $ C.  $ \\sqrt{3} $ D. 2",
+        "norm": "A1Bsqrt2Csqrt3D2"
+      },
+      {
+        "line": 56,
+        "status": "ABSENT",
+        "raw": "A.  $ aq^{n-1} $ B.  $ aq^n $ C.  $ \\frac{a(1-q^{n-1})}{1-q} $ D.  $ \\frac{a(1-q^n)}{1-q} $",
+        "norm": "Aaqn1BaqnCfraca1qn11qDfraca1qn1q"
+      },
+      {
+        "line": 58,
+        "status": "ABSENT",
+        "raw": "12. 已知  $ \\cos\\alpha=\\frac{1}{2} $，那么  $ \\cos(-2\\alpha) $ 等于（）",
+        "norm": "12已知cosalphafrac12那么cos2alpha等于"
+      },
+      {
+        "line": 60,
+        "status": "ABSENT",
+        "raw": "A.  $ -\\frac{\\sqrt{3}}{2} $ B.  $ -\\frac{1}{2} $ C.  $ \\frac{1}{2} $ D.  $ \\frac{\\sqrt{3}}{2} $",
+        "norm": "Afracsqrt32Bfrac12Cfrac12Dfracsqrt32"
+      },
+      {
+        "line": 72,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考数学（教师版）(1)/img_in_image_box_77_891_190_1036",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考数学教师版1imginimag"
+      },
+      {
+        "line": 75,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\">主（正）视图</div>",
+        "norm": "divstyletextaligncenter主正视图div"
+      },
+      {
+        "line": 78,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考数学（教师版）(1)/img_in_image_box_256_892_342_103",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考数学教师版1imginimag"
+      },
+      {
+        "line": 81,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\">左（侧）视图</div>",
+        "norm": "divstyletextaligncenter左侧视图div"
+      },
+      {
+        "line": 84,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考数学（教师版）(1)/img_in_image_box_98_1075_193_115",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考数学教师版1imginimag"
+      },
+      {
+        "line": 87,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\">俯视图</div>",
+        "norm": "divstyletextaligncenter俯视图div"
+      },
+      {
+        "line": 90,
+        "status": "ABSENT",
+        "raw": "A. 32 B. 24 C.  $ 4+12\\sqrt{2} $ D.  $ 12\\sqrt{2} $",
+        "norm": "A32B24C412sqrt2D12sqrt2"
+      },
+      {
+        "line": 92,
+        "status": "PARTIAL",
+        "raw": "16. 如果 a > b > 0，且 a + b = 1，那么在不等式①  $ \\frac{a}{b} < 1 $；②  $ \\frac{1}{b} < \\frac{1}{a} $；③  $ \\frac{1}{b} + ",
+        "norm": "16如果ab0且ab1那么在不等式fracab1frac1bfrac1afrac1bfrac1afrac1ababfra"
+      },
+      {
+        "line": 104,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考数学（教师版）(1)/img_in_image_box_78_76_329_309.j",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考数学教师版1imginimag"
+      },
+      {
+        "line": 117,
+        "status": "PARTIAL",
+        "raw": "20. 已知函数  $ f(x) = a^x $，其中  $ a > 0 $，且  $ a \\ne 1 $，如果以  $ P(x_1, f(x_1)) $， $ Q(x_2, f(x_2)) $ 为端点的线段的中点在 y",
+        "norm": "20已知函数fxax其中a0且ane1如果以Px1fx1Qx2fx2为端点的线段的中点在y轴上那么fx1cdotfx2等"
+      },
+      {
+        "line": 123,
+        "status": "ABSENT",
+        "raw": "A.  $ \\frac{1}{2} $ B.  $ \\frac{\\sqrt{2}}{2} $ C.  $ \\frac{\\sqrt{3}}{2} $ D. 1",
+        "norm": "Afrac12Bfracsqrt22Cfracsqrt32D1"
+      },
+      {
+        "line": 125,
+        "status": "ABSENT",
+        "raw": "22. 已知函数  $ f(x) = \\frac{x}{x^2 + 1} $，关于  $ f(x) $ 的性质，有以下四个推断：",
+        "norm": "22已知函数fxfracxx21关于fx的性质有以下四个推断"
+      },
+      {
+        "line": 127,
+        "status": "ABSENT",
+        "raw": "①  $ f(x) $ 的定义域是  $ (-\\infty, +\\infty) $； ②  $ f(x) $ 的值域是  $ [-\\frac{1}{2}, \\frac{1}{2}] $；",
+        "norm": "fx的定义域是inftyinftyfx的值域是frac12frac12"
+      },
+      {
+        "line": 135,
+        "status": "PARTIAL",
+        "raw": "23\\. 为应对我国人口老龄化问题，某研究院设计了延迟退休方案，第一步：2017年女干部和女工人退休年龄统一定定为55岁；第二步：从2018年开始，女性退休年龄每3年延迟1岁，至2045年时，退休年龄统一规定为65岁，小",
+        "norm": "23为应对我国人口老龄化问题某研究院设计了延迟退休方案第一步2017年女干部和女工人退休年龄统一定定为55岁第二步从20"
+      },
+      {
+        "line": 139,
+        "status": "ABSENT",
+        "raw": "24. 已知函数  $ f(x) = \\text{asin} x + \\text{bcos} x $，其中  $ a \\in \\mathbb{R} $， $ b \\in \\mathbb{R} $，如果对任意  $ x \\",
+        "norm": "24已知函数fxtextasinxtextbcosx其中ainmathbbRbinmathbbR如果对任意xinmath"
+      },
+      {
+        "line": 143,
+        "status": "PARTIAL",
+        "raw": "25. 我国古代数学名著《续古摘奇算法》（杨辉）一书中有关于三阶幻方的问题：将 1，2，3，4，5，6，7，8，9 分别填入  $ 3 \\times 3 $ 的方格中，使得每一行，每一列及对角线上的三个数的和都相等（如图",
+        "norm": "25我国古代数学名著续古摘奇算法杨辉一书中有关于三阶幻方的问题将123456789分别填入3times3的方格中使得每一"
+      },
+      {
+        "line": 145,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考数学（教师版）(1)/img_in_image_box_68_1520_244_156",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考数学教师版1imginimag"
+      },
+      {
+        "line": 150,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考数学（教师版）(1)/img_in_image_box_68_70_261_174.j",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考数学教师版1imginimag"
+      },
+      {
+        "line": 157,
+        "status": "ABSENT",
+        "raw": "26. 已知  $ \\theta \\in (\\frac{\\pi}{2}, \\pi) $，且  $ \\sin \\theta = \\frac{3}{5} $.",
+        "norm": "26已知thetainfracpi2pi且sinthetafrac35"
+      },
+      {
+        "line": 159,
+        "status": "ABSENT",
+        "raw": "（Ⅰ） $ \\tan\\theta= $___；",
+        "norm": "tantheta"
+      },
+      {
+        "line": 161,
+        "status": "ABSENT",
+        "raw": "（Ⅱ）求 $ \\cos\\left(\\theta+\\frac{\\pi}{3}\\right) $的值.",
+        "norm": "求cosleftthetafracpi3right的值"
+      },
+      {
+        "line": 163,
+        "status": "PARTIAL",
+        "raw": "27. 如图，在三棱柱 ABC - A₁B₁C₁ 中，BB₁ ⊥ 平面 ABC，∠ABC = 90°，AB=2，BC = ⋅ = 1，D 是棱 A₁B₁ 上一点。",
+        "norm": "27如图在三棱柱ABCABC中BB平面ABCABC90AB2BC1D是棱AB上一点"
+      },
+      {
+        "line": 165,
+        "status": "ABSENT",
+        "raw": "（Ⅰ）证明： $ BC \\bot AD $；",
+        "norm": "证明BCbotAD"
+      },
+      {
+        "line": 169,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考数学（教师版）(1)/img_in_image_box_78_576_380_739.",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考数学教师版1imginimag"
+      },
+      {
+        "line": 176,
+        "status": "PARTIAL",
+        "raw": "（Ⅱ）如果直线 l 与圆 O 交于 A，B 两点，且  $ \\frac{|PA|}{|PB|} = \\frac{1}{2} $，求 r 的值.",
+        "norm": "如果直线l与圆O交于AB两点且fracPAPBfrac12求r的值"
+      },
+      {
+        "line": 178,
+        "status": "ABSENT",
+        "raw": "29. 数列  $ \\{a_n\\} $ 满足  $ a_{n+1} = \\frac{a_n}{a_n^2 + 1} $，n=1, 2, 3,  $ \\cdots $， $ \\{a_n\\} $ 的前 n 项和记为  $ S",
+        "norm": "29数列an满足an1fracanan21n123cdotsan的前n项和记为Sn"
+      },
+      {
+        "line": 184,
+        "status": "ABSENT",
+        "raw": "（Ⅲ）如果  $ a_1 \\ne 0 $，证明： $ S_n = \\frac{a_1 - a_{n+1}}{a_1 a_{n+1}} $.",
+        "norm": "如果a1ne0证明Snfraca1an1a1an1"
+      },
+      {
+        "line": 186,
+        "status": "PARTIAL",
+        "raw": "30. 已知函数  $ f(x) = 2ax^2 + bx - a + 1 $，其中  $ a \\in \\mathbb{R} $， $ b \\in \\mathbb{R} $。",
+        "norm": "30已知函数fx2ax2bxa1其中ainmathbbRbinmathbbR"
+      },
+      {
+        "line": 190,
+        "status": "ABSENT",
+        "raw": "（Ⅱ）当  $ b = \\frac{4}{3} $ 时，如果存在  $ x_0 \\in \\mathbb{R} $，使得  $ f(x_0) < 0 $，试求  $ a $ 的取值范围；",
+        "norm": "当bfrac43时如果存在x0inmathbbR使得fx00试求a的取值范围"
+      },
+      {
+        "line": 192,
+        "status": "ABSENT",
+        "raw": "（Ⅲ）如果对于任意  $ x \\in [-1, 1] $，都有  $ f(x) \\geq 0 $ 成立，试求  $ a + b $ 的最大值.",
+        "norm": "如果对于任意xin11都有fxgeq0成立试求ab的最大值"
+      },
+      {
+        "line": 198,
+        "status": "PARTIAL",
+        "raw": "## 一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+        "norm": "一在每个小题给出的四个备选答案中只有一个符合题目要求的"
+      },
+      {
+        "line": 202,
+        "status": "PARTIAL",
+        "raw": "【分析】由条件利用函数  $ y = A \\sin(\\omega x + \\phi) $ 的周期为  $ \\frac{2\\pi}{\\omega} $，求得结果.",
+        "norm": "分析由条件利用函数yAsinomegaxphi的周期为frac2piomega求得结果"
+      },
+      {
+        "line": 204,
+        "status": "PARTIAL",
+        "raw": "【解答】解：函数  $ y=3\\sin x+2 $ 的最小正周期为  $ 2\\pi $",
+        "norm": "解答解函数y3sinx2的最小正周期为2pi"
+      },
+      {
+        "line": 212,
+        "status": "ABSENT",
+        "raw": "【分析】由  $ A \\cap B = A $，得出  $ A \\subseteq B $，即可得出 m.",
+        "norm": "分析由AcapBA得出AsubseteqB即可得出m"
+      },
+      {
+        "line": 216,
+        "status": "ABSENT",
+        "raw": "$$ \\therefore A\\subseteq B. $$",
+        "norm": "thereforeAsubseteqB"
+      },
+      {
+        "line": 218,
+        "status": "ABSENT",
+        "raw": "$ \\because A=\\{1,2\\}, B=\\{1,m,3\\} $,",
+        "norm": "becauseA12B1m3"
+      },
+      {
+        "line": 220,
+        "status": "ABSENT",
+        "raw": "$$ \\therefore m=2. $$",
+        "norm": "thereforem2"
+      },
+      {
+        "line": 230,
+        "status": "ABSENT",
+        "raw": "【解答】解：向量  $ \\overrightarrow{a}=(1,2) $， $ \\overrightarrow{b}=(4,3) $，",
+        "norm": "解答解向量overrightarrowa12overrightarrowb43"
+      },
+      {
+        "line": 232,
+        "status": "ABSENT",
+        "raw": "则于  $ \\overrightarrow{a}-2\\overrightarrow{b}=(1,2)-2(4,3)=(1,2)-(8,6)=(1-8,2-6)=(-7,-4) $，故选：B.",
+        "norm": "则于overrightarrowa2overrightarrowb122431286182674故选B"
+      },
+      {
+        "line": 250,
+        "status": "ABSENT",
+        "raw": "x=-2， $ x\\geq0 $？，否；",
+        "norm": "x2xgeq0否"
+      },
+      {
+        "line": 280,
+        "status": "PARTIAL",
+        "raw": "【解答】解：每个个体被抽到的概率等于 $ \\frac{3000}{270000}=\\frac{1}{90} $，",
+        "norm": "解答解每个个体被抽到的概率等于frac3000270000frac190"
+      },
+      {
+        "line": 282,
+        "status": "PARTIAL",
+        "raw": "则抽取初三年级的人数应为 $ 81000\\times\\frac{1}{90}=900 $人，",
+        "norm": "则抽取初三年级的人数应为81000timesfrac190900人"
+      },
+      {
+        "line": 292,
+        "status": "ABSENT",
+        "raw": "【解答】解：∵$\\angle C=60^{\\circ}$，$AC=2$，$BC=3$，",
+        "norm": "解答解angleC60circAC2BC3"
+      },
+      {
+        "line": 294,
+        "status": "ABSENT",
+        "raw": "∴由余弦定理可得：$AB=\\sqrt{AC^{2}+BC^{2}-2AB\\cdot AC\\cdot\\cos C}=\\sqrt{4+9-2\\times2\\times3\\times\\frac{1}{2}}=\\sqrt{7}$",
+        "norm": "由余弦定理可得ABsqrtAC2BC22ABcdotACcdotcosCsqrt492times2times3times"
+      },
+      {
+        "line": 308,
+        "status": "PARTIAL",
+        "raw": "故从中随机摸出1个球，那么摸到红球或白球的概率是 $ \\frac{4}{6}=\\frac{2}{3} $;",
+        "norm": "故从中随机摸出1个球那么摸到红球或白球的概率是frac46frac23"
+      },
+      {
+        "line": 318,
+        "status": "ABSENT",
+        "raw": "【分析】求出 $ \\overrightarrow{AC} $， $ \\overrightarrow{AB} $的模长和夹角，代入数量积公式计算.",
+        "norm": "分析求出overrightarrowACoverrightarrowAB的模长和夹角代入数量积公式计算"
+      },
+      {
+        "line": 320,
+        "status": "PARTIAL",
+        "raw": "【解答】解：∵正方形 ABCD 的边长为 1，∴ $ |\\overrightarrow{AB}|=1 $， $ |\\overrightarrow{AC}|=\\sqrt{2} $， $ \\angle BAC=\\frac{\\",
+        "norm": "解答解正方形ABCD的边长为1overrightarrowAB1overrightarrowACsqrt2angleBA"
+      },
+      {
+        "line": 322,
+        "status": "ABSENT",
+        "raw": "∴ $ \\overrightarrow{AC}\\cdot\\overrightarrow{AB}=|\\overrightarrow{AB}|\\cdot|\\overrightarrow{AC}|\\cdot\\cos\\frac{",
+        "norm": "overrightarrowACcdotoverrightarrowABoverrightarrowABcdotover"
+      },
+      {
+        "line": 330,
+        "status": "PARTIAL",
+        "raw": "【分析】由已知得训练 n 天产生的总数据量为  $ S_{n}=a+aq+aq^{2}+\\cdots+aq^{n-1} $，由此能求出结果.",
+        "norm": "分析由已知得训练n天产生的总数据量为Snaaqaq2cdotsaqn1由此能求出结果"
+      },
+      {
+        "line": 332,
+        "status": "PARTIAL",
+        "raw": "【解答】解：∵训练过程中第一天产生的数据量为 a，其后每天产生的数据量都是前一天的  $ q $（ $ q>1 $）倍，∴那么训练 n 天产生的总数据量为： $ S_n = a + aq + aq^2 + \\cdots ",
+        "norm": "解答解训练过程中第一天产生的数据量为a其后每天产生的数据量都是前一天的qq1倍那么训练n天产生的总数据量为Snaaqaq"
+      },
+      {
+        "line": 334,
+        "status": "ABSENT",
+        "raw": "$ = \\frac{a(1 - q^n)}{1 - q} $.",
+        "norm": "fraca1qn1q"
+      },
+      {
+        "line": 344,
+        "status": "ABSENT",
+        "raw": "【解答】解：∵  $ \\cos\\alpha=\\frac{1}{2} $,",
+        "norm": "解答解cosalphafrac12"
+      },
+      {
+        "line": 346,
+        "status": "ABSENT",
+        "raw": "∴  $ \\cos(-2a)=\\cos2a=2\\cos^2a-1=2\\times\\left(\\frac{1}{2}\\right)^2-1=-\\frac{1}{2} $.",
+        "norm": "cos2acos2a2cos2a12timesleftfrac12right21frac12"
+      },
+      {
+        "line": 364,
+        "status": "PARTIAL",
+        "raw": "【解答】解： $ \\log_{4}2 - \\log_{4}8 = \\log_{4}\\frac{2}{8} = \\log_{4}4^{-1} = -1 $，",
+        "norm": "解答解log42log48log4frac28log4411"
+      },
+      {
+        "line": 380,
+        "status": "ABSENT",
+        "raw": "所以，底面正方形的边长为 $ \\sqrt{1^{2}+1^{2}}=\\sqrt{2} $，",
+        "norm": "所以底面正方形的边长为sqrt1212sqrt2"
+      },
+      {
+        "line": 382,
+        "status": "ABSENT",
+        "raw": "该长方体的表面积为 $ 2\\times(\\sqrt{2})^{2}+4\\times3\\times\\sqrt{2}=4+12\\sqrt{2} $.",
+        "norm": "该长方体的表面积为2timessqrt224times3timessqrt2412sqrt2"
+      },
+      {
+        "line": 396,
+        "status": "ABSENT",
+        "raw": "那么① $ \\frac{a}{b} $＜1，② $ \\frac{1}{b} $＜ $ \\frac{1}{a} $，令 a=0.8，b=0.2，显然不成立，故①②错误；",
+        "norm": "那么fracab1frac1bfrac1a令a08b02显然不成立故错误"
+      },
+      {
+        "line": 398,
+        "status": "ABSENT",
+        "raw": "③ $ \\frac{1}{b}+\\frac{1}{a}=\\frac{a+b}{ab}=\\frac{1}{ab} $，故 $ \\frac{1}{b}+\\frac{1}{a}<\\frac{1}{ab} $错误；",
+        "norm": "frac1bfrac1afracababfrac1ab故frac1bfrac1afrac1ab错误"
+      },
+      {
+        "line": 400,
+        "status": "ABSENT",
+        "raw": "④l=a+b＞2 $ \\sqrt{ab} $，故 ab＜ $ \\frac{1}{4} $，",
+        "norm": "lab2sqrtab故abfrac14"
+      },
+      {
+        "line": 412,
+        "status": "ABSENT",
+        "raw": "【分析】由  $ FG \\parallel BC_1 $， $ BC_1 \\parallel AD_1 $，得  $ FG \\parallel AD_1 $，从而  $ FG \\parallel $ 平面  $ BC_1",
+        "norm": "分析由FGparallelBC1BC1parallelAD1得FGparallelAD1从而FGparallel平面BC"
+      },
+      {
+        "line": 416,
+        "status": "ABSENT",
+        "raw": "∴  $ FG \\parallel BC_1 $，∵  $ BC_1 \\parallel AD_1 $，∴  $ FG \\parallel AD_1 $，",
+        "norm": "FGparallelBC1BC1parallelAD1FGparallelAD1"
+      },
+      {
+        "line": 418,
+        "status": "ABSENT",
+        "raw": "∵  $ FG \\not\\subset $ 平面  $ AA_1D_1D $， $ AD_1 \\subset $ 平面  $ AA_1D_1D $，∴  $ FG \\parallel $ 平面  $ AA_1D_1D $",
+        "norm": "FGnotsubset平面AA1D1DAD1subset平面AA1D1DFGparallel平面AA1D1D故正确"
+      },
+      {
+        "line": 420,
+        "status": "ABSENT",
+        "raw": "∵  $ EF \\parallel A_1C_1 $， $ A_1C_1 $ 与平面  $ BC_1D_1 $ 相交，∴ EF 与平面  $ BC_1D_1 $ 相交，故②错误；",
+        "norm": "EFparallelA1C1A1C1与平面BC1D1相交EF与平面BC1D1相交故错误"
+      },
+      {
+        "line": 424,
+        "status": "ABSENT",
+        "raw": "∴  $ FG \\parallel BC_1 $，∵  $ FG \\not\\subset $ 平面  $ BC_1D_1 $， $ BC_1 \\subset $ 平面  $ BC_1D_1 $，",
+        "norm": "FGparallelBC1FGnotsubset平面BC1D1BC1subset平面BC1D1"
+      },
+      {
+        "line": 426,
+        "status": "ABSENT",
+        "raw": "∴  $ FG \\parallel $ 平面  $ BC_1D_1 $，故③正确；",
+        "norm": "FGparallel平面BC1D1故正确"
+      },
+      {
+        "line": 458,
+        "status": "ABSENT",
+        "raw": "$$ \\therefore b^{2}=4^{2}+(2-b)^{2}, $$",
+        "norm": "thereforeb2422b2"
+      },
+      {
+        "line": 460,
+        "status": "ABSENT",
+        "raw": "$$ \\therefore b=5. $$",
+        "norm": "thereforeb5"
+      },
+      {
+        "line": 470,
+        "status": "ABSENT",
+        "raw": "【解答】解：∵以 P（x₁，f（x₁）），Q（x₂，f（x₂））为端点的线段的中点在 y 轴上，∴ x₁ + x₂ = 0，又∵ f（x）= aᵓ，∴ f（x₁）· f（x₂）= aᵓ¹ + aᵓ² = aˡ¹·ˡˡ x",
+        "norm": "解答解以PxfxQxfx为端点的线段的中点在y轴上xx0又fxafxfxaaaxa1故选A"
+      },
+      {
+        "line": 478,
+        "status": "PARTIAL",
+        "raw": "【解答】解：作出平面区域如图，则 |PA| 的最小值为 A（0，1）到直线 x - y = 0 的距离  $ d = \\frac{1}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2} $.",
+        "norm": "解答解作出平面区域如图则PA的最小值为A01到直线xy0的距离dfrac1sqrt2fracsqrt22"
+      },
+      {
+        "line": 484,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考数学（教师版）(1)/img_in_image_box_71_67_413_415.j",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京春季高中会考数学教师版1imginimag"
+      },
+      {
+        "line": 493,
+        "status": "ABSENT",
+        "raw": "【解答】解：①∵函数 $ f(x)=\\frac{x}{x^2+1} $",
+        "norm": "解答解函数fxfracxx21"
+      },
+      {
+        "line": 495,
+        "status": "ABSENT",
+        "raw": "$ \\therefore f(x) $ 的定义域是  $ (-∞, +∞) $,",
+        "norm": "thereforefx的定义域是"
+      },
+      {
+        "line": 499,
+        "status": "ABSENT",
+        "raw": "②f(x)= $ \\frac{1}{x+\\frac{1}{x}} $,",
+        "norm": "fxfrac1xfrac1x"
+      },
+      {
+        "line": 501,
+        "status": "ABSENT",
+        "raw": "x>0 时： $ f(x)\\leq\\frac{1}{2} $",
+        "norm": "x0时fxleqfrac12"
+      },
+      {
+        "line": 503,
+        "status": "ABSENT",
+        "raw": "x<0 时： $ f(x)\\geq-\\frac{1}{2} $",
+        "norm": "x0时fxgeqfrac12"
+      },
+      {
+        "line": 505,
+        "status": "ABSENT",
+        "raw": "故 f（x）的值域是  $ \\left[-\\frac{1}{2},\\frac{1}{2}\\right] $，",
+        "norm": "故fx的值域是leftfrac12frac12right"
+      },
+      {
+        "line": 513,
+        "status": "ABSENT",
+        "raw": "④由  $ f'(x) = \\frac{1 - x^2}{(x^2 + 1)^2} $,",
+        "norm": "由fxfrac1x2x212"
+      },
+      {
+        "line": 519,
+        "status": "ABSENT",
+        "raw": "$ \\therefore f(x) $ 在区间（0，2）上先增后减，",
+        "norm": "thereforefx在区间02上先增后减"
+      },
+      {
+        "line": 547,
+        "status": "PARTIAL",
+        "raw": "【分析】需要分类讨论，当 a=0 时，和当  $ a \\neq 0 $ 时，函数  $ f(x) = a \\sin x + b \\cos x = \\sqrt{a^2 + b^2} \\sin(x + \\theta) $，其",
+        "norm": "分析需要分类讨论当a0时和当aneq0时函数fxasinxbcosxsqrta2b2sinxtheta其中tanthet"
+      },
+      {
+        "line": 549,
+        "status": "ABSENT",
+        "raw": "【解答】解：当 a=0 时， $ f(x)=bc\\cos x $，",
+        "norm": "解答解当a0时fxbccosx"
+      },
+      {
+        "line": 551,
+        "status": "ABSENT",
+        "raw": "$\\because x\\in\\mathbb{R}$，都有$f(x)\\neq2$，",
+        "norm": "becausexinmathbbR都有fxneq2"
+      },
+      {
+        "line": 553,
+        "status": "ABSENT",
+        "raw": "$$ \\therefore\\left|b\\right|<1, $$",
+        "norm": "thereforeleftbright1"
+      },
+      {
+        "line": 555,
+        "status": "ABSENT",
+        "raw": "$$ \\therefore-1<a+b<1,-1<a-b<1,a^{2}+b^{2}<1, $$",
+        "norm": "therefore1ab11ab1a2b21"
+      },
+      {
+        "line": 557,
+        "status": "ABSENT",
+        "raw": "当  $ a \\neq 0 $ 时，函数  $ f(x) = a \\sin x + b \\cos x = \\sqrt{a^2 + b^2} \\sin(x + \\theta) $，其中  $ \\tan \\theta = \\",
+        "norm": "当aneq0时函数fxasinxbcosxsqrta2b2sinxtheta其中tanthetafracba"
+      },
+      {
+        "line": 559,
+        "status": "ABSENT",
+        "raw": "∵ $ x\\in\\mathbb{R} $，都有 $ f(x)\\neq2 $，",
+        "norm": "xinmathbbR都有fxneq2"
+      },
+      {
+        "line": 561,
+        "status": "ABSENT",
+        "raw": "$$\\therefore \\sqrt{a^{2}+b^{2}} < 2, \\text{ 即 } a^{2}+b^{2} < 4,$$",
+        "norm": "thereforesqrta2b22text即a2b24"
+      },
+      {
+        "line": 563,
+        "status": "ABSENT",
+        "raw": "综上所述，只有 $ ^{④} $一定成立，",
+        "norm": "综上所述只有一定成立"
+      },
+      {
+        "line": 583,
+        "status": "PARTIAL",
+        "raw": "【分析】（Ⅰ）由条件利用同角三角函数的基本关系，求得  $ \\cos\\theta $ 的值，可得  $ \\tan\\theta $ 的值.",
+        "norm": "分析由条件利用同角三角函数的基本关系求得costheta的值可得tantheta的值"
+      },
+      {
+        "line": 587,
+        "status": "PARTIAL",
+        "raw": "（Ⅱ）由条件利用两角和的余弦公式，求得  $ \\cos\\left(\\theta+\\frac{\\pi}{3}\\right) $ 的值.",
+        "norm": "由条件利用两角和的余弦公式求得cosleftthetafracpi3right的值"
+      },
+      {
+        "line": 589,
+        "status": "ABSENT",
+        "raw": "【解答】解：（Ⅰ）∵ θ ∈ （ $ \\frac{\\pi}{2} $，π），且 sin θ =  $ \\frac{3}{5} $，∴cos θ =  $ -\\sqrt{1 - \\sin^2 \\theta} = -\\fra",
+        "norm": "解答解fracpi2且sinfrac35cossqrt1sin2thetafrac45tanfrac34故答案为frac"
+      },
+      {
+        "line": 591,
+        "status": "ABSENT",
+        "raw": "（Ⅱ）∵ cos （θ +  $ \\frac{\\pi}{2} $）= cos θ cos  $ \\frac{\\pi}{2} $ - sin θ sin  $ \\frac{\\pi}{2} $ = - $ \\frac{4}{",
+        "norm": "cosfracpi2coscosfracpi2sinsinfracpi2frac44frac12frac33fracsq"
+      },
+      {
+        "line": 601,
+        "status": "PARTIAL",
+        "raw": "【解答】证明：（Ⅰ）在三棱柱 ABC - A_{1}B_{1}C_{1} 中，BB_{1}⊥平面 ABC， $ \\angle ABC=90^{\\circ} $",
+        "norm": "解答证明在三棱柱ABCA1B1C1中BB1平面ABCangleABC90circ"
+      },
+      {
+        "line": 603,
+        "status": "ABSENT",
+        "raw": "$$ \\therefore\\mathrm{BC}\\perp\\mathrm{AB}, $$",
+        "norm": "thereforemathrmBCperpmathrmAB"
+      },
+      {
+        "line": 607,
+        "status": "ABSENT",
+        "raw": "$$ \\therefore\\mathrm{BB}_{1}\\perp\\mathrm{BC}, $$",
+        "norm": "thereforemathrmBB1perpmathrmBC"
+      },
+      {
+        "line": 609,
+        "status": "ABSENT",
+        "raw": "$$ \\because BB_{1}\\cap AB=B, $$",
+        "norm": "becauseBB1capABB"
+      },
+      {
+        "line": 611,
+        "status": "ABSENT",
+        "raw": "$ \\therefore BC \\perp $ 平面  $ ABB_{1}A_{1} $",
+        "norm": "thereforeBCperp平面ABB1A1"
+      },
+      {
+        "line": 615,
+        "status": "ABSENT",
+        "raw": "$$ \\therefore\\mathrm{BC}\\perp\\mathrm{AD}. $$",
+        "norm": "thereforemathrmBCperpmathrmAD"
+      },
+      {
+        "line": 617,
+        "status": "ABSENT",
+        "raw": "（Ⅱ）$\\because BC \\perp$ 平面 $ABB_{1}A_{1}$，",
+        "norm": "becauseBCperp平面ABB1A1"
+      },
+      {
+        "line": 621,
+        "status": "ABSENT",
+        "raw": "则  $ V_{B-ACD}=V_{C-ABD}=\\frac{1}{3}S_{\\triangle ABD}\\cdot BC=\\frac{1}{3}\\times\\frac{1}{2}AB\\cdot BB_{1}\\cdot ",
+        "norm": "则VBACDVCABDfrac13StriangleABDcdotBCfrac13timesfrac12ABcdotBB"
+      },
+      {
+        "line": 623,
+        "status": "ABSENT",
+        "raw": "即  $ V_{B-ACD}=\\frac{1}{3} $.",
+        "norm": "即VBACDfrac13"
+      },
+      {
+        "line": 631,
+        "status": "PARTIAL",
+        "raw": "（Ⅱ）如果直线 l 与圆 O 交于 A, B 两点，且  $ \\frac{|PA|}{|PB|} = \\frac{1}{2} $，分类讨论，利用相交弦定理、勾股定理求 r 的值。",
+        "norm": "如果直线l与圆O交于AB两点且fracPAPBfrac12分类讨论利用相交弦定理勾股定理求r的值"
+      },
+      {
+        "line": 633,
+        "status": "PARTIAL",
+        "raw": "【解答】解：（Ⅰ）圆心到直线的距离  $ d = \\frac{1}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2} $， $ \\therefore r = \\frac{\\sqrt{2}}{2} $…",
+        "norm": "解答解圆心到直线的距离dfrac1sqrt2fracsqrt22thereforerfracsqrt22"
+      },
+      {
+        "line": 635,
+        "status": "ABSENT",
+        "raw": "（Ⅱ）设 $ \\left|PA\\right|=x $，则 $ \\left|PB\\right|=2x $",
+        "norm": "设leftPArightx则leftPBright2x"
+      },
+      {
+        "line": 637,
+        "status": "ABSENT",
+        "raw": "圆心到直线的距离  $ d=\\frac{\\sqrt{2}}{2} $.",
+        "norm": "圆心到直线的距离dfracsqrt22"
+      },
+      {
+        "line": 639,
+        "status": "ABSENT",
+        "raw": "①点P在圆内， $ |AB|=3x $，则 $ x\\cdot2x=(r-1)(r+1) $， $ \\therefore x^2=\\frac{1}{2}(r^2-1) $，",
+        "norm": "点P在圆内AB3x则xcdot2xr1r1thereforex2frac12r21"
+      },
+      {
+        "line": 643,
+        "status": "ABSENT",
+        "raw": "$$ \\therefore r^{2}=\\frac{9}{8}(r^{2}-1)+\\frac{1}{2},\\therefore r=\\sqrt{5}; $$",
+        "norm": "thereforer2frac98r21frac12thereforersqrt5"
+      },
+      {
+        "line": 645,
+        "status": "ABSENT",
+        "raw": "②点P在圆外，则 $ x\\cdot2x=(1-r)(r+1) $， $ \\therefore x^2=\\frac{1}{2}(1-r^2) $，",
+        "norm": "点P在圆外则xcdot2x1rr1thereforex2frac121r2"
+      },
+      {
+        "line": 647,
+        "status": "ABSENT",
+        "raw": "$ \\therefore r^2=\\frac{9}{8}(1-r^2)+\\frac{1}{2} $， $ \\therefore r=\\frac{\\sqrt{5}}{5} $；",
+        "norm": "thereforer2frac981r2frac12thereforerfracsqrt55"
+      },
+      {
+        "line": 649,
+        "status": "ABSENT",
+        "raw": "$ \\therefore r $的值为 $ \\frac{\\sqrt{5}}{5} $或 $ \\sqrt{5} $…",
+        "norm": "thereforer的值为fracsqrt55或sqrt5"
+      },
+      {
+        "line": 651,
+        "status": "ABSENT",
+        "raw": "故答案为： $ \\frac{\\sqrt{2}}{2} $。",
+        "norm": "故答案为fracsqrt22"
+      },
+      {
+        "line": 663,
+        "status": "ABSENT",
+        "raw": "【解答】解：（Ⅰ）当  $ a_1=2 $ 时， $ a_2=\\frac{2}{5} $；",
+        "norm": "解答解当a12时a2frac25"
+      },
+      {
+        "line": 667,
+        "status": "ABSENT",
+        "raw": "$$ \\because a_{n+1}=\\frac{a_{n}}{a_{n}^{2}+1}, $$",
+        "norm": "becausean1fracanan21"
+      },
+      {
+        "line": 669,
+        "status": "ABSENT",
+        "raw": "$$ \\therefore\\mathrm{a}_{\\mathrm{n}}2_{+1}=\\frac{1}{\\mathrm{q}}, $$",
+        "norm": "thereforemathrmamathrmn21frac1mathrmq"
+      },
+      {
+        "line": 671,
+        "status": "ABSENT",
+        "raw": "$\\therefore q=1$，此时$a_{n}=0$，矛盾",
+        "norm": "thereforeq1此时an0矛盾"
+      },
+      {
+        "line": 675,
+        "status": "ABSENT",
+        "raw": "（Ⅲ）n=1 时，左边=a₁，右边= $ \\frac{a_1 - a_2}{a_1 a_2} = \\frac{a_1 - \\frac{a_1}{a_1^2 + 1}}{a_1 \\cdot \\frac{a_1}{a_1^2",
+        "norm": "n1时左边a右边fraca1a2a1a2fraca1fraca1a121a1cdotfraca1a121a1成立"
+      },
+      {
+        "line": 677,
+        "status": "PARTIAL",
+        "raw": "假设 n=k 时，结论成立，则  $ S_k = \\frac{a_1 - a_{k+1}}{a_1 a_{k+1}} $，",
+        "norm": "假设nk时结论成立则Skfraca1ak1a1ak1"
+      },
+      {
+        "line": 679,
+        "status": "ABSENT",
+        "raw": "n=k+1 时，左边  $ = S_k + a_{k+1} = \\frac{a_1 - a_{k+1}}{a_1 a_{k+1}} + a_{k+1} = \\frac{a_1 - a_{k+1} + a_1 a_{k+1",
+        "norm": "nk1时左边Skak1fraca1ak1a1ak1ak1fraca1ak1a1ak12a1ak1"
+      },
+      {
+        "line": 681,
+        "status": "ABSENT",
+        "raw": "右边= $ \\frac{a_1 - a_{k+2}}{a_1 a_{k+2}} $ =  $ \\frac{a_1 - \\frac{a_{k+1}}{a_{k+1}^2 + 1}}{a_1 \\cdot \\frac{a_{k",
+        "norm": "右边fraca1ak2a1ak2fraca1fracak1ak121a1cdotfracak1ak121fraca1ak"
+      },
+      {
+        "line": 687,
+        "status": "ABSENT",
+        "raw": "综上， $ S_{n}=\\frac{a_{1}-a_{n+1}}{a_{1}a_{n+1}} $",
+        "norm": "综上Snfraca1an1a1an1"
+      },
+      {
+        "line": 689,
+        "status": "ABSENT",
+        "raw": "故答案为： $ \\frac{2}{5} $",
+        "norm": "故答案为frac25"
+      },
+      {
+        "line": 699,
+        "status": "PARTIAL",
+        "raw": "（III）对函数类型，开口方向，单调性进行讨论，令  $ f_{\\min}(x) \\geqslant 0 $ 列出不等式，根据不等式的性质得出 a+b 的范围.",
+        "norm": "III对函数类型开口方向单调性进行讨论令fminxgeqslant0列出不等式根据不等式的性质得出ab的范围"
+      },
+      {
+        "line": 701,
+        "status": "PARTIAL",
+        "raw": "【解答】解：（I）a=b=1 时， $ f(x)=2x^2+x $，令  $ f(x)=0 $，解得 x=0 或  $ x=-\\frac{1}{2} $。 $ \\therefore f(x) $ 的零点为 0， $ -\\",
+        "norm": "解答解Iab1时fx2x2x令fx0解得x0或xfrac12thereforefx的零点为0frac12"
+      },
+      {
+        "line": 703,
+        "status": "ABSENT",
+        "raw": "（II）当 b= $ \\frac{4}{3} $时，f（x）=2ax $ ^{2} $+ $ \\frac{4}{3} $x - a+1，",
+        "norm": "II当bfrac43时fx2ax2frac43xa1"
+      },
+      {
+        "line": 705,
+        "status": "ABSENT",
+        "raw": "①当 a=0 时， $ f(x)=\\frac{4}{3}x+1 $， $ f(x) $ 为 R 上的增函数， $ f\\left(-\\frac{3}{4}\\right)=0 $，∴当  $ x_0<-\\frac{3}{4}",
+        "norm": "当a0时fxfrac43x1fx为R上的增函数fleftfrac34right0当x0frac34时fx00符合题意当a"
+      },
+      {
+        "line": 707,
+        "status": "PARTIAL",
+        "raw": "③当 a>0 时，f（x）的图象开口向上，对称轴为 x=- $ \\frac{1}{3a} $，f $ _{min} $（x）=f（-  $ \\frac{1}{3a} $）=1-a- $ \\frac{2}{9a} $，",
+        "norm": "当a0时fx的图象开口向上对称轴为xfrac13afminxffrac13a1afrac29a"
+      },
+      {
+        "line": 709,
+        "status": "ABSENT",
+        "raw": "令 1-a- $ \\frac{2}{9a} $<0，解得 a> $ \\frac{2}{3} $或 0<a< $ \\frac{1}{3} $.",
+        "norm": "令1afrac29a0解得afrac23或0afrac13"
+      },
+      {
+        "line": 711,
+        "status": "ABSENT",
+        "raw": "综上，a 的取值范围是（-∞， $ \\frac{1}{3} $）∪（ $ \\frac{2}{3} $，+∞）.",
+        "norm": "综上a的取值范围是frac13frac23"
+      },
+      {
+        "line": 721,
+        "status": "PARTIAL",
+        "raw": "②若 a>0，f（x）图象开口向上，对称轴为 x=- $ \\frac{b}{4a} $，",
+        "norm": "若a0fx图象开口向上对称轴为xfracb4a"
+      },
+      {
+        "line": 723,
+        "status": "ABSENT",
+        "raw": "当  $ -\\frac{b}{4a} \\leq -1 $ 即  $ 4a - b \\leq 0 $ 时， $ f(x) $ 在  $ [-1, 1] $ 上是增函数， $ f_{\\min}(x) = f(-1) = a ",
+        "norm": "当fracb4aleq1即4ableq0时fx在11上是增函数fminxf1ab1geq0thereforebaleq1"
+      },
+      {
+        "line": 725,
+        "status": "ABSENT",
+        "raw": "由  $ \\begin{cases} 4a - b \\leq 0 \\\\ b - a \\leq 1 \\\\ a > 0 \\end{cases} $ 得  $ \\begin{cases} 0 < a \\leq \\frac{1}",
+        "norm": "由begincases4ableq0baleq1a0endcases得begincases0aleqfrac13bleq"
+      },
+      {
+        "line": 727,
+        "status": "ABSENT",
+        "raw": "当  $ -\\frac{b}{4a} \\geqslant 1 $ 即  $ 4a + b \\leqslant 0 $ 时， $ f(x) $ 在  $ [-1, 1] $ 上是减函数， $ f_{\\min}(x) = f",
+        "norm": "当fracb4ageqslant1即4ableqslant0时fx在11上是减函数fminxf1ab1geqslant0"
+      },
+      {
+        "line": 729,
+        "status": "ABSENT",
+        "raw": "由$\\begin{cases}4a+b\\leqslant0\\\\-a-b\\leqslant1\\\\a>0\\end{cases}$得$\\begin{cases}0<a\\leqslant\\frac{1}{3}\\\\-\\frac{4",
+        "norm": "由begincases4ableqslant0ableqslant1a0endcases得begincases0aleq"
+      },
+      {
+        "line": 733,
+        "status": "ABSENT",
+        "raw": "当  $ -1 < -\\frac{b}{4a} < 1 $ 即  $ -4a < b < 4a $ 时， $ f(x) $ 在  $ [-1, 1] $ 上先减后增， $ f_{\\min}(x) = f\\left(-\\f",
+        "norm": "当1fracb4a1即4ab4a时fx在11上先减后增fminxfleftfracb4arightfracb28aa1g"
+      },
+      {
+        "line": 735,
+        "status": "PARTIAL",
+        "raw": "由 -4a < b < 4a 得  $ b^2 < 16a^2 $， $ \\therefore 3a \\leq 1 $， $ \\therefore 0 < a \\leq \\frac{1}{3} $， $ \\therefo",
+        "norm": "由4ab4a得b216a2therefore3aleq1therefore0aleqfrac13thereforeab5"
+      },
+      {
+        "line": 737,
+        "status": "PARTIAL",
+        "raw": "③若 a<0，f（x）图象开口向下，对称轴为 x=- $ \\frac{b}{4a} $，",
+        "norm": "若a0fx图象开口向下对称轴为xfracb4a"
+      },
+      {
+        "line": 739,
+        "status": "ABSENT",
+        "raw": "当  $ -\\frac{b}{4a} \\leqslant -1 $ 即  $ 4a - b \\geqslant 0 $ 时， $ f(x) $ 在  $ [-1, 1] $ 上是减函数， $ f_{\\min}(x) = ",
+        "norm": "当fracb4aleqslant1即4abgeqslant0时fx在11上是减函数fminxf1ab1geqslant0"
+      },
+      {
+        "line": 741,
+        "status": "ABSENT",
+        "raw": "由$\\begin{cases}4a-b\\geqslant0\\\\a+b\\geqslant-1\\\\a<0\\end{cases}$得$-\\frac{1}{5}\\leqslant a<0$，又$\\because b\\leqsla",
+        "norm": "由begincases4abgeqslant0abgeqslant1a0endcases得frac15leqslanta"
+      },
+      {
+        "line": 743,
+        "status": "ABSENT",
+        "raw": "当  $ -\\frac{b}{4a} \\geqslant 1 $ 即  $ 4a + b \\geqslant 0 $ 时， $ f(x) $ 在  $ [-1, 1] $ 上是增函数， $ f_{\\min}(x) = f",
+        "norm": "当fracb4ageqslant1即4abgeqslant0时fx在11上是增函数fminxf1ab1geqslant0"
+      },
+      {
+        "line": 745,
+        "status": "ABSENT",
+        "raw": "当 $ -1 < -\\frac{b}{4a} < 1 $即 $ 4a < b < -4a $时， $ f(x) $在 $ [-1,1] $上先增后减，",
+        "norm": "当1fracb4a1即4ab4a时fx在11上先增后减"
+      },
+      {
+        "line": 749,
+        "status": "ABSENT",
+        "raw": "综上，a+b 的最大值为  $ \\frac{5}{3} $.",
+        "norm": "综上ab的最大值为frac53"
+      }
+    ],
+    "md_lines": 749
+  },
+  "历史": {
+    "findings": [
+      {
+        "line": 9,
+        "status": "ABSENT",
+        "raw": "1. 甲骨文中的“封”字写作“卍”，“邦”字写作“礻”，意为植树为帜，划定疆界。该文字反映的中国古代政治制度是",
+        "norm": "1甲骨文中的封字写作卍邦字写作礻意为植树为帜划定疆界该文字反映的中国古代政治制度是"
+      },
+      {
+        "line": 15,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京夏季高中会考历史（教师版）(1)/img_in_image_box_108_524_630_731",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京夏季高中会考历史教师版1imginimag"
+      },
+      {
+        "line": 74,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京夏季高中会考历史（教师版）(1)/img_in_image_box_106_460_443_670",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京夏季高中会考历史教师版1imginimag"
+      },
+      {
+        "line": 91,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京夏季高中会考历史（教师版）(1)/img_in_image_box_111_936_553_121",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京夏季高中会考历史教师版1imginimag"
+      },
+      {
+        "line": 154,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京夏季高中会考历史（教师版）(1)/img_in_image_box_111_1125_857_12",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京夏季高中会考历史教师版1imginimag"
+      },
+      {
+        "line": 183,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京夏季高中会考历史（教师版）(1)/img_in_image_box_107_295_324_594",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京夏季高中会考历史教师版1imginimag"
+      },
+      {
+        "line": 267,
+        "status": "ABSENT",
+        "raw": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: bre",
+        "norm": "tableborder1stylemarginautowordwrapbreakwordtrtdstyletextali"
+      },
+      {
+        "line": 376,
+        "status": "ABSENT",
+        "raw": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: bre",
+        "norm": "tableborder1stylemarginautowordwrapbreakwordtrtdstyletextali"
+      },
+      {
+        "line": 416,
+        "status": "PARTIAL",
+        "raw": "40\\. 黄宗羲指出 “古者以天下为主，君为客。凡君之所毕世而经营者，为天下也；今也以君主为主，天下为客。凡天下无地而得安宁者，为君也。” 反映的核心思想是",
+        "norm": "40黄宗羲指出古者以天下为主君为客凡君之所毕世而经营者为天下也今也以君主为主天下为客凡天下无地而得安宁者为君也反映的核心"
+      },
+      {
+        "line": 547,
+        "status": "ABSENT",
+        "raw": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: bre",
+        "norm": "tableborder1stylemarginautowordwrapbreakwordtrtdstyletextali"
+      },
+      {
+        "line": 552,
+        "status": "ABSENT",
+        "raw": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td rowspan=\"2\"></td><td style='text-align: c",
+        "norm": "tableborder1stylemarginautowordwrapbreakwordtrtdrowspan2tdtd"
+      },
+      {
+        "line": 558,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京夏季高中会考历史（教师版）(1)/img_in_image_box_153_732_385_106",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京夏季高中会考历史教师版1imginimag"
+      },
+      {
+        "line": 561,
+        "status": "ABSENT",
+        "raw": "3月23日，宪法起草委员会举行第一次会议。会后，在北京和全国各大城市组织各民主党派、各人民团体和社会各方面的代表人物共8000人，用两个多月的时间对这个初稿进行了认真的讨论。6月14日，中央人民政府委员会举行第三十次会议",
+        "norm": "3月23日宪法起草委员会举行第一次会议会后在北京和全国各大城市组织各民主党派各人民团体和社会各方面的代表人物共8000人"
+      },
+      {
+        "line": 563,
+        "status": "ABSENT",
+        "raw": "——刘政《人民代表大会制度的历史足迹》",
+        "norm": "刘政人民代表大会制度的历史足迹"
+      },
+      {
+        "line": 565,
+        "status": "ABSENT",
+        "raw": "1954年发行的邮票",
+        "norm": "1954年发行的邮票"
+      },
+      {
+        "line": 582,
+        "status": "ABSENT",
+        "raw": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: bre",
+        "norm": "tableborder1stylemarginautowordwrapbreakwordtrtdstyletextali"
+      },
+      {
+        "line": 602,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京夏季高中会考历史（教师版）(1)/img_in_image_box_155_913_396_118",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京夏季高中会考历史教师版1imginimag"
+      },
+      {
+        "line": 605,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\">图 A 京师同文馆旧址</div>",
+        "norm": "divstyletextaligncenter图A京师同文馆旧址div"
+      },
+      {
+        "line": 608,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京夏季高中会考历史（教师版）(1)/img_in_image_box_399_920_837_118",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京夏季高中会考历史教师版1imginimag"
+      },
+      {
+        "line": 611,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\">图 B 北京大学旧址</div>",
+        "norm": "divstyletextaligncenter图B北京大学旧址div"
+      },
+      {
+        "line": 618,
+        "status": "ABSENT",
+        "raw": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京夏季高中会考历史（教师版）(1)/img_in_image_box_152_91_440_342.",
+        "norm": "divstyletextaligncenterimgsrcimgs2018北京夏季高中会考历史教师版1imginimag"
+      },
+      {
+        "line": 621,
+        "status": "ABSENT",
+        "raw": "我们国家，国力的强弱、经济发展后劲的大小，越来越取决于劳动者的素质，取决于知识分子的数量和质量。一个十亿人口的大国，教育搞上去了，人才资源的巨大优势是任何国家比不了的。",
+        "norm": "我们国家国力的强弱经济发展后劲的大小越来越取决于劳动者的素质取决于知识分子的数量和质量一个十亿人口的大国教育搞上去了人才"
+      },
+      {
+        "line": 623,
+        "status": "ABSENT",
+        "raw": "1977年冬天的高考考场",
+        "norm": "1977年冬天的高考考场"
+      },
+      {
+        "line": 625,
+        "status": "ABSENT",
+        "raw": "——邓小平《把教育工作认真抓起来》（1985年）",
+        "norm": "邓小平把教育工作认真抓起来1985年"
+      },
+      {
+        "line": 773,
+        "status": "PARTIAL",
+        "raw": "【详解】垦耕、耙劳、播种、锄治、粪壤、灌溉、收获等活动体现我国农业精耕细作的特点，故 B 正确；材料信息无法体现男耕女织，排除 A；因地制宜指根据土地肥瘠合理耕种，不符合题意，排除 C；材料无法注重农时，排除 D。",
+        "norm": "详解垦耕耙劳播种锄治粪壤灌溉收获等活动体现我国农业精耕细作的特点故B正确材料信息无法体现男耕女织排除A因地制宜指根据土地"
+      },
+      {
+        "line": 989,
+        "status": "PARTIAL",
+        "raw": "51. 【答案】（1）特点：国家大政由政事堂集体讨论决定，宰相之间相互牵制，皇帝和宰相都不能单独裁决。",
+        "norm": "51答案1特点国家大政由政事堂集体讨论决定宰相之间相互牵制皇帝和宰相都不能单独裁决"
+      }
+    ],
+    "md_lines": 1045
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "captured_at": "2026-10-02T06:11:48.632924+00:00",
+  "resolved_n": 11,
+  "units": [
+    {
+      "unit_id": "U51",
+      "document_id": "326c739a-de25-4f2e-9d89-9e468008ef1b",
+      "source_version_id": "0942fabb-4ab2-43a3-b163-5407244366ce",
+      "file_name": "2018北京夏季高中会考历史（教师版）(1).md",
+      "material_lines": [
+        536,
+        567
+      ],
+      "n_content_lines_inclusive": 32,
+      "start_marker_text": "51\\. 制度建设是国家治理的重要内容。回答下列问题。",
+      "end_marker_text": "（3）依据材料指出20世纪50年代我国民主政治制度建设的重大成果，并简要分析其历史意义。",
+      "start_line_ref": "P1L536",
+      "end_line_ref": "P1L567",
+      "start_seq": 535,
+      "end_seq": 566,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "exact",
+      "material_span_reason": "span=sp-U51.material status=exact",
+      "failure_taxonomy": "RESOLVED",
+      "other_ir_blockers": [
+        "stem:missing",
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U10-12",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        70,
+        72
+      ],
+      "n_content_lines_inclusive": 3,
+      "start_marker_text": "当地时间2016年11月14日，新西兰南岛发生了7.5级地震，震源深度15千米。",
+      "end_marker_text": "读图2，完成10-12题。",
+      "start_line_ref": "P1L070",
+      "end_line_ref": "P1L072",
+      "start_seq": 69,
+      "end_seq": 71,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "exact",
+      "material_span_reason": "span=sp-U10-12.material status=exact",
+      "failure_taxonomy": "RESOLVED",
+      "other_ir_blockers": [
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U13-15",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        97,
+        99
+      ],
+      "n_content_lines_inclusive": 3,
+      "start_marker_text": "1519 年至 1522 年，麦哲伦船队实现了人类首次环球航行。读图 3 “麦哲伦船队环球航行局部路线",
+      "end_marker_text": "图”，完成13—15题。",
+      "start_line_ref": "P1L097",
+      "end_line_ref": "P1L099",
+      "start_seq": 96,
+      "end_seq": 98,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "exact",
+      "material_span_reason": "span=sp-U13-15.material status=exact",
+      "failure_taxonomy": "RESOLVED",
+      "other_ir_blockers": [
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U21-23",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        169,
+        174
+      ],
+      "n_content_lines_inclusive": 6,
+      "start_marker_text": "A. ①—变质作用 B. ②—重熔再生 C. ③—沉积作用 D. ④—固结成岩 读表1完成21～23题。",
+      "end_marker_text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>",
+      "start_line_ref": "P1L169",
+      "end_line_ref": "P1L174",
+      "start_seq": 168,
+      "end_seq": 173,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "exact",
+      "material_span_reason": "span=sp-U21-23.material status=exact",
+      "failure_taxonomy": "RESOLVED",
+      "other_ir_blockers": [
+        "stem:missing",
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U-P2-1",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        456,
+        467
+      ],
+      "n_content_lines_inclusive": 12,
+      "start_marker_text": "1. 读图 12 “地球公转示意图”，图 13 “北京市某校学生 11 月初观测正午太阳高度照片”，回答下列问题。（10 分）",
+      "end_marker_text": "<div style=\"text-align: center;\">图 13</div>",
+      "start_line_ref": "P1L456",
+      "end_line_ref": "P1L467",
+      "start_seq": 455,
+      "end_seq": 466,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "exact",
+      "material_span_reason": "span=sp-U-P2-1.material status=exact",
+      "failure_taxonomy": "RESOLVED",
+      "other_ir_blockers": [
+        "stem:missing",
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U-P2-2",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        484,
+        506
+      ],
+      "n_content_lines_inclusive": 23,
+      "start_marker_text": "2. 读图 14 “2017 年 10 月 27 日 20 时亚洲部分地区海平面等压线分布图（单位：百帕）”和资料。(10分)",
+      "end_marker_text": "观点2：治理雾霾会促进经济发展。",
+      "start_line_ref": "P1L484",
+      "end_line_ref": "P1L506",
+      "start_seq": 483,
+      "end_seq": 505,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "exact",
+      "material_span_reason": "span=sp-U-P2-2.material status=exact",
+      "failure_taxonomy": "RESOLVED",
+      "other_ir_blockers": [
+        "stem:missing",
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U-P2-3",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        518,
+        532
+      ],
+      "n_content_lines_inclusive": 15,
+      "start_marker_text": "3. 读图 15 “江西省赣州市地图”，图 16 “脐橙种植园景观图” 和资料，回答下列问题。(10 分)",
+      "end_marker_text": "资料：江西省赣州市素有“世界钨都”、“稀土王国”美誉。由于多年的矿山开采，导致严重的环境问题，大量坡地称为寸草不生的稀土尾砂地。近年来，赣州市实施了流域水环境保护与整治、矿山环境修复、水土流失治理等生态建设工程，打造水林田湖综合治理样板区。",
+      "start_line_ref": "P1L518",
+      "end_line_ref": "P1L532",
+      "start_seq": 517,
+      "end_seq": 531,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "exact",
+      "material_span_reason": "span=sp-U-P2-3.material status=exact",
+      "failure_taxonomy": "RESOLVED",
+      "other_ir_blockers": [
+        "stem:missing",
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U-P2-4",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        544,
+        548
+      ],
+      "n_content_lines_inclusive": 5,
+      "start_marker_text": "4. 读图 17 “北京新机场五纵两横交通网示意图” 和资料。回答下列问题。(10 分)",
+      "end_marker_text": "交界处。北京市与河北省将共同投资超过2000亿元建设北京新机场的临空经济区，带来约十万个就业岗位。新机场临空经济区（北京区域）主要发展高端临空服务、跨境电子商务、国际性展览展示等产业；新机场临空经济区（廊坊区域）主要发展航空物流、航空器研发",
+      "start_line_ref": "P1L544",
+      "end_line_ref": "P1L548",
+      "start_seq": 543,
+      "end_seq": 547,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "exact",
+      "material_span_reason": "span=sp-U-P2-4.material status=exact",
+      "failure_taxonomy": "RESOLVED",
+      "other_ir_blockers": [
+        "stem:missing",
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U-P2-5",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        570,
+        575
+      ],
+      "n_content_lines_inclusive": 6,
+      "start_marker_text": "5. 北京市某中学组织参观 “砥砺奋进的五年” 大型成就展，图 18. 为某同学拍摄的秸秆等物质利用示意图，读图 18，回答下列问题。(10 分)",
+      "end_marker_text": "<div style=\"text-align: center;\">图 18</div>",
+      "start_line_ref": "P1L570",
+      "end_line_ref": "P1L575",
+      "start_seq": 569,
+      "end_seq": 574,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "exact",
+      "material_span_reason": "span=sp-U-P2-5.material status=exact",
+      "failure_taxonomy": "RESOLVED",
+      "other_ir_blockers": [
+        "stem:missing",
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U9-11",
+      "document_id": "15cb84a2-9231-429d-bae8-ed67f15cbb1d",
+      "source_version_id": "f842285c-328b-4f08-9994-6000e1165c75",
+      "file_name": "2018北京春季高中会考物理（教师版）(1).md",
+      "material_lines": [
+        101,
+        108
+      ],
+      "n_content_lines_inclusive": 8,
+      "start_marker_text": "## 请阅读下述文字，完成第9题、第10题、第11题",
+      "end_marker_text": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考物理（教师版）(1)/img_in_chart_box_868_572_1079_743.jpg\" alt",
+      "start_line_ref": "P1L101",
+      "end_line_ref": "P1L108",
+      "start_seq": 100,
+      "end_seq": 107,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "exact",
+      "material_span_reason": "span=sp-U9-11.material status=exact",
+      "failure_taxonomy": "RESOLVED",
+      "other_ir_blockers": [
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U1-5",
+      "document_id": "6ecd4e6f-b88d-4be4-a6ea-42bfe1185341",
+      "source_version_id": "b155783e-7c29-4b9f-a03f-dcaa1e1e6bcb",
+      "file_name": "2018北京春季高中会考语文（教师版）(1).md",
+      "material_lines": [
+        12,
+        16
+      ],
+      "n_content_lines_inclusive": 5,
+      "start_marker_text": "阅读《赤壁赋》（节选），完成1-5题。",
+      "end_marker_text": "苏子曰：“客亦知夫水与月乎？逝者如斯，而未尝往也；盈虚者如彼，而卒莫消长也。盖将自其变者而观之，则天地曾不能以一瞬；自其不变者而观之，则物与我皆无尽也。而又何羡乎！且夫天地之间， $ \\underline{\\text{物各有主，苟非吾之所有",
+      "start_line_ref": "P1L012",
+      "end_line_ref": "P1L016",
+      "start_seq": 11,
+      "end_seq": 15,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "exact",
+      "material_span_reason": "span=sp-U1-5.material status=exact",
+      "failure_taxonomy": "RESOLVED",
+      "other_ir_blockers": [
+        "stem:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    }
+  ],
+  "contrast_note": "resolved units tend to have longer unique marker text / unique line text; see match counts"
+}

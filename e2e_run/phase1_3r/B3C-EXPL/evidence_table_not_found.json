@@ -1,0 +1,157 @@
+{
+  "rows": [
+    {
+      "unit_id": "U16-17",
+      "question_numbers": [
+        16,
+        17
+      ],
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "material_lines": [
+        133,
+        133
+      ],
+      "questions_lines": [
+        133,
+        141
+      ],
+      "material_line_text": "北京市从 2017 年 12 月开始对洗车等高耗水行业征收水资源税。据此完成 16~17 题。16. 北京市水资源利用方面的主要问题是",
+      "occurrences": [
+        [
+          "in_line",
+          133,
+          "北京市从 2017 年 12 月开始对洗车等高耗水行业征收水资源税。据此完成 16~17 题。16. 北京市水资源利用方面的主要问题是"
+        ]
+      ],
+      "classification": "SOURCE IDENTITY PRESENT, mid-line only -> unparsed"
+    },
+    {
+      "unit_id": "U26-29",
+      "question_numbers": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "material_lines": [
+        222,
+        222
+      ],
+      "questions_lines": [
+        222,
+        258
+      ],
+      "material_line_text": "2017年9月，中共中央国务院发布关于对《北京城市总体规划（2016年—2035年）》的批复，提出首都功能更加优化、深入推进京津冀协同发展等发展目标。读图7“京津冀区域空间格局示意图”，完成26－2926.优化首都功能应采取的措施是",
+      "occurrences": [],
+      "classification": "GENUINELY ABSENT from source"
+    },
+    {
+      "unit_id": "U-P2-1",
+      "question_numbers": [
+        51
+      ],
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report",
+      "material_lines": [
+        456,
+        467
+      ],
+      "questions_lines": [
+        456,
+        482
+      ],
+      "material_line_text": "1. 读图 12 “地球公转示意图”，图 13 “北京市某校学生 11 月初观测正午太阳高度照片”，回答下列问题。（10 分）",
+      "occurrences": [],
+      "classification": "GENUINELY ABSENT from source"
+    },
+    {
+      "unit_id": "U-P2-2",
+      "question_numbers": [
+        52
+      ],
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "migration_report",
+      "material_lines": [
+        484,
+        506
+      ],
+      "questions_lines": [
+        484,
+        516
+      ],
+      "material_line_text": "2. 读图 14 “2017 年 10 月 27 日 20 时亚洲部分地区海平面等压线分布图（单位：百帕）”和资料。(10分)",
+      "occurrences": [],
+      "classification": "GENUINELY ABSENT from source"
+    },
+    {
+      "unit_id": "U-P2-3",
+      "question_numbers": [
+        53
+      ],
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "migration_report",
+      "material_lines": [
+        518,
+        532
+      ],
+      "questions_lines": [
+        518,
+        540
+      ],
+      "material_line_text": "3. 读图 15 “江西省赣州市地图”，图 16 “脐橙种植园景观图” 和资料，回答下列问题。(10 分)",
+      "occurrences": [],
+      "classification": "GENUINELY ABSENT from source"
+    },
+    {
+      "unit_id": "U-P2-4",
+      "question_numbers": [
+        54
+      ],
+      "printed_number": [
+        4
+      ],
+      "printed_provenance": "migration_report",
+      "material_lines": [
+        544,
+        548
+      ],
+      "questions_lines": [
+        544,
+        568
+      ],
+      "material_line_text": "4. 读图 17 “北京新机场五纵两横交通网示意图” 和资料。回答下列问题。(10 分)",
+      "occurrences": [],
+      "classification": "GENUINELY ABSENT from source"
+    },
+    {
+      "unit_id": "U-P2-5",
+      "question_numbers": [
+        55
+      ],
+      "printed_number": [
+        5
+      ],
+      "printed_provenance": "migration_report",
+      "material_lines": [
+        570,
+        575
+      ],
+      "questions_lines": [
+        570,
+        590
+      ],
+      "material_line_text": "5. 北京市某中学组织参观 “砥砺奋进的五年” 大型成就展，图 18. 为某同学拍摄的秸秆等物质利用示意图，读图 18，回答下列问题。(10 分)",
+      "occurrences": [],
+      "classification": "GENUINELY ABSENT from source"
+    }
+  ]
+}

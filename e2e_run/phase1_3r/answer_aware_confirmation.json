@@ -1,0 +1,109 @@
+{
+  "experiment": "answer-aware confirmation (Q9-11/Q12-14/Q21-25)",
+  "production_code_modified": false,
+  "db_modified": false,
+  "producer_modified": false,
+  "ran_full_regression": false,
+  "units": [
+    {
+      "unit_id": "Q9-11",
+      "declared_answer_lines": [
+        451,
+        451
+      ],
+      "declared_material_lines": [
+        538,
+        541
+      ],
+      "current_answer_spans": [],
+      "current_material_spans": [],
+      "unresolved_answer": [
+        {
+          "ref": "Q9-11.sub.answer",
+          "status": "missing",
+          "evidence": [
+            "answer row qn=9 not found"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "Q12-14",
+      "declared_answer_lines": [
+        451,
+        451
+      ],
+      "declared_material_lines": [
+        543,
+        561
+      ],
+      "current_answer_spans": [
+        {
+          "span_id": "sp-Q12-14.sub.answer",
+          "line_numbers": [
+            593
+          ],
+          "texts": [
+            {
+              "line": 593,
+              "text": "M: 5 days, from March, 7 to 12."
+            }
+          ]
+        }
+      ],
+      "current_material_spans": [],
+      "unresolved_answer": []
+    },
+    {
+      "unit_id": "Q21-25",
+      "declared_answer_lines": [
+        455,
+        455
+      ],
+      "declared_material_lines": [
+        586,
+        610
+      ],
+      "current_answer_spans": [
+        {
+          "span_id": "sp-Q21-25.sub.answer",
+          "line_numbers": [
+            455
+          ],
+          "texts": [
+            {
+              "line": 455,
+              "text": "21.Grady 22.61295 23.white 24.March 25.airport"
+            }
+          ]
+        }
+      ],
+      "current_material_spans": [],
+      "unresolved_answer": [],
+      "cross_checks": [
+        {
+          "check": "Q21-25 trimmed material vs Q12-14 answer span",
+          "material": [
+            586,
+            610
+          ],
+          "answer_span_id": "sp-Q12-14.sub.answer",
+          "answer_range": [
+            593,
+            593
+          ],
+          "answer_lines": [
+            593
+          ],
+          "answer_texts": [
+            {
+              "line": 593,
+              "text": "M: 5 days, from March, 7 to 12."
+            }
+          ],
+          "intersect": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "locks_after_annotation": {
+    "viewer_data_raw.json": "1c2fce64e2e580258e7c6c70a1aeca40ee66eb18f1bf4035ae5fb9ad1c1a0835",
+    "data.js": "258101cb91fd338a934730f968e451b3bd0afd9dc884d01ab80007ac4ea6622d"
+  },
+  "raw_v3": {
+    "viewer_data_raw.json": "edd98e72110fb64a3b5e93e7061f045e9cc366dcc73c332a72e89fed380536cc",
+    "data.js": "b60ec75743322fbfb1dacc17ba9ffec37c0992a377045b76ff1c2ced23fce820",
+    "05_V3_OUTPUT/数学.v3.json": "1c8553620b58ba95ed782ee8c2e40e24da79614d553eed652852880a3bbbac8f",
+    "05_V3_OUTPUT/物理.v3.json": "71e53c3ce910e7e13bb9a1cf9539cf530fc4ba1d607527cd218c6722a073d046",
+    "05_V3_OUTPUT/化学.v3.json": "096dda54902528de8b974d5d32dfc444efde6b6383deefa9bf628a0420cddef0",
+    "05_V3_OUTPUT/英语.v3.json": "5d2389073264b4d51d84af96e75ab801374112050194a8ff4cc4e656bb97cd0d",
+    "05_V3_OUTPUT/语文.v3.json": "592aa267eb7b92f9f2bd45f420d1d45eb25d2caccd9012d2db897dd8cd2df4fb",
+    "05_V3_OUTPUT/政治.v3.json": "3e5da6a175fb1f92b6be97c77b8e5267408c83a561aac27f096e30bcd3b3f388",
+    "05_V3_OUTPUT/地理.v3.json": "eb93ae6e6c786a2c1d6c075cb3862a7772f05b91d708ca56e52c8b8f27207e2a",
+    "05_V3_OUTPUT/历史.v3.json": "3e9f2b7c318c4e0c4663f30ffdcecfbb8359598497ef22e11bf4f5b949e98491",
+    "05_V3_OUTPUT/生物.v3.json": "078407e2f809eb3667d6fe33b627bdd5648840afb59487005a3e9ce64412607e"
+  },
+  "policy": "read-only evidence; renderer must not mutate"
+}

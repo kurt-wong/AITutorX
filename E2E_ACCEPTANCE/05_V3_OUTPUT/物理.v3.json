@@ -1,0 +1,226 @@
+{
+  "ir_ready": 21,
+  "ir_incomplete": 1,
+  "gate_auto": 13,
+  "gate_pending": 8,
+  "gate_rejected": 1,
+  "n_units": 22,
+  "n_questions_tracked": 22,
+  "questions": [
+    {
+      "unit_id": "Q1",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "D",
+      "answer_preview": "D",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "1\\. 下列物理量中，属于矢量的是\n"
+    },
+    {
+      "unit_id": "Q2",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "2. 如图 1 所示，书本放置在课桌上，力 F 为桌面对书本的支持力，则 F 的反作用力是\n"
+    },
+    {
+      "unit_id": "Q3",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "A",
+      "answer_preview": "A",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "3.铜是良好的导电材料。在一段通电铜导线内，定向移动形成电流的微粒是\n"
+    },
+    {
+      "unit_id": "Q4",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "D",
+      "answer_preview": "D",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "4. 如图2所示，小孩从滑梯上滑下。忽略空气阻力，小孩在匀速下滑时\n"
+    },
+    {
+      "unit_id": "Q5",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "5. LED 灯可将电能高效转化为光能，在日常生活中得到普遍应用。某 LED 灯的额定功率为 10W, 它以额定功率工作 1min 消耗的电能为\n"
+    },
+    {
+      "unit_id": "Q6",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "B",
+      "answer_preview": "B",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "6.如图3所示，物体受到两个相互垂直的共点力F1和F2的作用，其大小分别为30N和40N,它们合力的大小为\n\n\n\n<div style=\"text-align: center;\"><img src=\""
+    },
+    {
+      "unit_id": "Q7",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "7. 在图4所示的电路中，电阻 R=5.0 $ \\Omega $，电源的内阻 r=1.0 $ \\Omega $，不计电流表的内阻。闭合开关 S 后，电流表的示数 I=0.50A，则电源的电动势 E 等"
+    },
+    {
+      "unit_id": "Q8",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "D",
+      "answer_preview": "D",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "8.如图5所示,小球从竖直放置的轻弹簧正上方自由下落。在小球接触弹簧到弹簧被压缩到最短的过程中,小球的动能\n"
+    },
+    {
+      "unit_id": "U9-11",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "9.在  $ 0 \\sim t_{1} $ 时间内，雨滴运动的速度\n"
+    },
+    {
+      "unit_id": "U12-14",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "A",
+      "answer_preview": "A",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "12. 关于  $ E_{a} $、 $ E_{b} $、 $ E_{c} $ 的比较，下列说法中正确的是\n"
+    },
+    {
+      "unit_id": "Q15",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "15. 小明在社会实践时发现一口深井。为了估测井口到水面的距离，小明将一小石块从井口由静止释放，同时利用智能手机开始计时，经过  $ 2.0 ~s $ 听到石块击水的声音。已知当地的重力加速度大小为 "
+    },
+    {
+      "unit_id": "Q16",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q17",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "B",
+      "answer_preview": "B",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "17. 小明家住在第16层。他放学后，乘坐竖直电梯从第1层直达第16层。假设电梯刚起动时做加速运动，中间一段时间内做匀速运动，最后一段时间内做减速运动。在电梯上升过程中，下列说法中正确的是\n"
+    },
+    {
+      "unit_id": "U18-20",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "D",
+      "answer_preview": "D",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "18. 在时间 t 内，物体运动的加速度等于\n"
+    },
+    {
+      "unit_id": "Q21",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text",
+      "verify": null,
+      "gate": "pending_review",
+      "n_options": 0,
+      "stem_preview": "21.如图10所示，一带正电的导体球M放在绝缘支架上，把系在绝缘丝线上的带电小球N挂在横杆上。当小球N静止时，丝线与竖直方向成 $ \\theta $角，由此推断小球N带___电荷（选填“正”或“负”）"
+    }
+  ]
+}

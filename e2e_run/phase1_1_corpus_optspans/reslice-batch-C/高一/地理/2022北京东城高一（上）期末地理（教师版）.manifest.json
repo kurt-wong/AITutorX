@@ -1,0 +1,865 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\高一\\地理\\2022北京东城高一（上）期末地理（教师版）.md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.1",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "U1-2",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        1,
+        2
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        7,
+        7
+      ],
+      "questions_lines": [
+        7,
+        15
+      ],
+      "answer_lines": [
+        457,
+        457
+      ],
+      "explanation_lines": [
+        459,
+        469
+      ],
+      "section_ref": "S2",
+      "section": "一、 非选择题",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U3-4",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        3,
+        4
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        17,
+        28
+      ],
+      "questions_lines": [
+        17,
+        48
+      ],
+      "answer_lines": [
+        471,
+        501
+      ],
+      "explanation_lines": [
+        503,
+        513
+      ],
+      "section_ref": "S2",
+      "section": "一、 非选择题",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U5-8",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        50,
+        54
+      ],
+      "questions_lines": [
+        50,
+        77
+      ],
+      "answer_lines": [
+        515,
+        544
+      ],
+      "explanation_lines": [
+        546,
+        564
+      ],
+      "section_ref": "S2",
+      "section": "一、 非选择题",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U9-11",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        9,
+        10,
+        11
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        79,
+        83
+      ],
+      "questions_lines": [
+        79,
+        108
+      ],
+      "answer_lines": [
+        566,
+        597
+      ],
+      "explanation_lines": [
+        599,
+        615
+      ],
+      "section_ref": "S2",
+      "section": "一、 非选择题",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U12-13",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        12,
+        13
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        110,
+        118
+      ],
+      "questions_lines": [
+        110,
+        132
+      ],
+      "answer_lines": [
+        617,
+        639
+      ],
+      "explanation_lines": [
+        643,
+        655
+      ],
+      "section_ref": "S2",
+      "section": "一、 非选择题",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U14-15",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        14,
+        15
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        134,
+        138
+      ],
+      "questions_lines": [
+        134,
+        181
+      ],
+      "answer_lines": [
+        657,
+        710
+      ],
+      "explanation_lines": [
+        712,
+        720
+      ],
+      "section_ref": "S2",
+      "section": "一、 非选择题",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U16-17",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        16,
+        17
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        183,
+        185
+      ],
+      "questions_lines": [
+        183,
+        202
+      ],
+      "answer_lines": [
+        722,
+        743
+      ],
+      "explanation_lines": [
+        745,
+        755
+      ],
+      "section_ref": "S2",
+      "section": "一、 非选择题",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U18-20",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        18,
+        19,
+        20
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        204,
+        214
+      ],
+      "questions_lines": [
+        204,
+        244
+      ],
+      "answer_lines": [
+        757,
+        797
+      ],
+      "explanation_lines": [
+        799,
+        815
+      ],
+      "section_ref": "S2",
+      "section": "一、 非选择题",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U21-23",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        21,
+        22,
+        23
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        246,
+        250
+      ],
+      "questions_lines": [
+        246,
+        275
+      ],
+      "answer_lines": [
+        817,
+        846
+      ],
+      "explanation_lines": [
+        848,
+        864
+      ],
+      "section_ref": "S2",
+      "section": "一、 非选择题",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U24-25",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        24,
+        25
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        277,
+        281
+      ],
+      "questions_lines": [
+        277,
+        290
+      ],
+      "answer_lines": [
+        866,
+        881
+      ],
+      "explanation_lines": [
+        883,
+        893
+      ],
+      "section_ref": "S2",
+      "section": "一、 非选择题",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U26-27",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        26,
+        27
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        292,
+        294
+      ],
+      "questions_lines": [
+        292,
+        317
+      ],
+      "answer_lines": [
+        895,
+        922
+      ],
+      "explanation_lines": [
+        924,
+        936
+      ],
+      "section_ref": "S2",
+      "section": "一、 非选择题",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U28-30",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        28,
+        29,
+        30
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        319,
+        319
+      ],
+      "questions_lines": [
+        319,
+        333
+      ],
+      "answer_lines": [
+        958,
+        958
+      ],
+      "explanation_lines": [
+        960,
+        974
+      ],
+      "section_ref": "S2",
+      "section": "一、 非选择题",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U31",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        31
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        337,
+        345
+      ],
+      "questions_lines": [
+        337,
+        365
+      ],
+      "answer_lines": [
+        978,
+        1017
+      ],
+      "explanation_lines": [
+        1019,
+        1043
+      ],
+      "section_ref": "S3",
+      "section": "二、 非选择题",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U32",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        32
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        367,
+        383
+      ],
+      "questions_lines": [
+        367,
+        391
+      ],
+      "answer_lines": [
+        1045,
+        1073
+      ],
+      "explanation_lines": [
+        1075,
+        1089
+      ],
+      "section_ref": "S3",
+      "section": "二、 非选择题",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U33",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        33
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        393,
+        406
+      ],
+      "questions_lines": [
+        393,
+        411
+      ],
+      "answer_lines": [
+        1091,
+        1115
+      ],
+      "explanation_lines": [
+        1117,
+        1133
+      ],
+      "section_ref": "S3",
+      "section": "二、 非选择题",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U34",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        34
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        413,
+        422
+      ],
+      "questions_lines": [
+        413,
+        439
+      ],
+      "answer_lines": [
+        1135,
+        1169
+      ],
+      "explanation_lines": [
+        1171,
+        1188
+      ],
+      "section_ref": "S4",
+      "section": "34 阅读材料，回答问题",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2022 北京东城高一（上）期末",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "地 理",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 4,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "一、 非选择题",
+      "ordinal": 3,
+      "start_line": 5,
+      "end_line": 334,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "二、 非选择题",
+      "ordinal": 4,
+      "start_line": 335,
+      "end_line": 412,
+      "occurrence": 1
+    },
+    {
+      "id": "S4",
+      "title": "34 阅读材料，回答问题",
+      "ordinal": 5,
+      "start_line": 413,
+      "end_line": 444,
+      "occurrence": 1
+    },
+    {
+      "id": "S5",
+      "title": "一、 非选择题",
+      "ordinal": 6,
+      "start_line": 445,
+      "end_line": 504,
+      "occurrence": 2
+    },
+    {
+      "id": "S6",
+      "title": "【3题详解】",
+      "ordinal": 7,
+      "start_line": 505,
+      "end_line": 508,
+      "occurrence": 1
+    },
+    {
+      "id": "S7",
+      "title": "【4题详解】",
+      "ordinal": 8,
+      "start_line": 509,
+      "end_line": 547,
+      "occurrence": 1
+    },
+    {
+      "id": "S8",
+      "title": "【5题详解】",
+      "ordinal": 9,
+      "start_line": 548,
+      "end_line": 551,
+      "occurrence": 1
+    },
+    {
+      "id": "S9",
+      "title": "【6题详解】",
+      "ordinal": 10,
+      "start_line": 552,
+      "end_line": 555,
+      "occurrence": 1
+    },
+    {
+      "id": "S10",
+      "title": "【7题详解】",
+      "ordinal": 11,
+      "start_line": 556,
+      "end_line": 559,
+      "occurrence": 1
+    },
+    {
+      "id": "S11",
+      "title": "【8题详解】",
+      "ordinal": 12,
+      "start_line": 560,
+      "end_line": 610,
+      "occurrence": 1
+    },
+    {
+      "id": "S12",
+      "title": "【11题详解】",
+      "ordinal": 13,
+      "start_line": 611,
+      "end_line": 644,
+      "occurrence": 1
+    },
+    {
+      "id": "S13",
+      "title": "【分析】",
+      "ordinal": 14,
+      "start_line": 645,
+      "end_line": 646,
+      "occurrence": 1
+    },
+    {
+      "id": "S14",
+      "title": "【12题详解】",
+      "ordinal": 15,
+      "start_line": 647,
+      "end_line": 650,
+      "occurrence": 1
+    },
+    {
+      "id": "S15",
+      "title": "【13题详解】",
+      "ordinal": 16,
+      "start_line": 651,
+      "end_line": 713,
+      "occurrence": 1
+    },
+    {
+      "id": "S16",
+      "title": "【14题详解】",
+      "ordinal": 17,
+      "start_line": 714,
+      "end_line": 717,
+      "occurrence": 1
+    },
+    {
+      "id": "S17",
+      "title": "【15题详解】",
+      "ordinal": 18,
+      "start_line": 718,
+      "end_line": 746,
+      "occurrence": 1
+    },
+    {
+      "id": "S18",
+      "title": "【16题详解】",
+      "ordinal": 19,
+      "start_line": 747,
+      "end_line": 750,
+      "occurrence": 1
+    },
+    {
+      "id": "S19",
+      "title": "【17题详解】",
+      "ordinal": 20,
+      "start_line": 751,
+      "end_line": 810,
+      "occurrence": 1
+    },
+    {
+      "id": "S20",
+      "title": "【20题详解】",
+      "ordinal": 21,
+      "start_line": 811,
+      "end_line": 851,
+      "occurrence": 1
+    },
+    {
+      "id": "S21",
+      "title": "【21题详解】",
+      "ordinal": 22,
+      "start_line": 852,
+      "end_line": 855,
+      "occurrence": 1
+    },
+    {
+      "id": "S22",
+      "title": "【22题详解】",
+      "ordinal": 23,
+      "start_line": 856,
+      "end_line": 859,
+      "occurrence": 1
+    },
+    {
+      "id": "S23",
+      "title": "【23题详解】",
+      "ordinal": 24,
+      "start_line": 860,
+      "end_line": 931,
+      "occurrence": 1
+    },
+    {
+      "id": "S24",
+      "title": "【27题详解】",
+      "ordinal": 25,
+      "start_line": 932,
+      "end_line": 961,
+      "occurrence": 1
+    },
+    {
+      "id": "S25",
+      "title": "【28题详解】",
+      "ordinal": 26,
+      "start_line": 962,
+      "end_line": 965,
+      "occurrence": 1
+    },
+    {
+      "id": "S26",
+      "title": "【29题详解】",
+      "ordinal": 27,
+      "start_line": 966,
+      "end_line": 969,
+      "occurrence": 1
+    },
+    {
+      "id": "S27",
+      "title": "【30题详解】",
+      "ordinal": 28,
+      "start_line": 970,
+      "end_line": 975,
+      "occurrence": 1
+    },
+    {
+      "id": "S28",
+      "title": "二、 非选择题",
+      "ordinal": 29,
+      "start_line": 976,
+      "end_line": 1024,
+      "occurrence": 2
+    },
+    {
+      "id": "S29",
+      "title": "【小问1详解】",
+      "ordinal": 30,
+      "start_line": 1025,
+      "end_line": 1028,
+      "occurrence": 1
+    },
+    {
+      "id": "S30",
+      "title": "【小问2详解】",
+      "ordinal": 31,
+      "start_line": 1029,
+      "end_line": 1032,
+      "occurrence": 1
+    },
+    {
+      "id": "S31",
+      "title": "【小问3详解】",
+      "ordinal": 32,
+      "start_line": 1033,
+      "end_line": 1036,
+      "occurrence": 1
+    },
+    {
+      "id": "S32",
+      "title": "【小问4详解】",
+      "ordinal": 33,
+      "start_line": 1037,
+      "end_line": 1040,
+      "occurrence": 1
+    },
+    {
+      "id": "S33",
+      "title": "【小问5详解】",
+      "ordinal": 34,
+      "start_line": 1041,
+      "end_line": 1078,
+      "occurrence": 1
+    },
+    {
+      "id": "S34",
+      "title": "【小问1详解】",
+      "ordinal": 35,
+      "start_line": 1079,
+      "end_line": 1082,
+      "occurrence": 2
+    },
+    {
+      "id": "S35",
+      "title": "【小问2详解】",
+      "ordinal": 36,
+      "start_line": 1083,
+      "end_line": 1086,
+      "occurrence": 2
+    },
+    {
+      "id": "S36",
+      "title": "【小问 3 详解】",
+      "ordinal": 37,
+      "start_line": 1087,
+      "end_line": 1120,
+      "occurrence": 1
+    },
+    {
+      "id": "S37",
+      "title": "【小问1详解】",
+      "ordinal": 38,
+      "start_line": 1121,
+      "end_line": 1126,
+      "occurrence": 3
+    },
+    {
+      "id": "S38",
+      "title": "【小问2详解】",
+      "ordinal": 39,
+      "start_line": 1127,
+      "end_line": 1130,
+      "occurrence": 3
+    },
+    {
+      "id": "S39",
+      "title": "【小问3详解】",
+      "ordinal": 40,
+      "start_line": 1131,
+      "end_line": 1174,
+      "occurrence": 2
+    },
+    {
+      "id": "S40",
+      "title": "【小问 1 详解】",
+      "ordinal": 41,
+      "start_line": 1175,
+      "end_line": 1178,
+      "occurrence": 1
+    },
+    {
+      "id": "S41",
+      "title": "【小问2详解】",
+      "ordinal": 42,
+      "start_line": 1179,
+      "end_line": 1182,
+      "occurrence": 4
+    },
+    {
+      "id": "S42",
+      "title": "【小问 3 详解】",
+      "ordinal": 43,
+      "start_line": 1183,
+      "end_line": 1186,
+      "occurrence": 2
+    },
+    {
+      "id": "S43",
+      "title": "【小问4详解】",
+      "ordinal": 44,
+      "start_line": 1187,
+      "end_line": 1189,
+      "occurrence": 2
+    }
+  ],
+  "source_content_sha256": "1288f0032a90d3a63dfd66748a5c9c1c74e05e95a1c104535988517f9ba43669"
+}

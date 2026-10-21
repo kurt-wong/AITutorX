@@ -1,0 +1,992 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\resliced-pilot\\高一\\英语\\2020北京东城高一（上）期末英语（教师版）.md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.3",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        7,
+        7
+      ],
+      "options_lines": [
+        9,
+        9
+      ],
+      "answer_lines": [
+        421,
+        421
+      ],
+      "explanation_lines": [
+        423,
+        429
+      ],
+      "section_ref": "S2",
+      "section": "一、 语音知识（共10小题；每小题0.5分，共5分）",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L7",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 9,
+          "end_line": 9
+        },
+        {
+          "label": "B",
+          "start_line": 9,
+          "end_line": 9
+        },
+        {
+          "label": "C",
+          "start_line": 9,
+          "end_line": 9
+        },
+        {
+          "label": "D",
+          "start_line": 9,
+          "end_line": 9
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        11,
+        11
+      ],
+      "options_lines": [
+        13,
+        13
+      ],
+      "answer_lines": [
+        431,
+        433
+      ],
+      "explanation_lines": [
+        435,
+        441
+      ],
+      "section_ref": "S2",
+      "section": "一、 语音知识（共10小题；每小题0.5分，共5分）",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L11",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 13,
+          "end_line": 13
+        },
+        {
+          "label": "B",
+          "start_line": 13,
+          "end_line": 13
+        },
+        {
+          "label": "C",
+          "start_line": 13,
+          "end_line": 13
+        },
+        {
+          "label": "D",
+          "start_line": 13,
+          "end_line": 13
+        }
+      ]
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        15,
+        15
+      ],
+      "options_lines": [
+        17,
+        17
+      ],
+      "answer_lines": [
+        443,
+        443
+      ],
+      "explanation_lines": [
+        445,
+        451
+      ],
+      "section_ref": "S2",
+      "section": "一、 语音知识（共10小题；每小题0.5分，共5分）",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L15",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 17,
+          "end_line": 17
+        },
+        {
+          "label": "B",
+          "start_line": 17,
+          "end_line": 17
+        },
+        {
+          "label": "C",
+          "start_line": 17,
+          "end_line": 17
+        },
+        {
+          "label": "D",
+          "start_line": 17,
+          "end_line": 17
+        }
+      ]
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        19,
+        19
+      ],
+      "options_lines": [
+        21,
+        21
+      ],
+      "answer_lines": [
+        453,
+        453
+      ],
+      "explanation_lines": [
+        455,
+        463
+      ],
+      "section_ref": "S2",
+      "section": "一、 语音知识（共10小题；每小题0.5分，共5分）",
+      "printed_number": [
+        4
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L19",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 21,
+          "end_line": 21
+        },
+        {
+          "label": "B",
+          "start_line": 21,
+          "end_line": 21
+        },
+        {
+          "label": "C",
+          "start_line": 21,
+          "end_line": 21
+        },
+        {
+          "label": "D",
+          "start_line": 21,
+          "end_line": 21
+        }
+      ]
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        5
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        23,
+        23
+      ],
+      "options_lines": [
+        25,
+        25
+      ],
+      "answer_lines": [
+        465,
+        465
+      ],
+      "explanation_lines": [
+        467,
+        473
+      ],
+      "section_ref": "S2",
+      "section": "一、 语音知识（共10小题；每小题0.5分，共5分）",
+      "printed_number": [
+        5
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L23",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 25,
+          "end_line": 25
+        },
+        {
+          "label": "B",
+          "start_line": 25,
+          "end_line": 25
+        },
+        {
+          "label": "C",
+          "start_line": 25,
+          "end_line": 25
+        },
+        {
+          "label": "D",
+          "start_line": 25,
+          "end_line": 25
+        }
+      ]
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        6
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        27,
+        27
+      ],
+      "options_lines": [
+        29,
+        29
+      ],
+      "answer_lines": [
+        475,
+        475
+      ],
+      "explanation_lines": [
+        477,
+        483
+      ],
+      "section_ref": "S2",
+      "section": "一、 语音知识（共10小题；每小题0.5分，共5分）",
+      "printed_number": [
+        6
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L27",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 29,
+          "end_line": 29
+        },
+        {
+          "label": "B",
+          "start_line": 29,
+          "end_line": 29
+        },
+        {
+          "label": "C",
+          "start_line": 29,
+          "end_line": 29
+        },
+        {
+          "label": "D",
+          "start_line": 29,
+          "end_line": 29
+        }
+      ]
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        7
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        31,
+        31
+      ],
+      "options_lines": [
+        33,
+        33
+      ],
+      "answer_lines": [
+        485,
+        485
+      ],
+      "explanation_lines": [
+        487,
+        493
+      ],
+      "section_ref": "S2",
+      "section": "一、 语音知识（共10小题；每小题0.5分，共5分）",
+      "printed_number": [
+        7
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L31",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 33,
+          "end_line": 33
+        },
+        {
+          "label": "B",
+          "start_line": 33,
+          "end_line": 33
+        },
+        {
+          "label": "C",
+          "start_line": 33,
+          "end_line": 33
+        },
+        {
+          "label": "D",
+          "start_line": 33,
+          "end_line": 33
+        }
+      ]
+    },
+    {
+      "unit_id": "Q8",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        8
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        35,
+        35
+      ],
+      "options_lines": [
+        37,
+        39
+      ],
+      "answer_lines": [
+        495,
+        495
+      ],
+      "explanation_lines": [
+        497,
+        503
+      ],
+      "section_ref": "S2",
+      "section": "一、 语音知识（共10小题；每小题0.5分，共5分）",
+      "printed_number": [
+        8
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L35",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 37,
+          "end_line": 37
+        },
+        {
+          "label": "B",
+          "start_line": 37,
+          "end_line": 37
+        },
+        {
+          "label": "C",
+          "start_line": 39,
+          "end_line": 39
+        },
+        {
+          "label": "D",
+          "start_line": 39,
+          "end_line": 39
+        }
+      ]
+    },
+    {
+      "unit_id": "Q9",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        9
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        41,
+        41
+      ],
+      "options_lines": [
+        43,
+        43
+      ],
+      "answer_lines": [
+        507,
+        507
+      ],
+      "explanation_lines": [
+        509,
+        515
+      ],
+      "section_ref": "S2",
+      "section": "一、 语音知识（共10小题；每小题0.5分，共5分）",
+      "printed_number": [
+        9
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L41",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 43,
+          "end_line": 43
+        },
+        {
+          "label": "B",
+          "start_line": 43,
+          "end_line": 43
+        },
+        {
+          "label": "C",
+          "start_line": 43,
+          "end_line": 43
+        },
+        {
+          "label": "D",
+          "start_line": 43,
+          "end_line": 43
+        }
+      ]
+    },
+    {
+      "unit_id": "Q10",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        10
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        45,
+        45
+      ],
+      "options_lines": [
+        47,
+        47
+      ],
+      "answer_lines": [
+        517,
+        517
+      ],
+      "explanation_lines": [
+        519,
+        525
+      ],
+      "section_ref": "S2",
+      "section": "一、 语音知识（共10小题；每小题0.5分，共5分）",
+      "printed_number": [
+        10
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L45",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 47,
+          "end_line": 47
+        },
+        {
+          "label": "B",
+          "start_line": 47,
+          "end_line": 47
+        },
+        {
+          "label": "C",
+          "start_line": 47,
+          "end_line": 47
+        },
+        {
+          "label": "D",
+          "start_line": 47,
+          "end_line": 47
+        }
+      ]
+    },
+    {
+      "unit_id": "U11",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        11
+      ],
+      "original_question_type": "cloze",
+      "material_lines": [
+        55,
+        70
+      ],
+      "answer_lines": [
+        529,
+        533
+      ],
+      "explanation_lines": [
+        535,
+        567
+      ],
+      "questions_lines": [
+        55,
+        106
+      ],
+      "section_ref": "S3",
+      "section": "My Chinese speaking experience",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U12",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        12
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        112,
+        182
+      ],
+      "answer_lines": [
+        571,
+        581
+      ],
+      "explanation_lines": [
+        583,
+        593
+      ],
+      "questions_lines": [
+        112,
+        182
+      ],
+      "section_ref": "S3",
+      "section": "My Chinese speaking experience",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U13",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        13
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        187,
+        241
+      ],
+      "answer_lines": [
+        595,
+        609
+      ],
+      "explanation_lines": [
+        611,
+        621
+      ],
+      "questions_lines": [
+        187,
+        241
+      ],
+      "section_ref": "S5",
+      "section": "Elephant Transit Home",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U14",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        14
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        243,
+        313
+      ],
+      "answer_lines": [
+        623,
+        637
+      ],
+      "explanation_lines": [
+        639,
+        639
+      ],
+      "questions_lines": [
+        243,
+        313
+      ],
+      "section_ref": "S5",
+      "section": "Elephant Transit Home",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U15",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        15
+      ],
+      "original_question_type": "reading_expression",
+      "material_lines": [
+        317,
+        339
+      ],
+      "answer_lines": [
+        643,
+        655
+      ],
+      "explanation_lines": [
+        657,
+        667
+      ],
+      "questions_lines": [
+        317,
+        339
+      ],
+      "section_ref": "S5",
+      "section": "Elephant Transit Home",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U16",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        16
+      ],
+      "original_question_type": "grammar_fill",
+      "material_lines": [
+        345,
+        359
+      ],
+      "answer_lines": [
+        671,
+        701
+      ],
+      "explanation_lines": [
+        703,
+        703
+      ],
+      "questions_lines": [
+        345,
+        359
+      ],
+      "section_ref": "S6",
+      "section": "A",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U17",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        17
+      ],
+      "original_question_type": "vocabulary_fill",
+      "material_lines": [
+        365,
+        375
+      ],
+      "answer_lines": [
+        707,
+        729
+      ],
+      "explanation_lines": [
+        731,
+        737
+      ],
+      "questions_lines": [
+        365,
+        375
+      ],
+      "section_ref": "S9",
+      "section": "17 \\. （5分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U18",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        18
+      ],
+      "original_question_type": "vocabulary_fill",
+      "material_lines": [
+        379,
+        389
+      ],
+      "answer_lines": [
+        739,
+        759
+      ],
+      "explanation_lines": [
+        761,
+        771
+      ],
+      "questions_lines": [
+        379,
+        389
+      ],
+      "section_ref": "S9",
+      "section": "17 \\. （5分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q19",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        19
+      ],
+      "original_question_type": "essay",
+      "stem_lines": [
+        393,
+        411
+      ],
+      "options_lines": null,
+      "answer_lines": [
+        775,
+        803
+      ],
+      "explanation_lines": [
+        805,
+        805
+      ],
+      "section_ref": "S10",
+      "section": "六、 书面表达（15分）",
+      "printed_number": [
+        19
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L393"
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2020 北京东城高一（上）期末",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "英语",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 4,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "一、 语音知识（共10小题；每小题0.5分，共5分）",
+      "ordinal": 3,
+      "start_line": 5,
+      "end_line": 54,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "My Chinese speaking experience",
+      "ordinal": 4,
+      "start_line": 55,
+      "end_line": 137,
+      "occurrence": 1
+    },
+    {
+      "id": "S4",
+      "title": "Day 14 Dunedin",
+      "ordinal": 5,
+      "start_line": 138,
+      "end_line": 186,
+      "occurrence": 1
+    },
+    {
+      "id": "S5",
+      "title": "Elephant Transit Home",
+      "ordinal": 6,
+      "start_line": 187,
+      "end_line": 344,
+      "occurrence": 1
+    },
+    {
+      "id": "S6",
+      "title": "A",
+      "ordinal": 7,
+      "start_line": 345,
+      "end_line": 348,
+      "occurrence": 1
+    },
+    {
+      "id": "S7",
+      "title": "B",
+      "ordinal": 8,
+      "start_line": 349,
+      "end_line": 356,
+      "occurrence": 1
+    },
+    {
+      "id": "S8",
+      "title": "C",
+      "ordinal": 9,
+      "start_line": 357,
+      "end_line": 362,
+      "occurrence": 1
+    },
+    {
+      "id": "S9",
+      "title": "17 \\. （5分）",
+      "ordinal": 10,
+      "start_line": 363,
+      "end_line": 390,
+      "occurrence": 1
+    },
+    {
+      "id": "S10",
+      "title": "六、 书面表达（15分）",
+      "ordinal": 11,
+      "start_line": 391,
+      "end_line": 414,
+      "occurrence": 1
+    },
+    {
+      "id": "S11",
+      "title": "2020 北京东城高一（上）期末英语",
+      "ordinal": 12,
+      "start_line": 415,
+      "end_line": 418,
+      "occurrence": 1
+    },
+    {
+      "id": "S12",
+      "title": "一、 语音知识（共10小题；每小题0.5分，共5分）",
+      "ordinal": 13,
+      "start_line": 419,
+      "end_line": 614,
+      "occurrence": 2
+    },
+    {
+      "id": "S13",
+      "title": "2. 间接信息题：",
+      "ordinal": 14,
+      "start_line": 615,
+      "end_line": 618,
+      "occurrence": 1
+    },
+    {
+      "id": "S14",
+      "title": "3. 综合信息题：",
+      "ordinal": 15,
+      "start_line": 619,
+      "end_line": 730,
+      "occurrence": 1
+    },
+    {
+      "id": "S15",
+      "title": "【点评】如何做选词填空1．根据语法，判断词性",
+      "ordinal": 16,
+      "start_line": 731,
+      "end_line": 734,
+      "occurrence": 1
+    },
+    {
+      "id": "S16",
+      "title": "2. 利用语境，确定词形",
+      "ordinal": 17,
+      "start_line": 735,
+      "end_line": 760,
+      "occurrence": 1
+    },
+    {
+      "id": "S17",
+      "title": "【点评】如何做选词填空",
+      "ordinal": 18,
+      "start_line": 761,
+      "end_line": 762,
+      "occurrence": 1
+    },
+    {
+      "id": "S18",
+      "title": "1. 根据语法，判断词性",
+      "ordinal": 19,
+      "start_line": 763,
+      "end_line": 768,
+      "occurrence": 1
+    },
+    {
+      "id": "S19",
+      "title": "2. 利用语境，确定词形",
+      "ordinal": 20,
+      "start_line": 769,
+      "end_line": 772,
+      "occurrence": 2
+    },
+    {
+      "id": "S20",
+      "title": "六、 书面表达（15分）",
+      "ordinal": 21,
+      "start_line": 773,
+      "end_line": 805,
+      "occurrence": 2
+    }
+  ],
+  "source_content_sha256": "b2c765cdc6a678e08722c1f96819f6c415ee2f0301f50501d3dc18365789d908"
+}

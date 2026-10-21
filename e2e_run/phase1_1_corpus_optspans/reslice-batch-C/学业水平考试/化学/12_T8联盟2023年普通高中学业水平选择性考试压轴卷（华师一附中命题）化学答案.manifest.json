@@ -1,0 +1,612 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\学业水平考试\\化学\\12_T8联盟2023年普通高中学业水平选择性考试压轴卷（华师一附中命题）化学答案.md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.1",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        10,
+        10
+      ],
+      "options_lines": null,
+      "extra_lines": [
+        8,
+        8
+      ],
+      "answer_lines": [
+        10,
+        10
+      ],
+      "explanation_lines": [
+        12,
+        12
+      ],
+      "section_ref": "S1",
+      "section": "化学试题（一）",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L10"
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        14,
+        14
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        14,
+        14
+      ],
+      "explanation_lines": [
+        16,
+        16
+      ],
+      "section_ref": "S1",
+      "section": "化学试题（一）",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L14"
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        18,
+        18
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        18,
+        18
+      ],
+      "explanation_lines": [
+        20,
+        20
+      ],
+      "section_ref": "S1",
+      "section": "化学试题（一）",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L18"
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        22,
+        22
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        22,
+        22
+      ],
+      "explanation_lines": [
+        24,
+        24
+      ],
+      "section_ref": "S1",
+      "section": "化学试题（一）",
+      "printed_number": [
+        4
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L22"
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        5
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        26,
+        26
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        26,
+        26
+      ],
+      "explanation_lines": [
+        28,
+        28
+      ],
+      "section_ref": "S1",
+      "section": "化学试题（一）",
+      "printed_number": [
+        5
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L26"
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        6
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        30,
+        30
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        30,
+        30
+      ],
+      "explanation_lines": [
+        32,
+        32
+      ],
+      "section_ref": "S1",
+      "section": "化学试题（一）",
+      "printed_number": [
+        6
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L30"
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        7
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        34,
+        34
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        34,
+        34
+      ],
+      "explanation_lines": [
+        36,
+        36
+      ],
+      "section_ref": "S1",
+      "section": "化学试题（一）",
+      "printed_number": [
+        7
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L34"
+    },
+    {
+      "unit_id": "Q8",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        8
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        38,
+        38
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        38,
+        38
+      ],
+      "explanation_lines": [
+        40,
+        44
+      ],
+      "section_ref": "S1",
+      "section": "化学试题（一）",
+      "printed_number": [
+        8
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L38"
+    },
+    {
+      "unit_id": "Q9",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        9
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        46,
+        46
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        46,
+        46
+      ],
+      "explanation_lines": [
+        48,
+        48
+      ],
+      "section_ref": "S1",
+      "section": "化学试题（一）",
+      "printed_number": [
+        9
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L46"
+    },
+    {
+      "unit_id": "Q10",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        10
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        50,
+        50
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        50,
+        52
+      ],
+      "explanation_lines": [
+        54,
+        54
+      ],
+      "section_ref": "S1",
+      "section": "化学试题（一）",
+      "printed_number": [
+        10
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L50"
+    },
+    {
+      "unit_id": "Q11",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        11
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        56,
+        56
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        56,
+        56
+      ],
+      "explanation_lines": [
+        58,
+        58
+      ],
+      "section_ref": "S1",
+      "section": "化学试题（一）",
+      "printed_number": [
+        11
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L56"
+    },
+    {
+      "unit_id": "Q12",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        12
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        60,
+        60
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        60,
+        60
+      ],
+      "explanation_lines": [
+        62,
+        62
+      ],
+      "section_ref": "S1",
+      "section": "化学试题（一）",
+      "printed_number": [
+        12
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L60"
+    },
+    {
+      "unit_id": "Q13",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        13
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        64,
+        64
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        64,
+        64
+      ],
+      "explanation_lines": [
+        66,
+        66
+      ],
+      "section_ref": "S1",
+      "section": "化学试题（一）",
+      "printed_number": [
+        13
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L64"
+    },
+    {
+      "unit_id": "Q14",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        14
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        68,
+        68
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        68,
+        68
+      ],
+      "explanation_lines": [
+        70,
+        70
+      ],
+      "section_ref": "S1",
+      "section": "化学试题（一）",
+      "printed_number": [
+        14
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L68"
+    },
+    {
+      "unit_id": "Q15",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        15
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        72,
+        72
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        72,
+        72
+      ],
+      "explanation_lines": [
+        74,
+        74
+      ],
+      "section_ref": "S1",
+      "section": "化学试题（一）",
+      "printed_number": [
+        15
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L72"
+    },
+    {
+      "unit_id": "Q16",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        16
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        78,
+        78
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        78,
+        94
+      ],
+      "explanation_lines": [
+        97,
+        124
+      ],
+      "section_ref": "S1",
+      "section": "化学试题（一）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q17",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        17
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        128,
+        128
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        128,
+        136
+      ],
+      "explanation_lines": [
+        138,
+        152
+      ],
+      "section_ref": "S1",
+      "section": "化学试题（一）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q18",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        18
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        158,
+        158
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        158,
+        164
+      ],
+      "explanation_lines": [
+        166,
+        172
+      ],
+      "section_ref": "S1",
+      "section": "化学试题（一）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q19",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        19
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        176,
+        176
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        176,
+        184
+      ],
+      "explanation_lines": [
+        186,
+        196
+      ],
+      "section_ref": "S2",
+      "section": "19. （除注明外，每空2分，共13分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2023年普通高中学业水平选择性考试压轴卷（T8联盟）",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "化学试题（一）",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 173,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "19. （除注明外，每空2分，共13分）",
+      "ordinal": 3,
+      "start_line": 174,
+      "end_line": 199,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "多维细目表",
+      "ordinal": 4,
+      "start_line": 200,
+      "end_line": 203,
+      "occurrence": 1
+    }
+  ],
+  "source_content_sha256": "b855131b1694700d97823719f90d30c6e6c0f927b5569bb2ef59d8885c070930"
+}

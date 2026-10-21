@@ -1,0 +1,201 @@
+{
+  "ir_ready": 15,
+  "ir_incomplete": 25,
+  "gate_auto": 15,
+  "gate_pending": 0,
+  "gate_rejected": 25,
+  "n_units": 40,
+  "n_questions_tracked": 40,
+  "questions": [
+    {
+      "unit_id": "Q1",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q2",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q3",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q4",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q5",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q6",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q7",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "D",
+      "answer_preview": "D",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "7. 当光束通过下列分散系时，能观察到丁达尔效应的是\n"
+    },
+    {
+      "unit_id": "Q8",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "8．下列物质中，含有离子键的是\n"
+    },
+    {
+      "unit_id": "Q9",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q10",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "10. 羰基硫（COS）可用于合成除草剂和杀虫剂。一定条件下，恒容密闭容器中，发生反应： $ \\mathrm{H_{2}S(g)+CO_{2}(g)} $  $ \\mathrm{COS(g)+H_{2"
+    },
+    {
+      "unit_id": "Q11",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "11. 原电池是化学电源的雏形。关于右图所示原电池的说法正确的是\n"
+    },
+    {
+      "unit_id": "Q12",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "A",
+      "answer_preview": "A",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "12．2017年，我国科学家在利用镓（ $ ^{68}_{31} $）进行肿瘤的早期精准诊断方面取得重大突破。下列关于的说法正确的是 $ ^{68}_{31} $Ga\n"
+    },
+    {
+      "unit_id": "Q13",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "13\\. 下列营养物质中， $ \\underset{\\cdot}{不}\\underset{\\cdot}{能} $发生水解反应的是\n"
+    },
+    {
+      "unit_id": "Q14",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "B",
+      "answer_preview": "B",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "14\\. 下列属于取代反应的是\n"
+    },
+    {
+      "unit_id": "Q15",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "D",
+      "answer_preview": "D",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "15\\. 下列方法能用来鉴别甲烷和乙烯的是\n"
+    }
+  ]
+}

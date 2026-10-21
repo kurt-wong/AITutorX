@@ -1,0 +1,28 @@
+{
+  "stem_before": 43,
+  "stem_after": 52,
+  "ready_before": 210,
+  "ready_after": 219,
+  "opts_before": 101,
+  "opts_after": 117,
+  "stem_lost": [],
+  "stem_gained": [
+    "地理/U1-2",
+    "地理/U3-5",
+    "地理/U16-17",
+    "地理/U26-29",
+    "地理/U-P2-1",
+    "地理/U-P2-2",
+    "地理/U-P2-3",
+    "地理/U-P2-4",
+    "地理/U-P2-5"
+  ],
+  "options_lost": [],
+  "options_gained": [
+    "地理/U1-2",
+    "地理/U3-5",
+    "地理/U16-17",
+    "地理/U26-29"
+  ],
+  "ir_regressed": []
+}

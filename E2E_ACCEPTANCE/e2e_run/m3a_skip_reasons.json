@@ -1,0 +1,729 @@
+{
+  "annotation_id": "c38ee1ab-3543-41ad-ad1b-f035f029e2fa",
+  "source_version_id": "0df40d7b-183d-4bb1-8b06-1b4d44dce9b7",
+  "db_line_count": 584,
+  "ir_status": {
+    "Q1": "ready",
+    "Q2": "ready",
+    "Q3": "ready",
+    "Q4": "ready",
+    "Q5": "ready",
+    "Q6": "ready",
+    "Q7": "ready",
+    "Q8": "ready",
+    "Q9": "incomplete",
+    "Q10": "ready",
+    "Q11": "ready",
+    "Q12": "ready",
+    "Q13": "ready",
+    "Q14": "ready",
+    "Q15": "ready",
+    "Q16": "ready",
+    "Q17": "ready",
+    "Q18": "ready",
+    "Q19": "incomplete",
+    "Q20": "ready",
+    "Q21": "ready",
+    "Q22": "ready",
+    "Q23": "ready",
+    "Q24": "incomplete",
+    "Q25": "incomplete",
+    "U-req1": "incomplete",
+    "U-req2": "incomplete",
+    "U-req3": "incomplete",
+    "U-req4": "incomplete",
+    "U-req5": "incomplete",
+    "U-req6": "incomplete",
+    "U-cl1": "ready",
+    "U-cl2": "ready",
+    "U-cl3": "ready",
+    "U-org1": "incomplete",
+    "U-org2": "incomplete",
+    "U-org3": "incomplete",
+    "U-cp1": "incomplete",
+    "U-cp2": "incomplete",
+    "U-cp3": "incomplete"
+  },
+  "ready_units": [
+    "Q1",
+    "Q10",
+    "Q11",
+    "Q12",
+    "Q13",
+    "Q14",
+    "Q15",
+    "Q16",
+    "Q17",
+    "Q18",
+    "Q2",
+    "Q20",
+    "Q21",
+    "Q22",
+    "Q23",
+    "Q3",
+    "Q4",
+    "Q5",
+    "Q6",
+    "Q7",
+    "Q8",
+    "U-cl1",
+    "U-cl2",
+    "U-cl3"
+  ],
+  "focus_units": [
+    {
+      "unit_id": "Q9",
+      "bucket": "no_candidate",
+      "semantic_status": "incomplete",
+      "question_numbers": [
+        9
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        46,
+        46
+      ],
+      "options_lines": [
+        51,
+        51
+      ],
+      "answer_lines": [
+        513,
+        513
+      ],
+      "manifest_validation_issues": [],
+      "ir_problems": [
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "option spans unresolved: ['A', 'B', 'C', 'D']"
+      ]
+    },
+    {
+      "unit_id": "Q19",
+      "bucket": "no_candidate",
+      "semantic_status": "incomplete",
+      "question_numbers": [
+        19
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        142,
+        142
+      ],
+      "options_lines": [
+        145,
+        145
+      ],
+      "answer_lines": [
+        513,
+        513
+      ],
+      "manifest_validation_issues": [],
+      "ir_problems": [
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "option spans unresolved: ['B', 'C', 'D']"
+      ]
+    },
+    {
+      "unit_id": "Q24",
+      "bucket": "no_candidate",
+      "semantic_status": "incomplete",
+      "question_numbers": [
+        24
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        196,
+        196
+      ],
+      "options_lines": [
+        199,
+        199
+      ],
+      "answer_lines": [
+        513,
+        513
+      ],
+      "manifest_validation_issues": [],
+      "ir_problems": [
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "option spans unresolved: ['A', 'B', 'C', 'D']"
+      ]
+    },
+    {
+      "unit_id": "Q25",
+      "bucket": "no_candidate",
+      "semantic_status": "incomplete",
+      "question_numbers": [
+        25
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        201,
+        201
+      ],
+      "options_lines": [
+        204,
+        204
+      ],
+      "answer_lines": [
+        513,
+        513
+      ],
+      "manifest_validation_issues": [],
+      "ir_problems": [
+        "role option unresolved",
+        "role option unresolved",
+        "role option unresolved",
+        "option spans unresolved: ['B', 'C', 'D']"
+      ]
+    },
+    {
+      "unit_id": "U-req1",
+      "bucket": "no_candidate",
+      "semantic_status": "incomplete",
+      "question_numbers": [
+        26
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        210,
+        210
+      ],
+      "options_lines": null,
+      "answer_lines": [
+        519,
+        521
+      ],
+      "manifest_validation_issues": [],
+      "ir_problems": [
+        "role stem unresolved",
+        "stem unresolved"
+      ]
+    },
+    {
+      "unit_id": "U-req2",
+      "bucket": "no_candidate",
+      "semantic_status": "incomplete",
+      "question_numbers": [
+        27
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        212,
+        217
+      ],
+      "options_lines": null,
+      "answer_lines": [
+        523,
+        526
+      ],
+      "manifest_validation_issues": [],
+      "ir_problems": [
+        "role stem unresolved",
+        "stem unresolved"
+      ]
+    },
+    {
+      "unit_id": "U-req3",
+      "bucket": "no_candidate",
+      "semantic_status": "incomplete",
+      "question_numbers": [
+        28
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        219,
+        219
+      ],
+      "options_lines": null,
+      "answer_lines": [
+        528,
+        530
+      ],
+      "manifest_validation_issues": [],
+      "ir_problems": [
+        "role stem unresolved",
+        "stem unresolved"
+      ]
+    },
+    {
+      "unit_id": "U-req4",
+      "bucket": "no_candidate",
+      "semantic_status": "incomplete",
+      "question_numbers": [
+        29
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        221,
+        235
+      ],
+      "options_lines": null,
+      "answer_lines": [
+        532,
+        540
+      ],
+      "manifest_validation_issues": [],
+      "ir_problems": [
+        "role stem unresolved",
+        "stem unresolved"
+      ]
+    },
+    {
+      "unit_id": "U-req5",
+      "bucket": "no_candidate",
+      "semantic_status": "incomplete",
+      "question_numbers": [
+        30
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        237,
+        258
+      ],
+      "options_lines": null,
+      "answer_lines": [
+        542,
+        552
+      ],
+      "manifest_validation_issues": [],
+      "ir_problems": [
+        "role stem unresolved",
+        "stem unresolved"
+      ]
+    },
+    {
+      "unit_id": "U-req6",
+      "bucket": "no_candidate",
+      "semantic_status": "incomplete",
+      "question_numbers": [
+        31
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        260,
+        285
+      ],
+      "options_lines": null,
+      "answer_lines": [
+        554,
+        562
+      ],
+      "manifest_validation_issues": [],
+      "ir_problems": [
+        "role stem unresolved",
+        "stem unresolved"
+      ]
+    },
+    {
+      "unit_id": "U-cl1",
+      "bucket": "pending_review",
+      "semantic_status": "ready",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        291,
+        299
+      ],
+      "options_lines": null,
+      "answer_lines": [
+        566,
+        568
+      ],
+      "manifest_validation_issues": [],
+      "ir_problems": []
+    },
+    {
+      "unit_id": "U-cl2",
+      "bucket": "pending_review",
+      "semantic_status": "ready",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "true_false",
+      "stem_lines": [
+        301,
+        317
+      ],
+      "options_lines": null,
+      "answer_lines": [
+        570,
+        572
+      ],
+      "manifest_validation_issues": [],
+      "ir_problems": []
+    },
+    {
+      "unit_id": "U-cl3",
+      "bucket": "pending_review",
+      "semantic_status": "ready",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        319,
+        350
+      ],
+      "options_lines": null,
+      "answer_lines": [
+        574,
+        584
+      ],
+      "manifest_validation_issues": [],
+      "ir_problems": []
+    },
+    {
+      "unit_id": "U-org1",
+      "bucket": "no_candidate",
+      "semantic_status": "incomplete",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        354,
+        401
+      ],
+      "options_lines": null,
+      "answer_lines": null,
+      "manifest_validation_issues": [
+        "U-org1: 无 answer_lines（题号 [1]）"
+      ],
+      "ir_problems": [
+        "role answer unresolved",
+        "answer unresolved"
+      ]
+    },
+    {
+      "unit_id": "U-org2",
+      "bucket": "no_candidate",
+      "semantic_status": "incomplete",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        403,
+        425
+      ],
+      "options_lines": null,
+      "answer_lines": null,
+      "manifest_validation_issues": [
+        "U-org2: 无 answer_lines（题号 [2]）"
+      ],
+      "ir_problems": [
+        "role answer unresolved",
+        "answer unresolved"
+      ]
+    },
+    {
+      "unit_id": "U-org3",
+      "bucket": "no_candidate",
+      "semantic_status": "incomplete",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        427,
+        440
+      ],
+      "options_lines": null,
+      "answer_lines": null,
+      "manifest_validation_issues": [
+        "U-org3: 无 answer_lines（题号 [3]）"
+      ],
+      "ir_problems": [
+        "role answer unresolved",
+        "answer unresolved"
+      ]
+    },
+    {
+      "unit_id": "U-cp1",
+      "bucket": "no_candidate",
+      "semantic_status": "incomplete",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        444,
+        458
+      ],
+      "options_lines": null,
+      "answer_lines": null,
+      "manifest_validation_issues": [
+        "U-cp1: 无 answer_lines（题号 [1]）"
+      ],
+      "ir_problems": [
+        "role answer unresolved",
+        "answer unresolved"
+      ]
+    },
+    {
+      "unit_id": "U-cp2",
+      "bucket": "no_candidate",
+      "semantic_status": "incomplete",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        460,
+        479
+      ],
+      "options_lines": null,
+      "answer_lines": null,
+      "manifest_validation_issues": [
+        "U-cp2: 无 answer_lines（题号 [2]）"
+      ],
+      "ir_problems": [
+        "role answer unresolved",
+        "answer unresolved"
+      ]
+    },
+    {
+      "unit_id": "U-cp3",
+      "bucket": "no_candidate",
+      "semantic_status": "incomplete",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        481,
+        502
+      ],
+      "options_lines": null,
+      "answer_lines": null,
+      "manifest_validation_issues": [
+        "U-cp3: 无 answer_lines（题号 [3]）"
+      ],
+      "ir_problems": [
+        "role answer unresolved",
+        "answer unresolved"
+      ]
+    }
+  ],
+  "unresolved_sample": [
+    {
+      "role": "option",
+      "label": null,
+      "status": "incomplete",
+      "evidence": [
+        "option A"
+      ]
+    },
+    {
+      "role": "option",
+      "label": null,
+      "status": "incomplete",
+      "evidence": [
+        "option B"
+      ]
+    },
+    {
+      "role": "option",
+      "label": null,
+      "status": "incomplete",
+      "evidence": [
+        "option C"
+      ]
+    },
+    {
+      "role": "option",
+      "label": null,
+      "status": "incomplete",
+      "evidence": [
+        "option D"
+      ]
+    },
+    {
+      "role": "option",
+      "label": null,
+      "status": "incomplete",
+      "evidence": [
+        "option B"
+      ]
+    },
+    {
+      "role": "option",
+      "label": null,
+      "status": "incomplete",
+      "evidence": [
+        "option C"
+      ]
+    },
+    {
+      "role": "option",
+      "label": null,
+      "status": "incomplete",
+      "evidence": [
+        "option D"
+      ]
+    },
+    {
+      "role": "option",
+      "label": null,
+      "status": "incomplete",
+      "evidence": [
+        "option A"
+      ]
+    },
+    {
+      "role": "option",
+      "label": null,
+      "status": "incomplete",
+      "evidence": [
+        "option B"
+      ]
+    },
+    {
+      "role": "option",
+      "label": null,
+      "status": "incomplete",
+      "evidence": [
+        "option C"
+      ]
+    },
+    {
+      "role": "option",
+      "label": null,
+      "status": "incomplete",
+      "evidence": [
+        "option D"
+      ]
+    },
+    {
+      "role": "option",
+      "label": null,
+      "status": "incomplete",
+      "evidence": [
+        "option B"
+      ]
+    },
+    {
+      "role": "option",
+      "label": null,
+      "status": "incomplete",
+      "evidence": [
+        "option C"
+      ]
+    },
+    {
+      "role": "option",
+      "label": null,
+      "status": "incomplete",
+      "evidence": [
+        "option D"
+      ]
+    },
+    {
+      "role": "stem",
+      "label": null,
+      "status": "missing",
+      "evidence": [
+        "question number '26' not found"
+      ]
+    },
+    {
+      "role": "stem",
+      "label": null,
+      "status": "missing",
+      "evidence": [
+        "question number '27' not found"
+      ]
+    },
+    {
+      "role": "stem",
+      "label": null,
+      "status": "missing",
+      "evidence": [
+        "question number '28' not found"
+      ]
+    },
+    {
+      "role": "stem",
+      "label": null,
+      "status": "missing",
+      "evidence": [
+        "question number '29' not found"
+      ]
+    },
+    {
+      "role": "stem",
+      "label": null,
+      "status": "missing",
+      "evidence": [
+        "question number '30' not found"
+      ]
+    },
+    {
+      "role": "stem",
+      "label": null,
+      "status": "missing",
+      "evidence": [
+        "question number '31' not found"
+      ]
+    },
+    {
+      "role": "answer",
+      "label": null,
+      "status": "ambiguous",
+      "evidence": [
+        "answer row qn=1 spans multiple lines"
+      ]
+    },
+    {
+      "role": "answer",
+      "label": null,
+      "status": "ambiguous",
+      "evidence": [
+        "answer row qn=2 spans multiple lines"
+      ]
+    },
+    {
+      "role": "answer",
+      "label": null,
+      "status": "ambiguous",
+      "evidence": [
+        "answer row qn=3 spans multiple lines"
+      ]
+    },
+    {
+      "role": "answer",
+      "label": null,
+      "status": "ambiguous",
+      "evidence": [
+        "answer row qn=1 spans multiple lines"
+      ]
+    },
+    {
+      "role": "answer",
+      "label": null,
+      "status": "ambiguous",
+      "evidence": [
+        "answer row qn=2 spans multiple lines"
+      ]
+    },
+    {
+      "role": "answer",
+      "label": null,
+      "status": "ambiguous",
+      "evidence": [
+        "answer row qn=3 spans multiple lines"
+      ]
+    }
+  ]
+}

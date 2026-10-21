@@ -1,0 +1,2012 @@
+{
+  "captured_at": "2026-10-02T06:45:37.066455+00:00",
+  "baseline": {
+    "head": "39840ff8f0b3d7e9e2c75155ba043a8ed6b03aa4",
+    "match_norm": "v1.1 dirty 015cdfa",
+    "source": "Phase1.3R material_counterfactual_rca.json taxonomy=MATERIAL_OVERLAP_REJECTED"
+  },
+  "overlap_units_count": 20,
+  "unit_ids": [
+    "U52",
+    "U53",
+    "Q37",
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4",
+    "Q5-6",
+    "Q7-8",
+    "Q9-11",
+    "Q12-14",
+    "Q15-17",
+    "Q18-20",
+    "Q21-25",
+    "U49-52",
+    "U53-56",
+    "U57-60",
+    "U10-13",
+    "U14",
+    "U15"
+  ],
+  "units": [
+    {
+      "unit_id": "U52",
+      "document_id": "326c739a-de25-4f2e-9d89-9e468008ef1b",
+      "source_version_id": "0942fabb-4ab2-43a3-b163-5407244366ce",
+      "file_name": "2018北京夏季高中会考历史（教师版）(1).md",
+      "material_lines": {
+        "start": 569,
+        "end": 592,
+        "semantics": "inclusive",
+        "seq_interval": [
+          568,
+          591
+        ]
+      },
+      "questions_lines": {
+        "start": 569,
+        "end": 592,
+        "semantics": "inclusive (Producer)",
+        "seq_interval": [
+          568,
+          591
+        ]
+      },
+      "material_vs_questions": {
+        "relation": "equal"
+      },
+      "sub_question": {
+        "decomposition_source": "_SUB_DECOMPOSITION=producer_region_as_single_sub",
+        "sub_unit_id": "U52.sub",
+        "stem_declaration": "content.stem={role:stem, question_label: parent QN} via _leaf_content",
+        "stem_source_span": {
+          "span_id": "sp-U52.sub.stem",
+          "line_refs": [
+            "P1L569",
+            "P1L570",
+            "P1L571",
+            "P1L572",
+            "P1L573",
+            "P1L574",
+            "P1L575",
+            "P1L576",
+            "P1L577",
+            "P1L578",
+            "P1L579",
+            "P1L580",
+            "P1L581",
+            "P1L582",
+            "P1L583",
+            "P1L584",
+            "P1L585",
+            "P1L586",
+            "P1L587",
+            "P1L588",
+            "P1L589",
+            "P1L590",
+            "P1L591",
+            "P1L592",
+            "P1L593"
+          ],
+          "seq_interval": [
+            568,
+            592
+          ],
+          "semantics": "resolver question_label heuristic span (NOT questions_lines)"
+        }
+      },
+      "material_vs_sub_stem": {
+        "relation_by_seq": "subset",
+        "shared_manifest_line_numbers": [
+          569,
+          570,
+          571,
+          572,
+          573,
+          574,
+          575,
+          576,
+          577,
+          578,
+          579,
+          580,
+          581,
+          582,
+          583,
+          584,
+          585,
+          586,
+          587,
+          588,
+          589,
+          590,
+          591,
+          592
+        ],
+        "shared_line_count": 24
+      },
+      "resolver_overlap_rejection": {
+        "actual": true,
+        "rejection_point": "resolver.py:_enforce_material_overlap:628-658",
+        "evidence_verbatim": [
+          "overlaps stem span sp-U52.sub.stem (P1L569..P1L593)",
+          "material overlap → unresolved"
+        ],
+        "control_flow": "material initially resolved via marker pair → _enforce_material_overlap sees frozenset(line_refs)∩ other span → demote to UnresolvedReference(status=incomplete)"
+      },
+      "adapter_path": {
+        "file": "annotation_adapter.py:_build_composite:120-164",
+        "material_decl": "shared['material']={'role':'material'} only (no lines)",
+        "sub_creation": "single sub from parent unit via _leaf_content(unit)",
+        "questions_lines_consumed_by_adapter": false,
+        "gap_code": "SUB_QUESTION_DECOMPOSITION_UNAVAILABLE"
+      },
+      "overlap_target_kinds": {
+        "stem": 1
+      },
+      "overlaps_own_sub_stem": true
+    },
+    {
+      "unit_id": "U53",
+      "document_id": "326c739a-de25-4f2e-9d89-9e468008ef1b",
+      "source_version_id": "0942fabb-4ab2-43a3-b163-5407244366ce",
+      "file_name": "2018北京夏季高中会考历史（教师版）(1).md",
+      "material_lines": {
+        "start": 594,
+        "end": 627,
+        "semantics": "inclusive",
+        "seq_interval": [
+          593,
+          626
+        ]
+      },
+      "questions_lines": {
+        "start": 594,
+        "end": 627,
+        "semantics": "inclusive (Producer)",
+        "seq_interval": [
+          593,
+          626
+        ]
+      },
+      "material_vs_questions": {
+        "relation": "equal"
+      },
+      "sub_question": {
+        "decomposition_source": "_SUB_DECOMPOSITION=producer_region_as_single_sub",
+        "sub_unit_id": "U53.sub",
+        "stem_declaration": "content.stem={role:stem, question_label: parent QN} via _leaf_content",
+        "stem_source_span": {
+          "span_id": "sp-U53.sub.stem",
+          "line_refs": [
+            "P1L594",
+            "P1L595",
+            "P1L596",
+            "P1L597",
+            "P1L598",
+            "P1L599",
+            "P1L600",
+            "P1L601",
+            "P1L602",
+            "P1L603",
+            "P1L604",
+            "P1L605",
+            "P1L606",
+            "P1L607",
+            "P1L608",
+            "P1L609",
+            "P1L610",
+            "P1L611",
+            "P1L612",
+            "P1L613",
+            "P1L614",
+            "P1L615",
+            "P1L616",
+            "P1L617",
+            "P1L618",
+            "P1L619",
+            "P1L620",
+            "P1L621",
+            "P1L622",
+            "P1L623",
+            "P1L624",
+            "P1L625",
+            "P1L626",
+            "P1L627",
+            "P1L628",
+            "P1L629",
+            "P1L630"
+          ],
+          "seq_interval": [
+            593,
+            629
+          ],
+          "semantics": "resolver question_label heuristic span (NOT questions_lines)"
+        }
+      },
+      "material_vs_sub_stem": {
+        "relation_by_seq": "subset",
+        "shared_manifest_line_numbers": [
+          594,
+          595,
+          596,
+          597,
+          598,
+          599,
+          600,
+          601,
+          602,
+          603,
+          604,
+          605,
+          606,
+          607,
+          608,
+          609,
+          610,
+          611,
+          612,
+          613,
+          614,
+          615,
+          616,
+          617,
+          618,
+          619,
+          620,
+          621,
+          622,
+          623,
+          624,
+          625,
+          626,
+          627
+        ],
+        "shared_line_count": 34
+      },
+      "resolver_overlap_rejection": {
+        "actual": true,
+        "rejection_point": "resolver.py:_enforce_material_overlap:628-658",
+        "evidence_verbatim": [
+          "overlaps stem span sp-U53.sub.stem (P1L594..P1L630)",
+          "material overlap → unresolved"
+        ],
+        "control_flow": "material initially resolved via marker pair → _enforce_material_overlap sees frozenset(line_refs)∩ other span → demote to UnresolvedReference(status=incomplete)"
+      },
+      "adapter_path": {
+        "file": "annotation_adapter.py:_build_composite:120-164",
+        "material_decl": "shared['material']={'role':'material'} only (no lines)",
+        "sub_creation": "single sub from parent unit via _leaf_content(unit)",
+        "questions_lines_consumed_by_adapter": false,
+        "gap_code": "SUB_QUESTION_DECOMPOSITION_UNAVAILABLE"
+      },
+      "overlap_target_kinds": {
+        "stem": 1
+      },
+      "overlaps_own_sub_stem": true
+    },
+    {
+      "unit_id": "Q37",
+      "document_id": "79b375ab-c33e-4979-8258-04d9fcaac59f",
+      "source_version_id": "0f7c3e77-dcab-44c4-b1e7-fe80c79f9d4f",
+      "file_name": "2018北京夏季高中会考政治（教师版）(1).md",
+      "material_lines": {
+        "start": 472,
+        "end": 496,
+        "semantics": "inclusive",
+        "seq_interval": [
+          471,
+          495
+        ]
+      },
+      "questions_lines": {
+        "start": 472,
+        "end": 541,
+        "semantics": "inclusive (Producer)",
+        "seq_interval": [
+          471,
+          540
+        ]
+      },
+      "material_vs_questions": {
+        "relation": "subset"
+      },
+      "sub_question": {
+        "decomposition_source": "_SUB_DECOMPOSITION=producer_region_as_single_sub",
+        "sub_unit_id": "Q37.sub",
+        "stem_declaration": "content.stem={role:stem, question_label: parent QN} via _leaf_content",
+        "stem_source_span": {
+          "span_id": null,
+          "line_refs": null,
+          "seq_interval": null,
+          "semantics": "resolver question_label heuristic span (NOT questions_lines)"
+        }
+      },
+      "material_vs_sub_stem": {
+        "relation_by_seq": "unknown",
+        "shared_manifest_line_numbers": [],
+        "shared_line_count": 0
+      },
+      "resolver_overlap_rejection": {
+        "actual": true,
+        "rejection_point": "resolver.py:_enforce_material_overlap:628-658",
+        "evidence_verbatim": [
+          "overlaps stem span sp-Q36.stem (P1L448..P1L544)",
+          "material overlap → unresolved"
+        ],
+        "control_flow": "material initially resolved via marker pair → _enforce_material_overlap sees frozenset(line_refs)∩ other span → demote to UnresolvedReference(status=incomplete)"
+      },
+      "adapter_path": {
+        "file": "annotation_adapter.py:_build_composite:120-164",
+        "material_decl": "shared['material']={'role':'material'} only (no lines)",
+        "sub_creation": "single sub from parent unit via _leaf_content(unit)",
+        "questions_lines_consumed_by_adapter": false,
+        "gap_code": "SUB_QUESTION_DECOMPOSITION_UNAVAILABLE"
+      },
+      "overlap_target_kinds": {
+        "stem": 1,
+        "other_unit_stem": 1
+      },
+      "overlaps_own_sub_stem": false
+    },
+    {
+      "unit_id": "Q1",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": {
+        "start": 497,
+        "end": 502,
+        "semantics": "inclusive",
+        "seq_interval": [
+          496,
+          501
+        ]
+      },
+      "questions_lines": {
+        "start": 9,
+        "end": 13,
+        "semantics": "inclusive (Producer)",
+        "seq_interval": [
+          8,
+          12
+        ]
+      },
+      "material_vs_questions": {
+        "relation": "disjoint"
+      },
+      "sub_question": {
+        "decomposition_source": "_SUB_DECOMPOSITION=producer_region_as_single_sub",
+        "sub_unit_id": "Q1.sub",
+        "stem_declaration": "content.stem={role:stem, question_label: parent QN} via _leaf_content",
+        "stem_source_span": {
+          "span_id": "sp-Q1.sub.stem",
+          "line_refs": [
+            "P1L011",
+            "P1L012",
+            "P1L013",
+            "P1L014",
+            "P1L015",
+            "P1L016"
+          ],
+          "seq_interval": [
+            10,
+            15
+          ],
+          "semantics": "resolver question_label heuristic span (NOT questions_lines)"
+        }
+      },
+      "material_vs_sub_stem": {
+        "relation_by_seq": "disjoint",
+        "shared_manifest_line_numbers": [],
+        "shared_line_count": 0
+      },
+      "resolver_overlap_rejection": {
+        "actual": true,
+        "rejection_point": "resolver.py:_enforce_material_overlap:628-658",
+        "evidence_verbatim": [
+          "overlaps stem span sp-Q1.sub.stem (P1L011..P1L016)",
+          "overlaps stem span sp-Q2.sub.stem (P1L017..P1L026)",
+          "overlaps stem span sp-Q3.sub.stem (P1L027..P1L030)",
+          "overlaps stem span sp-Q4.sub.stem (P1L031..P1L040)",
+          "overlaps stem span sp-Q5-6.sub.stem (P1L041..P1L044)",
+          "overlaps stem span sp-Q7-8.sub.stem (P1L051..P1L054)",
+          "overlaps stem span sp-Q9-11.sub.stem (P1L061..P1L064)",
+          "overlaps stem span sp-Q12-14.sub.stem (P1L077..P1L080)",
+          "overlaps stem span sp-Q15-17.sub.stem (P1L095..P1L102)",
+          "overlaps stem span sp-Q18-20.sub.stem (P1L113..P1L120)",
+          "overlaps answer span sp-Q18-20.sub.answer (P1L453..P1L453)",
+          "overlaps answer span sp-Q21-25.sub.answer (P1L455..P1L455)",
+          "overlaps stem span sp-U26-40.sub.stem (P1L158..P1L159)",
+          "overlaps answer span sp-U26-40.sub.answer (P1L459..P1L459)",
+          "overlaps stem span sp-U41-44.sub.stem (P1L208..P1L213)",
+          "overlaps answer span sp-U41-44.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U45-48.sub.stem (P1L270..P1L279)",
+          "overlaps answer span sp-U45-48.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U49-52.sub.stem (P1L317..P1L324)",
+          "overlaps answer span sp-U49-52.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U53-56.sub.stem (P1L363..P1L372)",
+          "overlaps answer span sp-U53-56.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U57-60.sub.stem (P1L409..P1L410)",
+          "overlaps answer span sp-U57-60.sub.answer (P1L465..P1L465)",
+          "overlaps material sp-Q2.material",
+          "overlaps material sp-Q4.material",
+          "overlaps material sp-Q5-6.material",
+          "overlaps material sp-Q7-8.material",
+          "overlaps material sp-Q18-20.material",
+          "overlaps material sp-U49-52.material",
+          "overlaps material sp-U53-56.material",
+          "overlaps material sp-U57-60.material",
+          "material overlap → unresolved"
+        ],
+        "control_flow": "material initially resolved via marker pair → _enforce_material_overlap sees frozenset(line_refs)∩ other span → demote to UnresolvedReference(status=incomplete)"
+      },
+      "adapter_path": {
+        "file": "annotation_adapter.py:_build_composite:120-164",
+        "material_decl": "shared['material']={'role':'material'} only (no lines)",
+        "sub_creation": "single sub from parent unit via _leaf_content(unit)",
+        "questions_lines_consumed_by_adapter": false,
+        "gap_code": "SUB_QUESTION_DECOMPOSITION_UNAVAILABLE"
+      },
+      "overlap_target_kinds": {
+        "stem": 16,
+        "other_unit_stem": 15,
+        "answer": 8,
+        "material": 8
+      },
+      "overlaps_own_sub_stem": true
+    },
+    {
+      "unit_id": "Q2",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": {
+        "start": 504,
+        "end": 507,
+        "semantics": "inclusive",
+        "seq_interval": [
+          503,
+          506
+        ]
+      },
+      "questions_lines": {
+        "start": 15,
+        "end": 23,
+        "semantics": "inclusive (Producer)",
+        "seq_interval": [
+          14,
+          22
+        ]
+      },
+      "material_vs_questions": {
+        "relation": "disjoint"
+      },
+      "sub_question": {
+        "decomposition_source": "_SUB_DECOMPOSITION=producer_region_as_single_sub",
+        "sub_unit_id": "Q2.sub",
+        "stem_declaration": "content.stem={role:stem, question_label: parent QN} via _leaf_content",
+        "stem_source_span": {
+          "span_id": "sp-Q2.sub.stem",
+          "line_refs": [
+            "P1L017",
+            "P1L018",
+            "P1L019",
+            "P1L020",
+            "P1L021",
+            "P1L022",
+            "P1L023",
+            "P1L024",
+            "P1L025",
+            "P1L026"
+          ],
+          "seq_interval": [
+            16,
+            25
+          ],
+          "semantics": "resolver question_label heuristic span (NOT questions_lines)"
+        }
+      },
+      "material_vs_sub_stem": {
+        "relation_by_seq": "disjoint",
+        "shared_manifest_line_numbers": [],
+        "shared_line_count": 0
+      },
+      "resolver_overlap_rejection": {
+        "actual": true,
+        "rejection_point": "resolver.py:_enforce_material_overlap:628-658",
+        "evidence_verbatim": [
+          "overlaps stem span sp-Q1.sub.stem (P1L011..P1L016)",
+          "overlaps stem span sp-Q2.sub.stem (P1L017..P1L026)",
+          "overlaps stem span sp-Q3.sub.stem (P1L027..P1L030)",
+          "overlaps stem span sp-Q4.sub.stem (P1L031..P1L040)",
+          "overlaps stem span sp-Q5-6.sub.stem (P1L041..P1L044)",
+          "overlaps stem span sp-Q7-8.sub.stem (P1L051..P1L054)",
+          "overlaps stem span sp-Q9-11.sub.stem (P1L061..P1L064)",
+          "overlaps stem span sp-Q12-14.sub.stem (P1L077..P1L080)",
+          "overlaps stem span sp-Q15-17.sub.stem (P1L095..P1L102)",
+          "overlaps stem span sp-Q18-20.sub.stem (P1L113..P1L120)",
+          "overlaps answer span sp-Q18-20.sub.answer (P1L453..P1L453)",
+          "overlaps answer span sp-Q21-25.sub.answer (P1L455..P1L455)",
+          "overlaps stem span sp-U26-40.sub.stem (P1L158..P1L159)",
+          "overlaps answer span sp-U26-40.sub.answer (P1L459..P1L459)",
+          "overlaps stem span sp-U41-44.sub.stem (P1L208..P1L213)",
+          "overlaps answer span sp-U41-44.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U45-48.sub.stem (P1L270..P1L279)",
+          "overlaps answer span sp-U45-48.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U49-52.sub.stem (P1L317..P1L324)",
+          "overlaps answer span sp-U49-52.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U53-56.sub.stem (P1L363..P1L372)",
+          "overlaps answer span sp-U53-56.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U57-60.sub.stem (P1L409..P1L410)",
+          "overlaps answer span sp-U57-60.sub.answer (P1L465..P1L465)",
+          "overlaps material sp-Q1.material",
+          "overlaps material sp-Q4.material",
+          "overlaps material sp-Q5-6.material",
+          "overlaps material sp-Q7-8.material",
+          "overlaps material sp-Q18-20.material",
+          "overlaps material sp-U49-52.material",
+          "overlaps material sp-U53-56.material",
+          "overlaps material sp-U57-60.material",
+          "material overlap → unresolved"
+        ],
+        "control_flow": "material initially resolved via marker pair → _enforce_material_overlap sees frozenset(line_refs)∩ other span → demote to UnresolvedReference(status=incomplete)"
+      },
+      "adapter_path": {
+        "file": "annotation_adapter.py:_build_composite:120-164",
+        "material_decl": "shared['material']={'role':'material'} only (no lines)",
+        "sub_creation": "single sub from parent unit via _leaf_content(unit)",
+        "questions_lines_consumed_by_adapter": false,
+        "gap_code": "SUB_QUESTION_DECOMPOSITION_UNAVAILABLE"
+      },
+      "overlap_target_kinds": {
+        "stem": 16,
+        "other_unit_stem": 15,
+        "answer": 8,
+        "material": 8
+      },
+      "overlaps_own_sub_stem": true
+    },
+    {
+      "unit_id": "Q3",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": {
+        "start": 509,
+        "end": 514,
+        "semantics": "inclusive",
+        "seq_interval": [
+          508,
+          513
+        ]
+      },
+      "questions_lines": {
+        "start": 25,
+        "end": 27,
+        "semantics": "inclusive (Producer)",
+        "seq_interval": [
+          24,
+          26
+        ]
+      },
+      "material_vs_questions": {
+        "relation": "disjoint"
+      },
+      "sub_question": {
+        "decomposition_source": "_SUB_DECOMPOSITION=producer_region_as_single_sub",
+        "sub_unit_id": "Q3.sub",
+        "stem_declaration": "content.stem={role:stem, question_label: parent QN} via _leaf_content",
+        "stem_source_span": {
+          "span_id": "sp-Q3.sub.stem",
+          "line_refs": [
+            "P1L027",
+            "P1L028",
+            "P1L029",
+            "P1L030"
+          ],
+          "seq_interval": [
+            26,
+            29
+          ],
+          "semantics": "resolver question_label heuristic span (NOT questions_lines)"
+        }
+      },
+      "material_vs_sub_stem": {
+        "relation_by_seq": "disjoint",
+        "shared_manifest_line_numbers": [],
+        "shared_line_count": 0
+      },
+      "resolver_overlap_rejection": {
+        "actual": true,
+        "rejection_point": "resolver.py:_enforce_material_overlap:628-658",
+        "evidence_verbatim": [
+          "overlaps material sp-Q4.material",
+          "overlaps material sp-Q5-6.material",
+          "overlaps material sp-Q7-8.material",
+          "overlaps material sp-Q18-20.material",
+          "material overlap → unresolved"
+        ],
+        "control_flow": "material initially resolved via marker pair → _enforce_material_overlap sees frozenset(line_refs)∩ other span → demote to UnresolvedReference(status=incomplete)"
+      },
+      "adapter_path": {
+        "file": "annotation_adapter.py:_build_composite:120-164",
+        "material_decl": "shared['material']={'role':'material'} only (no lines)",
+        "sub_creation": "single sub from parent unit via _leaf_content(unit)",
+        "questions_lines_consumed_by_adapter": false,
+        "gap_code": "SUB_QUESTION_DECOMPOSITION_UNAVAILABLE"
+      },
+      "overlap_target_kinds": {
+        "material": 4
+      },
+      "overlaps_own_sub_stem": false
+    },
+    {
+      "unit_id": "Q4",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": {
+        "start": 516,
+        "end": 520,
+        "semantics": "inclusive",
+        "seq_interval": [
+          515,
+          519
+        ]
+      },
+      "questions_lines": {
+        "start": 29,
+        "end": 37,
+        "semantics": "inclusive (Producer)",
+        "seq_interval": [
+          28,
+          36
+        ]
+      },
+      "material_vs_questions": {
+        "relation": "disjoint"
+      },
+      "sub_question": {
+        "decomposition_source": "_SUB_DECOMPOSITION=producer_region_as_single_sub",
+        "sub_unit_id": "Q4.sub",
+        "stem_declaration": "content.stem={role:stem, question_label: parent QN} via _leaf_content",
+        "stem_source_span": {
+          "span_id": "sp-Q4.sub.stem",
+          "line_refs": [
+            "P1L031",
+            "P1L032",
+            "P1L033",
+            "P1L034",
+            "P1L035",
+            "P1L036",
+            "P1L037",
+            "P1L038",
+            "P1L039",
+            "P1L040"
+          ],
+          "seq_interval": [
+            30,
+            39
+          ],
+          "semantics": "resolver question_label heuristic span (NOT questions_lines)"
+        }
+      },
+      "material_vs_sub_stem": {
+        "relation_by_seq": "disjoint",
+        "shared_manifest_line_numbers": [],
+        "shared_line_count": 0
+      },
+      "resolver_overlap_rejection": {
+        "actual": true,
+        "rejection_point": "resolver.py:_enforce_material_overlap:628-658",
+        "evidence_verbatim": [
+          "overlaps stem span sp-Q3.sub.stem (P1L027..P1L030)",
+          "overlaps stem span sp-Q4.sub.stem (P1L031..P1L040)",
+          "overlaps stem span sp-Q5-6.sub.stem (P1L041..P1L044)",
+          "overlaps stem span sp-Q7-8.sub.stem (P1L051..P1L054)",
+          "overlaps stem span sp-Q9-11.sub.stem (P1L061..P1L064)",
+          "overlaps stem span sp-Q12-14.sub.stem (P1L077..P1L080)",
+          "overlaps stem span sp-Q15-17.sub.stem (P1L095..P1L102)",
+          "overlaps stem span sp-Q18-20.sub.stem (P1L113..P1L120)",
+          "overlaps answer span sp-Q18-20.sub.answer (P1L453..P1L453)",
+          "overlaps answer span sp-Q21-25.sub.answer (P1L455..P1L455)",
+          "overlaps stem span sp-U26-40.sub.stem (P1L158..P1L159)",
+          "overlaps answer span sp-U26-40.sub.answer (P1L459..P1L459)",
+          "overlaps stem span sp-U41-44.sub.stem (P1L208..P1L213)",
+          "overlaps answer span sp-U41-44.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U45-48.sub.stem (P1L270..P1L279)",
+          "overlaps answer span sp-U45-48.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U49-52.sub.stem (P1L317..P1L324)",
+          "overlaps answer span sp-U49-52.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U53-56.sub.stem (P1L363..P1L372)",
+          "overlaps answer span sp-U53-56.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U57-60.sub.stem (P1L409..P1L410)",
+          "overlaps answer span sp-U57-60.sub.answer (P1L465..P1L465)",
+          "overlaps material sp-Q1.material",
+          "overlaps material sp-Q2.material",
+          "overlaps material sp-Q3.material",
+          "overlaps material sp-Q5-6.material",
+          "overlaps material sp-Q7-8.material",
+          "overlaps material sp-Q18-20.material",
+          "overlaps material sp-U49-52.material",
+          "overlaps material sp-U53-56.material",
+          "overlaps material sp-U57-60.material",
+          "material overlap → unresolved"
+        ],
+        "control_flow": "material initially resolved via marker pair → _enforce_material_overlap sees frozenset(line_refs)∩ other span → demote to UnresolvedReference(status=incomplete)"
+      },
+      "adapter_path": {
+        "file": "annotation_adapter.py:_build_composite:120-164",
+        "material_decl": "shared['material']={'role':'material'} only (no lines)",
+        "sub_creation": "single sub from parent unit via _leaf_content(unit)",
+        "questions_lines_consumed_by_adapter": false,
+        "gap_code": "SUB_QUESTION_DECOMPOSITION_UNAVAILABLE"
+      },
+      "overlap_target_kinds": {
+        "stem": 14,
+        "other_unit_stem": 13,
+        "answer": 8,
+        "material": 9
+      },
+      "overlaps_own_sub_stem": true
+    },
+    {
+      "unit_id": "Q5-6",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": {
+        "start": 522,
+        "end": 527,
+        "semantics": "inclusive",
+        "seq_interval": [
+          521,
+          526
+        ]
+      },
+      "questions_lines": {
+        "start": 39,
+        "end": 47,
+        "semantics": "inclusive (Producer)",
+        "seq_interval": [
+          38,
+          46
+        ]
+      },
+      "material_vs_questions": {
+        "relation": "disjoint"
+      },
+      "sub_question": {
+        "decomposition_source": "_SUB_DECOMPOSITION=producer_region_as_single_sub",
+        "sub_unit_id": "Q5-6.sub",
+        "stem_declaration": "content.stem={role:stem, question_label: parent QN} via _leaf_content",
+        "stem_source_span": {
+          "span_id": "sp-Q5-6.sub.stem",
+          "line_refs": [
+            "P1L041",
+            "P1L042",
+            "P1L043",
+            "P1L044"
+          ],
+          "seq_interval": [
+            40,
+            43
+          ],
+          "semantics": "resolver question_label heuristic span (NOT questions_lines)"
+        }
+      },
+      "material_vs_sub_stem": {
+        "relation_by_seq": "disjoint",
+        "shared_manifest_line_numbers": [],
+        "shared_line_count": 0
+      },
+      "resolver_overlap_rejection": {
+        "actual": true,
+        "rejection_point": "resolver.py:_enforce_material_overlap:628-658",
+        "evidence_verbatim": [
+          "overlaps stem span sp-Q4.sub.stem (P1L031..P1L040)",
+          "overlaps stem span sp-Q5-6.sub.stem (P1L041..P1L044)",
+          "overlaps stem span sp-Q7-8.sub.stem (P1L051..P1L054)",
+          "overlaps stem span sp-Q9-11.sub.stem (P1L061..P1L064)",
+          "overlaps stem span sp-Q12-14.sub.stem (P1L077..P1L080)",
+          "overlaps stem span sp-Q15-17.sub.stem (P1L095..P1L102)",
+          "overlaps stem span sp-Q18-20.sub.stem (P1L113..P1L120)",
+          "overlaps answer span sp-Q18-20.sub.answer (P1L453..P1L453)",
+          "overlaps answer span sp-Q21-25.sub.answer (P1L455..P1L455)",
+          "overlaps stem span sp-U26-40.sub.stem (P1L158..P1L159)",
+          "overlaps answer span sp-U26-40.sub.answer (P1L459..P1L459)",
+          "overlaps stem span sp-U41-44.sub.stem (P1L208..P1L213)",
+          "overlaps answer span sp-U41-44.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U45-48.sub.stem (P1L270..P1L279)",
+          "overlaps answer span sp-U45-48.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U49-52.sub.stem (P1L317..P1L324)",
+          "overlaps answer span sp-U49-52.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U53-56.sub.stem (P1L363..P1L372)",
+          "overlaps answer span sp-U53-56.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U57-60.sub.stem (P1L409..P1L410)",
+          "overlaps answer span sp-U57-60.sub.answer (P1L465..P1L465)",
+          "overlaps material sp-Q1.material",
+          "overlaps material sp-Q2.material",
+          "overlaps material sp-Q3.material",
+          "overlaps material sp-Q4.material",
+          "overlaps material sp-Q7-8.material",
+          "overlaps material sp-Q18-20.material",
+          "overlaps material sp-U49-52.material",
+          "overlaps material sp-U53-56.material",
+          "overlaps material sp-U57-60.material",
+          "material overlap → unresolved"
+        ],
+        "control_flow": "material initially resolved via marker pair → _enforce_material_overlap sees frozenset(line_refs)∩ other span → demote to UnresolvedReference(status=incomplete)"
+      },
+      "adapter_path": {
+        "file": "annotation_adapter.py:_build_composite:120-164",
+        "material_decl": "shared['material']={'role':'material'} only (no lines)",
+        "sub_creation": "single sub from parent unit via _leaf_content(unit)",
+        "questions_lines_consumed_by_adapter": false,
+        "gap_code": "SUB_QUESTION_DECOMPOSITION_UNAVAILABLE"
+      },
+      "overlap_target_kinds": {
+        "stem": 13,
+        "other_unit_stem": 12,
+        "answer": 8,
+        "material": 9
+      },
+      "overlaps_own_sub_stem": true
+    },
+    {
+      "unit_id": "Q7-8",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": {
+        "start": 529,
+        "end": 536,
+        "semantics": "inclusive",
+        "seq_interval": [
+          528,
+          535
+        ]
+      },
+      "questions_lines": {
+        "start": 49,
+        "end": 57,
+        "semantics": "inclusive (Producer)",
+        "seq_interval": [
+          48,
+          56
+        ]
+      },
+      "material_vs_questions": {
+        "relation": "disjoint"
+      },
+      "sub_question": {
+        "decomposition_source": "_SUB_DECOMPOSITION=producer_region_as_single_sub",
+        "sub_unit_id": "Q7-8.sub",
+        "stem_declaration": "content.stem={role:stem, question_label: parent QN} via _leaf_content",
+        "stem_source_span": {
+          "span_id": "sp-Q7-8.sub.stem",
+          "line_refs": [
+            "P1L051",
+            "P1L052",
+            "P1L053",
+            "P1L054"
+          ],
+          "seq_interval": [
+            50,
+            53
+          ],
+          "semantics": "resolver question_label heuristic span (NOT questions_lines)"
+        }
+      },
+      "material_vs_sub_stem": {
+        "relation_by_seq": "disjoint",
+        "shared_manifest_line_numbers": [],
+        "shared_line_count": 0
+      },
+      "resolver_overlap_rejection": {
+        "actual": true,
+        "rejection_point": "resolver.py:_enforce_material_overlap:628-658",
+        "evidence_verbatim": [
+          "overlaps stem span sp-Q7-8.sub.stem (P1L051..P1L054)",
+          "overlaps stem span sp-Q9-11.sub.stem (P1L061..P1L064)",
+          "overlaps stem span sp-Q12-14.sub.stem (P1L077..P1L080)",
+          "overlaps stem span sp-Q15-17.sub.stem (P1L095..P1L102)",
+          "overlaps stem span sp-Q18-20.sub.stem (P1L113..P1L120)",
+          "overlaps answer span sp-Q18-20.sub.answer (P1L453..P1L453)",
+          "overlaps answer span sp-Q21-25.sub.answer (P1L455..P1L455)",
+          "overlaps stem span sp-U26-40.sub.stem (P1L158..P1L159)",
+          "overlaps answer span sp-U26-40.sub.answer (P1L459..P1L459)",
+          "overlaps stem span sp-U41-44.sub.stem (P1L208..P1L213)",
+          "overlaps answer span sp-U41-44.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U45-48.sub.stem (P1L270..P1L279)",
+          "overlaps answer span sp-U45-48.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U49-52.sub.stem (P1L317..P1L324)",
+          "overlaps answer span sp-U49-52.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U53-56.sub.stem (P1L363..P1L372)",
+          "overlaps answer span sp-U53-56.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U57-60.sub.stem (P1L409..P1L410)",
+          "overlaps answer span sp-U57-60.sub.answer (P1L465..P1L465)",
+          "overlaps material sp-Q1.material",
+          "overlaps material sp-Q2.material",
+          "overlaps material sp-Q3.material",
+          "overlaps material sp-Q4.material",
+          "overlaps material sp-Q5-6.material",
+          "overlaps material sp-Q18-20.material",
+          "overlaps material sp-U49-52.material",
+          "overlaps material sp-U53-56.material",
+          "overlaps material sp-U57-60.material",
+          "material overlap → unresolved"
+        ],
+        "control_flow": "material initially resolved via marker pair → _enforce_material_overlap sees frozenset(line_refs)∩ other span → demote to UnresolvedReference(status=incomplete)"
+      },
+      "adapter_path": {
+        "file": "annotation_adapter.py:_build_composite:120-164",
+        "material_decl": "shared['material']={'role':'material'} only (no lines)",
+        "sub_creation": "single sub from parent unit via _leaf_content(unit)",
+        "questions_lines_consumed_by_adapter": false,
+        "gap_code": "SUB_QUESTION_DECOMPOSITION_UNAVAILABLE"
+      },
+      "overlap_target_kinds": {
+        "stem": 11,
+        "other_unit_stem": 10,
+        "answer": 8,
+        "material": 9
+      },
+      "overlaps_own_sub_stem": true
+    },
+    {
+      "unit_id": "Q9-11",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": {
+        "start": 538,
+        "end": 541,
+        "semantics": "inclusive",
+        "seq_interval": [
+          537,
+          540
+        ]
+      },
+      "questions_lines": {
+        "start": 59,
+        "end": 71,
+        "semantics": "inclusive (Producer)",
+        "seq_interval": [
+          58,
+          70
+        ]
+      },
+      "material_vs_questions": {
+        "relation": "disjoint"
+      },
+      "sub_question": {
+        "decomposition_source": "_SUB_DECOMPOSITION=producer_region_as_single_sub",
+        "sub_unit_id": "Q9-11.sub",
+        "stem_declaration": "content.stem={role:stem, question_label: parent QN} via _leaf_content",
+        "stem_source_span": {
+          "span_id": "sp-Q9-11.sub.stem",
+          "line_refs": [
+            "P1L061",
+            "P1L062",
+            "P1L063",
+            "P1L064"
+          ],
+          "seq_interval": [
+            60,
+            63
+          ],
+          "semantics": "resolver question_label heuristic span (NOT questions_lines)"
+        }
+      },
+      "material_vs_sub_stem": {
+        "relation_by_seq": "disjoint",
+        "shared_manifest_line_numbers": [],
+        "shared_line_count": 0
+      },
+      "resolver_overlap_rejection": {
+        "actual": true,
+        "rejection_point": "resolver.py:_enforce_material_overlap:628-658",
+        "evidence_verbatim": [
+          "overlaps material sp-Q18-20.material",
+          "material overlap → unresolved"
+        ],
+        "control_flow": "material initially resolved via marker pair → _enforce_material_overlap sees frozenset(line_refs)∩ other span → demote to UnresolvedReference(status=incomplete)"
+      },
+      "adapter_path": {
+        "file": "annotation_adapter.py:_build_composite:120-164",
+        "material_decl": "shared['material']={'role':'material'} only (no lines)",
+        "sub_creation": "single sub from parent unit via _leaf_content(unit)",
+        "questions_lines_consumed_by_adapter": false,
+        "gap_code": "SUB_QUESTION_DECOMPOSITION_UNAVAILABLE"
+      },
+      "overlap_target_kinds": {
+        "material": 1
+      },
+      "overlaps_own_sub_stem": false
+    },
+    {
+      "unit_id": "Q12-14",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": {
+        "start": 543,
+        "end": 561,
+        "semantics": "inclusive",
+        "seq_interval": [
+          542,
+          560
+        ]
+      },
+      "questions_lines": {
+        "start": 73,
+        "end": 91,
+        "semantics": "inclusive (Producer)",
+        "seq_interval": [
+          72,
+          90
+        ]
+      },
+      "material_vs_questions": {
+        "relation": "disjoint"
+      },
+      "sub_question": {
+        "decomposition_source": "_SUB_DECOMPOSITION=producer_region_as_single_sub",
+        "sub_unit_id": "Q12-14.sub",
+        "stem_declaration": "content.stem={role:stem, question_label: parent QN} via _leaf_content",
+        "stem_source_span": {
+          "span_id": "sp-Q12-14.sub.stem",
+          "line_refs": [
+            "P1L077",
+            "P1L078",
+            "P1L079",
+            "P1L080"
+          ],
+          "seq_interval": [
+            76,
+            79
+          ],
+          "semantics": "resolver question_label heuristic span (NOT questions_lines)"
+        }
+      },
+      "material_vs_sub_stem": {
+        "relation_by_seq": "disjoint",
+        "shared_manifest_line_numbers": [],
+        "shared_line_count": 0
+      },
+      "resolver_overlap_rejection": {
+        "actual": true,
+        "rejection_point": "resolver.py:_enforce_material_overlap:628-658",
+        "evidence_verbatim": [
+          "overlaps material sp-Q18-20.material",
+          "material overlap → unresolved"
+        ],
+        "control_flow": "material initially resolved via marker pair → _enforce_material_overlap sees frozenset(line_refs)∩ other span → demote to UnresolvedReference(status=incomplete)"
+      },
+      "adapter_path": {
+        "file": "annotation_adapter.py:_build_composite:120-164",
+        "material_decl": "shared['material']={'role':'material'} only (no lines)",
+        "sub_creation": "single sub from parent unit via _leaf_content(unit)",
+        "questions_lines_consumed_by_adapter": false,
+        "gap_code": "SUB_QUESTION_DECOMPOSITION_UNAVAILABLE"
+      },
+      "overlap_target_kinds": {
+        "material": 1
+      },
+      "overlaps_own_sub_stem": false
+    },
+    {
+      "unit_id": "Q15-17",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": {
+        "start": 563,
+        "end": 578,
+        "semantics": "inclusive",
+        "seq_interval": [
+          562,
+          577
+        ]
+      },
+      "questions_lines": {
+        "start": 93,
+        "end": 109,
+        "semantics": "inclusive (Producer)",
+        "seq_interval": [
+          92,
+          108
+        ]
+      },
+      "material_vs_questions": {
+        "relation": "disjoint"
+      },
+      "sub_question": {
+        "decomposition_source": "_SUB_DECOMPOSITION=producer_region_as_single_sub",
+        "sub_unit_id": "Q15-17.sub",
+        "stem_declaration": "content.stem={role:stem, question_label: parent QN} via _leaf_content",
+        "stem_source_span": {
+          "span_id": "sp-Q15-17.sub.stem",
+          "line_refs": [
+            "P1L095",
+            "P1L096",
+            "P1L097",
+            "P1L098",
+            "P1L099",
+            "P1L100",
+            "P1L101",
+            "P1L102"
+          ],
+          "seq_interval": [
+            94,
+            101
+          ],
+          "semantics": "resolver question_label heuristic span (NOT questions_lines)"
+        }
+      },
+      "material_vs_sub_stem": {
+        "relation_by_seq": "disjoint",
+        "shared_manifest_line_numbers": [],
+        "shared_line_count": 0
+      },
+      "resolver_overlap_rejection": {
+        "actual": true,
+        "rejection_point": "resolver.py:_enforce_material_overlap:628-658",
+        "evidence_verbatim": [
+          "overlaps answer span sp-Q3.sub.answer (P1L577..P1L577)",
+          "overlaps answer span sp-Q4.sub.answer (P1L576..P1L576)",
+          "overlaps material sp-Q18-20.material",
+          "material overlap → unresolved"
+        ],
+        "control_flow": "material initially resolved via marker pair → _enforce_material_overlap sees frozenset(line_refs)∩ other span → demote to UnresolvedReference(status=incomplete)"
+      },
+      "adapter_path": {
+        "file": "annotation_adapter.py:_build_composite:120-164",
+        "material_decl": "shared['material']={'role':'material'} only (no lines)",
+        "sub_creation": "single sub from parent unit via _leaf_content(unit)",
+        "questions_lines_consumed_by_adapter": false,
+        "gap_code": "SUB_QUESTION_DECOMPOSITION_UNAVAILABLE"
+      },
+      "overlap_target_kinds": {
+        "answer": 2,
+        "material": 1
+      },
+      "overlaps_own_sub_stem": false
+    },
+    {
+      "unit_id": "Q18-20",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": {
+        "start": 580,
+        "end": 584,
+        "semantics": "inclusive",
+        "seq_interval": [
+          579,
+          583
+        ]
+      },
+      "questions_lines": {
+        "start": 111,
+        "end": 127,
+        "semantics": "inclusive (Producer)",
+        "seq_interval": [
+          110,
+          126
+        ]
+      },
+      "material_vs_questions": {
+        "relation": "disjoint"
+      },
+      "sub_question": {
+        "decomposition_source": "_SUB_DECOMPOSITION=producer_region_as_single_sub",
+        "sub_unit_id": "Q18-20.sub",
+        "stem_declaration": "content.stem={role:stem, question_label: parent QN} via _leaf_content",
+        "stem_source_span": {
+          "span_id": "sp-Q18-20.sub.stem",
+          "line_refs": [
+            "P1L113",
+            "P1L114",
+            "P1L115",
+            "P1L116",
+            "P1L117",
+            "P1L118",
+            "P1L119",
+            "P1L120"
+          ],
+          "seq_interval": [
+            112,
+            119
+          ],
+          "semantics": "resolver question_label heuristic span (NOT questions_lines)"
+        }
+      },
+      "material_vs_sub_stem": {
+        "relation_by_seq": "disjoint",
+        "shared_manifest_line_numbers": [],
+        "shared_line_count": 0
+      },
+      "resolver_overlap_rejection": {
+        "actual": true,
+        "rejection_point": "resolver.py:_enforce_material_overlap:628-658",
+        "evidence_verbatim": [
+          "overlaps answer span sp-Q3.sub.answer (P1L577..P1L577)",
+          "overlaps answer span sp-Q4.sub.answer (P1L576..P1L576)",
+          "overlaps stem span sp-Q18-20.sub.stem (P1L113..P1L120)",
+          "overlaps answer span sp-Q18-20.sub.answer (P1L453..P1L453)",
+          "overlaps answer span sp-Q21-25.sub.answer (P1L455..P1L455)",
+          "overlaps stem span sp-U26-40.sub.stem (P1L158..P1L159)",
+          "overlaps answer span sp-U26-40.sub.answer (P1L459..P1L459)",
+          "overlaps stem span sp-U41-44.sub.stem (P1L208..P1L213)",
+          "overlaps answer span sp-U41-44.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U45-48.sub.stem (P1L270..P1L279)",
+          "overlaps answer span sp-U45-48.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U49-52.sub.stem (P1L317..P1L324)",
+          "overlaps answer span sp-U49-52.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U53-56.sub.stem (P1L363..P1L372)",
+          "overlaps answer span sp-U53-56.sub.answer (P1L463..P1L463)",
+          "overlaps stem span sp-U57-60.sub.stem (P1L409..P1L410)",
+          "overlaps answer span sp-U57-60.sub.answer (P1L465..P1L465)",
+          "overlaps material sp-Q1.material",
+          "overlaps material sp-Q2.material",
+          "overlaps material sp-Q3.material",
+          "overlaps material sp-Q4.material",
+          "overlaps material sp-Q5-6.material",
+          "overlaps material sp-Q7-8.material",
+          "overlaps material sp-Q9-11.material",
+          "overlaps material sp-Q12-14.material",
+          "overlaps material sp-Q15-17.material",
+          "overlaps material sp-U49-52.material",
+          "overlaps material sp-U53-56.material",
+          "overlaps material sp-U57-60.material",
+          "material overlap → unresolved"
+        ],
+        "control_flow": "material initially resolved via marker pair → _enforce_material_overlap sees frozenset(line_refs)∩ other span → demote to UnresolvedReference(status=incomplete)"
+      },
+      "adapter_path": {
+        "file": "annotation_adapter.py:_build_composite:120-164",
+        "material_decl": "shared['material']={'role':'material'} only (no lines)",
+        "sub_creation": "single sub from parent unit via _leaf_content(unit)",
+        "questions_lines_consumed_by_adapter": false,
+        "gap_code": "SUB_QUESTION_DECOMPOSITION_UNAVAILABLE"
+      },
+      "overlap_target_kinds": {
+        "answer": 10,
+        "stem": 7,
+        "other_unit_stem": 6,
+        "material": 12
+      },
+      "overlaps_own_sub_stem": true
+    },
+    {
+      "unit_id": "Q21-25",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": {
+        "start": 586,
+        "end": 610,
+        "semantics": "inclusive",
+        "seq_interval": [
+          585,
+          609
+        ]
+      },
+      "questions_lines": {
+        "start": 129,
+        "end": 132,
+        "semantics": "inclusive (Producer)",
+        "seq_interval": [
+          128,
+          131
+        ]
+      },
+      "material_vs_questions": {
+        "relation": "disjoint"
+      },
+      "sub_question": {
+        "decomposition_source": "_SUB_DECOMPOSITION=producer_region_as_single_sub",
+        "sub_unit_id": "Q21-25.sub",
+        "stem_declaration": "content.stem={role:stem, question_label: parent QN} via _leaf_content",
+        "stem_source_span": {
+          "span_id": null,
+          "line_refs": null,
+          "seq_interval": null,
+          "semantics": "resolver question_label heuristic span (NOT questions_lines)"
+        }
+      },
+      "material_vs_sub_stem": {
+        "relation_by_seq": "unknown",
+        "shared_manifest_line_numbers": [],
+        "shared_line_count": 0
+      },
+      "resolver_overlap_rejection": {
+        "actual": true,
+        "rejection_point": "resolver.py:_enforce_material_overlap:628-658",
+        "evidence_verbatim": [
+          "overlaps answer span sp-Q12-14.sub.answer (P1L593..P1L593)",
+          "material overlap → unresolved"
+        ],
+        "control_flow": "material initially resolved via marker pair → _enforce_material_overlap sees frozenset(line_refs)∩ other span → demote to UnresolvedReference(status=incomplete)"
+      },
+      "adapter_path": {
+        "file": "annotation_adapter.py:_build_composite:120-164",
+        "material_decl": "shared['material']={'role':'material'} only (no lines)",
+        "sub_creation": "single sub from parent unit via _leaf_content(unit)",
+        "questions_lines_consumed_by_adapter": false,
+        "gap_code": "SUB_QUESTION_DECOMPOSITION_UNAVAILABLE"
+      },
+      "overlap_target_kinds": {
+        "answer": 1
+      },
+      "overlaps_own_sub_stem": false
+    },
+    {
+      "unit_id": "U49-52",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": {
+        "start": 298,
+        "end": 315,
+        "semantics": "inclusive",
+        "seq_interval": [
+          297,
+          314
+        ]
+      },
+      "questions_lines": {
+        "start": 298,
+        "end": 339,
+        "semantics": "inclusive (Producer)",
+        "seq_interval": [
+          297,
+          338
+        ]
+      },
+      "material_vs_questions": {
+        "relation": "subset"
+      },
+      "sub_question": {
+        "decomposition_source": "_SUB_DECOMPOSITION=producer_region_as_single_sub",
+        "sub_unit_id": "U49-52.sub",
+        "stem_declaration": "content.stem={role:stem, question_label: parent QN} via _leaf_content",
+        "stem_source_span": {
+          "span_id": "sp-U49-52.sub.stem",
+          "line_refs": [
+            "P1L317",
+            "P1L318",
+            "P1L319",
+            "P1L320",
+            "P1L321",
+            "P1L322",
+            "P1L323",
+            "P1L324"
+          ],
+          "seq_interval": [
+            316,
+            323
+          ],
+          "semantics": "resolver question_label heuristic span (NOT questions_lines)"
+        }
+      },
+      "material_vs_sub_stem": {
+        "relation_by_seq": "disjoint",
+        "shared_manifest_line_numbers": [],
+        "shared_line_count": 0
+      },
+      "resolver_overlap_rejection": {
+        "actual": true,
+        "rejection_point": "resolver.py:_enforce_material_overlap:628-658",
+        "evidence_verbatim": [
+          "overlaps material sp-Q1.material",
+          "overlaps material sp-Q2.material",
+          "overlaps material sp-Q4.material",
+          "overlaps material sp-Q5-6.material",
+          "overlaps material sp-Q7-8.material",
+          "overlaps material sp-Q18-20.material",
+          "material overlap → unresolved"
+        ],
+        "control_flow": "material initially resolved via marker pair → _enforce_material_overlap sees frozenset(line_refs)∩ other span → demote to UnresolvedReference(status=incomplete)"
+      },
+      "adapter_path": {
+        "file": "annotation_adapter.py:_build_composite:120-164",
+        "material_decl": "shared['material']={'role':'material'} only (no lines)",
+        "sub_creation": "single sub from parent unit via _leaf_content(unit)",
+        "questions_lines_consumed_by_adapter": false,
+        "gap_code": "SUB_QUESTION_DECOMPOSITION_UNAVAILABLE"
+      },
+      "overlap_target_kinds": {
+        "material": 6
+      },
+      "overlaps_own_sub_stem": false
+    },
+    {
+      "unit_id": "U53-56",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": {
+        "start": 341,
+        "end": 361,
+        "semantics": "inclusive",
+        "seq_interval": [
+          340,
+          360
+        ]
+      },
+      "questions_lines": {
+        "start": 341,
+        "end": 397,
+        "semantics": "inclusive (Producer)",
+        "seq_interval": [
+          340,
+          396
+        ]
+      },
+      "material_vs_questions": {
+        "relation": "subset"
+      },
+      "sub_question": {
+        "decomposition_source": "_SUB_DECOMPOSITION=producer_region_as_single_sub",
+        "sub_unit_id": "U53-56.sub",
+        "stem_declaration": "content.stem={role:stem, question_label: parent QN} via _leaf_content",
+        "stem_source_span": {
+          "span_id": "sp-U53-56.sub.stem",
+          "line_refs": [
+            "P1L363",
+            "P1L364",
+            "P1L365",
+            "P1L366",
+            "P1L367",
+            "P1L368",
+            "P1L369",
+            "P1L370",
+            "P1L371",
+            "P1L372"
+          ],
+          "seq_interval": [
+            362,
+            371
+          ],
+          "semantics": "resolver question_label heuristic span (NOT questions_lines)"
+        }
+      },
+      "material_vs_sub_stem": {
+        "relation_by_seq": "disjoint",
+        "shared_manifest_line_numbers": [],
+        "shared_line_count": 0
+      },
+      "resolver_overlap_rejection": {
+        "actual": true,
+        "rejection_point": "resolver.py:_enforce_material_overlap:628-658",
+        "evidence_verbatim": [
+          "overlaps material sp-Q1.material",
+          "overlaps material sp-Q2.material",
+          "overlaps material sp-Q4.material",
+          "overlaps material sp-Q5-6.material",
+          "overlaps material sp-Q7-8.material",
+          "overlaps material sp-Q18-20.material",
+          "material overlap → unresolved"
+        ],
+        "control_flow": "material initially resolved via marker pair → _enforce_material_overlap sees frozenset(line_refs)∩ other span → demote to UnresolvedReference(status=incomplete)"
+      },
+      "adapter_path": {
+        "file": "annotation_adapter.py:_build_composite:120-164",
+        "material_decl": "shared['material']={'role':'material'} only (no lines)",
+        "sub_creation": "single sub from parent unit via _leaf_content(unit)",
+        "questions_lines_consumed_by_adapter": false,
+        "gap_code": "SUB_QUESTION_DECOMPOSITION_UNAVAILABLE"
+      },
+      "overlap_target_kinds": {
+        "material": 6
+      },
+      "overlaps_own_sub_stem": false
+    },
+    {
+      "unit_id": "U57-60",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": {
+        "start": 401,
+        "end": 407,
+        "semantics": "inclusive",
+        "seq_interval": [
+          400,
+          406
+        ]
+      },
+      "questions_lines": {
+        "start": 401,
+        "end": 417,
+        "semantics": "inclusive (Producer)",
+        "seq_interval": [
+          400,
+          416
+        ]
+      },
+      "material_vs_questions": {
+        "relation": "subset"
+      },
+      "sub_question": {
+        "decomposition_source": "_SUB_DECOMPOSITION=producer_region_as_single_sub",
+        "sub_unit_id": "U57-60.sub",
+        "stem_declaration": "content.stem={role:stem, question_label: parent QN} via _leaf_content",
+        "stem_source_span": {
+          "span_id": "sp-U57-60.sub.stem",
+          "line_refs": [
+            "P1L409",
+            "P1L410"
+          ],
+          "seq_interval": [
+            408,
+            409
+          ],
+          "semantics": "resolver question_label heuristic span (NOT questions_lines)"
+        }
+      },
+      "material_vs_sub_stem": {
+        "relation_by_seq": "disjoint",
+        "shared_manifest_line_numbers": [],
+        "shared_line_count": 0
+      },
+      "resolver_overlap_rejection": {
+        "actual": true,
+        "rejection_point": "resolver.py:_enforce_material_overlap:628-658",
+        "evidence_verbatim": [
+          "overlaps material sp-Q1.material",
+          "overlaps material sp-Q2.material",
+          "overlaps material sp-Q4.material",
+          "overlaps material sp-Q5-6.material",
+          "overlaps material sp-Q7-8.material",
+          "overlaps material sp-Q18-20.material",
+          "material overlap → unresolved"
+        ],
+        "control_flow": "material initially resolved via marker pair → _enforce_material_overlap sees frozenset(line_refs)∩ other span → demote to UnresolvedReference(status=incomplete)"
+      },
+      "adapter_path": {
+        "file": "annotation_adapter.py:_build_composite:120-164",
+        "material_decl": "shared['material']={'role':'material'} only (no lines)",
+        "sub_creation": "single sub from parent unit via _leaf_content(unit)",
+        "questions_lines_consumed_by_adapter": false,
+        "gap_code": "SUB_QUESTION_DECOMPOSITION_UNAVAILABLE"
+      },
+      "overlap_target_kinds": {
+        "material": 6
+      },
+      "overlaps_own_sub_stem": false
+    },
+    {
+      "unit_id": "U10-13",
+      "document_id": "6ecd4e6f-b88d-4be4-a6ea-42bfe1185341",
+      "source_version_id": "b155783e-7c29-4b9f-a03f-dcaa1e1e6bcb",
+      "file_name": "2018北京春季高中会考语文（教师版）(1).md",
+      "material_lines": {
+        "start": 80,
+        "end": 188,
+        "semantics": "inclusive",
+        "seq_interval": [
+          79,
+          187
+        ]
+      },
+      "questions_lines": {
+        "start": 80,
+        "end": 234,
+        "semantics": "inclusive (Producer)",
+        "seq_interval": [
+          79,
+          233
+        ]
+      },
+      "material_vs_questions": {
+        "relation": "subset"
+      },
+      "sub_question": {
+        "decomposition_source": "_SUB_DECOMPOSITION=producer_region_as_single_sub",
+        "sub_unit_id": "U10-13.sub",
+        "stem_declaration": "content.stem={role:stem, question_label: parent QN} via _leaf_content",
+        "stem_source_span": {
+          "span_id": "sp-U10-13.sub.stem",
+          "line_refs": [
+            "P1L190",
+            "P1L191",
+            "P1L192",
+            "P1L193",
+            "P1L194",
+            "P1L195",
+            "P1L196",
+            "P1L197",
+            "P1L198",
+            "P1L199"
+          ],
+          "seq_interval": [
+            189,
+            198
+          ],
+          "semantics": "resolver question_label heuristic span (NOT questions_lines)"
+        }
+      },
+      "material_vs_sub_stem": {
+        "relation_by_seq": "disjoint",
+        "shared_manifest_line_numbers": [],
+        "shared_line_count": 0
+      },
+      "resolver_overlap_rejection": {
+        "actual": true,
+        "rejection_point": "resolver.py:_enforce_material_overlap:628-658",
+        "evidence_verbatim": [
+          "overlaps stem span sp-Q9.stem (P1L076..P1L189)",
+          "material overlap → unresolved"
+        ],
+        "control_flow": "material initially resolved via marker pair → _enforce_material_overlap sees frozenset(line_refs)∩ other span → demote to UnresolvedReference(status=incomplete)"
+      },
+      "adapter_path": {
+        "file": "annotation_adapter.py:_build_composite:120-164",
+        "material_decl": "shared['material']={'role':'material'} only (no lines)",
+        "sub_creation": "single sub from parent unit via _leaf_content(unit)",
+        "questions_lines_consumed_by_adapter": false,
+        "gap_code": "SUB_QUESTION_DECOMPOSITION_UNAVAILABLE"
+      },
+      "overlap_target_kinds": {
+        "stem": 1,
+        "other_unit_stem": 1
+      },
+      "overlaps_own_sub_stem": false
+    },
+    {
+      "unit_id": "U14",
+      "document_id": "6ecd4e6f-b88d-4be4-a6ea-42bfe1185341",
+      "source_version_id": "b155783e-7c29-4b9f-a03f-dcaa1e1e6bcb",
+      "file_name": "2018北京春季高中会考语文（教师版）(1).md",
+      "material_lines": {
+        "start": 246,
+        "end": 260,
+        "semantics": "inclusive",
+        "seq_interval": [
+          245,
+          259
+        ]
+      },
+      "questions_lines": {
+        "start": 244,
+        "end": 282,
+        "semantics": "inclusive (Producer)",
+        "seq_interval": [
+          243,
+          281
+        ]
+      },
+      "material_vs_questions": {
+        "relation": "subset"
+      },
+      "sub_question": {
+        "decomposition_source": "_SUB_DECOMPOSITION=producer_region_as_single_sub",
+        "sub_unit_id": "U14.sub",
+        "stem_declaration": "content.stem={role:stem, question_label: parent QN} via _leaf_content",
+        "stem_source_span": {
+          "span_id": "sp-U14.sub.stem",
+          "line_refs": [
+            "P1L244",
+            "P1L245",
+            "P1L246",
+            "P1L247",
+            "P1L248",
+            "P1L249",
+            "P1L250",
+            "P1L251",
+            "P1L252",
+            "P1L253",
+            "P1L254",
+            "P1L255",
+            "P1L256",
+            "P1L257",
+            "P1L258",
+            "P1L259",
+            "P1L260",
+            "P1L261",
+            "P1L262",
+            "P1L263",
+            "P1L264",
+            "P1L265",
+            "P1L266",
+            "P1L267",
+            "P1L268",
+            "P1L269",
+            "P1L270",
+            "P1L271",
+            "P1L272",
+            "P1L273",
+            "P1L274",
+            "P1L275",
+            "P1L276",
+            "P1L277",
+            "P1L278",
+            "P1L279",
+            "P1L280",
+            "P1L281",
+            "P1L282",
+            "P1L283",
+            "P1L284",
+            "P1L285"
+          ],
+          "seq_interval": [
+            243,
+            284
+          ],
+          "semantics": "resolver question_label heuristic span (NOT questions_lines)"
+        }
+      },
+      "material_vs_sub_stem": {
+        "relation_by_seq": "subset",
+        "shared_manifest_line_numbers": [
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260
+        ],
+        "shared_line_count": 15
+      },
+      "resolver_overlap_rejection": {
+        "actual": true,
+        "rejection_point": "resolver.py:_enforce_material_overlap:628-658",
+        "evidence_verbatim": [
+          "overlaps stem span sp-U14.sub.stem (P1L244..P1L285)",
+          "material overlap → unresolved"
+        ],
+        "control_flow": "material initially resolved via marker pair → _enforce_material_overlap sees frozenset(line_refs)∩ other span → demote to UnresolvedReference(status=incomplete)"
+      },
+      "adapter_path": {
+        "file": "annotation_adapter.py:_build_composite:120-164",
+        "material_decl": "shared['material']={'role':'material'} only (no lines)",
+        "sub_creation": "single sub from parent unit via _leaf_content(unit)",
+        "questions_lines_consumed_by_adapter": false,
+        "gap_code": "SUB_QUESTION_DECOMPOSITION_UNAVAILABLE"
+      },
+      "overlap_target_kinds": {
+        "stem": 1
+      },
+      "overlaps_own_sub_stem": true
+    },
+    {
+      "unit_id": "U15",
+      "document_id": "6ecd4e6f-b88d-4be4-a6ea-42bfe1185341",
+      "source_version_id": "b155783e-7c29-4b9f-a03f-dcaa1e1e6bcb",
+      "file_name": "2018北京春季高中会考语文（教师版）(1).md",
+      "material_lines": {
+        "start": 288,
+        "end": 308,
+        "semantics": "inclusive",
+        "seq_interval": [
+          287,
+          307
+        ]
+      },
+      "questions_lines": {
+        "start": 286,
+        "end": 324,
+        "semantics": "inclusive (Producer)",
+        "seq_interval": [
+          285,
+          323
+        ]
+      },
+      "material_vs_questions": {
+        "relation": "subset"
+      },
+      "sub_question": {
+        "decomposition_source": "_SUB_DECOMPOSITION=producer_region_as_single_sub",
+        "sub_unit_id": "U15.sub",
+        "stem_declaration": "content.stem={role:stem, question_label: parent QN} via _leaf_content",
+        "stem_source_span": {
+          "span_id": "sp-U15.sub.stem",
+          "line_refs": [
+            "P1L286",
+            "P1L287",
+            "P1L288",
+            "P1L289",
+            "P1L290",
+            "P1L291",
+            "P1L292",
+            "P1L293",
+            "P1L294",
+            "P1L295",
+            "P1L296",
+            "P1L297",
+            "P1L298",
+            "P1L299",
+            "P1L300",
+            "P1L301",
+            "P1L302",
+            "P1L303",
+            "P1L304",
+            "P1L305",
+            "P1L306",
+            "P1L307",
+            "P1L308",
+            "P1L309",
+            "P1L310",
+            "P1L311",
+            "P1L312",
+            "P1L313",
+            "P1L314",
+            "P1L315",
+            "P1L316",
+            "P1L317",
+            "P1L318",
+            "P1L319",
+            "P1L320",
+            "P1L321",
+            "P1L322",
+            "P1L323",
+            "P1L324",
+            "P1L325",
+            "P1L326",
+            "P1L327",
+            "P1L328",
+            "P1L329"
+          ],
+          "seq_interval": [
+            285,
+            328
+          ],
+          "semantics": "resolver question_label heuristic span (NOT questions_lines)"
+        }
+      },
+      "material_vs_sub_stem": {
+        "relation_by_seq": "subset",
+        "shared_manifest_line_numbers": [
+          288,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308
+        ],
+        "shared_line_count": 21
+      },
+      "resolver_overlap_rejection": {
+        "actual": true,
+        "rejection_point": "resolver.py:_enforce_material_overlap:628-658",
+        "evidence_verbatim": [
+          "overlaps stem span sp-U15.sub.stem (P1L286..P1L329)",
+          "material overlap → unresolved"
+        ],
+        "control_flow": "material initially resolved via marker pair → _enforce_material_overlap sees frozenset(line_refs)∩ other span → demote to UnresolvedReference(status=incomplete)"
+      },
+      "adapter_path": {
+        "file": "annotation_adapter.py:_build_composite:120-164",
+        "material_decl": "shared['material']={'role':'material'} only (no lines)",
+        "sub_creation": "single sub from parent unit via _leaf_content(unit)",
+        "questions_lines_consumed_by_adapter": false,
+        "gap_code": "SUB_QUESTION_DECOMPOSITION_UNAVAILABLE"
+      },
+      "overlap_target_kinds": {
+        "stem": 1
+      },
+      "overlaps_own_sub_stem": true
+    }
+  ],
+  "aggregate_patterns": {
+    "mat_vs_q:equal": 2,
+    "mat_vs_stem:subset": 4,
+    "material_overlaps_sub_stem": 4,
+    "overlap_directly_rejected": 20,
+    "stem_vs_q:superset": 4,
+    "mat_vs_q:subset": 7,
+    "mat_vs_stem:unknown": 2,
+    "mat_vs_q:disjoint": 11,
+    "mat_vs_stem:disjoint": 14,
+    "stem_vs_q:partial_overlap": 4,
+    "stem_vs_q:subset": 10
+  },
+  "p4_table": {
+    "material_vs_questions": {
+      "equal": 2,
+      "subset": 7,
+      "disjoint": 11
+    },
+    "material_vs_sub_stem": {
+      "subset": 4,
+      "unknown": 2,
+      "disjoint": 14
+    },
+    "stem_vs_questions": {
+      "superset": 4,
+      "partial_overlap": 4,
+      "subset": 10
+    },
+    "material_overlaps_sub_stem": 4,
+    "overlap_directly_rejected_by_resolver": 20,
+    "single_sub_covers_whole_questions_region": 4,
+    "overlap_target_kinds": {
+      "own_sub_stem": 10,
+      "other_unit_stem": 8,
+      "other_material": 13,
+      "answer_span": 8,
+      "directly_rejected": 20
+    }
+  },
+  "common_pattern_20_of_20": {
+    "all_directly_rejected_by_enforce_material_overlap": true,
+    "all_overlap_own_sub_stem": false,
+    "answer": "rejected 20/20 YES; own-sub-stem overlap is NOT 20/20 (see kinds)"
+  },
+  "exceptions": [
+    "Q37",
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4",
+    "Q5-6",
+    "Q7-8",
+    "Q9-11",
+    "Q12-14",
+    "Q15-17",
+    "Q18-20",
+    "Q21-25",
+    "U49-52",
+    "U53-56",
+    "U57-60",
+    "U10-13"
+  ],
+  "observed_structural_facts": [
+    "exact 20 units from Phase1.3R taxonomy=MATERIAL_OVERLAP_REJECTED (not reclassified)",
+    "20/20 resolver_overlap_rejection.actual=true",
+    "own sub.stem overlap: 10/20",
+    "other unit stem overlap: 8/20",
+    "material-material overlap: 13/20",
+    "answer span overlap: 8/20",
+    "material_vs_questions: {'equal': 2, 'subset': 7, 'disjoint': 11}",
+    "sub.stem generated as single region via _SUB_DECOMPOSITION=producer_region_as_single_sub"
+  ],
+  "causal_conclusions": [
+    "PROVEN by control flow (resolver.py:628-658): any resolved material whose line_refs intersect another resolved span (stem/answer/other material) is demoted to unresolved with evidence 'overlaps ... material overlap → unresolved'. This IS the direct rejection cause for all 20 MATERIAL_OVERLAP_REJECTED units.",
+    "PROVEN: adapter _SUB_DECOMPOSITION creates exactly one sub-question per composite (annotation_adapter.py:120-164) and does not consume questions_lines; sub.stem span is produced by SourceResolver question_label heuristic (resolver._locate_question_start/_stem_span).",
+    "STRUCTURALLY CONSISTENT (not fully causal for every unit): Producer material_lines often intersect V3-computed stem/answer/other-material spans. Sub-types differ (own stem vs cross-unit stem vs material-material vs answer)."
+  ],
+  "not_claimed": [
+    "that fixing decomposition alone yields IR ready",
+    "that LEVEL 2 positional interface would fix these 20"
+  ],
+  "overlap_target_pattern": {
+    "equal": 2,
+    "own_sub_stem": 10,
+    "rejected": 20,
+    "subset": 7,
+    "other_unit_stem": 8,
+    "disjoint": 11,
+    "other_material": 13,
+    "answer_span": 8
+  }
+}

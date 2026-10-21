@@ -1,0 +1,19 @@
+{
+  "pages": [
+    {
+      "name": "questions_list",
+      "url": "http://127.0.0.1:5173/admin/questions",
+      "screenshot": "D:\\Project\\AITutor-X\\E2E_ACCEPTANCE\\e2e_run\\m3a_page_questions_list.png",
+      "text_head": "AITutor V3\nReview Console\nWorkspace\nDocuments\nImport\nQuestions\nQuestions\n21 in DB\n题号\t类型\t学科\t年级\t来源\tID\n1\tsingle_choice\t化学\t高一\tp1 · 5d463a6c…\t47c22b00…\n2\tsingle_choice\t化学\t高一\tp1 · 5d463a6c…\t3332aaa6…\n3\tsingle_choice\t化学\t高一\tp1 · 5d463a6c…\td5a8c260…\n4\tsingle_choice\t化学\t高一\tp1 · 5d463a6c…\te65f567d…\n5\tsingle_choice\t化学\t高一\tp1 · 5d463a6c…\t2cfa253a…\n6\tsingle_choice\t化学\t高一\tp1 · 5d463a6c…\t1a66f3bb…\n7\tsingle_choice\t化学\t高一\tp1 · 5d463a6c…\tb9659f78…\n8\tsingle_choice\t化学\t高一\tp1 · 5d463a6c…\t5f461ef4…\n10\tsingle_choice\t化学\t高一\tp1 · 5d463a6c…\t38781392…\n11\tsingle_choice\t化学\t高一\tp1 · 5d463a6c…\t876a38de…\n12\tsingle_choice\t化学\t高一\tp1 · 5d463a6c…\tad7419ff…\n13\tsingle_choice\t化学\t高一\tp1 · 5d463a6c…\t75d68e1a…\n14\tsingle_choice\t化学\t高一\tp1 · 5d463a6c…\t558866e4…\n15\tsingle_choice\t化学\t高一\tp1 · 5d463a6c…\t665008a7…\n16\tsingle_choice\t化学\t高一\tp1 · 5d463a6c…\tb22b5c75…\n17\tsingle_choice\t化学\t高一\tp1 · 5d463a6c…\t42f8624a…\n18\tsingle_choice\t化学\t高一\tp1 · 5d463a6c…\t3156701a…\n20\tsingle_choice\t化学\t高一\tp1 · 5d463a6c…\ta616052e…\n21\tsingle_choice\t化学\t高一\tp1 · 5d463a6c…\ta1cdd401…\n22\tsingle_choice\t化学\t高一\tp1 · 5d463a6c…\tf0607ca0…\n23\tsingle_choice\t化学\t高一\tp1 · 5d463a6c…\ta68d2863…"
+    },
+    {
+      "name": "q8_detail",
+      "url": "http://127.0.0.1:5173/admin/questions/5f461ef4-1362-417a-bd11-06723bbe0dc9",
+      "screenshot": "D:\\Project\\AITutor-X\\E2E_ACCEPTANCE\\e2e_run\\m3a_page_q8_detail.png",
+      "text_head": "AITutor V3\nReview Console\nWorkspace\nDocuments\nImport\nQuestions\n← Questions\nQuestion 8\nsingle_choice\n学科：化学\n年级：高一\n来源文档：paper.pdf\nSource：preprocessing/canonical_l1\np1\nidentity：5f461ef4…\ndedup：a3ded7abff5d…\n显示原始文本\n题干\n8．下列物质中，含有离子键的是\n选项\nA.\nHCl\nB.\nCO\n2\n\t​\n\nC.\nMgCl\n2\n\t​\n\nD.\nCH\n4\n\t​\n\n答案\nC\ninstance_order=1042 · occurrence_key=13e7a1366f7a55e3619c234998b71610…"
+    }
+  ],
+  "q8_katex_nodes": 3,
+  "q8_fallback_spans": 0,
+  "q8_html_has_subscript": true
+}

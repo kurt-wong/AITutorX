@@ -1,0 +1,136 @@
+{
+  "totals": {
+    "table_derived_spans": 126,
+    "table_derived_not_auto": 50,
+    "table_derived_auto": 76
+  },
+  "blockers": {
+    "IR=incomplete": 29,
+    "gate=pending_review": 19,
+    "gate=rejected": 2,
+    "sub.stem=unresolved": 1,
+    "sub.option=unresolved": 4
+  },
+  "samples": [
+    {
+      "paper": "化学",
+      "owner": "Q1",
+      "qn": "1",
+      "cell": "D",
+      "root": "Q1",
+      "why": [
+        "IR=incomplete"
+      ]
+    },
+    {
+      "paper": "化学",
+      "owner": "Q2",
+      "qn": "2",
+      "cell": "A",
+      "root": "Q2",
+      "why": [
+        "IR=incomplete"
+      ]
+    },
+    {
+      "paper": "化学",
+      "owner": "Q3",
+      "qn": "3",
+      "cell": "C",
+      "root": "Q3",
+      "why": [
+        "IR=incomplete"
+      ]
+    },
+    {
+      "paper": "化学",
+      "owner": "Q4",
+      "qn": "4",
+      "cell": "D",
+      "root": "Q4",
+      "why": [
+        "IR=incomplete"
+      ]
+    },
+    {
+      "paper": "化学",
+      "owner": "Q5",
+      "qn": "5",
+      "cell": "B",
+      "root": "Q5",
+      "why": [
+        "IR=incomplete"
+      ]
+    },
+    {
+      "paper": "化学",
+      "owner": "Q6",
+      "qn": "6",
+      "cell": "D",
+      "root": "Q6",
+      "why": [
+        "IR=incomplete"
+      ]
+    },
+    {
+      "paper": "化学",
+      "owner": "Q9",
+      "qn": "9",
+      "cell": "A",
+      "root": "Q9",
+      "why": [
+        "IR=incomplete"
+      ]
+    },
+    {
+      "paper": "化学",
+      "owner": "Q19",
+      "qn": "19",
+      "cell": "D",
+      "root": "Q19",
+      "why": [
+        "IR=incomplete"
+      ]
+    },
+    {
+      "paper": "化学",
+      "owner": "Q23",
+      "qn": "23",
+      "cell": "D",
+      "root": "Q23",
+      "why": [
+        "gate=pending_review"
+      ]
+    },
+    {
+      "paper": "化学",
+      "owner": "Q24",
+      "qn": "24",
+      "cell": "C",
+      "root": "Q24",
+      "why": [
+        "IR=incomplete"
+      ]
+    },
+    {
+      "paper": "化学",
+      "owner": "Q25",
+      "qn": "25",
+      "cell": "B",
+      "root": "Q25",
+      "why": [
+        "IR=incomplete"
+      ]
+    },
+    {
+      "paper": "地理",
+      "owner": "U1-2.sub",
+      "qn": "1",
+      "cell": "A",
+      "root": "U1-2",
+      "why": [
+        "gate=pending_review"
+      ]
+    }
+  ]
+}

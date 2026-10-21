@@ -1,0 +1,149 @@
+{
+  "rows": [
+    {
+      "paper": "化学",
+      "region_roles": [
+        "answer",
+        "question"
+      ],
+      "ir_ready": 9,
+      "ir_notready": 31,
+      "answer_spans": 36,
+      "viol_expl_all": 0,
+      "viol_expl_in_ready_units": 0,
+      "viol_expl_in_notready_units": 0,
+      "viol_expl_unmapped_span": 0,
+      "viol_quest_all": 0
+    },
+    {
+      "paper": "历史",
+      "region_roles": [
+        "answer",
+        "explanation",
+        "question"
+      ],
+      "ir_ready": 40,
+      "ir_notready": 13,
+      "answer_spans": 53,
+      "viol_expl_all": 52,
+      "viol_expl_in_ready_units": 39,
+      "viol_expl_in_notready_units": 10,
+      "viol_expl_unmapped_span": 0,
+      "viol_quest_all": 0
+    },
+    {
+      "paper": "地理",
+      "region_roles": [
+        "question"
+      ],
+      "ir_ready": 0,
+      "ir_notready": 25,
+      "answer_spans": 25,
+      "viol_expl_all": 0,
+      "viol_expl_in_ready_units": 0,
+      "viol_expl_in_notready_units": 0,
+      "viol_expl_unmapped_span": 0,
+      "viol_quest_all": 25
+    },
+    {
+      "paper": "政治",
+      "region_roles": [
+        "answer",
+        "question"
+      ],
+      "ir_ready": 21,
+      "ir_notready": 15,
+      "answer_spans": 36,
+      "viol_expl_all": 0,
+      "viol_expl_in_ready_units": 0,
+      "viol_expl_in_notready_units": 0,
+      "viol_expl_unmapped_span": 0,
+      "viol_quest_all": 0
+    },
+    {
+      "paper": "数学",
+      "region_roles": [
+        "answer",
+        "question"
+      ],
+      "ir_ready": 28,
+      "ir_notready": 2,
+      "answer_spans": 30,
+      "viol_expl_all": 0,
+      "viol_expl_in_ready_units": 0,
+      "viol_expl_in_notready_units": 0,
+      "viol_expl_unmapped_span": 0,
+      "viol_quest_all": 0
+    },
+    {
+      "paper": "物理",
+      "region_roles": [
+        "answer",
+        "question"
+      ],
+      "ir_ready": 17,
+      "ir_notready": 5,
+      "answer_spans": 22,
+      "viol_expl_all": 0,
+      "viol_expl_in_ready_units": 0,
+      "viol_expl_in_notready_units": 0,
+      "viol_expl_unmapped_span": 0,
+      "viol_quest_all": 0
+    },
+    {
+      "paper": "生物",
+      "region_roles": [
+        "answer",
+        "question"
+      ],
+      "ir_ready": 11,
+      "ir_notready": 39,
+      "answer_spans": 50,
+      "viol_expl_all": 0,
+      "viol_expl_in_ready_units": 0,
+      "viol_expl_in_notready_units": 0,
+      "viol_expl_unmapped_span": 0,
+      "viol_quest_all": 0
+    },
+    {
+      "paper": "英语",
+      "region_roles": [
+        "answer",
+        "question"
+      ],
+      "ir_ready": 0,
+      "ir_notready": 18,
+      "answer_spans": 18,
+      "viol_expl_all": 0,
+      "viol_expl_in_ready_units": 0,
+      "viol_expl_in_notready_units": 0,
+      "viol_expl_unmapped_span": 0,
+      "viol_quest_all": 0
+    },
+    {
+      "paper": "语文",
+      "region_roles": [
+        "answer",
+        "question"
+      ],
+      "ir_ready": 6,
+      "ir_notready": 4,
+      "answer_spans": 10,
+      "viol_expl_all": 0,
+      "viol_expl_in_ready_units": 0,
+      "viol_expl_in_notready_units": 0,
+      "viol_expl_unmapped_span": 0,
+      "viol_quest_all": 0
+    }
+  ],
+  "totals": {
+    "ir_ready": 132,
+    "ir_notready": 152,
+    "answer_spans": 280,
+    "viol_expl_all": 52,
+    "viol_expl_in_ready_units": 39,
+    "viol_expl_in_notready_units": 10,
+    "viol_expl_unmapped_span": 0,
+    "viol_quest_all": 25
+  }
+}

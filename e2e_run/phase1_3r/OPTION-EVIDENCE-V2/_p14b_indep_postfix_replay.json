@@ -1,0 +1,103 @@
+{
+  "root_semantic_status": {
+    "incomplete": 57,
+    "ready": 227
+  },
+  "leaf_decisions": {
+    "auto_approve": 155,
+    "rejected": 5,
+    "pending_review": 67
+  },
+  "watch_rows": [
+    {
+      "paper": "化学",
+      "root": "Q20",
+      "leaf": "Q20",
+      "decision": "auto_approve",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "option_texts": [
+        "A. 火山喷发、森林火灾会产生SO $ _{2} $",
+        "B. 氢、氧两种元素没有参与硫的",
+        "C. 工厂产生的烟气应经脱硫处理后再排放",
+        "D. 硫在自然界的循环过程中，涉及了氧",
+        "还原反应"
+      ],
+      "answer": "B",
+      "reasons": [
+        "strict-auto: all answers verified_correct=true"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q23",
+      "leaf": "Q23",
+      "decision": "auto_approve",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_texts": [
+        "A．金属钠与水： $ 2Na + 2H_{2}O = 2Na^{+} + 2OH^{-} + H",
+        "B．氯化钠溶液与硝酸银溶液：",
+        "C．稀盐酸与碳酸钙： $ CaCO_{3}+2H^{+}=Ca^{2+}+CO_{2}\\upar",
+        "$  \\mathrm{H}^{+} + \\mathrm{SO}_{4}^{2-} + \\math"
+      ],
+      "answer": "D",
+      "reasons": [
+        "strict-auto: all answers verified_correct=true"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q29",
+      "leaf": "Q29",
+      "decision": "auto_approve",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_texts": [
+        "A. 迪亚士",
+        "B. 达，伽马",
+        "C. 哥伦布",
+        "D 麦哲伦"
+      ],
+      "answer": "29. 【答案】C",
+      "reasons": [
+        "strict-auto: all answers verified_correct=true"
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q4",
+      "leaf": "Q4",
+      "decision": "pending_review",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_texts": [
+        "A. 关于 x 轴对称 B. 关于 y 轴对称",
+        "B",
+        "C. 关于直线 y=x 对称 2D. 关于直线 y= -x 对称",
+        "D"
+      ],
+      "answer": "4.\n\n【考点】余弦函数的图象.\n\n【分析】根据当自变量相同时，它们的函数值相反，可得它们的图象关于x轴对称.\n\n【解答",
+      "reasons": [
+        "leaf 'Q4' answer grammar: answer not expressible as canonical value"
+      ]
+    }
+  ]
+}

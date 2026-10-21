@@ -1,0 +1,451 @@
+{
+  "cut": "third-cut-R remeasurement (post-second-cut)",
+  "production_code_modified": false,
+  "object_set": [
+    "U49-52",
+    "U53-56",
+    "U57-60",
+    "Q3",
+    "Q9-11",
+    "Q12-14",
+    "Q15-17",
+    "Q21-25"
+  ],
+  "status_counts": {
+    "RESOLVED": 3,
+    "AMBIGUOUS": 2,
+    "STILL_PRESENT": 3
+  },
+  "resolved_by_second_cut": [
+    "U49-52",
+    "U53-56",
+    "U57-60"
+  ],
+  "still_present": [
+    "Q9-11",
+    "Q12-14",
+    "Q21-25"
+  ],
+  "ambiguous": [
+    "Q3",
+    "Q15-17"
+  ],
+  "units": [
+    {
+      "unit_id": "U49-52",
+      "document": "2018北京春季高中会考英语（教师版）(1).md",
+      "declared_material_lines": {
+        "start": 298,
+        "end": 315,
+        "n": 18
+      },
+      "current_material_span": {
+        "resolved": true,
+        "line_numbers": [
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316
+        ],
+        "count": 20,
+        "span_id": "sp-U49-52.material",
+        "markers_attached": true
+      },
+      "current_overlap": false,
+      "overlap_targets": [],
+      "inflation_ratio": 1.111,
+      "source_evidence": [
+        {
+          "line": 297,
+          "text": ""
+        },
+        {
+          "line": 298,
+          "text": "Have you ever been to the beach? Did you see a man with a headset poin"
+        },
+        {
+          "line": 299,
+          "text": ""
+        }
+      ],
+      "unresolved_evidence": [],
+      "status": "RESOLVED"
+    },
+    {
+      "unit_id": "U53-56",
+      "document": "2018北京春季高中会考英语（教师版）(1).md",
+      "declared_material_lines": {
+        "start": 341,
+        "end": 361,
+        "n": 21
+      },
+      "current_material_span": {
+        "resolved": true,
+        "line_numbers": [
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362
+        ],
+        "count": 23,
+        "span_id": "sp-U53-56.material",
+        "markers_attached": true
+      },
+      "current_overlap": false,
+      "overlap_targets": [],
+      "inflation_ratio": 1.095,
+      "source_evidence": [
+        {
+          "line": 340,
+          "text": ""
+        },
+        {
+          "line": 341,
+          "text": "## D"
+        },
+        {
+          "line": 342,
+          "text": ""
+        }
+      ],
+      "unresolved_evidence": [],
+      "status": "RESOLVED"
+    },
+    {
+      "unit_id": "U57-60",
+      "document": "2018北京春季高中会考英语（教师版）(1).md",
+      "declared_material_lines": {
+        "start": 401,
+        "end": 407,
+        "n": 7
+      },
+      "current_material_span": {
+        "resolved": true,
+        "line_numbers": [
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408
+        ],
+        "count": 9,
+        "span_id": "sp-U57-60.material",
+        "markers_attached": true
+      },
+      "current_overlap": false,
+      "overlap_targets": [],
+      "inflation_ratio": 1.286,
+      "source_evidence": [
+        {
+          "line": 400,
+          "text": ""
+        },
+        {
+          "line": 401,
+          "text": "As a teenager, I hated P.E. lessons. I was not very good at sports, an"
+        },
+        {
+          "line": 402,
+          "text": ""
+        }
+      ],
+      "unresolved_evidence": [],
+      "status": "RESOLVED"
+    },
+    {
+      "unit_id": "Q3",
+      "document": "2018北京春季高中会考英语（教师版）(1).md",
+      "declared_material_lines": {
+        "start": 509,
+        "end": 514,
+        "n": 6
+      },
+      "current_material_span": {
+        "resolved": false,
+        "line_numbers": [],
+        "count": 0,
+        "span_id": null,
+        "markers_attached": false
+      },
+      "current_overlap": false,
+      "overlap_targets": [],
+      "inflation_ratio": null,
+      "source_evidence": [],
+      "unresolved_evidence": [
+        "material marker text missing"
+      ],
+      "status": "AMBIGUOUS"
+    },
+    {
+      "unit_id": "Q9-11",
+      "document": "2018北京春季高中会考英语（教师版）(1).md",
+      "declared_material_lines": {
+        "start": 538,
+        "end": 541,
+        "n": 4
+      },
+      "current_material_span": {
+        "resolved": true,
+        "line_numbers": [
+          537,
+          538,
+          539,
+          540,
+          541,
+          542
+        ],
+        "count": 6,
+        "span_id": "sp-Q9-11.material",
+        "markers_attached": true
+      },
+      "current_overlap": true,
+      "overlap_targets": [
+        {
+          "target_type": "material",
+          "span_id": "sp-Q7-8.material",
+          "raw": "overlaps material sp-Q7-8.material"
+        },
+        {
+          "target_type": "material",
+          "span_id": "sp-Q12-14.material",
+          "raw": "overlaps material sp-Q12-14.material"
+        }
+      ],
+      "inflation_ratio": 1.5,
+      "source_evidence": [
+        {
+          "line": 537,
+          "text": ""
+        },
+        {
+          "line": 538,
+          "text": "## 听第7段材料，回答第9题至第11题。"
+        },
+        {
+          "line": 539,
+          "text": ""
+        }
+      ],
+      "unresolved_evidence": [
+        "overlaps material sp-Q7-8.material",
+        "overlaps material sp-Q12-14.material",
+        "material overlap → unresolved"
+      ],
+      "status": "STILL_PRESENT"
+    },
+    {
+      "unit_id": "Q12-14",
+      "document": "2018北京春季高中会考英语（教师版）(1).md",
+      "declared_material_lines": {
+        "start": 543,
+        "end": 561,
+        "n": 19
+      },
+      "current_material_span": {
+        "resolved": true,
+        "line_numbers": [
+          542,
+          543,
+          544,
+          545,
+          546,
+          547,
+          548,
+          549,
+          550,
+          551,
+          552,
+          553,
+          554,
+          555,
+          556,
+          557,
+          558,
+          559,
+          560,
+          561,
+          562
+        ],
+        "count": 21,
+        "span_id": "sp-Q12-14.material",
+        "markers_attached": true
+      },
+      "current_overlap": true,
+      "overlap_targets": [
+        {
+          "target_type": "material",
+          "span_id": "sp-Q9-11.material",
+          "raw": "overlaps material sp-Q9-11.material"
+        }
+      ],
+      "inflation_ratio": 1.105,
+      "source_evidence": [
+        {
+          "line": 542,
+          "text": ""
+        },
+        {
+          "line": 543,
+          "text": "## 听第8段材料，回答第12题至第14题。"
+        },
+        {
+          "line": 544,
+          "text": ""
+        }
+      ],
+      "unresolved_evidence": [
+        "overlaps material sp-Q9-11.material",
+        "material overlap → unresolved"
+      ],
+      "status": "STILL_PRESENT"
+    },
+    {
+      "unit_id": "Q15-17",
+      "document": "2018北京春季高中会考英语（教师版）(1).md",
+      "declared_material_lines": {
+        "start": 563,
+        "end": 578,
+        "n": 16
+      },
+      "current_material_span": {
+        "resolved": false,
+        "line_numbers": [],
+        "count": 0,
+        "span_id": null,
+        "markers_attached": false
+      },
+      "current_overlap": false,
+      "overlap_targets": [],
+      "inflation_ratio": null,
+      "source_evidence": [],
+      "unresolved_evidence": [
+        "material marker text missing"
+      ],
+      "status": "AMBIGUOUS"
+    },
+    {
+      "unit_id": "Q21-25",
+      "document": "2018北京春季高中会考英语（教师版）(1).md",
+      "declared_material_lines": {
+        "start": 586,
+        "end": 610,
+        "n": 25
+      },
+      "current_material_span": {
+        "resolved": true,
+        "line_numbers": [
+          585,
+          586,
+          587,
+          588,
+          589,
+          590,
+          591,
+          592,
+          593,
+          594,
+          595,
+          596,
+          597,
+          598,
+          599,
+          600,
+          601,
+          602,
+          603,
+          604,
+          605,
+          606,
+          607,
+          608,
+          609,
+          610,
+          611
+        ],
+        "count": 27,
+        "span_id": "sp-Q21-25.material",
+        "markers_attached": true
+      },
+      "current_overlap": true,
+      "overlap_targets": [
+        {
+          "target_type": "answer",
+          "span_id": "sp-Q12-14.sub.answer",
+          "target_line_from": 593,
+          "target_line_to": 593,
+          "raw": "overlaps answer span sp-Q12-14.sub.answer (P1L593..P1L593)"
+        },
+        {
+          "target_type": "material",
+          "span_id": "sp-Q18-20.material",
+          "raw": "overlaps material sp-Q18-20.material"
+        }
+      ],
+      "inflation_ratio": 1.08,
+      "source_evidence": [
+        {
+          "line": 585,
+          "text": ""
+        },
+        {
+          "line": 586,
+          "text": "第二节：听下面一段对话，根据题目要求在答题卡相应题号后的横线上写下第21题至第25题的关键信息。此段对话你将听两遍。"
+        },
+        {
+          "line": 587,
+          "text": ""
+        },
+        {
+          "line": 593,
+          "text": "M: 5 days, from March, 7 to 12.",
+          "role": "target"
+        }
+      ],
+      "unresolved_evidence": [
+        "overlaps answer span sp-Q12-14.sub.answer (P1L593..P1L593)",
+        "overlaps material sp-Q18-20.material",
+        "material overlap → unresolved"
+      ],
+      "status": "STILL_PRESENT"
+    }
+  ]
+}

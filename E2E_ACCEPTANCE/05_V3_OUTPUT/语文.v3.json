@@ -1,0 +1,121 @@
+{
+  "ir_ready": 10,
+  "ir_incomplete": 0,
+  "gate_auto": 2,
+  "gate_pending": 8,
+  "gate_rejected": 0,
+  "n_units": 10,
+  "n_questions_tracked": 10,
+  "questions": [
+    {
+      "unit_id": "U1-5",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "1. A (2分)\n\n2. D (2分)\n\n3. C (2分)\n\n4. ①短歌行 ②论语（或：论语·子罕）（2分）\n\n5. ①渔樵于江渚之上 ②侣鱼虾而友麋鹿 ",
+      "verify": null,
+      "gate": "pending_review",
+      "n_options": 0,
+      "stem_preview": "1\\. 下列语句中加点词语的解释，不正确的一项是（2分）\n\nA. 苏子愀然 愀然：神秘的样子 B. 山川相缪 缪：缭、盘绕\n\nC. 酾酒临江 酾酒：斟酒 D. 吾与子之所共适 适：享有\n"
+    },
+    {
+      "unit_id": "Q6",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "D",
+      "answer_preview": "6. D（2分）",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "6. 下列文学常识表述有误的一项是（2分）\n"
+    },
+    {
+      "unit_id": "Q7",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "7\\.C（3分）",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "7. 传统节日是中华文化的重要组成部分。下列关于名著中传统节日的说法，不正确的一项是（3分）\n"
+    },
+    {
+      "unit_id": "Q8",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "8. 示例一：大观园中发现了香囊，王夫人十分生气，担心大观园中人杂生事，更担心贾宝玉与丫鬟们胡闹，于是命令王熙凤带人抄检大观园，并把晴雯赶出了大观园。晴雯被赶出",
+      "verify": null,
+      "gate": "pending_review",
+      "n_options": 0,
+      "stem_preview": "8. 文学名著中一些人物命运的结局往往是由关键事件导致的，请从《红楼梦》中的晴雯、《阿Q正传》中的阿Q这两个人物中选择一个，简述导致其命运结局的关键事件的过程。（4分）\n"
+    },
+    {
+      "unit_id": "Q9",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "9. ①暖暖远人村 ②渔舟唱晚 ③雁阵惊寒\n\n（3分。每空1分）",
+      "verify": null,
+      "gate": "pending_review",
+      "n_options": 0,
+      "stem_preview": "9. “让居民望得见山、看得见水、记得住乡愁。”这句富有诗意的话，使人们意识到乡愁是一种乡土记忆，更是一种情感的寄托。正像陶渊明在《归园田居》中所写“榆柳荫后檐，桃李罗堂前。 $ ^{①} $”，依依"
+    },
+    {
+      "unit_id": "U10-13",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "10\\. A（4分。选A，得4分；选D，得3分；选B或C不得分）\n\n11.D（3分）\n\n12. 原因一：命运悲剧。选文中的中寨人说：“一切皆是命，半点不由人。”",
+      "verify": null,
+      "gate": "pending_review",
+      "n_options": 0,
+      "stem_preview": "10. 下列对选文相关内容的理解，最恰当的一项是（4分）\n\nA. 老船夫希望翠翠有一个幸福的归宿，因此尽管自己觉得大老不错，但还是认为翠翠的婚事应该由她自己做主，不应该由长辈包办。\n\nB. 坐渡船的中"
+    },
+    {
+      "unit_id": "U14",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "14.（1）甲：hào 乙：骼（2分）\n\n（2）C（3分）\n\n（3）B（3分）\n\n（4）示例一：我同意观点一，因为经典是人类智慧的结晶，人类文明在一定程度上是由",
+      "verify": null,
+      "gate": "pending_review",
+      "n_options": 0,
+      "stem_preview": "14. 阅读下面的文章，完成（1）-（4）题。\n"
+    },
+    {
+      "unit_id": "U15",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "15.（1）甲：chǐ 乙：漪（2分）\n\n（2）B（3分）\n\n（3）D（3分）\n\n（4）示例一：我选择“心触清机亲翰墨，目游润景足精神”。对联所写书房既有如“陋",
+      "verify": null,
+      "gate": "pending_review",
+      "n_options": 0,
+      "stem_preview": "15. 阅读下面的文章，完成（1）-（4）题。\n"
+    },
+    {
+      "unit_id": "Q16",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "六（40分）\n\n作文评分标准\n\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><t",
+      "verify": null,
+      "gate": "pending_review",
+      "n_options": 0,
+      "stem_preview": "16.《边城》中的翠翠心事满怀却“总不作声”，爷爷也常常不明说自己的想法，这是边城人的含蓄。含蓄是思想、感情不轻易流露，是一种表达方式，也是一种心理特征，还是一种民族文化传统。你的生活中有没有与含蓄有"
+    },
+    {
+      "unit_id": "Q17",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "六（40分）\n\n作文评分标准\n\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><t",
+      "verify": null,
+      "gate": "pending_review",
+      "n_options": 0,
+      "stem_preview": "17. 阅读下面的材料，按要求作文。\n\n当前，越来越多的外卖服务出现在我们身边，消费者通过电话或网络订餐可以迅速满足需求。“叫外卖”已经成为我们的一种生活方式。有人认为这体现了“互联网+”的生活理念；"
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "queried_at": "phase-b-r1",
+  "table_block_count": 9,
+  "units_detail": {
+    "Q9": {
+      "manifest": {
+        "question_numbers": [
+          9
+        ],
+        "printed_number": null,
+        "stem_lines": [
+          46,
+          46
+        ],
+        "options_lines": [
+          51,
+          51
+        ],
+        "answer_lines": [
+          513,
+          513
+        ],
+        "original_question_type": "single_choice"
+      },
+      "nearby_tables": {
+        "L0051": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>A. 青铜器皿</td><td style='text-align: center; word-wrap: break-word;'>B. 陶瓷</td><td style='text-align: center; word-wrap: break-word;'>C. 丝绸</td><td style='text-align: center; word-wrap: break-word;'>D. 中草药</td></tr><tr><td style='text-align: center; word-wrap: break-word;'><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_157_151_247_252.jpg\" alt=\"Image\"\" /></td><td style='text-align: center; word-wrap: break-word;'><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_328_147_444_230.jpg\" alt=\"Image\"\" /></td><td style='text-align: center; word-wrap: break-word;'><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_529_136_618_235.jpg\" alt=\"Image\"\" /></td><td style='text-align: center; word-wrap: break-word;'><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_725_140_864_227.jpg\" alt=\"Image\"\" /></td></tr></table>"
+      }
+    },
+    "Q19": {
+      "manifest": {
+        "question_numbers": [
+          19
+        ],
+        "printed_number": null,
+        "stem_lines": [
+          142,
+          142
+        ],
+        "options_lines": [
+          145,
+          145
+        ],
+        "answer_lines": [
+          513,
+          513
+        ],
+        "original_question_type": "single_choice"
+      },
+      "nearby_tables": {
+        "L0145": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>D</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>t / °C</td><td style='text-align: center; word-wrap: break-word;'>10</td><td style='text-align: center; word-wrap: break-word;'>10</td><td style='text-align: center; word-wrap: break-word;'>40</td><td style='text-align: center; word-wrap: break-word;'>40</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>c( $ H_{2}SO_{4} $) / (mol ·  $ L^{-1} $)</td><td style='text-align: center; word-wrap: break-word;'>1</td><td style='text-align: center; word-wrap: break-word;'>3</td><td style='text-align: center; word-wrap: break-word;'>1</td><td style='text-align: center; word-wrap: break-word;'>3</td></tr></table>"
+      }
+    },
+    "Q24": {
+      "manifest": {
+        "question_numbers": [
+          24
+        ],
+        "printed_number": [
+          24
+        ],
+        "stem_lines": [
+          196,
+          196
+        ],
+        "options_lines": [
+          199,
+          199
+        ],
+        "answer_lines": [
+          513,
+          513
+        ],
+        "original_question_type": "single_choice"
+      },
+      "nearby_tables": {
+        "L0199": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>[ $ F_{4} $]</td><td style='text-align: center; word-wrap: break-word;'>[ $ F_{3} $]</td><td style='text-align: center; word-wrap: break-word;'>[ $ F_{5} $]</td><td style='text-align: center; word-wrap: break-word;'>[ $ F_{2} $]</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>A. 收集氯气</td><td style='text-align: center; word-wrap: break-word;'>B. 除去水中泥沙</td><td style='text-align: center; word-wrap: break-word;'>C. 分离乙醇和水</td><td style='text-align: center; word-wrap: break-word;'>D. 配制100 mL 0.1 mol·L $ ^{-1} $ NaCl溶液</td></tr></table>"
+      }
+    },
+    "Q25": {
+      "manifest": {
+        "question_numbers": [
+          25
+        ],
+        "printed_number": [
+          25
+        ],
+        "stem_lines": [
+          201,
+          201
+        ],
+        "options_lines": [
+          204,
+          204
+        ],
+        "answer_lines": [
+          513,
+          513
+        ],
+        "original_question_type": "single_choice"
+      },
+      "nearby_tables": {
+        "L0204": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>选项</td><td style='text-align: center; word-wrap: break-word;'>实验操作及现象</td><td style='text-align: center; word-wrap: break-word;'>推理或结论</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>向KI-淀粉溶液中滴入氯水，溶液变成蓝色</td><td style='text-align: center; word-wrap: break-word;'>$ I^{-} $的还原性强于 $ Cl^{-} $</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>向某溶液中加入 $ BaCl_{2} $溶液，有白色沉淀生成</td><td style='text-align: center; word-wrap: break-word;'>该溶液中一定含有 $ SO_{4}^{2-} $</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>取少量 $ Na_{2}O_{2} $粉末放在脱脂棉上，再将1滴水滴到 $ Na_{2}O_{2} $上，脱脂棉燃烧</td><td style='text-align: center; word-wrap: break-word;'>$ Na_{2}O_{2} $与水的反应是放热反应</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>向某溶液中加入NaOH溶液，生成的白色絮状沉淀迅速变成灰绿色，最后变成红褐色</td><td style='text-align: center; word-wrap: break-word;'>该溶液中一定含有 $ Fe^{2+} $</td></tr></table>"
+      }
+    },
+    "U-req1": {
+      "manifest": {
+        "question_numbers": [
+          26
+        ],
+        "printed_number": [
+          1
+        ],
+        "stem_lines": [
+          210,
+          210
+        ],
+        "options_lines": null,
+        "answer_lines": [
+          519,
+          521
+        ],
+        "original_question_type": "fill_in"
+      },
+      "nearby_tables": {}
+    },
+    "U-org1": {
+      "manifest": {
+        "question_numbers": [
+          1
+        ],
+        "printed_number": [
+          1
+        ],
+        "stem_lines": [
+          354,
+          401
+        ],
+        "options_lines": null,
+        "answer_lines": null,
+        "original_question_type": "fill_in"
+      },
+      "nearby_tables": {}
+    },
+    "U-cp1": {
+      "manifest": {
+        "question_numbers": [
+          1
+        ],
+        "printed_number": [
+          1
+        ],
+        "stem_lines": [
+          444,
+          458
+        ],
+        "options_lines": null,
+        "answer_lines": null,
+        "original_question_type": "fill_in"
+      },
+      "nearby_tables": {}
+    },
+    "U-cl2": {
+      "manifest": {
+        "question_numbers": [
+          2
+        ],
+        "printed_number": [
+          2
+        ],
+        "stem_lines": [
+          301,
+          317
+        ],
+        "options_lines": null,
+        "answer_lines": [
+          570,
+          572
+        ],
+        "original_question_type": "true_false"
+      },
+      "nearby_tables": {}
+    }
+  },
+  "table_raw": {
+    "L0006": {
+      "start_line": 6,
+      "prev_lines": [
+        "",
+        "",
+        "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td rowspan=\"4\">考生须知</td><td style='text-align: center; word-wrap: break-word;'>1. 考生要认真填写考场号和座位序号。</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2. 本试卷共 8 页，分为两个部分。第一部分为选择题，25 个小题（共 50 分）；第二部分为非选择题，分为必答题和选答题两道大题（共 50 分）。</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>3. 试题所有答案必须填涂或书写在答题卡上，在试卷上作答无效。第一部分必须用 2B 铅笔作答；第二部分必须用黑色字迹的签字笔作答。</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>4. 考试结束后，考生应将试卷和答题卡放在桌面上，待监考员收回。</td></tr></table>"
+      ],
+      "html_head": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td rowspan=\"4\">考生须知</td><td style='text-align: center; word-wrap: break-word;'>1. 考生要认真填写考场号和座位序号。</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2. 本试卷共 8 页，分为两个部分。第一部分为选择题，25 个小题（共 50 分）；第二部分为非选择题，分为必答题和选答题两道大题（共 50 分）。</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>3. 试题所有答案必须填涂或书写在答题卡上，在试卷上作答无效。第一部分必须用 2B 铅笔作答；第二部分必须用黑色字迹的签字笔作答。</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>4. 考试结束后，考生应将试卷和答题卡放在桌面上，待监考员收回。</td></tr></table>"
+    },
+    "L0051": {
+      "start_line": 51,
+      "prev_lines": [
+        "",
+        "",
+        "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>A. 青铜器皿</td><td style='text-align: center; word-wrap: break-word;'>B. 陶瓷</td><td style='text-align: center; word-wrap: break-word;'>C. 丝绸</td><td style='text-align: center; word-wrap: break-word;'>D. 中草药</td></tr><tr><td style='text-align: center; word-wrap: break-word;'><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_157_151_247_252.jpg\" alt=\"Image\"\" /></td><td style='text-align: center; word-wrap: break-word;'><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_328_147_444_230.jpg\" alt=\"Image\"\" /></td><td style='text-align: center; word-wrap: break-word;'><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_529_136_618_235.jpg\" alt=\"Image\"\" /></td><td style='text-align: center; word-wrap: break-word;'><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_725_140_864_227.jpg\" alt=\"Image\"\" /></td></tr></table>"
+      ],
+      "html_head": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>A. 青铜器皿</td><td style='text-align: center; word-wrap: break-word;'>B. 陶瓷</td><td style='text-align: center; word-wrap: break-word;'>C. 丝绸</td><td style='text-align: center; word-wrap: break-word;'>D. 中草药</td></tr><tr><td style='text-align: center; word-wrap: break-word;'><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_157_151_247_252.jpg\" alt=\"Image\"\" /></td><td style='text-align: center; word-wrap: break-word;'><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_328_147_444_230.jpg\" alt=\"Image\"\" /></td><td style='text-align: center; word-wrap: break-word;'><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_529_136_618_235.jpg\" alt=\"Image\"\" /></td><td style='text-align: center; word-wrap: break-word;'><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_725_140_864_227.jpg\" alt=\"Image\"\" /></td></tr></table>"
+    },
+    "L0145": {
+      "start_line": 145,
+      "prev_lines": [
+        "",
+        "",
+        "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>D</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>t / °C</td><td style='text-align: center; word-wrap: break-word;'>10</td><td style='text-align: center; word-wrap: break-word;'>10</td><td style='text-align: center; word-wrap: break-word;'>40</td><td style='text-align: center; word-wrap: break-word;'>40</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>c( $ H_{2}SO_{4} $) / (mol ·  $ L^{-1} $)</td><td style='text-align: center; word-wrap: break-word;'>1</td><td style='text-align: center; word-wrap: break-word;'>3</td><td style='text-align: center; word-wrap: break-word;'>1</td><td style='text-align: center; word-wrap: break-word;'>3</td></tr></table>"
+      ],
+      "html_head": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>D</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>t / °C</td><td style='text-align: center; word-wrap: break-word;'>10</td><td style='text-align: center; word-wrap: break-word;'>10</td><td style='text-align: center; word-wrap: break-word;'>40</td><td style='text-align: center; word-wrap: break-word;'>40</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>c( $ H_{2}SO_{4} $) / (mol ·  $ L^{-1} $)</td><td style='text-align: center; word-wrap: break-word;'>1</td><td style='text-align: center; word-wrap: break-word;'>3</td><td style='text-align: center; word-wrap: break-word;'>1</td><td style='text-align: center; word-wrap: break-word;'>3</td></tr></table>"
+    },
+    "L0199": {
+      "start_line": 199,
+      "prev_lines": [
+        "",
+        "",
+        "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>[ $ F_{4} $]</td><td style='text-align: center; word-wrap: break-word;'>[ $ F_{3} $]</td><td style='text-align: center; word-wrap: break-word;'>[ $ F_{5} $]</td><td style='text-align: center; word-wrap: break-word;'>[ $ F_{2} $]</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>A. 收集氯气</td><td style='text-align: center; word-wrap: break-word;'>B. 除去水中泥沙</td><td style='text-align: center; word-wrap: break-word;'>C. 分离乙醇和水</td><td style='text-align: center; word-wrap: break-word;'>D. 配制100 mL 0.1 mol·L $ ^{-1} $ NaCl溶液</td></tr></table>"
+      ],
+      "html_head": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>[ $ F_{4} $]</td><td style='text-align: center; word-wrap: break-word;'>[ $ F_{3} $]</td><td style='text-align: center; word-wrap: break-word;'>[ $ F_{5} $]</td><td style='text-align: center; word-wrap: break-word;'>[ $ F_{2} $]</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>A. 收集氯气</td><td style='text-align: center; word-wrap: break-word;'>B. 除去水中泥沙</td><td style='text-align: center; word-wrap: break-word;'>C. 分离乙醇和水</td><td style='text-align: center; word-wrap: break-word;'>D. 配制100 mL 0.1 mol·L $ ^{-1} $ NaCl溶液</td></tr></table>"
+    },
+    "L0204": {
+      "start_line": 204,
+      "prev_lines": [
+        "",
+        "",
+        "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>选项</td><td style='text-align: center; word-wrap: break-word;'>实验操作及现象</td><td style='text-align: center; word-wrap: break-word;'>推理或结论</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>向KI-淀粉溶液中滴入氯水，溶液变成蓝色</td><td style='text-align: center; word-wrap: break-word;'>$ I^{-} $的还原性强于 $ Cl^{-} $</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>向某溶液中加入 $ BaCl_{2} $溶液，有白色沉淀生成</td><td style='text-align: center; word-wrap: break-word;'>该溶液中一定含有 $ SO_{4}^{2-} $</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>取少量 $ Na_{2}O_{2} $粉末放在脱脂棉上，再将1滴水滴到 $ Na_{2}O_{2} $上，脱脂棉燃烧</td><td style='text-align: center; word-wrap: break-word;'>$ Na_{2}O_{2} $与水的反应是放热反应</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>向某溶液中加入NaOH溶液，生成的白色絮状沉淀迅速变成灰绿色，最后变成红褐色</td><td style='text-align: center; word-wrap: break-word;'>该溶液中一定含有 $ Fe^{2+} $</td></tr></table>"
+      ],
+      "html_head": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>选项</td><td style='text-align: center; word-wrap: break-word;'>实验操作及现象</td><td style='text-align: center; word-wrap: break-word;'>推理或结论</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>向KI-淀粉溶液中滴入氯水，溶液变成蓝色</td><td style='text-align: center; word-wrap: break-word;'>$ I^{-} $的还原性强于 $ Cl^{-} $</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>向某溶液中加入 $ BaCl_{2} $溶液，有白色沉淀生成</td><td style='text-align: center; word-wrap: break-word;'>该溶液中一定含有 $ SO_{4}^{2-} $</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>取少量 $ Na_{2}O_{2} $粉末放在脱脂棉上，再将1滴水滴到 $ Na_{2}O_{2} $上，脱脂棉燃烧</td><td style='text-align: center; word-wrap: break-word;'>$ Na_{2}O_{2} $与水的反应是放热反应</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>向某溶液中加入NaOH溶液，生成的白色絮状沉淀迅速变成灰绿色，最后变成红褐色</td><td style='text-alig"
+    },
+    "L0217": {
+      "start_line": 217,
+      "prev_lines": [
+        "",
+        "",
+        "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>2-A</td><td style='text-align: center; word-wrap: break-word;'>2-B</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>在3种物质①碳酸钠、②硫酸铵、③次氯酸钠中，可用作化肥的是___（填序号，下同），可用作食用碱的是___，可用作漂白剂的是___。</td><td style='text-align: center; word-wrap: break-word;'>在3种物质①乙烯、②乙醇、③乙酸中，可用于清除水壶中水垢的是（填序号，下同），可用作水果催熟剂的是___，可用于配制医用消毒剂的是___。</td></tr></table>"
+      ],
+      "html_head": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>2-A</td><td style='text-align: center; word-wrap: break-word;'>2-B</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>在3种物质①碳酸钠、②硫酸铵、③次氯酸钠中，可用作化肥的是___（填序号，下同），可用作食用碱的是___，可用作漂白剂的是___。</td><td style='text-align: center; word-wrap: break-word;'>在3种物质①乙烯、②乙醇、③乙酸中，可用于清除水壶中水垢的是（填序号，下同），可用作水果催熟剂的是___，可用于配制医用消毒剂的是___。</td></tr></table>"
+    },
+    "L0224": {
+      "start_line": 224,
+      "prev_lines": [
+        "",
+        "",
+        "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td rowspan=\"4\"><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_211_700_390_866.jpg\" alt=\"Image\"\" />"
+      ],
+      "html_head": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td rowspan=\"4\"><img src=\"../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_211_700_390_866.jpg\" alt=\"Image\"\" />\nNaOH溶液</td><td style='text-align: center; word-wrap: break-word;'>序号</td><td style='text-align: center; word-wrap: break-word;'>X</td><td style='text-align: center; word-wrap: break-word;'>实验现象</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>I</td><td style='text-align: center; word-wrap: break-word;'>紫色石蕊溶液</td><td style='text-align: center; word-wrap: break-word;'>现象 a</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>II</td><td style='text-align: center; word-wrap: break-word;'>品红溶液</td><td style='text-align: center; word-wrap: break-word;'>溶液由红色变为无色，加热后又恢复原来的颜色</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>III</td><td style='text-align: center; word-wrap: break-word;'>酸性  $ KMnO_{4} $ 溶液</td><td style='text-align: center; word-wrap: break-word;'>溶液由紫色变为无色</td></tr></table>"
+    },
+    "L0513": {
+      "start_line": 513,
+      "prev_lines": [
+        "",
+        "",
+        "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; word-wrap: break-word;'>1</td><td style='text-align: center; word-wrap: break-word;'>2</td><td style='text-align: center; word-wrap: break-word;'>3</td><td style='text-align: center; word-wrap: break-word;'>4</td><td style='text-align: center; word-wrap: break-word;'>5</td><td style='text-align: center; word-wrap: break-word;'>6</td><td style='text-align: center; word-wrap: break-word;'>7</td><td style='text-align: center; word-wrap: break-word;'>8</td><td style='text-align: center; word-wrap: break-word;'>9</td><td style='text-align: center; word-wrap: break-word;'>10</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>答案</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>C</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; word-wrap: break-word;'>11</td><td style='text-align: center; word-wrap: break-word;'>12</td><td style='text-align: center; word-wrap: break-word;'>13</td><td style='text-align: center; word-wrap: break-word;'>14</td><td style='text-align: center; word-wrap: break-word;'>15</td><td style='text-align: center; word-wrap: break-word;'>16</td><td style='text-align: center; word-wrap: break-word;'>17</td><td style='text-align: center; word-wrap: break-word;'>18</td><td style='text-align: center; word-wrap: break-word;'>19</td><td style='text-align: center; word-wrap: break-word;'>20</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>答案</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>B</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; word-wrap: break-word;'>21</td><td style='text-align: center; word-wrap: break-word;'>22</td><td style='text-align: center; word-wrap: break-word;'>23</td><td style='text-align: center; word-wrap: break-word;'>24</td><td style='text-align: center; word-wrap: break-word;'>25</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>答案</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr></table>"
+      ],
+      "html_head": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; word-wrap: break-word;'>1</td><td style='text-align: center; word-wrap: break-word;'>2</td><td style='text-align: center; word-wrap: break-word;'>3</td><td style='text-align: center; word-wrap: break-word;'>4</td><td style='text-align: center; word-wrap: break-word;'>5</td><td style='text-align: center; word-wrap: break-word;'>6</td><td style='text-align: center; word-wrap: break-word;'>7</td><td style='text-align: center; word-wrap: break-word;'>8</td><td style='text-align: center; word-wrap: break-word;'>9</td><td style='text-align: center; word-wrap: break-word;'>10</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>答案</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>A</td><td style='text-align: center; word-wrap: break-word;'>C</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: center; word-wrap: break-word;'>B</td><td style='text-align: center; word-wrap: break-word;'>D</td><td style='text-align: ce"
+    },
+    "L0526": {
+      "start_line": 526,
+      "prev_lines": [
+        "",
+        "",
+        "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>2-A</td><td style='text-align: center; word-wrap: break-word;'>2-B</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>② ① ③</td><td style='text-align: center; word-wrap: break-word;'>③ ① ②</td></tr></table>"
+      ],
+      "html_head": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>2-A</td><td style='text-align: center; word-wrap: break-word;'>2-B</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>② ① ③</td><td style='text-align: center; word-wrap: break-word;'>③ ① ②</td></tr></table>"
+    }
+  },
+  "feedbacks_live": [
+    {
+      "id": "50a38c8b-72d8-4a4e-9b87-79ed0a177775",
+      "question_id": "5f461ef4-1362-417a-bd11-06723bbe0dc9",
+      "instance_id": "5ce35672-f285-4cb1-ac9a-75ff7e097a4e",
+      "category": "latex_render_error",
+      "description": "选项B/C/D公式下标显示异常（E2E验收）",
+      "status": "open",
+      "created_by": "console-user",
+      "created_at": "2026-10-10 14:43:53.501555+00:00",
+      "source_evidence_keys": [
+        "spans",
+        "page_no",
+        "document_id",
+        "occurrence_key",
+        "producer_unit_id",
+        "source_version_id"
+      ]
+    },
+    {
+      "id": "880b092a-1be6-4c21-8717-896bc45d4cb2",
+      "question_id": "5f461ef4-1362-417a-bd11-06723bbe0dc9",
+      "instance_id": "5ce35672-f285-4cb1-ac9a-75ff7e097a4e",
+      "category": "latex_render_error",
+      "description": "选项B/C/D公式下标显示异常（E2E验收）",
+      "status": "open",
+      "created_by": "console-user",
+      "created_at": "2026-10-10 16:11:45.071365+00:00",
+      "source_evidence_keys": [
+        "spans",
+        "page_no",
+        "document_id",
+        "occurrence_key",
+        "producer_unit_id",
+        "source_version_id"
+      ]
+    },
+    {
+      "id": "f335fd96-0899-4a82-842e-9ac8c5374ab5",
+      "question_id": "5f461ef4-1362-417a-bd11-06723bbe0dc9",
+      "instance_id": "5ce35672-f285-4cb1-ac9a-75ff7e097a4e",
+      "category": "latex_render_error",
+      "description": "字号大小好像不太一样，A选项的HCL明显比其他选项的字号小一圈",
+      "status": "open",
+      "created_by": "console-user",
+      "created_at": "2026-10-11 00:06:59.562322+00:00",
+      "source_evidence_keys": [
+        "spans",
+        "page_no",
+        "document_id",
+        "occurrence_key",
+        "producer_unit_id",
+        "source_version_id"
+      ]
+    }
+  ],
+  "feedback_count": 3
+}

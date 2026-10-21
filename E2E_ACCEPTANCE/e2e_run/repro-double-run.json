@@ -1,0 +1,60 @@
+{
+  "inputs": {
+    "2018北京春季高中会考数学（教师版）(1)": {
+      "md_sha": "934dec78dde333d21342f3f9419f524bb68e92645914c3d3db9cf482a282f176",
+      "pdf_sha": "3b87f19f2e212c63f9afc1c159982ecb16fd0da5f36e7745ce5b66e9c46b1fdc"
+    },
+    "2018北京春季高中会考物理（教师版）(1)": {
+      "md_sha": "81ea9b74dd71a577aede6f62fe43c0c53c5e1ff053fd1b1295195fa54c6a4797",
+      "pdf_sha": "98bcc61830a73d6291182f30e2d458a6ac1bbd7839027b1b23b8194682973ae9"
+    }
+  },
+  "R1": {
+    "round": "R1",
+    "db": "aitutors_repro_r1",
+    "dsn": "postgresql+asyncpg://aitutors:change-me@localhost:5432/aitutors_repro_r1",
+    "papers": [
+      {
+        "stem": "2018北京春季高中会考数学（教师版）(1)",
+        "md_sha": "934dec78dde333d21342f3f9419f524bb68e92645914c3d3db9cf482a282f176",
+        "units": 30,
+        "candidates": {},
+        "questions": 0,
+        "task_id": "0ec127c0-7358-4058-b265-a92d06cc6ec8"
+      },
+      {
+        "stem": "2018北京春季高中会考物理（教师版）(1)",
+        "md_sha": "81ea9b74dd71a577aede6f62fe43c0c53c5e1ff053fd1b1295195fa54c6a4797",
+        "units": 22,
+        "candidates": {},
+        "questions": 0,
+        "task_id": "a30a877d-5bf0-4bd4-9fc9-043928f9f78e"
+      }
+    ]
+  },
+  "R2": {
+    "round": "R2",
+    "db": "aitutors_repro_r2",
+    "dsn": "postgresql+asyncpg://aitutors:change-me@localhost:5432/aitutors_repro_r2",
+    "papers": [
+      {
+        "stem": "2018北京春季高中会考数学（教师版）(1)",
+        "md_sha": "934dec78dde333d21342f3f9419f524bb68e92645914c3d3db9cf482a282f176",
+        "units": 30,
+        "candidates": {},
+        "questions": 0,
+        "task_id": "a9e401c0-b106-484f-af6d-072740f203ca"
+      },
+      {
+        "stem": "2018北京春季高中会考物理（教师版）(1)",
+        "md_sha": "81ea9b74dd71a577aede6f62fe43c0c53c5e1ff053fd1b1295195fa54c6a4797",
+        "units": 22,
+        "candidates": {},
+        "questions": 0,
+        "task_id": "975eec6a-48ab-4b3f-9677-2d7afb8d9d0d"
+      }
+    ]
+  },
+  "reproducible": true,
+  "note": "same package md/pdf; fresh DB per round; same V3 entry"
+}

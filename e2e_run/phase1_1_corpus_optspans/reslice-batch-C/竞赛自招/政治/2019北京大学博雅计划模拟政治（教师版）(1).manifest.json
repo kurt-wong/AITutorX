@@ -1,0 +1,227 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\竞赛自招\\政治\\2019北京大学博雅计划模拟政治（教师版）(1).md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.1",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        19,
+        23
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        93,
+        95
+      ],
+      "explanation_lines": [
+        91,
+        91
+      ],
+      "section_ref": "S2",
+      "section": "一、 请阅读材料并回答以下问题。",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        27,
+        31
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        99,
+        99
+      ],
+      "explanation_lines": [
+        97,
+        97
+      ],
+      "section_ref": "S3",
+      "section": "二、 请阅读材料并回答以下问题。",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        35,
+        59
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        109,
+        109
+      ],
+      "explanation_lines": [
+        103,
+        107
+      ],
+      "section_ref": "S4",
+      "section": "三、 请阅读材料并回答以下问题。",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        63,
+        65
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        117,
+        137
+      ],
+      "explanation_lines": [
+        113,
+        115
+      ],
+      "section_ref": "S4",
+      "section": "三、 请阅读材料并回答以下问题。",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        5
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        69,
+        81
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        143,
+        151
+      ],
+      "explanation_lines": [
+        141,
+        141
+      ],
+      "section_ref": "S4",
+      "section": "三、 请阅读材料并回答以下问题。",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2019北京大学博雅计划模拟",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "政治",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 16,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "一、 请阅读材料并回答以下问题。",
+      "ordinal": 3,
+      "start_line": 17,
+      "end_line": 24,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "二、 请阅读材料并回答以下问题。",
+      "ordinal": 4,
+      "start_line": 25,
+      "end_line": 32,
+      "occurrence": 1
+    },
+    {
+      "id": "S4",
+      "title": "三、 请阅读材料并回答以下问题。",
+      "ordinal": 5,
+      "start_line": 33,
+      "end_line": 84,
+      "occurrence": 1
+    },
+    {
+      "id": "S5",
+      "title": "2019北京大学博雅计划模拟政治",
+      "ordinal": 6,
+      "start_line": 85,
+      "end_line": 88,
+      "occurrence": 1
+    },
+    {
+      "id": "S6",
+      "title": "一、 请阅读材料并回答以下问题。（按采分点给分，满分20分）",
+      "ordinal": 7,
+      "start_line": 89,
+      "end_line": 100,
+      "occurrence": 1
+    },
+    {
+      "id": "S7",
+      "title": "三、 请阅读材料并回答以下问题。（按采分点给分，满分20分）",
+      "ordinal": 8,
+      "start_line": 101,
+      "end_line": 110,
+      "occurrence": 1
+    },
+    {
+      "id": "S8",
+      "title": "四、 请阅读材料并回答以下问题。（按采分点给分，满分20分）",
+      "ordinal": 9,
+      "start_line": 111,
+      "end_line": 151,
+      "occurrence": 1
+    }
+  ],
+  "source_content_sha256": "e0a3841c791d07fdc2066fbb2d7e91c27e82d1dbb89b90d8c4e7659f72b845cd"
+}

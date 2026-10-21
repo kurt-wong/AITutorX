@@ -1,0 +1,66 @@
+{
+  "before": {
+    "stem_units": 11,
+    "option_spans": 32,
+    "ir_ready": 8,
+    "targets": {
+      "U21-23": {
+        "qn": "21",
+        "stem": false,
+        "option_spans": 0
+      },
+      "U24-25": {
+        "qn": "24",
+        "stem": false,
+        "option_spans": 0
+      },
+      "U40-41": {
+        "qn": "40",
+        "stem": false,
+        "option_spans": 0
+      },
+      "U42-43": {
+        "qn": "42",
+        "stem": false,
+        "option_spans": 0
+      },
+      "U44-46": {
+        "qn": "44",
+        "stem": false,
+        "option_spans": 0
+      }
+    }
+  },
+  "after": {
+    "stem_units": 16,
+    "option_spans": 63,
+    "ir_ready": 15,
+    "targets": {
+      "U21-23": {
+        "qn": "21",
+        "stem": true,
+        "option_spans": 0
+      },
+      "U24-25": {
+        "qn": "24",
+        "stem": true,
+        "option_spans": 0
+      },
+      "U40-41": {
+        "qn": "40",
+        "stem": true,
+        "option_spans": 0
+      },
+      "U42-43": {
+        "qn": "42",
+        "stem": true,
+        "option_spans": 0
+      },
+      "U44-46": {
+        "qn": "44",
+        "stem": true,
+        "option_spans": 0
+      }
+    }
+  }
+}

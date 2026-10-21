@@ -1,0 +1,472 @@
+{
+  "db": {
+    "decisions": {
+      "?": 144
+    },
+    "reason_kind": {},
+    "n_candidates_with_answer_explanation_overlap": 0,
+    "sample_overlap_units": {},
+    "empty_stem_count": 0
+  },
+  "content": {
+    "化学": {
+      "units": 40,
+      "declared": 34,
+      "multi": 9,
+      "range_has_expl_header": 0,
+      "range_has_solution_word": 0,
+      "single_declared": 25,
+      "single_has_letter": 0,
+      "single_is_solution": 0,
+      "samples": [
+        {
+          "unit_id": "Q1",
+          "answer_lines": [
+            513,
+            513
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "Q2",
+          "answer_lines": [
+            513,
+            513
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "Q3",
+          "answer_lines": [
+            513,
+            513
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "Q4",
+          "answer_lines": [
+            513,
+            513
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "Q5",
+          "answer_lines": [
+            513,
+            513
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "Q6",
+          "answer_lines": [
+            513,
+            513
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        }
+      ]
+    },
+    "历史": {
+      "units": 53,
+      "declared": 53,
+      "multi": 3,
+      "range_has_expl_header": 0,
+      "range_has_solution_word": 0,
+      "single_declared": 50,
+      "single_has_letter": 0,
+      "single_is_solution": 0,
+      "samples": [
+        {
+          "unit_id": "Q1",
+          "answer_lines": [
+            637,
+            637
+          ],
+          "text": "1. 【答案】C"
+        },
+        {
+          "unit_id": "Q2",
+          "answer_lines": [
+            643,
+            643
+          ],
+          "text": "2. 【答案】C"
+        },
+        {
+          "unit_id": "Q3",
+          "answer_lines": [
+            651,
+            651
+          ],
+          "text": "3. 【答案】C"
+        },
+        {
+          "unit_id": "Q4",
+          "answer_lines": [
+            655,
+            655
+          ],
+          "text": "4. 【答案】B"
+        },
+        {
+          "unit_id": "Q5",
+          "answer_lines": [
+            661,
+            661
+          ],
+          "text": "5. 【答案】C"
+        },
+        {
+          "unit_id": "Q6",
+          "answer_lines": [
+            669,
+            669
+          ],
+          "text": "6. 【答案】C"
+        }
+      ]
+    },
+    "地理": {
+      "units": 25,
+      "declared": 25,
+      "multi": 5,
+      "range_has_expl_header": 0,
+      "range_has_solution_word": 0,
+      "single_declared": 20,
+      "single_has_letter": 0,
+      "single_is_solution": 0,
+      "samples": [
+        {
+          "unit_id": "U1-2",
+          "answer_lines": [
+            601,
+            601
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "U3-5",
+          "answer_lines": [
+            601,
+            601
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "U6-7",
+          "answer_lines": [
+            601,
+            601
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "U8-9",
+          "answer_lines": [
+            601,
+            601
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "U10-12",
+          "answer_lines": [
+            601,
+            601
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "U13-15",
+          "answer_lines": [
+            601,
+            601
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        }
+      ]
+    },
+    "政治": {
+      "units": 36,
+      "declared": 36,
+      "multi": 6,
+      "range_has_expl_header": 0,
+      "range_has_solution_word": 0,
+      "single_declared": 30,
+      "single_has_letter": 0,
+      "single_is_solution": 0,
+      "samples": [
+        {
+          "unit_id": "Q1",
+          "answer_lines": [
+            552,
+            552
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "Q2",
+          "answer_lines": [
+            552,
+            552
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "Q3",
+          "answer_lines": [
+            552,
+            552
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "Q4",
+          "answer_lines": [
+            552,
+            552
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "Q5",
+          "answer_lines": [
+            552,
+            552
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "Q6",
+          "answer_lines": [
+            552,
+            552
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        }
+      ]
+    },
+    "数学": {
+      "units": 30,
+      "declared": 30,
+      "multi": 30,
+      "range_has_expl_header": 30,
+      "range_has_solution_word": 30,
+      "single_declared": 0,
+      "single_has_letter": 0,
+      "single_is_solution": 0,
+      "samples": []
+    },
+    "物理": {
+      "units": 22,
+      "declared": 22,
+      "multi": 1,
+      "range_has_expl_header": 0,
+      "range_has_solution_word": 0,
+      "single_declared": 21,
+      "single_has_letter": 0,
+      "single_is_solution": 0,
+      "samples": [
+        {
+          "unit_id": "Q1",
+          "answer_lines": [
+            356,
+            356
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "Q2",
+          "answer_lines": [
+            356,
+            356
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "Q3",
+          "answer_lines": [
+            356,
+            356
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "Q4",
+          "answer_lines": [
+            356,
+            356
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "Q5",
+          "answer_lines": [
+            356,
+            356
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "Q6",
+          "answer_lines": [
+            356,
+            356
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        }
+      ]
+    },
+    "生物": {
+      "units": 50,
+      "declared": 50,
+      "multi": 10,
+      "range_has_expl_header": 0,
+      "range_has_solution_word": 0,
+      "single_declared": 40,
+      "single_has_letter": 0,
+      "single_is_solution": 0,
+      "samples": [
+        {
+          "unit_id": "Q1",
+          "answer_lines": [
+            497,
+            497
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "Q2",
+          "answer_lines": [
+            497,
+            497
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "Q3",
+          "answer_lines": [
+            497,
+            497
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "Q4",
+          "answer_lines": [
+            497,
+            497
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "Q5",
+          "answer_lines": [
+            497,
+            497
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        },
+        {
+          "unit_id": "Q6",
+          "answer_lines": [
+            497,
+            497
+          ],
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>"
+        }
+      ]
+    },
+    "英语": {
+      "units": 18,
+      "declared": 18,
+      "multi": 2,
+      "range_has_expl_header": 0,
+      "range_has_solution_word": 0,
+      "single_declared": 16,
+      "single_has_letter": 0,
+      "single_is_solution": 0,
+      "samples": [
+        {
+          "unit_id": "Q1",
+          "answer_lines": [
+            451,
+            451
+          ],
+          "text": "1\\. C2\\. C3\\. A4\\. B5\\. C6\\. B7\\. C8\\. A9\\. C10\\. A11\\. B12\\. A13\\. C14\\. A15\\. B"
+        },
+        {
+          "unit_id": "Q2",
+          "answer_lines": [
+            451,
+            451
+          ],
+          "text": "1\\. C2\\. C3\\. A4\\. B5\\. C6\\. B7\\. C8\\. A9\\. C10\\. A11\\. B12\\. A13\\. C14\\. A15\\. B"
+        },
+        {
+          "unit_id": "Q3",
+          "answer_lines": [
+            451,
+            451
+          ],
+          "text": "1\\. C2\\. C3\\. A4\\. B5\\. C6\\. B7\\. C8\\. A9\\. C10\\. A11\\. B12\\. A13\\. C14\\. A15\\. B"
+        },
+        {
+          "unit_id": "Q4",
+          "answer_lines": [
+            451,
+            451
+          ],
+          "text": "1\\. C2\\. C3\\. A4\\. B5\\. C6\\. B7\\. C8\\. A9\\. C10\\. A11\\. B12\\. A13\\. C14\\. A15\\. B"
+        },
+        {
+          "unit_id": "Q5-6",
+          "answer_lines": [
+            451,
+            451
+          ],
+          "text": "1\\. C2\\. C3\\. A4\\. B5\\. C6\\. B7\\. C8\\. A9\\. C10\\. A11\\. B12\\. A13\\. C14\\. A15\\. B"
+        },
+        {
+          "unit_id": "Q7-8",
+          "answer_lines": [
+            451,
+            451
+          ],
+          "text": "1\\. C2\\. C3\\. A4\\. B5\\. C6\\. B7\\. C8\\. A9\\. C10\\. A11\\. B12\\. A13\\. C14\\. A15\\. B"
+        }
+      ]
+    },
+    "语文": {
+      "units": 10,
+      "declared": 10,
+      "multi": 8,
+      "range_has_expl_header": 0,
+      "range_has_solution_word": 0,
+      "single_declared": 2,
+      "single_has_letter": 0,
+      "single_is_solution": 0,
+      "samples": [
+        {
+          "unit_id": "Q6",
+          "answer_lines": [
+            362,
+            362
+          ],
+          "text": "6. D（2分）"
+        },
+        {
+          "unit_id": "Q7",
+          "answer_lines": [
+            364,
+            364
+          ],
+          "text": "7\\.C（3分）"
+        }
+      ]
+    }
+  }
+}

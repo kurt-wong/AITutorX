@@ -1,0 +1,1139 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\竞赛自招\\数学\\2020北京大学强基计划数学（教师版）(1).md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.1",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        5,
+        5
+      ],
+      "options_lines": [
+        7,
+        7
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        101,
+        101
+      ],
+      "explanation_lines": [
+        103,
+        109
+      ],
+      "section_ref": "S1",
+      "section": "数 学",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L5",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 7,
+          "end_line": 7
+        },
+        {
+          "label": "B",
+          "start_line": 7,
+          "end_line": 7
+        },
+        {
+          "label": "C",
+          "start_line": 7,
+          "end_line": 7
+        },
+        {
+          "label": "D",
+          "start_line": 7,
+          "end_line": 7
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        9,
+        9
+      ],
+      "options_lines": [
+        11,
+        11
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        111,
+        111
+      ],
+      "explanation_lines": [
+        113,
+        115
+      ],
+      "section_ref": "S1",
+      "section": "数 学",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L9",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 11,
+          "end_line": 11
+        },
+        {
+          "label": "B",
+          "start_line": 11,
+          "end_line": 11
+        },
+        {
+          "label": "C",
+          "start_line": 11,
+          "end_line": 11
+        },
+        {
+          "label": "D",
+          "start_line": 11,
+          "end_line": 11
+        }
+      ]
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        13,
+        13
+      ],
+      "options_lines": [
+        15,
+        15
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        117,
+        117
+      ],
+      "explanation_lines": [
+        119,
+        129
+      ],
+      "section_ref": "S1",
+      "section": "数 学",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L13",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 15,
+          "end_line": 15
+        },
+        {
+          "label": "B",
+          "start_line": 15,
+          "end_line": 15
+        },
+        {
+          "label": "C",
+          "start_line": 15,
+          "end_line": 15
+        },
+        {
+          "label": "D",
+          "start_line": 15,
+          "end_line": 15
+        }
+      ]
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        17,
+        17
+      ],
+      "options_lines": [
+        19,
+        19
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        131,
+        131
+      ],
+      "explanation_lines": [
+        133,
+        147
+      ],
+      "section_ref": "S1",
+      "section": "数 学",
+      "printed_number": [
+        4
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L17",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 19,
+          "end_line": 19
+        },
+        {
+          "label": "B",
+          "start_line": 19,
+          "end_line": 19
+        },
+        {
+          "label": "C",
+          "start_line": 19,
+          "end_line": 19
+        },
+        {
+          "label": "D",
+          "start_line": 19,
+          "end_line": 19
+        }
+      ]
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        5
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        21,
+        21
+      ],
+      "options_lines": [
+        23,
+        23
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        149,
+        149
+      ],
+      "explanation_lines": [
+        151,
+        158
+      ],
+      "section_ref": "S1",
+      "section": "数 学",
+      "printed_number": [
+        5
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L21",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 23,
+          "end_line": 23
+        },
+        {
+          "label": "B",
+          "start_line": 23,
+          "end_line": 23
+        },
+        {
+          "label": "C",
+          "start_line": 23,
+          "end_line": 23
+        },
+        {
+          "label": "D",
+          "start_line": 23,
+          "end_line": 23
+        }
+      ]
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        6
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        25,
+        25
+      ],
+      "options_lines": [
+        27,
+        27
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        160,
+        160
+      ],
+      "explanation_lines": [
+        162,
+        168
+      ],
+      "section_ref": "S1",
+      "section": "数 学",
+      "printed_number": [
+        6
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L25",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 27,
+          "end_line": 27
+        },
+        {
+          "label": "B",
+          "start_line": 27,
+          "end_line": 27
+        },
+        {
+          "label": "C",
+          "start_line": 27,
+          "end_line": 27
+        },
+        {
+          "label": "D",
+          "start_line": 27,
+          "end_line": 27
+        }
+      ]
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        7
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        29,
+        29
+      ],
+      "options_lines": [
+        31,
+        31
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        170,
+        170
+      ],
+      "explanation_lines": [
+        172,
+        180
+      ],
+      "section_ref": "S1",
+      "section": "数 学",
+      "printed_number": [
+        7
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L29",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 31,
+          "end_line": 31
+        },
+        {
+          "label": "B",
+          "start_line": 31,
+          "end_line": 31
+        },
+        {
+          "label": "C",
+          "start_line": 31,
+          "end_line": 31
+        },
+        {
+          "label": "D",
+          "start_line": 31,
+          "end_line": 31
+        }
+      ]
+    },
+    {
+      "unit_id": "Q8",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        8
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        33,
+        33
+      ],
+      "options_lines": [
+        35,
+        35
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        182,
+        182
+      ],
+      "explanation_lines": [
+        184,
+        197
+      ],
+      "section_ref": "S1",
+      "section": "数 学",
+      "printed_number": [
+        8
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L33",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 35,
+          "end_line": 35
+        },
+        {
+          "label": "B",
+          "start_line": 35,
+          "end_line": 35
+        },
+        {
+          "label": "C",
+          "start_line": 35,
+          "end_line": 35
+        },
+        {
+          "label": "D",
+          "start_line": 35,
+          "end_line": 35
+        }
+      ]
+    },
+    {
+      "unit_id": "Q9",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        9
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        37,
+        37
+      ],
+      "options_lines": [
+        41,
+        41
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        199,
+        199
+      ],
+      "explanation_lines": [
+        201,
+        205
+      ],
+      "section_ref": "S1",
+      "section": "数 学",
+      "printed_number": [
+        9
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L37",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 41,
+          "end_line": 41
+        },
+        {
+          "label": "B",
+          "start_line": 41,
+          "end_line": 41
+        },
+        {
+          "label": "C",
+          "start_line": 41,
+          "end_line": 41
+        },
+        {
+          "label": "D",
+          "start_line": 41,
+          "end_line": 41
+        }
+      ]
+    },
+    {
+      "unit_id": "Q10",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        10
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        43,
+        43
+      ],
+      "options_lines": [
+        45,
+        45
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        207,
+        207
+      ],
+      "explanation_lines": [
+        209,
+        209
+      ],
+      "section_ref": "S1",
+      "section": "数 学",
+      "printed_number": [
+        10
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L43",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 45,
+          "end_line": 45
+        },
+        {
+          "label": "B",
+          "start_line": 45,
+          "end_line": 45
+        },
+        {
+          "label": "C",
+          "start_line": 45,
+          "end_line": 45
+        },
+        {
+          "label": "D",
+          "start_line": 45,
+          "end_line": 45
+        }
+      ]
+    },
+    {
+      "unit_id": "Q11",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        11
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        47,
+        47
+      ],
+      "options_lines": [
+        49,
+        49
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        211,
+        211
+      ],
+      "explanation_lines": [
+        213,
+        219
+      ],
+      "section_ref": "S1",
+      "section": "数 学",
+      "printed_number": [
+        11
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L47",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 49,
+          "end_line": 49
+        },
+        {
+          "label": "B",
+          "start_line": 49,
+          "end_line": 49
+        },
+        {
+          "label": "C",
+          "start_line": 49,
+          "end_line": 49
+        },
+        {
+          "label": "D",
+          "start_line": 49,
+          "end_line": 49
+        }
+      ]
+    },
+    {
+      "unit_id": "Q12",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        12
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        51,
+        51
+      ],
+      "options_lines": [
+        53,
+        53
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        221,
+        221
+      ],
+      "explanation_lines": [
+        223,
+        229
+      ],
+      "section_ref": "S1",
+      "section": "数 学",
+      "printed_number": [
+        12
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L51",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 53,
+          "end_line": 53
+        },
+        {
+          "label": "B",
+          "start_line": 53,
+          "end_line": 53
+        },
+        {
+          "label": "C",
+          "start_line": 53,
+          "end_line": 53
+        },
+        {
+          "label": "D",
+          "start_line": 53,
+          "end_line": 53
+        }
+      ]
+    },
+    {
+      "unit_id": "Q13",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        13
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        55,
+        55
+      ],
+      "options_lines": [
+        57,
+        57
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        231,
+        231
+      ],
+      "explanation_lines": [
+        233,
+        249
+      ],
+      "section_ref": "S1",
+      "section": "数 学",
+      "printed_number": [
+        13
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L55",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 57,
+          "end_line": 57
+        },
+        {
+          "label": "B",
+          "start_line": 57,
+          "end_line": 57
+        },
+        {
+          "label": "C",
+          "start_line": 57,
+          "end_line": 57
+        },
+        {
+          "label": "D",
+          "start_line": 57,
+          "end_line": 57
+        }
+      ]
+    },
+    {
+      "unit_id": "Q14",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        14
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        59,
+        59
+      ],
+      "options_lines": [
+        61,
+        61
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        251,
+        251
+      ],
+      "explanation_lines": [
+        253,
+        257
+      ],
+      "section_ref": "S1",
+      "section": "数 学",
+      "printed_number": [
+        14
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L59",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 61,
+          "end_line": 61
+        },
+        {
+          "label": "B",
+          "start_line": 61,
+          "end_line": 61
+        },
+        {
+          "label": "C",
+          "start_line": 61,
+          "end_line": 61
+        },
+        {
+          "label": "D",
+          "start_line": 61,
+          "end_line": 61
+        }
+      ]
+    },
+    {
+      "unit_id": "Q15",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        15
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        63,
+        63
+      ],
+      "options_lines": [
+        65,
+        65
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        259,
+        259
+      ],
+      "explanation_lines": [
+        261,
+        273
+      ],
+      "section_ref": "S1",
+      "section": "数 学",
+      "printed_number": [
+        15
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L63",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 65,
+          "end_line": 65
+        },
+        {
+          "label": "B",
+          "start_line": 65,
+          "end_line": 65
+        },
+        {
+          "label": "C",
+          "start_line": 65,
+          "end_line": 65
+        },
+        {
+          "label": "D",
+          "start_line": 65,
+          "end_line": 65
+        }
+      ]
+    },
+    {
+      "unit_id": "Q16",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        16
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        67,
+        67
+      ],
+      "options_lines": [
+        69,
+        69
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        275,
+        275
+      ],
+      "explanation_lines": [
+        277,
+        279
+      ],
+      "section_ref": "S1",
+      "section": "数 学",
+      "printed_number": [
+        16
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L67",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 69,
+          "end_line": 69
+        },
+        {
+          "label": "B",
+          "start_line": 69,
+          "end_line": 69
+        },
+        {
+          "label": "C",
+          "start_line": 69,
+          "end_line": 69
+        },
+        {
+          "label": "D",
+          "start_line": 69,
+          "end_line": 69
+        }
+      ]
+    },
+    {
+      "unit_id": "Q17",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        17
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        71,
+        71
+      ],
+      "options_lines": [
+        73,
+        73
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        281,
+        281
+      ],
+      "explanation_lines": [
+        283,
+        296
+      ],
+      "section_ref": "S1",
+      "section": "数 学",
+      "printed_number": [
+        17
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L71",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 73,
+          "end_line": 73
+        },
+        {
+          "label": "B",
+          "start_line": 73,
+          "end_line": 73
+        },
+        {
+          "label": "C",
+          "start_line": 73,
+          "end_line": 73
+        },
+        {
+          "label": "D",
+          "start_line": 73,
+          "end_line": 73
+        }
+      ]
+    },
+    {
+      "unit_id": "Q18",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        18
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        75,
+        75
+      ],
+      "options_lines": [
+        77,
+        77
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        298,
+        298
+      ],
+      "explanation_lines": [
+        300,
+        314
+      ],
+      "section_ref": "S1",
+      "section": "数 学",
+      "printed_number": [
+        18
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L75",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 77,
+          "end_line": 77
+        },
+        {
+          "label": "B",
+          "start_line": 77,
+          "end_line": 77
+        },
+        {
+          "label": "C",
+          "start_line": 77,
+          "end_line": 77
+        },
+        {
+          "label": "D",
+          "start_line": 77,
+          "end_line": 77
+        }
+      ]
+    },
+    {
+      "unit_id": "Q19",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        19
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        79,
+        79
+      ],
+      "options_lines": [
+        81,
+        81
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        316,
+        316
+      ],
+      "explanation_lines": [
+        318,
+        322
+      ],
+      "section_ref": "S1",
+      "section": "数 学",
+      "printed_number": [
+        19
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L79",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 81,
+          "end_line": 81
+        },
+        {
+          "label": "B",
+          "start_line": 81,
+          "end_line": 81
+        },
+        {
+          "label": "C",
+          "start_line": 81,
+          "end_line": 81
+        },
+        {
+          "label": "D",
+          "start_line": 81,
+          "end_line": 81
+        }
+      ]
+    },
+    {
+      "unit_id": "Q20",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        20
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        85,
+        85
+      ],
+      "options_lines": [
+        87,
+        93
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        324,
+        324
+      ],
+      "explanation_lines": [
+        326,
+        331
+      ],
+      "section_ref": "S1",
+      "section": "数 学",
+      "printed_number": [
+        20
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L85",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 87,
+          "end_line": 87
+        },
+        {
+          "label": "B",
+          "start_line": 89,
+          "end_line": 89
+        },
+        {
+          "label": "C",
+          "start_line": 91,
+          "end_line": 91
+        },
+        {
+          "label": "D",
+          "start_line": 93,
+          "end_line": 93
+        }
+      ]
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2020 北京大学强基计划",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "数 学",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 96,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "2020 北京大学强基计划数学",
+      "ordinal": 3,
+      "start_line": 97,
+      "end_line": 332,
+      "occurrence": 1
+    }
+  ],
+  "source_content_sha256": "9484c1d99ed9a40366066994a5541d539521b3181ba7fa522d1d56472b71b412"
+}

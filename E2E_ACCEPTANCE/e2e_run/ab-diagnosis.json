@@ -1,0 +1,497 @@
+{
+  "geo": {
+    "units": 25,
+    "unit_type_counts": {
+      "composite_question": 25
+    },
+    "samples": [
+      {
+        "unit_id": "U1-2",
+        "unit_type": "composite_question",
+        "question_numbers": [
+          1,
+          2
+        ],
+        "original_question_type": "single_choice",
+        "stem_lines": null,
+        "options_lines": null,
+        "questions_lines": [
+          9,
+          17
+        ],
+        "material_lines": [
+          9,
+          9
+        ],
+        "answer_lines": [
+          601,
+          601
+        ],
+        "has_sub_questions": false,
+        "keys": [
+          "answer_lines",
+          "basis",
+          "basis_evidence",
+          "explanation_lines",
+          "material_lines",
+          "original_question_type",
+          "printed_number",
+          "printed_provenance",
+          "question_numbers",
+          "questions_lines",
+          "section",
+          "section_ref",
+          "unit_id",
+          "unit_type"
+        ],
+        "questions_text_head": "“卡西尼号”太空探测器对土星及其卫星进行了长达十余年的探测。据此完成1-2题。\n\n1\\. 与 “卡西尼号” 探测的天体系统级别相同的是\n"
+      },
+      {
+        "unit_id": "U3-5",
+        "unit_type": "composite_question",
+        "question_numbers": [
+          3,
+          4,
+          5
+        ],
+        "original_question_type": "single_choice",
+        "stem_lines": null,
+        "options_lines": null,
+        "questions_lines": [
+          19,
+          33
+        ],
+        "material_lines": [
+          19,
+          19
+        ],
+        "answer_lines": [
+          601,
+          601
+        ],
+        "has_sub_questions": false,
+        "keys": [
+          "answer_lines",
+          "basis",
+          "basis_evidence",
+          "explanation_lines",
+          "material_lines",
+          "original_question_type",
+          "printed_number",
+          "printed_provenance",
+          "question_numbers",
+          "questions_lines",
+          "section",
+          "section_ref",
+          "unit_id",
+          "unit_type"
+        ],
+        "questions_text_head": "北京时间2017年9月6日20时，太阳爆发了强烈耀斑。据此完成3-5题。\n\n3. 本次耀斑爆发时，伦敦正值\n"
+      },
+      {
+        "unit_id": "U6-7",
+        "unit_type": "composite_question",
+        "question_numbers": [
+          6,
+          7
+        ],
+        "original_question_type": "single_choice",
+        "stem_lines": null,
+        "options_lines": null,
+        "questions_lines": [
+          35,
+          43
+        ],
+        "material_lines": [
+          35,
+          35
+        ],
+        "answer_lines": [
+          601,
+          601
+        ],
+        "has_sub_questions": false,
+        "keys": [
+          "answer_lines",
+          "basis",
+          "basis_evidence",
+          "explanation_lines",
+          "material_lines",
+          "original_question_type",
+          "printed_number",
+          "printed_provenance",
+          "question_numbers",
+          "questions_lines",
+          "section",
+          "section_ref",
+          "unit_id",
+          "unit_type"
+        ],
+        "questions_text_head": "诗句 “枯草霜花白，寒窗月新影” 是古人对霜降时节景观的描述。据此完成 6-7 题。\n\n6. 诗中描述的景观最有可能出现在\n"
+      },
+      {
+        "unit_id": "U8-9",
+        "unit_type": "composite_question",
+        "question_numbers": [
+          8,
+          9
+        ],
+        "original_question_type": "single_choice",
+        "stem_lines": null,
+        "options_lines": null,
+        "questions_lines": [
+          45,
+          68
+        ],
+        "material_lines": [
+          45,
+          45
+        ],
+        "answer_lines": [
+          601,
+          601
+        ],
+        "has_sub_questions": false,
+        "keys": [
+          "answer_lines",
+          "basis",
+          "basis_evidence",
+          "explanation_lines",
+          "material_lines",
+          "original_question_type",
+          "printed_number",
+          "printed_provenance",
+          "question_numbers",
+          "questions_lines",
+          "section",
+          "section_ref",
+          "unit_id",
+          "unit_type"
+        ],
+        "questions_text_head": "2017年10月16日，台风“卡努”在广东省南部沿海登陆。据此完成8-9题。\n\n8. 台风 “卡努” 属于图1天气系统中的\n"
+      },
+      {
+        "unit_id": "U10-12",
+        "unit_type": "composite_question",
+        "question_numbers": [
+          10,
+          11,
+          12
+        ],
+        "original_question_type": "single_choice",
+        "stem_lines": null,
+        "options_lines": null,
+        "questions_lines": [
+          70,
+          95
+        ],
+        "material_lines": [
+          70,
+          72
+        ],
+        "answer_lines": [
+          601,
+          601
+        ],
+        "has_sub_questions": false,
+        "keys": [
+          "answer_lines",
+          "basis",
+          "basis_evidence",
+          "explanation_lines",
+          "material_lines",
+          "original_question_type",
+          "printed_number",
+          "printed_provenance",
+          "question_numbers",
+          "questions_lines",
+          "section",
+          "section_ref",
+          "unit_id",
+          "unit_type"
+        ],
+        "questions_text_head": "当地时间2016年11月14日，新西兰南岛发生了7.5级地震，震源深度15千米。\n\n读图2，完成10-12题。\n"
+      },
+      {
+        "unit_id": "U13-15",
+        "unit_type": "composite_question",
+        "question_numbers": [
+          13,
+          14,
+          15
+        ],
+        "original_question_type": "single_choice",
+        "stem_lines": null,
+        "options_lines": null,
+        "questions_lines": [
+          97,
+          131
+        ],
+        "material_lines": [
+          97,
+          99
+        ],
+        "answer_lines": [
+          601,
+          601
+        ],
+        "has_sub_questions": false,
+        "keys": [
+          "answer_lines",
+          "basis",
+          "basis_evidence",
+          "explanation_lines",
+          "material_lines",
+          "original_question_type",
+          "printed_number",
+          "printed_provenance",
+          "question_numbers",
+          "questions_lines",
+          "section",
+          "section_ref",
+          "unit_id",
+          "unit_type"
+        ],
+        "questions_text_head": "1519 年至 1522 年，麦哲伦船队实现了人类首次环球航行。读图 3 “麦哲伦船队环球航行局部路线\n\n图”，完成13—15题。\n"
+      },
+      {
+        "unit_id": "U16-17",
+        "unit_type": "composite_question",
+        "question_numbers": [
+          16,
+          17
+        ],
+        "original_question_type": "single_choice",
+        "stem_lines": null,
+        "options_lines": null,
+        "questions_lines": [
+          133,
+          141
+        ],
+        "material_lines": [
+          133,
+          133
+        ],
+        "answer_lines": [
+          601,
+          601
+        ],
+        "has_sub_questions": false,
+        "keys": [
+          "answer_lines",
+          "basis",
+          "basis_evidence",
+          "explanation_lines",
+          "material_lines",
+          "original_question_type",
+          "printed_number",
+          "printed_provenance",
+          "question_numbers",
+          "questions_lines",
+          "section",
+          "section_ref",
+          "unit_id",
+          "unit_type"
+        ],
+        "questions_text_head": "北京市从 2017 年 12 月开始对洗车等高耗水行业征收水资源税。据此完成 16~17 题。16. 北京市水资源利用方面的主要问题是\n\nA. 河流频繁改道 B. 生产用水被严重污染 C. 人均水资源少 D. 居民饮用水供应困难\n"
+      },
+      {
+        "unit_id": "U18-20",
+        "unit_type": "composite_question",
+        "question_numbers": [
+          18,
+          19,
+          20
+        ],
+        "original_question_type": "single_choice",
+        "stem_lines": null,
+        "options_lines": null,
+        "questions_lines": [
+          143,
+          169
+        ],
+        "material_lines": [
+          143,
+          143
+        ],
+        "answer_lines": [
+          601,
+          601
+        ],
+        "has_sub_questions": false,
+        "keys": [
+          "answer_lines",
+          "basis",
+          "basis_evidence",
+          "explanation_lines",
+          "material_lines",
+          "original_question_type",
+          "printed_number",
+          "printed_provenance",
+          "question_numbers",
+          "questions_lines",
+          "section",
+          "section_ref",
+          "unit_id",
+          "unit_type"
+        ],
+        "questions_text_head": "图 4 为某校学生游学途中在甘肃省敦煌市附近拍摄的地貌景观。读图 4 和图 5 “岩石圈物质循环示意图”，完成 18—20 题\n\n18. 塑造图4所示地貌的主要外力作用是\n"
+      }
+    ],
+    "md_lines": 661,
+    "md_head": [
+      "# 2018 北京春季高中会考",
+      "",
+      "# 地 理",
+      "",
+      "第一部分选择题（共50分）"
+    ],
+    "field_coverage": {
+      "stem_lines": 0,
+      "options_lines": 0,
+      "questions_lines": 25,
+      "material_lines": 25,
+      "answer_lines": 25,
+      "sub_questions": 0
+    }
+  },
+  "math": {
+    "units": 30,
+    "samples": [
+      {
+        "unit_id": "Q1",
+        "question_numbers": [
+          1
+        ],
+        "original_question_type": "single_choice",
+        "answer_lines": [
+          200,
+          206
+        ],
+        "stem_lines": [
+          7,
+          7
+        ],
+        "answer_text": "【考点】三角函数的周期性及其求法.\n\n【分析】由条件利用函数  $ y = A \\sin(\\omega x + \\phi) $ 的周期为  $ \\frac{2\\pi}{\\omega} $，求得结果.\n\n【解答】解：函数  $ y=3\\sin x+2 $ 的最小正周期为  $ 2\\pi $\n\n故选：D.",
+        "pattern_hits": {
+          "gu_xuan": [
+            "D"
+          ],
+          "da_an": [],
+          "kuoda_an": [],
+          "gu_xuan_any": [
+            "故选："
+          ]
+        }
+      },
+      {
+        "unit_id": "Q2",
+        "question_numbers": [
+          2
+        ],
+        "original_question_type": "single_choice",
+        "answer_lines": [
+          208,
+          222
+        ],
+        "stem_lines": [
+          11,
+          11
+        ],
+        "answer_text": "2.\n\n【考点】集合的包含关系判断及应用.\n\n【分析】由  $ A \\cap B = A $，得出  $ A \\subseteq B $，即可得出 m.\n\n【解答】解：∵A∩B=A，\n\n $$ \\therefore A\\subseteq B. $$ \n\n $ \\because A=\\{1,2\\}, B=\\{1,m,3\\} $,\n\n $$ \\therefore m=2. $$ \n\n故选C.",
+        "pattern_hits": {
+          "gu_xuan": [],
+          "da_an": [],
+          "kuoda_an": [],
+          "gu_xuan_any": []
+        }
+      },
+      {
+        "unit_id": "Q3",
+        "question_numbers": [
+          3
+        ],
+        "original_question_type": "single_choice",
+        "answer_lines": [
+          224,
+          232
+        ],
+        "stem_lines": [
+          15,
+          15
+        ],
+        "answer_text": "3.\n\n【考点】平面向量的坐标运算.\n\n【分析】根据向量的坐标的运算法则计算即可.\n\n【解答】解：向量  $ \\overrightarrow{a}=(1,2) $， $ \\overrightarrow{b}=(4,3) $，\n\n则于  $ \\overrightarrow{a}-2\\overrightarrow{b}=(1,2)-2(4,3)=(1,2)-(8,6)=(1-8,2-6)=(-7,-4) $，故选：B.",
+        "pattern_hits": {
+          "gu_xuan": [
+            "B"
+          ],
+          "da_an": [],
+          "kuoda_an": [],
+          "gu_xuan_any": [
+            "故选："
+          ]
+        }
+      },
+      {
+        "unit_id": "Q4",
+        "question_numbers": [
+          4
+        ],
+        "original_question_type": "single_choice",
+        "answer_lines": [
+          234,
+          240
+        ],
+        "stem_lines": [
+          19,
+          19
+        ],
+        "answer_text": "4.\n\n【考点】余弦函数的图象.\n\n【分析】根据当自变量相同时，它们的函数值相反，可得它们的图象关于x轴对称.\n\n【解答】解：由于当自变量相同时，它们的函数值相反，故它们的图象关于x轴对称，故选：A.",
+        "pattern_hits": {
+          "gu_xuan": [
+            "A"
+          ],
+          "da_an": [],
+          "kuoda_an": [],
+          "gu_xuan_any": [
+            "故选："
+          ]
+        }
+      },
+      {
+        "unit_id": "Q5",
+        "question_numbers": [
+          5
+        ],
+        "original_question_type": "single_choice",
+        "answer_lines": [
+          242,
+          258
+        ],
+        "stem_lines": [
+          25,
+          27
+        ],
+        "answer_text": "5.\n\n【考点】程序框图.\n\n【分析】根据题意，模拟程序框图的运行过程，即可得出输出的结果.\n\n【解答】解：模拟程序框图的运行过程，如下；\n\nx=-2， $ x\\geq0 $？，否；\n\n---\n\ny = -(-2) = 2,\n\n输出 y 的值为 2.\n\n故选：C.",
+        "pattern_hits": {
+          "gu_xuan": [
+            "C"
+          ],
+          "da_an": [],
+          "kuoda_an": [],
+          "gu_xuan_any": [
+            "故选："
+          ]
+        }
+      }
+    ],
+    "global_pattern_counts": {
+      "gu_xuan_A_D": 23,
+      "da_an_A_D": 0,
+      "kuoda_an": 0,
+      "gu_xuan_any": 23,
+      "kao_dian": 30,
+      "jie_da": 30
+    }
+  }
+}

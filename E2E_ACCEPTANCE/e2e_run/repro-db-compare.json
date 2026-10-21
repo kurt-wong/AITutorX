@@ -1,0 +1,115 @@
+{
+  "reproducible": true,
+  "rows": [
+    {
+      "db": "aitutors_repro_r1",
+      "docs": 2,
+      "cand": {
+        "approved": 10,
+        "pending_review": 38
+      },
+      "questions": 10,
+      "instances": 10,
+      "per_doc": [
+        {
+          "doc": "487d4edb",
+          "pdf_sha": "3b87f19f2e21",
+          "cand": {
+            "pending_review": 30
+          },
+          "q": 0,
+          "n_sv": 2
+        },
+        {
+          "doc": "e0f6e5af",
+          "pdf_sha": "98bcc61830a7",
+          "cand": {
+            "approved": 10,
+            "pending_review": 8
+          },
+          "q": 10,
+          "n_sv": 2
+        }
+      ]
+    },
+    {
+      "db": "aitutors_repro_r2",
+      "docs": 2,
+      "cand": {
+        "approved": 10,
+        "pending_review": 38
+      },
+      "questions": 10,
+      "instances": 10,
+      "per_doc": [
+        {
+          "doc": "a424af3d",
+          "pdf_sha": "3b87f19f2e21",
+          "cand": {
+            "pending_review": 30
+          },
+          "q": 0,
+          "n_sv": 2
+        },
+        {
+          "doc": "98f20946",
+          "pdf_sha": "98bcc61830a7",
+          "cand": {
+            "approved": 10,
+            "pending_review": 8
+          },
+          "q": 10,
+          "n_sv": 2
+        }
+      ]
+    },
+    {
+      "db": "aitutors_prod_batch",
+      "docs": 4,
+      "cand": {
+        "approved": 31,
+        "pending_review": 41
+      },
+      "questions": 31,
+      "instances": 31,
+      "per_doc": [
+        {
+          "doc": "8f68abc2",
+          "pdf_sha": "8d3f9dad0918",
+          "cand": {
+            "approved": 21,
+            "pending_review": 3
+          },
+          "q": 21,
+          "n_sv": 2
+        },
+        {
+          "doc": "2cff6900",
+          "pdf_sha": "96344286c837",
+          "cand": {},
+          "q": 0,
+          "n_sv": 2
+        },
+        {
+          "doc": "2c0b747f",
+          "pdf_sha": "3b87f19f2e21",
+          "cand": {
+            "pending_review": 30
+          },
+          "q": 0,
+          "n_sv": 2
+        },
+        {
+          "doc": "f1a711c2",
+          "pdf_sha": "98bcc61830a7",
+          "cand": {
+            "approved": 10,
+            "pending_review": 8
+          },
+          "q": 10,
+          "n_sv": 2
+        }
+      ]
+    }
+  ]
+}

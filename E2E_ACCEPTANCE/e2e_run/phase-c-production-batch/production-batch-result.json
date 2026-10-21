@@ -1,0 +1,123 @@
+{
+  "database": "aitutors_phasec_exp",
+  "papers": 5,
+  "manifest_units_total": 117,
+  "candidates_total": 0,
+  "approved": 0,
+  "pending_review": 0,
+  "rejected": 0,
+  "question_instances_total": 0,
+  "effective_yield_vs_manifest": 0.0,
+  "admit_rate_vs_candidates": null,
+  "results": [
+    {
+      "label": "chem-2018-spring-m1",
+      "package": "D:\\Project\\AITutor-X\\E2E_ACCEPTANCE\\06_M1_PACKAGES\\chem-2018-spring-huikao-teacher",
+      "manifest_units": 40,
+      "document_id": "8f68abc2-73f1-4416-8579-69e51cd81e9a",
+      "task_id": "4b438183-ee3f-4838-bb64-e4896a6f242f",
+      "is_new": true,
+      "task_status": "succeeded",
+      "seconds": 1.01,
+      "claim_row": {
+        "id": "390c4391-1760-43c5-98ef-356f2e871bcb",
+        "task_id": "4b438183-ee3f-4838-bb64-e4896a6f242f",
+        "claim_round": "1",
+        "start": "2026-10-11 02:27:56.948771+00:00",
+        "end": "2026-10-11 02:27:57.874486+00:00",
+        "outcome": "succeeded",
+        "error_type": "None",
+        "lease_snapshot": "{'worker_id': 'prod-batch-0', 'lease_token': '6391648894b445239a74adfed06537f3', 'lease_expires_at': '2026-10-11T02:28:5"
+      },
+      "source_versions": 2,
+      "annotations": 0,
+      "candidates": {},
+      "question_instances": 0,
+      "admitted_samples": [],
+      "non_approved": []
+    },
+    {
+      "label": "2018北京春季高中会考历史（教师版）(1)",
+      "stage": "assemble",
+      "error": "package files missing"
+    },
+    {
+      "label": "2018北京春季高中会考地理（教师版）(1)",
+      "package": "D:\\Project\\AITutor-X\\E2E_ACCEPTANCE\\e2e_run\\phase-c-production-batch\\packages\\2018北京春季高中会考地理（教师版）(1)",
+      "manifest_units": 25,
+      "document_id": "2cff6900-6020-4625-9310-685069314716",
+      "task_id": "e6f00483-23de-4906-8669-1810c988c41b",
+      "is_new": true,
+      "task_status": "succeeded",
+      "seconds": 0.97,
+      "claim_row": {
+        "id": "43629ab5-05f7-4843-9738-6a97a8e55451",
+        "task_id": "e6f00483-23de-4906-8669-1810c988c41b",
+        "claim_round": "1",
+        "start": "2026-10-11 02:27:59.792847+00:00",
+        "end": "2026-10-11 02:28:00.617875+00:00",
+        "outcome": "succeeded",
+        "error_type": "None",
+        "lease_snapshot": "{'worker_id': 'prod-batch-0', 'lease_token': 'db9716949636493fab5c08c707ec2042', 'lease_expires_at': '2026-10-11T02:28:5"
+      },
+      "source_versions": 2,
+      "annotations": 0,
+      "candidates": {},
+      "question_instances": 0,
+      "admitted_samples": [],
+      "non_approved": []
+    },
+    {
+      "label": "2018北京春季高中会考数学（教师版）(1)",
+      "package": "D:\\Project\\AITutor-X\\E2E_ACCEPTANCE\\e2e_run\\phase-c-production-batch\\packages\\2018北京春季高中会考数学（教师版）(1)",
+      "manifest_units": 30,
+      "document_id": "2c0b747f-f027-4219-aeb9-15d130c77797",
+      "task_id": "4ec5182b-0e4b-45c3-8f1e-164ac53297ff",
+      "is_new": true,
+      "task_status": "succeeded",
+      "seconds": 1.2,
+      "claim_row": {
+        "id": "c1e05e5f-a778-4c02-93c5-419c7a7cc5df",
+        "task_id": "4ec5182b-0e4b-45c3-8f1e-164ac53297ff",
+        "claim_round": "1",
+        "start": "2026-10-11 02:28:03.285516+00:00",
+        "end": "2026-10-11 02:28:04.328095+00:00",
+        "outcome": "succeeded",
+        "error_type": "None",
+        "lease_snapshot": "{'worker_id': 'prod-batch-0', 'lease_token': '3dbd017e37244ba2ab8c751bf4f074b2', 'lease_expires_at': '2026-10-11T02:29:0"
+      },
+      "source_versions": 2,
+      "annotations": 0,
+      "candidates": {},
+      "question_instances": 0,
+      "admitted_samples": [],
+      "non_approved": []
+    },
+    {
+      "label": "2018北京春季高中会考物理（教师版）(1)",
+      "package": "D:\\Project\\AITutor-X\\E2E_ACCEPTANCE\\e2e_run\\phase-c-production-batch\\packages\\2018北京春季高中会考物理（教师版）(1)",
+      "manifest_units": 22,
+      "document_id": "f1a711c2-ccb3-4a05-ad83-c28cb5aa49c0",
+      "task_id": "49a765ca-292e-424a-87e7-02905b526041",
+      "is_new": true,
+      "task_status": "succeeded",
+      "seconds": 0.99,
+      "claim_row": {
+        "id": "fef309f1-1d99-44dc-a5b5-bd00bc1183e6",
+        "task_id": "49a765ca-292e-424a-87e7-02905b526041",
+        "claim_round": "1",
+        "start": "2026-10-11 02:28:06.818768+00:00",
+        "end": "2026-10-11 02:28:07.707987+00:00",
+        "outcome": "succeeded",
+        "error_type": "None",
+        "lease_snapshot": "{'worker_id': 'prod-batch-0', 'lease_token': 'cf59efa933854042bc0e6b6d067cf11b', 'lease_expires_at': '2026-10-11T02:29:0"
+      },
+      "source_versions": 2,
+      "annotations": 0,
+      "candidates": {},
+      "question_instances": 0,
+      "admitted_samples": [],
+      "non_approved": []
+    }
+  ]
+}

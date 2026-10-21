@@ -1,0 +1,594 @@
+{
+  "current": {
+    "IR_incomplete": 57,
+    "auto_approve": 78,
+    "pending_review": 144,
+    "MIRROR_MISMATCH": 5,
+    "rejected": 5
+  },
+  "variant": {
+    "IR_incomplete": 57,
+    "auto_approve": 147,
+    "pending_review": 80
+  },
+  "flips": [
+    {
+      "paper": "历史",
+      "root": "Q2",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q3",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q4",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q5",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q6",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q7",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q8",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q9",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q10",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q11",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q12",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q13",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q14",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q15",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q16",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q17",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q18",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q19",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q20",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q21",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q22",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q23",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q24",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q25",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q26",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q27",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q28",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q29",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q30",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q31",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q32",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q33",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q34",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q35",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q36",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q37",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q38",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q39",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q40",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q41",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q42",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q43",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q44",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q45",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q46",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q47",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q48",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q49",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "Q50",
+      "unit_type": "standalone_unit",
+      "hits": [
+        "explanation"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U1-2",
+      "unit_type": "composite_unit",
+      "hits": [
+        "question"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U3-5",
+      "unit_type": "composite_unit",
+      "hits": [
+        "question"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U6-7",
+      "unit_type": "composite_unit",
+      "hits": [
+        "question"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U8-9",
+      "unit_type": "composite_unit",
+      "hits": [
+        "question"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U10-12",
+      "unit_type": "composite_unit",
+      "hits": [
+        "question"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U13-15",
+      "unit_type": "composite_unit",
+      "hits": [
+        "question"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U18-20",
+      "unit_type": "composite_unit",
+      "hits": [
+        "question"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U21-23",
+      "unit_type": "composite_unit",
+      "hits": [
+        "question"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U24-25",
+      "unit_type": "composite_unit",
+      "hits": [
+        "question"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U30-31",
+      "unit_type": "composite_unit",
+      "hits": [
+        "question"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U32-33",
+      "unit_type": "composite_unit",
+      "hits": [
+        "question"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U34-35",
+      "unit_type": "composite_unit",
+      "hits": [
+        "question"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U36-39",
+      "unit_type": "composite_unit",
+      "hits": [
+        "question"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U40-41",
+      "unit_type": "composite_unit",
+      "hits": [
+        "question"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U42-43",
+      "unit_type": "composite_unit",
+      "hits": [
+        "question"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U44-46",
+      "unit_type": "composite_unit",
+      "hits": [
+        "question"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U47-48",
+      "unit_type": "composite_unit",
+      "hits": [
+        "question"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U49-50",
+      "unit_type": "composite_unit",
+      "hits": [
+        "question"
+      ]
+    }
+  ],
+  "still": [
+    {
+      "paper": "历史",
+      "root": "U51",
+      "unit_type": "composite_unit"
+    },
+    {
+      "paper": "历史",
+      "root": "U52",
+      "unit_type": "composite_unit"
+    },
+    {
+      "paper": "历史",
+      "root": "U53",
+      "unit_type": "composite_unit"
+    },
+    {
+      "paper": "地理",
+      "root": "U-P2-1",
+      "unit_type": "composite_unit"
+    },
+    {
+      "paper": "地理",
+      "root": "U-P2-2",
+      "unit_type": "composite_unit"
+    },
+    {
+      "paper": "地理",
+      "root": "U-P2-3",
+      "unit_type": "composite_unit"
+    },
+    {
+      "paper": "地理",
+      "root": "U-P2-4",
+      "unit_type": "composite_unit"
+    },
+    {
+      "paper": "地理",
+      "root": "U-P2-5",
+      "unit_type": "composite_unit"
+    }
+  ]
+}

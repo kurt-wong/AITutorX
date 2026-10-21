@@ -1,0 +1,99 @@
+{
+  "captured_at": "2026-10-02T05:35:06.125959+00:00",
+  "before_primary": {
+    "material_missing_or_incomplete": 54
+  },
+  "after_B4_ir_status": {
+    "incomplete": 54
+  },
+  "B4": {
+    "evidence": "material (multi_line_pair marker text from producer material_lines)",
+    "ir_ready": 35,
+    "ir_not_ready": 249,
+    "delta_vs_A": 0,
+    "newly_ready_count": 0,
+    "unresolved_material_after": 43,
+    "unresolved_material_before": 54,
+    "materials_injected": 54,
+    "interface": "shared_components.material.start_marker/end_marker (reference.py:_material_target:88-97 → resolver._material_span:467-510)",
+    "bridge": "producer material_lines → sealed source line TEXT as marker strings",
+    "per_document": [
+      {
+        "file_name": "2018北京春季高中会考化学（教师版）(1).md",
+        "injected_materials": 0,
+        "ir_ready": 1,
+        "unresolved_material": 0
+      },
+      {
+        "file_name": "2018北京夏季高中会考历史（教师版）(1).md",
+        "injected_materials": 3,
+        "ir_ready": 1,
+        "unresolved_material": 2
+      },
+      {
+        "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+        "injected_materials": 25,
+        "ir_ready": 0,
+        "unresolved_material": 17
+      },
+      {
+        "file_name": "2018北京夏季高中会考政治（教师版）(1).md",
+        "injected_materials": 2,
+        "ir_ready": 4,
+        "unresolved_material": 2
+      },
+      {
+        "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+        "injected_materials": 0,
+        "ir_ready": 23,
+        "unresolved_material": 0
+      },
+      {
+        "file_name": "2018北京春季高中会考物理（教师版）(1).md",
+        "injected_materials": 3,
+        "ir_ready": 3,
+        "unresolved_material": 2
+      },
+      {
+        "file_name": "2018北京春季高中会考生物（教师版）(1).md",
+        "injected_materials": 0,
+        "ir_ready": 0,
+        "unresolved_material": 0
+      },
+      {
+        "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+        "injected_materials": 17,
+        "ir_ready": 0,
+        "unresolved_material": 17
+      },
+      {
+        "file_name": "2018北京春季高中会考语文（教师版）(1).md",
+        "injected_materials": 4,
+        "ir_ready": 3,
+        "unresolved_material": 3
+      }
+    ]
+  },
+  "after_B4_material_channel": {
+    "material_spans_resolved": 11,
+    "material_refs_unresolved": 43,
+    "unresolved_material_before": 54,
+    "delta_material_unresolved": -11
+  },
+  "after_B4_composite_ir": {
+    "still_incomplete": 54,
+    "became_ready": 0,
+    "residual_breakdown": {
+      "answer_missing+material_incomplete": 20,
+      "material_incomplete_only": 9,
+      "answer_missing+stem_missing": 7,
+      "answer_missing+material_incomplete+stem_missing": 7,
+      "answer_missing_only": 3,
+      "material_ambiguous": 3,
+      "answer_missing+material_incomplete+stem_ambiguous": 2,
+      "material_incomplete+stem_missing": 2,
+      "stem_missing_only": 1
+    }
+  },
+  "interpretation": "Material marker bridge IS consumed (54→43 unresolved; 11 resolved spans). IR Ready unchanged because composite units require ALL content references (stem/answer/options/material). Material alone is necessary but not sufficient."
+}

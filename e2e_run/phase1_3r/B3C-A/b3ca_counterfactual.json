@@ -1,0 +1,517 @@
+{
+  "corpus": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考",
+  "summary": {
+    "ON": {
+      "ir_status": {
+        "incomplete": 152,
+        "ready": 132
+      },
+      "gate": {
+        "pending_review": 131,
+        "auto_approve": 1
+      },
+      "answer_spans": 280,
+      "answer_span_status": {
+        "exact": 280
+      },
+      "answer_granularity": {
+        "line": 219,
+        "line_character": 61
+      },
+      "ans_expl_collisions": 2756,
+      "ans_mat_collisions": 0,
+      "ans_ans_collisions": 1767,
+      "unresolved_roles": {
+        "stem": 90,
+        "option": 237,
+        "answer": 4,
+        "material": 54
+      }
+    },
+    "OFF": {
+      "ir_status": {
+        "incomplete": 249,
+        "ready": 35
+      },
+      "gate": {
+        "pending_review": 34,
+        "auto_approve": 1
+      },
+      "answer_spans": 69,
+      "answer_span_status": {
+        "exact": 69
+      },
+      "answer_granularity": {
+        "line_character": 69
+      },
+      "ans_expl_collisions": 0,
+      "ans_mat_collisions": 0,
+      "ans_ans_collisions": 13,
+      "unresolved_roles": {
+        "stem": 90,
+        "option": 237,
+        "answer": 215,
+        "material": 54
+      }
+    }
+  },
+  "per_paper": {
+    "ON": [
+      {
+        "paper": "化学",
+        "mode": "ON",
+        "ir_status": {
+          "incomplete": 31,
+          "ready": 9
+        },
+        "gate": {
+          "pending_review": 9
+        },
+        "answer_spans": 36,
+        "answer_span_status": {
+          "exact": 36
+        },
+        "answer_granularity": {
+          "line": 34,
+          "line_character": 2
+        },
+        "ans_expl_collisions": 0,
+        "ans_mat_collisions": 0,
+        "ans_ans_collisions": 303,
+        "unresolved_roles": {
+          "stem": 27,
+          "option": 53,
+          "answer": 4
+        }
+      },
+      {
+        "paper": "历史",
+        "mode": "ON",
+        "ir_status": {
+          "ready": 40,
+          "incomplete": 13
+        },
+        "gate": {
+          "auto_approve": 1,
+          "pending_review": 39
+        },
+        "answer_spans": 53,
+        "answer_span_status": {
+          "exact": 53
+        },
+        "answer_granularity": {
+          "line_character": 50,
+          "line": 3
+        },
+        "ans_expl_collisions": 2756,
+        "ans_mat_collisions": 0,
+        "ans_ans_collisions": 0,
+        "unresolved_roles": {
+          "material": 3,
+          "option": 34,
+          "stem": 6
+        }
+      },
+      {
+        "paper": "地理",
+        "mode": "ON",
+        "ir_status": {
+          "incomplete": 25
+        },
+        "gate": {},
+        "answer_spans": 25,
+        "answer_span_status": {
+          "exact": 25
+        },
+        "answer_granularity": {
+          "line": 25
+        },
+        "ans_expl_collisions": 0,
+        "ans_mat_collisions": 0,
+        "ans_ans_collisions": 190,
+        "unresolved_roles": {
+          "material": 25,
+          "stem": 14
+        }
+      },
+      {
+        "paper": "政治",
+        "mode": "ON",
+        "ir_status": {
+          "incomplete": 15,
+          "ready": 21
+        },
+        "gate": {
+          "pending_review": 21
+        },
+        "answer_spans": 36,
+        "answer_span_status": {
+          "exact": 36
+        },
+        "answer_granularity": {
+          "line": 35,
+          "line_character": 1
+        },
+        "ans_expl_collisions": 0,
+        "ans_mat_collisions": 0,
+        "ans_ans_collisions": 351,
+        "unresolved_roles": {
+          "material": 2,
+          "stem": 11,
+          "option": 37
+        }
+      },
+      {
+        "paper": "数学",
+        "mode": "ON",
+        "ir_status": {
+          "ready": 28,
+          "incomplete": 2
+        },
+        "gate": {
+          "pending_review": 28
+        },
+        "answer_spans": 30,
+        "answer_span_status": {
+          "exact": 30
+        },
+        "answer_granularity": {
+          "line": 30
+        },
+        "ans_expl_collisions": 0,
+        "ans_mat_collisions": 0,
+        "ans_ans_collisions": 0,
+        "unresolved_roles": {
+          "option": 8,
+          "stem": 1
+        }
+      },
+      {
+        "paper": "物理",
+        "mode": "ON",
+        "ir_status": {
+          "incomplete": 5,
+          "ready": 17
+        },
+        "gate": {
+          "pending_review": 17
+        },
+        "answer_spans": 22,
+        "answer_span_status": {
+          "exact": 22
+        },
+        "answer_granularity": {
+          "line": 22
+        },
+        "ans_expl_collisions": 0,
+        "ans_mat_collisions": 0,
+        "ans_ans_collisions": 100,
+        "unresolved_roles": {
+          "material": 3,
+          "stem": 1,
+          "option": 4
+        }
+      },
+      {
+        "paper": "生物",
+        "mode": "ON",
+        "ir_status": {
+          "incomplete": 39,
+          "ready": 11
+        },
+        "gate": {
+          "pending_review": 11
+        },
+        "answer_spans": 50,
+        "answer_span_status": {
+          "exact": 50
+        },
+        "answer_granularity": {
+          "line": 50
+        },
+        "ans_expl_collisions": 0,
+        "ans_mat_collisions": 0,
+        "ans_ans_collisions": 780,
+        "unresolved_roles": {
+          "stem": 27,
+          "option": 101
+        }
+      },
+      {
+        "paper": "英语",
+        "mode": "ON",
+        "ir_status": {
+          "incomplete": 18
+        },
+        "gate": {},
+        "answer_spans": 18,
+        "answer_span_status": {
+          "exact": 18
+        },
+        "answer_granularity": {
+          "line": 11,
+          "line_character": 7
+        },
+        "ans_expl_collisions": 0,
+        "ans_mat_collisions": 0,
+        "ans_ans_collisions": 42,
+        "unresolved_roles": {
+          "material": 17,
+          "stem": 2
+        }
+      },
+      {
+        "paper": "语文",
+        "mode": "ON",
+        "ir_status": {
+          "incomplete": 4,
+          "ready": 6
+        },
+        "gate": {
+          "pending_review": 6
+        },
+        "answer_spans": 10,
+        "answer_span_status": {
+          "exact": 10
+        },
+        "answer_granularity": {
+          "line": 9,
+          "line_character": 1
+        },
+        "ans_expl_collisions": 0,
+        "ans_mat_collisions": 0,
+        "ans_ans_collisions": 1,
+        "unresolved_roles": {
+          "material": 4,
+          "stem": 1
+        }
+      }
+    ],
+    "OFF": [
+      {
+        "paper": "化学",
+        "mode": "OFF",
+        "ir_status": {
+          "incomplete": 39,
+          "ready": 1
+        },
+        "gate": {
+          "pending_review": 1
+        },
+        "answer_spans": 8,
+        "answer_span_status": {
+          "exact": 8
+        },
+        "answer_granularity": {
+          "line_character": 8
+        },
+        "ans_expl_collisions": 0,
+        "ans_mat_collisions": 0,
+        "ans_ans_collisions": 6,
+        "unresolved_roles": {
+          "stem": 27,
+          "option": 53,
+          "answer": 32
+        }
+      },
+      {
+        "paper": "历史",
+        "mode": "OFF",
+        "ir_status": {
+          "ready": 1,
+          "incomplete": 52
+        },
+        "gate": {
+          "auto_approve": 1
+        },
+        "answer_spans": 1,
+        "answer_span_status": {
+          "exact": 1
+        },
+        "answer_granularity": {
+          "line_character": 1
+        },
+        "ans_expl_collisions": 0,
+        "ans_mat_collisions": 0,
+        "ans_ans_collisions": 0,
+        "unresolved_roles": {
+          "material": 3,
+          "answer": 52,
+          "option": 34,
+          "stem": 6
+        }
+      },
+      {
+        "paper": "地理",
+        "mode": "OFF",
+        "ir_status": {
+          "incomplete": 25
+        },
+        "gate": {},
+        "answer_spans": 0,
+        "answer_span_status": {},
+        "answer_granularity": {},
+        "ans_expl_collisions": 0,
+        "ans_mat_collisions": 0,
+        "ans_ans_collisions": 0,
+        "unresolved_roles": {
+          "material": 25,
+          "stem": 14,
+          "answer": 25
+        }
+      },
+      {
+        "paper": "政治",
+        "mode": "OFF",
+        "ir_status": {
+          "incomplete": 32,
+          "ready": 4
+        },
+        "gate": {
+          "pending_review": 4
+        },
+        "answer_spans": 6,
+        "answer_span_status": {
+          "exact": 6
+        },
+        "answer_granularity": {
+          "line_character": 6
+        },
+        "ans_expl_collisions": 0,
+        "ans_mat_collisions": 0,
+        "ans_ans_collisions": 0,
+        "unresolved_roles": {
+          "material": 2,
+          "stem": 11,
+          "option": 37,
+          "answer": 30
+        }
+      },
+      {
+        "paper": "数学",
+        "mode": "OFF",
+        "ir_status": {
+          "ready": 23,
+          "incomplete": 7
+        },
+        "gate": {
+          "pending_review": 23
+        },
+        "answer_spans": 25,
+        "answer_span_status": {
+          "exact": 25
+        },
+        "answer_granularity": {
+          "line_character": 25
+        },
+        "ans_expl_collisions": 0,
+        "ans_mat_collisions": 0,
+        "ans_ans_collisions": 0,
+        "unresolved_roles": {
+          "answer": 5,
+          "option": 8,
+          "stem": 1
+        }
+      },
+      {
+        "paper": "物理",
+        "mode": "OFF",
+        "ir_status": {
+          "incomplete": 19,
+          "ready": 3
+        },
+        "gate": {
+          "pending_review": 3
+        },
+        "answer_spans": 3,
+        "answer_span_status": {
+          "exact": 3
+        },
+        "answer_granularity": {
+          "line_character": 3
+        },
+        "ans_expl_collisions": 0,
+        "ans_mat_collisions": 0,
+        "ans_ans_collisions": 1,
+        "unresolved_roles": {
+          "material": 3,
+          "stem": 1,
+          "option": 4,
+          "answer": 19
+        }
+      },
+      {
+        "paper": "生物",
+        "mode": "OFF",
+        "ir_status": {
+          "incomplete": 50
+        },
+        "gate": {},
+        "answer_spans": 9,
+        "answer_span_status": {
+          "exact": 9
+        },
+        "answer_granularity": {
+          "line_character": 9
+        },
+        "ans_expl_collisions": 0,
+        "ans_mat_collisions": 0,
+        "ans_ans_collisions": 0,
+        "unresolved_roles": {
+          "stem": 27,
+          "option": 101,
+          "answer": 41
+        }
+      },
+      {
+        "paper": "英语",
+        "mode": "OFF",
+        "ir_status": {
+          "incomplete": 18
+        },
+        "gate": {},
+        "answer_spans": 11,
+        "answer_span_status": {
+          "exact": 11
+        },
+        "answer_granularity": {
+          "line_character": 11
+        },
+        "ans_expl_collisions": 0,
+        "ans_mat_collisions": 0,
+        "ans_ans_collisions": 6,
+        "unresolved_roles": {
+          "material": 17,
+          "answer": 7,
+          "stem": 2
+        }
+      },
+      {
+        "paper": "语文",
+        "mode": "OFF",
+        "ir_status": {
+          "incomplete": 7,
+          "ready": 3
+        },
+        "gate": {
+          "pending_review": 3
+        },
+        "answer_spans": 6,
+        "answer_span_status": {
+          "exact": 6
+        },
+        "answer_granularity": {
+          "line_character": 6
+        },
+        "ans_expl_collisions": 0,
+        "ans_mat_collisions": 0,
+        "ans_ans_collisions": 0,
+        "unresolved_roles": {
+          "material": 4,
+          "stem": 1,
+          "answer": 4
+        }
+      }
+    ]
+  }
+}

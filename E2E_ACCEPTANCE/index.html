@@ -1,0 +1,99 @@
+<!-- AI生成 -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Owner Viewer — FROZEN RAW · 分维度验收</title>
+<link rel="stylesheet" href="vendor/katex/katex.min.css"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<p data-aigc-mark="1" style="margin:0 0 8px;font-size:10px;line-height:1.3;color:#6b6560;font-weight:400;">AI生成</p>
+
+<header>
+  <div class="hdr-row">
+    <div>
+      <h1>Owner Viewer · v2 Gate Provenance</h1>
+      <p class="sub">Gate1 全文 PDF↔MD · Gate2 分维度反馈 · 公式只读渲染 · 选项结构异常只标不定论</p>
+    </div>
+    <div class="hdr-right">
+      <div class="chip warn">RAW FROZEN</div>
+      <div class="chip">Resolver 修复另立项</div>
+      <div class="chip">E2E 尚未通过</div>
+    </div>
+  </div>
+  <nav id="subject-tabs"></nav>
+  <div class="policy" id="policy-bar"></div>
+</header>
+
+<main>
+  <section class="card" id="facts">
+    <h2>冻结事实与口径（本轮只记录，不实施 Resolver 修复）</h2>
+    <ul class="facts">
+      <li><strong>正式产品链</strong>：<code>TaskExecutor document_ingest → Seal → Annotation → Compile</code>；Annotation 为 V3 自有 LLM 提示词。<strong>不消费 Papers manifest。</strong></li>
+      <li><strong>实验路径</strong>：<code>preprocessing_consumer</code>（<code>backend/scripts/</code>，task_type=<code>preprocessing_consumer_phase0</code>）——本 Viewer 数据来源，<strong>不能代替正式 E2E</strong>。</li>
+      <li><strong>Resolver 缺陷形态</strong>（待独立立项）：<code>resolver.py::_locate_options</code> L588–611 多标签同 <code>start_line</code> 时 <code>len(starts)==1</code> 提前成功；<code>inline</code> 只定位<strong>标签字符区间</strong>，不定位内容。最小断言应为：每个选项 text =「该标签后至下一标签前」（如数学 Q1: A='1' B='2' C='\pi' D='2\pi'），而非「空壳数下降」。</li>
+      <li><strong>可证明上限</strong>：S1 仅内部一致；更强证据 = <code>viewer_data_raw.json</code> ↔ 独立重放逐选项比对（待 DSH 执行，不改文件）。</li>
+      <li><strong>冻结后禁止</strong>再跑 <code>export_raw_full.py</code> 覆盖证据；FROZEN_EVIDENCE/ 与 05_V3_OUTPUT/*.v3.json 已只读。</li>
+    </ul>
+    <div id="freeze-shas" class="mono"></div>
+  </section>
+
+  <section class="card" id="gate1">
+    <div class="card-head">
+      <h2>Gate 1 · 全文 PDF ↔ MD（可检索、可定位）</h2>
+      <div class="tools">
+        <select id="diff-mode">
+          <option value="anchor">题号锚定（主）</option>
+          <option value="line">行级全文</option>
+          <option value="search">全文检索</option>
+        </select>
+        <input id="diff-q" type="search" placeholder="题号 20 / 4 …"/>
+        <input id="full-search" type="search" placeholder="全文关键字…"/>
+      </div>
+    </div>
+    <div id="anchor-diff"></div>
+    <div id="line-diff" class="block"></div>
+    <div id="search-hits" class="block"></div>
+    <div class="side-by-side" id="full-panes">
+      <div class="pane"><h3>PDF 全文（未切片）</h3>
+        <pre id="pdf-text" class="src xtall"></pre></div>
+      <div class="pane"><h3>MD 全文（未切片）</h3>
+        <pre id="md-text" class="src xtall"></pre></div>
+    </div>
+  </section>
+
+  <section class="card" id="gate2">
+    <div class="card-head">
+      <h2>Gate 2 · 分维度人工反馈（不整题跳过）</h2>
+      <div class="tools">
+        <select id="gate-filter">
+          <option value="all">全部</option>
+          <option value="auto_approve">auto</option>
+          <option value="pending_review">pending</option>
+          <option value="rejected">rejected</option>
+          <option value="incomplete">incomplete</option>
+        </select>
+        <select id="anomaly-filter">
+          <option value="all">选项结构全部</option>
+          <option value="ANOMALY">仅选项异常</option>
+          <option value="OK">仅选项完整</option>
+        </select>
+        <input id="q-search" type="search" placeholder="搜索…"/>
+        <label class="chk"><input type="checkbox" id="show-raw"/> 源码</label>
+      </div>
+    </div>
+    <div class="stats" id="q-stats"></div>
+    <div id="question-list"></div>
+    <div class="verdict">
+      <button id="export-feedback">导出反馈 JSON（本地下载，不写盘到证据区）</button>
+    </div>
+  </section>
+</main>
+
+<script src="vendor/katex/katex.min.js"></script>
+<script src="data_v2.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

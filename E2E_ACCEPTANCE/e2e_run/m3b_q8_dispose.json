@@ -1,0 +1,40 @@
+{
+  "before": {
+    "tag": "before",
+    "counts": {
+      "admission_candidates": 25,
+      "admission_events": 21,
+      "questions": 21,
+      "question_instances": 21,
+      "instance_role_contents": 126
+    },
+    "pre_fix_candidate": {
+      "decision_status": "pending_review",
+      "decided_at": "None",
+      "rt": "null"
+    },
+    "valid_candidate_status": "approved",
+    "valid_q_exists": 1,
+    "valid_i_exists": 1,
+    "pre_fix_admission_events": 0
+  },
+  "after": {
+    "tag": "after",
+    "counts": {
+      "admission_candidates": 25,
+      "admission_events": 21,
+      "questions": 21,
+      "question_instances": 21,
+      "instance_role_contents": 126
+    },
+    "pre_fix_candidate": {
+      "decision_status": "rejected",
+      "decided_at": "2026-10-10 14:38:32.404634+00:00",
+      "rt": "[{\"time\": \"2026-10-10T14:38:32.397146+00:00\", \"reasons\": [\"pre_fix_identity_ambiguity\", \"superseded_by_formal_candidate_cc32656c\", \"source_version_53814898_legacy_line_mode\", \"gate_answer_grammar_fail\"], \"decision\": \"reject\", \"reviewer_id\": \"m3b-q8-dispose\", \"verified_by\": \"human\"}]"
+    },
+    "valid_candidate_status": "approved",
+    "valid_q_exists": 1,
+    "valid_i_exists": 1,
+    "pre_fix_admission_events": 0
+  }
+}

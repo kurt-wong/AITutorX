@@ -1,0 +1,68 @@
+{
+  "before": {
+    "questions": 25,
+    "instances": 25,
+    "contents": 130,
+    "feedbacks": 13,
+    "documents": 20,
+    "source_versions": 8
+  },
+  "after": {
+    "questions": 21,
+    "instances": 21,
+    "contents": 126,
+    "feedbacks": 1,
+    "documents": 16,
+    "source_versions": 4
+  },
+  "fixture_questions": [
+    {
+      "id": "9afd98ff-980f-444a-a25f-f1be556d5a0e",
+      "iid": "fe1be2d9-b741-463a-a675-eac48a9f69f8",
+      "occurrence_key": "occ-q8",
+      "question_number": "8",
+      "source_version_id": "bc10a9c6-c01f-4606-9f0c-58276c3b1b70",
+      "document_id": "c682e87d-d362-4287-aaef-e39c3919f8a0"
+    },
+    {
+      "id": "c0be44b0-e8b5-4fa3-af9f-b2ccba9c1377",
+      "iid": "8a277455-6d8e-47b3-b285-27fc2e4ab71f",
+      "occurrence_key": "occ-q8",
+      "question_number": "8",
+      "source_version_id": "142c3cf3-e548-4e7e-a22e-2ba6f10ee0b8",
+      "document_id": "fd156a53-16ca-40d6-888f-2fc473f84de4"
+    },
+    {
+      "id": "4279b747-3baa-41bc-a866-b4437f18b616",
+      "iid": "20a90636-e350-4a42-bb1b-a9929f674758",
+      "occurrence_key": "occ-q8",
+      "question_number": "8",
+      "source_version_id": "fb6c3466-497c-49b9-8749-7b3547e5348e",
+      "document_id": "b53e6fc5-b148-489c-b155-7a75cd41afae"
+    },
+    {
+      "id": "9646f1e2-e3ea-49a9-838f-9c1bba01b5d8",
+      "iid": "8ffcd899-f837-407c-af01-7c25973ef780",
+      "occurrence_key": "occ-q8",
+      "question_number": "8",
+      "source_version_id": "d4e8626a-877c-43d6-ac4a-ec0853e10ffd",
+      "document_id": "bcffdf26-603a-496b-b02a-0c3f7e7acb9a"
+    }
+  ],
+  "deleted_feedbacks": [
+    "840819e8-dcd6-4211-92cf-08279604055e",
+    "ff34424c-853d-41c3-83a7-8b7bd6303b26",
+    "a8cebbaf-8511-46a7-a5cd-0ef94a35815d",
+    "78524cae-43aa-4d13-a97f-4614dea59f21",
+    "98cc92ac-42c0-4923-a625-1b5db2441f06",
+    "f4acf49f-cfc5-4e33-b3d0-31ee020bbf97",
+    "35c44cc2-c62c-4875-bf01-f064d430a750",
+    "070bb03f-2891-44f9-bfb1-ff6162391691",
+    "44ef93d4-572b-4e09-97c3-bce8c6916c8a",
+    "ec6b6aad-623f-4429-a550-4e65fcb75f63",
+    "0f3f9f8a-f49b-43f5-9e41-39037d5cd444",
+    "aaf6c90e-32fc-4080-afd5-d0fae9d5c3ff"
+  ],
+  "qn8_count": 1,
+  "real_feedback_preserved": 1
+}

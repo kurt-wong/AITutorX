@@ -1,0 +1,236 @@
+{
+  "ir_ready": 25,
+  "ir_incomplete": 0,
+  "gate_auto": 18,
+  "gate_pending": 5,
+  "gate_rejected": 2,
+  "n_units": 25,
+  "n_questions_tracked": 25,
+  "questions": [
+    {
+      "unit_id": "U1-2",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "A",
+      "answer_preview": "A",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "1\\. 与 “卡西尼号” 探测的天体系统级别相同的是\n"
+    },
+    {
+      "unit_id": "U3-5",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "B",
+      "answer_preview": "B",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "3. 本次耀斑爆发时，伦敦正值\n"
+    },
+    {
+      "unit_id": "U6-7",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "A",
+      "answer_preview": "A",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "6. 诗中描述的景观最有可能出现在\n"
+    },
+    {
+      "unit_id": "U8-9",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "8. 台风 “卡努” 属于图1天气系统中的\n\n<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考地理（教师版）(1)"
+    },
+    {
+      "unit_id": "U10-12",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "B",
+      "answer_preview": "B",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "10. 本次地震震源位于\n\n<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考地理（教师版）(1)/img_in_i"
+    },
+    {
+      "unit_id": "U13-15",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "13. 出发地的气候特点是\n"
+    },
+    {
+      "unit_id": "U16-17",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "C",
+      "verify": true,
+      "gate": "rejected",
+      "n_options": 4,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "U18-20",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "18. 塑造图4所示地貌的主要外力作用是\n\n---\n\n<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考地理（教师版"
+    },
+    {
+      "unit_id": "U21-23",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "D",
+      "answer_preview": "D",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "21\\. 2015 年北京市常住人口增长的主要特点是\n"
+    },
+    {
+      "unit_id": "U24-25",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "A",
+      "answer_preview": "A",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "24\\. 甲类车位主要集中分布于\n"
+    },
+    {
+      "unit_id": "U26-29",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "C",
+      "verify": true,
+      "gate": "rejected",
+      "n_options": 4,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "U30-31",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "30. “巨型稻”高产的主要区位因素是\n"
+    },
+    {
+      "unit_id": "U32-33",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "A",
+      "answer_preview": "A",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "32. 影响新能源汽车产业落户曹妃甸新城的主要因素是\n\n---\n"
+    },
+    {
+      "unit_id": "U34-35",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "D",
+      "answer_preview": "D",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "34. 与乘坐公交车相比，市民选择 S1 线出行是因为磁悬浮列车\n"
+    },
+    {
+      "unit_id": "U36-39",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "A",
+      "answer_preview": "A",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "36. 甘肃省与塔里木盆地\n"
+    }
+  ]
+}

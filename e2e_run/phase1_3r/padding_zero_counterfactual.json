@@ -1,0 +1,358 @@
+{
+  "experiment": "padding=0 counterfactual (Q9-11/Q12-14/Q21-25)",
+  "production_code_modified": false,
+  "db_modified": false,
+  "producer_modified": false,
+  "note": "Do NOT infer globally removing padding; 2nd-cut ±1 padding solves real boundary-text cases elsewhere",
+  "units": [
+    {
+      "unit_id": "Q9-11",
+      "declared_n": 4,
+      "current": {
+        "status": "RESOLVED_BUT_OVERLAP",
+        "res_n": 6,
+        "infl": 1.5,
+        "overlap": true,
+        "targets": [
+          {
+            "type": "material",
+            "span_id": "sp-Q7-8.material"
+          },
+          {
+            "type": "material",
+            "span_id": "sp-Q12-14.material"
+          }
+        ]
+      },
+      "padding0": {
+        "status": "UNRESOLVED",
+        "res_n": 0,
+        "infl": null,
+        "overlap": false,
+        "targets": []
+      },
+      "overlap_disappears": true,
+      "still_resolves": false,
+      "question_answers": {
+        "q1_still_overlap_after_padding0": false,
+        "q2_problem_fully_gone": false,
+        "q3_should_be_unresolved": true,
+        "q4_resolves_without_padding": false
+      }
+    },
+    {
+      "unit_id": "Q12-14",
+      "declared_n": 19,
+      "current": {
+        "status": "RESOLVED_BUT_OVERLAP",
+        "res_n": 21,
+        "infl": 1.105,
+        "overlap": true,
+        "targets": [
+          {
+            "type": "material",
+            "span_id": "sp-Q9-11.material"
+          }
+        ]
+      },
+      "padding0": {
+        "status": "UNRESOLVED",
+        "res_n": 0,
+        "infl": null,
+        "overlap": false,
+        "targets": []
+      },
+      "overlap_disappears": true,
+      "still_resolves": false,
+      "question_answers": {
+        "q1_still_overlap_after_padding0": false,
+        "q2_problem_fully_gone": false,
+        "q3_should_be_unresolved": true,
+        "q4_resolves_without_padding": false
+      }
+    },
+    {
+      "unit_id": "Q21-25",
+      "declared_n": 25,
+      "current": {
+        "status": "RESOLVED_BUT_OVERLAP",
+        "res_n": 27,
+        "infl": 1.08,
+        "overlap": true,
+        "targets": [
+          {
+            "type": "answer",
+            "span_id": "sp-Q12-14.sub.answer",
+            "from": 593,
+            "to": 593
+          },
+          {
+            "type": "material",
+            "span_id": "sp-Q18-20.material"
+          },
+          {
+            "type": "answer",
+            "span_id": "sp-Q12-14.sub.answer",
+            "shared_n": 1,
+            "shared_sample": [
+              593
+            ]
+          }
+        ]
+      },
+      "padding0": {
+        "status": "UNRESOLVED",
+        "res_n": 0,
+        "infl": null,
+        "overlap": false,
+        "targets": []
+      },
+      "overlap_disappears": true,
+      "still_resolves": false,
+      "question_answers": {
+        "q1_still_overlap_after_padding0": false,
+        "q2_problem_fully_gone": false,
+        "q3_should_be_unresolved": true,
+        "q4_resolves_without_padding": false
+      }
+    }
+  ],
+  "raw_mode_rows": [
+    {
+      "unit_id": "Q9-11",
+      "mode": "current",
+      "declared": {
+        "s": 538,
+        "e": 541,
+        "n": 4
+      },
+      "resolved_lines": [
+        537,
+        538,
+        539,
+        540,
+        541,
+        542
+      ],
+      "resolved_n": 6,
+      "inflation": 1.5,
+      "markers": {
+        "role": "material",
+        "start_marker": {
+          "granularity": "multi_line_pair",
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>M: Oh, you&#x27;re Petra, right? Come in. This is the living room.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>W: Looks nice.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>M: Yes, this is all my furniture here.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>W: Great. Is the kitchen fully-equipped?</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>M: There&#x27;s only a fridge. If you need other equipment, I can offer you a cooker and a washing machine later. Now, this is the bedroom.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>W: Very nice. And how much is the monthly rent?</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>M: It&#x27;s £600 per month.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>W: That&#x27;s OK. I&#x27;ll rent the flat.</td></tr></table>"
+        },
+        "end_marker": {
+          "text": "## 听第8段材料，回答第12题至第14题。"
+        }
+      },
+      "overlap": true,
+      "overlap_targets": [
+        {
+          "type": "material",
+          "span_id": "sp-Q7-8.material"
+        },
+        {
+          "type": "material",
+          "span_id": "sp-Q12-14.material"
+        }
+      ],
+      "unresolved_evidence": [
+        "overlaps material sp-Q7-8.material",
+        "overlaps material sp-Q12-14.material",
+        "material overlap → unresolved"
+      ],
+      "status": "RESOLVED_BUT_OVERLAP"
+    },
+    {
+      "unit_id": "Q12-14",
+      "mode": "current",
+      "declared": {
+        "s": 543,
+        "e": 561,
+        "n": 19
+      },
+      "resolved_lines": [
+        542,
+        543,
+        544,
+        545,
+        546,
+        547,
+        548,
+        549,
+        550,
+        551,
+        552,
+        553,
+        554,
+        555,
+        556,
+        557,
+        558,
+        559,
+        560,
+        561,
+        562
+      ],
+      "resolved_n": 21,
+      "inflation": 1.105,
+      "markers": {
+        "role": "material",
+        "start_marker": {
+          "granularity": "multi_line_pair",
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>W: George, have you seen your bedroom? It looks too dirty!</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>M: I cleaned it at the weekend.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>W: Cleaned it? Well, it doesn&#x27;t look clean to me. Did you know there was a piece of bread under your bed? Dad and I can&#x27;t stand it.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>M: Didn&#x27;t see that.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>W: No, obviously not. And how many times have I asked you to pick up your clothes?</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>M: All right!</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>W: I&#x27;m just asking you to be a little tidier.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>M: All right, all right. By the way, can I go to Simon&#x27;s house to play basketball with him in the afternoon?</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>W: Only if you finish tidying your bedroom.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>M: I&#x27;ll tidy it now.</td></tr></table>"
+        },
+        "end_marker": {
+          "text": "## 听第9段材料，回答第15题至第17题。"
+        }
+      },
+      "overlap": true,
+      "overlap_targets": [
+        {
+          "type": "material",
+          "span_id": "sp-Q9-11.material"
+        }
+      ],
+      "unresolved_evidence": [
+        "overlaps material sp-Q9-11.material",
+        "material overlap → unresolved"
+      ],
+      "status": "RESOLVED_BUT_OVERLAP"
+    },
+    {
+      "unit_id": "Q21-25",
+      "mode": "current",
+      "declared": {
+        "s": 586,
+        "e": 610,
+        "n": 25
+      },
+      "resolved_lines": [
+        585,
+        586,
+        587,
+        588,
+        589,
+        590,
+        591,
+        592,
+        593,
+        594,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600,
+        601,
+        602,
+        603,
+        604,
+        605,
+        606,
+        607,
+        608,
+        609,
+        610,
+        611
+      ],
+      "resolved_n": 27,
+      "inflation": 1.08,
+      "markers": {
+        "role": "material",
+        "start_marker": {
+          "granularity": "multi_line_pair",
+          "text": "For young people who want to be photographers, interest is the most important. You must love photographing. That can help you become a true photographer."
+        },
+        "end_marker": {
+          "text": "请将你的答案填涂或书写在答题卡上。"
+        }
+      },
+      "overlap": true,
+      "overlap_targets": [
+        {
+          "type": "answer",
+          "span_id": "sp-Q12-14.sub.answer",
+          "from": 593,
+          "to": 593
+        },
+        {
+          "type": "material",
+          "span_id": "sp-Q18-20.material"
+        },
+        {
+          "type": "answer",
+          "span_id": "sp-Q12-14.sub.answer",
+          "shared_n": 1,
+          "shared_sample": [
+            593
+          ]
+        }
+      ],
+      "unresolved_evidence": [
+        "overlaps answer span sp-Q12-14.sub.answer (P1L593..P1L593)",
+        "overlaps material sp-Q18-20.material",
+        "material overlap → unresolved"
+      ],
+      "status": "RESOLVED_BUT_OVERLAP"
+    },
+    {
+      "unit_id": "Q9-11",
+      "mode": "padding0",
+      "declared": {
+        "s": 538,
+        "e": 541,
+        "n": 4
+      },
+      "resolved_lines": [],
+      "resolved_n": 0,
+      "inflation": null,
+      "markers": null,
+      "overlap": false,
+      "overlap_targets": [],
+      "unresolved_evidence": [
+        "material marker text missing"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "unit_id": "Q12-14",
+      "mode": "padding0",
+      "declared": {
+        "s": 543,
+        "e": 561,
+        "n": 19
+      },
+      "resolved_lines": [],
+      "resolved_n": 0,
+      "inflation": null,
+      "markers": null,
+      "overlap": false,
+      "overlap_targets": [],
+      "unresolved_evidence": [
+        "material marker text missing"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "unit_id": "Q21-25",
+      "mode": "padding0",
+      "declared": {
+        "s": 586,
+        "e": 610,
+        "n": 25
+      },
+      "resolved_lines": [],
+      "resolved_n": 0,
+      "inflation": null,
+      "markers": null,
+      "overlap": false,
+      "overlap_targets": [],
+      "unresolved_evidence": [
+        "material marker text missing"
+      ],
+      "status": "UNRESOLVED"
+    }
+  ]
+}

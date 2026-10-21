@@ -1,0 +1,282 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\合格考\\地理\\2017-2019北京高中地理合格考试汇编：人口（教师版）(1).md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.1",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "U1-3",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        1,
+        2,
+        3
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        7,
+        12
+      ],
+      "questions_lines": [
+        7,
+        32
+      ],
+      "answer_lines": [
+        154,
+        158
+      ],
+      "explanation_lines": [
+        160,
+        176
+      ],
+      "section_ref": "S1",
+      "section": "一、 单选题",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U4-5",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        4,
+        5
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        34,
+        34
+      ],
+      "questions_lines": [
+        34,
+        50
+      ],
+      "answer_lines": [
+        178,
+        180
+      ],
+      "explanation_lines": [
+        182,
+        200
+      ],
+      "section_ref": "S1",
+      "section": "一、 单选题",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U6-8",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        6,
+        7,
+        8
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        52,
+        59
+      ],
+      "questions_lines": [
+        52,
+        73
+      ],
+      "answer_lines": [
+        202,
+        206
+      ],
+      "explanation_lines": [
+        208,
+        224
+      ],
+      "section_ref": "S1",
+      "section": "一、 单选题",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U9-10",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        9,
+        10
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        75,
+        75
+      ],
+      "questions_lines": [
+        75,
+        89
+      ],
+      "answer_lines": [
+        226,
+        228
+      ],
+      "explanation_lines": [
+        230,
+        242
+      ],
+      "section_ref": "S1",
+      "section": "一、 单选题",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U11-12",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        11,
+        12
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        91,
+        93
+      ],
+      "questions_lines": [
+        91,
+        113
+      ],
+      "answer_lines": [
+        246,
+        246
+      ],
+      "explanation_lines": [
+        248,
+        254
+      ],
+      "section_ref": "S1",
+      "section": "一、 单选题",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U13-14",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        13,
+        14
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        115,
+        119
+      ],
+      "questions_lines": [
+        115,
+        140
+      ],
+      "answer_lines": [
+        256,
+        258
+      ],
+      "explanation_lines": [
+        260,
+        272
+      ],
+      "section_ref": "S1",
+      "section": "一、 单选题",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q15",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        15
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        142,
+        142
+      ],
+      "options_lines": [
+        144,
+        146
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        274,
+        274
+      ],
+      "explanation_lines": [
+        276,
+        278
+      ],
+      "section_ref": "S1",
+      "section": "一、 单选题",
+      "printed_number": [
+        15
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L142",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 144,
+          "end_line": 144
+        },
+        {
+          "label": "B",
+          "start_line": 144,
+          "end_line": 144
+        },
+        {
+          "label": "C",
+          "start_line": 146,
+          "end_line": 146
+        },
+        {
+          "label": "D",
+          "start_line": 146,
+          "end_line": 146
+        }
+      ]
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2017-2019 北京高中地理合格考试汇编：人口",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 4,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "一、 单选题",
+      "ordinal": 2,
+      "start_line": 5,
+      "end_line": 149,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "2017-2019 北京高中地理合格考试汇编：人口",
+      "ordinal": 3,
+      "start_line": 150,
+      "end_line": 278,
+      "occurrence": 2
+    }
+  ],
+  "source_content_sha256": "bec2412a3ea739497d83901c97d1e973c004a73124e9d6b785287d2fad7afd38"
+}

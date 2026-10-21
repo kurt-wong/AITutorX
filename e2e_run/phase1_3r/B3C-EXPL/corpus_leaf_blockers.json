@@ -1,0 +1,126 @@
+{
+  "rows": [
+    {
+      "paper": "化学",
+      "units": 40,
+      "ir_ready": 9,
+      "ir_incomplete": 31,
+      "leaf_problems": {
+        "stem_unresolved": 27,
+        "options_missing_for_choice": 3,
+        "answer_unresolved": 4
+      },
+      "options_declared_units": 23,
+      "stem_lines_units": 40,
+      "options_lines_units": 25
+    },
+    {
+      "paper": "历史",
+      "units": 53,
+      "ir_ready": 42,
+      "ir_incomplete": 11,
+      "leaf_problems": {
+        "stem_unresolved": 6
+      },
+      "options_declared_units": 50,
+      "stem_lines_units": 50,
+      "options_lines_units": 50
+    },
+    {
+      "paper": "地理",
+      "units": 25,
+      "ir_ready": 0,
+      "ir_incomplete": 25,
+      "leaf_problems": {
+        "stem_unresolved": 14,
+        "options_missing_for_choice": 20
+      },
+      "options_declared_units": 0,
+      "stem_lines_units": 0,
+      "options_lines_units": 0
+    },
+    {
+      "paper": "政治",
+      "units": 36,
+      "ir_ready": 22,
+      "ir_incomplete": 14,
+      "leaf_problems": {
+        "stem_unresolved": 11,
+        "options_missing_for_choice": 2
+      },
+      "options_declared_units": 25,
+      "stem_lines_units": 34,
+      "options_lines_units": 25
+    },
+    {
+      "paper": "数学",
+      "units": 30,
+      "ir_ready": 28,
+      "ir_incomplete": 2,
+      "leaf_problems": {
+        "stem_unresolved": 1
+      },
+      "options_declared_units": 25,
+      "stem_lines_units": 30,
+      "options_lines_units": 25
+    },
+    {
+      "paper": "物理",
+      "units": 22,
+      "ir_ready": 17,
+      "ir_incomplete": 5,
+      "leaf_problems": {
+        "stem_unresolved": 1,
+        "options_missing_for_choice": 4
+      },
+      "options_declared_units": 10,
+      "stem_lines_units": 19,
+      "options_lines_units": 10
+    },
+    {
+      "paper": "生物",
+      "units": 50,
+      "ir_ready": 11,
+      "ir_incomplete": 39,
+      "leaf_problems": {
+        "stem_unresolved": 27,
+        "options_missing_for_choice": 1
+      },
+      "options_declared_units": 39,
+      "stem_lines_units": 50,
+      "options_lines_units": 39
+    },
+    {
+      "paper": "英语",
+      "units": 18,
+      "ir_ready": 6,
+      "ir_incomplete": 12,
+      "leaf_problems": {
+        "options_missing_for_choice": 10,
+        "stem_unresolved": 2
+      },
+      "options_declared_units": 0,
+      "stem_lines_units": 1,
+      "options_lines_units": 0
+    },
+    {
+      "paper": "语文",
+      "units": 10,
+      "ir_ready": 9,
+      "ir_incomplete": 1,
+      "leaf_problems": {
+        "stem_unresolved": 1
+      },
+      "options_declared_units": 2,
+      "stem_lines_units": 6,
+      "options_lines_units": 2
+    }
+  ],
+  "totals": {
+    "units": 284,
+    "ir_ready": 144,
+    "stem_unresolved": 90,
+    "options_missing_for_choice": 40,
+    "answer_unresolved": 4
+  }
+}

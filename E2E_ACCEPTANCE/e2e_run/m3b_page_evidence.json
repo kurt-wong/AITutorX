@@ -1,0 +1,11 @@
+{
+  "q8_open_text": "AITutor V3\nReview Console\nWorkspace\nDocuments\nImport\nQuestions\nFeedbacks\n← Questions\nQuestion 8\nsingle_choice\n学科：化学\n年级：高一\n来源文档：paper.pdf\nSource：preprocessing/canonical_l1\np1\nidentity：5f461ef4…\ndedup：a3ded7abff5d…\n显示原始文本\n题干\n8．下列物质中，含有离子键的是\n选项\nA.\nHCl\nB.\nCO\n2\n\t​\n\nC.\nMgCl\n2\n\t​\n\nD.\nCH\n4\n\t​\n\n答案\nC\ninstance_order=1042 · occurrence_key=13e7a1366f7a55e3619c234998b71610…\n提交反馈（不会自动修改题目）\n\n将关联：Question 8（5f461ef4…） · instance 5ce35672…\n\n题干缺失或不完整\n选项缺失或不完整\n答案缺失或错误\n解析缺失或错误\n材料缺失或引用错误\nLaTeX/公式渲染异常\n题目身份或题号绑定错误\n学科/年级不正确或未设置\n其他问题\n提交反馈",
+  "q8_url": "http://127.0.0.1:5173/admin/questions/5f461ef4-1362-417a-bd11-06723bbe0dc9",
+  "after_submit_has_success": true,
+  "after_submit_text": "AITutor V3\nReview Console\nWorkspace\nDocuments\nImport\nQuestions\nFeedbacks\n← Questions\nQuestion 8\nsingle_choice\n学科：化学\n年级：高一\n来源文档：paper.pdf\nSource：preprocessing/canonical_l1\np1\nidentity：5f461ef4…\ndedup：a3ded7abff5d…\n显示原始文本\n题干\n8．下列物质中，含有离子键的是\n选项\nA.\nHCl\nB.\nCO\n2\n\t​\n\nC.\nMgCl\n2\n\t​\n\nD.\nCH\n4\n\t​\n\n答案\nC\ninstance_order=1042 · occurrence_key=13e7a1366f7a55e3619c234998b71610…\n提交反馈（不会自动修改题目）\n\n将关联：Question 8（5f461ef4…） · instance 5ce35672…\n\n题干缺失或不完整\n选项缺失或不完整\n答案缺失或错误\n解析缺失或错误\n材料缺失或引用错误\nLaTeX/公式渲染异常\n题目身份或题号绑定错误\n学科/年级不正确或未设置\n其他问题\n已保存反馈 880b092a…（status=open，category=latex_render_error）— 不修改题目数据\n提交反馈",
+  "after_refresh_has_form": true,
+  "feedback_list_text": "AITutor V3\nReview Console\nWorkspace\nDocuments\nImport\nQuestions\nFeedbacks\nFeedbacks\n2 条\n刷新\nLaTeX/公式渲染异常\nopen\nQuestion 5f461ef4…\n2026-10-10T16:11:45.071365Z · console-user\n选项B/C/D公式下标显示异常（E2E验收）\ninstance=5ce35672 · sv=0df40d7b · unit=—\nLaTeX/公式渲染异常\nopen\nQuestion 5f461ef4…\n2026-10-10T14:43:53.501555Z · console-user\n选项B/C/D公式下标显示异常（E2E验收）\ninstance=5ce35672 · sv=0df40d7b · unit=—",
+  "list_has_latex_category": true,
+  "list_has_q8": true,
+  "list_has_desc": true
+}

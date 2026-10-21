@@ -1,0 +1,4991 @@
+{
+  "total_candidates": 43,
+  "unique_candidate_ids": 43,
+  "cross_table": {
+    "IN_DECLARED_ANSWER_ZONE|HAS_VALUE": 16,
+    "IN_DECLARED_ANSWER_ZONE|BARE_QUESTION_NUMBER": 22,
+    "IN_DECLARED_ANSWER_ZONE|EMPTY": 0,
+    "OUTSIDE_DECLARED_ANSWER_ZONE|HAS_VALUE": 4,
+    "OUTSIDE_DECLARED_ANSWER_ZONE|BARE_QUESTION_NUMBER": 1,
+    "OUTSIDE_DECLARED_ANSWER_ZONE|EMPTY": 0,
+    "NO_ANSWER_SPAN|HAS_VALUE": 0,
+    "NO_ANSWER_SPAN|BARE_QUESTION_NUMBER": 0,
+    "NO_ANSWER_SPAN|EMPTY": 0,
+    "AMBIGUOUS|HAS_VALUE": 0,
+    "AMBIGUOUS|BARE_QUESTION_NUMBER": 0,
+    "AMBIGUOUS|EMPTY": 0
+  },
+  "cross_sum": 43,
+  "position_totals": {
+    "OUTSIDE_DECLARED_ANSWER_ZONE": 5,
+    "IN_DECLARED_ANSWER_ZONE": 38
+  },
+  "content_totals": {
+    "HAS_VALUE": 20,
+    "BARE_QUESTION_NUMBER": 23
+  },
+  "math": {
+    "n": 23,
+    "cross": {
+      "OUTSIDE_DECLARED_ANSWER_ZONE|BARE_QUESTION_NUMBER": 1,
+      "IN_DECLARED_ANSWER_ZONE|BARE_QUESTION_NUMBER": 22
+    }
+  },
+  "q27": [
+    {
+      "candidate_id": "c1357a87-9186-4b5a-8532-14da3a89ed39",
+      "unit_id": "Q27",
+      "question_label": "27",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "27.",
+      "resolver_answer_line_refs": [
+        593
+      ],
+      "declared_answer_range": [
+        593,
+        623
+      ],
+      "producer_answer_lines": [
+        593,
+        623
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        593,
+        623
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 593,
+          "text": "27."
+        },
+        {
+          "line": 594,
+          "text": ""
+        },
+        {
+          "line": 595,
+          "text": "【考点】棱柱、棱锥、棱台的体积；空间中直线与直线之间的位置关系."
+        },
+        {
+          "line": 596,
+          "text": ""
+        },
+        {
+          "line": 597,
+          "text": "【分析】（Ⅰ）根据线面垂直的性质定理证明 BC⊥平面  $ ABB_{1}A_{1} $，即可证明：BC⊥AD；"
+        },
+        {
+          "line": 598,
+          "text": ""
+        },
+        {
+          "line": 599,
+          "text": "（Ⅱ）利用转化法结合三棱锥的体积公式即可求三棱锥 B-ACD 的体积."
+        },
+        {
+          "line": 600,
+          "text": ""
+        },
+        {
+          "line": 601,
+          "text": "【解答】证明：（Ⅰ）在三棱柱 ABC - A_{1}B_{1}C_{1} 中，BB_{1}⊥平面 ABC， $ \\angle ABC=90^"
+        },
+        {
+          "line": 602,
+          "text": ""
+        },
+        {
+          "line": 603,
+          "text": " $$ \\therefore\\mathrm{BC}\\perp\\mathrm{AB}, $$ "
+        },
+        {
+          "line": 604,
+          "text": ""
+        },
+        {
+          "line": 605,
+          "text": "∵$BB_{1}$⊥平面 ABC，BZ⊂平面 ABC，"
+        },
+        {
+          "line": 606,
+          "text": ""
+        },
+        {
+          "line": 607,
+          "text": " $$ \\therefore\\mathrm{BB}_{1}\\perp\\mathrm{BC}, $$ "
+        },
+        {
+          "line": 608,
+          "text": ""
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    }
+  ],
+  "anomalies": [
+    {
+      "candidate_id": "d6d24c36-d88e-4771-b24e-f593e9a3e4ce",
+      "unit_id": "Q8",
+      "question_label": "8",
+      "file_name": "2018北京春季高中会考化学（教师版）(1).md",
+      "source_version_id": "41c6b3b8-09f1-45f0-a7be-3dbd98623272",
+      "decision_status": "pending_review",
+      "position_state": "OUTSIDE_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "8、 $ 32^{\\circ} $C",
+      "resolver_answer_line_refs": [
+        578
+      ],
+      "declared_answer_range": [
+        513,
+        513
+      ],
+      "producer_answer_lines": [
+        513,
+        513
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        513,
+        513
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 513,
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td s"
+        }
+      ],
+      "root_cause_class": "C",
+      "root_cause_note": "OUTSIDE: qn token matched outside declared range (wrong pick on shared/other answer block)"
+    },
+    {
+      "candidate_id": "613020cc-8bce-4ffa-9b35-1cb041e90b27",
+      "unit_id": "Q1",
+      "question_label": "1",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "OUTSIDE_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "1.",
+      "resolver_answer_line_refs": [
+        747
+      ],
+      "declared_answer_range": [
+        200,
+        206
+      ],
+      "producer_answer_lines": [
+        200,
+        206
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        200,
+        206
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 200,
+          "text": "【考点】三角函数的周期性及其求法."
+        },
+        {
+          "line": 201,
+          "text": ""
+        },
+        {
+          "line": 202,
+          "text": "【分析】由条件利用函数  $ y = A \\sin(\\omega x + \\phi) $ 的周期为  $ \\frac{2\\pi}{\\omeg"
+        },
+        {
+          "line": 203,
+          "text": ""
+        },
+        {
+          "line": 204,
+          "text": "【解答】解：函数  $ y=3\\sin x+2 $ 的最小正周期为  $ 2\\pi $"
+        },
+        {
+          "line": 205,
+          "text": ""
+        },
+        {
+          "line": 206,
+          "text": "故选：D."
+        }
+      ],
+      "root_cause_class": "C",
+      "root_cause_note": "OUTSIDE: qn token matched outside declared range (wrong pick on shared/other answer block)"
+    },
+    {
+      "candidate_id": "5ae90a8e-758e-4cab-b9c4-e17531c7a81e",
+      "unit_id": "Q3",
+      "question_label": "3",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "3.",
+      "resolver_answer_line_refs": [
+        224
+      ],
+      "declared_answer_range": [
+        224,
+        232
+      ],
+      "producer_answer_lines": [
+        224,
+        232
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        224,
+        232
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 224,
+          "text": "3."
+        },
+        {
+          "line": 225,
+          "text": ""
+        },
+        {
+          "line": 226,
+          "text": "【考点】平面向量的坐标运算."
+        },
+        {
+          "line": 227,
+          "text": ""
+        },
+        {
+          "line": 228,
+          "text": "【分析】根据向量的坐标的运算法则计算即可."
+        },
+        {
+          "line": 229,
+          "text": ""
+        },
+        {
+          "line": 230,
+          "text": "【解答】解：向量  $ \\overrightarrow{a}=(1,2) $， $ \\overrightarrow{b}=(4,3) $，"
+        },
+        {
+          "line": 231,
+          "text": ""
+        },
+        {
+          "line": 232,
+          "text": "则于  $ \\overrightarrow{a}-2\\overrightarrow{b}=(1,2)-2(4,3)=(1,2)-(8,6)="
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "021b78f4-e8cf-4d10-9978-6c7260cb163d",
+      "unit_id": "Q4",
+      "question_label": "4",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "4.",
+      "resolver_answer_line_refs": [
+        234
+      ],
+      "declared_answer_range": [
+        234,
+        240
+      ],
+      "producer_answer_lines": [
+        234,
+        240
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        234,
+        240
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 234,
+          "text": "4."
+        },
+        {
+          "line": 235,
+          "text": ""
+        },
+        {
+          "line": 236,
+          "text": "【考点】余弦函数的图象."
+        },
+        {
+          "line": 237,
+          "text": ""
+        },
+        {
+          "line": 238,
+          "text": "【分析】根据当自变量相同时，它们的函数值相反，可得它们的图象关于x轴对称."
+        },
+        {
+          "line": 239,
+          "text": ""
+        },
+        {
+          "line": 240,
+          "text": "【解答】解：由于当自变量相同时，它们的函数值相反，故它们的图象关于x轴对称，故选：A."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "5c93caab-5011-419b-8b8c-c3e6f3718728",
+      "unit_id": "Q28",
+      "question_label": "28",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "28.",
+      "resolver_answer_line_refs": [
+        625
+      ],
+      "declared_answer_range": [
+        625,
+        651
+      ],
+      "producer_answer_lines": [
+        625,
+        651
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        625,
+        651
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 625,
+          "text": "28."
+        },
+        {
+          "line": 626,
+          "text": ""
+        },
+        {
+          "line": 627,
+          "text": "【考点】直线与圆的位置关系."
+        },
+        {
+          "line": 628,
+          "text": ""
+        },
+        {
+          "line": 629,
+          "text": "【分析】（Ⅰ）如果直线 l 与圆 O 相切，圆心到直线的距离 d=r；"
+        },
+        {
+          "line": 630,
+          "text": ""
+        },
+        {
+          "line": 631,
+          "text": "（Ⅱ）如果直线 l 与圆 O 交于 A, B 两点，且  $ \\frac{|PA|}{|PB|} = \\frac{1}{2} $，分类讨论，"
+        },
+        {
+          "line": 632,
+          "text": ""
+        },
+        {
+          "line": 633,
+          "text": "【解答】解：（Ⅰ）圆心到直线的距离  $ d = \\frac{1}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2} $， $ "
+        },
+        {
+          "line": 634,
+          "text": ""
+        },
+        {
+          "line": 635,
+          "text": "（Ⅱ）设 $ \\left|PA\\right|=x $，则 $ \\left|PB\\right|=2x $"
+        },
+        {
+          "line": 636,
+          "text": ""
+        },
+        {
+          "line": 637,
+          "text": "圆心到直线的距离  $ d=\\frac{\\sqrt{2}}{2} $."
+        },
+        {
+          "line": 638,
+          "text": ""
+        },
+        {
+          "line": 639,
+          "text": "①点P在圆内， $ |AB|=3x $，则 $ x\\cdot2x=(r-1)(r+1) $， $ \\therefore x^2=\\frac{"
+        },
+        {
+          "line": 640,
+          "text": ""
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "5a6e851a-7ea0-47a0-9828-f5f41d4a6334",
+      "unit_id": "Q6",
+      "question_label": "6",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "6.",
+      "resolver_answer_line_refs": [
+        260
+      ],
+      "declared_answer_range": [
+        260,
+        272
+      ],
+      "producer_answer_lines": [
+        260,
+        272
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        260,
+        272
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 260,
+          "text": "6."
+        },
+        {
+          "line": 261,
+          "text": ""
+        },
+        {
+          "line": 262,
+          "text": "【考点】直线的一般式方程与直线的平行关系."
+        },
+        {
+          "line": 263,
+          "text": ""
+        },
+        {
+          "line": 264,
+          "text": "【分析】设所求的方程为 x - y + c = 0，代点可得关于 c 的方程，解之代入可得."
+        },
+        {
+          "line": 265,
+          "text": ""
+        },
+        {
+          "line": 266,
+          "text": "【解答】解：由题意可设所求的方程为  $ 2x - y + c = 0 $，"
+        },
+        {
+          "line": 267,
+          "text": ""
+        },
+        {
+          "line": 268,
+          "text": "代入已知点（2，1），可得4-1+c=0，即c=-3"
+        },
+        {
+          "line": 269,
+          "text": ""
+        },
+        {
+          "line": 270,
+          "text": "故所求直线的方程为：2x - y - 3 = 0，"
+        },
+        {
+          "line": 271,
+          "text": ""
+        },
+        {
+          "line": 272,
+          "text": "故选：A."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "921fd9c3-5b6c-4d89-842d-c7c2afe0ee68",
+      "unit_id": "Q7",
+      "question_label": "7",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "7.",
+      "resolver_answer_line_refs": [
+        274
+      ],
+      "declared_answer_range": [
+        274,
+        284
+      ],
+      "producer_answer_lines": [
+        274,
+        284
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        274,
+        284
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 274,
+          "text": "7."
+        },
+        {
+          "line": 275,
+          "text": ""
+        },
+        {
+          "line": 276,
+          "text": "【考点】分层抽样方法."
+        },
+        {
+          "line": 277,
+          "text": ""
+        },
+        {
+          "line": 278,
+          "text": "【分析】先求出每个个体被抽到的概率，用每层的个体数乘以每个个体被抽到的概率等于该层应抽取的个体数."
+        },
+        {
+          "line": 279,
+          "text": ""
+        },
+        {
+          "line": 280,
+          "text": "【解答】解：每个个体被抽到的概率等于 $ \\frac{3000}{270000}=\\frac{1}{90} $，"
+        },
+        {
+          "line": 281,
+          "text": ""
+        },
+        {
+          "line": 282,
+          "text": "则抽取初三年级的人数应为 $ 81000\\times\\frac{1}{90}=900 $人，"
+        },
+        {
+          "line": 283,
+          "text": ""
+        },
+        {
+          "line": 284,
+          "text": "故选：B."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "6be97d06-5715-4470-aa91-708194ed3956",
+      "unit_id": "Q8",
+      "question_label": "8",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "8.",
+      "resolver_answer_line_refs": [
+        286
+      ],
+      "declared_answer_range": [
+        286,
+        296
+      ],
+      "producer_answer_lines": [
+        286,
+        296
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        286,
+        296
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 286,
+          "text": "8."
+        },
+        {
+          "line": 287,
+          "text": ""
+        },
+        {
+          "line": 288,
+          "text": "【考点】余弦定理."
+        },
+        {
+          "line": 289,
+          "text": ""
+        },
+        {
+          "line": 290,
+          "text": "【分析】由已知及余弦定理即可求值得解."
+        },
+        {
+          "line": 291,
+          "text": ""
+        },
+        {
+          "line": 292,
+          "text": "【解答】解：∵$\\angle C=60^{\\circ}$，$AC=2$，$BC=3$，"
+        },
+        {
+          "line": 293,
+          "text": ""
+        },
+        {
+          "line": 294,
+          "text": "∴由余弦定理可得：$AB=\\sqrt{AC^{2}+BC^{2}-2AB\\cdot AC\\cdot\\cos C}=\\sqrt{4+9-2\\t"
+        },
+        {
+          "line": 295,
+          "text": ""
+        },
+        {
+          "line": 296,
+          "text": "故选：C."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "32422e75-22f4-4219-8315-7d050b3ed80b",
+      "unit_id": "Q10",
+      "question_label": "10",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "10.",
+      "resolver_answer_line_refs": [
+        314
+      ],
+      "declared_answer_range": [
+        314,
+        324
+      ],
+      "producer_answer_lines": [
+        314,
+        324
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        314,
+        324
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 314,
+          "text": "10."
+        },
+        {
+          "line": 315,
+          "text": ""
+        },
+        {
+          "line": 316,
+          "text": "【考点】平面向量数量积的运算."
+        },
+        {
+          "line": 317,
+          "text": ""
+        },
+        {
+          "line": 318,
+          "text": "【分析】求出 $ \\overrightarrow{AC} $， $ \\overrightarrow{AB} $的模长和夹角，代入数量积公式计"
+        },
+        {
+          "line": 319,
+          "text": ""
+        },
+        {
+          "line": 320,
+          "text": "【解答】解：∵正方形 ABCD 的边长为 1，∴ $ |\\overrightarrow{AB}|=1 $， $ |\\overrightarr"
+        },
+        {
+          "line": 321,
+          "text": ""
+        },
+        {
+          "line": 322,
+          "text": "∴ $ \\overrightarrow{AC}\\cdot\\overrightarrow{AB}=|\\overrightarrow{AB}|\\"
+        },
+        {
+          "line": 323,
+          "text": ""
+        },
+        {
+          "line": 324,
+          "text": "故选：A."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "ba98df7c-b0a5-4c2f-bfd7-c561ead3ad5e",
+      "unit_id": "Q29",
+      "question_label": "29",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "29.",
+      "resolver_answer_line_refs": [
+        653
+      ],
+      "declared_answer_range": [
+        653,
+        689
+      ],
+      "producer_answer_lines": [
+        653,
+        689
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        653,
+        689
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 653,
+          "text": "29."
+        },
+        {
+          "line": 654,
+          "text": ""
+        },
+        {
+          "line": 655,
+          "text": "【考点】数列递推式；数列的求和."
+        },
+        {
+          "line": 656,
+          "text": ""
+        },
+        {
+          "line": 657,
+          "text": "【分析】（Ⅰ）当  $ a_{1}=2 $ 时，代入计算，可得  $ a_{2} $;"
+        },
+        {
+          "line": 658,
+          "text": ""
+        },
+        {
+          "line": 659,
+          "text": "（Ⅱ）利用反证法判断数列 $ \\{a_{n}\\} $不可能为等比数列；"
+        },
+        {
+          "line": 660,
+          "text": ""
+        },
+        {
+          "line": 661,
+          "text": "（Ⅲ）利用数学归纳法进行证明."
+        },
+        {
+          "line": 662,
+          "text": ""
+        },
+        {
+          "line": 663,
+          "text": "【解答】解：（Ⅰ）当  $ a_1=2 $ 时， $ a_2=\\frac{2}{5} $；"
+        },
+        {
+          "line": 664,
+          "text": ""
+        },
+        {
+          "line": 665,
+          "text": "（Ⅱ）设公比为 q，则"
+        },
+        {
+          "line": 666,
+          "text": ""
+        },
+        {
+          "line": 667,
+          "text": " $$ \\because a_{n+1}=\\frac{a_{n}}{a_{n}^{2}+1}, $$ "
+        },
+        {
+          "line": 668,
+          "text": ""
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "97a033f3-8b25-40d9-a18d-264f52ca8f52",
+      "unit_id": "Q11",
+      "question_label": "11",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "11.",
+      "resolver_answer_line_refs": [
+        326
+      ],
+      "declared_answer_range": [
+        326,
+        336
+      ],
+      "producer_answer_lines": [
+        326,
+        336
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        326,
+        336
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 326,
+          "text": "11."
+        },
+        {
+          "line": 327,
+          "text": ""
+        },
+        {
+          "line": 328,
+          "text": "【考点】等比数列的前 n 项和."
+        },
+        {
+          "line": 329,
+          "text": ""
+        },
+        {
+          "line": 330,
+          "text": "【分析】由已知得训练 n 天产生的总数据量为  $ S_{n}=a+aq+aq^{2}+\\cdots+aq^{n-1} $，由此能求出结果."
+        },
+        {
+          "line": 331,
+          "text": ""
+        },
+        {
+          "line": 332,
+          "text": "【解答】解：∵训练过程中第一天产生的数据量为 a，其后每天产生的数据量都是前一天的  $ q $（ $ q>1 $）倍，∴那么训练 n 天产"
+        },
+        {
+          "line": 333,
+          "text": ""
+        },
+        {
+          "line": 334,
+          "text": " $ = \\frac{a(1 - q^n)}{1 - q} $."
+        },
+        {
+          "line": 335,
+          "text": ""
+        },
+        {
+          "line": 336,
+          "text": "故选：D."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "99a015e9-4f12-4f84-935c-dfe1b3eb367b",
+      "unit_id": "Q12",
+      "question_label": "12",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "12.",
+      "resolver_answer_line_refs": [
+        338
+      ],
+      "declared_answer_range": [
+        338,
+        348
+      ],
+      "producer_answer_lines": [
+        338,
+        348
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        338,
+        348
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 338,
+          "text": "12."
+        },
+        {
+          "line": 339,
+          "text": ""
+        },
+        {
+          "line": 340,
+          "text": "【考点】二倍角的余弦."
+        },
+        {
+          "line": 341,
+          "text": ""
+        },
+        {
+          "line": 342,
+          "text": "【分析】利用诱导公式，二倍角的余弦函数公式即可求值得解."
+        },
+        {
+          "line": 343,
+          "text": ""
+        },
+        {
+          "line": 344,
+          "text": "【解答】解：∵  $ \\cos\\alpha=\\frac{1}{2} $,"
+        },
+        {
+          "line": 345,
+          "text": ""
+        },
+        {
+          "line": 346,
+          "text": "∴  $ \\cos(-2a)=\\cos2a=2\\cos^2a-1=2\\times\\left(\\frac{1}{2}\\right)^2-1=-"
+        },
+        {
+          "line": 347,
+          "text": ""
+        },
+        {
+          "line": 348,
+          "text": "故选：B."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "f4789c7c-3f64-45e7-ba37-41d122db7c44",
+      "unit_id": "Q13",
+      "question_label": "13",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "13.",
+      "resolver_answer_line_refs": [
+        350
+      ],
+      "declared_answer_range": [
+        350,
+        356
+      ],
+      "producer_answer_lines": [
+        350,
+        356
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        350,
+        356
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 350,
+          "text": "13."
+        },
+        {
+          "line": 351,
+          "text": ""
+        },
+        {
+          "line": 352,
+          "text": "【考点】函数的图象."
+        },
+        {
+          "line": 353,
+          "text": ""
+        },
+        {
+          "line": 354,
+          "text": "【分析】把点（1，1）代入各个选项检验，可得结论."
+        },
+        {
+          "line": 355,
+          "text": ""
+        },
+        {
+          "line": 356,
+          "text": "【解答】解：把点（1，1）代入各个选项检验，可得只有  $ y=x^{-1} $ 的图象经过点（1，1），故选：A."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "910962d3-44a1-4970-b669-4c72ea82beba",
+      "unit_id": "Q14",
+      "question_label": "14",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "14.",
+      "resolver_answer_line_refs": [
+        358
+      ],
+      "declared_answer_range": [
+        358,
+        368
+      ],
+      "producer_answer_lines": [
+        358,
+        368
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        358,
+        368
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 358,
+          "text": "14."
+        },
+        {
+          "line": 359,
+          "text": ""
+        },
+        {
+          "line": 360,
+          "text": "【考点】对数的运算性质."
+        },
+        {
+          "line": 361,
+          "text": ""
+        },
+        {
+          "line": 362,
+          "text": "【分析】根据对数的运算法则计算即可."
+        },
+        {
+          "line": 363,
+          "text": ""
+        },
+        {
+          "line": 364,
+          "text": "【解答】解： $ \\log_{4}2 - \\log_{4}8 = \\log_{4}\\frac{2}{8} = \\log_{4}4^{-1} "
+        },
+        {
+          "line": 365,
+          "text": ""
+        },
+        {
+          "line": 366,
+          "text": "---"
+        },
+        {
+          "line": 367,
+          "text": ""
+        },
+        {
+          "line": 368,
+          "text": "故选：B."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "4006e069-e9af-443b-b100-2d79e8e6c366",
+      "unit_id": "Q15",
+      "question_label": "15",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "15.",
+      "resolver_answer_line_refs": [
+        370
+      ],
+      "declared_answer_range": [
+        370,
+        384
+      ],
+      "producer_answer_lines": [
+        370,
+        384
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        370,
+        384
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 370,
+          "text": "15."
+        },
+        {
+          "line": 371,
+          "text": ""
+        },
+        {
+          "line": 372,
+          "text": "【考点】由三视图求面积、体积."
+        },
+        {
+          "line": 373,
+          "text": ""
+        },
+        {
+          "line": 374,
+          "text": "【分析】由几何体的三视图得出原几何体一个底面为正方形的长方体，结合图中数据求出它的表面积."
+        },
+        {
+          "line": 375,
+          "text": ""
+        },
+        {
+          "line": 376,
+          "text": "【解答】解：由三视图可知，该几何体是一个底面为正方形的长方体，"
+        },
+        {
+          "line": 377,
+          "text": ""
+        },
+        {
+          "line": 378,
+          "text": "长方体的底面正方形的对角线长为2，长方体的高是3；"
+        },
+        {
+          "line": 379,
+          "text": ""
+        },
+        {
+          "line": 380,
+          "text": "所以，底面正方形的边长为 $ \\sqrt{1^{2}+1^{2}}=\\sqrt{2} $，"
+        },
+        {
+          "line": 381,
+          "text": ""
+        },
+        {
+          "line": 382,
+          "text": "该长方体的表面积为 $ 2\\times(\\sqrt{2})^{2}+4\\times3\\times\\sqrt{2}=4+12\\sqrt{2} "
+        },
+        {
+          "line": 383,
+          "text": ""
+        },
+        {
+          "line": 384,
+          "text": "故选：C."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "377e7267-be0f-48ab-8b77-0be65989a09b",
+      "unit_id": "Q18",
+      "question_label": "18",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "18.",
+      "resolver_answer_line_refs": [
+        434
+      ],
+      "declared_answer_range": [
+        434,
+        448
+      ],
+      "producer_answer_lines": [
+        434,
+        448
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        434,
+        448
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 434,
+          "text": "18."
+        },
+        {
+          "line": 435,
+          "text": ""
+        },
+        {
+          "line": 436,
+          "text": "【考点】圆与圆的位置关系及其判定."
+        },
+        {
+          "line": 437,
+          "text": ""
+        },
+        {
+          "line": 438,
+          "text": "【分析】两个圆有且只有一个公共点，两个圆内切或外切，分别求出 a，即可得出结论."
+        },
+        {
+          "line": 439,
+          "text": ""
+        },
+        {
+          "line": 440,
+          "text": "【解答】解：∵两个圆有且只有一个公共点，"
+        },
+        {
+          "line": 441,
+          "text": ""
+        },
+        {
+          "line": 442,
+          "text": "∴两个圆内切或外切，"
+        },
+        {
+          "line": 443,
+          "text": ""
+        },
+        {
+          "line": 444,
+          "text": "内切时， $ |a|=1 $，外切时， $ |a|=3 $，"
+        },
+        {
+          "line": 445,
+          "text": ""
+        },
+        {
+          "line": 446,
+          "text": "∴实数 a 的取值集合是  $ \\{1, -1, 3, -3\\} $"
+        },
+        {
+          "line": 447,
+          "text": ""
+        },
+        {
+          "line": 448,
+          "text": "故选：C."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "c90ed211-c813-4383-bff0-0dc21208481c",
+      "unit_id": "Q19",
+      "question_label": "19",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "19.",
+      "resolver_answer_line_refs": [
+        450
+      ],
+      "declared_answer_range": [
+        450,
+        462
+      ],
+      "producer_answer_lines": [
+        450,
+        462
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        450,
+        462
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 450,
+          "text": "19."
+        },
+        {
+          "line": 451,
+          "text": ""
+        },
+        {
+          "line": 452,
+          "text": "【考点】两点间距离公式的应用."
+        },
+        {
+          "line": 453,
+          "text": ""
+        },
+        {
+          "line": 454,
+          "text": "【分析】根据两点间的距离公式表示 $ |BO|=|BA| $，即可求出b的值."
+        },
+        {
+          "line": 455,
+          "text": ""
+        },
+        {
+          "line": 456,
+          "text": "【解答】解：∵点A（4，2）和B（0，b）满足|BO|=|BA|，"
+        },
+        {
+          "line": 457,
+          "text": ""
+        },
+        {
+          "line": 458,
+          "text": " $$ \\therefore b^{2}=4^{2}+(2-b)^{2}, $$ "
+        },
+        {
+          "line": 459,
+          "text": ""
+        },
+        {
+          "line": 460,
+          "text": " $$ \\therefore b=5. $$ "
+        },
+        {
+          "line": 461,
+          "text": ""
+        },
+        {
+          "line": 462,
+          "text": "故选：C."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "33027be2-1738-4c4e-b1e6-c84440d2bbc5",
+      "unit_id": "Q20",
+      "question_label": "20",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "20.",
+      "resolver_answer_line_refs": [
+        464
+      ],
+      "declared_answer_range": [
+        464,
+        470
+      ],
+      "producer_answer_lines": [
+        464,
+        470
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        464,
+        470
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 464,
+          "text": "20."
+        },
+        {
+          "line": 465,
+          "text": ""
+        },
+        {
+          "line": 466,
+          "text": "【考点】指数函数的图象与性质."
+        },
+        {
+          "line": 467,
+          "text": ""
+        },
+        {
+          "line": 468,
+          "text": "【分析】由已知可得  $ x_{1}+x_{2}=0 $，进而根据指数的运算性质，可得答案."
+        },
+        {
+          "line": 469,
+          "text": ""
+        },
+        {
+          "line": 470,
+          "text": "【解答】解：∵以 P（x₁，f（x₁）），Q（x₂，f（x₂））为端点的线段的中点在 y 轴上，∴ x₁ + x₂ = 0，又∵ f（x）="
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "88f78190-fcd3-4179-9bc4-c26da0b87fb7",
+      "unit_id": "Q21",
+      "question_label": "21",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "21.",
+      "resolver_answer_line_refs": [
+        472
+      ],
+      "declared_answer_range": [
+        472,
+        484
+      ],
+      "producer_answer_lines": [
+        472,
+        484
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        472,
+        484
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 472,
+          "text": "21."
+        },
+        {
+          "line": 473,
+          "text": ""
+        },
+        {
+          "line": 474,
+          "text": "【考点】二元一次不等式（组）与平面区域."
+        },
+        {
+          "line": 475,
+          "text": ""
+        },
+        {
+          "line": 476,
+          "text": "【分析】作出平面区域，根据图形找出 PA 的最小值."
+        },
+        {
+          "line": 477,
+          "text": ""
+        },
+        {
+          "line": 478,
+          "text": "【解答】解：作出平面区域如图，则 |PA| 的最小值为 A（0，1）到直线 x - y = 0 的距离  $ d = \\frac{1}{\\s"
+        },
+        {
+          "line": 479,
+          "text": ""
+        },
+        {
+          "line": 480,
+          "text": "故选：B."
+        },
+        {
+          "line": 481,
+          "text": ""
+        },
+        {
+          "line": 482,
+          "text": "---"
+        },
+        {
+          "line": 483,
+          "text": ""
+        },
+        {
+          "line": 484,
+          "text": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考数学（"
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "4fd43a70-2707-4f32-b842-34bdcd5b5ceb",
+      "unit_id": "Q24",
+      "question_label": "24",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "24.",
+      "resolver_answer_line_refs": [
+        543
+      ],
+      "declared_answer_range": [
+        543,
+        565
+      ],
+      "producer_answer_lines": [
+        543,
+        565
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        543,
+        565
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 543,
+          "text": "24."
+        },
+        {
+          "line": 544,
+          "text": ""
+        },
+        {
+          "line": 545,
+          "text": "【考点】两角和与差的正弦函数."
+        },
+        {
+          "line": 546,
+          "text": ""
+        },
+        {
+          "line": 547,
+          "text": "【分析】需要分类讨论，当 a=0 时，和当  $ a \\neq 0 $ 时，函数  $ f(x) = a \\sin x + b \\cos x"
+        },
+        {
+          "line": 548,
+          "text": ""
+        },
+        {
+          "line": 549,
+          "text": "【解答】解：当 a=0 时， $ f(x)=bc\\cos x $，"
+        },
+        {
+          "line": 550,
+          "text": ""
+        },
+        {
+          "line": 551,
+          "text": "$\\because x\\in\\mathbb{R}$，都有$f(x)\\neq2$，"
+        },
+        {
+          "line": 552,
+          "text": ""
+        },
+        {
+          "line": 553,
+          "text": " $$ \\therefore\\left|b\\right|<1, $$ "
+        },
+        {
+          "line": 554,
+          "text": ""
+        },
+        {
+          "line": 555,
+          "text": " $$ \\therefore-1<a+b<1,-1<a-b<1,a^{2}+b^{2}<1, $$ "
+        },
+        {
+          "line": 556,
+          "text": ""
+        },
+        {
+          "line": 557,
+          "text": "当  $ a \\neq 0 $ 时，函数  $ f(x) = a \\sin x + b \\cos x = \\sqrt{a^2 + b^2} "
+        },
+        {
+          "line": 558,
+          "text": ""
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "08f3e9a1-4eb4-451e-b973-bc9c418d7600",
+      "unit_id": "Q25",
+      "question_label": "25",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "25.",
+      "resolver_answer_line_refs": [
+        567
+      ],
+      "declared_answer_range": [
+        567,
+        575
+      ],
+      "producer_answer_lines": [
+        567,
+        575
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        567,
+        575
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 567,
+          "text": "25."
+        },
+        {
+          "line": 568,
+          "text": ""
+        },
+        {
+          "line": 569,
+          "text": "【考点】计数原理的应用."
+        },
+        {
+          "line": 570,
+          "text": ""
+        },
+        {
+          "line": 571,
+          "text": "【分析】列举所有排法，即可得出结论."
+        },
+        {
+          "line": 572,
+          "text": ""
+        },
+        {
+          "line": 573,
+          "text": "【解答】解：三阶幻方，是最简单的幻方，由1，2，3，4，5，6，7，8，9．其中有8种排法492、357、816；276、951、438；2"
+        },
+        {
+          "line": 574,
+          "text": ""
+        },
+        {
+          "line": 575,
+          "text": "故选：B."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "1f77ad6a-b5fb-4b2b-a111-35dbac7c6eda",
+      "unit_id": "Q26",
+      "question_label": "26",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "26.",
+      "resolver_answer_line_refs": [
+        579
+      ],
+      "declared_answer_range": [
+        579,
+        591
+      ],
+      "producer_answer_lines": [
+        579,
+        591
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        579,
+        591
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 579,
+          "text": "26."
+        },
+        {
+          "line": 580,
+          "text": ""
+        },
+        {
+          "line": 581,
+          "text": "【考点】三角函数的化简求值."
+        },
+        {
+          "line": 582,
+          "text": ""
+        },
+        {
+          "line": 583,
+          "text": "【分析】（Ⅰ）由条件利用同角三角函数的基本关系，求得  $ \\cos\\theta $ 的值，可得  $ \\tan\\theta $ 的值."
+        },
+        {
+          "line": 584,
+          "text": ""
+        },
+        {
+          "line": 585,
+          "text": "---"
+        },
+        {
+          "line": 586,
+          "text": ""
+        },
+        {
+          "line": 587,
+          "text": "（Ⅱ）由条件利用两角和的余弦公式，求得  $ \\cos\\left(\\theta+\\frac{\\pi}{3}\\right) $ 的值."
+        },
+        {
+          "line": 588,
+          "text": ""
+        },
+        {
+          "line": 589,
+          "text": "【解答】解：（Ⅰ）∵ θ ∈ （ $ \\frac{\\pi}{2} $，π），且 sin θ =  $ \\frac{3}{5} $，∴cos "
+        },
+        {
+          "line": 590,
+          "text": ""
+        },
+        {
+          "line": 591,
+          "text": "（Ⅱ）∵ cos （θ +  $ \\frac{\\pi}{2} $）= cos θ cos  $ \\frac{\\pi}{2} $ - sin "
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "c1357a87-9186-4b5a-8532-14da3a89ed39",
+      "unit_id": "Q27",
+      "question_label": "27",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "27.",
+      "resolver_answer_line_refs": [
+        593
+      ],
+      "declared_answer_range": [
+        593,
+        623
+      ],
+      "producer_answer_lines": [
+        593,
+        623
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        593,
+        623
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 593,
+          "text": "27."
+        },
+        {
+          "line": 594,
+          "text": ""
+        },
+        {
+          "line": 595,
+          "text": "【考点】棱柱、棱锥、棱台的体积；空间中直线与直线之间的位置关系."
+        },
+        {
+          "line": 596,
+          "text": ""
+        },
+        {
+          "line": 597,
+          "text": "【分析】（Ⅰ）根据线面垂直的性质定理证明 BC⊥平面  $ ABB_{1}A_{1} $，即可证明：BC⊥AD；"
+        },
+        {
+          "line": 598,
+          "text": ""
+        },
+        {
+          "line": 599,
+          "text": "（Ⅱ）利用转化法结合三棱锥的体积公式即可求三棱锥 B-ACD 的体积."
+        },
+        {
+          "line": 600,
+          "text": ""
+        },
+        {
+          "line": 601,
+          "text": "【解答】证明：（Ⅰ）在三棱柱 ABC - A_{1}B_{1}C_{1} 中，BB_{1}⊥平面 ABC， $ \\angle ABC=90^"
+        },
+        {
+          "line": 602,
+          "text": ""
+        },
+        {
+          "line": 603,
+          "text": " $$ \\therefore\\mathrm{BC}\\perp\\mathrm{AB}, $$ "
+        },
+        {
+          "line": 604,
+          "text": ""
+        },
+        {
+          "line": 605,
+          "text": "∵$BB_{1}$⊥平面 ABC，BZ⊂平面 ABC，"
+        },
+        {
+          "line": 606,
+          "text": ""
+        },
+        {
+          "line": 607,
+          "text": " $$ \\therefore\\mathrm{BB}_{1}\\perp\\mathrm{BC}, $$ "
+        },
+        {
+          "line": 608,
+          "text": ""
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "b1de76ef-6017-440c-ad72-f23025a582d5",
+      "unit_id": "Q30",
+      "question_label": "30",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "30.",
+      "resolver_answer_line_refs": [
+        691
+      ],
+      "declared_answer_range": [
+        691,
+        749
+      ],
+      "producer_answer_lines": [
+        691,
+        749
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        691,
+        749
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 691,
+          "text": "30."
+        },
+        {
+          "line": 692,
+          "text": ""
+        },
+        {
+          "line": 693,
+          "text": "【考点】函数零点的判定定理；二次函数的性质."
+        },
+        {
+          "line": 694,
+          "text": ""
+        },
+        {
+          "line": 695,
+          "text": "【分析】(I) 令  $ f(x)=0 $ 解出："
+        },
+        {
+          "line": 696,
+          "text": ""
+        },
+        {
+          "line": 697,
+          "text": "（II）根据 f（x）的函数类型和图象开口讨论，只需  $ f_{\\min}(x)<0 $ 即可；"
+        },
+        {
+          "line": 698,
+          "text": ""
+        },
+        {
+          "line": 699,
+          "text": "（III）对函数类型，开口方向，单调性进行讨论，令  $ f_{\\min}(x) \\geqslant 0 $ 列出不等式，根据不等式的性质得"
+        },
+        {
+          "line": 700,
+          "text": ""
+        },
+        {
+          "line": 701,
+          "text": "【解答】解：（I）a=b=1 时， $ f(x)=2x^2+x $，令  $ f(x)=0 $，解得 x=0 或  $ x=-\\frac{1"
+        },
+        {
+          "line": 702,
+          "text": ""
+        },
+        {
+          "line": 703,
+          "text": "（II）当 b= $ \\frac{4}{3} $时，f（x）=2ax $ ^{2} $+ $ \\frac{4}{3} $x - a+1，"
+        },
+        {
+          "line": 704,
+          "text": ""
+        },
+        {
+          "line": 705,
+          "text": "①当 a=0 时， $ f(x)=\\frac{4}{3}x+1 $， $ f(x) $ 为 R 上的增函数， $ f\\left(-\\frac"
+        },
+        {
+          "line": 706,
+          "text": ""
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "09e92921-9175-45e9-b28f-2c987cce5e3f",
+      "unit_id": "Q2",
+      "question_label": "2",
+      "file_name": "2018北京春季高中会考物理（教师版）(1).md",
+      "source_version_id": "8a6bd0ac-1715-4e9f-9a4f-e4082eb17c96",
+      "decision_status": "pending_review",
+      "position_state": "OUTSIDE_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "2.0s时物体的速度大小 $ v=at=",
+      "resolver_answer_line_refs": [
+        368
+      ],
+      "declared_answer_range": [
+        356,
+        356
+      ],
+      "producer_answer_lines": [
+        356,
+        356
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        356,
+        356
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 356,
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td s"
+        }
+      ],
+      "root_cause_class": "C",
+      "root_cause_note": "OUTSIDE: qn token matched outside declared range (wrong pick on shared/other answer block)"
+    },
+    {
+      "candidate_id": "1d0429b9-5601-454f-b836-35bfb8559bd9",
+      "unit_id": "Q6",
+      "question_label": "6",
+      "file_name": "2018北京春季高中会考物理（教师版）(1).md",
+      "source_version_id": "8a6bd0ac-1715-4e9f-9a4f-e4082eb17c96",
+      "decision_status": "pending_review",
+      "position_state": "OUTSIDE_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "6.0m/s $</td><td style='text-align: center; word-wrap: break-word;'>3分2分</td><td style='text-align: ",
+      "resolver_answer_line_refs": [
+        368
+      ],
+      "declared_answer_range": [
+        356,
+        356
+      ],
+      "producer_answer_lines": [
+        356,
+        356
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        356,
+        356
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 356,
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td s"
+        }
+      ],
+      "root_cause_class": "C",
+      "root_cause_note": "OUTSIDE: qn token matched outside declared range (wrong pick on shared/other answer block)"
+    },
+    {
+      "candidate_id": "510ad24a-a74f-4da3-acbc-0cbee6ae1dc3",
+      "unit_id": "Q8",
+      "question_label": "8",
+      "file_name": "2018北京春季高中会考物理（教师版）(1).md",
+      "source_version_id": "8a6bd0ac-1715-4e9f-9a4f-e4082eb17c96",
+      "decision_status": "pending_review",
+      "position_state": "OUTSIDE_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "8.0s $\\n（2）该同学的观点不正确。\\n因为书包做匀速直线运动，加速度为0，所以合力为0。假设书包受到摩擦力的作用，其合力就不可能为0，因此\\n书包不受摩擦力的作用。</td><td style",
+      "resolver_answer_line_refs": [
+        373
+      ],
+      "declared_answer_range": [
+        356,
+        356
+      ],
+      "producer_answer_lines": [
+        356,
+        356
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        356,
+        356
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 356,
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td s"
+        }
+      ],
+      "root_cause_class": "C",
+      "root_cause_note": "OUTSIDE: qn token matched outside declared range (wrong pick on shared/other answer block)"
+    }
+  ],
+  "root_cause_counts": {
+    "C": 5,
+    "A": 22
+  },
+  "rows": [
+    {
+      "candidate_id": "d6d24c36-d88e-4771-b24e-f593e9a3e4ce",
+      "unit_id": "Q8",
+      "question_label": "8",
+      "file_name": "2018北京春季高中会考化学（教师版）(1).md",
+      "source_version_id": "41c6b3b8-09f1-45f0-a7be-3dbd98623272",
+      "decision_status": "pending_review",
+      "position_state": "OUTSIDE_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "8、 $ 32^{\\circ} $C",
+      "resolver_answer_line_refs": [
+        578
+      ],
+      "declared_answer_range": [
+        513,
+        513
+      ],
+      "producer_answer_lines": [
+        513,
+        513
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        513,
+        513
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 513,
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td s"
+        }
+      ],
+      "root_cause_class": "C",
+      "root_cause_note": "OUTSIDE: qn token matched outside declared range (wrong pick on shared/other answer block)"
+    },
+    {
+      "candidate_id": "b2029371-52d5-471c-b741-cb689daef7e7",
+      "unit_id": "Q1",
+      "question_label": "1",
+      "file_name": "2018北京夏季高中会考历史（教师版）(1).md",
+      "source_version_id": "116d12b8-e733-44f5-9e65-6a309b1e6d1e",
+      "decision_status": "approved",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "1. 【答案】C",
+      "resolver_answer_line_refs": [
+        637
+      ],
+      "declared_answer_range": [
+        637,
+        637
+      ],
+      "producer_answer_lines": [
+        637,
+        637
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        637,
+        637
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 637,
+          "text": "1. 【答案】C"
+        }
+      ]
+    },
+    {
+      "candidate_id": "ac2c5a60-ba81-4bfb-83b4-7f8b13d9f5e7",
+      "unit_id": "Q29",
+      "question_label": "29",
+      "file_name": "2018北京夏季高中会考政治（教师版）(1).md",
+      "source_version_id": "47913a94-a913-4ef9-bbd1-c00e6b264b61",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "29. A 区适合摆放蔬菜水果；B 区适合摆放服装；C 区适合摆放洗涤用品。",
+      "resolver_answer_line_refs": [
+        558
+      ],
+      "declared_answer_range": [
+        558,
+        572
+      ],
+      "producer_answer_lines": [
+        558,
+        572
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        558,
+        572
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 558,
+          "text": "29. A 区适合摆放蔬菜水果；B 区适合摆放服装；C 区适合摆放洗涤用品。"
+        },
+        {
+          "line": 559,
+          "text": ""
+        },
+        {
+          "line": 560,
+          "text": "摆放理由评分观察视角：从食品安全、不同种类商品间的关系、增加销售量、方便消费者购买、消费心理等角度说明。"
+        },
+        {
+          "line": 561,
+          "text": ""
+        },
+        {
+          "line": 562,
+          "text": "水平四摆放方案合理，理论运用和理由分析准确。（5分）"
+        },
+        {
+          "line": 563,
+          "text": ""
+        },
+        {
+          "line": 564,
+          "text": "水平三摆放方案部分合理，理论运用和理由分析比较准确。（3～4分）"
+        },
+        {
+          "line": 565,
+          "text": ""
+        },
+        {
+          "line": 566,
+          "text": "水平二摆放方案不明确，理论运用和理由分析存在欠缺。（1～2分）"
+        },
+        {
+          "line": 567,
+          "text": ""
+        },
+        {
+          "line": 568,
+          "text": "水平一摆放方案不合理，观点错误，或没有应答。（0分）"
+        },
+        {
+          "line": 569,
+          "text": ""
+        },
+        {
+          "line": 570,
+          "text": "蔬菜水果摆放 A 区的理由示例："
+        },
+        {
+          "line": 571,
+          "text": ""
+        },
+        {
+          "line": 572,
+          "text": "一般说来，蔬菜水果与主食、熟食有一定互补关系，摆放在 A 区，方便消费者购买。蔬菜水果是生活必需品，消费者购买时，需经过其他商品区域，可能会"
+        }
+      ]
+    },
+    {
+      "candidate_id": "bf737af5-6626-430a-bcfc-de3fb471565a",
+      "unit_id": "Q32",
+      "question_label": "32",
+      "file_name": "2018北京夏季高中会考政治（教师版）(1).md",
+      "source_version_id": "47913a94-a913-4ef9-bbd1-c00e6b264b61",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "32. 评分观察视角：从中华文化、优秀传统文化、文化创新、文化自信等角度，合乎逻辑地作出分析。水平四 能够对应所选观点，准确运用相关理论，分析条理清楚，逻辑严密。（5分）",
+      "resolver_answer_line_refs": [
+        602
+      ],
+      "declared_answer_range": [
+        602,
+        616
+      ],
+      "producer_answer_lines": [
+        602,
+        616
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        602,
+        616
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 602,
+          "text": "32. 评分观察视角：从中华文化、优秀传统文化、文化创新、文化自信等角度，合乎逻辑地作出分析。水平四 能够对应所选观点，准确运用相关理论，分"
+        },
+        {
+          "line": 603,
+          "text": ""
+        },
+        {
+          "line": 604,
+          "text": "水平三 能够对应所选观点，比较准确地运用相关理论，分析比较有条理。（3～4分）"
+        },
+        {
+          "line": 605,
+          "text": ""
+        },
+        {
+          "line": 606,
+          "text": "水平二 理论运用存在欠缺，能对所选观点作出一定分析。（1～2分）"
+        },
+        {
+          "line": 607,
+          "text": ""
+        },
+        {
+          "line": 608,
+          "text": "水平一 答非所问，观点错误，或没有应答。（0分）"
+        },
+        {
+          "line": 609,
+          "text": ""
+        },
+        {
+          "line": 610,
+          "text": "示例："
+        },
+        {
+          "line": 611,
+          "text": ""
+        },
+        {
+          "line": 612,
+          "text": "同学甲：传统文化是维系民族生存和发展的精神纽带，优秀传统文化根植于中国人的内心，潜移默化地影响着人们，人们认同和热爱优秀传统文化。"
+        },
+        {
+          "line": 613,
+          "text": ""
+        },
+        {
+          "line": 614,
+          "text": "同学乙：中华文化源远流长、博大精深；优秀传统文化底蕴丰厚，在思想上有大智，在科学上有大真，在伦理上有大善，在艺术上有大美，人们能从中汲取养分"
+        },
+        {
+          "line": 615,
+          "text": ""
+        },
+        {
+          "line": 616,
+          "text": "同学丙：电视节目将优秀传统文化与大众传媒有机结合，充分挖掘优秀传统文化内涵，创新表现形式和传播方式，使优秀传统文化富有时代气息，能为更多人理"
+        }
+      ]
+    },
+    {
+      "candidate_id": "905e577e-b25f-4547-aac4-83f1bfdf63bb",
+      "unit_id": "Q34",
+      "question_label": "34",
+      "file_name": "2018北京夏季高中会考政治（教师版）(1).md",
+      "source_version_id": "47913a94-a913-4ef9-bbd1-c00e6b264b61",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "34. 本题为开放性试题，符合题目要求即可。如春节、中秋节、中华人民共和国国庆日、国家宪法日等（2分）",
+      "resolver_answer_line_refs": [
+        622
+      ],
+      "declared_answer_range": [
+        622,
+        622
+      ],
+      "producer_answer_lines": [
+        622,
+        622
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        622,
+        622
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 622,
+          "text": "34. 本题为开放性试题，符合题目要求即可。如春节、中秋节、中华人民共和国国庆日、国家宪法日等（2分）"
+        }
+      ]
+    },
+    {
+      "candidate_id": "45cb7522-95f2-4e6f-90a3-441f595c38b5",
+      "unit_id": "Q36",
+      "question_label": "36",
+      "file_name": "2018北京夏季高中会考政治（教师版）(1).md",
+      "source_version_id": "47913a94-a913-4ef9-bbd1-c00e6b264b61",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "36. （1）C—D—A—B—E（2分）",
+      "resolver_answer_line_refs": [
+        626
+      ],
+      "declared_answer_range": [
+        626,
+        628
+      ],
+      "producer_answer_lines": [
+        626,
+        628
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        626,
+        628
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 626,
+          "text": "36. （1）C—D—A—B—E（2分）"
+        },
+        {
+          "line": 627,
+          "text": ""
+        },
+        {
+          "line": 628,
+          "text": "（2）系统优化（整体与部分的辩证关系、量变与质变的辩证关系）（2分）"
+        }
+      ]
+    },
+    {
+      "candidate_id": "613020cc-8bce-4ffa-9b35-1cb041e90b27",
+      "unit_id": "Q1",
+      "question_label": "1",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "OUTSIDE_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "1.",
+      "resolver_answer_line_refs": [
+        747
+      ],
+      "declared_answer_range": [
+        200,
+        206
+      ],
+      "producer_answer_lines": [
+        200,
+        206
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        200,
+        206
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 200,
+          "text": "【考点】三角函数的周期性及其求法."
+        },
+        {
+          "line": 201,
+          "text": ""
+        },
+        {
+          "line": 202,
+          "text": "【分析】由条件利用函数  $ y = A \\sin(\\omega x + \\phi) $ 的周期为  $ \\frac{2\\pi}{\\omeg"
+        },
+        {
+          "line": 203,
+          "text": ""
+        },
+        {
+          "line": 204,
+          "text": "【解答】解：函数  $ y=3\\sin x+2 $ 的最小正周期为  $ 2\\pi $"
+        },
+        {
+          "line": 205,
+          "text": ""
+        },
+        {
+          "line": 206,
+          "text": "故选：D."
+        }
+      ],
+      "root_cause_class": "C",
+      "root_cause_note": "OUTSIDE: qn token matched outside declared range (wrong pick on shared/other answer block)"
+    },
+    {
+      "candidate_id": "5ae90a8e-758e-4cab-b9c4-e17531c7a81e",
+      "unit_id": "Q3",
+      "question_label": "3",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "3.",
+      "resolver_answer_line_refs": [
+        224
+      ],
+      "declared_answer_range": [
+        224,
+        232
+      ],
+      "producer_answer_lines": [
+        224,
+        232
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        224,
+        232
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 224,
+          "text": "3."
+        },
+        {
+          "line": 225,
+          "text": ""
+        },
+        {
+          "line": 226,
+          "text": "【考点】平面向量的坐标运算."
+        },
+        {
+          "line": 227,
+          "text": ""
+        },
+        {
+          "line": 228,
+          "text": "【分析】根据向量的坐标的运算法则计算即可."
+        },
+        {
+          "line": 229,
+          "text": ""
+        },
+        {
+          "line": 230,
+          "text": "【解答】解：向量  $ \\overrightarrow{a}=(1,2) $， $ \\overrightarrow{b}=(4,3) $，"
+        },
+        {
+          "line": 231,
+          "text": ""
+        },
+        {
+          "line": 232,
+          "text": "则于  $ \\overrightarrow{a}-2\\overrightarrow{b}=(1,2)-2(4,3)=(1,2)-(8,6)="
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "021b78f4-e8cf-4d10-9978-6c7260cb163d",
+      "unit_id": "Q4",
+      "question_label": "4",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "4.",
+      "resolver_answer_line_refs": [
+        234
+      ],
+      "declared_answer_range": [
+        234,
+        240
+      ],
+      "producer_answer_lines": [
+        234,
+        240
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        234,
+        240
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 234,
+          "text": "4."
+        },
+        {
+          "line": 235,
+          "text": ""
+        },
+        {
+          "line": 236,
+          "text": "【考点】余弦函数的图象."
+        },
+        {
+          "line": 237,
+          "text": ""
+        },
+        {
+          "line": 238,
+          "text": "【分析】根据当自变量相同时，它们的函数值相反，可得它们的图象关于x轴对称."
+        },
+        {
+          "line": 239,
+          "text": ""
+        },
+        {
+          "line": 240,
+          "text": "【解答】解：由于当自变量相同时，它们的函数值相反，故它们的图象关于x轴对称，故选：A."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "5c93caab-5011-419b-8b8c-c3e6f3718728",
+      "unit_id": "Q28",
+      "question_label": "28",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "28.",
+      "resolver_answer_line_refs": [
+        625
+      ],
+      "declared_answer_range": [
+        625,
+        651
+      ],
+      "producer_answer_lines": [
+        625,
+        651
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        625,
+        651
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 625,
+          "text": "28."
+        },
+        {
+          "line": 626,
+          "text": ""
+        },
+        {
+          "line": 627,
+          "text": "【考点】直线与圆的位置关系."
+        },
+        {
+          "line": 628,
+          "text": ""
+        },
+        {
+          "line": 629,
+          "text": "【分析】（Ⅰ）如果直线 l 与圆 O 相切，圆心到直线的距离 d=r；"
+        },
+        {
+          "line": 630,
+          "text": ""
+        },
+        {
+          "line": 631,
+          "text": "（Ⅱ）如果直线 l 与圆 O 交于 A, B 两点，且  $ \\frac{|PA|}{|PB|} = \\frac{1}{2} $，分类讨论，"
+        },
+        {
+          "line": 632,
+          "text": ""
+        },
+        {
+          "line": 633,
+          "text": "【解答】解：（Ⅰ）圆心到直线的距离  $ d = \\frac{1}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2} $， $ "
+        },
+        {
+          "line": 634,
+          "text": ""
+        },
+        {
+          "line": 635,
+          "text": "（Ⅱ）设 $ \\left|PA\\right|=x $，则 $ \\left|PB\\right|=2x $"
+        },
+        {
+          "line": 636,
+          "text": ""
+        },
+        {
+          "line": 637,
+          "text": "圆心到直线的距离  $ d=\\frac{\\sqrt{2}}{2} $."
+        },
+        {
+          "line": 638,
+          "text": ""
+        },
+        {
+          "line": 639,
+          "text": "①点P在圆内， $ |AB|=3x $，则 $ x\\cdot2x=(r-1)(r+1) $， $ \\therefore x^2=\\frac{"
+        },
+        {
+          "line": 640,
+          "text": ""
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "5a6e851a-7ea0-47a0-9828-f5f41d4a6334",
+      "unit_id": "Q6",
+      "question_label": "6",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "6.",
+      "resolver_answer_line_refs": [
+        260
+      ],
+      "declared_answer_range": [
+        260,
+        272
+      ],
+      "producer_answer_lines": [
+        260,
+        272
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        260,
+        272
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 260,
+          "text": "6."
+        },
+        {
+          "line": 261,
+          "text": ""
+        },
+        {
+          "line": 262,
+          "text": "【考点】直线的一般式方程与直线的平行关系."
+        },
+        {
+          "line": 263,
+          "text": ""
+        },
+        {
+          "line": 264,
+          "text": "【分析】设所求的方程为 x - y + c = 0，代点可得关于 c 的方程，解之代入可得."
+        },
+        {
+          "line": 265,
+          "text": ""
+        },
+        {
+          "line": 266,
+          "text": "【解答】解：由题意可设所求的方程为  $ 2x - y + c = 0 $，"
+        },
+        {
+          "line": 267,
+          "text": ""
+        },
+        {
+          "line": 268,
+          "text": "代入已知点（2，1），可得4-1+c=0，即c=-3"
+        },
+        {
+          "line": 269,
+          "text": ""
+        },
+        {
+          "line": 270,
+          "text": "故所求直线的方程为：2x - y - 3 = 0，"
+        },
+        {
+          "line": 271,
+          "text": ""
+        },
+        {
+          "line": 272,
+          "text": "故选：A."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "921fd9c3-5b6c-4d89-842d-c7c2afe0ee68",
+      "unit_id": "Q7",
+      "question_label": "7",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "7.",
+      "resolver_answer_line_refs": [
+        274
+      ],
+      "declared_answer_range": [
+        274,
+        284
+      ],
+      "producer_answer_lines": [
+        274,
+        284
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        274,
+        284
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 274,
+          "text": "7."
+        },
+        {
+          "line": 275,
+          "text": ""
+        },
+        {
+          "line": 276,
+          "text": "【考点】分层抽样方法."
+        },
+        {
+          "line": 277,
+          "text": ""
+        },
+        {
+          "line": 278,
+          "text": "【分析】先求出每个个体被抽到的概率，用每层的个体数乘以每个个体被抽到的概率等于该层应抽取的个体数."
+        },
+        {
+          "line": 279,
+          "text": ""
+        },
+        {
+          "line": 280,
+          "text": "【解答】解：每个个体被抽到的概率等于 $ \\frac{3000}{270000}=\\frac{1}{90} $，"
+        },
+        {
+          "line": 281,
+          "text": ""
+        },
+        {
+          "line": 282,
+          "text": "则抽取初三年级的人数应为 $ 81000\\times\\frac{1}{90}=900 $人，"
+        },
+        {
+          "line": 283,
+          "text": ""
+        },
+        {
+          "line": 284,
+          "text": "故选：B."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "6be97d06-5715-4470-aa91-708194ed3956",
+      "unit_id": "Q8",
+      "question_label": "8",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "8.",
+      "resolver_answer_line_refs": [
+        286
+      ],
+      "declared_answer_range": [
+        286,
+        296
+      ],
+      "producer_answer_lines": [
+        286,
+        296
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        286,
+        296
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 286,
+          "text": "8."
+        },
+        {
+          "line": 287,
+          "text": ""
+        },
+        {
+          "line": 288,
+          "text": "【考点】余弦定理."
+        },
+        {
+          "line": 289,
+          "text": ""
+        },
+        {
+          "line": 290,
+          "text": "【分析】由已知及余弦定理即可求值得解."
+        },
+        {
+          "line": 291,
+          "text": ""
+        },
+        {
+          "line": 292,
+          "text": "【解答】解：∵$\\angle C=60^{\\circ}$，$AC=2$，$BC=3$，"
+        },
+        {
+          "line": 293,
+          "text": ""
+        },
+        {
+          "line": 294,
+          "text": "∴由余弦定理可得：$AB=\\sqrt{AC^{2}+BC^{2}-2AB\\cdot AC\\cdot\\cos C}=\\sqrt{4+9-2\\t"
+        },
+        {
+          "line": 295,
+          "text": ""
+        },
+        {
+          "line": 296,
+          "text": "故选：C."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "32422e75-22f4-4219-8315-7d050b3ed80b",
+      "unit_id": "Q10",
+      "question_label": "10",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "10.",
+      "resolver_answer_line_refs": [
+        314
+      ],
+      "declared_answer_range": [
+        314,
+        324
+      ],
+      "producer_answer_lines": [
+        314,
+        324
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        314,
+        324
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 314,
+          "text": "10."
+        },
+        {
+          "line": 315,
+          "text": ""
+        },
+        {
+          "line": 316,
+          "text": "【考点】平面向量数量积的运算."
+        },
+        {
+          "line": 317,
+          "text": ""
+        },
+        {
+          "line": 318,
+          "text": "【分析】求出 $ \\overrightarrow{AC} $， $ \\overrightarrow{AB} $的模长和夹角，代入数量积公式计"
+        },
+        {
+          "line": 319,
+          "text": ""
+        },
+        {
+          "line": 320,
+          "text": "【解答】解：∵正方形 ABCD 的边长为 1，∴ $ |\\overrightarrow{AB}|=1 $， $ |\\overrightarr"
+        },
+        {
+          "line": 321,
+          "text": ""
+        },
+        {
+          "line": 322,
+          "text": "∴ $ \\overrightarrow{AC}\\cdot\\overrightarrow{AB}=|\\overrightarrow{AB}|\\"
+        },
+        {
+          "line": 323,
+          "text": ""
+        },
+        {
+          "line": 324,
+          "text": "故选：A."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "ba98df7c-b0a5-4c2f-bfd7-c561ead3ad5e",
+      "unit_id": "Q29",
+      "question_label": "29",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "29.",
+      "resolver_answer_line_refs": [
+        653
+      ],
+      "declared_answer_range": [
+        653,
+        689
+      ],
+      "producer_answer_lines": [
+        653,
+        689
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        653,
+        689
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 653,
+          "text": "29."
+        },
+        {
+          "line": 654,
+          "text": ""
+        },
+        {
+          "line": 655,
+          "text": "【考点】数列递推式；数列的求和."
+        },
+        {
+          "line": 656,
+          "text": ""
+        },
+        {
+          "line": 657,
+          "text": "【分析】（Ⅰ）当  $ a_{1}=2 $ 时，代入计算，可得  $ a_{2} $;"
+        },
+        {
+          "line": 658,
+          "text": ""
+        },
+        {
+          "line": 659,
+          "text": "（Ⅱ）利用反证法判断数列 $ \\{a_{n}\\} $不可能为等比数列；"
+        },
+        {
+          "line": 660,
+          "text": ""
+        },
+        {
+          "line": 661,
+          "text": "（Ⅲ）利用数学归纳法进行证明."
+        },
+        {
+          "line": 662,
+          "text": ""
+        },
+        {
+          "line": 663,
+          "text": "【解答】解：（Ⅰ）当  $ a_1=2 $ 时， $ a_2=\\frac{2}{5} $；"
+        },
+        {
+          "line": 664,
+          "text": ""
+        },
+        {
+          "line": 665,
+          "text": "（Ⅱ）设公比为 q，则"
+        },
+        {
+          "line": 666,
+          "text": ""
+        },
+        {
+          "line": 667,
+          "text": " $$ \\because a_{n+1}=\\frac{a_{n}}{a_{n}^{2}+1}, $$ "
+        },
+        {
+          "line": 668,
+          "text": ""
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "97a033f3-8b25-40d9-a18d-264f52ca8f52",
+      "unit_id": "Q11",
+      "question_label": "11",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "11.",
+      "resolver_answer_line_refs": [
+        326
+      ],
+      "declared_answer_range": [
+        326,
+        336
+      ],
+      "producer_answer_lines": [
+        326,
+        336
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        326,
+        336
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 326,
+          "text": "11."
+        },
+        {
+          "line": 327,
+          "text": ""
+        },
+        {
+          "line": 328,
+          "text": "【考点】等比数列的前 n 项和."
+        },
+        {
+          "line": 329,
+          "text": ""
+        },
+        {
+          "line": 330,
+          "text": "【分析】由已知得训练 n 天产生的总数据量为  $ S_{n}=a+aq+aq^{2}+\\cdots+aq^{n-1} $，由此能求出结果."
+        },
+        {
+          "line": 331,
+          "text": ""
+        },
+        {
+          "line": 332,
+          "text": "【解答】解：∵训练过程中第一天产生的数据量为 a，其后每天产生的数据量都是前一天的  $ q $（ $ q>1 $）倍，∴那么训练 n 天产"
+        },
+        {
+          "line": 333,
+          "text": ""
+        },
+        {
+          "line": 334,
+          "text": " $ = \\frac{a(1 - q^n)}{1 - q} $."
+        },
+        {
+          "line": 335,
+          "text": ""
+        },
+        {
+          "line": 336,
+          "text": "故选：D."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "99a015e9-4f12-4f84-935c-dfe1b3eb367b",
+      "unit_id": "Q12",
+      "question_label": "12",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "12.",
+      "resolver_answer_line_refs": [
+        338
+      ],
+      "declared_answer_range": [
+        338,
+        348
+      ],
+      "producer_answer_lines": [
+        338,
+        348
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        338,
+        348
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 338,
+          "text": "12."
+        },
+        {
+          "line": 339,
+          "text": ""
+        },
+        {
+          "line": 340,
+          "text": "【考点】二倍角的余弦."
+        },
+        {
+          "line": 341,
+          "text": ""
+        },
+        {
+          "line": 342,
+          "text": "【分析】利用诱导公式，二倍角的余弦函数公式即可求值得解."
+        },
+        {
+          "line": 343,
+          "text": ""
+        },
+        {
+          "line": 344,
+          "text": "【解答】解：∵  $ \\cos\\alpha=\\frac{1}{2} $,"
+        },
+        {
+          "line": 345,
+          "text": ""
+        },
+        {
+          "line": 346,
+          "text": "∴  $ \\cos(-2a)=\\cos2a=2\\cos^2a-1=2\\times\\left(\\frac{1}{2}\\right)^2-1=-"
+        },
+        {
+          "line": 347,
+          "text": ""
+        },
+        {
+          "line": 348,
+          "text": "故选：B."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "f4789c7c-3f64-45e7-ba37-41d122db7c44",
+      "unit_id": "Q13",
+      "question_label": "13",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "13.",
+      "resolver_answer_line_refs": [
+        350
+      ],
+      "declared_answer_range": [
+        350,
+        356
+      ],
+      "producer_answer_lines": [
+        350,
+        356
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        350,
+        356
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 350,
+          "text": "13."
+        },
+        {
+          "line": 351,
+          "text": ""
+        },
+        {
+          "line": 352,
+          "text": "【考点】函数的图象."
+        },
+        {
+          "line": 353,
+          "text": ""
+        },
+        {
+          "line": 354,
+          "text": "【分析】把点（1，1）代入各个选项检验，可得结论."
+        },
+        {
+          "line": 355,
+          "text": ""
+        },
+        {
+          "line": 356,
+          "text": "【解答】解：把点（1，1）代入各个选项检验，可得只有  $ y=x^{-1} $ 的图象经过点（1，1），故选：A."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "910962d3-44a1-4970-b669-4c72ea82beba",
+      "unit_id": "Q14",
+      "question_label": "14",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "14.",
+      "resolver_answer_line_refs": [
+        358
+      ],
+      "declared_answer_range": [
+        358,
+        368
+      ],
+      "producer_answer_lines": [
+        358,
+        368
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        358,
+        368
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 358,
+          "text": "14."
+        },
+        {
+          "line": 359,
+          "text": ""
+        },
+        {
+          "line": 360,
+          "text": "【考点】对数的运算性质."
+        },
+        {
+          "line": 361,
+          "text": ""
+        },
+        {
+          "line": 362,
+          "text": "【分析】根据对数的运算法则计算即可."
+        },
+        {
+          "line": 363,
+          "text": ""
+        },
+        {
+          "line": 364,
+          "text": "【解答】解： $ \\log_{4}2 - \\log_{4}8 = \\log_{4}\\frac{2}{8} = \\log_{4}4^{-1} "
+        },
+        {
+          "line": 365,
+          "text": ""
+        },
+        {
+          "line": 366,
+          "text": "---"
+        },
+        {
+          "line": 367,
+          "text": ""
+        },
+        {
+          "line": 368,
+          "text": "故选：B."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "4006e069-e9af-443b-b100-2d79e8e6c366",
+      "unit_id": "Q15",
+      "question_label": "15",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "15.",
+      "resolver_answer_line_refs": [
+        370
+      ],
+      "declared_answer_range": [
+        370,
+        384
+      ],
+      "producer_answer_lines": [
+        370,
+        384
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        370,
+        384
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 370,
+          "text": "15."
+        },
+        {
+          "line": 371,
+          "text": ""
+        },
+        {
+          "line": 372,
+          "text": "【考点】由三视图求面积、体积."
+        },
+        {
+          "line": 373,
+          "text": ""
+        },
+        {
+          "line": 374,
+          "text": "【分析】由几何体的三视图得出原几何体一个底面为正方形的长方体，结合图中数据求出它的表面积."
+        },
+        {
+          "line": 375,
+          "text": ""
+        },
+        {
+          "line": 376,
+          "text": "【解答】解：由三视图可知，该几何体是一个底面为正方形的长方体，"
+        },
+        {
+          "line": 377,
+          "text": ""
+        },
+        {
+          "line": 378,
+          "text": "长方体的底面正方形的对角线长为2，长方体的高是3；"
+        },
+        {
+          "line": 379,
+          "text": ""
+        },
+        {
+          "line": 380,
+          "text": "所以，底面正方形的边长为 $ \\sqrt{1^{2}+1^{2}}=\\sqrt{2} $，"
+        },
+        {
+          "line": 381,
+          "text": ""
+        },
+        {
+          "line": 382,
+          "text": "该长方体的表面积为 $ 2\\times(\\sqrt{2})^{2}+4\\times3\\times\\sqrt{2}=4+12\\sqrt{2} "
+        },
+        {
+          "line": 383,
+          "text": ""
+        },
+        {
+          "line": 384,
+          "text": "故选：C."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "377e7267-be0f-48ab-8b77-0be65989a09b",
+      "unit_id": "Q18",
+      "question_label": "18",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "18.",
+      "resolver_answer_line_refs": [
+        434
+      ],
+      "declared_answer_range": [
+        434,
+        448
+      ],
+      "producer_answer_lines": [
+        434,
+        448
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        434,
+        448
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 434,
+          "text": "18."
+        },
+        {
+          "line": 435,
+          "text": ""
+        },
+        {
+          "line": 436,
+          "text": "【考点】圆与圆的位置关系及其判定."
+        },
+        {
+          "line": 437,
+          "text": ""
+        },
+        {
+          "line": 438,
+          "text": "【分析】两个圆有且只有一个公共点，两个圆内切或外切，分别求出 a，即可得出结论."
+        },
+        {
+          "line": 439,
+          "text": ""
+        },
+        {
+          "line": 440,
+          "text": "【解答】解：∵两个圆有且只有一个公共点，"
+        },
+        {
+          "line": 441,
+          "text": ""
+        },
+        {
+          "line": 442,
+          "text": "∴两个圆内切或外切，"
+        },
+        {
+          "line": 443,
+          "text": ""
+        },
+        {
+          "line": 444,
+          "text": "内切时， $ |a|=1 $，外切时， $ |a|=3 $，"
+        },
+        {
+          "line": 445,
+          "text": ""
+        },
+        {
+          "line": 446,
+          "text": "∴实数 a 的取值集合是  $ \\{1, -1, 3, -3\\} $"
+        },
+        {
+          "line": 447,
+          "text": ""
+        },
+        {
+          "line": 448,
+          "text": "故选：C."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "c90ed211-c813-4383-bff0-0dc21208481c",
+      "unit_id": "Q19",
+      "question_label": "19",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "19.",
+      "resolver_answer_line_refs": [
+        450
+      ],
+      "declared_answer_range": [
+        450,
+        462
+      ],
+      "producer_answer_lines": [
+        450,
+        462
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        450,
+        462
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 450,
+          "text": "19."
+        },
+        {
+          "line": 451,
+          "text": ""
+        },
+        {
+          "line": 452,
+          "text": "【考点】两点间距离公式的应用."
+        },
+        {
+          "line": 453,
+          "text": ""
+        },
+        {
+          "line": 454,
+          "text": "【分析】根据两点间的距离公式表示 $ |BO|=|BA| $，即可求出b的值."
+        },
+        {
+          "line": 455,
+          "text": ""
+        },
+        {
+          "line": 456,
+          "text": "【解答】解：∵点A（4，2）和B（0，b）满足|BO|=|BA|，"
+        },
+        {
+          "line": 457,
+          "text": ""
+        },
+        {
+          "line": 458,
+          "text": " $$ \\therefore b^{2}=4^{2}+(2-b)^{2}, $$ "
+        },
+        {
+          "line": 459,
+          "text": ""
+        },
+        {
+          "line": 460,
+          "text": " $$ \\therefore b=5. $$ "
+        },
+        {
+          "line": 461,
+          "text": ""
+        },
+        {
+          "line": 462,
+          "text": "故选：C."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "33027be2-1738-4c4e-b1e6-c84440d2bbc5",
+      "unit_id": "Q20",
+      "question_label": "20",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "20.",
+      "resolver_answer_line_refs": [
+        464
+      ],
+      "declared_answer_range": [
+        464,
+        470
+      ],
+      "producer_answer_lines": [
+        464,
+        470
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        464,
+        470
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 464,
+          "text": "20."
+        },
+        {
+          "line": 465,
+          "text": ""
+        },
+        {
+          "line": 466,
+          "text": "【考点】指数函数的图象与性质."
+        },
+        {
+          "line": 467,
+          "text": ""
+        },
+        {
+          "line": 468,
+          "text": "【分析】由已知可得  $ x_{1}+x_{2}=0 $，进而根据指数的运算性质，可得答案."
+        },
+        {
+          "line": 469,
+          "text": ""
+        },
+        {
+          "line": 470,
+          "text": "【解答】解：∵以 P（x₁，f（x₁）），Q（x₂，f（x₂））为端点的线段的中点在 y 轴上，∴ x₁ + x₂ = 0，又∵ f（x）="
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "88f78190-fcd3-4179-9bc4-c26da0b87fb7",
+      "unit_id": "Q21",
+      "question_label": "21",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "21.",
+      "resolver_answer_line_refs": [
+        472
+      ],
+      "declared_answer_range": [
+        472,
+        484
+      ],
+      "producer_answer_lines": [
+        472,
+        484
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        472,
+        484
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 472,
+          "text": "21."
+        },
+        {
+          "line": 473,
+          "text": ""
+        },
+        {
+          "line": 474,
+          "text": "【考点】二元一次不等式（组）与平面区域."
+        },
+        {
+          "line": 475,
+          "text": ""
+        },
+        {
+          "line": 476,
+          "text": "【分析】作出平面区域，根据图形找出 PA 的最小值."
+        },
+        {
+          "line": 477,
+          "text": ""
+        },
+        {
+          "line": 478,
+          "text": "【解答】解：作出平面区域如图，则 |PA| 的最小值为 A（0，1）到直线 x - y = 0 的距离  $ d = \\frac{1}{\\s"
+        },
+        {
+          "line": 479,
+          "text": ""
+        },
+        {
+          "line": 480,
+          "text": "故选：B."
+        },
+        {
+          "line": 481,
+          "text": ""
+        },
+        {
+          "line": 482,
+          "text": "---"
+        },
+        {
+          "line": 483,
+          "text": ""
+        },
+        {
+          "line": 484,
+          "text": "<div style=\"text-align: center;\"><img src=\"../../_imgs/2018北京春季高中会考数学（"
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "4fd43a70-2707-4f32-b842-34bdcd5b5ceb",
+      "unit_id": "Q24",
+      "question_label": "24",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "24.",
+      "resolver_answer_line_refs": [
+        543
+      ],
+      "declared_answer_range": [
+        543,
+        565
+      ],
+      "producer_answer_lines": [
+        543,
+        565
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        543,
+        565
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 543,
+          "text": "24."
+        },
+        {
+          "line": 544,
+          "text": ""
+        },
+        {
+          "line": 545,
+          "text": "【考点】两角和与差的正弦函数."
+        },
+        {
+          "line": 546,
+          "text": ""
+        },
+        {
+          "line": 547,
+          "text": "【分析】需要分类讨论，当 a=0 时，和当  $ a \\neq 0 $ 时，函数  $ f(x) = a \\sin x + b \\cos x"
+        },
+        {
+          "line": 548,
+          "text": ""
+        },
+        {
+          "line": 549,
+          "text": "【解答】解：当 a=0 时， $ f(x)=bc\\cos x $，"
+        },
+        {
+          "line": 550,
+          "text": ""
+        },
+        {
+          "line": 551,
+          "text": "$\\because x\\in\\mathbb{R}$，都有$f(x)\\neq2$，"
+        },
+        {
+          "line": 552,
+          "text": ""
+        },
+        {
+          "line": 553,
+          "text": " $$ \\therefore\\left|b\\right|<1, $$ "
+        },
+        {
+          "line": 554,
+          "text": ""
+        },
+        {
+          "line": 555,
+          "text": " $$ \\therefore-1<a+b<1,-1<a-b<1,a^{2}+b^{2}<1, $$ "
+        },
+        {
+          "line": 556,
+          "text": ""
+        },
+        {
+          "line": 557,
+          "text": "当  $ a \\neq 0 $ 时，函数  $ f(x) = a \\sin x + b \\cos x = \\sqrt{a^2 + b^2} "
+        },
+        {
+          "line": 558,
+          "text": ""
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "08f3e9a1-4eb4-451e-b973-bc9c418d7600",
+      "unit_id": "Q25",
+      "question_label": "25",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "25.",
+      "resolver_answer_line_refs": [
+        567
+      ],
+      "declared_answer_range": [
+        567,
+        575
+      ],
+      "producer_answer_lines": [
+        567,
+        575
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        567,
+        575
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 567,
+          "text": "25."
+        },
+        {
+          "line": 568,
+          "text": ""
+        },
+        {
+          "line": 569,
+          "text": "【考点】计数原理的应用."
+        },
+        {
+          "line": 570,
+          "text": ""
+        },
+        {
+          "line": 571,
+          "text": "【分析】列举所有排法，即可得出结论."
+        },
+        {
+          "line": 572,
+          "text": ""
+        },
+        {
+          "line": 573,
+          "text": "【解答】解：三阶幻方，是最简单的幻方，由1，2，3，4，5，6，7，8，9．其中有8种排法492、357、816；276、951、438；2"
+        },
+        {
+          "line": 574,
+          "text": ""
+        },
+        {
+          "line": 575,
+          "text": "故选：B."
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "1f77ad6a-b5fb-4b2b-a111-35dbac7c6eda",
+      "unit_id": "Q26",
+      "question_label": "26",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "26.",
+      "resolver_answer_line_refs": [
+        579
+      ],
+      "declared_answer_range": [
+        579,
+        591
+      ],
+      "producer_answer_lines": [
+        579,
+        591
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        579,
+        591
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 579,
+          "text": "26."
+        },
+        {
+          "line": 580,
+          "text": ""
+        },
+        {
+          "line": 581,
+          "text": "【考点】三角函数的化简求值."
+        },
+        {
+          "line": 582,
+          "text": ""
+        },
+        {
+          "line": 583,
+          "text": "【分析】（Ⅰ）由条件利用同角三角函数的基本关系，求得  $ \\cos\\theta $ 的值，可得  $ \\tan\\theta $ 的值."
+        },
+        {
+          "line": 584,
+          "text": ""
+        },
+        {
+          "line": 585,
+          "text": "---"
+        },
+        {
+          "line": 586,
+          "text": ""
+        },
+        {
+          "line": 587,
+          "text": "（Ⅱ）由条件利用两角和的余弦公式，求得  $ \\cos\\left(\\theta+\\frac{\\pi}{3}\\right) $ 的值."
+        },
+        {
+          "line": 588,
+          "text": ""
+        },
+        {
+          "line": 589,
+          "text": "【解答】解：（Ⅰ）∵ θ ∈ （ $ \\frac{\\pi}{2} $，π），且 sin θ =  $ \\frac{3}{5} $，∴cos "
+        },
+        {
+          "line": 590,
+          "text": ""
+        },
+        {
+          "line": 591,
+          "text": "（Ⅱ）∵ cos （θ +  $ \\frac{\\pi}{2} $）= cos θ cos  $ \\frac{\\pi}{2} $ - sin "
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "c1357a87-9186-4b5a-8532-14da3a89ed39",
+      "unit_id": "Q27",
+      "question_label": "27",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "27.",
+      "resolver_answer_line_refs": [
+        593
+      ],
+      "declared_answer_range": [
+        593,
+        623
+      ],
+      "producer_answer_lines": [
+        593,
+        623
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        593,
+        623
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 593,
+          "text": "27."
+        },
+        {
+          "line": 594,
+          "text": ""
+        },
+        {
+          "line": 595,
+          "text": "【考点】棱柱、棱锥、棱台的体积；空间中直线与直线之间的位置关系."
+        },
+        {
+          "line": 596,
+          "text": ""
+        },
+        {
+          "line": 597,
+          "text": "【分析】（Ⅰ）根据线面垂直的性质定理证明 BC⊥平面  $ ABB_{1}A_{1} $，即可证明：BC⊥AD；"
+        },
+        {
+          "line": 598,
+          "text": ""
+        },
+        {
+          "line": 599,
+          "text": "（Ⅱ）利用转化法结合三棱锥的体积公式即可求三棱锥 B-ACD 的体积."
+        },
+        {
+          "line": 600,
+          "text": ""
+        },
+        {
+          "line": 601,
+          "text": "【解答】证明：（Ⅰ）在三棱柱 ABC - A_{1}B_{1}C_{1} 中，BB_{1}⊥平面 ABC， $ \\angle ABC=90^"
+        },
+        {
+          "line": 602,
+          "text": ""
+        },
+        {
+          "line": 603,
+          "text": " $$ \\therefore\\mathrm{BC}\\perp\\mathrm{AB}, $$ "
+        },
+        {
+          "line": 604,
+          "text": ""
+        },
+        {
+          "line": 605,
+          "text": "∵$BB_{1}$⊥平面 ABC，BZ⊂平面 ABC，"
+        },
+        {
+          "line": 606,
+          "text": ""
+        },
+        {
+          "line": 607,
+          "text": " $$ \\therefore\\mathrm{BB}_{1}\\perp\\mathrm{BC}, $$ "
+        },
+        {
+          "line": 608,
+          "text": ""
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "b1de76ef-6017-440c-ad72-f23025a582d5",
+      "unit_id": "Q30",
+      "question_label": "30",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "BARE_QUESTION_NUMBER",
+      "answer_text": "30.",
+      "resolver_answer_line_refs": [
+        691
+      ],
+      "declared_answer_range": [
+        691,
+        749
+      ],
+      "producer_answer_lines": [
+        691,
+        749
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        691,
+        749
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 691,
+          "text": "30."
+        },
+        {
+          "line": 692,
+          "text": ""
+        },
+        {
+          "line": 693,
+          "text": "【考点】函数零点的判定定理；二次函数的性质."
+        },
+        {
+          "line": 694,
+          "text": ""
+        },
+        {
+          "line": 695,
+          "text": "【分析】(I) 令  $ f(x)=0 $ 解出："
+        },
+        {
+          "line": 696,
+          "text": ""
+        },
+        {
+          "line": 697,
+          "text": "（II）根据 f（x）的函数类型和图象开口讨论，只需  $ f_{\\min}(x)<0 $ 即可；"
+        },
+        {
+          "line": 698,
+          "text": ""
+        },
+        {
+          "line": 699,
+          "text": "（III）对函数类型，开口方向，单调性进行讨论，令  $ f_{\\min}(x) \\geqslant 0 $ 列出不等式，根据不等式的性质得"
+        },
+        {
+          "line": 700,
+          "text": ""
+        },
+        {
+          "line": 701,
+          "text": "【解答】解：（I）a=b=1 时， $ f(x)=2x^2+x $，令  $ f(x)=0 $，解得 x=0 或  $ x=-\\frac{1"
+        },
+        {
+          "line": 702,
+          "text": ""
+        },
+        {
+          "line": 703,
+          "text": "（II）当 b= $ \\frac{4}{3} $时，f（x）=2ax $ ^{2} $+ $ \\frac{4}{3} $x - a+1，"
+        },
+        {
+          "line": 704,
+          "text": ""
+        },
+        {
+          "line": 705,
+          "text": "①当 a=0 时， $ f(x)=\\frac{4}{3}x+1 $， $ f(x) $ 为 R 上的增函数， $ f\\left(-\\frac"
+        },
+        {
+          "line": 706,
+          "text": ""
+        }
+      ],
+      "root_cause_class": "A",
+      "root_cause_note": "declared range has non-bare content; resolver consumed only qn heading"
+    },
+    {
+      "candidate_id": "09e92921-9175-45e9-b28f-2c987cce5e3f",
+      "unit_id": "Q2",
+      "question_label": "2",
+      "file_name": "2018北京春季高中会考物理（教师版）(1).md",
+      "source_version_id": "8a6bd0ac-1715-4e9f-9a4f-e4082eb17c96",
+      "decision_status": "pending_review",
+      "position_state": "OUTSIDE_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "2.0s时物体的速度大小 $ v=at=",
+      "resolver_answer_line_refs": [
+        368
+      ],
+      "declared_answer_range": [
+        356,
+        356
+      ],
+      "producer_answer_lines": [
+        356,
+        356
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        356,
+        356
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 356,
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td s"
+        }
+      ],
+      "root_cause_class": "C",
+      "root_cause_note": "OUTSIDE: qn token matched outside declared range (wrong pick on shared/other answer block)"
+    },
+    {
+      "candidate_id": "1d0429b9-5601-454f-b836-35bfb8559bd9",
+      "unit_id": "Q6",
+      "question_label": "6",
+      "file_name": "2018北京春季高中会考物理（教师版）(1).md",
+      "source_version_id": "8a6bd0ac-1715-4e9f-9a4f-e4082eb17c96",
+      "decision_status": "pending_review",
+      "position_state": "OUTSIDE_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "6.0m/s $</td><td style='text-align: center; word-wrap: break-word;'>3分2分</td><td style='text-align: ",
+      "resolver_answer_line_refs": [
+        368
+      ],
+      "declared_answer_range": [
+        356,
+        356
+      ],
+      "producer_answer_lines": [
+        356,
+        356
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        356,
+        356
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 356,
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td s"
+        }
+      ],
+      "root_cause_class": "C",
+      "root_cause_note": "OUTSIDE: qn token matched outside declared range (wrong pick on shared/other answer block)"
+    },
+    {
+      "candidate_id": "510ad24a-a74f-4da3-acbc-0cbee6ae1dc3",
+      "unit_id": "Q8",
+      "question_label": "8",
+      "file_name": "2018北京春季高中会考物理（教师版）(1).md",
+      "source_version_id": "8a6bd0ac-1715-4e9f-9a4f-e4082eb17c96",
+      "decision_status": "pending_review",
+      "position_state": "OUTSIDE_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "8.0s $\\n（2）该同学的观点不正确。\\n因为书包做匀速直线运动，加速度为0，所以合力为0。假设书包受到摩擦力的作用，其合力就不可能为0，因此\\n书包不受摩擦力的作用。</td><td style",
+      "resolver_answer_line_refs": [
+        373
+      ],
+      "declared_answer_range": [
+        356,
+        356
+      ],
+      "producer_answer_lines": [
+        356,
+        356
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        356,
+        356
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 356,
+          "text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td s"
+        }
+      ],
+      "root_cause_class": "C",
+      "root_cause_note": "OUTSIDE: qn token matched outside declared range (wrong pick on shared/other answer block)"
+    },
+    {
+      "candidate_id": "9e39bffc-48f3-4678-9d5b-fca8b80768b6",
+      "unit_id": "U26-40.sub",
+      "question_label": "26",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "source_version_id": "ad2a30c4-8559-4f00-98e7-9635acdf5c2a",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "26.A",
+      "resolver_answer_line_refs": [
+        459
+      ],
+      "declared_answer_range": [
+        459,
+        459
+      ],
+      "producer_answer_lines": [
+        459,
+        459
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        459,
+        459
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 459,
+          "text": "26.A27.B28.A29.B30.A31.D32.B33.B34.A35.D36.C37.D38.D39.C40.C"
+        }
+      ]
+    },
+    {
+      "candidate_id": "8e7dabb8-7726-4444-b1c2-f059812cbd91",
+      "unit_id": "U41-44.sub",
+      "question_label": "41",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "source_version_id": "ad2a30c4-8559-4f00-98e7-9635acdf5c2a",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "41.D",
+      "resolver_answer_line_refs": [
+        463
+      ],
+      "declared_answer_range": [
+        463,
+        463
+      ],
+      "producer_answer_lines": [
+        463,
+        463
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        463,
+        463
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 463,
+          "text": "41.D42.C43.A44.D45.A46.B47.C48.A49.A50.C51.C52.B53.B54.D55.B56.D"
+        }
+      ]
+    },
+    {
+      "candidate_id": "94d1f60b-48b3-49cd-9e9c-fb30c5a0304d",
+      "unit_id": "U45-48.sub",
+      "question_label": "45",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "source_version_id": "ad2a30c4-8559-4f00-98e7-9635acdf5c2a",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "45.A",
+      "resolver_answer_line_refs": [
+        463
+      ],
+      "declared_answer_range": [
+        463,
+        463
+      ],
+      "producer_answer_lines": [
+        463,
+        463
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        463,
+        463
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 463,
+          "text": "41.D42.C43.A44.D45.A46.B47.C48.A49.A50.C51.C52.B53.B54.D55.B56.D"
+        }
+      ]
+    },
+    {
+      "candidate_id": "8a79562f-36c3-4418-ae61-33851841c7e3",
+      "unit_id": "U49-52.sub",
+      "question_label": "49",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "source_version_id": "ad2a30c4-8559-4f00-98e7-9635acdf5c2a",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "49.A",
+      "resolver_answer_line_refs": [
+        463
+      ],
+      "declared_answer_range": [
+        463,
+        463
+      ],
+      "producer_answer_lines": [
+        463,
+        463
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        463,
+        463
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 463,
+          "text": "41.D42.C43.A44.D45.A46.B47.C48.A49.A50.C51.C52.B53.B54.D55.B56.D"
+        }
+      ]
+    },
+    {
+      "candidate_id": "56cbcabf-2af8-4baa-9928-08d38cfea641",
+      "unit_id": "U53-56.sub",
+      "question_label": "53",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "source_version_id": "ad2a30c4-8559-4f00-98e7-9635acdf5c2a",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "53.B",
+      "resolver_answer_line_refs": [
+        463
+      ],
+      "declared_answer_range": [
+        463,
+        463
+      ],
+      "producer_answer_lines": [
+        463,
+        463
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        463,
+        463
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 463,
+          "text": "41.D42.C43.A44.D45.A46.B47.C48.A49.A50.C51.C52.B53.B54.D55.B56.D"
+        }
+      ]
+    },
+    {
+      "candidate_id": "8b65c9a6-4f05-46f2-ae29-ab5ee0f6e98e",
+      "unit_id": "U57-60.sub",
+      "question_label": "57",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "source_version_id": "ad2a30c4-8559-4f00-98e7-9635acdf5c2a",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "57. Because he was not good at sports.",
+      "resolver_answer_line_refs": [
+        465
+      ],
+      "declared_answer_range": [
+        465,
+        471
+      ],
+      "producer_answer_lines": [
+        465,
+        471
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        465,
+        471
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 465,
+          "text": "57. Because he was not good at sports."
+        },
+        {
+          "line": 466,
+          "text": ""
+        },
+        {
+          "line": 467,
+          "text": "58. Kung Fu Club."
+        },
+        {
+          "line": 468,
+          "text": ""
+        },
+        {
+          "line": 469,
+          "text": "59. He started doing a combat sport again."
+        },
+        {
+          "line": 470,
+          "text": ""
+        },
+        {
+          "line": 471,
+          "text": "60. Because he found the sport that suited him."
+        }
+      ]
+    },
+    {
+      "candidate_id": "5a0d6379-e344-492f-8fa8-aeee74c1f192",
+      "unit_id": "Q6",
+      "question_label": "6",
+      "file_name": "2018北京春季高中会考语文（教师版）(1).md",
+      "source_version_id": "0111c1ea-0d03-4891-aa2c-f8b5d3453587",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "6. D（2分）",
+      "resolver_answer_line_refs": [
+        362
+      ],
+      "declared_answer_range": [
+        362,
+        362
+      ],
+      "producer_answer_lines": [
+        362,
+        362
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        362,
+        362
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 362,
+          "text": "6. D（2分）"
+        }
+      ]
+    },
+    {
+      "candidate_id": "0ba0ad22-f522-4e69-9fba-d783727728b4",
+      "unit_id": "Q8",
+      "question_label": "8",
+      "file_name": "2018北京春季高中会考语文（教师版）(1).md",
+      "source_version_id": "0111c1ea-0d03-4891-aa2c-f8b5d3453587",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "8. 示例一：大观园中发现了香囊，王夫人十分生气，担心大观园中人杂生事，更担心贾宝玉与丫鬟们胡闹，于是命令王熙凤带人抄检大观园，并把晴雯赶出了大观园。晴雯被赶出后借居在亲戚家里，身染重病，最终含恨而死",
+      "resolver_answer_line_refs": [
+        366
+      ],
+      "declared_answer_range": [
+        366,
+        370
+      ],
+      "producer_answer_lines": [
+        366,
+        370
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        366,
+        370
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 366,
+          "text": "8. 示例一：大观园中发现了香囊，王夫人十分生气，担心大观园中人杂生事，更担心贾宝玉与丫鬟们胡闹，于是命令王熙凤带人抄检大观园，并把晴雯赶出"
+        },
+        {
+          "line": 367,
+          "text": ""
+        },
+        {
+          "line": 368,
+          "text": "示例二：辛亥革命爆发，有人趁乱抢劫了举人老爷寄存在赵家的财物，赵家进城报案，官府为了社会治安，急于杀一儆百，抓阿Q做替罪羊，胡乱审问，潦草结"
+        },
+        {
+          "line": 369,
+          "text": ""
+        },
+        {
+          "line": 370,
+          "text": "（4分。相关人物，2分；情节过程，2分）"
+        }
+      ]
+    },
+    {
+      "candidate_id": "a40ae9b6-bd45-4bf9-8841-5862a7716653",
+      "unit_id": "Q9",
+      "question_label": "9",
+      "file_name": "2018北京春季高中会考语文（教师版）(1).md",
+      "source_version_id": "0111c1ea-0d03-4891-aa2c-f8b5d3453587",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "9. ①暖暖远人村 ②渔舟唱晚 ③雁阵惊寒",
+      "resolver_answer_line_refs": [
+        372
+      ],
+      "declared_answer_range": [
+        372,
+        374
+      ],
+      "producer_answer_lines": [
+        372,
+        374
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        372,
+        374
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 372,
+          "text": "9. ①暖暖远人村 ②渔舟唱晚 ③雁阵惊寒"
+        },
+        {
+          "line": 373,
+          "text": ""
+        },
+        {
+          "line": 374,
+          "text": "（3分。每空1分）"
+        }
+      ]
+    },
+    {
+      "candidate_id": "59816f87-abf6-4310-833b-8e32dcc3958c",
+      "unit_id": "U14.sub",
+      "question_label": "14",
+      "file_name": "2018北京春季高中会考语文（教师版）(1).md",
+      "source_version_id": "0111c1ea-0d03-4891-aa2c-f8b5d3453587",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "14.（1）甲：hào 乙：骼（2分）",
+      "resolver_answer_line_refs": [
+        412
+      ],
+      "declared_answer_range": [
+        412,
+        426
+      ],
+      "producer_answer_lines": [
+        412,
+        426
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        412,
+        426
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 412,
+          "text": "14.（1）甲：hào 乙：骼（2分）"
+        },
+        {
+          "line": 413,
+          "text": ""
+        },
+        {
+          "line": 414,
+          "text": "（2）C（3分）"
+        },
+        {
+          "line": 415,
+          "text": ""
+        },
+        {
+          "line": 416,
+          "text": "（3）B（3分）"
+        },
+        {
+          "line": 417,
+          "text": ""
+        },
+        {
+          "line": 418,
+          "text": "（4）示例一：我同意观点一，因为经典是人类智慧的结晶，人类文明在一定程度上是由经典构成的。如果我们不读《论语》《老子》就无法了解中华文化，中"
+        },
+        {
+          "line": 419,
+          "text": ""
+        },
+        {
+          "line": 420,
+          "text": "示例二：我不同意观点一，作者认为经典是人类文明延续的定海神针，因此得出“如果经典被遗忘，那人类必将毁灭”这样的结论，夸大了经典的作用。世界上"
+        },
+        {
+          "line": 421,
+          "text": ""
+        },
+        {
+          "line": 422,
+          "text": "示例三：我同意观点二，因为经典早已成为我们历史经验的一部分，当我们阅读经典时，我们的人生经验会与经典发生共鸣，产生共识，如《论语》中的“己所"
+        },
+        {
+          "line": 423,
+          "text": ""
+        },
+        {
+          "line": 424,
+          "text": "示例四：我不同意观点二，作者认为要想大彻大悟就必须读经典，这是片面夸大经典的教化作用。人获取知识、提升智慧、彻悟人生的途径是多样的，如劳动、"
+        },
+        {
+          "line": 425,
+          "text": ""
+        },
+        {
+          "line": 426,
+          "text": "（5分。表明态度，1分；引用观点，2分；分析解说，2分）"
+        }
+      ]
+    },
+    {
+      "candidate_id": "ee4ccd29-3e05-468d-8c9f-3475fe7e31a4",
+      "unit_id": "U15.sub",
+      "question_label": "15",
+      "file_name": "2018北京春季高中会考语文（教师版）(1).md",
+      "source_version_id": "0111c1ea-0d03-4891-aa2c-f8b5d3453587",
+      "decision_status": "pending_review",
+      "position_state": "IN_DECLARED_ANSWER_ZONE",
+      "answer_value_state": "HAS_VALUE",
+      "answer_text": "15.（1）甲：chǐ 乙：漪（2分）",
+      "resolver_answer_line_refs": [
+        430
+      ],
+      "declared_answer_range": [
+        430,
+        446
+      ],
+      "producer_answer_lines": [
+        430,
+        446
+      ],
+      "producer_answer_role": "answer",
+      "producer_answer_position": [
+        430,
+        446
+      ],
+      "producer_answer_zone": "NOT_PRESENT_IN_PRODUCER_ARTIFACT",
+      "producer_answer_evidence_value": null,
+      "declared_range_texts": [
+        {
+          "line": 430,
+          "text": "15.（1）甲：chǐ 乙：漪（2分）"
+        },
+        {
+          "line": 431,
+          "text": ""
+        },
+        {
+          "line": 432,
+          "text": "（2）B（3分）"
+        },
+        {
+          "line": 433,
+          "text": ""
+        },
+        {
+          "line": 434,
+          "text": "（3）D（3分）"
+        },
+        {
+          "line": 435,
+          "text": ""
+        },
+        {
+          "line": 436,
+          "text": "（4）示例一：我选择“心触清机亲翰墨，目游润景足精神”。对联所写书房既有如“陋室”般朴素淡雅，令人赏心悦目的环境，也体现出主人在一方宁静的天"
+        },
+        {
+          "line": 437,
+          "text": ""
+        },
+        {
+          "line": 438,
+          "text": "---"
+        },
+        {
+          "line": 439,
+          "text": ""
+        },
+        {
+          "line": 440,
+          "text": "示例二：我选择“为学深知书有味，观心澄觉室生光”。对联描写的书房，虽然没有“书斋”的器物之美，也比不上江南藏书楼指不胜屈的藏书，主人却能于此"
+        },
+        {
+          "line": 441,
+          "text": ""
+        },
+        {
+          "line": 442,
+          "text": "示例三：我选择“竹荫遮几琴书润，花气熏窗笔砚香”。对联中的书房窗外翠竹茂盛，竹影在案几上摇曳，窗下花香飘散，书房陈设虽不讲究，主人也可在此读"
+        },
+        {
+          "line": 443,
+          "text": ""
+        },
+        {
+          "line": 444,
+          "text": "示例四：我选择“一室图书自清洁，百家文墨足风流”。对联中“一室图书”是我理想中书房的写照：即使没有“苔痕上阶绿，草色入帘青”的清新景色，但一"
+        },
+        {
+          "line": 445,
+          "text": ""
+        }
+      ]
+    }
+  ]
+}

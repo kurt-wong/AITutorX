@@ -1,0 +1,104 @@
+{
+  "pending_total": 219,
+  "failing_layers": {
+    "admission": 219
+  },
+  "reason_kinds": {
+    "admission|answer_not_expressible": 258,
+    "provenance|role_provenance_violation": 71,
+    "admission|resolution_not_exact": 142,
+    "admission|role_provenance_violation": 142,
+    "admission|leaf 'U-P2-1.sub' type 'short_answer' not stri": 2,
+    "admission|leaf 'U-P2-2.sub' type 'short_answer' not stri": 2,
+    "admission|leaf 'U-P2-3.sub' type 'short_answer' not stri": 2,
+    "admission|leaf 'U-P2-4.sub' type 'short_answer' not stri": 2,
+    "admission|leaf 'U-P2-5.sub' type 'short_answer' not stri": 2,
+    "admission|leaf 'Q29' type 'short_answer' not strict-auto": 4,
+    "admission|leaf 'Q30' type 'short_answer' not strict-auto": 4,
+    "admission|leaf 'Q31' type 'short_answer' not strict-auto": 2,
+    "admission|leaf 'Q32' type 'short_answer' not strict-auto": 2,
+    "admission|leaf 'Q33' type 'fill_in' not strict-auto (gra": 2,
+    "admission|leaf 'Q34' type 'fill_in' not strict-auto (gra": 2,
+    "admission|leaf 'Q35' type 'fill_in' not strict-auto (gra": 2,
+    "admission|leaf 'Q36' type 'short_answer' not strict-auto": 2,
+    "admission|leaf 'Q37.sub' type 'short_answer' not strict-": 2,
+    "admission|leaf 'Q26' type 'short_answer' not strict-auto": 4,
+    "admission|leaf 'Q27' type 'short_answer' not strict-auto": 4,
+    "admission|leaf 'Q28' type 'short_answer' not strict-auto": 4,
+    "admission|leaf 'Q21' type 'fill_in' not strict-auto (gra": 2,
+    "admission|leaf 'Q22' type 'fill_in' not strict-auto (gra": 2,
+    "admission|leaf 'Q23' type 'fill_in' not strict-auto (gra": 2,
+    "admission|leaf 'Q24' type 'short_answer' not strict-auto": 2,
+    "admission|leaf 'Q25' type 'short_answer' not strict-auto": 2,
+    "admission|leaf 'U26-40.sub' type 'cloze' not strict-auto": 2,
+    "admission|leaf 'U41-44.sub' type 'reading' not strict-au": 2,
+    "admission|leaf 'U45-48.sub' type 'reading' not strict-au": 2,
+    "admission|leaf 'U49-52.sub' type 'reading' not strict-au": 2,
+    "admission|leaf 'U53-56.sub' type 'reading' not strict-au": 2,
+    "admission|leaf 'U57-60.sub' type 'reading_expression' no": 2,
+    "admission|leaf 'U1-5.sub' type 'reading' not strict-auto": 2,
+    "admission|leaf 'Q8' type 'short_answer' not strict-auto ": 2,
+    "admission|leaf 'Q9' type 'fill_in' not strict-auto (gram": 2,
+    "admission|leaf 'U10-13.sub' type 'reading' not strict-au": 2,
+    "admission|leaf 'U14.sub' type 'reading' not strict-auto ": 2,
+    "admission|leaf 'U15.sub' type 'reading' not strict-auto ": 2,
+    "admission|leaf 'Q16' type 'essay' not strict-auto (gramm": 2,
+    "admission|leaf 'Q17' type 'essay' not strict-auto (gramm": 2
+  },
+  "samples": [
+    {
+      "paper": "化学",
+      "unit": "Q7",
+      "auto_allowed": true,
+      "reasons": [
+        "admission:leaf 'Q7' answer grammar: answer not expressible as canonical value",
+        "admission:leaf 'Q7' answer grammar: answer not expressible as canonical value"
+      ]
+    },
+    {
+      "paper": "化学",
+      "unit": "Q8",
+      "auto_allowed": true,
+      "reasons": [
+        "admission:leaf 'Q8' answer grammar: answer not expressible as canonical value",
+        "admission:leaf 'Q8' answer grammar: answer not expressible as canonical value"
+      ]
+    },
+    {
+      "paper": "化学",
+      "unit": "Q10",
+      "auto_allowed": true,
+      "reasons": [
+        "admission:leaf 'Q10' answer grammar: answer not expressible as canonical value",
+        "admission:leaf 'Q10' answer grammar: answer not expressible as canonical value"
+      ]
+    },
+    {
+      "paper": "化学",
+      "unit": "Q11",
+      "auto_allowed": true,
+      "reasons": [
+        "admission:leaf 'Q11' answer grammar: answer not expressible as canonical value",
+        "admission:leaf 'Q11' answer grammar: answer not expressible as canonical value"
+      ]
+    },
+    {
+      "paper": "化学",
+      "unit": "Q12",
+      "auto_allowed": true,
+      "reasons": [
+        "admission:leaf 'Q12' answer grammar: answer not expressible as canonical value",
+        "admission:leaf 'Q12' answer grammar: answer not expressible as canonical value"
+      ]
+    },
+    {
+      "paper": "化学",
+      "unit": "Q13",
+      "auto_allowed": true,
+      "reasons": [
+        "admission:leaf 'Q13' answer grammar: answer not expressible as canonical value",
+        "admission:leaf 'Q13' answer grammar: answer not expressible as canonical value"
+      ]
+    }
+  ]
+}

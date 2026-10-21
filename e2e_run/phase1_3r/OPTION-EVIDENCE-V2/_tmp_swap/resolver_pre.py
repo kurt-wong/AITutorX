@@ -1,0 +1,1071 @@
+"""Source Resolver 核心（段 E，E3-E5，20 §5）。
+
+resolve() 为纯函数：把 annotation payload 里显式声明的 reference 解析为 ResolvedSpan /
+ResolvedRelation。七种 role 各用独立 policy（失败语义不同，不做万能 matcher）。
+
+安全边界（代码级不变量）：
+    resolved ⇔ status ∈ {exact, normalized, contextual}
+    fuzzy / ambiguous / missing / incomplete ⇒ 只产 UnresolvedReference（无 ResolvedSpan）
+
+「E 可以失败，但不能猜」。定位只依据显式 marker / 标签 / 题号 token / 显式边界，
+不做文本相似度 / nearest / first-match 自动接受。
+"""
+
+from __future__ import annotations
+
+import hashlib
+import re
+import uuid
+
+from app.domains.resolver.match_normalization import (
+    is_answer_header,
+    is_explanation_header,
+    is_question_start,
+    normalize_text,
+    option_tokens,
+)
+from app.domains.resolver.reference import (
+    extract_relations,
+    extract_targets,
+)
+from app.domains.resolver.span import (
+    ResolvedRelation,
+    ResolvedRun,
+    ResolvedSpan,
+    SourceFigureView,
+    SourceLineView,
+    SourceRegion,
+    UnresolvedReference,
+)
+
+
+def _raw_sha256(s: str) -> str:
+    return hashlib.sha256(s.encode("utf-8")).hexdigest()
+
+
+# 行内条目形态：题号 token + 分隔符（bounded，防 qn=1 误配 "10."）。offset 基于 raw text。
+# 兼容 Markdown escaped-dot（`27\\. A` ≡ `27. A`），与 is_question_start v1.2 同界。
+_ENTRY_RE = re.compile(r"(?<![\d])(\d{1,3})\s*(?:\\[.．、:]|[.．、:])")
+
+# 行中题号入口（真实卷拼接形态）：
+#   …完成 16~17 题。16. 北京…     —— 句号后紧接题号
+#   …完成26－2926.优化…           —— 区间尾数字后紧接题号（OCR 无分隔拼接）
+# 仅在查找「已声明的特定题号」时使用，不开放任意行中数字为题号。
+_MID_SENTENCE_QN_RE_T = r"。{qn}\s*(?:\\[.．、:]|[.．、:])"
+_MID_RANGE_QN_RE_T = (
+    r"(?<![\d]){qn}\s*[－~—–-]\s*\d{{1,3}}\s*{qn}\s*(?:\\[.．、:]|[.．、:])"
+)
+
+
+def _line_has_question_entry(text: str, qn: str) -> bool:
+    """该行是否存在题号 qn 的合法入口（行首 / 句末拼接 / 区间拼接）。
+
+    确定性：只认已声明的 qn，不猜「最近题号」。行首仍走 is_question_start
+    （含 escaped-dot v1.2）；行中仅接受上述两种真实卷拼接形态。
+    """
+    if is_question_start(normalize_text(text)) == qn:
+        return True
+    qn_esc = re.escape(qn)
+    if re.search(_MID_SENTENCE_QN_RE_T.format(qn=qn_esc), text):
+        return True
+    if re.search(_MID_RANGE_QN_RE_T.format(qn=qn_esc), text):
+        return True
+    return False
+
+
+def _entry_offsets(text: str, qn: str) -> list[int]:
+    """raw 行内 qn 条目起点列表（行内多条目如同行多题答案时 >1）。"""
+    return [m.start() for m in _ENTRY_RE.finditer(text) if m.group(1) == qn]
+
+
+# ------------------------------------------------------------------ B3c-B
+# Structured Answer Table Evidence Consumption (Owner ruling 2026-09).
+# When answer_lines points at an HTML/table line that self-describes
+# 「题号」row + 「答案」row, the target question number's same-column cell
+# is deterministic structured evidence — NOT semantic inference.
+# Any step fails → None (unresolved). No position/fallback guessing.
+
+_TD_RE = re.compile(r"<td[^>]*>(.*?)</td>", re.S | re.I)
+
+
+def _table_cells_with_offsets(raw: str) -> list[tuple[int, int, str]]:
+    """Parse <td>…</td> cells as (start, end, inner_text) over the raw line."""
+    out = []
+    for m in _TD_RE.finditer(raw):
+        inner = m.group(1)
+        # strip nested tags inside the cell (e.g. <br>) — keep visible text
+        visible = re.sub(r"<[^>]+>", "", inner)
+        # offsets of the visible text within raw: find first occurrence of visible in inner span
+        if visible == inner:
+            # account for whitespace-only differences by locating in the match
+            rel = inner.find(visible) if visible else 0
+            start = m.start(1) + (rel if rel >= 0 else 0)
+        else:
+            # find visible inside the original inner region
+            rel = inner.find(visible) if visible else -1
+            start = m.start(1) + (rel if rel >= 0 else 0)
+        if not visible:
+            # empty cell: keep span at inner start (zero-length not useful)
+            out.append((m.start(1), m.start(1), ""))
+            continue
+        out.append((start, start + len(visible), visible.strip()))
+    return out
+
+
+def decode_answer_table_cell(raw: str, qn: str) -> tuple[int, int, str] | None:
+    """Deterministic 题号-row + 答案-row same-column lookup (B3c-B).
+
+    Returns (start, end, cell_value) of the answer cell for `qn`, or None.
+    Strict conditions (Owner C-2) — all must hold:
+      1. a cell equal to '题号' exists;
+      2. a cell equal to '答案' exists;
+      3. `qn` appears in a 题号 sequence;
+      4. that qn maps to a unique column;
+      5. the paired 答案 sequence has a cell in the same column;
+      6. cell value is non-empty.
+    No last-row / nearest-token / order guessing.
+    """
+    if not raw or "<td" not in raw.lower():
+        return None
+    cells = _table_cells_with_offsets(raw)
+    if len(cells) < 4:
+        return None
+
+    # Collect row sequences: each '题号' starts a number row; each '答案' starts a value row.
+    # Tables may repeat the pair for horizontal paging (1-10, 11-20, ...).
+    qn_rows: list[list[tuple[int, int, str]]] = []
+    ans_rows: list[list[tuple[int, int, str]]] = []
+    mode = None
+    cur: list[tuple[int, int, str]] = []
+    for cell in cells:
+        txt = cell[2]
+        if txt == "题号":
+            if mode == "a" and cur:
+                ans_rows.append(cur)
+            elif mode == "n" and cur:
+                qn_rows.append(cur)
+            mode, cur = "n", []
+            continue
+        if txt == "答案":
+            if mode == "n" and cur:
+                qn_rows.append(cur)
+            elif mode == "a" and cur:
+                ans_rows.append(cur)
+            mode, cur = "a", []
+            continue
+        if mode is not None:
+            cur.append(cell)
+    if mode == "n" and cur:
+        qn_rows.append(cur)
+    if mode == "a" and cur:
+        ans_rows.append(cur)
+
+    if not qn_rows or not ans_rows:
+        return None
+
+    # Pair each 题号 row with the next 答案 row (declaration order).
+    hits: list[tuple[int, int, str]] = []
+    ai = 0
+    for qrow in qn_rows:
+        if ai >= len(ans_rows):
+            break
+        arow = ans_rows[ai]
+        ai += 1
+        for col, qcell in enumerate(qrow):
+            if qcell[2] != qn:
+                continue
+            if col >= len(arow):
+                continue
+            acell = arow[col]
+            if not acell[2]:
+                continue
+            hits.append((acell[0], acell[1], acell[2]))
+
+    # Unique column required (Owner C-2 #5).
+    if len(hits) != 1:
+        return None
+    return hits[0]
+
+
+# 行内选项标签（bounded，防 "对A项" 误配随机大写；需标签+分隔符）。
+# 全角逗号 `，`：真实卷 `C. 水土流失 D，物种减少`（U44-46）。格式兼容，非 heuristic。
+_LABEL_RE = re.compile(r"(?<![\w])([A-Ha-h])\s*[.．、:，,)）]")
+# P1.4-B Rule B：digit-glued `2D.`（数学 Q4）。clean lookbehind `(?<![\w])` 会因
+# 前置 `2` 而漏检，故单独识别。NOT `2\cos…`（字母后无分隔符）。
+_LABEL_DIGIT_GLUE_RE = re.compile(r"(?<![A-Za-z0-9_])(\d)([A-H])\s*[.．、]")
+# P1.4-B Rule C：line-start `D 麦哲伦`（历史 Q29），缺分隔符。
+_LABEL_SPACE_SEP_RE = re.compile(r"^(?:[ \u00a0]*)([A-Ha-h])[ \u00a0]{1,3}(?=[\u4e00-\u9fff])")
+_LABEL_SPACE_SEP_PROSE = re.compile(
+    r"^[ \u00a0]*[A-Ha-h][ \u00a0]+(?:是|有|在|了|和|与|或|被|把|对|从|到|为|要|会|能|可|这|那|其|年|月|日)"
+)
+
+
+def _label_offsets(text: str, label: str) -> list[int]:
+    """Char offsets of option-label tokens for `label` in `text` (Rules A-C forms)."""
+    offs: list[int] = []
+    for m in _LABEL_RE.finditer(text):
+        if m.group(1).upper() == label.upper():
+            offs.append(m.start())
+    for m in _LABEL_DIGIT_GLUE_RE.finditer(text):
+        if m.group(2).upper() == label.upper():
+            offs.append(m.start(2))
+    if not _LABEL_SPACE_SEP_PROSE.search(text):
+        for m in _LABEL_SPACE_SEP_RE.finditer(text):
+            if m.group(1).upper() == label.upper():
+                offs.append(m.start(1))
+    return sorted(set(offs))
+
+
+# E owns source-span overlap（material span 不得与子题/其他 material 重叠）。
+_MATERIAL_ROLES = frozenset(
+    {"material", "word_bank", "shared_option_pool", "task_instruction"}
+)
+
+
+class _LineIndex:
+    """有序行视图（seq 单调）。纯内存，无 ORM。"""
+
+    def __init__(self, lines: tuple[SourceLineView, ...]):
+        self.lines = tuple(sorted(lines, key=lambda l: l.seq))
+        self._by_ref = {l.line_ref: l for l in self.lines}
+        self._norm = [normalize_text(l.text) for l in self.lines]
+
+    def get(self, ref: str) -> SourceLineView:
+        return self._by_ref[ref]
+
+    def seq_of(self, ref: str) -> int:
+        return self._by_ref[ref].seq
+
+    def between(self, lo: int, hi: int) -> list[SourceLineView]:
+        return [l for l in self.lines if lo <= l.seq < hi]
+
+    def between_incl(self, lo: int, hi: int) -> list[SourceLineView]:
+        return [l for l in self.lines if lo <= l.seq <= hi]
+
+    def after(self, ref: str) -> list[SourceLineView]:
+        return [l for l in self.lines if l.seq > self.seq_of(ref)]
+
+    def raw_hits(self, query: str) -> list[str]:
+        return [l.line_ref for l in self.lines if query in l.text]
+
+    def norm_hits(self, norm_query: str) -> list[str]:
+        return [l.line_ref for l, n in zip(self.lines, self._norm) if norm_query in n]
+
+    def fuzzy_hits(self, norm_query: str) -> list[str]:
+        flat = norm_query.replace(" ", "")
+        return [
+            l.line_ref for l, n in zip(self.lines, self._norm)
+            if n != flat and n.replace(" ", "") == flat
+        ]
+
+
+def _locate(query: str, idx: _LineIndex) -> tuple[str, list[str]]:
+    """exact > normalized > fuzzy/missing/ambiguous（不做自动接受）。"""
+    raw = idx.raw_hits(query)
+    if len(raw) == 1:
+        return "exact", raw
+    if len(raw) > 1:
+        return "ambiguous", raw
+    nq = normalize_text(query)
+    norm = idx.norm_hits(nq)
+    if len(norm) == 1:
+        return "normalized", norm
+    if len(norm) > 1:
+        return "ambiguous", norm
+    fuzzy = idx.fuzzy_hits(nq)
+    if fuzzy:
+        return "fuzzy", fuzzy
+    return "missing", []
+
+
+def _is_resolved(status: str) -> bool:
+    return status in ("exact", "normalized", "contextual")
+
+
+class _Out:
+    """一次 resolve 的收集容器。持 idx 以便从 line_ref 切片 span 文本（BUG-V3-012）。"""
+
+    def __init__(self, svid: uuid.UUID, idx: "_LineIndex"):
+        self.svid = svid
+        self._idx = idx
+        self.resolved: list[ResolvedSpan] = []
+        self.unresolved: list[UnresolvedReference] = []
+
+    def add_span(self, unit_id: str, t, refs, status, evidence, role_hint=None):
+        text = self._slice(refs)
+        self.resolved.append(
+            ResolvedSpan(
+                span_id=f"sp-{t.target_id}",
+                source_version_id=self.svid,
+                role=role_hint or t.role,
+                start_line_ref=refs[0],
+                end_line_ref=refs[-1],
+                line_refs=tuple(refs),
+                granularity="line",
+                start_offset=None,
+                end_offset=None,
+                text_hash=_raw_sha256(text),
+                resolution_status=status,
+                evidence=tuple(evidence),
+            )
+        )
+
+    def add_char_span(self, unit_id, t, line_ref, start, end, status, evidence):
+        """line_character span：按已知 [start,end) raw offsets 切片（不重查，调用方保证有界唯一）。"""
+        raw = self._idx.get(line_ref).text
+        end = min(end, len(raw))
+        if start < 0 or start >= end:
+            self.unresolved.append(
+                UnresolvedReference(
+                    reference_id=t.target_id, role=t.role,
+                    resolution_status="incomplete",
+                    evidence=("invalid inline offsets", str(start), str(end)),
+                )
+            )
+            return
+        self.resolved.append(
+            ResolvedSpan(
+                span_id=f"sp-{t.target_id}", source_version_id=self.svid,
+                role=t.role, start_line_ref=line_ref, end_line_ref=line_ref,
+                line_refs=(line_ref,), granularity="line_character",
+                start_offset=start, end_offset=end,
+                text_hash=_raw_sha256(raw[start:end]),
+                resolution_status=status, evidence=tuple(evidence),
+            )
+        )
+
+    def add_unresolved(self, t, status, evidence):
+        self.unresolved.append(
+            UnresolvedReference(
+                reference_id=t.target_id, role=t.role,
+                resolution_status=status, evidence=tuple(evidence),
+            )
+        )
+
+    def add_fragment_span(self, unit_id, t, line_ref, q, status, evidence):
+        """line_character span：在 raw 行文本内精确子串查找 offset（code-point 索引）。
+
+        行内多命中 → 调用方须先判 ambiguous（不在此 first-match）。找不到唯一 raw 子串
+        （仅 normalized 命中）→ 退化整行 granularity=line。
+        """
+        raw = self._idx.get(line_ref).text
+        pos = raw.find(q)
+        if pos == -1:
+            # normalized 命中但 raw 无该串 → 无法给可靠 offset，退化为整行 line span。
+            self.resolved.append(
+                ResolvedSpan(
+                    span_id=f"sp-{t.target_id}", source_version_id=self.svid,
+                    role=t.role, start_line_ref=line_ref, end_line_ref=line_ref,
+                    line_refs=(line_ref,), granularity="line",
+                    start_offset=None, end_offset=None,
+                    text_hash=_raw_sha256(raw), resolution_status=status,
+                    evidence=tuple(evidence) + ("degrade-to-line(no-raw-slice)",),
+                )
+            )
+            return
+        if raw.find(q, pos + len(q)) != -1:
+            self.unresolved.append(
+                UnresolvedReference(
+                    reference_id=t.target_id, role=t.role,
+                    resolution_status="ambiguous",
+                    evidence=("line-fragment matches more than once on raw line",),
+                )
+            )
+            return
+        self.resolved.append(
+            ResolvedSpan(
+                span_id=f"sp-{t.target_id}", source_version_id=self.svid,
+                role=t.role, start_line_ref=line_ref, end_line_ref=line_ref,
+                line_refs=(line_ref,), granularity="line_character",
+                start_offset=pos, end_offset=pos + len(q),
+                text_hash=_raw_sha256(raw[pos : pos + len(q)]),
+                resolution_status=status, evidence=tuple(evidence),
+            )
+        )
+
+    def _slice(self, refs: list[str]) -> str:
+        """span 覆盖行文本：多行以 "\\n" join（BUG-V3-012 implementation choice，
+        与段 B IS-4 重建规则一致；20 §5.5 未冻结跨行拼接）。"""
+        return "\n".join(self._idx.get(r).text for r in refs)
+
+
+class SourceResolver:
+    """Semantic Reference → ResolvedRun（纯函数入口）。"""
+
+    def __init__(
+        self,
+        *,
+        source_version_id: uuid.UUID,
+        lines: tuple[SourceLineView, ...],
+        figures: tuple[SourceFigureView, ...] = (),
+    ):
+        self._svid = source_version_id
+        self._idx = _LineIndex(lines)
+        self._figures = figures
+        # 题目区终点 = 首个 答案/详解/解析 表头 seq（其后为答案/详解区，不得当题号行）。
+        self._qzone_end = next(
+            (l.seq for l in self._idx.lines
+             if is_answer_header(normalize_text(l.text))
+             or is_explanation_header(normalize_text(l.text))),
+            10**9,
+        )
+
+    def _question_zone(self):
+        """仅题目区（答案/详解表头之前）的行。"""
+        return [l for l in self._idx.lines if l.seq < self._qzone_end]
+
+    def resolve(self, annotation_payload: dict) -> ResolvedRun:
+        out = _Out(self._svid, self._idx)
+        by_unit: dict[str, list] = {}
+        for t in extract_targets(annotation_payload):
+            by_unit.setdefault(t.unit_id, []).append(t)
+        # Fourth-cut B: resolve ALL material bodies first so stem boundaries can
+        # respect material regions (own-stem and neighbor-stem).
+        for unit_id, targets in by_unit.items():
+            for t in targets:
+                if t.kind == "instruction_marker":
+                    self._span_other(out, unit_id, t)
+        mat_lines: set[str] = set()
+        mat_starts: list[int] = []
+        for s in out.resolved:
+            if s.role in _MATERIAL_ROLES:
+                for ref in s.line_refs:
+                    mat_lines.add(ref)
+                if s.line_refs:
+                    mat_starts.append(self._idx.seq_of(s.line_refs[0]))
+        for unit_id, targets in by_unit.items():
+            self._resolve_unit(out, unit_id, targets,
+                               mat_lines=mat_lines, mat_starts=mat_starts)
+        self._enforce_material_overlap(out)
+        rels = self._resolve_relations(
+            out, extract_relations(annotation_payload)
+        )
+        return ResolvedRun(
+            source_version_id=self._svid,
+            resolved_spans=tuple(out.resolved),
+            unresolved_references=tuple(out.unresolved),
+            resolved_relations=tuple(r for r in rels if r.status == "resolved"),
+            unresolved_relations=tuple(r for r in rels if r.status != "resolved"),
+            structural_regions=self._compute_regions(),
+        )
+
+    def _compute_regions(self) -> tuple[SourceRegion, ...]:
+        """Structural region map from deterministic header grammar (H-3).
+
+        Produces question/answer/explanation structural regions. This is
+        **consistency evidence** for the Source Evidence Binding Contract,
+        NOT semantic truth. Gate uses it for span-overlap consistency checks.
+
+        No answer header -> only question region (entire source is question zone).
+        """
+        lines = self._idx.lines
+        answer_hdr_seq: int | None = None
+        explanation_hdr_seq: int | None = None
+        for l in lines:
+            norm = normalize_text(l.text)
+            if answer_hdr_seq is None and is_answer_header(norm):
+                answer_hdr_seq = l.seq
+            if explanation_hdr_seq is None and is_explanation_header(norm):
+                explanation_hdr_seq = l.seq
+            if answer_hdr_seq is not None and explanation_hdr_seq is not None:
+                break
+
+        regions: list[SourceRegion] = []
+
+        def _refs_between(lo: int, hi: int) -> tuple[str, ...]:
+            return tuple(l.line_ref for l in lines if lo <= l.seq < hi)
+
+        # question region: [first_seq, answer_hdr or explanation_hdr or +inf)
+        q_end = answer_hdr_seq or explanation_hdr_seq or (lines[-1].seq + 1 if lines else 0)
+        q_refs = _refs_between(lines[0].seq if lines else 0, q_end)
+        if q_refs:
+            regions.append(SourceRegion("question", lines[0].seq if lines else 0, q_end, q_refs))
+
+        # answer region: (answer_hdr, explanation_hdr or +inf)
+        if answer_hdr_seq is not None:
+            a_end = explanation_hdr_seq or (lines[-1].seq + 1)
+            a_refs = _refs_between(answer_hdr_seq + 1, a_end)
+            if a_refs:
+                regions.append(SourceRegion("answer", answer_hdr_seq + 1, a_end, a_refs))
+
+        # explanation region: (explanation_hdr, +inf)
+        if explanation_hdr_seq is not None:
+            e_end = lines[-1].seq + 1
+            e_refs = _refs_between(explanation_hdr_seq + 1, e_end)
+            if e_refs:
+                regions.append(SourceRegion("explanation", explanation_hdr_seq + 1, e_end, e_refs))
+
+        return tuple(regions)
+
+    # ------------------------------------------------------------------ 调度
+    def _resolve_unit(
+        self,
+        out: _Out,
+        unit_id: str,
+        targets,
+        mat_lines: set | frozenset = frozenset(),
+        mat_starts: list[int] | None = None,
+    ) -> None:
+        stem_t = next((t for t in targets if t.kind == "question_label"), None)
+        qn = stem_t.question_number if stem_t else None
+        start_ref: str | None = None
+        region_upper: int | None = None
+        if qn:
+            start_ref = self._locate_question_start(out, unit_id, stem_t, qn)
+        if start_ref:
+            region_upper = self._region_end(start_ref)
+            # Neighbor-stem: stop at any resolved material body start.
+            start_seq = self._idx.seq_of(start_ref)
+            for ms in mat_starts or []:
+                if ms > start_seq and (region_upper is None or ms < region_upper):
+                    region_upper = ms
+        option_hits = {}
+        if start_ref:
+            labels = tuple(t.label for t in targets if t.kind == "option_label" and t.label)
+            option_hits = self._locate_options(out, unit_id, labels, start_ref, region_upper)
+        for t in targets:
+            if t.kind == "instruction_marker":
+                continue  # already resolved in phase 1
+            if t.kind == "question_label":
+                self._stem_span(out, unit_id, t, qn, start_ref, option_hits, region_upper,
+                                exclude_refs=mat_lines)
+            elif t.kind == "option_label":
+                self._option_span(out, unit_id, t, option_hits)
+            else:
+                self._span_other(out, unit_id, t)
+
+    def _locate_question_start(self, out, unit_id, t, qn):
+        # Source-entry form: Producer printed_number when declared (global/local
+        # identity is Producer's fact — bug22_migration / printed_provenance —
+        # not inferred here). Fall back to the declared question_number.
+        search_qn = t.question_label_printed or qn
+        lines = self._question_zone()
+        # Lookup window: Producer questions_lines when declared (1-based inclusive,
+        # same convention as answer_lines → line_ref P1L{n:03d}). Scopes the
+        # search to the unit's own body so printed "1" in Part II does not
+        # collide with Part I / answer-area "1."
+        if t.question_search_lines:
+            lo, hi = t.question_search_lines
+            win_refs = self._evidence_line_refs(lo, hi)
+            if win_refs is not None:
+                win = frozenset(win_refs)
+                lines = [l for l in lines if l.line_ref in win]
+        hits = [
+            l.line_ref for l in lines
+            if _line_has_question_entry(l.text, search_qn)
+        ]
+        if len(hits) == 1:
+            return hits[0]
+        if len(hits) > 1:
+            out.add_unresolved(t, "ambiguous", (f"question {qn} start not unique",))
+            return None
+        out.add_unresolved(t, "missing", (f"question number {qn!r} not found",))
+        return None
+
+    def _region_end(self, start_ref: str) -> int | None:
+        """题号行后第一个显式区界：下一题号行 或 答案/详解/解析 表头。无 → None。"""
+        start_seq = self._idx.seq_of(start_ref)
+        for l in self._idx.lines:
+            if l.seq <= start_seq:
+                continue
+            norm = normalize_text(l.text)
+            if is_question_start(norm) is not None:
+                return l.seq
+            if is_answer_header(norm) or is_explanation_header(norm):
+                return l.seq
+        return None
+
+    def _locate_options(self, out, unit_id, labels, start_ref, region_upper):
+        """逐 label 定位：优先行首选项；否则前一个选项行上的 bounded inline（单行多选项）。
+
+        返回 {label: ("ok", ref) | ("inline", ref, start, end) | ("ambiguous",) | ("incomplete",)}。
+        重复→ambiguous；完全缺失→incomplete。
+        """
+        found: dict[str, tuple] = {}
+        cursor_seq = self._idx.seq_of(start_ref)
+        cursor_ref: str | None = None
+        cursor_end = 0
+        for lab in labels:
+            starts = [
+                l for l in self._idx.lines
+                if l.seq > cursor_seq
+                and (region_upper is None or l.seq < region_upper)
+                and lab in option_tokens(normalize_text(l.text), (lab,))
+            ]
+            if len(starts) == 1:
+                found[lab] = ("ok", starts[0].line_ref)
+                cursor_seq = starts[0].seq
+                cursor_ref = starts[0].line_ref
+                cursor_end = 0  # 同行后续标签从行首后任意 offset 找（单行多选项）
+                continue
+            if len(starts) > 1:
+                found[lab] = ("ambiguous",)
+                continue
+            # 无行首选项：尝试在前一个选项行（同物理行多选项）bounded inline。
+            if cursor_ref is not None:
+                line = self._idx.get(cursor_ref)
+                offs = [o for o in _label_offsets(line.text, lab) if o >= cursor_end]
+                if len(offs) == 1:
+                    found[lab] = ("inline", cursor_ref, offs[0], offs[0] + len(lab))
+                    cursor_end = offs[0] + len(lab)
+                    continue
+            # P1.4-B Rule A: trailing unlabeled option content after last located
+            # option (Chem Q23 `D．` dropped). Source-local only: content line
+            # inside the option region, no label token, next sequential letter.
+            trailing = self._trailing_unlabeled_option_line(
+                labels, found, cursor_seq, region_upper
+            )
+            if trailing is not None:
+                found[lab] = ("ok", trailing)
+                cursor_seq = self._idx.seq_of(trailing)
+                cursor_ref = trailing
+                cursor_end = 0
+                continue
+            found[lab] = ("incomplete",)
+        return found
+
+    def _trailing_unlabeled_option_line(self, labels, found, cursor_seq, region_upper):
+        """Rule A: first option-like content line after last located option with no label token.
+
+        Only used for the next sequential missing letter. Never scans outside the
+        option region (region_upper / cursor). Never uses answer evidence.
+        """
+        if not labels:
+            return None
+        # next expected letter among declared labels not yet found
+        missing = [lab for lab in labels if lab not in found or found[lab][0] == "incomplete"]
+        if not missing:
+            return None
+        want = missing[0]
+        # sequential: want must be the next letter after the highest found label
+        found_ok = [lab for lab in labels if lab in found and found[lab][0] in ("ok", "inline")]
+        if found_ok:
+            nxt = chr(ord(max(found_ok)) + 1)
+            if want != nxt:
+                return None
+        else:
+            if want != "A":
+                return None
+        for l in self._idx.lines:
+            if l.seq <= cursor_seq:
+                continue
+            if region_upper is not None and l.seq >= region_upper:
+                break
+            text = l.text
+            t = text.strip()
+            if not t or len(t) < 4:
+                continue
+            if t.startswith("<") or t.startswith("#") or t.startswith("---"):
+                continue
+            if _LABEL_RE.search(text) or _LABEL_DIGIT_GLUE_RE.search(text):
+                continue
+            if _LABEL_SPACE_SEP_PROSE.search(text):
+                continue
+            if _LABEL_SPACE_SEP_RE.search(text):
+                continue
+            if re.match(r"^\d+\s*[.．、\\]", t):
+                continue
+            return l.line_ref
+        return None
+
+    def _stem_span(self, out, unit_id, t, qn, start_ref, option_hits, region_upper,
+                   exclude_refs: frozenset | set | None = None):
+        if start_ref is None:
+            return  # 已由 _locate_question_start 记录 unresolved
+        first_option_seq = None
+        for lab, entry in option_hits.items():
+            if entry[0] == "ok" and entry[1]:
+                seq = self._idx.seq_of(entry[1])
+                first_option_seq = seq if first_option_seq is None else min(first_option_seq, seq)
+        # 显式边界：本 unit 首选项行；否则区界（下一题/表头/material）。
+        boundary_seq = first_option_seq if first_option_seq is not None else region_upper
+        if boundary_seq is None:
+            out.add_unresolved(
+                t, "incomplete",
+                ("no explicit end boundary (option/next-question) for stem",),
+            )
+            return
+        start_seq = self._idx.seq_of(start_ref)
+        # Fourth-cut B: stem must not consume material body lines.
+        exclude = exclude_refs or frozenset()
+        refs = [
+            l.line_ref for l in self._idx.between(start_seq, boundary_seq)
+            if l.line_ref not in exclude
+        ]
+        if not refs:
+            out.add_unresolved(t, "incomplete", ("stem span empty",))
+            return
+        out.add_span(unit_id, t, refs, "exact",
+                     ("stem start", start_ref, "boundary", "option-or-region-end"))
+
+    def _option_span(self, out, unit_id, t, option_hits):
+        entry = option_hits.get(t.label or "", ("incomplete",))
+        kind = entry[0]
+        if kind == "ok":
+            out.add_span(unit_id, t, [entry[1]], "exact", (f"option label={t.label}",))
+            return
+        if kind == "inline":
+            out.add_char_span(unit_id, t, entry[1], entry[2], entry[3], "exact",
+                              (f"option label={t.label} (inline, line_character)",))
+            return
+        out.add_unresolved(t, kind if kind in ("ambiguous", "incomplete") else "incomplete",
+                           (f"option {t.label}",))
+
+    def _span_other(self, out, unit_id, t):
+        if t.kind == "instruction_marker":
+            self._material_span(out, unit_id, t)
+        elif t.kind == "answer_zone":
+            self._answer_span(out, unit_id, t)
+        elif t.kind == "explanation_zone":
+            self._explanation_span(out, unit_id, t)
+        elif t.kind == "image":
+            self._image_span(out, unit_id, t)
+        elif t.kind == "blank_label":
+            self._blank_span(out, unit_id, t)
+
+    def _trim_blank_edge_refs(self, refs: list[str]) -> tuple[list[str], int, int]:
+        """Drop leading/trailing pure-blank lines from a material interior.
+
+        Fourth-cut A: marker ±1 padding can place blank lines at the interior
+        edges and collide with neighboring units. Substantive content is kept;
+        empty result is returned for the caller to treat as unresolved.
+        """
+        if not refs:
+            return [], 0, 0
+        lead = 0
+        while lead < len(refs):
+            line = self._idx.get(refs[lead])
+            if line.text and line.text.strip():
+                break
+            lead += 1
+        trail = 0
+        while trail < len(refs) - lead:
+            line = self._idx.get(refs[len(refs) - 1 - trail])
+            if line.text and line.text.strip():
+                break
+            trail += 1
+        end = len(refs) - trail
+        if lead >= end:
+            return [], lead, trail
+        return refs[lead:end], lead, trail
+
+    def _material_span(self, out, unit_id, t):
+        sm = t.start_marker or {}
+        em = t.end_marker or {}
+        granularity = sm.get("granularity")
+        if granularity == "multi_line_pair":
+            sq, eq = sm.get("text"), em.get("text")
+            if not sq or not eq:
+                out.add_unresolved(t, "incomplete",
+                                   ("material pair requires start+end marker text",))
+                return
+            st, s_refs, s_extra = self._resolve_marker_cascade(sq)
+            et, e_refs, e_extra = self._resolve_marker_cascade(eq)
+            if not _is_resolved(st):
+                self._unresolved_marker(out, t, st, "start", sq)
+                return
+            if not _is_resolved(et):
+                self._unresolved_marker(out, t, et, "end", eq)
+                return
+            s_seq = self._idx.seq_of(s_refs[0])
+            e_seq = self._idx.seq_of(e_refs[0])
+            if e_seq <= s_seq + 1:
+                out.add_unresolved(t, "incomplete",
+                                   ("material interior empty (markers adjacent)",))
+                return
+            # material 正文 = start/end marker **之间**（排他，instruction 行不进材料）。
+            raw_refs = [l.line_ref for l in self._idx.between(s_seq + 1, e_seq)]
+            # Fourth-cut A: trim leading/trailing pure-blank padding lines.
+            refs, lead_n, trail_n = self._trim_blank_edge_refs(raw_refs)
+            if not refs:
+                out.add_unresolved(t, "incomplete",
+                                   ("material interior empty after blank trim",))
+                return
+            status = "exact" if st == "exact" and et == "exact" else \
+                ("contextual" if "contextual" in (st, et) else "normalized")
+            out.add_span(unit_id, t, refs, status,
+                         ("material between markers", sq, "…", eq,
+                          f"trim_blanks lead={lead_n} trail={trail_n}",
+                          *s_extra, *e_extra))
+            return
+        q = sm.get("text")
+        if not q:
+            out.add_unresolved(t, "incomplete", ("material marker text missing",))
+            return
+        status, hits, extra = self._resolve_marker_cascade(q)
+        if not _is_resolved(status):
+            self._unresolved_marker(out, t, status, "marker", q)
+            return
+        if granularity == "line_fragment":
+            out.add_fragment_span(unit_id, t, hits[0], q, status,
+                                  ("material fragment", q, *extra))
+            return
+        out.add_span(unit_id, t, [hits[0]], status, ("material marker", q, *extra))
+
+    def _unresolved_marker(self, out, t, status, label, query):
+        out.add_unresolved(t, status, (f"{label} {query!r} not uniquely located",))
+
+    def _resolve_marker_cascade(self, query: str):
+        """marker 文本定位 + contextual 收窄（20 §5.4）。
+
+        contextual 仅允许用确定性 source 边界排除候选（此处=题目区/答案详解区显式表头
+        边界），**不得**用文本相似度 / nearest / first-match。机器不变量：
+        contextual ⇒ initial>1 ⇒ final==1。
+        返回 (status, refs, extra_evidence)。
+        """
+        status, refs = _locate(query, self._idx)
+        if status == "ambiguous":
+            in_zone = [r for r in refs if self._idx.seq_of(r) < self._qzone_end]
+            if len(in_zone) == 1 and len(refs) > 1:
+                extra = tuple(
+                    f"excluded {r} (outside question zone)" for r in refs if r not in in_zone
+                )
+                return "contextual", in_zone, extra
+        return status, refs, ()
+
+    def _evidence_line_refs(self, start_no: int, end_no: int) -> list[str] | None:
+        """Producer inclusive 1-based line numbers → line_refs.
+
+        Preprocessing convention (source_loader): single-page markdown with
+        line_ref = P1L{line_no:03d}. Missing any declared line → None
+        (no guessing / no partial range).
+        """
+        refs: list[str] = []
+        for n in range(start_no, end_no + 1):
+            ref = f"P1L{n:03d}"
+            try:
+                self._idx.get(ref)
+            except KeyError:
+                return None
+            refs.append(ref)
+        return refs
+
+    def _answer_span(self, out, unit_id, t):
+        qn = t.question_number
+        if not qn:
+            out.add_unresolved(t, "incomplete", ("answer needs question_label",))
+            return
+
+        # B3c-A evidence transport: declared Producer answer_lines is the
+        # authoritative answer-evidence range. Do not re-scan the whole
+        # answer_zone to guess which line holds the answer (defects A/C).
+        el = getattr(t, "evidence_lines", None)
+        if el is not None:
+            refs = self._evidence_line_refs(el[0], el[1])
+            if refs is None:
+                out.add_unresolved(
+                    t, "incomplete",
+                    ("answer evidence range not fully bound to source lines",
+                     f"declared={el[0]}-{el[1]}"),
+                )
+                return
+            if len(refs) > 1:
+                # Multi-line evidence block: the declared range IS the answer
+                # evidence. Canonical token extraction from a multi-line block
+                # is NOT SPECIFIED (AnswerTokenContract) — bind the range as a
+                # line span and leave token choice to the Contract (likely
+                # pending_review). Do not invent "last line" / "故选" heuristics.
+                out.add_span(
+                    unit_id, t, refs, "exact",
+                    ("answer evidence range",
+                     f"lines={el[0]}-{el[1]}",
+                     "multi-line block (no token extraction)"),
+                )
+                return
+            # Single-line evidence: keep the existing AnswerTokenContract
+            # char-slice path (qn-entry within the declared line only).
+            line_ref = refs[0]
+            raw = self._idx.get(line_ref).text
+            offs = _entry_offsets(raw, qn)
+            if offs:
+                all_off = [m.start() for m in _ENTRY_RE.finditer(raw)]
+                nxt = next((o for o in all_off if o > offs[0]), len(raw))
+                out.add_char_span(
+                    unit_id, t, line_ref, offs[0], nxt, "exact",
+                    ("answer evidence range", f"lines={el[0]}-{el[1]}",
+                     f"qn={qn}", "single-line entry"),
+                )
+                return
+            # No qn token on the declared line: try B3c-B structured table
+            # consumption (self-describing 题号/答案 rows). Deterministic
+            # same-column lookup only — any failure falls through, no guessing.
+            decoded = decode_answer_table_cell(raw, qn)
+            if decoded is not None:
+                d_start, d_end, d_val = decoded
+                out.add_char_span(
+                    unit_id, t, line_ref, d_start, d_end, "exact",
+                    ("answer evidence range", f"lines={el[0]}-{el[1]}",
+                     "structured_answer_table", f"qn={qn}",
+                     f"cell={d_val}"),
+                )
+                return
+            # No qn token on the declared line: the declared line itself is
+            # the evidence (e.g. bare answer cell). Bind the full line.
+            out.add_span(
+                unit_id, t, [line_ref], "exact",
+                ("answer evidence range", f"lines={el[0]}-{el[1]}",
+                 "single-line full (no qn entry)"),
+            )
+            return
+
+        # Fallback (no declared evidence range): scan answer zone for the
+        # qn-bounded entry. Retained for hand-written annotations / tests.
+        entries: list[tuple[str, int, int]] = []
+        in_zone = False
+        for l in self._idx.lines:
+            norm = normalize_text(l.text)
+            if not in_zone:
+                if is_answer_header(norm):
+                    in_zone = True
+                continue
+            if is_explanation_header(norm):
+                break
+            offs = _entry_offsets(l.text, qn)
+            if offs:
+                # 同行多题答案：本 qn 切片止于本行下一个任意 qn 条目（或无则行尾）。
+                all_off = [m.start() for m in _ENTRY_RE.finditer(l.text)]
+                nxt = next((o for o in all_off if o > offs[0]), len(l.text))
+                entries.append((l.line_ref, offs[0], nxt))
+        if not entries:
+            out.add_unresolved(t, "missing", (f"answer row qn={qn} not found",))
+            return
+        distinct_lines = {e[0] for e in entries}
+        if len(distinct_lines) > 1:
+            out.add_unresolved(t, "ambiguous",
+                               (f"answer row qn={qn} spans multiple lines",))
+            return
+        line_ref, start, end = entries[0]
+        out.add_char_span(unit_id, t, line_ref, start, end, "exact",
+                          ("answer zone", t.zone or "", f"qn={qn}"))
+
+    def _explanation_span(self, out, unit_id, t):
+        qn = t.question_number
+
+        # Existing Producer mechanism (not a heuristic): ManifestUnit.explanation_lines
+        # is the declared explanation-evidence range — same transport as B3c-A
+        # answer_lines. Bind the full declared range; do not invent token lines.
+        el = getattr(t, "evidence_lines", None)
+        if el is not None:
+            refs = self._evidence_line_refs(el[0], el[1])
+            if refs is None:
+                out.add_unresolved(
+                    t, "incomplete",
+                    ("explanation evidence range not fully bound to source lines",
+                     f"declared={el[0]}-{el[1]}"),
+                )
+                return
+            out.add_span(
+                unit_id, t, refs, "exact",
+                ("explanation evidence range", f"lines={el[0]}-{el[1]}"),
+            )
+            return
+
+        # Fallback (no declared range): header scan. A second H-3 header is the
+        # existing region boundary (see the break below); the first header only
+        # opens the region.
+        header_seen = False
+        region: list[str] = []
+        for l in self._idx.lines:
+            norm = normalize_text(l.text)
+            if not header_seen:
+                if is_explanation_header(norm):
+                    header_seen = True
+                continue
+            if is_explanation_header(norm) or is_answer_header(norm):
+                break
+            region.append(l.line_ref)
+        if not header_seen:
+            out.add_unresolved(t, "missing", ("no 详解/解析 header",))
+            return
+        if not region:
+            out.add_unresolved(t, "missing", ("explanation region empty",))
+            return
+        owned = [
+            r for r in region
+            if qn is None or is_question_start(normalize_text(self._idx.get(r).text)) == qn
+        ]
+        if not owned:
+            out.add_unresolved(t, "missing", (f"no explanation row for qn={qn}",))
+            return
+        out.add_span(unit_id, t, owned, "exact", ("explanation", f"qn={qn}"))
+
+    def _image_span(self, out, unit_id, t):
+        ok = [
+            f for f in self._figures
+            if f.page_no is not None and f.bbox and f.placement and f.source
+        ]
+        if not ok:
+            out.add_unresolved(t, "ambiguous", ("no IS-7-complete figure",))
+            return
+        fid = (t.image_ref or {}).get("figure_id")
+        cands = [f for f in ok if fid is None or f.figure_id == fid]
+        if not cands:
+            out.add_unresolved(t, "missing", (f"figure {fid} not found",))
+        elif len(cands) > 1:
+            out.add_unresolved(t, "ambiguous", ("multiple figures",))
+        else:
+            f = cands[0]
+            page_lines = [l.line_ref for l in self._idx.lines if l.page_no == f.page_no]
+            if not page_lines:
+                out.add_unresolved(t, "ambiguous", ("figure page has no lines",))
+                return
+            out.add_span(unit_id, t, page_lines, "exact",
+                         ("image figure", f.figure_id, f"page={f.page_no}"), role_hint="image")
+
+    def _blank_span(self, out, unit_id, t):
+        # blank 须闭合到 sub_question/answer（§5.3）；M1 annotation 无闭合声明 →
+        # incomplete（回 Annotation，段 F 不凭空造闭合）。
+        out.add_unresolved(
+            t, "incomplete",
+            ("blank requires sub_question/answer closure (deferred to 段 F)",),
+        )
+
+    # ------------------------------------------------------------------ relations
+    def _enforce_material_overlap(self, out: _Out) -> None:
+        """E owns source-span overlap validation（20 §5.3 material + §5.5）。
+
+        material span 与任何非 material resolved span、或其他 material span 共享行
+        → material 不得 resolved（demote 为 incomplete unresolved，避免污染 F 输入）。
+        """
+        mats = [s for s in out.resolved if s.role in _MATERIAL_ROLES]
+        if not mats:
+            return
+        non_mats = [s for s in out.resolved if s.role not in _MATERIAL_ROLES]
+        for m in list(mats):
+            mrefs = frozenset(m.line_refs)
+            conflicts = []
+            for o in non_mats:
+                if frozenset(o.line_refs) & mrefs:
+                    conflicts.append(
+                        f"overlaps {o.role} span {o.span_id} ({o.line_refs[0]}..{o.line_refs[-1]})"
+                    )
+            for m2 in mats:
+                if m2.span_id != m.span_id and frozenset(m2.line_refs) & mrefs:
+                    conflicts.append(f"overlaps material {m2.span_id}")
+            if not conflicts:
+                continue
+            out.resolved.remove(m)
+            out.unresolved.append(
+                UnresolvedReference(
+                    reference_id=m.span_id[3:] if m.span_id.startswith("sp-") else m.span_id,
+                    role=m.role, resolution_status="incomplete",
+                    evidence=tuple(conflicts) + ("material overlap → unresolved",),
+                )
+            )
+
+    def _resolve_relations(self, out: _Out, rel_decls):
+        span_id_to_span = {s.span_id: s for s in out.resolved}
+        result: list[ResolvedRelation] = []
+        for rel in rel_decls:
+            target_span = span_id_to_span.get(f"sp-{rel.target_unit_id}")
+            result.append(
+                ResolvedRelation(
+                    relation_id=f"{rel.source_unit_id}->{rel.target_unit_id}",
+                    source_span_id=f"sp-{rel.source_unit_id}",
+                    target_unit_ref=rel.target_unit_id,
+                    relation_type=rel.relation_type,
+                    resolved_target_span_id=target_span.span_id if target_span else None,
+                    status="resolved" if target_span else "unresolved",
+                )
+            )
+        return result

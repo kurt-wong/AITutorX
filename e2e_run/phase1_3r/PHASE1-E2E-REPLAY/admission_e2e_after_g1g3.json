@@ -1,0 +1,269 @@
+{
+  "dataset": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考",
+  "version": "phase0-v0.1",
+  "total_manifests": 9,
+  "total_units": 284,
+  "interface_scope_blocked": 0,
+  "track_a": {
+    "completed": 9,
+    "error": 0,
+    "gate_pass_total": 154,
+    "candidates_total": 227
+  },
+  "track_b": {
+    "completed": 0,
+    "error": 9,
+    "spans_total": 0,
+    "unresolved_total": 0
+  },
+  "papers": [
+    {
+      "paper": "2018北京春季高中会考化学（教师版）(1)",
+      "source": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\化学\\2018北京春季高中会考化学（教师版）(1).md",
+      "units": 40,
+      "prompt_version": "reslice-pilot-v2.1",
+      "track_a": {
+        "track": "A",
+        "status": "completed",
+        "candidates_created": 15,
+        "skipped": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4",
+          "Q5",
+          "Q6",
+          "Q9",
+          "Q19",
+          "Q24",
+          "Q25",
+          "U-req1",
+          "U-req2",
+          "U-req3",
+          "U-req4",
+          "U-req5",
+          "U-req6",
+          "U-cl1",
+          "U-cl2",
+          "U-cl3",
+          "U-org1",
+          "U-org2",
+          "U-org3",
+          "U-cp1",
+          "U-cp2",
+          "U-cp3"
+        ],
+        "gate_pass": 14,
+        "gate_rejected": 0,
+        "pending_review": 1
+      },
+      "track_b": {
+        "track": "B",
+        "status": "error",
+        "error": "sealed source version b5876a65-60ea-43d9-8d17-68164cecb121 is immutable — append on sealed version is forbidden (10 §4.2)"
+      }
+    },
+    {
+      "paper": "2018北京夏季高中会考历史（教师版）(1)",
+      "source": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\历史\\2018北京夏季高中会考历史（教师版）(1).md",
+      "units": 53,
+      "prompt_version": "reslice-pilot-v2.1",
+      "track_a": {
+        "track": "A",
+        "status": "completed",
+        "candidates_created": 53,
+        "skipped": [],
+        "gate_pass": 50,
+        "gate_rejected": 3,
+        "pending_review": 0
+      },
+      "track_b": {
+        "track": "B",
+        "status": "error",
+        "error": "sealed source version a5fd2815-c3b7-4832-8446-a9d440b5035c is immutable — append on sealed version is forbidden (10 §4.2)"
+      }
+    },
+    {
+      "paper": "2018北京春季高中会考地理（教师版）(1)",
+      "source": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\地理\\2018北京春季高中会考地理（教师版）(1).md",
+      "units": 25,
+      "prompt_version": "reslice-pilot-v2.1",
+      "track_a": {
+        "track": "A",
+        "status": "completed",
+        "candidates_created": 25,
+        "skipped": [],
+        "gate_pass": 18,
+        "gate_rejected": 2,
+        "pending_review": 5
+      },
+      "track_b": {
+        "track": "B",
+        "status": "error",
+        "error": "sealed source version bc221303-1f15-437f-8f11-9741e629a859 is immutable — append on sealed version is forbidden (10 §4.2)"
+      }
+    },
+    {
+      "paper": "2018北京夏季高中会考政治（教师版）(1)",
+      "source": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\政治\\2018北京夏季高中会考政治（教师版）(1).md",
+      "units": 36,
+      "prompt_version": "reslice-pilot-v2.1",
+      "track_a": {
+        "track": "A",
+        "status": "completed",
+        "candidates_created": 29,
+        "skipped": [
+          "Q6",
+          "Q7",
+          "U9-10",
+          "Q13",
+          "Q14",
+          "Q25",
+          "Q26"
+        ],
+        "gate_pass": 20,
+        "gate_rejected": 0,
+        "pending_review": 9
+      },
+      "track_b": {
+        "track": "B",
+        "status": "error",
+        "error": "sealed source version 9a8fedd7-50ca-4e98-a913-7e12ad863376 is immutable — append on sealed version is forbidden (10 §4.2)"
+      }
+    },
+    {
+      "paper": "2018北京春季高中会考数学（教师版）(1)",
+      "source": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\数学\\2018北京春季高中会考数学（教师版）(1).md",
+      "units": 30,
+      "prompt_version": "reslice-pilot-v2.1",
+      "track_a": {
+        "track": "A",
+        "status": "completed",
+        "candidates_created": 30,
+        "skipped": [],
+        "gate_pass": 0,
+        "gate_rejected": 0,
+        "pending_review": 30
+      },
+      "track_b": {
+        "track": "B",
+        "status": "error",
+        "error": "sealed source version 4bc3b8d5-de28-43a1-b510-4db072c0f7f7 is immutable — append on sealed version is forbidden (10 §4.2)"
+      }
+    },
+    {
+      "paper": "2018北京春季高中会考物理（教师版）(1)",
+      "source": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\物理\\2018北京春季高中会考物理（教师版）(1).md",
+      "units": 22,
+      "prompt_version": "reslice-pilot-v2.1",
+      "track_a": {
+        "track": "A",
+        "status": "completed",
+        "candidates_created": 21,
+        "skipped": [
+          "Q16"
+        ],
+        "gate_pass": 13,
+        "gate_rejected": 0,
+        "pending_review": 8
+      },
+      "track_b": {
+        "track": "B",
+        "status": "error",
+        "error": "sealed source version 5e22f96c-0f33-49a1-b8cd-933ed49a6571 is immutable — append on sealed version is forbidden (10 §4.2)"
+      }
+    },
+    {
+      "paper": "2018北京春季高中会考生物（教师版）(1)",
+      "source": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\生物\\2018北京春季高中会考生物（教师版）(1).md",
+      "units": 50,
+      "prompt_version": "reslice-pilot-v2.1",
+      "track_a": {
+        "track": "A",
+        "status": "completed",
+        "candidates_created": 29,
+        "skipped": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4",
+          "Q5",
+          "Q6",
+          "Q7",
+          "Q8",
+          "Q9",
+          "Q10",
+          "Q30",
+          "Q41",
+          "Q42",
+          "Q43",
+          "Q44",
+          "Q45",
+          "Q46",
+          "Q47",
+          "Q48",
+          "Q49",
+          "Q50"
+        ],
+        "gate_pass": 29,
+        "gate_rejected": 0,
+        "pending_review": 0
+      },
+      "track_b": {
+        "track": "B",
+        "status": "error",
+        "error": "sealed source version ecf38cae-1c2d-4489-b76e-baff6e7fffa6 is immutable — append on sealed version is forbidden (10 §4.2)"
+      }
+    },
+    {
+      "paper": "2018北京春季高中会考英语（教师版）(1)",
+      "source": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\英语\\2018北京春季高中会考英语（教师版）(1).md",
+      "units": 18,
+      "prompt_version": "reslice-pilot-v2.1",
+      "track_a": {
+        "track": "A",
+        "status": "completed",
+        "candidates_created": 15,
+        "skipped": [
+          "Q3",
+          "Q21-25",
+          "Q61"
+        ],
+        "gate_pass": 8,
+        "gate_rejected": 0,
+        "pending_review": 7
+      },
+      "track_b": {
+        "track": "B",
+        "status": "error",
+        "error": "sealed source version 3762f0ed-18d1-468e-996e-1a4a41c96b4d is immutable — append on sealed version is forbidden (10 §4.2)"
+      }
+    },
+    {
+      "paper": "2018北京春季高中会考语文（教师版）(1)",
+      "source": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\语文\\2018北京春季高中会考语文（教师版）(1).md",
+      "units": 10,
+      "prompt_version": "reslice-pilot-v2.1",
+      "track_a": {
+        "track": "A",
+        "status": "completed",
+        "candidates_created": 10,
+        "skipped": [],
+        "gate_pass": 2,
+        "gate_rejected": 0,
+        "pending_review": 8
+      },
+      "track_b": {
+        "track": "B",
+        "status": "error",
+        "error": "sealed source version 294a5431-dc47-4437-be8c-56f0f67ae538 is immutable — append on sealed version is forbidden (10 §4.2)"
+      }
+    }
+  ],
+  "contract_gaps": [],
+  "summary": {
+    "track_a_completion_rate": 1.0,
+    "track_b_completion_rate": 0.0,
+    "total_contract_gaps": 0
+  }
+}

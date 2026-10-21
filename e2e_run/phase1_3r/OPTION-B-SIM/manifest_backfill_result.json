@@ -1,0 +1,62 @@
+[
+  {
+    "paper": "化学",
+    "unit": "Q23",
+    "manifest": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\化学\\2018北京春季高中会考化学（教师版）(1).manifest.json",
+    "old_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "new_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "changed": true,
+    "notes": [
+      "Q23: recovered option labels ['D'] from source-local structure within options_lines=[188,194]"
+    ]
+  },
+  {
+    "paper": "数学",
+    "unit": "Q4",
+    "manifest": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\数学\\2018北京春季高中会考数学（教师版）(1).manifest.json",
+    "old_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "new_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "changed": true,
+    "notes": [
+      "Q4: recovered option labels ['D'] from source-local structure within options_lines=[21,23]"
+    ]
+  },
+  {
+    "paper": "历史",
+    "unit": "Q29",
+    "manifest": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\历史\\2018北京夏季高中会考历史（教师版）(1).manifest.json",
+    "old_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "new_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "changed": true,
+    "notes": [
+      "Q29: recovered option labels ['D'] from source-local structure within options_lines=[301,307]"
+    ]
+  }
+]

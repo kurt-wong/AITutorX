@@ -1,0 +1,349 @@
+{
+  "task": "P1.4-B Phase 1 READ-ONLY pre-repair impact simulation",
+  "baseline": {
+    "commit": "af70d64",
+    "gate_auto": 154,
+    "pending_review": 68,
+    "rejected": 5,
+    "option_survey": {
+      "A": 151,
+      "B": 3,
+      "C": 1,
+      "D": 29,
+      "F": 23,
+      "F0": 7
+    }
+  },
+  "rules": {
+    "no_assumption": "B=3 → auto+3 is FORBIDDEN; measured only",
+    "authority": "Answer Evidence must NOT generate Option Evidence",
+    "simulated_label_source": "SOURCE-LOCAL deterministic structure only",
+    "production_changes": "NONE"
+  },
+  "samples": [
+    {
+      "sample": "Chemistry Q23",
+      "paper": "化学",
+      "root": "Q23",
+      "form": "trailing_label_lost",
+      "form_desc": "4th option content present; `D．` label token dropped",
+      "source_proof": "L194 ionic equation content, no label token; L188/190/192 have A．B．C．",
+      "simulated_label_source": "SOURCE-LOCAL: parallel label sequence A./B./C. + 4th content position in options_lines=(188,194); NOT from answer",
+      "authority_check": "simulated label from SOURCE-LOCAL structure ONLY; answer not used to create label",
+      "old_declared_labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "simulated_new_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "old_answer_evidence": {
+        "text_preview": "D",
+        "canonical_type": "single_choice",
+        "cleaned_answer": "D",
+        "parsed_letter": "D",
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "answer_in_labels": false,
+        "verify_result": null
+      },
+      "simulated_answer_evidence": {
+        "cleaned_answer": "D",
+        "parsed_letter": "D",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer_in_labels": true,
+        "verify_result": true,
+        "note": "answer text UNCHANGED; only labels list differs"
+      },
+      "answer_in_old_labels": false,
+      "answer_in_simulated_labels": true,
+      "old_gate_decision": {
+        "decision": "pending_review",
+        "structural": "pass",
+        "provenance": "pass",
+        "semantic": "pass",
+        "admission": "fail",
+        "reasons": [
+          "leaf 'Q23' answer grammar: answer not expressible as canonical value"
+        ]
+      },
+      "simulated_gate_decision_full_evaluate": {
+        "decision": "rejected",
+        "structural": "fail",
+        "provenance": "fail",
+        "semantic": "pass",
+        "admission": "fail",
+        "reasons": [
+          "leaf 'Q23' role 'option' span 'sim-option-label' not traceable in ResolvedRun",
+          "leaf 'Q23' option text_hash mismatch (evidence broken)",
+          "span 'sim-option-label' (option) resolution=missing not byte-proven; requires manual review"
+        ]
+      },
+      "simulated_gate_error": null,
+      "simulated_decision_grammar_path": "auto_approve",
+      "other_layers_pass": true,
+      "simulated_reason_delta": [
+        "grammar.verify: None -> True",
+        "decision(grammar-path): pending_review -> auto_approve",
+        "answer_in_labels: False -> True"
+      ],
+      "auto_delta_if_repair": 1,
+      "auto_delta_reason": "grammar flip enables auto IF no other blockers (see other_layers_pass)",
+      "boundary": {
+        "question_boundary": [
+          186,
+          186
+        ],
+        "options_lines": [
+          188,
+          194
+        ],
+        "boundary_precision_issue": "observed: options_lines outside questions_lines",
+        "b_repair_depends_on_boundary": false,
+        "note": "B label recognition uses options_lines content span + label token form; does NOT require changing question boundary semantics. boundary_precision_issue remains OBSERVED only (stop-condition monitor)."
+      }
+    },
+    {
+      "sample": "Math Q4",
+      "paper": "数学",
+      "root": "Q4",
+      "form": "glued_label",
+      "form_desc": "4th option content present; label glued as `2D.`",
+      "source_proof": "L23 `C. ...对称 2D. 关于直线 y= -x 对称`; digit `2` is boundary glue",
+      "simulated_label_source": "SOURCE-LOCAL: digit-glued `2D.` deterministic parse (strip leading digit glue) → label D + content 关于直线 y= -x 对称; NOT from answer",
+      "authority_check": "simulated label from SOURCE-LOCAL structure ONLY; answer not used to create label",
+      "old_declared_labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "simulated_new_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "old_answer_evidence": {
+        "text_preview": "4.\n\n【考点】余弦函数的图象.\n\n【分析】根据当自变量相同时，它们的函数值相反，可得它们的图象关于x轴对称.\n\n【解答】解：由于当自变量相同时，它们的函数值相反，故它们的图象关于x轴对称，故选：A.",
+        "canonical_type": "single_choice",
+        "cleaned_answer": "【考点】余弦函数的图象.\n\n【分析】根据当自变量相同时，它们的函数值相反，可得它们的图象关于x轴对称.\n\n【解答】解：由于当自变量相同时，它们的函数值相反，故它们的图象关于x轴对称，故选：A.",
+        "parsed_letter": null,
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "answer_in_labels": null,
+        "verify_result": null
+      },
+      "simulated_answer_evidence": {
+        "cleaned_answer": "【考点】余弦函数的图象.\n\n【分析】根据当自变量相同时，它们的函数值相反，可得它们的图象关于x轴对称.\n\n【解答】解：由于当自变量相同时，它们的函数值相反，故它们的图象关于x轴对称，故选：A.",
+        "parsed_letter": null,
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer_in_labels": null,
+        "verify_result": null,
+        "note": "answer text UNCHANGED; only labels list differs"
+      },
+      "answer_in_old_labels": null,
+      "answer_in_simulated_labels": null,
+      "old_gate_decision": {
+        "decision": "pending_review",
+        "structural": "pass",
+        "provenance": "pass",
+        "semantic": "pass",
+        "admission": "fail",
+        "reasons": [
+          "leaf 'Q4' answer grammar: answer not expressible as canonical value"
+        ]
+      },
+      "simulated_gate_decision_full_evaluate": {
+        "decision": "rejected",
+        "structural": "fail",
+        "provenance": "fail",
+        "semantic": "pass",
+        "admission": "fail",
+        "reasons": [
+          "leaf 'Q4' role 'option' span 'sim-option-label' not traceable in ResolvedRun",
+          "leaf 'Q4' option text_hash mismatch (evidence broken)",
+          "span 'sim-option-label' (option) resolution=missing not byte-proven; requires manual review"
+        ]
+      },
+      "simulated_gate_error": null,
+      "simulated_decision_grammar_path": "pending_review",
+      "other_layers_pass": true,
+      "simulated_reason_delta": [],
+      "auto_delta_if_repair": 0,
+      "auto_delta_reason": "label repair alone does NOT flip gate to auto (verify None->None; decision stays pending_review)",
+      "boundary": {
+        "question_boundary": [
+          19,
+          19
+        ],
+        "options_lines": [
+          21,
+          23
+        ],
+        "boundary_precision_issue": "observed: options_lines outside questions_lines",
+        "b_repair_depends_on_boundary": false,
+        "note": "B label recognition uses options_lines content span + label token form; does NOT require changing question boundary semantics. boundary_precision_issue remains OBSERVED only (stop-condition monitor)."
+      }
+    },
+    {
+      "sample": "History Q29",
+      "paper": "历史",
+      "root": "Q29",
+      "form": "separator_loss",
+      "form_desc": "4th option content present; label `D ` missing `.` separator",
+      "source_proof": "L307 `D 麦哲伦`; L301-305 have A. B. C.",
+      "simulated_label_source": "SOURCE-LOCAL: line-start `D` + CJK content parallel to A./B./C. → label D with missing separator; NOT from answer",
+      "authority_check": "simulated label from SOURCE-LOCAL structure ONLY; answer not used to create label",
+      "old_declared_labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "simulated_new_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "old_answer_evidence": {
+        "text_preview": "29. 【答案】C",
+        "canonical_type": "single_choice",
+        "cleaned_answer": "【答案】C",
+        "parsed_letter": "C",
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "answer_in_labels": true,
+        "verify_result": true
+      },
+      "simulated_answer_evidence": {
+        "cleaned_answer": "【答案】C",
+        "parsed_letter": "C",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer_in_labels": true,
+        "verify_result": true,
+        "note": "answer text UNCHANGED; only labels list differs"
+      },
+      "answer_in_old_labels": true,
+      "answer_in_simulated_labels": true,
+      "old_gate_decision": {
+        "decision": "auto_approve",
+        "structural": "pass",
+        "provenance": "pass",
+        "semantic": "pass",
+        "admission": "pass",
+        "reasons": [
+          "strict-auto: all answers verified_correct=true"
+        ]
+      },
+      "simulated_gate_decision_full_evaluate": {
+        "decision": "rejected",
+        "structural": "fail",
+        "provenance": "fail",
+        "semantic": "pass",
+        "admission": "fail",
+        "reasons": [
+          "leaf 'Q29' role 'option' span 'sim-option-label' not traceable in ResolvedRun",
+          "leaf 'Q29' option text_hash mismatch (evidence broken)",
+          "span 'sim-option-label' (option) resolution=missing not byte-proven; requires manual review",
+          "leaf 'Q29' answer span 'sp-Q29.answer' overlaps explanation region at lines ['P1L831'] (role provenance diagnostic)"
+        ]
+      },
+      "simulated_gate_error": null,
+      "simulated_decision_grammar_path": "auto_approve",
+      "other_layers_pass": true,
+      "simulated_reason_delta": [],
+      "auto_delta_if_repair": 0,
+      "auto_delta_reason": "already auto; label repair does not change AnswerTokenContract",
+      "boundary": {
+        "question_boundary": [
+          299,
+          299
+        ],
+        "options_lines": [
+          301,
+          307
+        ],
+        "boundary_precision_issue": "observed: options_lines outside questions_lines",
+        "b_repair_depends_on_boundary": false,
+        "note": "B label recognition uses options_lines content span + label token form; does NOT require changing question boundary semantics. boundary_precision_issue remains OBSERVED only (stop-condition monitor)."
+      }
+    }
+  ],
+  "rollup": {
+    "b_samples": 3,
+    "sum_auto_delta_if_repair": 1,
+    "conclusion": "Simulated auto delta for repairing all 3 B labels = 1 (NOT 3). Per-sample reasons in samples[].auto_delta_reason.",
+    "refined_conclusion": "Measured auto delta if all 3 B labels repaired = 1 (Chem Q23 only). Math Q4: 0 (answer text is multi-line teacher block, AnswerTokenContract still fails). History Q29: 0 (already auto_approve with labels A,B,C; answer C). B=3 → auto+3 is FALSIFIED by measurement."
+  },
+  "simulation_method": {
+    "meaningful_prediction": "simulated_decision_grammar_path + other_layers_pass",
+    "full_evaluate_artifact": "simulated_gate_decision_full_evaluate injects a SYNTHETIC span (span_id=sim-option-label, text_hash=sim) that is NOT in ResolvedRun. Gate therefore reports structural/provenance fail → rejected. This is a SIMULATION ARTIFACT, NOT the post-repair prediction.",
+    "real_fix_would": "Producer recognizes damaged label from source-local form, then binds the ALREADY-PRESENT option content (Q23 L194 / Math Q4 L23 / History Q29 L307) as a real ResolvedSpan with exact resolution. Then structural/provenance stay pass and only grammar.verify changes.",
+    "grammar_path_is_authoritative_for_delta": true
+  },
+  "boundary_precision": {
+    "chem_Q23": {
+      "q_boundary": [
+        186,
+        186
+      ],
+      "options_lines": [
+        188,
+        194
+      ],
+      "issue": "observed"
+    },
+    "math_Q4": {
+      "q_boundary": [
+        19,
+        19
+      ],
+      "options_lines": [
+        21,
+        23
+      ],
+      "issue": "observed"
+    },
+    "history_Q29": {
+      "q_boundary": [
+        299,
+        299
+      ],
+      "options_lines": [
+        301,
+        307
+      ],
+      "issue": "observed"
+    },
+    "b_repair_depends_on_boundary_change": false,
+    "stop_condition_monitor": "If implementing B fix requires changing question boundary semantics → STOP."
+  }
+}

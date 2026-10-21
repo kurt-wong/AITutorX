@@ -1,0 +1,218 @@
+{
+  "root_scope": {
+    "units_total": 10,
+    "incomplete": 57,
+    "ready": 227,
+    "gate_auto_approve": 78,
+    "eligible_table": 97,
+    "eligible_auto": 76,
+    "gate_pending_review": 144,
+    "eligible_not_auto": 21,
+    "eligible_not_auto_pending_review": 19,
+    "gate_rejected": 5,
+    "eligible_not_auto_rejected": 2
+  },
+  "leaf_scope": {
+    "leaves_total": 284,
+    "eligible_table": 126
+  },
+  "ir_blockers_leaf": {
+    "stem_unresolved": 47,
+    "options_missing": 7,
+    "answer_unresolved": 6
+  },
+  "gate_blockers_root": {
+    "answer_grammar_not_expressible": 36,
+    "provenance_role_region": 77,
+    "span_resolution_not_exact": 72,
+    "qtype_not_strict_auto": 41
+  },
+  "eligible_not_auto_detail": [
+    {
+      "paper": "化学",
+      "root": "Q23",
+      "decision": "pending_review",
+      "gate_kinds": [
+        "answer_grammar_not_expressible"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U1-2",
+      "decision": "pending_review",
+      "gate_kinds": [
+        "provenance_role_region",
+        "span_resolution_not_exact"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U3-5",
+      "decision": "pending_review",
+      "gate_kinds": [
+        "provenance_role_region",
+        "span_resolution_not_exact"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U6-7",
+      "decision": "pending_review",
+      "gate_kinds": [
+        "provenance_role_region",
+        "span_resolution_not_exact"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U8-9",
+      "decision": "pending_review",
+      "gate_kinds": [
+        "provenance_role_region",
+        "span_resolution_not_exact"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U10-12",
+      "decision": "pending_review",
+      "gate_kinds": [
+        "provenance_role_region",
+        "span_resolution_not_exact"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U13-15",
+      "decision": "pending_review",
+      "gate_kinds": [
+        "provenance_role_region",
+        "span_resolution_not_exact"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U16-17",
+      "decision": "rejected",
+      "gate_kinds": [
+        "provenance_role_region"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U18-20",
+      "decision": "pending_review",
+      "gate_kinds": [
+        "provenance_role_region",
+        "span_resolution_not_exact"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U21-23",
+      "decision": "pending_review",
+      "gate_kinds": [
+        "provenance_role_region",
+        "span_resolution_not_exact"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U24-25",
+      "decision": "pending_review",
+      "gate_kinds": [
+        "provenance_role_region",
+        "span_resolution_not_exact"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U26-29",
+      "decision": "rejected",
+      "gate_kinds": [
+        "provenance_role_region"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U30-31",
+      "decision": "pending_review",
+      "gate_kinds": [
+        "provenance_role_region",
+        "span_resolution_not_exact"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U32-33",
+      "decision": "pending_review",
+      "gate_kinds": [
+        "provenance_role_region",
+        "span_resolution_not_exact"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U34-35",
+      "decision": "pending_review",
+      "gate_kinds": [
+        "provenance_role_region",
+        "span_resolution_not_exact"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U36-39",
+      "decision": "pending_review",
+      "gate_kinds": [
+        "provenance_role_region",
+        "span_resolution_not_exact"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U40-41",
+      "decision": "pending_review",
+      "gate_kinds": [
+        "provenance_role_region",
+        "span_resolution_not_exact"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U42-43",
+      "decision": "pending_review",
+      "gate_kinds": [
+        "provenance_role_region",
+        "span_resolution_not_exact"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U44-46",
+      "decision": "pending_review",
+      "gate_kinds": [
+        "provenance_role_region",
+        "span_resolution_not_exact"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U47-48",
+      "decision": "pending_review",
+      "gate_kinds": [
+        "provenance_role_region",
+        "span_resolution_not_exact"
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U49-50",
+      "decision": "pending_review",
+      "gate_kinds": [
+        "provenance_role_region",
+        "span_resolution_not_exact"
+      ]
+    }
+  ]
+}

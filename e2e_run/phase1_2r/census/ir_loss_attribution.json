@@ -1,0 +1,49 @@
+{
+  "captured_at": "2026-10-02T05:17:20.750157+00:00",
+  "ir_ready": 35,
+  "ir_not_ready": 249,
+  "primary_reason_distribution": {
+    "option_incomplete": 15,
+    "answer_ambiguous": 15,
+    "answer_missing": 161,
+    "stem_ambiguous": 3,
+    "material_missing_or_incomplete": 54,
+    "stem_missing": 1
+  },
+  "attribution": {
+    "reference_loss_attributable": 249,
+    "reference_loss_partial": 0,
+    "no_reference_loss": 0
+  },
+  "primary_reason_rule": "priority order: material_missing_or_incomplete > answer_missing > answer_ambiguous > option_incomplete > option_ambiguous > stem_missing > stem_ambiguous > group_related > other",
+  "causality_note": "reference_loss_attributable = not-ready AND adapter_reference_loss_any AND primary in {material/answer/option/stem missing/incomplete/ambiguous family}; this is co-occurrence + code-path evidence, not a counterfactual. Counterfactual handled in controlled_position_injection.json",
+  "controlled_counterfactual": {
+    "ir_ready_A_as_is": 35,
+    "ir_ready_B_position_injected": 35,
+    "delta": 0,
+    "meaning": "Injecting producer start_line/end_line into existing role dicts does NOT change IR Ready. Production extract_targets does not read those fields (reference.py _stem/_option/_answer_target)."
+  },
+  "causality": {
+    "verified": [
+      "Adapter drops producer position fields (code + census)",
+      "Resolver reference model ignores start_line/end_line (reference.py)",
+      "Payload-only position injection leaves IR Ready unchanged (A=B=35)"
+    ],
+    "not_established": [
+      "That adapter position-drop alone causes the 249 IR failures under the CURRENT contract"
+    ],
+    "revised_attribution": {
+      "co_occurrence_adapter_drop_and_not_ready": 249,
+      "causal_via_position_injection": 0,
+      "primary_reason_distribution_unchanged": {
+        "option_incomplete": 15,
+        "answer_ambiguous": 15,
+        "answer_missing": 161,
+        "stem_ambiguous": 3,
+        "material_missing_or_incomplete": 54,
+        "stem_missing": 1
+      }
+    }
+  },
+  "revised_at": "2026-10-02T05:18:35.379111+00:00"
+}

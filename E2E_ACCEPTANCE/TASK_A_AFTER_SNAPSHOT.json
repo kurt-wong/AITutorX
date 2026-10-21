@@ -1,0 +1,707 @@
+{
+  "task": "A before/after content-span snapshot",
+  "invariants_target": {
+    "root": 284,
+    "ready": 227,
+    "incomplete": 57,
+    "rejected_root_scope": 62,
+    "D29": "decomposition surface unchanged (separate)"
+  },
+  "after_measure": {
+    "数学": {
+      "root": 30,
+      "ready": 30,
+      "incomplete": 0,
+      "leaves": 30,
+      "gate": {
+        "pending_review": 30
+      },
+      "rejected_root_scope": 0,
+      "labels_out_of_range": [],
+      "q20_options": [
+        [
+          "A",
+          " 1"
+        ],
+        [
+          "B",
+          " a"
+        ],
+        [
+          "C",
+          " 2"
+        ],
+        [
+          "D",
+          "  $ a^{2} $"
+        ]
+      ],
+      "samples": {
+        "Q1": [
+          [
+            "A",
+            " 1"
+          ],
+          [
+            "B",
+            " 2"
+          ],
+          [
+            "C",
+            "  $ \\pi $"
+          ],
+          [
+            "D",
+            "  $ 2\\pi $"
+          ]
+        ],
+        "Q4": [
+          [
+            "A",
+            " 关于 x 轴对称"
+          ],
+          [
+            "B",
+            " 关于 y 轴对称"
+          ],
+          [
+            "C",
+            " 关于直线 y=x 对称"
+          ],
+          [
+            "D",
+            " 关于直线 y= -x 对称"
+          ]
+        ],
+        "Q7": [
+          [
+            "A",
+            " 800"
+          ],
+          [
+            "B",
+            " 900"
+          ],
+          [
+            "C",
+            " 1000"
+          ],
+          [
+            "D",
+            " 1100"
+          ]
+        ],
+        "Q17": [
+          [
+            "A",
+            " ①③"
+          ],
+          [
+            "B",
+            " ①④"
+          ],
+          [
+            "C",
+            " ②③"
+          ],
+          [
+            "D",
+            " ②④"
+          ]
+        ]
+      }
+    },
+    "物理": {
+      "root": 22,
+      "ready": 21,
+      "incomplete": 1,
+      "leaves": 21,
+      "gate": {
+        "auto_approve": 13,
+        "pending_review": 8
+      },
+      "rejected_root_scope": 0,
+      "labels_out_of_range": [],
+      "q20_options": null,
+      "samples": {
+        "Q1": [
+          [
+            "A",
+            " 质量"
+          ],
+          [
+            "B",
+            " 时间"
+          ],
+          [
+            "C",
+            " 路程"
+          ],
+          [
+            "D",
+            " 速度"
+          ]
+        ],
+        "Q4": [
+          [
+            "A",
+            " 只受重力和支持力"
+          ],
+          [
+            "B",
+            " 只受重力和摩擦力"
+          ],
+          [
+            "C",
+            " 只受支持力和摩擦力"
+          ],
+          [
+            "D",
+            " 只受重力、支持力和摩擦力"
+          ]
+        ],
+        "Q7": [
+          [
+            "A",
+            "1.0V"
+          ],
+          [
+            "B",
+            "2.0V"
+          ],
+          [
+            "C",
+            "3.0V"
+          ],
+          [
+            "D",
+            "4.0V"
+          ]
+        ],
+        "Q17": [
+          [
+            "A",
+            " 电梯加速运动时，小明处于失重状态"
+          ],
+          [
+            "B",
+            " 电梯加速运动时，小明处于超重状态"
+          ],
+          [
+            "C",
+            " 电梯匀速运动时，小明处于失重状态"
+          ],
+          [
+            "D",
+            " 电梯匀速运动时，小明处于超重状态"
+          ]
+        ]
+      }
+    },
+    "化学": {
+      "root": 40,
+      "ready": 15,
+      "incomplete": 25,
+      "leaves": 15,
+      "gate": {
+        "auto_approve": 15
+      },
+      "rejected_root_scope": 0,
+      "labels_out_of_range": [
+        [
+          "Q17",
+          [
+            "A",
+            "B",
+            "H",
+            "C",
+            "D"
+          ]
+        ],
+        [
+          "Q20",
+          [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        ]
+      ],
+      "q20_options": [
+        [
+          "A",
+          " 火山喷发、森林火灾会产生SO $ _{2} $"
+        ],
+        [
+          "B",
+          " 氢、氧两种元素没有参与硫的"
+        ],
+        [
+          "C",
+          " 工厂产生的烟气应经脱硫处理后再排放"
+        ],
+        [
+          "D",
+          " 硫在自然界的循环过程中，涉及了氧"
+        ],
+        [
+          "E",
+          "还原反应"
+        ]
+      ],
+      "samples": {
+        "Q7": [
+          [
+            "A",
+            " KCl 溶液"
+          ],
+          [
+            "B",
+            "  $ C_{2}H_{5}OH $ 溶液"
+          ],
+          [
+            "C",
+            "  $ H_{2}SO_{4} $ 溶液"
+          ],
+          [
+            "D",
+            "  $ \\mathrm{Fe(OH)}_{3} $ 胶体"
+          ]
+        ],
+        "Q17": [
+          [
+            "A",
+            " Cl: Cl"
+          ],
+          [
+            "B",
+            "B. H: O: H"
+          ],
+          [
+            "H",
+            " O: H"
+          ],
+          [
+            "C",
+            " Na: Cl:"
+          ],
+          [
+            "D",
+            "D. H: N: H"
+          ]
+        ]
+      }
+    },
+    "英语": {
+      "root": 18,
+      "ready": 15,
+      "incomplete": 3,
+      "leaves": 15,
+      "gate": {
+        "auto_approve": 8,
+        "pending_review": 7
+      },
+      "rejected_root_scope": 0,
+      "labels_out_of_range": [],
+      "q20_options": null,
+      "samples": {}
+    },
+    "语文": {
+      "root": 10,
+      "ready": 10,
+      "incomplete": 0,
+      "leaves": 10,
+      "gate": {
+        "pending_review": 8,
+        "auto_approve": 2
+      },
+      "rejected_root_scope": 0,
+      "labels_out_of_range": [],
+      "q20_options": null,
+      "samples": {
+        "Q7": [
+          [
+            "A",
+            " “微风早经停息了；枯草支支直立，有如铜丝。一丝发抖的声音，在空气中愈颤愈细，细到没有，周围便都是死一般静。……许多的工夫过去了；上坟的人渐渐增多，几个老的小的，在土坟间出没。”这是《药》中描绘的清明节的景象。"
+          ],
+          [
+            "B",
+            " “当地妇女小孩子，莫不穿了新衣，额角上用雄黄蘸酒画了个王字。……大约上午十一点钟左右，全茶峒人就吃了午饭，把饭吃过后，在城里住家的，莫不倒锁了门，全家出城到河边看划船。”这是《边城》中描绘的端午节的场景。"
+          ],
+          [
+            "C",
+            " “两岸的豆麦和河底的水草所发散出来的清香，夹杂在水气中扑面的吹来；月色便朦胧在这水气里。”这是《社戏》中描绘的中秋节的景色。"
+          ],
+          [
+            "D",
+            " “两府中都换了门神、联对、挂牌，新油了桃符，焕然一新。宁国府从大门、仪门、大厅、暖阁、内厅、内三门、内仪门并内塞门，直到正堂，一路正门大开，两边阶下一色朱红大高照，点的两条金龙一般。”这是《红楼梦》中描绘的除夕的场景。"
+          ]
+        ],
+        "Q17": []
+      }
+    },
+    "政治": {
+      "root": 36,
+      "ready": 29,
+      "incomplete": 7,
+      "leaves": 29,
+      "gate": {
+        "auto_approve": 20,
+        "pending_review": 9
+      },
+      "rejected_root_scope": 0,
+      "labels_out_of_range": [],
+      "q20_options": [
+        [
+          "A",
+          " 文化是经济的基础"
+        ],
+        [
+          "B",
+          " 科技带动文化发展"
+        ],
+        [
+          "C",
+          " 文化能推动经济发展"
+        ],
+        [
+          "D",
+          " 经济促进文化发展"
+        ]
+      ],
+      "samples": {
+        "Q1": [
+          [
+            "A",
+            " 大规模发展"
+          ],
+          [
+            "B",
+            " 高质量发展"
+          ],
+          [
+            "C",
+            " 可持续发展"
+          ],
+          [
+            "D",
+            " 包容性发展"
+          ]
+        ],
+        "Q4": [
+          [
+            "A",
+            " ①②"
+          ],
+          [
+            "B",
+            " ①③"
+          ],
+          [
+            "C",
+            " ②④"
+          ],
+          [
+            "D",
+            " ③④"
+          ]
+        ],
+        "Q17": [
+          [
+            "A",
+            " 继承性"
+          ],
+          [
+            "B",
+            " 多样性"
+          ],
+          [
+            "C",
+            " 同一性"
+          ],
+          [
+            "D",
+            " 稳定性"
+          ]
+        ]
+      }
+    },
+    "地理": {
+      "root": 25,
+      "ready": 25,
+      "incomplete": 0,
+      "leaves": 25,
+      "gate": {
+        "auto_approve": 18,
+        "rejected": 2,
+        "pending_review": 5
+      },
+      "rejected_root_scope": 2,
+      "labels_out_of_range": [],
+      "q20_options": null,
+      "samples": {}
+    },
+    "历史": {
+      "root": 53,
+      "ready": 53,
+      "incomplete": 0,
+      "leaves": 53,
+      "gate": {
+        "auto_approve": 50,
+        "rejected": 3
+      },
+      "rejected_root_scope": 3,
+      "labels_out_of_range": [],
+      "q20_options": [
+        [
+          "A",
+          " 男耕女织"
+        ],
+        [
+          "B",
+          " 精耕细作"
+        ],
+        [
+          "C",
+          " 因地制宜"
+        ],
+        [
+          "D",
+          " 注重农时"
+        ]
+      ],
+      "samples": {
+        "Q1": [
+          [
+            "A",
+            " 禅让制"
+          ],
+          [
+            "B",
+            " 内外服制"
+          ],
+          [
+            "C",
+            " 分封制"
+          ],
+          [
+            "D",
+            " 郡县制"
+          ]
+        ],
+        "Q4": [
+          [
+            "A",
+            " 知县"
+          ],
+          [
+            "B",
+            " 枢密副使"
+          ],
+          [
+            "C",
+            " 知府"
+          ],
+          [
+            "D",
+            " 工部侍郎"
+          ]
+        ],
+        "Q7": [
+          [
+            "A",
+            " 太平天国运动"
+          ],
+          [
+            "B",
+            " 义和团运动"
+          ],
+          [
+            "C",
+            " 辛亥革命"
+          ],
+          [
+            "D",
+            " 国民大革命"
+          ]
+        ],
+        "Q17": [
+          [
+            "A",
+            " 柏林墙的修建"
+          ],
+          [
+            "B",
+            " 联合国的成立"
+          ],
+          [
+            "C",
+            " 欧盟正式成立"
+          ],
+          [
+            "D",
+            " 美国9.11事件"
+          ]
+        ]
+      }
+    },
+    "生物": {
+      "root": 50,
+      "ready": 29,
+      "incomplete": 21,
+      "leaves": 29,
+      "gate": {
+        "auto_approve": 29
+      },
+      "rejected_root_scope": 0,
+      "labels_out_of_range": [],
+      "q20_options": [
+        [
+          "A",
+          " 70%、30%"
+        ],
+        [
+          "B",
+          " 50%、50%"
+        ],
+        [
+          "C",
+          " 80%、20%"
+        ],
+        [
+          "D",
+          " 90%、10%"
+        ]
+      ],
+      "samples": {
+        "Q17": [
+          [
+            "A",
+            " 血液中镰刀状的红细胞易破裂"
+          ],
+          [
+            "B",
+            " 血红蛋白中一个氨基酸不正常"
+          ],
+          [
+            "C",
+            " mRNA中一个碱基发生了改变"
+          ],
+          [
+            "D",
+            " 基因中一个碱基对发生了改变"
+          ]
+        ]
+      }
+    }
+  },
+  "before_from_v2": {
+    "数学": {
+      "n_questions": 30,
+      "gate_display_counts": {
+        "pending_review": 30
+      },
+      "option_anomaly_count": 25
+    },
+    "物理": {
+      "n_questions": 22,
+      "gate_display_counts": {
+        "auto_approve": 13,
+        "no_decision:no_decision_no_leaf": 1,
+        "pending_review": 8
+      },
+      "option_anomaly_count": 8
+    },
+    "化学": {
+      "n_questions": 40,
+      "gate_display_counts": {
+        "no_decision:no_decision_no_leaf": 25,
+        "auto_approve": 15
+      },
+      "option_anomaly_count": 8
+    },
+    "英语": {
+      "n_questions": 18,
+      "gate_display_counts": {
+        "auto_approve": 8,
+        "no_decision:no_decision_no_leaf": 3,
+        "pending_review": 7
+      },
+      "option_anomaly_count": 5
+    },
+    "语文": {
+      "n_questions": 10,
+      "gate_display_counts": {
+        "pending_review": 8,
+        "auto_approve": 2
+      },
+      "option_anomaly_count": 0
+    },
+    "政治": {
+      "n_questions": 36,
+      "gate_display_counts": {
+        "auto_approve": 20,
+        "no_decision:no_decision_no_leaf": 7,
+        "pending_review": 9
+      },
+      "option_anomaly_count": 12
+    },
+    "地理": {
+      "n_questions": 25,
+      "gate_display_counts": {
+        "auto_approve": 18,
+        "rejected": 2,
+        "pending_review": 5
+      },
+      "option_anomaly_count": 17
+    },
+    "历史": {
+      "n_questions": 53,
+      "gate_display_counts": {
+        "auto_approve": 50,
+        "rejected": 3
+      },
+      "option_anomaly_count": 9
+    },
+    "生物": {
+      "n_questions": 50,
+      "gate_display_counts": {
+        "no_decision:no_decision_no_leaf": 21,
+        "auto_approve": 29
+      },
+      "option_anomaly_count": 13
+    }
+  },
+  "checks": {
+    "total_root": 284,
+    "total_ready": 227,
+    "total_incomplete": 57,
+    "total_leaves": 227,
+    "total_rejected": 5,
+    "labels_out_of_range_all": [
+      [
+        "Q17",
+        [
+          "A",
+          "B",
+          "H",
+          "C",
+          "D"
+        ]
+      ],
+      [
+        "Q20",
+        [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ]
+      ]
+    ],
+    "q20_n_opts": 5
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "captured_at": "2026-10-02T05:17:27.523912+00:00",
+  "git_binding": {
+    "branch": "od01-r3-convergence",
+    "head": "39840ff8f0b3d7e9e2c75155ba043a8ed6b03aa4",
+    "match_norm_worktree_blob": "015cdfa515ce23661ac1d9f02fb861869e111363",
+    "match_norm_head_blob": "73badc31fe94d4066f9e53469cb704b11ba8844b",
+    "match_norm_version": "match-norm/v1.1 (dirty)"
+  },
+  "experiment": "harness-only deep-copy of annotation payload with producer line refs injected into role dicts; SourceResolver/IRBuilder/Adapter/Resolver source NOT modified",
+  "not_a_production_run": true,
+  "writes_to_db": false,
+  "total_units": 284,
+  "ir_ready_A_as_is": 35,
+  "ir_ready_B_position_injected": 35,
+  "delta_B_minus_A": 0,
+  "interpretation_rule": {
+    "B_significantly_gt_A": "Q8 REQUIRED (LEVEL 2 interface) has empirical support",
+    "B_approx_A": "positions are not the main cause; Q8 NOT REQUIRED for this mechanism"
+  },
+  "per_document": [
+    {
+      "file_name": "2018北京春季高中会考化学（教师版）(1).md",
+      "source_version_id": "e0d804db-f61c-46f8-a86a-9dafcd0742c3",
+      "units": 40,
+      "ir_ready_A_as_is": 1,
+      "ir_ready_B_position_injected": 1
+    },
+    {
+      "file_name": "2018北京夏季高中会考历史（教师版）(1).md",
+      "source_version_id": "0942fabb-4ab2-43a3-b163-5407244366ce",
+      "units": 53,
+      "ir_ready_A_as_is": 1,
+      "ir_ready_B_position_injected": 1
+    },
+    {
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "units": 25,
+      "ir_ready_A_as_is": 0,
+      "ir_ready_B_position_injected": 0
+    },
+    {
+      "file_name": "2018北京夏季高中会考政治（教师版）(1).md",
+      "source_version_id": "0f7c3e77-dcab-44c4-b1e7-fe80c79f9d4f",
+      "units": 36,
+      "ir_ready_A_as_is": 4,
+      "ir_ready_B_position_injected": 4
+    },
+    {
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "source_version_id": "69b45a6a-031f-41ca-ade1-d029f9e0a2da",
+      "units": 30,
+      "ir_ready_A_as_is": 23,
+      "ir_ready_B_position_injected": 23
+    },
+    {
+      "file_name": "2018北京春季高中会考物理（教师版）(1).md",
+      "source_version_id": "f842285c-328b-4f08-9994-6000e1165c75",
+      "units": 22,
+      "ir_ready_A_as_is": 3,
+      "ir_ready_B_position_injected": 3
+    },
+    {
+      "file_name": "2018北京春季高中会考生物（教师版）(1).md",
+      "source_version_id": "75c7efc6-89ad-49b1-8347-0a5c8ec1c182",
+      "units": 50,
+      "ir_ready_A_as_is": 0,
+      "ir_ready_B_position_injected": 0
+    },
+    {
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "units": 18,
+      "ir_ready_A_as_is": 0,
+      "ir_ready_B_position_injected": 0
+    },
+    {
+      "file_name": "2018北京春季高中会考语文（教师版）(1).md",
+      "source_version_id": "b155783e-7c29-4b9f-a03f-dcaa1e1e6bcb",
+      "units": 10,
+      "ir_ready_A_as_is": 3,
+      "ir_ready_B_position_injected": 3
+    }
+  ]
+}

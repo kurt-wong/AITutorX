@@ -1,0 +1,48 @@
+{
+  "role_a_focus": {
+    "2018北京春季高中会考化学（教师版）(1)": {
+      "papers_lines": 722,
+      "v3_lines": 584,
+      "equal_stripped": false,
+      "first_div": {
+        "line": 1,
+        "papers": "<!-- resliced by mimo-x-pro-preview | source: 2018北京春季高中会考化学（教师版）(1).md | 展示视图，非批注正文 -->",
+        "v3": "# 2018 北京春季高中会考"
+      }
+    },
+    "2018北京夏季高中会考历史（教师版）(1)": {
+      "papers_lines": 1228,
+      "v3_lines": 1045,
+      "equal_stripped": false,
+      "first_div": {
+        "line": 1,
+        "papers": "<!-- resliced by mimo-x-pro-preview | source: 2018北京夏季高中会考历史（教师版）(1).md | 展示视图，非批注正文 -->",
+        "v3": "# 2018 北京夏季高中会考"
+      }
+    },
+    "2018北京春季高中会考数学（教师版）(1)": {
+      "papers_lines": 822,
+      "v3_lines": 749,
+      "equal_stripped": false,
+      "first_div": {
+        "line": 1,
+        "papers": "<!-- resliced by mimo-x-pro-preview | source: 2018北京春季高中会考数学（教师版）(1).md | 展示视图，非批注正文 -->",
+        "v3": "# 2018 北京春季高中会考"
+      }
+    },
+    "2018北京春季高中会考英语（教师版）(1)": {
+      "papers_lines": 541,
+      "v3_lines": 612,
+      "equal_stripped": false,
+      "first_div": {
+        "line": 1,
+        "papers": "<!-- resliced by mimo-x-pro-preview | source: 2018北京春季高中会考英语（教师版）(1).md | 展示视图，非批注正文 -->",
+        "v3": "# 2018 北京春季高中会考"
+      }
+    }
+  },
+  "role_a_common": 50,
+  "role_a_identical": 0,
+  "role_b_common": 50,
+  "role_b_identical": 0
+}

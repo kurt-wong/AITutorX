@@ -1,0 +1,89 @@
+{
+  "source_md": "D:\\Project\\AITutor-X\\E2E_ACCEPTANCE\\06_M1_PACKAGES\\chem-2018-spring-huikao-teacher\\paper.md",
+  "out_dir": "D:\\Project\\Papers\\Ocr-markdown\\phase-c-image-pack",
+  "asset_count": 22,
+  "resolved": 22,
+  "unresolved": 0,
+  "q9_four": [
+    {
+      "name": "img_in_image_box_157_151_247_252.jpg",
+      "found_in_manifest": true,
+      "on_disk": true,
+      "resolved": true
+    },
+    {
+      "name": "img_in_image_box_328_147_444_230.jpg",
+      "found_in_manifest": true,
+      "on_disk": true,
+      "resolved": true
+    },
+    {
+      "name": "img_in_image_box_529_136_618_235.jpg",
+      "found_in_manifest": true,
+      "on_disk": true,
+      "resolved": true
+    },
+    {
+      "name": "img_in_image_box_725_140_864_227.jpg",
+      "found_in_manifest": true,
+      "on_disk": true,
+      "resolved": true
+    }
+  ],
+  "assets_sample": [
+    {
+      "src": "../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_157_151_247_252.jpg",
+      "line_no": 51,
+      "resolved": true,
+      "resolved_from": "D:\\Project\\Papers\\Ocr-markdown\\_imgs\\2018北京春季高中会考化学（教师版）(1)\\img_in_image_box_157_151_247_252.jpg",
+      "artifact_path": "_imgs/img_in_image_box_157_151_247_252.jpg",
+      "sha256": "42644ed0fa931637de73b85a3940249f0b2bc0a881b39a2c43a3b2bc65d5017c",
+      "bytes": 2594
+    },
+    {
+      "src": "../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_328_147_444_230.jpg",
+      "line_no": 51,
+      "resolved": true,
+      "resolved_from": "D:\\Project\\Papers\\Ocr-markdown\\_imgs\\2018北京春季高中会考化学（教师版）(1)\\img_in_image_box_328_147_444_230.jpg",
+      "artifact_path": "_imgs/img_in_image_box_328_147_444_230.jpg",
+      "sha256": "5aa84d675f43dc6adbf5d93fae300e509c4c825df53397ab0369a37ac5ba8650",
+      "bytes": 3964
+    },
+    {
+      "src": "../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_529_136_618_235.jpg",
+      "line_no": 51,
+      "resolved": true,
+      "resolved_from": "D:\\Project\\Papers\\Ocr-markdown\\_imgs\\2018北京春季高中会考化学（教师版）(1)\\img_in_image_box_529_136_618_235.jpg",
+      "artifact_path": "_imgs/img_in_image_box_529_136_618_235.jpg",
+      "sha256": "b9a6acfad2eec44102bf68df1bbc16f684ff6fc1c4e82274a460f935c660ca93",
+      "bytes": 4043
+    },
+    {
+      "src": "../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_725_140_864_227.jpg",
+      "line_no": 51,
+      "resolved": true,
+      "resolved_from": "D:\\Project\\Papers\\Ocr-markdown\\_imgs\\2018北京春季高中会考化学（教师版）(1)\\img_in_image_box_725_140_864_227.jpg",
+      "artifact_path": "_imgs/img_in_image_box_725_140_864_227.jpg",
+      "sha256": "45af11e7ef73a37a07cf77ea19eab0ef03d250cd0366771570184d58b5f976f4",
+      "bytes": 5246
+    },
+    {
+      "src": "../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_749_611_864_748.jpg",
+      "line_no": 77,
+      "resolved": true,
+      "resolved_from": "D:\\Project\\Papers\\Ocr-markdown\\_imgs\\2018北京春季高中会考化学（教师版）(1)\\img_in_image_box_749_611_864_748.jpg",
+      "artifact_path": "_imgs/img_in_image_box_749_611_864_748.jpg",
+      "sha256": "16d8022f923c4216fb839e40e82497549174301975bb2cac48e81930fa5468f4",
+      "bytes": 5448
+    },
+    {
+      "src": "../../_imgs/2018北京春季高中会考化学（教师版）(1)/img_in_image_box_329_49_407_133.jpg",
+      "line_no": 133,
+      "resolved": true,
+      "resolved_from": "D:\\Project\\Papers\\Ocr-markdown\\_imgs\\2018北京春季高中会考化学（教师版）(1)\\img_in_image_box_329_49_407_133.jpg",
+      "artifact_path": "_imgs/img_in_image_box_329_49_407_133.jpg",
+      "sha256": "6e6021abc66d4ae19db3e8719fe3012ae1785b7a8cb35826c7b1c416f46e1e1c",
+      "bytes": 3228
+    }
+  ]
+}

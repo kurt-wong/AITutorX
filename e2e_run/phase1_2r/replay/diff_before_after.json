@@ -1,0 +1,21 @@
+{
+  "captured_at": "2026-10-02T05:15:47.662730+00:00",
+  "tables_compared": [
+    "documents",
+    "document_source_versions",
+    "document_source_lines",
+    "document_source_spans",
+    "document_active_sources",
+    "semantic_annotations",
+    "admission_candidates",
+    "admission_events",
+    "questions",
+    "question_instances",
+    "instance_role_contents",
+    "unit_groups",
+    "materials"
+  ],
+  "count_diff": {},
+  "content_diff": {},
+  "identical": true
+}

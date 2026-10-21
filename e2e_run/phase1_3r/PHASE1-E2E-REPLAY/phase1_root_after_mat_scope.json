@@ -1,0 +1,2174 @@
+{
+  "cut": "Material boundary marker scope constraint",
+  "root_funnel": {
+    "root_status": {
+      "incomplete": 58,
+      "ready": 226
+    },
+    "gate": {
+      "pending_review": 219,
+      "auto_approve": 2,
+      "rejected": 5
+    },
+    "mat": {
+      "resolved": 54
+    },
+    "leaf_ready_root_blocked_by_mat": 0
+  },
+  "per_paper": [
+    {
+      "paper": "化学",
+      "units": 40,
+      "root_status": {
+        "incomplete": 25,
+        "ready": 15
+      },
+      "mat": {},
+      "gate": {
+        "pending_review": 15
+      },
+      "leaf_ready_root_blocked_by_mat": 0,
+      "mat_ok": 0,
+      "mat_unres": 0,
+      "details": [
+        {
+          "unit": "Q1",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q2",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q3",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q4",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q5",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q6",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q7",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q8",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q9",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q10",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q11",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q12",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q13",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q14",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q15",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q16",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q17",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q18",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q19",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q20",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q21",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q22",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q23",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q24",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q25",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "U-req1",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "U-req2",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "U-req3",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "U-req4",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "U-req5",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "U-req6",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "U-cl1",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "U-cl2",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "U-cl3",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "U-org1",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "U-org2",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "U-org3",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "U-cp1",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "U-cp2",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "U-cp3",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        }
+      ]
+    },
+    {
+      "paper": "历史",
+      "units": 53,
+      "root_status": {
+        "ready": 53
+      },
+      "mat": {
+        "resolved": 3
+      },
+      "gate": {
+        "auto_approve": 1,
+        "pending_review": 49,
+        "rejected": 3
+      },
+      "leaf_ready_root_blocked_by_mat": 0,
+      "mat_ok": 3,
+      "mat_unres": 0,
+      "details": [
+        {
+          "unit": "Q1",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q2",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q3",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q4",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q5",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q6",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q7",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q8",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q9",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q10",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q11",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q12",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q13",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q14",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q15",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q16",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q17",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q18",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q19",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q20",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q21",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q22",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q23",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q24",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q25",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q26",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q27",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q28",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q29",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q30",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q31",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q32",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q33",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q34",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q35",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q36",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q37",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q38",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q39",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q40",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q41",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q42",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q43",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q44",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q45",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q46",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q47",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q48",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q49",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q50",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "U51",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U52",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U53",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        }
+      ]
+    },
+    {
+      "paper": "地理",
+      "units": 25,
+      "root_status": {
+        "ready": 24,
+        "incomplete": 1
+      },
+      "mat": {
+        "resolved": 25
+      },
+      "gate": {
+        "pending_review": 22,
+        "rejected": 2
+      },
+      "leaf_ready_root_blocked_by_mat": 0,
+      "mat_ok": 25,
+      "mat_unres": 0,
+      "details": [
+        {
+          "unit": "U1-2",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U3-5",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U6-7",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U8-9",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U10-12",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U13-15",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U16-17",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U18-20",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U21-23",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U24-25",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U26-29",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U30-31",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U32-33",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U34-35",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U36-39",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U40-41",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U42-43",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U44-46",
+          "type": "composite_unit",
+          "root": "incomplete",
+          "mat": "ok",
+          "subs_ready": false
+        },
+        {
+          "unit": "U47-48",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U49-50",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U-P2-1",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U-P2-2",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U-P2-3",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U-P2-4",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U-P2-5",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        }
+      ]
+    },
+    {
+      "paper": "政治",
+      "units": 36,
+      "root_status": {
+        "ready": 29,
+        "incomplete": 7
+      },
+      "mat": {
+        "resolved": 2
+      },
+      "gate": {
+        "pending_review": 29
+      },
+      "leaf_ready_root_blocked_by_mat": 0,
+      "mat_ok": 2,
+      "mat_unres": 0,
+      "details": [
+        {
+          "unit": "Q1",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q2",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q3",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q4",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q5",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q6",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q7",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q8",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "U9-10",
+          "type": "composite_unit",
+          "root": "incomplete",
+          "mat": "ok",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q11",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q12",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q13",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q14",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q15",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q16",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q17",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q18",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q19",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q20",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q21",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q22",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q23",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q24",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q25",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q26",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q27",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q28",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q29",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q30",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q31",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q32",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q33",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q34",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q35",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q36",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q37",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "units": 30,
+      "root_status": {
+        "ready": 30
+      },
+      "mat": {},
+      "gate": {
+        "pending_review": 30
+      },
+      "leaf_ready_root_blocked_by_mat": 0,
+      "mat_ok": 0,
+      "mat_unres": 0,
+      "details": [
+        {
+          "unit": "Q1",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q2",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q3",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q4",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q5",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q6",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q7",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q8",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q9",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q10",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q11",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q12",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q13",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q14",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q15",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q16",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q17",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q18",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q19",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q20",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q21",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q22",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q23",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q24",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q25",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q26",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q27",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q28",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q29",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q30",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        }
+      ]
+    },
+    {
+      "paper": "物理",
+      "units": 22,
+      "root_status": {
+        "ready": 21,
+        "incomplete": 1
+      },
+      "mat": {
+        "resolved": 3
+      },
+      "gate": {
+        "pending_review": 21
+      },
+      "leaf_ready_root_blocked_by_mat": 0,
+      "mat_ok": 3,
+      "mat_unres": 0,
+      "details": [
+        {
+          "unit": "Q1",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q2",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q3",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q4",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q5",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q6",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q7",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q8",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "U9-11",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U12-14",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q15",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q16",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q17",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "U18-20",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q21",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q22",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q23",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q24",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q25",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q26",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q27",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q28",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        }
+      ]
+    },
+    {
+      "paper": "生物",
+      "units": 50,
+      "root_status": {
+        "incomplete": 21,
+        "ready": 29
+      },
+      "mat": {},
+      "gate": {
+        "pending_review": 29
+      },
+      "leaf_ready_root_blocked_by_mat": 0,
+      "mat_ok": 0,
+      "mat_unres": 0,
+      "details": [
+        {
+          "unit": "Q1",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q2",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q3",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q4",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q5",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q6",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q7",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q8",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q9",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q10",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q11",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q12",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q13",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q14",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q15",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q16",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q17",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q18",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q19",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q20",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q21",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q22",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q23",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q24",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q25",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q26",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q27",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q28",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q29",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q30",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q31",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q32",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q33",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q34",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q35",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q36",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q37",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q38",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q39",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q40",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q41",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q42",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q43",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q44",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q45",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q46",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q47",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q48",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q49",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q50",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        }
+      ]
+    },
+    {
+      "paper": "英语",
+      "units": 18,
+      "root_status": {
+        "ready": 15,
+        "incomplete": 3
+      },
+      "mat": {
+        "resolved": 17
+      },
+      "gate": {
+        "pending_review": 14,
+        "auto_approve": 1
+      },
+      "leaf_ready_root_blocked_by_mat": 0,
+      "mat_ok": 17,
+      "mat_unres": 0,
+      "details": [
+        {
+          "unit": "Q1",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q2",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q3",
+          "type": "composite_unit",
+          "root": "incomplete",
+          "mat": "ok",
+          "subs_ready": false
+        },
+        {
+          "unit": "Q4",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q5-6",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q7-8",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q9-11",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q12-14",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q15-17",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q18-20",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q21-25",
+          "type": "composite_unit",
+          "root": "incomplete",
+          "mat": "ok",
+          "subs_ready": false
+        },
+        {
+          "unit": "U26-40",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U41-44",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U45-48",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U49-52",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U53-56",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U57-60",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q61",
+          "type": "standalone_unit",
+          "root": "incomplete",
+          "mat": "-",
+          "subs_ready": false
+        }
+      ]
+    },
+    {
+      "paper": "语文",
+      "units": 10,
+      "root_status": {
+        "ready": 10
+      },
+      "mat": {
+        "resolved": 4
+      },
+      "gate": {
+        "pending_review": 10
+      },
+      "leaf_ready_root_blocked_by_mat": 0,
+      "mat_ok": 4,
+      "mat_unres": 0,
+      "details": [
+        {
+          "unit": "U1-5",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q6",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q7",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q8",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q9",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "U10-13",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U14",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "U15",
+          "type": "composite_unit",
+          "root": "ready",
+          "mat": "ok",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q16",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        },
+        {
+          "unit": "Q17",
+          "type": "standalone_unit",
+          "root": "ready",
+          "mat": "-",
+          "subs_ready": true
+        }
+      ]
+    }
+  ]
+}

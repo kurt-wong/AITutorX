@@ -1,0 +1,3520 @@
+{
+  "captured_at": "2026-10-02",
+  "verdict": "CLASSIFICATION_DRIFT",
+  "case": "A",
+  "root_cause": "phase13_counterfactual.py _prim_from_unresolved uses rid.startswith(unit_id) which matches Q1↔Q10/Q11/Q12..., Q3↔Q30/Q31...; 12R census keys unresolved by exact derived unit id",
+  "phase12r_answer_counts": {
+    "answer_missing": 161,
+    "answer_ambiguous": 15
+  },
+  "phase13_answer_counts": {
+    "answer_missing": 167,
+    "answer_ambiguous": 13
+  },
+  "delta_explanation": {
+    "answer_missing_+6": "units whose primary flipped TO answer_missing after ingesting leaked answer:missing refs from longer unit_ids sharing the prefix",
+    "answer_ambiguous_-2": "units whose primary flipped FROM answer_ambiguous TO answer_missing due to leaked answer:missing"
+  },
+  "affected_units": [
+    {
+      "unit_id": "Q1",
+      "document_id": "81f850b3-5fec-4dd8-bc10-601c306243ca",
+      "source_version_id": "e0d804db-f61c-46f8-a86a-9dafcd0742c3",
+      "file_name": "2018北京春季高中会考化学（教师版）(1).md",
+      "phase12r_primary_reason": "option_incomplete",
+      "phase13_primary_reason": "answer_missing",
+      "strict_primary_reason": "option_incomplete",
+      "same_or_changed": "changed",
+      "change_reason": "CLASSIFICATION_DRIFT: phase13 rid.startswith(unit_id) prefix-collision ingests unresolved refs from other units (e.g. Q3 ← Q30/Q31); IR state identical",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q10.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q10"
+        },
+        {
+          "ref": "Q11.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q11"
+        },
+        {
+          "ref": "Q12.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q12"
+        },
+        {
+          "ref": "Q12.option.C",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q12"
+        },
+        {
+          "ref": "Q12.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q12"
+        },
+        {
+          "ref": "Q13.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q14.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q14"
+        },
+        {
+          "ref": "Q14.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q14"
+        },
+        {
+          "ref": "Q14.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q14"
+        },
+        {
+          "ref": "Q14.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q14"
+        },
+        {
+          "ref": "Q14.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q14"
+        },
+        {
+          "ref": "Q14.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q14"
+        },
+        {
+          "ref": "Q15.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q15"
+        },
+        {
+          "ref": "Q15.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q15"
+        },
+        {
+          "ref": "Q15.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q15"
+        },
+        {
+          "ref": "Q15.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q15"
+        },
+        {
+          "ref": "Q15.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q15"
+        },
+        {
+          "ref": "Q15.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q15"
+        },
+        {
+          "ref": "Q16.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q16"
+        },
+        {
+          "ref": "Q17.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q17"
+        },
+        {
+          "ref": "Q17.option.C",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q17"
+        },
+        {
+          "ref": "Q17.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q17"
+        },
+        {
+          "ref": "Q18.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q18.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q18.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q18.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q18.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q18.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q19.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q19"
+        },
+        {
+          "ref": "Q19.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q19"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "document_id": "81f850b3-5fec-4dd8-bc10-601c306243ca",
+      "source_version_id": "e0d804db-f61c-46f8-a86a-9dafcd0742c3",
+      "file_name": "2018北京春季高中会考化学（教师版）(1).md",
+      "phase12r_primary_reason": "answer_ambiguous",
+      "phase13_primary_reason": "answer_missing",
+      "strict_primary_reason": "answer_ambiguous",
+      "same_or_changed": "changed",
+      "change_reason": "CLASSIFICATION_DRIFT: phase13 rid.startswith(unit_id) prefix-collision ingests unresolved refs from other units (e.g. Q3 ← Q30/Q31); IR state identical",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q20.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q20"
+        },
+        {
+          "ref": "Q21.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q21"
+        },
+        {
+          "ref": "Q22.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q23.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q24.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q24"
+        },
+        {
+          "ref": "Q24.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q24"
+        },
+        {
+          "ref": "Q24.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q24"
+        },
+        {
+          "ref": "Q24.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q24"
+        },
+        {
+          "ref": "Q24.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q24"
+        },
+        {
+          "ref": "Q25.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q25"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "document_id": "326c739a-de25-4f2e-9d89-9e468008ef1b",
+      "source_version_id": "0942fabb-4ab2-43a3-b163-5407244366ce",
+      "file_name": "2018北京夏季高中会考历史（教师版）(1).md",
+      "phase12r_primary_reason": "answer_missing",
+      "phase13_primary_reason": "answer_missing",
+      "strict_primary_reason": "answer_missing",
+      "same_or_changed": "same",
+      "change_reason": "prefix leak without primary change",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q20.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q20"
+        },
+        {
+          "ref": "Q21.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q21"
+        },
+        {
+          "ref": "Q22.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q23.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q24.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q24"
+        },
+        {
+          "ref": "Q25.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q25"
+        },
+        {
+          "ref": "Q26.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q26"
+        },
+        {
+          "ref": "Q27.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q27"
+        },
+        {
+          "ref": "Q28.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q28"
+        },
+        {
+          "ref": "Q29.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q29"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q3",
+      "document_id": "326c739a-de25-4f2e-9d89-9e468008ef1b",
+      "source_version_id": "0942fabb-4ab2-43a3-b163-5407244366ce",
+      "file_name": "2018北京夏季高中会考历史（教师版）(1).md",
+      "phase12r_primary_reason": "answer_missing",
+      "phase13_primary_reason": "answer_missing",
+      "strict_primary_reason": "answer_missing",
+      "same_or_changed": "same",
+      "change_reason": "prefix leak without primary change",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q30.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q30"
+        },
+        {
+          "ref": "Q30.option.B",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q30"
+        },
+        {
+          "ref": "Q30.option.C",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q30"
+        },
+        {
+          "ref": "Q30.option.D",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q30"
+        },
+        {
+          "ref": "Q30.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q30"
+        },
+        {
+          "ref": "Q31.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q31"
+        },
+        {
+          "ref": "Q31.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q31"
+        },
+        {
+          "ref": "Q31.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q31"
+        },
+        {
+          "ref": "Q31.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q31"
+        },
+        {
+          "ref": "Q31.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q31"
+        },
+        {
+          "ref": "Q31.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q31"
+        },
+        {
+          "ref": "Q32.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q32"
+        },
+        {
+          "ref": "Q33.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q33"
+        },
+        {
+          "ref": "Q34.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q34"
+        },
+        {
+          "ref": "Q35.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q35"
+        },
+        {
+          "ref": "Q36.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q36"
+        },
+        {
+          "ref": "Q37.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q37"
+        },
+        {
+          "ref": "Q38.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q38"
+        },
+        {
+          "ref": "Q39.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q39"
+        },
+        {
+          "ref": "Q39.option.B",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q39"
+        },
+        {
+          "ref": "Q39.option.C",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q39"
+        },
+        {
+          "ref": "Q39.option.D",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q39"
+        },
+        {
+          "ref": "Q39.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q39"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q4",
+      "document_id": "326c739a-de25-4f2e-9d89-9e468008ef1b",
+      "source_version_id": "0942fabb-4ab2-43a3-b163-5407244366ce",
+      "file_name": "2018北京夏季高中会考历史（教师版）(1).md",
+      "phase12r_primary_reason": "answer_missing",
+      "phase13_primary_reason": "answer_missing",
+      "strict_primary_reason": "answer_missing",
+      "same_or_changed": "same",
+      "change_reason": "prefix leak without primary change",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q40.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q40"
+        },
+        {
+          "ref": "Q40.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q40"
+        },
+        {
+          "ref": "Q40.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q40"
+        },
+        {
+          "ref": "Q40.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q40"
+        },
+        {
+          "ref": "Q40.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q40"
+        },
+        {
+          "ref": "Q40.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q40"
+        },
+        {
+          "ref": "Q41.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q41"
+        },
+        {
+          "ref": "Q42.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q42"
+        },
+        {
+          "ref": "Q43.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q43"
+        },
+        {
+          "ref": "Q44.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q44"
+        },
+        {
+          "ref": "Q45.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q45"
+        },
+        {
+          "ref": "Q45.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q45"
+        },
+        {
+          "ref": "Q46.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q46"
+        },
+        {
+          "ref": "Q46.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q46"
+        },
+        {
+          "ref": "Q46.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q46"
+        },
+        {
+          "ref": "Q46.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q46"
+        },
+        {
+          "ref": "Q46.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q46"
+        },
+        {
+          "ref": "Q46.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q46"
+        },
+        {
+          "ref": "Q47.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q47"
+        },
+        {
+          "ref": "Q48.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q48"
+        },
+        {
+          "ref": "Q49.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q49"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q5",
+      "document_id": "326c739a-de25-4f2e-9d89-9e468008ef1b",
+      "source_version_id": "0942fabb-4ab2-43a3-b163-5407244366ce",
+      "file_name": "2018北京夏季高中会考历史（教师版）(1).md",
+      "phase12r_primary_reason": "answer_missing",
+      "phase13_primary_reason": "answer_missing",
+      "strict_primary_reason": "answer_missing",
+      "same_or_changed": "same",
+      "change_reason": "prefix leak without primary change",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q50.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q50"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q1",
+      "document_id": "79b375ab-c33e-4979-8258-04d9fcaac59f",
+      "source_version_id": "0f7c3e77-dcab-44c4-b1e7-fe80c79f9d4f",
+      "file_name": "2018北京夏季高中会考政治（教师版）(1).md",
+      "phase12r_primary_reason": "answer_missing",
+      "phase13_primary_reason": "answer_missing",
+      "strict_primary_reason": "answer_missing",
+      "same_or_changed": "same",
+      "change_reason": "prefix leak without primary change",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q11.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q11"
+        },
+        {
+          "ref": "Q11.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q11"
+        },
+        {
+          "ref": "Q11.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q11"
+        },
+        {
+          "ref": "Q11.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q11"
+        },
+        {
+          "ref": "Q11.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q11"
+        },
+        {
+          "ref": "Q11.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q11"
+        },
+        {
+          "ref": "Q12.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q12"
+        },
+        {
+          "ref": "Q12.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q12"
+        },
+        {
+          "ref": "Q13.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q14.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q14"
+        },
+        {
+          "ref": "Q14.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q14"
+        },
+        {
+          "ref": "Q14.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q14"
+        },
+        {
+          "ref": "Q14.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q14"
+        },
+        {
+          "ref": "Q14.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q14"
+        },
+        {
+          "ref": "Q14.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q14"
+        },
+        {
+          "ref": "Q15.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q15"
+        },
+        {
+          "ref": "Q15.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q15"
+        },
+        {
+          "ref": "Q15.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q15"
+        },
+        {
+          "ref": "Q15.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q15"
+        },
+        {
+          "ref": "Q15.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q15"
+        },
+        {
+          "ref": "Q15.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q15"
+        },
+        {
+          "ref": "Q16.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q16"
+        },
+        {
+          "ref": "Q17.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q17"
+        },
+        {
+          "ref": "Q18.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q19.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q19"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "document_id": "79b375ab-c33e-4979-8258-04d9fcaac59f",
+      "source_version_id": "0f7c3e77-dcab-44c4-b1e7-fe80c79f9d4f",
+      "file_name": "2018北京夏季高中会考政治（教师版）(1).md",
+      "phase12r_primary_reason": "answer_missing",
+      "phase13_primary_reason": "answer_missing",
+      "strict_primary_reason": "answer_missing",
+      "same_or_changed": "same",
+      "change_reason": "prefix leak without primary change",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q20.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q20"
+        },
+        {
+          "ref": "Q21.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q21"
+        },
+        {
+          "ref": "Q22.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q23.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q24.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q24"
+        },
+        {
+          "ref": "Q25.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q25"
+        },
+        {
+          "ref": "Q25.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q25"
+        },
+        {
+          "ref": "Q25.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q25"
+        },
+        {
+          "ref": "Q25.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q25"
+        },
+        {
+          "ref": "Q25.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q25"
+        },
+        {
+          "ref": "Q26.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q26"
+        },
+        {
+          "ref": "Q26.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q26"
+        },
+        {
+          "ref": "Q26.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q26"
+        },
+        {
+          "ref": "Q26.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q26"
+        },
+        {
+          "ref": "Q26.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q26"
+        },
+        {
+          "ref": "Q26.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q26"
+        },
+        {
+          "ref": "Q27.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q27"
+        },
+        {
+          "ref": "Q28.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q28"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q3",
+      "document_id": "79b375ab-c33e-4979-8258-04d9fcaac59f",
+      "source_version_id": "0f7c3e77-dcab-44c4-b1e7-fe80c79f9d4f",
+      "file_name": "2018北京夏季高中会考政治（教师版）(1).md",
+      "phase12r_primary_reason": "answer_missing",
+      "phase13_primary_reason": "material_missing_or_incomplete",
+      "strict_primary_reason": "answer_missing",
+      "same_or_changed": "changed",
+      "change_reason": "CLASSIFICATION_DRIFT: phase13 rid.startswith(unit_id) prefix-collision ingests unresolved refs from other units (e.g. Q3 ← Q30/Q31); IR state identical",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q30.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q30"
+        },
+        {
+          "ref": "Q30.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q30"
+        },
+        {
+          "ref": "Q31.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q31"
+        },
+        {
+          "ref": "Q33.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q33"
+        },
+        {
+          "ref": "Q35.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q35"
+        },
+        {
+          "ref": "Q37.material",
+          "role": "material",
+          "status": "incomplete",
+          "derived_uid": "Q37"
+        },
+        {
+          "ref": "Q37.sub.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q37.sub"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "document_id": "2079aec9-f122-41b0-8497-de659b37aa59",
+      "source_version_id": "69b45a6a-031f-41ca-ade1-d029f9e0a2da",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "phase12r_primary_reason": "answer_ambiguous",
+      "phase13_primary_reason": "answer_ambiguous",
+      "strict_primary_reason": "answer_ambiguous",
+      "same_or_changed": "same",
+      "change_reason": "prefix leak without primary change",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q22.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q22.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q22.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q22.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q23.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q23.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q23.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q23.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q23.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q23"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q1",
+      "document_id": "15cb84a2-9231-429d-bae8-ed67f15cbb1d",
+      "source_version_id": "f842285c-328b-4f08-9994-6000e1165c75",
+      "file_name": "2018北京春季高中会考物理（教师版）(1).md",
+      "phase12r_primary_reason": "answer_missing",
+      "phase13_primary_reason": "answer_missing",
+      "strict_primary_reason": "answer_missing",
+      "same_or_changed": "same",
+      "change_reason": "prefix leak without primary change",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q15.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q15"
+        },
+        {
+          "ref": "Q16.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q16"
+        },
+        {
+          "ref": "Q17.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q17"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q1",
+      "document_id": "89ea8c71-c090-4453-afad-a08dca986b1f",
+      "source_version_id": "75c7efc6-89ad-49b1-8347-0a5c8ec1c182",
+      "file_name": "2018北京春季高中会考生物（教师版）(1).md",
+      "phase12r_primary_reason": "option_incomplete",
+      "phase13_primary_reason": "answer_missing",
+      "strict_primary_reason": "option_incomplete",
+      "same_or_changed": "changed",
+      "change_reason": "CLASSIFICATION_DRIFT: phase13 rid.startswith(unit_id) prefix-collision ingests unresolved refs from other units (e.g. Q3 ← Q30/Q31); IR state identical",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q10.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q10"
+        },
+        {
+          "ref": "Q10.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q10"
+        },
+        {
+          "ref": "Q10.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q10"
+        },
+        {
+          "ref": "Q10.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q10"
+        },
+        {
+          "ref": "Q11.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q11"
+        },
+        {
+          "ref": "Q11.option.B",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q11"
+        },
+        {
+          "ref": "Q11.option.C",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q11"
+        },
+        {
+          "ref": "Q11.option.D",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q11"
+        },
+        {
+          "ref": "Q11.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q11"
+        },
+        {
+          "ref": "Q12.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q12"
+        },
+        {
+          "ref": "Q12.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q12"
+        },
+        {
+          "ref": "Q12.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q12"
+        },
+        {
+          "ref": "Q12.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q12"
+        },
+        {
+          "ref": "Q12.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q12"
+        },
+        {
+          "ref": "Q12.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q12"
+        },
+        {
+          "ref": "Q13.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q14.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q14"
+        },
+        {
+          "ref": "Q15.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q15"
+        },
+        {
+          "ref": "Q16.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q16"
+        },
+        {
+          "ref": "Q17.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q17"
+        },
+        {
+          "ref": "Q17.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q17"
+        },
+        {
+          "ref": "Q18.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q18.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q18.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q18.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q18.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q18.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q19.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q19"
+        },
+        {
+          "ref": "Q19.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q19"
+        },
+        {
+          "ref": "Q19.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q19"
+        },
+        {
+          "ref": "Q19.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q19"
+        },
+        {
+          "ref": "Q19.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q19"
+        },
+        {
+          "ref": "Q19.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q19"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "document_id": "89ea8c71-c090-4453-afad-a08dca986b1f",
+      "source_version_id": "75c7efc6-89ad-49b1-8347-0a5c8ec1c182",
+      "file_name": "2018北京春季高中会考生物（教师版）(1).md",
+      "phase12r_primary_reason": "answer_ambiguous",
+      "phase13_primary_reason": "answer_missing",
+      "strict_primary_reason": "answer_ambiguous",
+      "same_or_changed": "changed",
+      "change_reason": "CLASSIFICATION_DRIFT: phase13 rid.startswith(unit_id) prefix-collision ingests unresolved refs from other units (e.g. Q3 ← Q30/Q31); IR state identical",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q20.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q20"
+        },
+        {
+          "ref": "Q21.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q21"
+        },
+        {
+          "ref": "Q22.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q22.option.B",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q22.option.C",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q22.option.D",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q22.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q23.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q23.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q23.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q23.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q23.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q23.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q24.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q24"
+        },
+        {
+          "ref": "Q25.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q25"
+        },
+        {
+          "ref": "Q26.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q26"
+        },
+        {
+          "ref": "Q27.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q27"
+        },
+        {
+          "ref": "Q27.option.C",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q27"
+        },
+        {
+          "ref": "Q27.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q27"
+        },
+        {
+          "ref": "Q28.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q28"
+        },
+        {
+          "ref": "Q28.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q28"
+        },
+        {
+          "ref": "Q28.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q28"
+        },
+        {
+          "ref": "Q28.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q28"
+        },
+        {
+          "ref": "Q28.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q28"
+        },
+        {
+          "ref": "Q28.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q28"
+        },
+        {
+          "ref": "Q29.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q29"
+        },
+        {
+          "ref": "Q29.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q29"
+        },
+        {
+          "ref": "Q29.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q29"
+        },
+        {
+          "ref": "Q29.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q29"
+        },
+        {
+          "ref": "Q29.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q29"
+        },
+        {
+          "ref": "Q29.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q29"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q3",
+      "document_id": "89ea8c71-c090-4453-afad-a08dca986b1f",
+      "source_version_id": "75c7efc6-89ad-49b1-8347-0a5c8ec1c182",
+      "file_name": "2018北京春季高中会考生物（教师版）(1).md",
+      "phase12r_primary_reason": "option_incomplete",
+      "phase13_primary_reason": "answer_missing",
+      "strict_primary_reason": "option_incomplete",
+      "same_or_changed": "changed",
+      "change_reason": "CLASSIFICATION_DRIFT: phase13 rid.startswith(unit_id) prefix-collision ingests unresolved refs from other units (e.g. Q3 ← Q30/Q31); IR state identical",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q30.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q30"
+        },
+        {
+          "ref": "Q30.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q30"
+        },
+        {
+          "ref": "Q31.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q31"
+        },
+        {
+          "ref": "Q31.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q31"
+        },
+        {
+          "ref": "Q31.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q31"
+        },
+        {
+          "ref": "Q31.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q31"
+        },
+        {
+          "ref": "Q31.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q31"
+        },
+        {
+          "ref": "Q31.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q31"
+        },
+        {
+          "ref": "Q32.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q32"
+        },
+        {
+          "ref": "Q33.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q33"
+        },
+        {
+          "ref": "Q33.option.B",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q33"
+        },
+        {
+          "ref": "Q33.option.C",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q33"
+        },
+        {
+          "ref": "Q33.option.D",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q33"
+        },
+        {
+          "ref": "Q33.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q33"
+        },
+        {
+          "ref": "Q34.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q34"
+        },
+        {
+          "ref": "Q34.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q34"
+        },
+        {
+          "ref": "Q34.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q34"
+        },
+        {
+          "ref": "Q34.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q34"
+        },
+        {
+          "ref": "Q34.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q34"
+        },
+        {
+          "ref": "Q34.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q34"
+        },
+        {
+          "ref": "Q35.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q35"
+        },
+        {
+          "ref": "Q36.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q36"
+        },
+        {
+          "ref": "Q37.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q37"
+        },
+        {
+          "ref": "Q37.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q37"
+        },
+        {
+          "ref": "Q38.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q38"
+        },
+        {
+          "ref": "Q38.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q38"
+        },
+        {
+          "ref": "Q38.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q38"
+        },
+        {
+          "ref": "Q38.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q38"
+        },
+        {
+          "ref": "Q38.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q38"
+        },
+        {
+          "ref": "Q38.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q38"
+        },
+        {
+          "ref": "Q39.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q39"
+        },
+        {
+          "ref": "Q39.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q39"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q4",
+      "document_id": "89ea8c71-c090-4453-afad-a08dca986b1f",
+      "source_version_id": "75c7efc6-89ad-49b1-8347-0a5c8ec1c182",
+      "file_name": "2018北京春季高中会考生物（教师版）(1).md",
+      "phase12r_primary_reason": "option_incomplete",
+      "phase13_primary_reason": "answer_missing",
+      "strict_primary_reason": "option_incomplete",
+      "same_or_changed": "changed",
+      "change_reason": "CLASSIFICATION_DRIFT: phase13 rid.startswith(unit_id) prefix-collision ingests unresolved refs from other units (e.g. Q3 ← Q30/Q31); IR state identical",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q40.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q40"
+        },
+        {
+          "ref": "Q40.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q40"
+        },
+        {
+          "ref": "Q40.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q40"
+        },
+        {
+          "ref": "Q40.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q40"
+        },
+        {
+          "ref": "Q40.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q40"
+        },
+        {
+          "ref": "Q40.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q40"
+        },
+        {
+          "ref": "Q41.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q41"
+        },
+        {
+          "ref": "Q41.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q41"
+        },
+        {
+          "ref": "Q42.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q42"
+        },
+        {
+          "ref": "Q42.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q42"
+        },
+        {
+          "ref": "Q43.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q43"
+        },
+        {
+          "ref": "Q43.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q43"
+        },
+        {
+          "ref": "Q44.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q44"
+        },
+        {
+          "ref": "Q44.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q44"
+        },
+        {
+          "ref": "Q45.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q45"
+        },
+        {
+          "ref": "Q45.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q45"
+        },
+        {
+          "ref": "Q46.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q46"
+        },
+        {
+          "ref": "Q46.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q46"
+        },
+        {
+          "ref": "Q47.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q47"
+        },
+        {
+          "ref": "Q47.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q47"
+        },
+        {
+          "ref": "Q48.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q48"
+        },
+        {
+          "ref": "Q48.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q48"
+        },
+        {
+          "ref": "Q49.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q49"
+        },
+        {
+          "ref": "Q49.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q49"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q5",
+      "document_id": "89ea8c71-c090-4453-afad-a08dca986b1f",
+      "source_version_id": "75c7efc6-89ad-49b1-8347-0a5c8ec1c182",
+      "file_name": "2018北京春季高中会考生物（教师版）(1).md",
+      "phase12r_primary_reason": "option_incomplete",
+      "phase13_primary_reason": "answer_missing",
+      "strict_primary_reason": "option_incomplete",
+      "same_or_changed": "changed",
+      "change_reason": "CLASSIFICATION_DRIFT: phase13 rid.startswith(unit_id) prefix-collision ingests unresolved refs from other units (e.g. Q3 ← Q30/Q31); IR state identical",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q50.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q50"
+        },
+        {
+          "ref": "Q50.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q50"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q1",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "phase12r_primary_reason": "material_missing_or_incomplete",
+      "phase13_primary_reason": "material_missing_or_incomplete",
+      "strict_primary_reason": "material_missing_or_incomplete",
+      "same_or_changed": "same",
+      "change_reason": "prefix leak without primary change",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q12-14.material",
+          "role": "material",
+          "status": "incomplete",
+          "derived_uid": "Q12-14"
+        },
+        {
+          "ref": "Q15-17.material",
+          "role": "material",
+          "status": "incomplete",
+          "derived_uid": "Q15-17"
+        },
+        {
+          "ref": "Q15-17.sub.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q15-17.sub"
+        },
+        {
+          "ref": "Q18-20.material",
+          "role": "material",
+          "status": "incomplete",
+          "derived_uid": "Q18-20"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "phase12r_primary_reason": "material_missing_or_incomplete",
+      "phase13_primary_reason": "material_missing_or_incomplete",
+      "strict_primary_reason": "material_missing_or_incomplete",
+      "same_or_changed": "same",
+      "change_reason": "prefix leak without primary change",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q21-25.material",
+          "role": "material",
+          "status": "incomplete",
+          "derived_uid": "Q21-25"
+        },
+        {
+          "ref": "Q21-25.sub.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q21-25.sub"
+        }
+      ]
+    }
+  ],
+  "ir_state_changed": false,
+  "input_baseline_changed": false,
+  "resolver_worktree_changed": false,
+  "units_moved_into_answer_missing": [
+    {
+      "unit_id": "Q1",
+      "document_id": "81f850b3-5fec-4dd8-bc10-601c306243ca",
+      "source_version_id": "e0d804db-f61c-46f8-a86a-9dafcd0742c3",
+      "file_name": "2018北京春季高中会考化学（教师版）(1).md",
+      "phase12r_primary_reason": "option_incomplete",
+      "phase13_primary_reason": "answer_missing",
+      "strict_primary_reason": "option_incomplete",
+      "same_or_changed": "changed",
+      "change_reason": "CLASSIFICATION_DRIFT: phase13 rid.startswith(unit_id) prefix-collision ingests unresolved refs from other units (e.g. Q3 ← Q30/Q31); IR state identical",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q10.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q10"
+        },
+        {
+          "ref": "Q11.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q11"
+        },
+        {
+          "ref": "Q12.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q12"
+        },
+        {
+          "ref": "Q12.option.C",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q12"
+        },
+        {
+          "ref": "Q12.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q12"
+        },
+        {
+          "ref": "Q13.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q14.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q14"
+        },
+        {
+          "ref": "Q14.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q14"
+        },
+        {
+          "ref": "Q14.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q14"
+        },
+        {
+          "ref": "Q14.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q14"
+        },
+        {
+          "ref": "Q14.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q14"
+        },
+        {
+          "ref": "Q14.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q14"
+        },
+        {
+          "ref": "Q15.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q15"
+        },
+        {
+          "ref": "Q15.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q15"
+        },
+        {
+          "ref": "Q15.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q15"
+        },
+        {
+          "ref": "Q15.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q15"
+        },
+        {
+          "ref": "Q15.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q15"
+        },
+        {
+          "ref": "Q15.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q15"
+        },
+        {
+          "ref": "Q16.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q16"
+        },
+        {
+          "ref": "Q17.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q17"
+        },
+        {
+          "ref": "Q17.option.C",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q17"
+        },
+        {
+          "ref": "Q17.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q17"
+        },
+        {
+          "ref": "Q18.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q18.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q18.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q18.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q18.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q18.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q19.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q19"
+        },
+        {
+          "ref": "Q19.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q19"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "document_id": "81f850b3-5fec-4dd8-bc10-601c306243ca",
+      "source_version_id": "e0d804db-f61c-46f8-a86a-9dafcd0742c3",
+      "file_name": "2018北京春季高中会考化学（教师版）(1).md",
+      "phase12r_primary_reason": "answer_ambiguous",
+      "phase13_primary_reason": "answer_missing",
+      "strict_primary_reason": "answer_ambiguous",
+      "same_or_changed": "changed",
+      "change_reason": "CLASSIFICATION_DRIFT: phase13 rid.startswith(unit_id) prefix-collision ingests unresolved refs from other units (e.g. Q3 ← Q30/Q31); IR state identical",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q20.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q20"
+        },
+        {
+          "ref": "Q21.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q21"
+        },
+        {
+          "ref": "Q22.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q23.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q24.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q24"
+        },
+        {
+          "ref": "Q24.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q24"
+        },
+        {
+          "ref": "Q24.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q24"
+        },
+        {
+          "ref": "Q24.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q24"
+        },
+        {
+          "ref": "Q24.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q24"
+        },
+        {
+          "ref": "Q25.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q25"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q1",
+      "document_id": "89ea8c71-c090-4453-afad-a08dca986b1f",
+      "source_version_id": "75c7efc6-89ad-49b1-8347-0a5c8ec1c182",
+      "file_name": "2018北京春季高中会考生物（教师版）(1).md",
+      "phase12r_primary_reason": "option_incomplete",
+      "phase13_primary_reason": "answer_missing",
+      "strict_primary_reason": "option_incomplete",
+      "same_or_changed": "changed",
+      "change_reason": "CLASSIFICATION_DRIFT: phase13 rid.startswith(unit_id) prefix-collision ingests unresolved refs from other units (e.g. Q3 ← Q30/Q31); IR state identical",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q10.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q10"
+        },
+        {
+          "ref": "Q10.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q10"
+        },
+        {
+          "ref": "Q10.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q10"
+        },
+        {
+          "ref": "Q10.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q10"
+        },
+        {
+          "ref": "Q11.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q11"
+        },
+        {
+          "ref": "Q11.option.B",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q11"
+        },
+        {
+          "ref": "Q11.option.C",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q11"
+        },
+        {
+          "ref": "Q11.option.D",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q11"
+        },
+        {
+          "ref": "Q11.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q11"
+        },
+        {
+          "ref": "Q12.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q12"
+        },
+        {
+          "ref": "Q12.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q12"
+        },
+        {
+          "ref": "Q12.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q12"
+        },
+        {
+          "ref": "Q12.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q12"
+        },
+        {
+          "ref": "Q12.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q12"
+        },
+        {
+          "ref": "Q12.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q12"
+        },
+        {
+          "ref": "Q13.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q13.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q13"
+        },
+        {
+          "ref": "Q14.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q14"
+        },
+        {
+          "ref": "Q15.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q15"
+        },
+        {
+          "ref": "Q16.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q16"
+        },
+        {
+          "ref": "Q17.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q17"
+        },
+        {
+          "ref": "Q17.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q17"
+        },
+        {
+          "ref": "Q18.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q18.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q18.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q18.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q18.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q18.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q18"
+        },
+        {
+          "ref": "Q19.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q19"
+        },
+        {
+          "ref": "Q19.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q19"
+        },
+        {
+          "ref": "Q19.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q19"
+        },
+        {
+          "ref": "Q19.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q19"
+        },
+        {
+          "ref": "Q19.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q19"
+        },
+        {
+          "ref": "Q19.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q19"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "document_id": "89ea8c71-c090-4453-afad-a08dca986b1f",
+      "source_version_id": "75c7efc6-89ad-49b1-8347-0a5c8ec1c182",
+      "file_name": "2018北京春季高中会考生物（教师版）(1).md",
+      "phase12r_primary_reason": "answer_ambiguous",
+      "phase13_primary_reason": "answer_missing",
+      "strict_primary_reason": "answer_ambiguous",
+      "same_or_changed": "changed",
+      "change_reason": "CLASSIFICATION_DRIFT: phase13 rid.startswith(unit_id) prefix-collision ingests unresolved refs from other units (e.g. Q3 ← Q30/Q31); IR state identical",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q20.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q20"
+        },
+        {
+          "ref": "Q21.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q21"
+        },
+        {
+          "ref": "Q22.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q22.option.B",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q22.option.C",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q22.option.D",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q22.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q23.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q23.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q23.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q23.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q23.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q23.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q24.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q24"
+        },
+        {
+          "ref": "Q25.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q25"
+        },
+        {
+          "ref": "Q26.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q26"
+        },
+        {
+          "ref": "Q27.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q27"
+        },
+        {
+          "ref": "Q27.option.C",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q27"
+        },
+        {
+          "ref": "Q27.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q27"
+        },
+        {
+          "ref": "Q28.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q28"
+        },
+        {
+          "ref": "Q28.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q28"
+        },
+        {
+          "ref": "Q28.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q28"
+        },
+        {
+          "ref": "Q28.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q28"
+        },
+        {
+          "ref": "Q28.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q28"
+        },
+        {
+          "ref": "Q28.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q28"
+        },
+        {
+          "ref": "Q29.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q29"
+        },
+        {
+          "ref": "Q29.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q29"
+        },
+        {
+          "ref": "Q29.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q29"
+        },
+        {
+          "ref": "Q29.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q29"
+        },
+        {
+          "ref": "Q29.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q29"
+        },
+        {
+          "ref": "Q29.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q29"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q3",
+      "document_id": "89ea8c71-c090-4453-afad-a08dca986b1f",
+      "source_version_id": "75c7efc6-89ad-49b1-8347-0a5c8ec1c182",
+      "file_name": "2018北京春季高中会考生物（教师版）(1).md",
+      "phase12r_primary_reason": "option_incomplete",
+      "phase13_primary_reason": "answer_missing",
+      "strict_primary_reason": "option_incomplete",
+      "same_or_changed": "changed",
+      "change_reason": "CLASSIFICATION_DRIFT: phase13 rid.startswith(unit_id) prefix-collision ingests unresolved refs from other units (e.g. Q3 ← Q30/Q31); IR state identical",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q30.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q30"
+        },
+        {
+          "ref": "Q30.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q30"
+        },
+        {
+          "ref": "Q31.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q31"
+        },
+        {
+          "ref": "Q31.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q31"
+        },
+        {
+          "ref": "Q31.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q31"
+        },
+        {
+          "ref": "Q31.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q31"
+        },
+        {
+          "ref": "Q31.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q31"
+        },
+        {
+          "ref": "Q31.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q31"
+        },
+        {
+          "ref": "Q32.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q32"
+        },
+        {
+          "ref": "Q33.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q33"
+        },
+        {
+          "ref": "Q33.option.B",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q33"
+        },
+        {
+          "ref": "Q33.option.C",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q33"
+        },
+        {
+          "ref": "Q33.option.D",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q33"
+        },
+        {
+          "ref": "Q33.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q33"
+        },
+        {
+          "ref": "Q34.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q34"
+        },
+        {
+          "ref": "Q34.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q34"
+        },
+        {
+          "ref": "Q34.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q34"
+        },
+        {
+          "ref": "Q34.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q34"
+        },
+        {
+          "ref": "Q34.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q34"
+        },
+        {
+          "ref": "Q34.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q34"
+        },
+        {
+          "ref": "Q35.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q35"
+        },
+        {
+          "ref": "Q36.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q36"
+        },
+        {
+          "ref": "Q37.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q37"
+        },
+        {
+          "ref": "Q37.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q37"
+        },
+        {
+          "ref": "Q38.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q38"
+        },
+        {
+          "ref": "Q38.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q38"
+        },
+        {
+          "ref": "Q38.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q38"
+        },
+        {
+          "ref": "Q38.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q38"
+        },
+        {
+          "ref": "Q38.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q38"
+        },
+        {
+          "ref": "Q38.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q38"
+        },
+        {
+          "ref": "Q39.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q39"
+        },
+        {
+          "ref": "Q39.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q39"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q4",
+      "document_id": "89ea8c71-c090-4453-afad-a08dca986b1f",
+      "source_version_id": "75c7efc6-89ad-49b1-8347-0a5c8ec1c182",
+      "file_name": "2018北京春季高中会考生物（教师版）(1).md",
+      "phase12r_primary_reason": "option_incomplete",
+      "phase13_primary_reason": "answer_missing",
+      "strict_primary_reason": "option_incomplete",
+      "same_or_changed": "changed",
+      "change_reason": "CLASSIFICATION_DRIFT: phase13 rid.startswith(unit_id) prefix-collision ingests unresolved refs from other units (e.g. Q3 ← Q30/Q31); IR state identical",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q40.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q40"
+        },
+        {
+          "ref": "Q40.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q40"
+        },
+        {
+          "ref": "Q40.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q40"
+        },
+        {
+          "ref": "Q40.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q40"
+        },
+        {
+          "ref": "Q40.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q40"
+        },
+        {
+          "ref": "Q40.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q40"
+        },
+        {
+          "ref": "Q41.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q41"
+        },
+        {
+          "ref": "Q41.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q41"
+        },
+        {
+          "ref": "Q42.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q42"
+        },
+        {
+          "ref": "Q42.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q42"
+        },
+        {
+          "ref": "Q43.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q43"
+        },
+        {
+          "ref": "Q43.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q43"
+        },
+        {
+          "ref": "Q44.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q44"
+        },
+        {
+          "ref": "Q44.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q44"
+        },
+        {
+          "ref": "Q45.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q45"
+        },
+        {
+          "ref": "Q45.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q45"
+        },
+        {
+          "ref": "Q46.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q46"
+        },
+        {
+          "ref": "Q46.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q46"
+        },
+        {
+          "ref": "Q47.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q47"
+        },
+        {
+          "ref": "Q47.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q47"
+        },
+        {
+          "ref": "Q48.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q48"
+        },
+        {
+          "ref": "Q48.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q48"
+        },
+        {
+          "ref": "Q49.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q49"
+        },
+        {
+          "ref": "Q49.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q49"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q5",
+      "document_id": "89ea8c71-c090-4453-afad-a08dca986b1f",
+      "source_version_id": "75c7efc6-89ad-49b1-8347-0a5c8ec1c182",
+      "file_name": "2018北京春季高中会考生物（教师版）(1).md",
+      "phase12r_primary_reason": "option_incomplete",
+      "phase13_primary_reason": "answer_missing",
+      "strict_primary_reason": "option_incomplete",
+      "same_or_changed": "changed",
+      "change_reason": "CLASSIFICATION_DRIFT: phase13 rid.startswith(unit_id) prefix-collision ingests unresolved refs from other units (e.g. Q3 ← Q30/Q31); IR state identical",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q50.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q50"
+        },
+        {
+          "ref": "Q50.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q50"
+        }
+      ]
+    }
+  ],
+  "units_moved_out_of_answer_ambiguous": [
+    {
+      "unit_id": "Q2",
+      "document_id": "81f850b3-5fec-4dd8-bc10-601c306243ca",
+      "source_version_id": "e0d804db-f61c-46f8-a86a-9dafcd0742c3",
+      "file_name": "2018北京春季高中会考化学（教师版）(1).md",
+      "phase12r_primary_reason": "answer_ambiguous",
+      "phase13_primary_reason": "answer_missing",
+      "strict_primary_reason": "answer_ambiguous",
+      "same_or_changed": "changed",
+      "change_reason": "CLASSIFICATION_DRIFT: phase13 rid.startswith(unit_id) prefix-collision ingests unresolved refs from other units (e.g. Q3 ← Q30/Q31); IR state identical",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q20.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q20"
+        },
+        {
+          "ref": "Q21.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q21"
+        },
+        {
+          "ref": "Q22.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q23.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q24.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q24"
+        },
+        {
+          "ref": "Q24.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q24"
+        },
+        {
+          "ref": "Q24.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q24"
+        },
+        {
+          "ref": "Q24.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q24"
+        },
+        {
+          "ref": "Q24.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q24"
+        },
+        {
+          "ref": "Q25.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q25"
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "document_id": "89ea8c71-c090-4453-afad-a08dca986b1f",
+      "source_version_id": "75c7efc6-89ad-49b1-8347-0a5c8ec1c182",
+      "file_name": "2018北京春季高中会考生物（教师版）(1).md",
+      "phase12r_primary_reason": "answer_ambiguous",
+      "phase13_primary_reason": "answer_missing",
+      "strict_primary_reason": "answer_ambiguous",
+      "same_or_changed": "changed",
+      "change_reason": "CLASSIFICATION_DRIFT: phase13 rid.startswith(unit_id) prefix-collision ingests unresolved refs from other units (e.g. Q3 ← Q30/Q31); IR state identical",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q20.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q20"
+        },
+        {
+          "ref": "Q21.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q21"
+        },
+        {
+          "ref": "Q22.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q22.option.B",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q22.option.C",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q22.option.D",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q22.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q22"
+        },
+        {
+          "ref": "Q23.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q23.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q23.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q23.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q23.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q23.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q23"
+        },
+        {
+          "ref": "Q24.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q24"
+        },
+        {
+          "ref": "Q25.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q25"
+        },
+        {
+          "ref": "Q26.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q26"
+        },
+        {
+          "ref": "Q27.option.A",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q27"
+        },
+        {
+          "ref": "Q27.option.C",
+          "role": "option",
+          "status": "ambiguous",
+          "derived_uid": "Q27"
+        },
+        {
+          "ref": "Q27.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q27"
+        },
+        {
+          "ref": "Q28.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q28"
+        },
+        {
+          "ref": "Q28.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q28"
+        },
+        {
+          "ref": "Q28.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q28"
+        },
+        {
+          "ref": "Q28.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q28"
+        },
+        {
+          "ref": "Q28.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q28"
+        },
+        {
+          "ref": "Q28.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q28"
+        },
+        {
+          "ref": "Q29.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q29"
+        },
+        {
+          "ref": "Q29.option.A",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q29"
+        },
+        {
+          "ref": "Q29.option.B",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q29"
+        },
+        {
+          "ref": "Q29.option.C",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q29"
+        },
+        {
+          "ref": "Q29.option.D",
+          "role": "option",
+          "status": "incomplete",
+          "derived_uid": "Q29"
+        },
+        {
+          "ref": "Q29.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q29"
+        }
+      ]
+    }
+  ],
+  "other_primary_changes": [
+    {
+      "unit_id": "Q3",
+      "document_id": "79b375ab-c33e-4979-8258-04d9fcaac59f",
+      "source_version_id": "0f7c3e77-dcab-44c4-b1e7-fe80c79f9d4f",
+      "file_name": "2018北京夏季高中会考政治（教师版）(1).md",
+      "phase12r_primary_reason": "answer_missing",
+      "phase13_primary_reason": "material_missing_or_incomplete",
+      "strict_primary_reason": "answer_missing",
+      "same_or_changed": "changed",
+      "change_reason": "CLASSIFICATION_DRIFT: phase13 rid.startswith(unit_id) prefix-collision ingests unresolved refs from other units (e.g. Q3 ← Q30/Q31); IR state identical",
+      "leaked_refs_via_startswith": [
+        {
+          "ref": "Q30.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q30"
+        },
+        {
+          "ref": "Q30.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q30"
+        },
+        {
+          "ref": "Q31.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q31"
+        },
+        {
+          "ref": "Q33.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q33"
+        },
+        {
+          "ref": "Q35.answer",
+          "role": "answer",
+          "status": "missing",
+          "derived_uid": "Q35"
+        },
+        {
+          "ref": "Q37.material",
+          "role": "material",
+          "status": "incomplete",
+          "derived_uid": "Q37"
+        },
+        {
+          "ref": "Q37.sub.stem",
+          "role": "stem",
+          "status": "missing",
+          "derived_uid": "Q37.sub"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "moved_into_answer_missing_n": 7,
+    "moved_out_of_answer_ambiguous_n": 2,
+    "net_answer_missing": 167,
+    "verdict": "RESOLVED",
+    "q1": "CLASSIFICATION_DRIFT"
+  }
+}

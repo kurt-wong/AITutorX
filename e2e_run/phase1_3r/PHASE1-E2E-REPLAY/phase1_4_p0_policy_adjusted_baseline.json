@@ -1,0 +1,49 @@
+{
+  "name": "Phase1.4-P0-policy-adjusted",
+  "metric_scope": "root",
+  "policy_change": "role_region overlap diagnostic-only (not auto blocker)",
+  "git": {
+    "AITutors-v3": "P0-A in progress",
+    "AITutors-preprocessing": "8377c56"
+  },
+  "root_units": 284,
+  "ir_ready": 227,
+  "ir_incomplete": 57,
+  "gate_decision": {
+    "auto_approve": 145,
+    "pending_review": 77,
+    "rejected": 5
+  },
+  "decision_status": {
+    "approved": 145,
+    "pending_review": 77,
+    "rejected": 5
+  },
+  "db": {
+    "candidates": 227,
+    "questions": 145,
+    "question_instances": 145
+  },
+  "q_qi": "145:145 = 1:1",
+  "canonical_qtype": {
+    "single_choice": 145
+  },
+  "unit_type": {
+    "composite_unit": {
+      "approved": 22,
+      "pending_review": 24,
+      "rejected": 5
+    },
+    "standalone_unit": {
+      "approved": 123,
+      "pending_review": 53
+    }
+  },
+  "vs_BaselineA_role_region_blocking": {
+    "auto": "78 -> 145 (+67)",
+    "pending": "144 -> 77 (-67)",
+    "rejected": "5 -> 5",
+    "incomplete": "58 -> 57 (U44-46 option D fixed)",
+    "questions": "78 -> 145"
+  }
+}

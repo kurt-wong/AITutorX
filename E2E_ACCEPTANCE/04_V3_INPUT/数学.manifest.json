@@ -1,0 +1,1496 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\数学\\2018北京春季高中会考数学（教师版）(1).md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.1",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        7,
+        7
+      ],
+      "options_lines": [
+        9,
+        9
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        200,
+        206
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L7",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 9,
+          "end_line": 9
+        },
+        {
+          "label": "B",
+          "start_line": 9,
+          "end_line": 9
+        },
+        {
+          "label": "C",
+          "start_line": 9,
+          "end_line": 9
+        },
+        {
+          "label": "D",
+          "start_line": 9,
+          "end_line": 9
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        11,
+        11
+      ],
+      "options_lines": [
+        13,
+        13
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        208,
+        222
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L11",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 13,
+          "end_line": 13
+        },
+        {
+          "label": "B",
+          "start_line": 13,
+          "end_line": 13
+        },
+        {
+          "label": "C",
+          "start_line": 13,
+          "end_line": 13
+        },
+        {
+          "label": "D",
+          "start_line": 13,
+          "end_line": 13
+        }
+      ]
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        15,
+        15
+      ],
+      "options_lines": [
+        17,
+        17
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        224,
+        232
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L15",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 17,
+          "end_line": 17
+        },
+        {
+          "label": "B",
+          "start_line": 17,
+          "end_line": 17
+        },
+        {
+          "label": "C",
+          "start_line": 17,
+          "end_line": 17
+        },
+        {
+          "label": "D",
+          "start_line": 17,
+          "end_line": 17
+        }
+      ]
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        19,
+        19
+      ],
+      "options_lines": [
+        21,
+        23
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        234,
+        240
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        4
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L19",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 21,
+          "end_line": 21
+        },
+        {
+          "label": "B",
+          "start_line": 21,
+          "end_line": 21
+        },
+        {
+          "label": "C",
+          "start_line": 23,
+          "end_line": 23
+        },
+        {
+          "label": "D",
+          "start_line": 23,
+          "end_line": 23
+        }
+      ]
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        5
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        25,
+        27
+      ],
+      "options_lines": [
+        30,
+        30
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        242,
+        258
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        5
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L25",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 30,
+          "end_line": 30
+        },
+        {
+          "label": "B",
+          "start_line": 30,
+          "end_line": 30
+        },
+        {
+          "label": "C",
+          "start_line": 30,
+          "end_line": 30
+        },
+        {
+          "label": "D",
+          "start_line": 30,
+          "end_line": 30
+        }
+      ]
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        6
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        32,
+        32
+      ],
+      "options_lines": [
+        34,
+        34
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        260,
+        272
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        6
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L32",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 34,
+          "end_line": 34
+        },
+        {
+          "label": "B",
+          "start_line": 34,
+          "end_line": 34
+        },
+        {
+          "label": "C",
+          "start_line": 34,
+          "end_line": 34
+        },
+        {
+          "label": "D",
+          "start_line": 34,
+          "end_line": 34
+        }
+      ]
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        7
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        36,
+        36
+      ],
+      "options_lines": [
+        38,
+        38
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        274,
+        284
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        7
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L36",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 38,
+          "end_line": 38
+        },
+        {
+          "label": "B",
+          "start_line": 38,
+          "end_line": 38
+        },
+        {
+          "label": "C",
+          "start_line": 38,
+          "end_line": 38
+        },
+        {
+          "label": "D",
+          "start_line": 38,
+          "end_line": 38
+        }
+      ]
+    },
+    {
+      "unit_id": "Q8",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        8
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        40,
+        40
+      ],
+      "options_lines": [
+        42,
+        42
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        286,
+        296
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        8
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L40",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 42,
+          "end_line": 42
+        },
+        {
+          "label": "B",
+          "start_line": 42,
+          "end_line": 42
+        },
+        {
+          "label": "C",
+          "start_line": 42,
+          "end_line": 42
+        },
+        {
+          "label": "D",
+          "start_line": 42,
+          "end_line": 42
+        }
+      ]
+    },
+    {
+      "unit_id": "Q9",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        9
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        44,
+        44
+      ],
+      "options_lines": [
+        48,
+        48
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        298,
+        310
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        9
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L44",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 48,
+          "end_line": 48
+        },
+        {
+          "label": "B",
+          "start_line": 48,
+          "end_line": 48
+        },
+        {
+          "label": "C",
+          "start_line": 48,
+          "end_line": 48
+        },
+        {
+          "label": "D",
+          "start_line": 48,
+          "end_line": 48
+        }
+      ]
+    },
+    {
+      "unit_id": "Q10",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        10
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        50,
+        50
+      ],
+      "options_lines": [
+        52,
+        52
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        314,
+        324
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        10
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L50",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 52,
+          "end_line": 52
+        },
+        {
+          "label": "B",
+          "start_line": 52,
+          "end_line": 52
+        },
+        {
+          "label": "C",
+          "start_line": 52,
+          "end_line": 52
+        },
+        {
+          "label": "D",
+          "start_line": 52,
+          "end_line": 52
+        }
+      ]
+    },
+    {
+      "unit_id": "Q11",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        11
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        54,
+        54
+      ],
+      "options_lines": [
+        56,
+        56
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        326,
+        336
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        11
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L54",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 56,
+          "end_line": 56
+        },
+        {
+          "label": "B",
+          "start_line": 56,
+          "end_line": 56
+        },
+        {
+          "label": "C",
+          "start_line": 56,
+          "end_line": 56
+        },
+        {
+          "label": "D",
+          "start_line": 56,
+          "end_line": 56
+        }
+      ]
+    },
+    {
+      "unit_id": "Q12",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        12
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        58,
+        58
+      ],
+      "options_lines": [
+        60,
+        60
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        338,
+        348
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        12
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L58",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 60,
+          "end_line": 60
+        },
+        {
+          "label": "B",
+          "start_line": 60,
+          "end_line": 60
+        },
+        {
+          "label": "C",
+          "start_line": 60,
+          "end_line": 60
+        },
+        {
+          "label": "D",
+          "start_line": 60,
+          "end_line": 60
+        }
+      ]
+    },
+    {
+      "unit_id": "Q13",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        13
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        62,
+        62
+      ],
+      "options_lines": [
+        64,
+        64
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        350,
+        356
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        13
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L62",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 64,
+          "end_line": 64
+        },
+        {
+          "label": "B",
+          "start_line": 64,
+          "end_line": 64
+        },
+        {
+          "label": "C",
+          "start_line": 64,
+          "end_line": 64
+        },
+        {
+          "label": "D",
+          "start_line": 64,
+          "end_line": 64
+        }
+      ]
+    },
+    {
+      "unit_id": "Q14",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        14
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        66,
+        66
+      ],
+      "options_lines": [
+        68,
+        68
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        358,
+        368
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        14
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L66",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 68,
+          "end_line": 68
+        },
+        {
+          "label": "B",
+          "start_line": 68,
+          "end_line": 68
+        },
+        {
+          "label": "C",
+          "start_line": 68,
+          "end_line": 68
+        },
+        {
+          "label": "D",
+          "start_line": 68,
+          "end_line": 68
+        }
+      ]
+    },
+    {
+      "unit_id": "Q15",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        15
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        70,
+        87
+      ],
+      "options_lines": [
+        90,
+        90
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        370,
+        384
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        15
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L70",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 90,
+          "end_line": 90
+        },
+        {
+          "label": "B",
+          "start_line": 90,
+          "end_line": 90
+        },
+        {
+          "label": "C",
+          "start_line": 90,
+          "end_line": 90
+        },
+        {
+          "label": "D",
+          "start_line": 90,
+          "end_line": 90
+        }
+      ]
+    },
+    {
+      "unit_id": "Q16",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        16
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        92,
+        92
+      ],
+      "options_lines": [
+        94,
+        94
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        386,
+        404
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        16
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L92",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 94,
+          "end_line": 94
+        },
+        {
+          "label": "B",
+          "start_line": 94,
+          "end_line": 94
+        },
+        {
+          "label": "C",
+          "start_line": 94,
+          "end_line": 94
+        },
+        {
+          "label": "D",
+          "start_line": 94,
+          "end_line": 94
+        }
+      ]
+    },
+    {
+      "unit_id": "Q17",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        17
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        96,
+        104
+      ],
+      "options_lines": [
+        107,
+        107
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        406,
+        430
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        17
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L96",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 107,
+          "end_line": 107
+        },
+        {
+          "label": "B",
+          "start_line": 107,
+          "end_line": 107
+        },
+        {
+          "label": "C",
+          "start_line": 107,
+          "end_line": 107
+        },
+        {
+          "label": "D",
+          "start_line": 107,
+          "end_line": 107
+        }
+      ]
+    },
+    {
+      "unit_id": "Q18",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        18
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        109,
+        109
+      ],
+      "options_lines": [
+        111,
+        111
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        434,
+        448
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        18
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L109",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 111,
+          "end_line": 111
+        },
+        {
+          "label": "B",
+          "start_line": 111,
+          "end_line": 111
+        },
+        {
+          "label": "C",
+          "start_line": 111,
+          "end_line": 111
+        },
+        {
+          "label": "D",
+          "start_line": 111,
+          "end_line": 111
+        }
+      ]
+    },
+    {
+      "unit_id": "Q19",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        19
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        113,
+        113
+      ],
+      "options_lines": [
+        115,
+        115
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        450,
+        462
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        19
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L113",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 115,
+          "end_line": 115
+        },
+        {
+          "label": "B",
+          "start_line": 115,
+          "end_line": 115
+        },
+        {
+          "label": "C",
+          "start_line": 115,
+          "end_line": 115
+        },
+        {
+          "label": "D",
+          "start_line": 115,
+          "end_line": 115
+        }
+      ]
+    },
+    {
+      "unit_id": "Q20",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        20
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        117,
+        117
+      ],
+      "options_lines": [
+        119,
+        119
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        464,
+        470
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        20
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L117",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 119,
+          "end_line": 119
+        },
+        {
+          "label": "B",
+          "start_line": 119,
+          "end_line": 119
+        },
+        {
+          "label": "C",
+          "start_line": 119,
+          "end_line": 119
+        },
+        {
+          "label": "D",
+          "start_line": 119,
+          "end_line": 119
+        }
+      ]
+    },
+    {
+      "unit_id": "Q21",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        21
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        121,
+        121
+      ],
+      "options_lines": [
+        123,
+        123
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        472,
+        484
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        21
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L121",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 123,
+          "end_line": 123
+        },
+        {
+          "label": "B",
+          "start_line": 123,
+          "end_line": 123
+        },
+        {
+          "label": "C",
+          "start_line": 123,
+          "end_line": 123
+        },
+        {
+          "label": "D",
+          "start_line": 123,
+          "end_line": 123
+        }
+      ]
+    },
+    {
+      "unit_id": "Q22",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        22
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        125,
+        131
+      ],
+      "options_lines": [
+        133,
+        133
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        487,
+        523
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        22
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L125",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 133,
+          "end_line": 133
+        },
+        {
+          "label": "B",
+          "start_line": 133,
+          "end_line": 133
+        },
+        {
+          "label": "C",
+          "start_line": 133,
+          "end_line": 133
+        },
+        {
+          "label": "D",
+          "start_line": 133,
+          "end_line": 133
+        }
+      ]
+    },
+    {
+      "unit_id": "Q23",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        23
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        135,
+        135
+      ],
+      "options_lines": [
+        137,
+        137
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        525,
+        541
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 137,
+          "end_line": 137
+        },
+        {
+          "label": "B",
+          "start_line": 137,
+          "end_line": 137
+        },
+        {
+          "label": "C",
+          "start_line": 137,
+          "end_line": 137
+        },
+        {
+          "label": "D",
+          "start_line": 137,
+          "end_line": 137
+        }
+      ]
+    },
+    {
+      "unit_id": "Q24",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        24
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        139,
+        139
+      ],
+      "options_lines": [
+        141,
+        141
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        543,
+        565
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        24
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L139",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 141,
+          "end_line": 141
+        },
+        {
+          "label": "B",
+          "start_line": 141,
+          "end_line": 141
+        },
+        {
+          "label": "C",
+          "start_line": 141,
+          "end_line": 141
+        },
+        {
+          "label": "D",
+          "start_line": 141,
+          "end_line": 141
+        }
+      ]
+    },
+    {
+      "unit_id": "Q25",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        25
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        143,
+        150
+      ],
+      "options_lines": [
+        153,
+        153
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        567,
+        575
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "printed_number": [
+        25
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L143",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 153,
+          "end_line": 153
+        },
+        {
+          "label": "B",
+          "start_line": 153,
+          "end_line": 153
+        },
+        {
+          "label": "C",
+          "start_line": 153,
+          "end_line": 153
+        },
+        {
+          "label": "D",
+          "start_line": 153,
+          "end_line": 153
+        }
+      ]
+    },
+    {
+      "unit_id": "Q26",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        26
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        157,
+        161
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        579,
+        591
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "二. 解答题（每小题5分，共25分）",
+      "printed_number": [
+        26
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L157"
+    },
+    {
+      "unit_id": "Q27",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        27
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        163,
+        169
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        593,
+        623
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "二. 解答题（每小题5分，共25分）",
+      "printed_number": [
+        27
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L163"
+    },
+    {
+      "unit_id": "Q28",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        28
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        172,
+        176
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        625,
+        651
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "二. 解答题（每小题5分，共25分）",
+      "printed_number": [
+        28
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L172"
+    },
+    {
+      "unit_id": "Q29",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        29
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        178,
+        184
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        653,
+        689
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "二. 解答题（每小题5分，共25分）",
+      "printed_number": [
+        29
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L178"
+    },
+    {
+      "unit_id": "Q30",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        30
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        186,
+        192
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        691,
+        749
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "二. 解答题（每小题5分，共25分）",
+      "printed_number": [
+        30
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L186"
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2018 北京春季高中会考",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "数 学",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 4,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "ordinal": 3,
+      "start_line": 5,
+      "end_line": 154,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "二. 解答题（每小题5分，共25分）",
+      "ordinal": 4,
+      "start_line": 155,
+      "end_line": 197,
+      "occurrence": 1
+    },
+    {
+      "id": "S4",
+      "title": "一、 在每个小题给出的四个备选答案中，只有一个符合题目要求的",
+      "ordinal": 5,
+      "start_line": 198,
+      "end_line": 576,
+      "occurrence": 2
+    },
+    {
+      "id": "S5",
+      "title": "二. 解答题（每小题5分，共25分）",
+      "ordinal": 6,
+      "start_line": 577,
+      "end_line": 749,
+      "occurrence": 2
+    }
+  ],
+  "source_content_sha256": "934dec78dde333d21342f3f9419f524bb68e92645914c3d3db9cf482a282f176"
+}

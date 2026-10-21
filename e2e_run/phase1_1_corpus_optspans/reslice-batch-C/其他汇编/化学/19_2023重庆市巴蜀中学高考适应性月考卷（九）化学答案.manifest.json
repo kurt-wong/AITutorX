@@ -1,0 +1,509 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\其他汇编\\化学\\19_2023重庆市巴蜀中学高考适应性月考卷（九）化学答案.md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.1",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6,
+        6
+      ],
+      "explanation_lines": [
+        10,
+        10
+      ],
+      "section_ref": "S0",
+      "section": "巴蜀中学 2023 届高考适应性月考卷（九） 化学参考答案",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6,
+        6
+      ],
+      "explanation_lines": [
+        12,
+        12
+      ],
+      "section_ref": "S0",
+      "section": "巴蜀中学 2023 届高考适应性月考卷（九） 化学参考答案",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6,
+        6
+      ],
+      "explanation_lines": [
+        14,
+        14
+      ],
+      "section_ref": "S0",
+      "section": "巴蜀中学 2023 届高考适应性月考卷（九） 化学参考答案",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6,
+        6
+      ],
+      "explanation_lines": [
+        16,
+        16
+      ],
+      "section_ref": "S0",
+      "section": "巴蜀中学 2023 届高考适应性月考卷（九） 化学参考答案",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        5
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6,
+        6
+      ],
+      "explanation_lines": [
+        20,
+        20
+      ],
+      "section_ref": "S0",
+      "section": "巴蜀中学 2023 届高考适应性月考卷（九） 化学参考答案",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        6
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6,
+        6
+      ],
+      "explanation_lines": [
+        22,
+        22
+      ],
+      "section_ref": "S0",
+      "section": "巴蜀中学 2023 届高考适应性月考卷（九） 化学参考答案",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        7
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6,
+        6
+      ],
+      "explanation_lines": [
+        24,
+        24
+      ],
+      "section_ref": "S0",
+      "section": "巴蜀中学 2023 届高考适应性月考卷（九） 化学参考答案",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q8",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        8
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6,
+        6
+      ],
+      "explanation_lines": [
+        26,
+        26
+      ],
+      "section_ref": "S0",
+      "section": "巴蜀中学 2023 届高考适应性月考卷（九） 化学参考答案",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q9",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        9
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6,
+        6
+      ],
+      "explanation_lines": [
+        28,
+        28
+      ],
+      "section_ref": "S0",
+      "section": "巴蜀中学 2023 届高考适应性月考卷（九） 化学参考答案",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q10",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        10
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6,
+        6
+      ],
+      "explanation_lines": [
+        32,
+        32
+      ],
+      "section_ref": "S0",
+      "section": "巴蜀中学 2023 届高考适应性月考卷（九） 化学参考答案",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q11",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        11
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6,
+        6
+      ],
+      "explanation_lines": [
+        34,
+        36
+      ],
+      "section_ref": "S0",
+      "section": "巴蜀中学 2023 届高考适应性月考卷（九） 化学参考答案",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q12",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        12
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6,
+        6
+      ],
+      "explanation_lines": [
+        38,
+        38
+      ],
+      "section_ref": "S0",
+      "section": "巴蜀中学 2023 届高考适应性月考卷（九） 化学参考答案",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q13",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        13
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6,
+        6
+      ],
+      "explanation_lines": [
+        40,
+        40
+      ],
+      "section_ref": "S0",
+      "section": "巴蜀中学 2023 届高考适应性月考卷（九） 化学参考答案",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q14",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        14
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": null,
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6,
+        6
+      ],
+      "explanation_lines": [
+        42,
+        56
+      ],
+      "section_ref": "S0",
+      "section": "巴蜀中学 2023 届高考适应性月考卷（九） 化学参考答案",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q15",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        15
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        60,
+        60
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        62,
+        74
+      ],
+      "explanation_lines": [
+        76,
+        90
+      ],
+      "section_ref": "S2",
+      "section": "二、 非选择题：本题共4小题，共58分。",
+      "printed_number": [
+        15
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L60"
+    },
+    {
+      "unit_id": "Q16",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        16
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        92,
+        92
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        94,
+        104
+      ],
+      "explanation_lines": [
+        106,
+        118
+      ],
+      "section_ref": "S2",
+      "section": "二、 非选择题：本题共4小题，共58分。",
+      "printed_number": [
+        16
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L92"
+    },
+    {
+      "unit_id": "Q17",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        17
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        120,
+        120
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        122,
+        134
+      ],
+      "explanation_lines": [
+        136,
+        163
+      ],
+      "section_ref": "S2",
+      "section": "二、 非选择题：本题共4小题，共58分。",
+      "printed_number": [
+        17
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L120"
+    },
+    {
+      "unit_id": "Q18",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        18
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        166,
+        166
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        168,
+        189
+      ],
+      "explanation_lines": [
+        191,
+        211
+      ],
+      "section_ref": "S2",
+      "section": "二、 非选择题：本题共4小题，共58分。",
+      "printed_number": [
+        18
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L166"
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "巴蜀中学 2023 届高考适应性月考卷（九） 化学参考答案",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "一、 选择题：本题共14小题，每小题3分。",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 57,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "二、 非选择题：本题共4小题，共58分。",
+      "ordinal": 3,
+      "start_line": 58,
+      "end_line": 211,
+      "occurrence": 1
+    }
+  ],
+  "source_content_sha256": "dd7cc94c6c128f4362266d320fac8e90fe010df0d6987825011e9a568b96460f"
+}

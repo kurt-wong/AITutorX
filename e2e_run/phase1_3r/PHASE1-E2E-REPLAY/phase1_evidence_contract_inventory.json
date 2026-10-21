@@ -1,0 +1,119 @@
+{
+  "note": "inventory only — no implementation this phase",
+  "items": [
+    {
+      "problem": "MATERIAL_EDGE_LINE_TRUNCATION",
+      "count": 5,
+      "lost_lines_total": 5,
+      "detail": [
+        {
+          "unit": "Q1",
+          "side": "end",
+          "declared": [
+            497,
+            502
+          ],
+          "resolved": [
+            493,
+            501
+          ],
+          "lost": [
+            502
+          ],
+          "paper": "英语"
+        },
+        {
+          "unit": "Q3",
+          "side": "end",
+          "declared": [
+            509,
+            514
+          ],
+          "resolved": [
+            509,
+            513
+          ],
+          "lost": [
+            514
+          ],
+          "paper": "英语"
+        },
+        {
+          "unit": "Q4",
+          "side": "end",
+          "declared": [
+            516,
+            520
+          ],
+          "resolved": [
+            516,
+            519
+          ],
+          "lost": [
+            520
+          ],
+          "paper": "英语"
+        },
+        {
+          "unit": "Q5-6",
+          "side": "end",
+          "declared": [
+            522,
+            527
+          ],
+          "resolved": [
+            522,
+            526
+          ],
+          "lost": [
+            527
+          ],
+          "paper": "英语"
+        },
+        {
+          "unit": "Q15-17",
+          "side": "end",
+          "declared": [
+            563,
+            578
+          ],
+          "resolved": [
+            563,
+            577
+          ],
+          "lost": [
+            578
+          ],
+          "paper": "英语"
+        }
+      ],
+      "next_phase": "Producer contract"
+    },
+    {
+      "problem": "MATERIAL_SHARED_BOUNDARY_LINE",
+      "count": 0,
+      "detail": [],
+      "next_phase": "Producer contract"
+    },
+    {
+      "problem": "ANSWER_TABLE (HTML/shared table)",
+      "count": "33+ (chem 25 + bio 21 incomplete cascade; 12 answer unresolved)",
+      "detail": "answer_lines point at shared HTML table; token extraction fails",
+      "next_phase": "Producer evidence"
+    },
+    {
+      "problem": "OPTION_DECLARATION",
+      "count": 4,
+      "detail": "U44-46.option.D + Q16/Q6/Q3 options missing",
+      "next_phase": "Producer evidence"
+    }
+  ],
+  "remaining_incomplete": {
+    "chem_table_answer_cascade": 25,
+    "bio_table_answer_cascade": 21,
+    "stem_ambiguous": 41,
+    "option_incomplete_cascade": 96,
+    "u44_46_option_D": 1,
+    "options_missing": 3
+  }
+}

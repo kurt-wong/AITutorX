@@ -1,0 +1,93 @@
+{
+  "task": "B — formal product-chain E2E (Round 1: locate first unconnected link)",
+  "status": "ROUND1_COMPLETE_NO_FIX",
+  "authorized_boundaries": {
+    "formal_entry_first": true,
+    "no_phase1_substitution": true,
+    "no_production_fix_round1": true,
+    "keep_task_a_baseline": true,
+    "layer_evidence": true
+  },
+  "formal_chain_map": [
+    {
+      "layer": "API import",
+      "code": "app/api/routers/documents.py → DocumentImportService.import_file",
+      "input": "file_bytes + file_name",
+      "output": "Document + Task(queued)"
+    },
+    {
+      "layer": "Import contract",
+      "code": "import_service.py:_ALLOWED_EXTENSIONS",
+      "input": "extension check",
+      "output": "allowed = .pdf .docx ONLY"
+    },
+    {
+      "layer": "TaskExecutor",
+      "code": "task/executor.py:run_once → _process",
+      "input": "task_params.file_path",
+      "output": "staged pipeline"
+    },
+    {
+      "layer": "1 Seal",
+      "code": "source/seal.py SealService.seal_document",
+      "input": "file bytes",
+      "output": "DocumentSourceVersion (sealed text)"
+    },
+    {
+      "layer": "2 Quality",
+      "code": "source/quality.py SourceQualityGate",
+      "input": "sealed body_text",
+      "output": "valid|degraded|invalid|ocr_required"
+    },
+    {
+      "layer": "3 Annotation",
+      "code": "annotation/service.py + LLM prompt",
+      "input": "sealed text",
+      "output": "SemanticAnnotation (LLM)"
+    },
+    {
+      "layer": "4 Compile+Gate",
+      "code": "gate/service.py GateService.run",
+      "input": "annotation + resolved",
+      "output": "candidates / skipped"
+    },
+    {
+      "layer": "5 DB",
+      "code": "Admission / Question materialization",
+      "input": "gate_decision=auto_approve",
+      "output": "Question rows"
+    },
+    {
+      "layer": "6 Frontend",
+      "code": "AITutors-v3/frontend",
+      "input": "DB / API",
+      "output": "user-visible questions"
+    }
+  ],
+  "FIRST_UNCONNECTED_LINK": {
+    "name": "Preprocessing product → Formal V3 input",
+    "evidence": [
+      "import_service.py:26 _ALLOWED_EXTENSIONS = {'.pdf', '.docx'}",
+      "Official preprocessing outputs are .md + *.manifest.json under Papers/Ocr-markdown",
+      "TaskExecutor _seal_stage requires task_params.file_path (raw file bytes), then extracts text itself",
+      "preprocessing_consumer lives in backend/scripts (experimental task_type=preprocessing_consumer_phase0), NOT on TaskExecutor document_ingest path",
+      "No API/contract accepts Ocr-markdown MD or Papers manifest as formal input"
+    ],
+    "layer_enum": "Integration / import contract gap",
+    "not_yet_tested_downstream": [
+      "Seal→Quality→Annotation→Gate→DB→Frontend on a PDF that formal chain CAN accept",
+      "Whether LLM Annotation quality is sufficient for exam questions"
+    ]
+  },
+  "what_this_proves": "Formal chain is PDF/DOCX-first and self-contains Seal+LLM Annotation. It does NOT currently consume official preprocessing MD/manifest. Therefore Phase 1 manifest Runner success cannot substitute formal E2E.",
+  "what_this_does_NOT_prove": "Does not prove Seal/Annotation/Gate/DB/Frontend work on real papers; those layers were not executed this round.",
+  "layer_input_output_hashes": {
+    "import_service.py": "ff3e3dae1433abc0",
+    "executor.py": "c5f164aa5935d775",
+    "quality.py": "b0569d0d55af1bdf",
+    "seal.py": "35aeee12ca2027c1",
+    "documents.py": "9dccde7da1994c13"
+  },
+  "task_a_baseline_preserved": true,
+  "q17_q20_ocr_boundaries": "unchanged, separate cases"
+}

@@ -1,0 +1,38 @@
+{
+  "package": "chem-2018-spring-huikao-teacher",
+  "generated_by": "M1-B pairing from Producer OCR ledger",
+  "ocr_ledger": "D:\\Project\\Papers\\data\\ocr_output_manifest.jsonl",
+  "producer_ocr_record": {
+    "source_rel": "2018北京春季高中会考化学（教师版）(1).pdf",
+    "source_size": 649356,
+    "source_sha256": "8d3f9dad0918567b3ef375a57843d5d28d1eff77dfac467ff9eddc0f3c4f3a23",
+    "output_rel": "会考/化学/2018北京春季高中会考化学（教师版）(1).md",
+    "written_at": "2026-09-13 21:40:50",
+    "pages": 12,
+    "provenance": "r63-audit-bootstrap",
+    "audit_line": 13
+  },
+  "package_files": {
+    "paper.pdf": {
+      "sha256": "8d3f9dad0918567b3ef375a57843d5d28d1eff77dfac467ff9eddc0f3c4f3a23",
+      "bytes": 649356
+    },
+    "paper.md": {
+      "sha256": "0443945f4672b05da3d2d950b0a3eb20a495c1635c353c024c8c050b7fad1ffb",
+      "bytes": 31777
+    }
+  },
+  "identity_split": {
+    "original_sha256": "8d3f9dad0918567b3ef375a57843d5d28d1eff77dfac467ff9eddc0f3c4f3a23",
+    "source_content_sha256": "0443945f4672b05da3d2d950b0a3eb20a495c1635c353c024c8c050b7fad1ffb",
+    "distinct": true
+  },
+  "pairing_proof": {
+    "method": "producer-ocr-output-manifest",
+    "source_sha256_equals_package_pdf": true,
+    "output_rel": "会考/化学/2018北京春季高中会考化学（教师版）(1).md",
+    "output_filename": "2018北京春季高中会考化学（教师版）(1).md",
+    "consumed_md_sha_matches_manifest": true,
+    "note": "PDF original identity proven by Producer OCR ledger source_sha256. Markdown identity proven by source_content_sha256 raw-bytes hash. Filename similarity is NOT used as identity."
+  }
+}

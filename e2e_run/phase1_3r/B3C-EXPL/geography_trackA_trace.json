@@ -1,0 +1,268 @@
+{
+  "known_gaps_by_code": {
+    "SUB_QUESTION_DECOMPOSITION_UNAVAILABLE": 25
+  },
+  "material_marker_with_text": 25,
+  "material_marker_without_text": 0,
+  "resolved_by_role": {
+    "material": 25,
+    "answer": 25,
+    "stem": 11
+  },
+  "unresolved": [
+    {
+      "role": "stem",
+      "status": "ambiguous",
+      "evidence": "question 1 start not unique",
+      "count": 1
+    },
+    {
+      "role": "stem",
+      "status": "ambiguous",
+      "evidence": "question 3 start not unique",
+      "count": 1
+    },
+    {
+      "role": "stem",
+      "status": "missing",
+      "evidence": "question number '16' not found",
+      "count": 1
+    },
+    {
+      "role": "stem",
+      "status": "missing",
+      "evidence": "question number '21' not found",
+      "count": 1
+    },
+    {
+      "role": "stem",
+      "status": "missing",
+      "evidence": "question number '24' not found",
+      "count": 1
+    },
+    {
+      "role": "stem",
+      "status": "missing",
+      "evidence": "question number '26' not found",
+      "count": 1
+    },
+    {
+      "role": "stem",
+      "status": "missing",
+      "evidence": "question number '40' not found",
+      "count": 1
+    },
+    {
+      "role": "stem",
+      "status": "missing",
+      "evidence": "question number '42' not found",
+      "count": 1
+    },
+    {
+      "role": "stem",
+      "status": "missing",
+      "evidence": "question number '44' not found",
+      "count": 1
+    },
+    {
+      "role": "stem",
+      "status": "missing",
+      "evidence": "question number '51' not found",
+      "count": 1
+    },
+    {
+      "role": "stem",
+      "status": "missing",
+      "evidence": "question number '52' not found",
+      "count": 1
+    },
+    {
+      "role": "stem",
+      "status": "missing",
+      "evidence": "question number '53' not found",
+      "count": 1
+    },
+    {
+      "role": "stem",
+      "status": "missing",
+      "evidence": "question number '54' not found",
+      "count": 1
+    },
+    {
+      "role": "stem",
+      "status": "missing",
+      "evidence": "question number '55' not found",
+      "count": 1
+    }
+  ],
+  "clean_start_numbers": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "8",
+    "9",
+    "10",
+    "12",
+    "13",
+    "14",
+    "18",
+    "19",
+    "22",
+    "25",
+    "28",
+    "30",
+    "31",
+    "32",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "47",
+    "48",
+    "49",
+    "50"
+  ],
+  "duplicate_clean_starts": {
+    "2": [
+      [
+        15,
+        "2. 为推断土星卫星上是否存在生命，需要寻找的最关键证据是该卫星"
+      ],
+      [
+        484,
+        "2. 读图 14 “2017 年 10 月 27 日 20 时亚洲部分地区海平面等压线分布图（单位：百帕）”和资料。(10分)"
+      ],
+      [
+        617,
+        "2. 本题共10分。每空1分。第（3）小题选择填空2分，选对一项得1分，多选则该小题不得分。第（4）小题2分。"
+      ]
+    ],
+    "3": [
+      [
+        21,
+        "3. 本次耀斑爆发时，伦敦正值"
+      ],
+      [
+        518,
+        "3. 读图 15 “江西省赣州市地图”，图 16 “脐橙种植园景观图” 和资料，回答下列问题。(10 分)"
+      ],
+      [
+        631,
+        "3. 本题共10分。每空1分。"
+      ]
+    ],
+    "4": [
+      [
+        25,
+        "4. 本次耀斑爆发对地球的影响有"
+      ],
+      [
+        544,
+        "4. 读图 17 “北京新机场五纵两横交通网示意图” 和资料。回答下列问题。(10 分)"
+      ],
+      [
+        641,
+        "4. 本题共10分。每空1分。第（2）小题选择填空2分，选对一项得1分，多选则该小题不得分。"
+      ]
+    ],
+    "5": [
+      [
+        31,
+        "5. 陈雁斑以外，太阳活动的主要标志还有"
+      ],
+      [
+        570,
+        "5. 北京市某中学组织参观 “砥砺奋进的五年” 大型成就展，图 18. 为某同学拍摄的秸秆等物质利用示意图，读图 18，回答下列问题。(10"
+      ],
+      [
+        653,
+        "5. 本题共10分。每空1分。第（2）小题选择填空3分，选对一项得1分，多选则该小题不得分。"
+      ]
+    ],
+    "1": [
+      [
+        456,
+        "1. 读图 12 “地球公转示意图”，图 13 “北京市某校学生 11 月初观测正午太阳高度照片”，回答下列问题。（10 分）"
+      ],
+      [
+        605,
+        "1. 本题共10分。每空1分。"
+      ]
+    ]
+  },
+  "escaped_dot_lines": [
+    [
+      11,
+      "1\\. 与 “卡西尼号” 探测的天体系统级别相同的是"
+    ],
+    [
+      41,
+      "7\\. 霜降时节，北京地区适宜的农事活动是"
+    ],
+    [
+      85,
+      "11\\. 新西兰地震多发，是因为其位于"
+    ],
+    [
+      137,
+      "17\\. 北京市征收水资源税的主要目的是"
+    ],
+    [
+      176,
+      "21\\. 2015 年北京市常住人口增长的主要特点是"
+    ],
+    [
+      188,
+      "23\\. 全面实施 “一对夫妇可生育两个孩子” 政策，有助于北京市"
+    ],
+    [
+      196,
+      "24\\. 甲类车位主要集中分布于"
+    ],
+    [
+      234,
+      "27\\. 设立北京城市副中心和河北雄安新区的目的有"
+    ],
+    [
+      256,
+      "29\\. 建设西北部生态涵养区对京津冀地理环境的影响是"
+    ],
+    [
+      282,
+      "33\\. 曹妃甸新城的工业集聚可以"
+    ],
+    [
+      332,
+      "40\\. 辽宁省承接产业转移的优势区位条件有"
+    ],
+    [
+      338,
+      "41\\. 长三角地区产业迁出对当地地理环境的影响有"
+    ],
+    [
+      346,
+      "42\\. 对图中景物的合理解释是"
+    ],
+    [
+      366,
+      "43\\. 推进 “一带一路” 建设有利于"
+    ],
+    [
+      380,
+      "44\\. 该实验探究的环境问题是"
+    ],
+    [
+      388,
+      "45\\. 甲装置实验条件不变，学生对乙装置的操作与观察到的现象对应正确的是"
+    ],
+    [
+      404,
+      "46\\. 治理该环境问题的有效措施是"
+    ]
+  ]
+}

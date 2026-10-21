@@ -1,0 +1,87 @@
+{
+  "task": "A — Resolver single-line multi-label / option content-span defect",
+  "status": "NOT AUTHORIZED — brief only (read-only recording)",
+  "premises_from_adjudication": {
+    "P1_composite_propagation": {
+      "n_composite_sub_questions": 24,
+      "must_hold_invariants": [
+        "root count",
+        "ready / incomplete",
+        "rejected (root scope, currently 62)",
+        "D=29 decomposition surface",
+        "composite leaf counts"
+      ],
+      "note": "option re-slice on composite leaves may shift gate decisions and root-scoped counts"
+    },
+    "P2_two_line_forms": {
+      "single_line_multi_label": 73,
+      "cross_line": 24,
+      "min_assertion_math_Q1": "A='1' B='2' C='\\pi' D='2\\pi'",
+      "cross_line_assertion_needed": "e.g. math Q4 P1L021+P1L023, chem Q17 P1L123..129",
+      "fix_scope": "73 + 24 = 97 questions, not only single-line"
+    },
+    "P3_bare1_false_positive_risk": {
+      "status": "RESOLVED",
+      "n_bare1": 2,
+      "split": {
+        "exclude_from_task_A": {
+          "unit": "化学 Q17",
+          "reason": "根因在标注层 manifest：声明了源中不存在的 label `H`（L125 `B. H: O: H` 电子式的 H 被当成选项标签）。正式 MD L123-129 选项标签完全正确（A/B/C/D）。Resolver 只遍历 manifest labels —— 只改 Resolver 修不了；若顺手修会改到标注/manifest 数据，越界。",
+          "defect_class": "annotation_option_label_false_positive",
+          "manifest_labels": [
+            "A",
+            "B",
+            "H",
+            "C",
+            "D"
+          ],
+          "md_labels_correct": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        "in_task_A": {
+          "unit": "英语 Q5-6",
+          "reason": "真·单行多选项（L43 一行两选项）+ composite（P1 传导面）。A 吞掉整行，B 空壳。bare=1 唯一有效样本。",
+          "role": "bare=1 真阳性样本"
+        }
+      },
+      "label_histogram_corpus": {
+        "A": 183,
+        "B": 183,
+        "C": 182,
+        "D": 174,
+        "H": 1,
+        "E": 1,
+        "note": "超出 A–D 仅 2 个，均已定因：H=Q17 标注层；E=化学 Q20 P1.4-B Rule A"
+      },
+      "mechanical_assertion_added": "修复后每个 unit 的 labels 必须恰为 A–D 的子集且无重复；Q17 的 ['A','B','H','C','D'] 会被此判据立即抓住"
+    }
+  },
+  "assertion_style": {
+    "pass_condition": "each option text == chars from after its label to before next label (content span)",
+    "fail_condition": "empty-shell count decreases but content mis-attributed",
+    "labels_must_be_A_to_D_subset": true,
+    "reject_duplicate_or_out_of_range_labels": true
+  },
+  "ocr_boundary_remains": "Hash green + OCR ledger match is COMPATIBLE with OCR content loss (e.g. chem Q23 PDF has 'D．稀硫酸与氢氧化钡溶液：' but md lost label+prefix). This boundary stays on the status board.",
+  "execution_order": [
+    "1. list small-fix (declared_source_sha256 + OCR ledger note) — DONE",
+    "2. authorize Task A with P1/P2/P3 boundaries",
+    "3. before/after diff by content spans, not shell counts",
+    "4. Task B formal product-chain E2E after A passes"
+  ],
+  "not_started": [
+    "Resolver code change",
+    "Task B"
+  ],
+  "explicit_exclusions": [
+    {
+      "unit": "化学 Q17",
+      "defect_class": "annotation_option_label_false_positive",
+      "owner": "annotation/manifest layer — NOT Task A"
+    }
+  ]
+}

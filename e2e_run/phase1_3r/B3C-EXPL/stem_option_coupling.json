@@ -1,0 +1,260 @@
+{
+  "aggregate": {
+    "roots": 29,
+    "stem_missing": 20,
+    "option_unresolved": 24,
+    "option_unres_AND_stem_missing": 20,
+    "stem_dep_covered": 20,
+    "option_unres_stem_ok": 4
+  },
+  "stem_reasons": {
+    "stem:ambiguous:question 5 start not unique": 2,
+    "stem:ambiguous:question 3 start not unique": 2,
+    "stem:ambiguous:question 1 start not unique": 2,
+    "stem:ambiguous:question 6 start not unique": 2,
+    "stem:ambiguous:question 4 start not unique": 2,
+    "stem:ambiguous:question 2 start not unique": 2,
+    "stem:missing:question number '9' not found": 1,
+    "stem:missing:question number '26' not found": 1,
+    "stem:missing:question number '14' not found": 1,
+    "stem:missing:question number '7' not found": 1,
+    "stem:ambiguous:question 8 start not unique": 1,
+    "stem:ambiguous:question 9 start not unique": 1,
+    "stem:ambiguous:question 7 start not unique": 1,
+    "stem:ambiguous:question 10 start not unique": 1
+  },
+  "rows": [
+    {
+      "paper": "化学",
+      "root": "Q5",
+      "owner": "Q5",
+      "stem_resolved": false,
+      "options_resolved": 0,
+      "options_unresolved": 4
+    },
+    {
+      "paper": "化学",
+      "root": "Q3",
+      "owner": "Q3",
+      "stem_resolved": false,
+      "options_resolved": 0,
+      "options_unresolved": 4
+    },
+    {
+      "paper": "化学",
+      "root": "Q1",
+      "owner": "Q1",
+      "stem_resolved": false,
+      "options_resolved": 0,
+      "options_unresolved": 4
+    },
+    {
+      "paper": "化学",
+      "root": "Q24",
+      "owner": "Q24",
+      "stem_resolved": true,
+      "options_resolved": 0,
+      "options_unresolved": 4
+    },
+    {
+      "paper": "化学",
+      "root": "Q6",
+      "owner": "Q6",
+      "stem_resolved": false,
+      "options_resolved": 0,
+      "options_unresolved": 4
+    },
+    {
+      "paper": "化学",
+      "root": "Q9",
+      "owner": "Q9",
+      "stem_resolved": true,
+      "options_resolved": 0,
+      "options_unresolved": 4
+    },
+    {
+      "paper": "化学",
+      "root": "Q4",
+      "owner": "Q4",
+      "stem_resolved": false,
+      "options_resolved": 0,
+      "options_unresolved": 4
+    },
+    {
+      "paper": "化学",
+      "root": "Q2",
+      "owner": "Q2",
+      "stem_resolved": false,
+      "options_resolved": 0,
+      "options_unresolved": 5
+    },
+    {
+      "paper": "化学",
+      "root": "Q25",
+      "owner": "Q25",
+      "stem_resolved": true,
+      "options_resolved": 0,
+      "options_unresolved": 0
+    },
+    {
+      "paper": "化学",
+      "root": "Q19",
+      "owner": "Q19",
+      "stem_resolved": true,
+      "options_resolved": 0,
+      "options_unresolved": 0
+    },
+    {
+      "paper": "政治",
+      "root": "U9-10",
+      "owner": "U9-10.sub",
+      "stem_resolved": false,
+      "options_resolved": 0,
+      "options_unresolved": 4
+    },
+    {
+      "paper": "政治",
+      "root": "Q26",
+      "owner": "Q26",
+      "stem_resolved": false,
+      "options_resolved": 0,
+      "options_unresolved": 4
+    },
+    {
+      "paper": "政治",
+      "root": "Q6",
+      "owner": "Q6",
+      "stem_resolved": true,
+      "options_resolved": 0,
+      "options_unresolved": 0
+    },
+    {
+      "paper": "政治",
+      "root": "Q14",
+      "owner": "Q14",
+      "stem_resolved": false,
+      "options_resolved": 0,
+      "options_unresolved": 4
+    },
+    {
+      "paper": "政治",
+      "root": "Q7",
+      "owner": "Q7",
+      "stem_resolved": false,
+      "options_resolved": 0,
+      "options_unresolved": 4
+    },
+    {
+      "paper": "政治",
+      "root": "Q25",
+      "owner": "Q25",
+      "stem_resolved": true,
+      "options_resolved": 0,
+      "options_unresolved": 4
+    },
+    {
+      "paper": "政治",
+      "root": "Q13",
+      "owner": "Q13",
+      "stem_resolved": true,
+      "options_resolved": 0,
+      "options_unresolved": 4
+    },
+    {
+      "paper": "物理",
+      "root": "Q16",
+      "owner": "Q16",
+      "stem_resolved": true,
+      "options_resolved": 0,
+      "options_unresolved": 0
+    },
+    {
+      "paper": "生物",
+      "root": "Q5",
+      "owner": "Q5",
+      "stem_resolved": false,
+      "options_resolved": 0,
+      "options_unresolved": 4
+    },
+    {
+      "paper": "生物",
+      "root": "Q8",
+      "owner": "Q8",
+      "stem_resolved": false,
+      "options_resolved": 0,
+      "options_unresolved": 4
+    },
+    {
+      "paper": "生物",
+      "root": "Q30",
+      "owner": "Q30",
+      "stem_resolved": true,
+      "options_resolved": 0,
+      "options_unresolved": 0
+    },
+    {
+      "paper": "生物",
+      "root": "Q3",
+      "owner": "Q3",
+      "stem_resolved": false,
+      "options_resolved": 0,
+      "options_unresolved": 4
+    },
+    {
+      "paper": "生物",
+      "root": "Q1",
+      "owner": "Q1",
+      "stem_resolved": false,
+      "options_resolved": 0,
+      "options_unresolved": 4
+    },
+    {
+      "paper": "生物",
+      "root": "Q6",
+      "owner": "Q6",
+      "stem_resolved": false,
+      "options_resolved": 0,
+      "options_unresolved": 4
+    },
+    {
+      "paper": "生物",
+      "root": "Q9",
+      "owner": "Q9",
+      "stem_resolved": false,
+      "options_resolved": 0,
+      "options_unresolved": 4
+    },
+    {
+      "paper": "生物",
+      "root": "Q4",
+      "owner": "Q4",
+      "stem_resolved": false,
+      "options_resolved": 0,
+      "options_unresolved": 4
+    },
+    {
+      "paper": "生物",
+      "root": "Q2",
+      "owner": "Q2",
+      "stem_resolved": false,
+      "options_resolved": 0,
+      "options_unresolved": 4
+    },
+    {
+      "paper": "生物",
+      "root": "Q7",
+      "owner": "Q7",
+      "stem_resolved": false,
+      "options_resolved": 0,
+      "options_unresolved": 4
+    },
+    {
+      "paper": "生物",
+      "root": "Q10",
+      "owner": "Q10",
+      "stem_resolved": false,
+      "options_resolved": 0,
+      "options_unresolved": 4
+    }
+  ]
+}

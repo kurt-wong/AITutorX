@@ -1,0 +1,310 @@
+{
+  "totals": {
+    "roots": 29,
+    "has_option_blocker": 29,
+    "has_stem_blocker": 20
+  },
+  "histogram": {
+    "leaf role option unresolved": 97,
+    "leaf options missing for choice type": 5,
+    "leaf stem unresolved": 20
+  },
+  "rows": [
+    {
+      "paper": "化学",
+      "root": "Q9",
+      "problems": [
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q25",
+      "problems": [
+        "leaf options missing for choice type"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q24",
+      "problems": [
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q3",
+      "problems": [
+        "leaf stem unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q1",
+      "problems": [
+        "leaf stem unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q4",
+      "problems": [
+        "leaf stem unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q6",
+      "problems": [
+        "leaf stem unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q19",
+      "problems": [
+        "leaf options missing for choice type"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q2",
+      "problems": [
+        "leaf stem unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    },
+    {
+      "paper": "化学",
+      "root": "Q5",
+      "problems": [
+        "leaf stem unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "U9-10",
+      "problems": [
+        "leaf stem unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q26",
+      "problems": [
+        "leaf stem unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q25",
+      "problems": [
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q6",
+      "problems": [
+        "leaf options missing for choice type"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q13",
+      "problems": [
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q7",
+      "problems": [
+        "leaf stem unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q14",
+      "problems": [
+        "leaf stem unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    },
+    {
+      "paper": "物理",
+      "root": "Q16",
+      "problems": [
+        "leaf options missing for choice type"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q30",
+      "problems": [
+        "leaf options missing for choice type"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q9",
+      "problems": [
+        "leaf stem unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q3",
+      "problems": [
+        "leaf stem unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q1",
+      "problems": [
+        "leaf stem unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q4",
+      "problems": [
+        "leaf stem unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q8",
+      "problems": [
+        "leaf stem unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q10",
+      "problems": [
+        "leaf stem unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q6",
+      "problems": [
+        "leaf stem unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q7",
+      "problems": [
+        "leaf stem unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q2",
+      "problems": [
+        "leaf stem unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    },
+    {
+      "paper": "生物",
+      "root": "Q5",
+      "problems": [
+        "leaf stem unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved",
+        "leaf role option unresolved"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "artifact": "M2-TARGETED-PROCESS",
+  "task_id": "c8453df5-d7e6-42f6-95e6-5a017167dabe",
+  "elapsed_seconds": 77.56,
+  "log": [
+    {
+      "claimed": true,
+      "lease_expires_at": "2026-10-10 06:29:56.401258+00:00"
+    },
+    {
+      "process": "completed_ok"
+    }
+  ],
+  "task_db": {
+    "id": "c8453df5-d7e6-42f6-95e6-5a017167dabe",
+    "status": "succeeded",
+    "current_stage": null,
+    "llm_invocations": 1,
+    "decided_at": "2026-10-10 06:30:13.920086+00:00"
+  },
+  "source_versions": [
+    {
+      "id": "8bf87832-cafd-4180-8ac7-ee5dc91c9254",
+      "role": "preprocessing",
+      "provider": "preprocessing",
+      "artifact_kind": "raw_l1",
+      "status": "sealed"
+    },
+    {
+      "id": "53814898-d589-4b8f-9726-e3b967a24ca5",
+      "role": "preprocessing",
+      "provider": "preprocessing",
+      "artifact_kind": "canonical_l1",
+      "status": "sealed"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "9d3ebefc-8725-41ab-bd3d-f07bdb5ca8ff",
+      "source_version_id": "8bf87832-cafd-4180-8ac7-ee5dc91c9254",
+      "status": "valid",
+      "prompt_version": "semantic-annotation/v1"
+    },
+    {
+      "id": "11f981c9-7295-469c-862a-72c2c1044c29",
+      "source_version_id": "53814898-d589-4b8f-9726-e3b967a24ca5",
+      "status": "valid",
+      "prompt_version": "semantic-annotation/v1"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "563c3839-c0c5-405d-a7c1-2971c3038729",
+      "decision_status": "pending_review",
+      "unit_type": "standalone_unit"
+    }
+  ],
+  "questions": [],
+  "question_instances": [],
+  "funnel": {
+    "package_id": "chem-2018-spring-huikao-teacher",
+    "started_at": "2026-10-10T06:28:56.368062+00:00",
+    "finished_at": "2026-10-10T06:30:13.957259+00:00",
+    "stages": {
+      "input_units": 40,
+      "identity_ok": 1,
+      "ir_ready": 1,
+      "candidates": 1,
+      "questions": 0,
+      "question_instances": 0,
+      "pending_review": 1
+    },
+    "failures": [],
+    "notes": [],
+    "unexplained_loss": 38
+  }
+}

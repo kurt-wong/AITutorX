@@ -1,0 +1,123 @@
+{
+  "per_paper": {
+    "化学": {
+      "pending": 15,
+      "table_answer": 15,
+      "decoded": 15,
+      "decoded_ok": 14,
+      "decoded_INVALID": 1
+    },
+    "历史": {
+      "pending": 3,
+      "nontable_answer": 3
+    },
+    "地理": {
+      "pending": 24,
+      "table_answer": 19,
+      "decode_failed": 19,
+      "nontable_answer": 5
+    },
+    "政治": {
+      "pending": 29,
+      "table_answer": 20,
+      "decoded": 20,
+      "decoded_ok": 20,
+      "decoded_INVALID": 0,
+      "nontable_answer": 9
+    },
+    "数学": {
+      "pending": 30,
+      "nontable_answer": 30
+    },
+    "物理": {
+      "pending": 21,
+      "table_answer": 21,
+      "decoded": 10,
+      "decoded_ok": 10,
+      "decoded_INVALID": 0,
+      "decode_failed": 11
+    },
+    "生物": {
+      "pending": 29,
+      "table_answer": 29,
+      "decoded": 29,
+      "decoded_ok": 29,
+      "decoded_INVALID": 0
+    },
+    "英语": {
+      "pending": 14,
+      "nontable_answer": 14
+    },
+    "语文": {
+      "pending": 10,
+      "nontable_answer": 10
+    }
+  },
+  "totals": {
+    "pending": 175,
+    "table_answer": 104,
+    "decoded": 74,
+    "decoded_ok": 73,
+    "decoded_INVALID": 1,
+    "nontable_answer": 71,
+    "decode_failed": 30
+  },
+  "samples": [
+    {
+      "paper": "化学",
+      "unit": "Q7",
+      "qn": "7",
+      "decoded": "D",
+      "valid": true
+    },
+    {
+      "paper": "化学",
+      "unit": "Q8",
+      "qn": "8",
+      "decoded": "C",
+      "valid": true
+    },
+    {
+      "paper": "化学",
+      "unit": "Q10",
+      "qn": "10",
+      "decoded": "C",
+      "valid": true
+    },
+    {
+      "paper": "化学",
+      "unit": "Q11",
+      "qn": "11",
+      "decoded": "C",
+      "valid": true
+    },
+    {
+      "paper": "化学",
+      "unit": "Q12",
+      "qn": "12",
+      "decoded": "A",
+      "valid": true
+    },
+    {
+      "paper": "化学",
+      "unit": "Q13",
+      "qn": "13",
+      "decoded": "C",
+      "valid": true
+    },
+    {
+      "paper": "化学",
+      "unit": "Q14",
+      "qn": "14",
+      "decoded": "B",
+      "valid": true
+    },
+    {
+      "paper": "化学",
+      "unit": "Q15",
+      "qn": "15",
+      "decoded": "D",
+      "valid": true
+    }
+  ]
+}

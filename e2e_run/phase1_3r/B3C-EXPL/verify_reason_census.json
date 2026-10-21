@@ -1,0 +1,45 @@
+{
+  "totals": {
+    "stem:ambiguous": 41,
+    "option:incomplete": 96,
+    "answer:ambiguous": 6,
+    "stem:missing": 6,
+    "option:ambiguous": 2,
+    "material:incomplete": 8
+  },
+  "per_paper": {
+    "化学": {
+      "stem:ambiguous": 21,
+      "option:incomplete": 33,
+      "answer:ambiguous": 6
+    },
+    "历史": {},
+    "地理": {
+      "option:incomplete": 1
+    },
+    "政治": {
+      "stem:missing": 4,
+      "option:incomplete": 22,
+      "option:ambiguous": 2
+    },
+    "数学": {},
+    "物理": {},
+    "生物": {
+      "stem:ambiguous": 20,
+      "option:incomplete": 40
+    },
+    "英语": {
+      "stem:missing": 2,
+      "material:incomplete": 8
+    },
+    "语文": {}
+  },
+  "mimo_claimed": {
+    "stem:ambiguous": 41,
+    "stem:missing": 6,
+    "option:incomplete": 96,
+    "option:ambiguous": 2,
+    "answer:ambiguous": 6,
+    "material:incomplete": 8
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "totals": {
+    "units_with_options": 207,
+    "units_with_multi_qn": 30,
+    "units_with_foreign_option_line": 1,
+    "units_whose_own_first_qn_line_missing_label": 0
+  },
+  "suspicious": [
+    {
+      "paper": "地理",
+      "unit": "U44-46",
+      "qn": [
+        "44",
+        "45",
+        "46"
+      ],
+      "first_later_qn_start_line": 388,
+      "foreign_options": [
+        {
+          "label": "D",
+          "line": 396,
+          "text": "D．铺设草皮一 b 中的水比 a 中的清澈"
+        }
+      ]
+    }
+  ]
+}

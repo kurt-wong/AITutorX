@@ -1,0 +1,143 @@
+{
+  "before": {
+    "ir_ready": 35,
+    "interior_empty": 20,
+    "mat_unres": 43,
+    "mat_resolved": 11
+  },
+  "after": {
+    "ir_ready": 41,
+    "interior_empty": 4,
+    "mat_unres": 22,
+    "mat_resolved": 32
+  },
+  "delta_ready": 6,
+  "newly_ready": [
+    {
+      "file": "2018北京春季高中会考英语（教师版）(1).md",
+      "unit": "U26-40"
+    },
+    {
+      "file": "2018北京春季高中会考英语（教师版）(1).md",
+      "unit": "U41-44"
+    },
+    {
+      "file": "2018北京春季高中会考英语（教师版）(1).md",
+      "unit": "U45-48"
+    },
+    {
+      "file": "2018北京春季高中会考英语（教师版）(1).md",
+      "unit": "U49-52"
+    },
+    {
+      "file": "2018北京春季高中会考英语（教师版）(1).md",
+      "unit": "U53-56"
+    },
+    {
+      "file": "2018北京春季高中会考英语（教师版）(1).md",
+      "unit": "U57-60"
+    }
+  ],
+  "lost_ready": [],
+  "per_document": [
+    {
+      "file": "2018北京春季高中会考化学（教师版）(1).md",
+      "old_ready": 1,
+      "new_ready": 1,
+      "old_ie": 0,
+      "new_ie": 0,
+      "old_mu": 0,
+      "new_mu": 0,
+      "old_mr": 0,
+      "new_mr": 0
+    },
+    {
+      "file": "2018北京夏季高中会考历史（教师版）(1).md",
+      "old_ready": 1,
+      "new_ready": 1,
+      "old_ie": 0,
+      "new_ie": 0,
+      "old_mu": 2,
+      "new_mu": 3,
+      "old_mr": 1,
+      "new_mr": 0
+    },
+    {
+      "file": "2018北京春季高中会考地理（教师版）(1).md",
+      "old_ready": 0,
+      "new_ready": 0,
+      "old_ie": 17,
+      "new_ie": 0,
+      "old_mu": 17,
+      "new_mu": 3,
+      "old_mr": 8,
+      "new_mr": 22
+    },
+    {
+      "file": "2018北京夏季高中会考政治（教师版）(1).md",
+      "old_ready": 4,
+      "new_ready": 4,
+      "old_ie": 1,
+      "new_ie": 0,
+      "old_mu": 2,
+      "new_mu": 2,
+      "old_mr": 0,
+      "new_mr": 0
+    },
+    {
+      "file": "2018北京春季高中会考数学（教师版）(1).md",
+      "old_ready": 23,
+      "new_ready": 23,
+      "old_ie": 0,
+      "new_ie": 0,
+      "old_mu": 0,
+      "new_mu": 0,
+      "old_mr": 0,
+      "new_mr": 0
+    },
+    {
+      "file": "2018北京春季高中会考物理（教师版）(1).md",
+      "old_ready": 3,
+      "new_ready": 3,
+      "old_ie": 2,
+      "new_ie": 0,
+      "old_mu": 2,
+      "new_mu": 1,
+      "old_mr": 1,
+      "new_mr": 2
+    },
+    {
+      "file": "2018北京春季高中会考生物（教师版）(1).md",
+      "old_ready": 0,
+      "new_ready": 0,
+      "old_ie": 0,
+      "new_ie": 0,
+      "old_mu": 0,
+      "new_mu": 0,
+      "old_mr": 0,
+      "new_mr": 0
+    },
+    {
+      "file": "2018北京春季高中会考英语（教师版）(1).md",
+      "old_ready": 0,
+      "new_ready": 6,
+      "old_ie": 0,
+      "new_ie": 4,
+      "old_mu": 17,
+      "new_mu": 10,
+      "old_mr": 0,
+      "new_mr": 7
+    },
+    {
+      "file": "2018北京春季高中会考语文（教师版）(1).md",
+      "old_ready": 3,
+      "new_ready": 3,
+      "old_ie": 0,
+      "new_ie": 0,
+      "old_mu": 3,
+      "new_mu": 3,
+      "old_mr": 1,
+      "new_mr": 1
+    }
+  ]
+}

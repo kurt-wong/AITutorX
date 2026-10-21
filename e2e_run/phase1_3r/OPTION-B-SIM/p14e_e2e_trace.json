@@ -1,0 +1,1171 @@
+[
+  {
+    "unit": "Q20",
+    "paper": "化学",
+    "purpose": "cross-line option D (涉及了氧 / 还原反应)",
+    "md_identity": {
+      "official_path": "D:\\Project\\Papers\\Ocr-markdown\\reslice-batch-C\\会考\\化学\\2018北京春季高中会考化学（教师版）(1).md",
+      "batch_path": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\化学\\2018北京春季高中会考化学（教师版）(1).md",
+      "official_sha256": "22C8638BC8DD20AC42F6EBAB5FEC95F688B152AD4755E183B7E4E41BDD1ADCB1",
+      "batch_sha256": "0443945F4672B05DA3D2D950B0A3EB20A495C1635C353C024C8C050B7FAD1FFB",
+      "byte_identical": false
+    },
+    "L0_preprocessing_source_excerpt": [
+      {
+        "line": 149,
+        "text": "20. 硫在自然界的循环过程如右图所示。下列说法中， $ \\underset{\\cdot}{不}\\underset{\\cdot}{正}\\underset{\\cdot}{确} $的是"
+      },
+      {
+        "line": 150,
+        "text": ""
+      },
+      {
+        "line": 151,
+        "text": "A. 火山喷发、森林火灾会产生SO $ _{2} $"
+      },
+      {
+        "line": 152,
+        "text": ""
+      },
+      {
+        "line": 153,
+        "text": "B. 氢、氧两种元素没有参与硫的"
+      },
+      {
+        "line": 154,
+        "text": ""
+      },
+      {
+        "line": 155,
+        "text": "C. 工厂产生的烟气应经脱硫处理后再排放"
+      },
+      {
+        "line": 156,
+        "text": ""
+      },
+      {
+        "line": 157,
+        "text": "D. 硫在自然界的循环过程中，涉及了氧"
+      },
+      {
+        "line": 158,
+        "text": ""
+      },
+      {
+        "line": 159,
+        "text": "还原反应"
+      },
+      {
+        "line": 160,
+        "text": ""
+      },
+      {
+        "line": 161,
+        "text": "21. 下列行为 $ \\underset{\\cdot}{不}\\underset{\\cdot}{符}\\underset{\\cdot}{合} $安全要求的是"
+      }
+    ],
+    "L1_manifest_declaration": {
+      "unit_id": "Q20",
+      "qtype": "single_choice",
+      "question_numbers": [
+        20
+      ],
+      "stem_lines": [
+        149,
+        149
+      ],
+      "options_lines": [
+        151,
+        159
+      ],
+      "options": [
+        {
+          "label": "A",
+          "start_line": 151,
+          "end_line": 151
+        },
+        {
+          "label": "B",
+          "start_line": 153,
+          "end_line": 153
+        },
+        {
+          "label": "C",
+          "start_line": 155,
+          "end_line": 155
+        },
+        {
+          "label": "D",
+          "start_line": 157,
+          "end_line": 157
+        },
+        {
+          "label": "E",
+          "start_line": 159,
+          "end_line": 159
+        }
+      ],
+      "answer_lines": [
+        513,
+        513
+      ]
+    },
+    "L2_annotation_options": [
+      {
+        "role": "option",
+        "label": "A"
+      },
+      {
+        "role": "option",
+        "label": "B"
+      },
+      {
+        "role": "option",
+        "label": "C"
+      },
+      {
+        "role": "option",
+        "label": "D"
+      },
+      {
+        "role": "option",
+        "label": "E"
+      }
+    ],
+    "L3_resolved_option_spans": [
+      {
+        "span_id": "sp-Q20.option.A",
+        "label": "A",
+        "line_refs": [
+          "P1L151"
+        ],
+        "text_preview": [
+          "option label=A"
+        ],
+        "resolution": "exact"
+      },
+      {
+        "span_id": "sp-Q20.option.B",
+        "label": "B",
+        "line_refs": [
+          "P1L153"
+        ],
+        "text_preview": [
+          "option label=B"
+        ],
+        "resolution": "exact"
+      },
+      {
+        "span_id": "sp-Q20.option.C",
+        "label": "C",
+        "line_refs": [
+          "P1L155"
+        ],
+        "text_preview": [
+          "option label=C"
+        ],
+        "resolution": "exact"
+      },
+      {
+        "span_id": "sp-Q20.option.D",
+        "label": "D",
+        "line_refs": [
+          "P1L157"
+        ],
+        "text_preview": [
+          "option label=D"
+        ],
+        "resolution": "exact"
+      },
+      {
+        "span_id": "sp-Q20.option.E",
+        "label": "E",
+        "line_refs": [
+          "P1L159"
+        ],
+        "text_preview": [
+          "option label=E"
+        ],
+        "resolution": "exact"
+      }
+    ],
+    "L3b_compiled_leaf_options": [
+      {
+        "label": "A",
+        "span_id": "sp-Q20.option.A",
+        "text_preview": "A. 火山喷发、森林火灾会产生SO $ _{2} $",
+        "line_refs": [
+          "P1L151"
+        ]
+      },
+      {
+        "label": "B",
+        "span_id": "sp-Q20.option.B",
+        "text_preview": "B. 氢、氧两种元素没有参与硫的",
+        "line_refs": [
+          "P1L153"
+        ]
+      },
+      {
+        "label": "C",
+        "span_id": "sp-Q20.option.C",
+        "text_preview": "C. 工厂产生的烟气应经脱硫处理后再排放",
+        "line_refs": [
+          "P1L155"
+        ]
+      },
+      {
+        "label": "D",
+        "span_id": "sp-Q20.option.D",
+        "text_preview": "D. 硫在自然界的循环过程中，涉及了氧",
+        "line_refs": [
+          "P1L157"
+        ]
+      },
+      {
+        "label": "E",
+        "span_id": "sp-Q20.option.E",
+        "text_preview": "还原反应",
+        "line_refs": [
+          "P1L159"
+        ]
+      }
+    ],
+    "L4_ir": {
+      "unit_id": "Q20",
+      "unit_type": "standalone_unit",
+      "semantic_status": "ready",
+      "question_numbers": [],
+      "leaf": {
+        "unit_id": "Q20",
+        "qtype": "single_choice",
+        "stem_preview": "20. 硫在自然界的循环过程如右图所示。下列说法中， $ \\underset{\\cdot}{不}\\underset{\\cdot}{正}\\underset{\\cd"
+      }
+    },
+    "L5_compile_answer": {
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "answer_text_preview": "B",
+      "answer_letter": "B",
+      "verify": true
+    },
+    "L6_gate": {
+      "decision": "auto_approve",
+      "structural": "pass",
+      "provenance": "pass",
+      "semantic": "pass",
+      "reasons": [
+        "strict-auto: all answers verified_correct=true"
+      ]
+    }
+  },
+  {
+    "unit": "Q4",
+    "paper": "数学",
+    "purpose": "digit-glued 2D. option boundary",
+    "md_identity": {
+      "official_path": "D:\\Project\\Papers\\Ocr-markdown\\reslice-batch-C\\会考\\数学\\2018北京春季高中会考数学（教师版）(1).md",
+      "batch_path": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\数学\\2018北京春季高中会考数学（教师版）(1).md",
+      "official_sha256": "93CFCD030F1231480102DB717E1CF35319FAD90A11B71DC9858FD93B5AE3A463",
+      "batch_sha256": "934DEC78DDE333D21342F3F9419F524BB68E92645914C3D3DB9CF482A282F176",
+      "byte_identical": false
+    },
+    "L0_preprocessing_source_excerpt": [
+      {
+        "line": 19,
+        "text": "4. 在同一直角坐标系 xOy 中，函数 y=cosx 与 y= -cosx 的图象之间的关系是（）"
+      },
+      {
+        "line": 20,
+        "text": ""
+      },
+      {
+        "line": 21,
+        "text": "A. 关于 x 轴对称 B. 关于 y 轴对称"
+      },
+      {
+        "line": 22,
+        "text": ""
+      },
+      {
+        "line": 23,
+        "text": "C. 关于直线 y=x 对称 2D. 关于直线 y= -x 对称"
+      },
+      {
+        "line": 24,
+        "text": ""
+      },
+      {
+        "line": 25,
+        "text": "5. 执行如图所示的程序框图．当输入 -2 时，输出的 y 值为（）"
+      }
+    ],
+    "L1_manifest_declaration": {
+      "unit_id": "Q4",
+      "qtype": "single_choice",
+      "question_numbers": [
+        4
+      ],
+      "stem_lines": [
+        19,
+        19
+      ],
+      "options_lines": [
+        21,
+        23
+      ],
+      "options": [
+        {
+          "label": "A",
+          "start_line": 21,
+          "end_line": 21
+        },
+        {
+          "label": "B",
+          "start_line": 21,
+          "end_line": 21
+        },
+        {
+          "label": "C",
+          "start_line": 23,
+          "end_line": 23
+        },
+        {
+          "label": "D",
+          "start_line": 23,
+          "end_line": 23
+        }
+      ],
+      "answer_lines": [
+        234,
+        240
+      ]
+    },
+    "L2_annotation_options": [
+      {
+        "role": "option",
+        "label": "A"
+      },
+      {
+        "role": "option",
+        "label": "B"
+      },
+      {
+        "role": "option",
+        "label": "C"
+      },
+      {
+        "role": "option",
+        "label": "D"
+      }
+    ],
+    "L3_resolved_option_spans": [
+      {
+        "span_id": "sp-Q4.option.A",
+        "label": "A",
+        "line_refs": [
+          "P1L021"
+        ],
+        "text_preview": [
+          "option label=A"
+        ],
+        "resolution": "exact"
+      },
+      {
+        "span_id": "sp-Q4.option.B",
+        "label": "B",
+        "line_refs": [
+          "P1L021"
+        ],
+        "text_preview": [
+          "option label=B (inline, line_character)"
+        ],
+        "resolution": "exact"
+      },
+      {
+        "span_id": "sp-Q4.option.C",
+        "label": "C",
+        "line_refs": [
+          "P1L023"
+        ],
+        "text_preview": [
+          "option label=C"
+        ],
+        "resolution": "exact"
+      },
+      {
+        "span_id": "sp-Q4.option.D",
+        "label": "D",
+        "line_refs": [
+          "P1L023"
+        ],
+        "text_preview": [
+          "option label=D (inline, line_character)"
+        ],
+        "resolution": "exact"
+      }
+    ],
+    "L3b_compiled_leaf_options": [
+      {
+        "label": "A",
+        "span_id": "sp-Q4.option.A",
+        "text_preview": "A. 关于 x 轴对称 B. 关于 y 轴对称",
+        "line_refs": [
+          "P1L021"
+        ]
+      },
+      {
+        "label": "B",
+        "span_id": "sp-Q4.option.B",
+        "text_preview": "B",
+        "line_refs": [
+          "P1L021"
+        ]
+      },
+      {
+        "label": "C",
+        "span_id": "sp-Q4.option.C",
+        "text_preview": "C. 关于直线 y=x 对称 2D. 关于直线 y= -x 对称",
+        "line_refs": [
+          "P1L023"
+        ]
+      },
+      {
+        "label": "D",
+        "span_id": "sp-Q4.option.D",
+        "text_preview": "D",
+        "line_refs": [
+          "P1L023"
+        ]
+      }
+    ],
+    "L4_ir": {
+      "unit_id": "Q4",
+      "unit_type": "standalone_unit",
+      "semantic_status": "ready",
+      "question_numbers": [],
+      "leaf": {
+        "unit_id": "Q4",
+        "qtype": "single_choice",
+        "stem_preview": "4. 在同一直角坐标系 xOy 中，函数 y=cosx 与 y= -cosx 的图象之间的关系是（）\n"
+      }
+    },
+    "L5_compile_answer": {
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_text_preview": "4.\n\n【考点】余弦函数的图象.\n\n【分析】根据当自变量相同时，它们的函数值相反，可得它们的图象关于x轴对称.\n\n【解答】解：由于当自变量相同时，它们的函数值相反，故它们的图象关于x轴对称，故选：A.",
+      "answer_letter": null,
+      "verify": null
+    },
+    "L6_gate": {
+      "decision": "pending_review",
+      "structural": "pass",
+      "provenance": "pass",
+      "semantic": "pass",
+      "reasons": [
+        "leaf 'Q4' answer grammar: answer not expressible as canonical value"
+      ]
+    }
+  },
+  {
+    "unit": "Q23",
+    "paper": "化学",
+    "purpose": "trailing unlabeled 4th option",
+    "md_identity": {
+      "official_path": "D:\\Project\\Papers\\Ocr-markdown\\reslice-batch-C\\会考\\化学\\2018北京春季高中会考化学（教师版）(1).md",
+      "batch_path": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\化学\\2018北京春季高中会考化学（教师版）(1).md",
+      "official_sha256": "22C8638BC8DD20AC42F6EBAB5FEC95F688B152AD4755E183B7E4E41BDD1ADCB1",
+      "batch_sha256": "0443945F4672B05DA3D2D950B0A3EB20A495C1635C353C024C8C050B7FAD1FFB",
+      "byte_identical": false
+    },
+    "L0_preprocessing_source_excerpt": [
+      {
+        "line": 186,
+        "text": "23. 下列反应的离子方程式书写不正确的是"
+      },
+      {
+        "line": 187,
+        "text": ""
+      },
+      {
+        "line": 188,
+        "text": "A．金属钠与水： $ 2Na + 2H_{2}O = 2Na^{+} + 2OH^{-} + H_{2}\\uparrow $"
+      },
+      {
+        "line": 189,
+        "text": ""
+      },
+      {
+        "line": 190,
+        "text": "B．氯化钠溶液与硝酸银溶液："
+      },
+      {
+        "line": 191,
+        "text": ""
+      },
+      {
+        "line": 192,
+        "text": "C．稀盐酸与碳酸钙： $ CaCO_{3}+2H^{+}=Ca^{2+}+CO_{2}\\uparrow+H_{2}O $"
+      },
+      {
+        "line": 193,
+        "text": ""
+      },
+      {
+        "line": 194,
+        "text": " $  \\mathrm{H}^{+} + \\mathrm{SO}_{4}^{2-} + \\mathrm{Ba}^{2+} + \\mathrm{OH}^{-} = \\mathrm{H}_{2}\\mathrm{O} + \\mathrm{BaSO}_{4} \\downarrow  $"
+      },
+      {
+        "line": 195,
+        "text": ""
+      },
+      {
+        "line": 196,
+        "text": "24. 下列实验装置或操作与实验目的 $ \\underset{\\cdot}{不}\\underset{\\cdot}{相}\\underset{\\cdot}{符} $的是"
+      }
+    ],
+    "L1_manifest_declaration": {
+      "unit_id": "Q23",
+      "qtype": "single_choice",
+      "question_numbers": [
+        23
+      ],
+      "stem_lines": [
+        186,
+        186
+      ],
+      "options_lines": [
+        188,
+        194
+      ],
+      "options": [
+        {
+          "label": "A",
+          "start_line": 188,
+          "end_line": 188
+        },
+        {
+          "label": "B",
+          "start_line": 190,
+          "end_line": 190
+        },
+        {
+          "label": "C",
+          "start_line": 192,
+          "end_line": 192
+        },
+        {
+          "label": "D",
+          "start_line": 194,
+          "end_line": 194
+        }
+      ],
+      "answer_lines": [
+        513,
+        513
+      ]
+    },
+    "L2_annotation_options": [
+      {
+        "role": "option",
+        "label": "A"
+      },
+      {
+        "role": "option",
+        "label": "B"
+      },
+      {
+        "role": "option",
+        "label": "C"
+      },
+      {
+        "role": "option",
+        "label": "D"
+      }
+    ],
+    "L3_resolved_option_spans": [
+      {
+        "span_id": "sp-Q23.option.A",
+        "label": "A",
+        "line_refs": [
+          "P1L188"
+        ],
+        "text_preview": [
+          "option label=A"
+        ],
+        "resolution": "exact"
+      },
+      {
+        "span_id": "sp-Q23.option.B",
+        "label": "B",
+        "line_refs": [
+          "P1L190"
+        ],
+        "text_preview": [
+          "option label=B"
+        ],
+        "resolution": "exact"
+      },
+      {
+        "span_id": "sp-Q23.option.C",
+        "label": "C",
+        "line_refs": [
+          "P1L192"
+        ],
+        "text_preview": [
+          "option label=C"
+        ],
+        "resolution": "exact"
+      },
+      {
+        "span_id": "sp-Q23.option.D",
+        "label": "D",
+        "line_refs": [
+          "P1L194"
+        ],
+        "text_preview": [
+          "option label=D"
+        ],
+        "resolution": "exact"
+      }
+    ],
+    "L3b_compiled_leaf_options": [
+      {
+        "label": "A",
+        "span_id": "sp-Q23.option.A",
+        "text_preview": "A．金属钠与水： $ 2Na + 2H_{2}O = 2Na^{+} + 2OH^{-} + H_{2}\\uparrow $",
+        "line_refs": [
+          "P1L188"
+        ]
+      },
+      {
+        "label": "B",
+        "span_id": "sp-Q23.option.B",
+        "text_preview": "B．氯化钠溶液与硝酸银溶液：",
+        "line_refs": [
+          "P1L190"
+        ]
+      },
+      {
+        "label": "C",
+        "span_id": "sp-Q23.option.C",
+        "text_preview": "C．稀盐酸与碳酸钙： $ CaCO_{3}+2H^{+}=Ca^{2+}+CO_{2}\\uparrow+H_{2}O $",
+        "line_refs": [
+          "P1L192"
+        ]
+      },
+      {
+        "label": "D",
+        "span_id": "sp-Q23.option.D",
+        "text_preview": " $  \\mathrm{H}^{+} + \\mathrm{SO}_{4}^{2-} + \\mathrm{Ba}^{2+} + \\mathrm{OH}^{-} = \\mathrm{H}_{2}\\mathrm{O} + \\mathrm{BaSO",
+        "line_refs": [
+          "P1L194"
+        ]
+      }
+    ],
+    "L4_ir": {
+      "unit_id": "Q23",
+      "unit_type": "standalone_unit",
+      "semantic_status": "ready",
+      "question_numbers": [],
+      "leaf": {
+        "unit_id": "Q23",
+        "qtype": "single_choice",
+        "stem_preview": "23. 下列反应的离子方程式书写不正确的是\n"
+      }
+    },
+    "L5_compile_answer": {
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_text_preview": "D",
+      "answer_letter": "D",
+      "verify": true
+    },
+    "L6_gate": {
+      "decision": "auto_approve",
+      "structural": "pass",
+      "provenance": "pass",
+      "semantic": "pass",
+      "reasons": [
+        "strict-auto: all answers verified_correct=true"
+      ]
+    }
+  },
+  {
+    "unit": "Q29",
+    "paper": "历史",
+    "purpose": "space-sep D 麦哲伦",
+    "md_identity": {
+      "official_path": "D:\\Project\\Papers\\Ocr-markdown\\reslice-batch-C\\会考\\历史\\2018北京夏季高中会考历史（教师版）(1).md",
+      "batch_path": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\历史\\2018北京夏季高中会考历史（教师版）(1).md",
+      "official_sha256": "04AA7B8A6BC7AEA5B7676BF2355D069F4BB29539075B6EFC0A56E479B5096C42",
+      "batch_sha256": "D4917437065BFCB8EDA24DD45B4E92CA4E2BB6EB8BB4342170903E4C5A62E714",
+      "byte_identical": false
+    },
+    "L0_preprocessing_source_excerpt": [
+      {
+        "line": 299,
+        "text": "29. 西班牙将每年10月12日定为国庆日，是为了纪念1492年发现美洲大陆的探险活动。主导这次探险活动的是"
+      },
+      {
+        "line": 300,
+        "text": ""
+      },
+      {
+        "line": 301,
+        "text": "A. 迪亚士"
+      },
+      {
+        "line": 302,
+        "text": ""
+      },
+      {
+        "line": 303,
+        "text": "B. 达，伽马"
+      },
+      {
+        "line": 304,
+        "text": ""
+      },
+      {
+        "line": 305,
+        "text": "C. 哥伦布"
+      },
+      {
+        "line": 306,
+        "text": ""
+      },
+      {
+        "line": 307,
+        "text": "D 麦哲伦"
+      },
+      {
+        "line": 308,
+        "text": ""
+      },
+      {
+        "line": 309,
+        "text": "30. 某班举办工业革命的重要成果展览，下列发明属于第一次工业革命的是"
+      }
+    ],
+    "L1_manifest_declaration": {
+      "unit_id": "Q29",
+      "qtype": "single_choice",
+      "question_numbers": [
+        29
+      ],
+      "stem_lines": [
+        299,
+        299
+      ],
+      "options_lines": [
+        301,
+        307
+      ],
+      "options": [
+        {
+          "label": "A",
+          "start_line": 301,
+          "end_line": 301
+        },
+        {
+          "label": "B",
+          "start_line": 303,
+          "end_line": 303
+        },
+        {
+          "label": "C",
+          "start_line": 305,
+          "end_line": 305
+        },
+        {
+          "label": "D",
+          "start_line": 307,
+          "end_line": 307
+        }
+      ],
+      "answer_lines": [
+        831,
+        831
+      ]
+    },
+    "L2_annotation_options": [
+      {
+        "role": "option",
+        "label": "A"
+      },
+      {
+        "role": "option",
+        "label": "B"
+      },
+      {
+        "role": "option",
+        "label": "C"
+      },
+      {
+        "role": "option",
+        "label": "D"
+      }
+    ],
+    "L3_resolved_option_spans": [
+      {
+        "span_id": "sp-Q29.option.A",
+        "label": "A",
+        "line_refs": [
+          "P1L301"
+        ],
+        "text_preview": [
+          "option label=A"
+        ],
+        "resolution": "exact"
+      },
+      {
+        "span_id": "sp-Q29.option.B",
+        "label": "B",
+        "line_refs": [
+          "P1L303"
+        ],
+        "text_preview": [
+          "option label=B"
+        ],
+        "resolution": "exact"
+      },
+      {
+        "span_id": "sp-Q29.option.C",
+        "label": "C",
+        "line_refs": [
+          "P1L305"
+        ],
+        "text_preview": [
+          "option label=C"
+        ],
+        "resolution": "exact"
+      },
+      {
+        "span_id": "sp-Q29.option.D",
+        "label": "D",
+        "line_refs": [
+          "P1L307"
+        ],
+        "text_preview": [
+          "option label=D"
+        ],
+        "resolution": "exact"
+      }
+    ],
+    "L3b_compiled_leaf_options": [
+      {
+        "label": "A",
+        "span_id": "sp-Q29.option.A",
+        "text_preview": "A. 迪亚士",
+        "line_refs": [
+          "P1L301"
+        ]
+      },
+      {
+        "label": "B",
+        "span_id": "sp-Q29.option.B",
+        "text_preview": "B. 达，伽马",
+        "line_refs": [
+          "P1L303"
+        ]
+      },
+      {
+        "label": "C",
+        "span_id": "sp-Q29.option.C",
+        "text_preview": "C. 哥伦布",
+        "line_refs": [
+          "P1L305"
+        ]
+      },
+      {
+        "label": "D",
+        "span_id": "sp-Q29.option.D",
+        "text_preview": "D 麦哲伦",
+        "line_refs": [
+          "P1L307"
+        ]
+      }
+    ],
+    "L4_ir": {
+      "unit_id": "Q29",
+      "unit_type": "standalone_unit",
+      "semantic_status": "ready",
+      "question_numbers": [],
+      "leaf": {
+        "unit_id": "Q29",
+        "qtype": "single_choice",
+        "stem_preview": "29. 西班牙将每年10月12日定为国庆日，是为了纪念1492年发现美洲大陆的探险活动。主导这次探险活动的是\n"
+      }
+    },
+    "L5_compile_answer": {
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_text_preview": "29. 【答案】C",
+      "answer_letter": "C",
+      "verify": true
+    },
+    "L6_gate": {
+      "decision": "auto_approve",
+      "structural": "pass",
+      "provenance": "pass",
+      "semantic": "pass",
+      "reasons": [
+        "strict-auto: all answers verified_correct=true"
+      ]
+    }
+  },
+  {
+    "unit": "Q22",
+    "paper": "化学",
+    "purpose": "GOLDEN PATH control (normal A/B/C/D)",
+    "md_identity": {
+      "official_path": "D:\\Project\\Papers\\Ocr-markdown\\reslice-batch-C\\会考\\化学\\2018北京春季高中会考化学（教师版）(1).md",
+      "batch_path": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考\\化学\\2018北京春季高中会考化学（教师版）(1).md",
+      "official_sha256": "22C8638BC8DD20AC42F6EBAB5FEC95F688B152AD4755E183B7E4E41BDD1ADCB1",
+      "batch_sha256": "0443945F4672B05DA3D2D950B0A3EB20A495C1635C353C024C8C050B7FAD1FFB",
+      "byte_identical": false
+    },
+    "L0_preprocessing_source_excerpt": [
+      {
+        "line": 174,
+        "text": "22. 下列说法中，正确的是"
+      },
+      {
+        "line": 175,
+        "text": ""
+      },
+      {
+        "line": 176,
+        "text": "A.  $ 22 \\, g \\, CO_{2} $ 物质的量为  $ 0.5 \\, mol $"
+      },
+      {
+        "line": 177,
+        "text": ""
+      },
+      {
+        "line": 178,
+        "text": "B.  $ 0.1 \\, mol \\cdot L^{-1} $ NaOH 溶液中含有  $ 0.1 \\, mol \\, Na^{+} $"
+      },
+      {
+        "line": 179,
+        "text": ""
+      },
+      {
+        "line": 180,
+        "text": "---"
+      },
+      {
+        "line": 181,
+        "text": ""
+      },
+      {
+        "line": 182,
+        "text": "C.  $ 1 \\, mol \\, Cl_{2} $ 中含有的氯原子数约为  $ 6.02 \\times 10^{23} $"
+      },
+      {
+        "line": 183,
+        "text": ""
+      },
+      {
+        "line": 184,
+        "text": "D．标准状况下，44.8 L $H_{2}O$ 的物质的量为 2 mol"
+      },
+      {
+        "line": 185,
+        "text": ""
+      },
+      {
+        "line": 186,
+        "text": "23. 下列反应的离子方程式书写不正确的是"
+      }
+    ],
+    "L1_manifest_declaration": {
+      "unit_id": "Q22",
+      "qtype": "single_choice",
+      "question_numbers": [
+        22
+      ],
+      "stem_lines": [
+        174,
+        174
+      ],
+      "options_lines": [
+        176,
+        184
+      ],
+      "options": [
+        {
+          "label": "A",
+          "start_line": 176,
+          "end_line": 176
+        },
+        {
+          "label": "B",
+          "start_line": 178,
+          "end_line": 178
+        },
+        {
+          "label": "C",
+          "start_line": 182,
+          "end_line": 182
+        },
+        {
+          "label": "D",
+          "start_line": 184,
+          "end_line": 184
+        }
+      ],
+      "answer_lines": [
+        513,
+        513
+      ]
+    },
+    "L2_annotation_options": [
+      {
+        "role": "option",
+        "label": "A"
+      },
+      {
+        "role": "option",
+        "label": "B"
+      },
+      {
+        "role": "option",
+        "label": "C"
+      },
+      {
+        "role": "option",
+        "label": "D"
+      }
+    ],
+    "L3_resolved_option_spans": [
+      {
+        "span_id": "sp-Q22.option.A",
+        "label": "A",
+        "line_refs": [
+          "P1L176"
+        ],
+        "text_preview": [
+          "option label=A"
+        ],
+        "resolution": "exact"
+      },
+      {
+        "span_id": "sp-Q22.option.B",
+        "label": "B",
+        "line_refs": [
+          "P1L178"
+        ],
+        "text_preview": [
+          "option label=B"
+        ],
+        "resolution": "exact"
+      },
+      {
+        "span_id": "sp-Q22.option.C",
+        "label": "C",
+        "line_refs": [
+          "P1L182"
+        ],
+        "text_preview": [
+          "option label=C"
+        ],
+        "resolution": "exact"
+      },
+      {
+        "span_id": "sp-Q22.option.D",
+        "label": "D",
+        "line_refs": [
+          "P1L184"
+        ],
+        "text_preview": [
+          "option label=D"
+        ],
+        "resolution": "exact"
+      }
+    ],
+    "L3b_compiled_leaf_options": [
+      {
+        "label": "A",
+        "span_id": "sp-Q22.option.A",
+        "text_preview": "A.  $ 22 \\, g \\, CO_{2} $ 物质的量为  $ 0.5 \\, mol $",
+        "line_refs": [
+          "P1L176"
+        ]
+      },
+      {
+        "label": "B",
+        "span_id": "sp-Q22.option.B",
+        "text_preview": "B.  $ 0.1 \\, mol \\cdot L^{-1} $ NaOH 溶液中含有  $ 0.1 \\, mol \\, Na^{+} $",
+        "line_refs": [
+          "P1L178"
+        ]
+      },
+      {
+        "label": "C",
+        "span_id": "sp-Q22.option.C",
+        "text_preview": "C.  $ 1 \\, mol \\, Cl_{2} $ 中含有的氯原子数约为  $ 6.02 \\times 10^{23} $",
+        "line_refs": [
+          "P1L182"
+        ]
+      },
+      {
+        "label": "D",
+        "span_id": "sp-Q22.option.D",
+        "text_preview": "D．标准状况下，44.8 L $H_{2}O$ 的物质的量为 2 mol",
+        "line_refs": [
+          "P1L184"
+        ]
+      }
+    ],
+    "L4_ir": {
+      "unit_id": "Q22",
+      "unit_type": "standalone_unit",
+      "semantic_status": "ready",
+      "question_numbers": [],
+      "leaf": {
+        "unit_id": "Q22",
+        "qtype": "single_choice",
+        "stem_preview": "22. 下列说法中，正确的是\n"
+      }
+    },
+    "L5_compile_answer": {
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_text_preview": "A",
+      "answer_letter": "A",
+      "verify": true
+    },
+    "L6_gate": {
+      "decision": "auto_approve",
+      "structural": "pass",
+      "provenance": "pass",
+      "semantic": "pass",
+      "reasons": [
+        "strict-auto: all answers verified_correct=true"
+      ]
+    }
+  }
+]

@@ -1,0 +1,658 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-pac-annotated\\reslice-pac\\ocr\\pac-c13-01.md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.3",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "U1-2",
+      "unit_type": "composite_question",
+      "section": "地 理",
+      "printed_number": null,
+      "question_numbers": [
+        1,
+        2
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        17,
+        17
+      ],
+      "questions_lines": [
+        17,
+        25
+      ],
+      "answer_lines": [
+        525,
+        525
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "section": "地 理",
+      "printed_number": null,
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        27,
+        29
+      ],
+      "options_lines": [
+        31,
+        37
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        525,
+        525
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 31,
+          "end_line": 31
+        },
+        {
+          "label": "B",
+          "start_line": 33,
+          "end_line": 33
+        },
+        {
+          "label": "C",
+          "start_line": 35,
+          "end_line": 35
+        },
+        {
+          "label": "D",
+          "start_line": 37,
+          "end_line": 37
+        }
+      ]
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_question",
+      "section": "地 理",
+      "printed_number": null,
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        41,
+        43
+      ],
+      "options_lines": [
+        45,
+        51
+      ],
+      "extra_lines": [
+        53,
+        56
+      ],
+      "answer_lines": [
+        525,
+        525
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 45,
+          "end_line": 45
+        },
+        {
+          "label": "B",
+          "start_line": 47,
+          "end_line": 47
+        },
+        {
+          "label": "C",
+          "start_line": 49,
+          "end_line": 49
+        },
+        {
+          "label": "D",
+          "start_line": 51,
+          "end_line": 51
+        }
+      ]
+    },
+    {
+      "unit_id": "U5-6",
+      "unit_type": "composite_question",
+      "section": "地 理",
+      "printed_number": null,
+      "question_numbers": [
+        5,
+        6
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        59,
+        59
+      ],
+      "questions_lines": [
+        59,
+        91
+      ],
+      "answer_lines": [
+        525,
+        525
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "standalone_question",
+      "section": "地 理",
+      "printed_number": null,
+      "question_numbers": [
+        7
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        93,
+        95
+      ],
+      "options_lines": [
+        97,
+        97
+      ],
+      "extra_lines": [
+        99,
+        102
+      ],
+      "answer_lines": [
+        525,
+        525
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 97,
+          "end_line": 97
+        },
+        {
+          "label": "B",
+          "start_line": 97,
+          "end_line": 97
+        },
+        {
+          "label": "C",
+          "start_line": 97,
+          "end_line": 97
+        },
+        {
+          "label": "D",
+          "start_line": 97,
+          "end_line": 97
+        }
+      ]
+    },
+    {
+      "unit_id": "U8-10",
+      "unit_type": "composite_question",
+      "section": "地 理",
+      "printed_number": null,
+      "question_numbers": [
+        8,
+        9,
+        10
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        105,
+        105
+      ],
+      "questions_lines": [
+        105,
+        142
+      ],
+      "answer_lines": [
+        525,
+        525
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U11-12",
+      "unit_type": "composite_question",
+      "section": "地 理",
+      "printed_number": null,
+      "question_numbers": [
+        11,
+        12
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        145,
+        145
+      ],
+      "questions_lines": [
+        145,
+        172
+      ],
+      "answer_lines": [
+        527,
+        527
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U13-14",
+      "unit_type": "composite_question",
+      "section": "地 理",
+      "printed_number": null,
+      "question_numbers": [
+        13,
+        14
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        177,
+        177
+      ],
+      "questions_lines": [
+        177,
+        193
+      ],
+      "answer_lines": [
+        527,
+        527
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U15-16",
+      "unit_type": "composite_question",
+      "section": "地 理",
+      "printed_number": null,
+      "question_numbers": [
+        15,
+        16
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        195,
+        203
+      ],
+      "questions_lines": [
+        195,
+        217
+      ],
+      "answer_lines": [
+        527,
+        527
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U17-18",
+      "unit_type": "composite_question",
+      "section": "地 理",
+      "printed_number": null,
+      "question_numbers": [
+        17,
+        18
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        219,
+        230
+      ],
+      "questions_lines": [
+        219,
+        249
+      ],
+      "answer_lines": [
+        527,
+        527
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U19-21",
+      "unit_type": "composite_question",
+      "section": "地 理",
+      "printed_number": null,
+      "question_numbers": [
+        19,
+        20,
+        21
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        251,
+        262
+      ],
+      "questions_lines": [
+        251,
+        289
+      ],
+      "answer_lines": [
+        527,
+        529
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U22-23",
+      "unit_type": "composite_question",
+      "section": "地 理",
+      "printed_number": null,
+      "question_numbers": [
+        22,
+        23
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        291,
+        296
+      ],
+      "questions_lines": [
+        291,
+        309
+      ],
+      "answer_lines": [
+        529,
+        529
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U24-25",
+      "unit_type": "composite_question",
+      "section": "地 理",
+      "printed_number": null,
+      "question_numbers": [
+        24,
+        25
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        311,
+        316
+      ],
+      "questions_lines": [
+        311,
+        333
+      ],
+      "answer_lines": [
+        529,
+        529
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U26-28",
+      "unit_type": "composite_question",
+      "section": "地 理",
+      "printed_number": null,
+      "question_numbers": [
+        26,
+        27,
+        28
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        335,
+        335
+      ],
+      "questions_lines": [
+        335,
+        373
+      ],
+      "answer_lines": [
+        529,
+        529
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U29-30",
+      "unit_type": "composite_question",
+      "section": "地 理",
+      "printed_number": null,
+      "question_numbers": [
+        29,
+        30
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        375,
+        380
+      ],
+      "questions_lines": [
+        375,
+        389
+      ],
+      "answer_lines": [
+        529,
+        529
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q31",
+      "unit_type": "standalone_question",
+      "section": "地 理",
+      "printed_number": [
+        31
+      ],
+      "question_numbers": [
+        31
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        397,
+        414
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        533,
+        537
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L397"
+    },
+    {
+      "unit_id": "Q32",
+      "unit_type": "standalone_question",
+      "section": "地 理",
+      "printed_number": [
+        32
+      ],
+      "question_numbers": [
+        32
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        417,
+        447
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        539,
+        549
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L417"
+    },
+    {
+      "unit_id": "Q33",
+      "unit_type": "standalone_question",
+      "section": "地 理",
+      "printed_number": [
+        33
+      ],
+      "question_numbers": [
+        33
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        449,
+        479
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        551,
+        561
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L449"
+    },
+    {
+      "unit_id": "Q34",
+      "unit_type": "standalone_question",
+      "section": "地 理",
+      "printed_number": [
+        34
+      ],
+      "question_numbers": [
+        34
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        481,
+        513
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        563,
+        581
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L481"
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2019 北京人大附中高一（上）期中",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "地 理",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 520,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "2019 北京人大附中高一（上）期中地理 参考答案",
+      "ordinal": 3,
+      "start_line": 521,
+      "end_line": 522,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "一、 选择题",
+      "ordinal": 4,
+      "start_line": 523,
+      "end_line": 530,
+      "occurrence": 1
+    },
+    {
+      "id": "S4",
+      "title": "二、 综合题",
+      "ordinal": 5,
+      "start_line": 531,
+      "end_line": 581,
+      "occurrence": 1
+    }
+  ],
+  "source_content_sha256": "0bf34c1c78f49562c3247dfb687a62c016d1b2a7e9da1a44101ed3240d6a753b"
+}

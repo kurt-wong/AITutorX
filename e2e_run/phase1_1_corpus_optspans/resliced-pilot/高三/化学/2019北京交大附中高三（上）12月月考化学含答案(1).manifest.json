@@ -1,0 +1,866 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\resliced-pilot\\高三\\化学\\2019北京交大附中高三（上）12月月考化学含答案(1).md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.3",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        13,
+        13
+      ],
+      "options_lines": [
+        15,
+        21
+      ],
+      "answer_lines": [
+        374,
+        374
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "化 学",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 15,
+          "end_line": 15
+        },
+        {
+          "label": "B",
+          "start_line": 17,
+          "end_line": 17
+        },
+        {
+          "label": "C",
+          "start_line": 19,
+          "end_line": 19
+        },
+        {
+          "label": "D",
+          "start_line": 21,
+          "end_line": 21
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        23,
+        23
+      ],
+      "options_lines": [
+        25,
+        31
+      ],
+      "answer_lines": [
+        374,
+        374
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "化 学",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 25,
+          "end_line": 25
+        },
+        {
+          "label": "B",
+          "start_line": 27,
+          "end_line": 27
+        },
+        {
+          "label": "C",
+          "start_line": 29,
+          "end_line": 29
+        },
+        {
+          "label": "D",
+          "start_line": 31,
+          "end_line": 31
+        }
+      ]
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        33,
+        33
+      ],
+      "options_lines": [
+        35,
+        41
+      ],
+      "answer_lines": [
+        374,
+        374
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "化 学",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L33",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 35,
+          "end_line": 35
+        },
+        {
+          "label": "B",
+          "start_line": 37,
+          "end_line": 37
+        },
+        {
+          "label": "C",
+          "start_line": 39,
+          "end_line": 39
+        },
+        {
+          "label": "D",
+          "start_line": 41,
+          "end_line": 41
+        }
+      ]
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        43,
+        47
+      ],
+      "options_lines": [
+        49,
+        51
+      ],
+      "answer_lines": [
+        374,
+        374
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "化 学",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 49,
+          "end_line": 49
+        },
+        {
+          "label": "B",
+          "start_line": 49,
+          "end_line": 49
+        },
+        {
+          "label": "C",
+          "start_line": 51,
+          "end_line": 51
+        },
+        {
+          "label": "D",
+          "start_line": 51,
+          "end_line": 51
+        }
+      ]
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        5
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        53,
+        53
+      ],
+      "options_lines": [
+        55,
+        63
+      ],
+      "answer_lines": [
+        374,
+        374
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "化 学",
+      "printed_number": [
+        5
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L53",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 55,
+          "end_line": 55
+        },
+        {
+          "label": "B",
+          "start_line": 59,
+          "end_line": 59
+        },
+        {
+          "label": "C",
+          "start_line": 61,
+          "end_line": 61
+        },
+        {
+          "label": "D",
+          "start_line": 63,
+          "end_line": 63
+        }
+      ]
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        6
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        65,
+        67
+      ],
+      "options_lines": [
+        70,
+        70
+      ],
+      "answer_lines": [
+        374,
+        374
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "6 \\. 下列实验结果不能作为相应定律或原理的证据之一的是",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        7
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        72,
+        79
+      ],
+      "options_lines": [
+        81,
+        87
+      ],
+      "answer_lines": [
+        374,
+        374
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "6 \\. 下列实验结果不能作为相应定律或原理的证据之一的是",
+      "printed_number": [
+        7
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L72",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 81,
+          "end_line": 81
+        },
+        {
+          "label": "B",
+          "start_line": 83,
+          "end_line": 83
+        },
+        {
+          "label": "C",
+          "start_line": 85,
+          "end_line": 85
+        },
+        {
+          "label": "D",
+          "start_line": 87,
+          "end_line": 87
+        }
+      ]
+    },
+    {
+      "unit_id": "Q8",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        8
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        91,
+        91
+      ],
+      "options_lines": [
+        93,
+        99
+      ],
+      "answer_lines": [
+        374,
+        374
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "6 \\. 下列实验结果不能作为相应定律或原理的证据之一的是",
+      "printed_number": [
+        8
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L91",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 93,
+          "end_line": 93
+        },
+        {
+          "label": "B",
+          "start_line": 95,
+          "end_line": 95
+        },
+        {
+          "label": "C",
+          "start_line": 97,
+          "end_line": 97
+        },
+        {
+          "label": "D",
+          "start_line": 99,
+          "end_line": 99
+        }
+      ]
+    },
+    {
+      "unit_id": "Q9",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        9
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        101,
+        106
+      ],
+      "options_lines": [
+        108,
+        114
+      ],
+      "answer_lines": [
+        374,
+        374
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "6 \\. 下列实验结果不能作为相应定律或原理的证据之一的是",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 108,
+          "end_line": 108
+        },
+        {
+          "label": "B",
+          "start_line": 110,
+          "end_line": 110
+        },
+        {
+          "label": "C",
+          "start_line": 112,
+          "end_line": 112
+        },
+        {
+          "label": "D",
+          "start_line": 114,
+          "end_line": 114
+        }
+      ]
+    },
+    {
+      "unit_id": "Q10",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        10
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        116,
+        117
+      ],
+      "options_lines": [
+        119,
+        119
+      ],
+      "answer_lines": [
+        374,
+        374
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "6 \\. 下列实验结果不能作为相应定律或原理的证据之一的是",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 119,
+          "end_line": 119
+        },
+        {
+          "label": "B",
+          "start_line": 119,
+          "end_line": 119
+        },
+        {
+          "label": "C",
+          "start_line": 119,
+          "end_line": 119
+        },
+        {
+          "label": "D",
+          "start_line": 119,
+          "end_line": 119
+        }
+      ]
+    },
+    {
+      "unit_id": "Q11",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        11
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        123,
+        128
+      ],
+      "options_lines": [
+        130,
+        132
+      ],
+      "answer_lines": [
+        374,
+        374
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "6 \\. 下列实验结果不能作为相应定律或原理的证据之一的是",
+      "printed_number": [
+        11
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L123",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 130,
+          "end_line": 130
+        },
+        {
+          "label": "B",
+          "start_line": 130,
+          "end_line": 130
+        },
+        {
+          "label": "C",
+          "start_line": 132,
+          "end_line": 132
+        },
+        {
+          "label": "D",
+          "start_line": 132,
+          "end_line": 132
+        }
+      ]
+    },
+    {
+      "unit_id": "Q12",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        12
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        134,
+        137
+      ],
+      "options_lines": [
+        139,
+        145
+      ],
+      "answer_lines": [
+        374,
+        374
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "6 \\. 下列实验结果不能作为相应定律或原理的证据之一的是",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 139,
+          "end_line": 139
+        },
+        {
+          "label": "B",
+          "start_line": 141,
+          "end_line": 141
+        },
+        {
+          "label": "C",
+          "start_line": 143,
+          "end_line": 143
+        },
+        {
+          "label": "D",
+          "start_line": 145,
+          "end_line": 145
+        }
+      ]
+    },
+    {
+      "unit_id": "Q13",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        13
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        147,
+        147
+      ],
+      "options_lines": [
+        149,
+        157
+      ],
+      "answer_lines": [
+        374,
+        374
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "6 \\. 下列实验结果不能作为相应定律或原理的证据之一的是",
+      "printed_number": [
+        13
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L147",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 149,
+          "end_line": 149
+        },
+        {
+          "label": "B",
+          "start_line": 151,
+          "end_line": 151
+        },
+        {
+          "label": "C",
+          "start_line": 153,
+          "end_line": 153
+        },
+        {
+          "label": "D",
+          "start_line": 155,
+          "end_line": 155
+        }
+      ]
+    },
+    {
+      "unit_id": "Q14",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        14
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        160,
+        164
+      ],
+      "options_lines": [
+        167,
+        173
+      ],
+      "answer_lines": [
+        374,
+        374
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "6 \\. 下列实验结果不能作为相应定律或原理的证据之一的是",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 167,
+          "end_line": 167
+        },
+        {
+          "label": "B",
+          "start_line": 169,
+          "end_line": 169
+        },
+        {
+          "label": "C",
+          "start_line": 171,
+          "end_line": 171
+        },
+        {
+          "label": "D",
+          "start_line": 173,
+          "end_line": 173
+        }
+      ]
+    },
+    {
+      "unit_id": "U15",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        15
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        177,
+        205
+      ],
+      "answer_lines": [
+        378,
+        388
+      ],
+      "explanation_lines": null,
+      "questions_lines": [
+        177,
+        205
+      ],
+      "section_ref": "S3",
+      "section": "Ⅱ卷（非选择题，共58分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U16",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        16
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        209,
+        235
+      ],
+      "answer_lines": [
+        390,
+        415
+      ],
+      "explanation_lines": null,
+      "questions_lines": [
+        209,
+        235
+      ],
+      "section_ref": "S3",
+      "section": "Ⅱ卷（非选择题，共58分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U17",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        17
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        237,
+        274
+      ],
+      "answer_lines": [
+        417,
+        429
+      ],
+      "explanation_lines": null,
+      "questions_lines": [
+        237,
+        274
+      ],
+      "section_ref": "S3",
+      "section": "Ⅱ卷（非选择题，共58分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U18",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        18
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        276,
+        316
+      ],
+      "answer_lines": [
+        431,
+        445
+      ],
+      "explanation_lines": null,
+      "questions_lines": [
+        276,
+        316
+      ],
+      "section_ref": "S3",
+      "section": "Ⅱ卷（非选择题，共58分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U19",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        19
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        318,
+        363
+      ],
+      "answer_lines": [
+        447,
+        465
+      ],
+      "explanation_lines": null,
+      "questions_lines": [
+        318,
+        363
+      ],
+      "section_ref": "S3",
+      "section": "Ⅱ卷（非选择题，共58分）",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2019 北京交大附中高三（上）12月月考",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "化 学",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 64,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "6 \\. 下列实验结果不能作为相应定律或原理的证据之一的是",
+      "ordinal": 3,
+      "start_line": 65,
+      "end_line": 174,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "Ⅱ卷（非选择题，共58分）",
+      "ordinal": 4,
+      "start_line": 175,
+      "end_line": 366,
+      "occurrence": 1
+    },
+    {
+      "id": "S4",
+      "title": "2019 北京交大附中高三（上）12月月考化学",
+      "ordinal": 5,
+      "start_line": 367,
+      "end_line": 465,
+      "occurrence": 1
+    }
+  ],
+  "source_content_sha256": "c794851b529f90033a8306e672b3dd7d9a11459b907ad764b5759eb043baf048"
+}

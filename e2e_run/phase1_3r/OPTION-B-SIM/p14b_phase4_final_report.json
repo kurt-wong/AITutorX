@@ -1,0 +1,182 @@
+{
+  "task": "P1.4-B Phase 4 — Producer Option Label Parsing Compatibility",
+  "status": "IMPLEMENTED + VERIFIED",
+  "git": {
+    "AITutors-v3": "ec62d298d68903cfa3d1e22f7cacd4a8474b7177",
+    "Papers": "d42cde662f5b780634a206f9c47f6482de1ed26e"
+  },
+  "files_modified": {
+    "Papers/scripts/reslice_pipeline.py": "Producer _detect_option_labels Rules A/B/C + _expand_option_spans merge-missing",
+    "AITutor-X corpus manifests (3)": "option label backfill only (D recovered); .p14b.bak backups kept",
+    "backend/app/domains/resolver/resolver.py": "_LABEL_DIGIT_GLUE_RE + _label_offsets + Rule A trailing fallback",
+    "backend/app/domains/resolver/match_normalization.py": "_line_has_option_token Rules B/C",
+    "backend/tests/test_p14b_option_label_compat.py": "24 positive/negative tests"
+  },
+  "rules": {
+    "A_trailing_label_lost": "unlabeled option content after last label in options_lines -> next sequential letter (Chem Q23)",
+    "B_digit_glued": "digit + uppercase letter + [.．、] -> letter (Math Q4 `2D.`). Rejects `2a)` and `2\\cos...`",
+    "C_space_sep": "line-start letter + space + CJK, not prose (是/有/在/...) -> letter (History Q29 `D 麦哲伦`)",
+    "hard_scope": "candidate evidence MUST be inside options_lines",
+    "authority": "Source-local deterministic only; NEVER answer->option; NEVER LLM"
+  },
+  "tests": {
+    "file": "tests/test_p14b_option_label_compat.py",
+    "total": 24,
+    "passed": 24,
+    "positive": [
+      "Q23 trailing D",
+      "Q4 digit-glue D",
+      "Q29 space-sep D",
+      "merge-missing on partial lists",
+      "clean A/B/C/D regression"
+    ],
+    "negative": [
+      "2\\cos^2a-1=2a) NOT label",
+      "2a) NOT A",
+      "3F. out of sequence",
+      "B 是 1945... NOT option",
+      "对A项/参见教材A册 NOT label",
+      "outside options_lines NOT detected",
+      "no fabrication when no evidence"
+    ]
+  },
+  "full_regression": {
+    "passed": 2278,
+    "failed": 3,
+    "failed_detail": "test_adv_state_audit.py worktree-cleanliness audits — fail BECAUSE authorized local changes exist (Papers reslice_pipeline.py modified). Not functional failures.",
+    "skipped": 1,
+    "xfailed": 1
+  },
+  "phase_replay": {
+    "baseline_af70d64": {
+      "root": 284,
+      "ready": 227,
+      "incomplete": 57,
+      "auto": 154,
+      "pending": 68,
+      "rejected": 5
+    },
+    "after_B_repair": {
+      "root": 284,
+      "ready": 227,
+      "incomplete": 57,
+      "auto": 155,
+      "pending": 67,
+      "rejected": 5
+    },
+    "delta": {
+      "root": 0,
+      "ready": 0,
+      "incomplete": 0,
+      "auto": 1,
+      "pending": -1,
+      "rejected": 0
+    }
+  },
+  "per_sample": [
+    {
+      "sample": "Chemistry Q23",
+      "form": "trailing label lost",
+      "old_labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "new_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "old_answer": "D",
+      "new_answer": "D",
+      "answer_in_old": false,
+      "answer_in_new": true,
+      "old_gate": "pending_review",
+      "new_gate": "auto_approve",
+      "gate_delta": 1,
+      "evidence_delta": "repaired"
+    },
+    {
+      "sample": "Math Q4",
+      "form": "digit-glued 2D.",
+      "old_labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "new_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "old_answer": "None (teacher block)",
+      "new_answer": "None (unchanged)",
+      "answer_in_old": null,
+      "answer_in_new": null,
+      "old_gate": "pending_review",
+      "new_gate": "pending_review",
+      "gate_delta": 0,
+      "evidence_delta": "repaired",
+      "note": "Gate blocker remains answer-slice / AnswerTokenContract (NOT in scope). Q4 B repair != Gate improvement."
+    },
+    {
+      "sample": "History Q29",
+      "form": "separator loss D 麦哲伦",
+      "old_labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "new_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "old_answer": "C",
+      "new_answer": "C",
+      "answer_in_old": true,
+      "answer_in_new": true,
+      "old_gate": "auto_approve",
+      "new_gate": "auto_approve",
+      "gate_delta": 0,
+      "evidence_delta": "repaired",
+      "note": "Already auto. Q29 B repair is Option Evidence completeness, NOT Gate improvement."
+    }
+  ],
+  "auto_delta_confirmed": {
+    "predicted_simulation": 1,
+    "measured_replay": 1,
+    "match": true,
+    "B3_to_auto3": "FALSIFIED (confirmed again by real replay)"
+  },
+  "stop_conditions_triggered": [],
+  "boundary_precision": {
+    "status": "observed (unchanged)",
+    "b_repair_depends_on_boundary_change": false,
+    "boundary_semantics_modified": false
+  },
+  "not_modified": [
+    "Gate policy",
+    "AnswerTokenContract / grammar.verify contract",
+    "STRICT_AUTO_TYPES",
+    "S0 / B3c-B",
+    "Decomposition / SUB_QUESTION_DECOMPOSITION",
+    "Schema",
+    "Admission",
+    "P0-A role-region policy",
+    "question boundary semantics",
+    "DB production data"
+  ],
+  "future_opportunity_NOT_authorized": {
+    "item": "Math S0 / answer-slice potentially unlocks +25 auto",
+    "status": "NOT AUTHORIZED IN P1.4-B",
+    "next": "separate S0 / answer-slice / B3c-B investigation"
+  },
+  "authority_red_line": {
+    "implemented": "Source Evidence -> deterministic local parsing -> Option Label Evidence",
+    "forbidden_and_not_used": "Answer Evidence -> guess missing option"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "task": "P1.4-B Phase 1 — READ-ONLY pre-repair impact simulation",
+  "production_changes": "NONE",
+  "baseline_frozen": {
+    "commit": "af70d64",
+    "gate_auto": 154,
+    "pending": 68,
+    "rejected": 5,
+    "option_survey": {
+      "A": 151,
+      "B": 3,
+      "C": 1,
+      "D": 29,
+      "F": 23,
+      "F0": 7
+    }
+  },
+  "headline": "B=3 → auto+3 FALSIFIED. Measured auto delta = 1 (Chem Q23 only).",
+  "delta_table": [
+    {
+      "sample": "Chemistry Q23",
+      "form": "trailing_label_lost",
+      "old_labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "sim_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "D",
+      "answer_in_old": false,
+      "answer_in_sim": true,
+      "old_gate": "pending_review",
+      "sim_gate_grammar_path": "auto_approve",
+      "auto_delta": 1,
+      "why": "grammar flip enables auto IF no other blockers (see other_layers_pass)"
+    },
+    {
+      "sample": "Math Q4",
+      "form": "glued_label",
+      "old_labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "sim_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": null,
+      "answer_in_old": null,
+      "answer_in_sim": null,
+      "old_gate": "pending_review",
+      "sim_gate_grammar_path": "pending_review",
+      "auto_delta": 0,
+      "why": "label repair alone does NOT flip gate to auto (verify None->None; decision stays pending_review)"
+    },
+    {
+      "sample": "History Q29",
+      "form": "separator_loss",
+      "old_labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "sim_labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_in_old": true,
+      "answer_in_sim": true,
+      "old_gate": "auto_approve",
+      "sim_gate_grammar_path": "auto_approve",
+      "auto_delta": 0,
+      "why": "already auto; label repair does not change AnswerTokenContract"
+    }
+  ],
+  "sum_auto_delta": 1,
+  "boundary_precision": {
+    "chem_Q23": {
+      "q_boundary": [
+        186,
+        186
+      ],
+      "options_lines": [
+        188,
+        194
+      ],
+      "issue": "observed"
+    },
+    "math_Q4": {
+      "q_boundary": [
+        19,
+        19
+      ],
+      "options_lines": [
+        21,
+        23
+      ],
+      "issue": "observed"
+    },
+    "history_Q29": {
+      "q_boundary": [
+        299,
+        299
+      ],
+      "options_lines": [
+        301,
+        307
+      ],
+      "issue": "observed"
+    },
+    "b_repair_depends_on_boundary_change": false,
+    "stop_condition_monitor": "If implementing B fix requires changing question boundary semantics → STOP."
+  },
+  "authority": {
+    "allowed": "Source-local deterministic label parsing of already-present content",
+    "forbidden": "answer → create option / infer content / LLM label"
+  },
+  "next": "Phase 1 done. Do not implement Producer fix until accepting only Q23 yields auto+1. Q4 needs separate answer-evidence work; Q29 is already auto (completeness only).",
+  "artifacts": [
+    "OPTION-B-SIM/b_label_repair_simulation.json",
+    "OPTION-B-SIM/b_label_repair_simulation.md",
+    "OPTION-B-SIM/b_label_repair_simulation.py"
+  ]
+}

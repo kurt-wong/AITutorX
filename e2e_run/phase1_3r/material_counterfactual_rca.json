@@ -1,0 +1,1157 @@
+{
+  "captured_at": "2026-10-02T06:11:48.630900+00:00",
+  "total_composite_injected": 54,
+  "resolved_n": 11,
+  "unresolved_n": 43,
+  "failure_taxonomy_distribution": {
+    "MATERIAL_OVERLAP_REJECTED": 20,
+    "INTERIOR_EMPTY": 20,
+    "START_MARKER_AMBIGUOUS": 2,
+    "START_MARKER_NOT_FOUND": 1
+  },
+  "taxonomy_buckets": {
+    "marker_resolution_failure": 3,
+    "span_boundary_interior_semantics": 20,
+    "overlap_rejected_by_resolver_invariant": 20,
+    "other": 0
+  },
+  "content_line_count_unresolved": {
+    "1": 20,
+    "4": 2,
+    "5": 2,
+    "6": 3,
+    "7": 1,
+    "8": 1,
+    "15": 2,
+    "16": 1,
+    "18": 1,
+    "19": 2,
+    "21": 2,
+    "24": 1,
+    "25": 2,
+    "34": 1,
+    "37": 1,
+    "109": 1
+  },
+  "content_line_count_resolved": {
+    "3": 2,
+    "5": 2,
+    "6": 2,
+    "8": 1,
+    "12": 1,
+    "15": 1,
+    "23": 1,
+    "32": 1
+  },
+  "units": [
+    {
+      "unit_id": "U52",
+      "document_id": "326c739a-de25-4f2e-9d89-9e468008ef1b",
+      "source_version_id": "0942fabb-4ab2-43a3-b163-5407244366ce",
+      "file_name": "2018北京夏季高中会考历史（教师版）(1).md",
+      "material_lines": [
+        569,
+        592
+      ],
+      "n_content_lines_inclusive": 24,
+      "start_marker_text": "52. 国际贸易是社会经济发展的重要组成部分。回答下列问题。",
+      "end_marker_text": "（3）依据材料和所学，指出二战后初期美、英等国为解决国际贸易与货币问题采取的重要举措，并简要说明其意义。",
+      "start_line_ref": "P1L569",
+      "end_line_ref": "P1L592",
+      "start_seq": 568,
+      "end_seq": 591,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "overlaps stem span sp-U52.sub.stem (P1L569..P1L593) material overlap → unresolved",
+      "failure_taxonomy": "MATERIAL_OVERLAP_REJECTED",
+      "other_ir_blockers": [
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U53",
+      "document_id": "326c739a-de25-4f2e-9d89-9e468008ef1b",
+      "source_version_id": "0942fabb-4ab2-43a3-b163-5407244366ce",
+      "file_name": "2018北京夏季高中会考历史（教师版）(1).md",
+      "material_lines": [
+        594,
+        627
+      ],
+      "n_content_lines_inclusive": 34,
+      "start_marker_text": "53. 教育与社会发展密切相关。回答下列问题。",
+      "end_marker_text": "（3）有人说1977年冬天是“一个国家和时代的拐点”，结合材料和所学就此谈谈你的认识。",
+      "start_line_ref": "P1L594",
+      "end_line_ref": "P1L627",
+      "start_seq": 593,
+      "end_seq": 626,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "overlaps stem span sp-U53.sub.stem (P1L594..P1L630) material overlap → unresolved",
+      "failure_taxonomy": "MATERIAL_OVERLAP_REJECTED",
+      "other_ir_blockers": [
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U1-2",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        9,
+        9
+      ],
+      "n_content_lines_inclusive": 1,
+      "start_marker_text": "“卡西尼号”太空探测器对土星及其卫星进行了长达十余年的探测。据此完成1-2题。",
+      "end_marker_text": "“卡西尼号”太空探测器对土星及其卫星进行了长达十余年的探测。据此完成1-2题。",
+      "start_line_ref": "P1L009",
+      "end_line_ref": "P1L009",
+      "start_seq": 8,
+      "end_seq": 8,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "material interior empty (markers adjacent)",
+      "failure_taxonomy": "INTERIOR_EMPTY",
+      "other_ir_blockers": [
+        "stem:ambiguous",
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U3-5",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        19,
+        19
+      ],
+      "n_content_lines_inclusive": 1,
+      "start_marker_text": "北京时间2017年9月6日20时，太阳爆发了强烈耀斑。据此完成3-5题。",
+      "end_marker_text": "北京时间2017年9月6日20时，太阳爆发了强烈耀斑。据此完成3-5题。",
+      "start_line_ref": "P1L019",
+      "end_line_ref": "P1L019",
+      "start_seq": 18,
+      "end_seq": 18,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "material interior empty (markers adjacent)",
+      "failure_taxonomy": "INTERIOR_EMPTY",
+      "other_ir_blockers": [
+        "stem:ambiguous",
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U6-7",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        35,
+        35
+      ],
+      "n_content_lines_inclusive": 1,
+      "start_marker_text": "诗句 “枯草霜花白，寒窗月新影” 是古人对霜降时节景观的描述。据此完成 6-7 题。",
+      "end_marker_text": "诗句 “枯草霜花白，寒窗月新影” 是古人对霜降时节景观的描述。据此完成 6-7 题。",
+      "start_line_ref": "P1L035",
+      "end_line_ref": "P1L035",
+      "start_seq": 34,
+      "end_seq": 34,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "material interior empty (markers adjacent)",
+      "failure_taxonomy": "INTERIOR_EMPTY",
+      "other_ir_blockers": [
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U8-9",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        45,
+        45
+      ],
+      "n_content_lines_inclusive": 1,
+      "start_marker_text": "2017年10月16日，台风“卡努”在广东省南部沿海登陆。据此完成8-9题。",
+      "end_marker_text": "2017年10月16日，台风“卡努”在广东省南部沿海登陆。据此完成8-9题。",
+      "start_line_ref": "P1L045",
+      "end_line_ref": "P1L045",
+      "start_seq": 44,
+      "end_seq": 44,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "material interior empty (markers adjacent)",
+      "failure_taxonomy": "INTERIOR_EMPTY",
+      "other_ir_blockers": [
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U16-17",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        133,
+        133
+      ],
+      "n_content_lines_inclusive": 1,
+      "start_marker_text": "北京市从 2017 年 12 月开始对洗车等高耗水行业征收水资源税。据此完成 16~17 题。16. 北京市水资源利用方面的主要问题是",
+      "end_marker_text": "北京市从 2017 年 12 月开始对洗车等高耗水行业征收水资源税。据此完成 16~17 题。16. 北京市水资源利用方面的主要问题是",
+      "start_line_ref": "P1L133",
+      "end_line_ref": "P1L133",
+      "start_seq": 132,
+      "end_seq": 132,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "material interior empty (markers adjacent)",
+      "failure_taxonomy": "INTERIOR_EMPTY",
+      "other_ir_blockers": [
+        "stem:missing",
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U18-20",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        143,
+        143
+      ],
+      "n_content_lines_inclusive": 1,
+      "start_marker_text": "图 4 为某校学生游学途中在甘肃省敦煌市附近拍摄的地貌景观。读图 4 和图 5 “岩石圈物质循环示意图”，完成 18—20 题",
+      "end_marker_text": "图 4 为某校学生游学途中在甘肃省敦煌市附近拍摄的地貌景观。读图 4 和图 5 “岩石圈物质循环示意图”，完成 18—20 题",
+      "start_line_ref": "P1L143",
+      "end_line_ref": "P1L143",
+      "start_seq": 142,
+      "end_seq": 142,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "material interior empty (markers adjacent)",
+      "failure_taxonomy": "INTERIOR_EMPTY",
+      "other_ir_blockers": [
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U24-25",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        194,
+        194
+      ],
+      "n_content_lines_inclusive": 1,
+      "start_marker_text": "读图6“北京市不同类型车位数与夜间停车需求量统计图”，完成24-25题。",
+      "end_marker_text": "读图6“北京市不同类型车位数与夜间停车需求量统计图”，完成24-25题。",
+      "start_line_ref": "P1L194",
+      "end_line_ref": "P1L194",
+      "start_seq": 193,
+      "end_seq": 193,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "material interior empty (markers adjacent)",
+      "failure_taxonomy": "INTERIOR_EMPTY",
+      "other_ir_blockers": [
+        "stem:missing",
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U26-29",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        222,
+        222
+      ],
+      "n_content_lines_inclusive": 1,
+      "start_marker_text": "2017年9月，中共中央国务院发布关于对《北京城市总体规划（2016年—2035年）》的批复，提出首都功能更加优化、深入推进京津冀协同发展等发展目标。读图7“京津冀区域空间格局示意图”，完成26－2926.优化首都功能应采取的措施是",
+      "end_marker_text": "2017年9月，中共中央国务院发布关于对《北京城市总体规划（2016年—2035年）》的批复，提出首都功能更加优化、深入推进京津冀协同发展等发展目标。读图7“京津冀区域空间格局示意图”，完成26－2926.优化首都功能应采取的措施是",
+      "start_line_ref": "P1L222",
+      "end_line_ref": "P1L222",
+      "start_seq": 221,
+      "end_seq": 221,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "material interior empty (markers adjacent)",
+      "failure_taxonomy": "INTERIOR_EMPTY",
+      "other_ir_blockers": [
+        "stem:missing",
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U30-31",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        260,
+        260
+      ],
+      "n_content_lines_inclusive": 1,
+      "start_marker_text": "我国科研人员培育的“巨型稻”，株高可达2.2米，具有高产、抗倒伏、抗病虫害、耐淹涝等特点，还可为蛙、鱼等稻田养殖动物提供良好的栖息环境。据此完成30—31题。",
+      "end_marker_text": "我国科研人员培育的“巨型稻”，株高可达2.2米，具有高产、抗倒伏、抗病虫害、耐淹涝等特点，还可为蛙、鱼等稻田养殖动物提供良好的栖息环境。据此完成30—31题。",
+      "start_line_ref": "P1L260",
+      "end_line_ref": "P1L260",
+      "start_seq": 259,
+      "end_seq": 259,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "material interior empty (markers adjacent)",
+      "failure_taxonomy": "INTERIOR_EMPTY",
+      "other_ir_blockers": [
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U32-33",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        274,
+        274
+      ],
+      "n_content_lines_inclusive": 1,
+      "start_marker_text": "河北省唐山市曹妃甸新城正着力构筑新能源汽车、装备制造、新一代电子信息等产业集群。据此完成32—33题。",
+      "end_marker_text": "河北省唐山市曹妃甸新城正着力构筑新能源汽车、装备制造、新一代电子信息等产业集群。据此完成32—33题。",
+      "start_line_ref": "P1L274",
+      "end_line_ref": "P1L274",
+      "start_seq": 273,
+      "end_seq": 273,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "material interior empty (markers adjacent)",
+      "failure_taxonomy": "INTERIOR_EMPTY",
+      "other_ir_blockers": [
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U34-35",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        288,
+        288
+      ],
+      "n_content_lines_inclusive": 1,
+      "start_marker_text": "磁悬浮列车的优点有环保、安全性高、爬坡能力强、建设成本低等。北京市首条磁悬浮线路 S1 线的门头沟区石门营站至石景山区金安桥站段，于 2017 年底试运营，运行时速 80 千米/时。据此完成 34－35 题。",
+      "end_marker_text": "磁悬浮列车的优点有环保、安全性高、爬坡能力强、建设成本低等。北京市首条磁悬浮线路 S1 线的门头沟区石门营站至石景山区金安桥站段，于 2017 年底试运营，运行时速 80 千米/时。据此完成 34－35 题。",
+      "start_line_ref": "P1L288",
+      "end_line_ref": "P1L288",
+      "start_seq": 287,
+      "end_seq": 287,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "material interior empty (markers adjacent)",
+      "failure_taxonomy": "INTERIOR_EMPTY",
+      "other_ir_blockers": [
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U36-39",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        300,
+        300
+      ],
+      "n_content_lines_inclusive": 1,
+      "start_marker_text": "读图 8 “中国局部图”，完成 36—39 题。",
+      "end_marker_text": "读图 8 “中国局部图”，完成 36—39 题。",
+      "start_line_ref": "P1L300",
+      "end_line_ref": "P1L300",
+      "start_seq": 299,
+      "end_seq": 299,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "material interior empty (markers adjacent)",
+      "failure_taxonomy": "INTERIOR_EMPTY",
+      "other_ir_blockers": [
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U40-41",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        330,
+        330
+      ],
+      "n_content_lines_inclusive": 1,
+      "start_marker_text": "2017年，辽宁省利用装备制造业等优势，积极承接长三角地区产业转移。据此完成40—41题。",
+      "end_marker_text": "2017年，辽宁省利用装备制造业等优势，积极承接长三角地区产业转移。据此完成40—41题。",
+      "start_line_ref": "P1L330",
+      "end_line_ref": "P1L330",
+      "start_seq": 329,
+      "end_seq": 329,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "material interior empty (markers adjacent)",
+      "failure_taxonomy": "INTERIOR_EMPTY",
+      "other_ir_blockers": [
+        "stem:missing",
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U42-43",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        344,
+        344
+      ],
+      "n_content_lines_inclusive": 1,
+      "start_marker_text": "读图9“2017年国庆‘一带一路’花坛设计图”，完成42－43题。",
+      "end_marker_text": "读图9“2017年国庆‘一带一路’花坛设计图”，完成42－43题。",
+      "start_line_ref": "P1L344",
+      "end_line_ref": "P1L344",
+      "start_seq": 343,
+      "end_seq": 343,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "material interior empty (markers adjacent)",
+      "failure_taxonomy": "INTERIOR_EMPTY",
+      "other_ir_blockers": [
+        "stem:missing",
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U44-46",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        378,
+        378
+      ],
+      "n_content_lines_inclusive": 1,
+      "start_marker_text": "图 10 示意地理小组探究某环境问题的过程，甲、乙装置初始实验条件相同。读图 10，完成 44—46 题。",
+      "end_marker_text": "图 10 示意地理小组探究某环境问题的过程，甲、乙装置初始实验条件相同。读图 10，完成 44—46 题。",
+      "start_line_ref": "P1L378",
+      "end_line_ref": "P1L378",
+      "start_seq": 377,
+      "end_seq": 377,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "material interior empty (markers adjacent)",
+      "failure_taxonomy": "INTERIOR_EMPTY",
+      "other_ir_blockers": [
+        "stem:missing",
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U47-48",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        410,
+        410
+      ],
+      "n_content_lines_inclusive": 1,
+      "start_marker_text": "读图 11 “某同学地理笔记上的长江流域开发条件示意图”，完成 47～48 题。",
+      "end_marker_text": "读图 11 “某同学地理笔记上的长江流域开发条件示意图”，完成 47～48 题。",
+      "start_line_ref": "P1L410",
+      "end_line_ref": "P1L410",
+      "start_seq": 409,
+      "end_seq": 409,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "material interior empty (markers adjacent)",
+      "failure_taxonomy": "INTERIOR_EMPTY",
+      "other_ir_blockers": [
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U49-50",
+      "document_id": "357c5c32-fea9-445f-9128-77863f62a865",
+      "source_version_id": "4e0a290f-28a1-4919-a38a-0bf9ceffc45a",
+      "file_name": "2018北京春季高中会考地理（教师版）(1).md",
+      "material_lines": [
+        438,
+        438
+      ],
+      "n_content_lines_inclusive": 1,
+      "start_marker_text": "可燃冰即天然气水合物，分布于深海沉积物或陆域的永久冻土中。科学家估计可燃冰所含有机碳资源总量相当于全球已知煤、石油和天然气总量的两倍，被誉为“未来能源”。2017年5月，我国在南海试采可燃冰取得成功。据此完成49～50题。",
+      "end_marker_text": "可燃冰即天然气水合物，分布于深海沉积物或陆域的永久冻土中。科学家估计可燃冰所含有机碳资源总量相当于全球已知煤、石油和天然气总量的两倍，被誉为“未来能源”。2017年5月，我国在南海试采可燃冰取得成功。据此完成49～50题。",
+      "start_line_ref": "P1L438",
+      "end_line_ref": "P1L438",
+      "start_seq": 437,
+      "end_seq": 437,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "material interior empty (markers adjacent)",
+      "failure_taxonomy": "INTERIOR_EMPTY",
+      "other_ir_blockers": [
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U9-10",
+      "document_id": "79b375ab-c33e-4979-8258-04d9fcaac59f",
+      "source_version_id": "0f7c3e77-dcab-44c4-b1e7-fe80c79f9d4f",
+      "file_name": "2018北京夏季高中会考政治（教师版）(1).md",
+      "material_lines": [
+        86,
+        86
+      ],
+      "n_content_lines_inclusive": 1,
+      "start_marker_text": "2018年3月5日至3月20日，第十三届全国人民代表大会第一次会议在北京召开。回答第9、10题。",
+      "end_marker_text": "2018年3月5日至3月20日，第十三届全国人民代表大会第一次会议在北京召开。回答第9、10题。",
+      "start_line_ref": "P1L086",
+      "end_line_ref": "P1L086",
+      "start_seq": 85,
+      "end_seq": 85,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "material interior empty (markers adjacent)",
+      "failure_taxonomy": "INTERIOR_EMPTY",
+      "other_ir_blockers": [
+        "stem:missing",
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "Q37",
+      "document_id": "79b375ab-c33e-4979-8258-04d9fcaac59f",
+      "source_version_id": "0f7c3e77-dcab-44c4-b1e7-fe80c79f9d4f",
+      "file_name": "2018北京夏季高中会考政治（教师版）(1).md",
+      "material_lines": [
+        472,
+        496
+      ],
+      "n_content_lines_inclusive": 25,
+      "start_marker_text": "37\\. 2018 年是中国改革开放 40 周年。40 年来，从农村到城市，从试点到推广，从经济体制改革到全面深化改革，中国人民众志成城，用奋斗书写了国家和民族发展的壮丽史诗。",
+      "end_marker_text": "1978—1988年",
+      "start_line_ref": "P1L472",
+      "end_line_ref": "P1L496",
+      "start_seq": 471,
+      "end_seq": 495,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "overlaps stem span sp-Q36.stem (P1L448..P1L544) material overlap → unresolved",
+      "failure_taxonomy": "MATERIAL_OVERLAP_REJECTED",
+      "other_ir_blockers": [
+        "stem:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U12-14",
+      "document_id": "15cb84a2-9231-429d-bae8-ed67f15cbb1d",
+      "source_version_id": "f842285c-328b-4f08-9994-6000e1165c75",
+      "file_name": "2018北京春季高中会考物理（教师版）(1).md",
+      "material_lines": [
+        136,
+        136
+      ],
+      "n_content_lines_inclusive": 1,
+      "start_marker_text": "请阅读下述文字，完成第 12 题、第 13 题、第 14 题如图 7 所示，a、b、c 是电场中的三个点，其电场强度大小分别为  $ E_{a} $、 $ E_{b} $、 $ E_{c} $，电势分别为  $ \\varphi_{a} $、",
+      "end_marker_text": "请阅读下述文字，完成第 12 题、第 13 题、第 14 题如图 7 所示，a、b、c 是电场中的三个点，其电场强度大小分别为  $ E_{a} $、 $ E_{b} $、 $ E_{c} $，电势分别为  $ \\varphi_{a} $、",
+      "start_line_ref": "P1L136",
+      "end_line_ref": "P1L136",
+      "start_seq": 135,
+      "end_seq": 135,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "material interior empty (markers adjacent)",
+      "failure_taxonomy": "INTERIOR_EMPTY",
+      "other_ir_blockers": [
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U18-20",
+      "document_id": "15cb84a2-9231-429d-bae8-ed67f15cbb1d",
+      "source_version_id": "f842285c-328b-4f08-9994-6000e1165c75",
+      "file_name": "2018北京春季高中会考物理（教师版）(1).md",
+      "material_lines": [
+        201,
+        201
+      ],
+      "n_content_lines_inclusive": 1,
+      "start_marker_text": "请阅读下述文字，完成第18题、第19题、第20题如图9所示，在光滑水平面上，一质量为 m 的物体，在水平恒力 F 的作用下，以初速度  $ v_0 $ 做匀加速直线运动，经过时间 t 位移为 x，速度达到  $ v_t $。",
+      "end_marker_text": "请阅读下述文字，完成第18题、第19题、第20题如图9所示，在光滑水平面上，一质量为 m 的物体，在水平恒力 F 的作用下，以初速度  $ v_0 $ 做匀加速直线运动，经过时间 t 位移为 x，速度达到  $ v_t $。",
+      "start_line_ref": "P1L201",
+      "end_line_ref": "P1L201",
+      "start_seq": 200,
+      "end_seq": 200,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "material interior empty (markers adjacent)",
+      "failure_taxonomy": "INTERIOR_EMPTY",
+      "other_ir_blockers": [
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "Q1",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": [
+        497,
+        502
+      ],
+      "n_content_lines_inclusive": 6,
+      "start_marker_text": "听第1段材料，回答第1题。",
+      "end_marker_text": "W: All right, sir.",
+      "start_line_ref": "P1L497",
+      "end_line_ref": "P1L502",
+      "start_seq": 496,
+      "end_seq": 501,
+      "marker_start_match_count": 2,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "overlaps stem span sp-Q1.sub.stem (P1L011..P1L016) overlaps stem span sp-Q2.sub.stem (P1L017..P1L026) overlaps stem span sp-Q3.sub.stem (P1L027..P1L030) overlaps stem span sp-Q4.sub.stem (P1L031..P1L040) overlaps stem span sp-Q5-6.sub.stem (P1L041..P1L044) overlaps stem span sp-Q7-8.sub.stem (P1L051..P1L054) overlaps stem span sp-Q9-11.sub.stem (P1L061..P1L064) overlaps stem span sp-Q12-14.sub.stem (P1L077..P1L080) overlaps stem span sp-Q15-17.sub.stem (P1L095..P1L102) overlaps stem span sp-Q18-20.sub.stem (P1L113..P1L120) overlaps answer span sp-Q18-20.sub.answer (P1L453..P1L453) overlaps answer span sp-Q21-25.sub.answer (P1L455..P1L455) overlaps stem span sp-U26-40.sub.stem (P1L158..P1L159) overlaps answer span sp-U26-40.sub.answer (P1L459..P1L459) overlaps stem span sp-U41-44.sub.stem (P1L208..P1L213) overlaps answer span sp-U41-44.sub.answer (P1L463..P1L463) overlaps stem span sp-U45-48.sub.stem (P1L270..P1L279) overlaps answer span sp-U45-48.sub.answer (P1L463..P1L463) overlaps stem span sp-U49-52.sub.stem (P1L317..P1L324) overlaps answer span sp-U49-52.sub.answer (P1L463..P1L463) overlaps stem span sp-U53-56.sub.stem (P1L363..P1L372) overlaps answer span sp-U53-56.sub.answer (P1L463..P1L463) overlaps stem span sp-U57-60.sub.stem (P1L409..P1L410) overlaps answer span sp-U57-60.sub.answer (P1L465..P1L465) overlaps material sp-Q2.material overlaps material sp-Q4.material overlaps material sp-Q5-6.material overlaps material sp-Q7-8.material overlaps material sp-Q18-20.material overlaps material sp-U49-52.material overlaps material sp-U53-56.material overlaps material sp-U57-60.material material overlap → unresolved",
+      "failure_taxonomy": "MATERIAL_OVERLAP_REJECTED",
+      "other_ir_blockers": [
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "Q2",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": [
+        504,
+        507
+      ],
+      "n_content_lines_inclusive": 4,
+      "start_marker_text": "听第2段材料，回答第2题。",
+      "end_marker_text": "W: Yes. Last year I went to Beijing to see the Forbidden City and the Summer Palace. This year I'm going to Hangzhou to ",
+      "start_line_ref": "P1L504",
+      "end_line_ref": "P1L507",
+      "start_seq": 503,
+      "end_seq": 506,
+      "marker_start_match_count": 2,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "overlaps stem span sp-Q1.sub.stem (P1L011..P1L016) overlaps stem span sp-Q2.sub.stem (P1L017..P1L026) overlaps stem span sp-Q3.sub.stem (P1L027..P1L030) overlaps stem span sp-Q4.sub.stem (P1L031..P1L040) overlaps stem span sp-Q5-6.sub.stem (P1L041..P1L044) overlaps stem span sp-Q7-8.sub.stem (P1L051..P1L054) overlaps stem span sp-Q9-11.sub.stem (P1L061..P1L064) overlaps stem span sp-Q12-14.sub.stem (P1L077..P1L080) overlaps stem span sp-Q15-17.sub.stem (P1L095..P1L102) overlaps stem span sp-Q18-20.sub.stem (P1L113..P1L120) overlaps answer span sp-Q18-20.sub.answer (P1L453..P1L453) overlaps answer span sp-Q21-25.sub.answer (P1L455..P1L455) overlaps stem span sp-U26-40.sub.stem (P1L158..P1L159) overlaps answer span sp-U26-40.sub.answer (P1L459..P1L459) overlaps stem span sp-U41-44.sub.stem (P1L208..P1L213) overlaps answer span sp-U41-44.sub.answer (P1L463..P1L463) overlaps stem span sp-U45-48.sub.stem (P1L270..P1L279) overlaps answer span sp-U45-48.sub.answer (P1L463..P1L463) overlaps stem span sp-U49-52.sub.stem (P1L317..P1L324) overlaps answer span sp-U49-52.sub.answer (P1L463..P1L463) overlaps stem span sp-U53-56.sub.stem (P1L363..P1L372) overlaps answer span sp-U53-56.sub.answer (P1L463..P1L463) overlaps stem span sp-U57-60.sub.stem (P1L409..P1L410) overlaps answer span sp-U57-60.sub.answer (P1L465..P1L465) overlaps material sp-Q1.material overlaps material sp-Q4.material overlaps material sp-Q5-6.material overlaps material sp-Q7-8.material overlaps material sp-Q18-20.material overlaps material sp-U49-52.material overlaps material sp-U53-56.material overlaps material sp-U57-60.material material overlap → unresolved",
+      "failure_taxonomy": "MATERIAL_OVERLAP_REJECTED",
+      "other_ir_blockers": [
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "Q3",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": [
+        509,
+        514
+      ],
+      "n_content_lines_inclusive": 6,
+      "start_marker_text": "听第3段材料，回答第3题。",
+      "end_marker_text": "W: Yes, I'm going to take your advice.",
+      "start_line_ref": "P1L509",
+      "end_line_ref": "P1L514",
+      "start_seq": 508,
+      "end_seq": 513,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "overlaps material sp-Q4.material overlaps material sp-Q5-6.material overlaps material sp-Q7-8.material overlaps material sp-Q18-20.material material overlap → unresolved",
+      "failure_taxonomy": "MATERIAL_OVERLAP_REJECTED",
+      "other_ir_blockers": [],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "Q4",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": [
+        516,
+        520
+      ],
+      "n_content_lines_inclusive": 5,
+      "start_marker_text": "听第4段材料，回答第4题。",
+      "end_marker_text": "M: Thanks!",
+      "start_line_ref": "P1L516",
+      "end_line_ref": "P1L520",
+      "start_seq": 515,
+      "end_seq": 519,
+      "marker_start_match_count": 2,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "overlaps stem span sp-Q3.sub.stem (P1L027..P1L030) overlaps stem span sp-Q4.sub.stem (P1L031..P1L040) overlaps stem span sp-Q5-6.sub.stem (P1L041..P1L044) overlaps stem span sp-Q7-8.sub.stem (P1L051..P1L054) overlaps stem span sp-Q9-11.sub.stem (P1L061..P1L064) overlaps stem span sp-Q12-14.sub.stem (P1L077..P1L080) overlaps stem span sp-Q15-17.sub.stem (P1L095..P1L102) overlaps stem span sp-Q18-20.sub.stem (P1L113..P1L120) overlaps answer span sp-Q18-20.sub.answer (P1L453..P1L453) overlaps answer span sp-Q21-25.sub.answer (P1L455..P1L455) overlaps stem span sp-U26-40.sub.stem (P1L158..P1L159) overlaps answer span sp-U26-40.sub.answer (P1L459..P1L459) overlaps stem span sp-U41-44.sub.stem (P1L208..P1L213) overlaps answer span sp-U41-44.sub.answer (P1L463..P1L463) overlaps stem span sp-U45-48.sub.stem (P1L270..P1L279) overlaps answer span sp-U45-48.sub.answer (P1L463..P1L463) overlaps stem span sp-U49-52.sub.stem (P1L317..P1L324) overlaps answer span sp-U49-52.sub.answer (P1L463..P1L463) overlaps stem span sp-U53-56.sub.stem (P1L363..P1L372) overlaps answer span sp-U53-56.sub.answer (P1L463..P1L463) overlaps stem span sp-U57-60.sub.stem (P1L409..P1L410) overlaps answer span sp-U57-60.sub.answer (P1L465..P1L465) overlaps material sp-Q1.material overlaps material sp-Q2.material overlaps material sp-Q3.material overlaps material sp-Q5-6.material overlaps material sp-Q7-8.material overlaps material sp-Q18-20.material overlaps material sp-U49-52.material overlaps material sp-U53-56.material overlaps material sp-U57-60.material material overlap → unresolved",
+      "failure_taxonomy": "MATERIAL_OVERLAP_REJECTED",
+      "other_ir_blockers": [],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "Q5-6",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": [
+        522,
+        527
+      ],
+      "n_content_lines_inclusive": 6,
+      "start_marker_text": "听第5段材料，回答第5题至第6题。",
+      "end_marker_text": "M: Hmm, all right.",
+      "start_line_ref": "P1L522",
+      "end_line_ref": "P1L527",
+      "start_seq": 521,
+      "end_seq": 526,
+      "marker_start_match_count": 2,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "overlaps stem span sp-Q4.sub.stem (P1L031..P1L040) overlaps stem span sp-Q5-6.sub.stem (P1L041..P1L044) overlaps stem span sp-Q7-8.sub.stem (P1L051..P1L054) overlaps stem span sp-Q9-11.sub.stem (P1L061..P1L064) overlaps stem span sp-Q12-14.sub.stem (P1L077..P1L080) overlaps stem span sp-Q15-17.sub.stem (P1L095..P1L102) overlaps stem span sp-Q18-20.sub.stem (P1L113..P1L120) overlaps answer span sp-Q18-20.sub.answer (P1L453..P1L453) overlaps answer span sp-Q21-25.sub.answer (P1L455..P1L455) overlaps stem span sp-U26-40.sub.stem (P1L158..P1L159) overlaps answer span sp-U26-40.sub.answer (P1L459..P1L459) overlaps stem span sp-U41-44.sub.stem (P1L208..P1L213) overlaps answer span sp-U41-44.sub.answer (P1L463..P1L463) overlaps stem span sp-U45-48.sub.stem (P1L270..P1L279) overlaps answer span sp-U45-48.sub.answer (P1L463..P1L463) overlaps stem span sp-U49-52.sub.stem (P1L317..P1L324) overlaps answer span sp-U49-52.sub.answer (P1L463..P1L463) overlaps stem span sp-U53-56.sub.stem (P1L363..P1L372) overlaps answer span sp-U53-56.sub.answer (P1L463..P1L463) overlaps stem span sp-U57-60.sub.stem (P1L409..P1L410) overlaps answer span sp-U57-60.sub.answer (P1L465..P1L465) overlaps material sp-Q1.material overlaps material sp-Q2.material overlaps material sp-Q3.material overlaps material sp-Q4.material overlaps material sp-Q7-8.material overlaps material sp-Q18-20.material overlaps material sp-U49-52.material overlaps material sp-U53-56.material overlaps material sp-U57-60.material material overlap → unresolved",
+      "failure_taxonomy": "MATERIAL_OVERLAP_REJECTED",
+      "other_ir_blockers": [
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "Q7-8",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": [
+        529,
+        536
+      ],
+      "n_content_lines_inclusive": 8,
+      "start_marker_text": "听第6段材料，回答第7题至第8题。",
+      "end_marker_text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>",
+      "start_line_ref": "P1L529",
+      "end_line_ref": "P1L536",
+      "start_seq": 528,
+      "end_seq": 535,
+      "marker_start_match_count": 2,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "overlaps stem span sp-Q7-8.sub.stem (P1L051..P1L054) overlaps stem span sp-Q9-11.sub.stem (P1L061..P1L064) overlaps stem span sp-Q12-14.sub.stem (P1L077..P1L080) overlaps stem span sp-Q15-17.sub.stem (P1L095..P1L102) overlaps stem span sp-Q18-20.sub.stem (P1L113..P1L120) overlaps answer span sp-Q18-20.sub.answer (P1L453..P1L453) overlaps answer span sp-Q21-25.sub.answer (P1L455..P1L455) overlaps stem span sp-U26-40.sub.stem (P1L158..P1L159) overlaps answer span sp-U26-40.sub.answer (P1L459..P1L459) overlaps stem span sp-U41-44.sub.stem (P1L208..P1L213) overlaps answer span sp-U41-44.sub.answer (P1L463..P1L463) overlaps stem span sp-U45-48.sub.stem (P1L270..P1L279) overlaps answer span sp-U45-48.sub.answer (P1L463..P1L463) overlaps stem span sp-U49-52.sub.stem (P1L317..P1L324) overlaps answer span sp-U49-52.sub.answer (P1L463..P1L463) overlaps stem span sp-U53-56.sub.stem (P1L363..P1L372) overlaps answer span sp-U53-56.sub.answer (P1L463..P1L463) overlaps stem span sp-U57-60.sub.stem (P1L409..P1L410) overlaps answer span sp-U57-60.sub.answer (P1L465..P1L465) overlaps material sp-Q1.material overlaps material sp-Q2.material overlaps material sp-Q3.material overlaps material sp-Q4.material overlaps material sp-Q5-6.material overlaps material sp-Q18-20.material overlaps material sp-U49-52.material overlaps material sp-U53-56.material overlaps material sp-U57-60.material material overlap → unresolved",
+      "failure_taxonomy": "MATERIAL_OVERLAP_REJECTED",
+      "other_ir_blockers": [
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "Q9-11",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": [
+        538,
+        541
+      ],
+      "n_content_lines_inclusive": 4,
+      "start_marker_text": "## 听第7段材料，回答第9题至第11题。",
+      "end_marker_text": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>",
+      "start_line_ref": "P1L538",
+      "end_line_ref": "P1L541",
+      "start_seq": 537,
+      "end_seq": 540,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "overlaps material sp-Q18-20.material material overlap → unresolved",
+      "failure_taxonomy": "MATERIAL_OVERLAP_REJECTED",
+      "other_ir_blockers": [
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "Q12-14",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": [
+        543,
+        561
+      ],
+      "n_content_lines_inclusive": 19,
+      "start_marker_text": "## 听第8段材料，回答第12题至第14题。",
+      "end_marker_text": "M: Perhaps I'll try and find a weekend course.",
+      "start_line_ref": "P1L543",
+      "end_line_ref": "P1L561",
+      "start_seq": 542,
+      "end_seq": 560,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "overlaps material sp-Q18-20.material material overlap → unresolved",
+      "failure_taxonomy": "MATERIAL_OVERLAP_REJECTED",
+      "other_ir_blockers": [],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "Q15-17",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": [
+        563,
+        578
+      ],
+      "n_content_lines_inclusive": 16,
+      "start_marker_text": "## 听第9段材料，回答第15题至第17题。",
+      "end_marker_text": "W: OK, see you!",
+      "start_line_ref": "P1L563",
+      "end_line_ref": "P1L578",
+      "start_seq": 562,
+      "end_seq": 577,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "overlaps answer span sp-Q3.sub.answer (P1L577..P1L577) overlaps answer span sp-Q4.sub.answer (P1L576..P1L576) overlaps material sp-Q18-20.material material overlap → unresolved",
+      "failure_taxonomy": "MATERIAL_OVERLAP_REJECTED",
+      "other_ir_blockers": [
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "Q18-20",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": [
+        580,
+        584
+      ],
+      "n_content_lines_inclusive": 5,
+      "start_marker_text": "听第 10 段材料，回答第 18 题至第 20 题。",
+      "end_marker_text": "For young people who want to be photographers, interest is the most important. You must love photographing. That can hel",
+      "start_line_ref": "P1L580",
+      "end_line_ref": "P1L584",
+      "start_seq": 579,
+      "end_seq": 583,
+      "marker_start_match_count": 2,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "overlaps answer span sp-Q3.sub.answer (P1L577..P1L577) overlaps answer span sp-Q4.sub.answer (P1L576..P1L576) overlaps stem span sp-Q18-20.sub.stem (P1L113..P1L120) overlaps answer span sp-Q18-20.sub.answer (P1L453..P1L453) overlaps answer span sp-Q21-25.sub.answer (P1L455..P1L455) overlaps stem span sp-U26-40.sub.stem (P1L158..P1L159) overlaps answer span sp-U26-40.sub.answer (P1L459..P1L459) overlaps stem span sp-U41-44.sub.stem (P1L208..P1L213) overlaps answer span sp-U41-44.sub.answer (P1L463..P1L463) overlaps stem span sp-U45-48.sub.stem (P1L270..P1L279) overlaps answer span sp-U45-48.sub.answer (P1L463..P1L463) overlaps stem span sp-U49-52.sub.stem (P1L317..P1L324) overlaps answer span sp-U49-52.sub.answer (P1L463..P1L463) overlaps stem span sp-U53-56.sub.stem (P1L363..P1L372) overlaps answer span sp-U53-56.sub.answer (P1L463..P1L463) overlaps stem span sp-U57-60.sub.stem (P1L409..P1L410) overlaps answer span sp-U57-60.sub.answer (P1L465..P1L465) overlaps material sp-Q1.material overlaps material sp-Q2.material overlaps material sp-Q3.material overlaps material sp-Q4.material overlaps material sp-Q5-6.material overlaps material sp-Q7-8.material overlaps material sp-Q9-11.material overlaps material sp-Q12-14.material overlaps material sp-Q15-17.material overlaps material sp-U49-52.material overlaps material sp-U53-56.material overlaps material sp-U57-60.material material overlap → unresolved",
+      "failure_taxonomy": "MATERIAL_OVERLAP_REJECTED",
+      "other_ir_blockers": [],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "Q21-25",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": [
+        586,
+        610
+      ],
+      "n_content_lines_inclusive": 25,
+      "start_marker_text": "第二节：听下面一段对话，根据题目要求在答题卡相应题号后的横线上写下第21题至第25题的关键信息。此段对话你将听两遍。",
+      "end_marker_text": "M: OK. Bye.",
+      "start_line_ref": "P1L586",
+      "end_line_ref": "P1L610",
+      "start_seq": 585,
+      "end_seq": 609,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "overlaps answer span sp-Q12-14.sub.answer (P1L593..P1L593) material overlap → unresolved",
+      "failure_taxonomy": "MATERIAL_OVERLAP_REJECTED",
+      "other_ir_blockers": [
+        "stem:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U26-40",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": [
+        138,
+        156
+      ],
+      "n_content_lines_inclusive": 19,
+      "start_marker_text": "## A",
+      "end_marker_text": "The teacher stood  $ \\underline{39} $ and the whole class was speechless. Today, a girl from a small village reminded us",
+      "start_line_ref": "P1L138",
+      "end_line_ref": "P1L156",
+      "start_seq": 137,
+      "end_seq": 155,
+      "marker_start_match_count": 2,
+      "marker_end_match_count": 1,
+      "material_span_status": "ambiguous",
+      "material_span_reason": "start '## A' not uniquely located",
+      "failure_taxonomy": "START_MARKER_AMBIGUOUS",
+      "other_ir_blockers": [],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U41-44",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": [
+        192,
+        206
+      ],
+      "n_content_lines_inclusive": 15,
+      "start_marker_text": "## A",
+      "end_marker_text": "One of the best things about travelling is creating memories to bring back. When I got back home from a holiday in Malay",
+      "start_line_ref": "P1L192",
+      "end_line_ref": "P1L206",
+      "start_seq": 191,
+      "end_seq": 205,
+      "marker_start_match_count": 2,
+      "marker_end_match_count": 1,
+      "material_span_status": "ambiguous",
+      "material_span_reason": "start '## A' not uniquely located",
+      "failure_taxonomy": "START_MARKER_AMBIGUOUS",
+      "other_ir_blockers": [],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U45-48",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": [
+        232,
+        268
+      ],
+      "n_content_lines_inclusive": 37,
+      "start_marker_text": "## B",
+      "end_marker_text": "Join free",
+      "start_line_ref": "P1L232",
+      "end_line_ref": "P1L268",
+      "start_seq": 231,
+      "end_seq": 267,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 4,
+      "material_span_status": "ambiguous",
+      "material_span_reason": "start '## B' not uniquely located",
+      "failure_taxonomy": "START_MARKER_NOT_FOUND",
+      "other_ir_blockers": [],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U49-52",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": [
+        298,
+        315
+      ],
+      "n_content_lines_inclusive": 18,
+      "start_marker_text": "Have you ever been to the beach? Did you see a man with a headset pointing a long stick at the ground? If so, you might ",
+      "end_marker_text": "Let's hear it for metal detectors. They make the world a safer place.",
+      "start_line_ref": "P1L298",
+      "end_line_ref": "P1L315",
+      "start_seq": 297,
+      "end_seq": 314,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "overlaps material sp-Q1.material overlaps material sp-Q2.material overlaps material sp-Q4.material overlaps material sp-Q5-6.material overlaps material sp-Q7-8.material overlaps material sp-Q18-20.material material overlap → unresolved",
+      "failure_taxonomy": "MATERIAL_OVERLAP_REJECTED",
+      "other_ir_blockers": [],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U53-56",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": [
+        341,
+        361
+      ],
+      "n_content_lines_inclusive": 21,
+      "start_marker_text": "## D",
+      "end_marker_text": "0 The Fifth Symphony was composed by Gustav Mahler and is one of his well-known works. Gustav Mahler (1860-1911) was an ",
+      "start_line_ref": "P1L341",
+      "end_line_ref": "P1L361",
+      "start_seq": 340,
+      "end_seq": 360,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "overlaps material sp-Q1.material overlaps material sp-Q2.material overlaps material sp-Q4.material overlaps material sp-Q5-6.material overlaps material sp-Q7-8.material overlaps material sp-Q18-20.material material overlap → unresolved",
+      "failure_taxonomy": "MATERIAL_OVERLAP_REJECTED",
+      "other_ir_blockers": [],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U57-60",
+      "document_id": "8f8a41cd-b229-4e03-93c5-318e95f85490",
+      "source_version_id": "e7dab564-e82e-4df9-997c-753ca778cafc",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "material_lines": [
+        401,
+        407
+      ],
+      "n_content_lines_inclusive": 7,
+      "start_marker_text": "As a teenager, I hated P.E. lessons. I was not very good at sports, and I hated team sports because I always felt like I",
+      "end_marker_text": "When I was a teenager, I would say I just wasn't a sporty person and that I just didn't like sport and never would. Now ",
+      "start_line_ref": "P1L401",
+      "end_line_ref": "P1L407",
+      "start_seq": 400,
+      "end_seq": 406,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "overlaps material sp-Q1.material overlaps material sp-Q2.material overlaps material sp-Q4.material overlaps material sp-Q5-6.material overlaps material sp-Q7-8.material overlaps material sp-Q18-20.material material overlap → unresolved",
+      "failure_taxonomy": "MATERIAL_OVERLAP_REJECTED",
+      "other_ir_blockers": [],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U10-13",
+      "document_id": "6ecd4e6f-b88d-4be4-a6ea-42bfe1185341",
+      "source_version_id": "b155783e-7c29-4b9f-a03f-dcaa1e1e6bcb",
+      "file_name": "2018北京春季高中会考语文（教师版）(1).md",
+      "material_lines": [
+        80,
+        188
+      ],
+      "n_content_lines_inclusive": 109,
+      "start_marker_text": "阅读《边城》选文及相关资料，完成 10-13 题。",
+      "end_marker_text": "当然，有很多悲剧并不是由一种原因导致的，而 $ \\underline{\\text{是多种原因综合作用的结果}} $，这也使得悲剧的内涵更加丰富。",
+      "start_line_ref": "P1L080",
+      "end_line_ref": "P1L188",
+      "start_seq": 79,
+      "end_seq": 187,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "overlaps stem span sp-Q9.stem (P1L076..P1L189) material overlap → unresolved",
+      "failure_taxonomy": "MATERIAL_OVERLAP_REJECTED",
+      "other_ir_blockers": [
+        "answer:missing"
+      ],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U14",
+      "document_id": "6ecd4e6f-b88d-4be4-a6ea-42bfe1185341",
+      "source_version_id": "b155783e-7c29-4b9f-a03f-dcaa1e1e6bcb",
+      "file_name": "2018北京春季高中会考语文（教师版）(1).md",
+      "material_lines": [
+        246,
+        260
+      ],
+      "n_content_lines_inclusive": 15,
+      "start_marker_text": "读书可以明理、完善自我、认识世界、传承文明，正因为有了这几条才要读书，那么接下来的问题就是要读什么书。在我看来，读书还需着重于读经典。人类千辛万苦留下的这些宝贝，是无穷智慧的结晶，是人类文明得以在此星球上延续的定海神针。 $ \\underl",
+      "end_marker_text": "（取材于张汝伦《读书与人生》）",
+      "start_line_ref": "P1L246",
+      "end_line_ref": "P1L260",
+      "start_seq": 245,
+      "end_seq": 259,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "overlaps stem span sp-U14.sub.stem (P1L244..P1L285) material overlap → unresolved",
+      "failure_taxonomy": "MATERIAL_OVERLAP_REJECTED",
+      "other_ir_blockers": [],
+      "ir_unit_status": "incomplete"
+    },
+    {
+      "unit_id": "U15",
+      "document_id": "6ecd4e6f-b88d-4be4-a6ea-42bfe1185341",
+      "source_version_id": "b155783e-7c29-4b9f-a03f-dcaa1e1e6bcb",
+      "file_name": "2018北京春季高中会考语文（教师版）(1).md",
+      "material_lines": [
+        288,
+        308
+      ],
+      "n_content_lines_inclusive": 21,
+      "start_marker_text": "书房是中国传统社会最重要的生活空间之一。早在汉代，文学家张衡就称赞自己的书房可“弹五弦之妙指，咏周孔之图书，挥翰墨以奋藻，陈三皇之轨模”。在中国传统文化中，不同的书房代表了不同的生活美学。",
+      "end_marker_text": "与图书馆，乾隆帝还将其作为谈论国事的场所。三希望反映了封建时代文化、政治的统一，是中式生活美学中崇高之美的典范。（取材于韩晗《书房与中式生活美学》）",
+      "start_line_ref": "P1L288",
+      "end_line_ref": "P1L308",
+      "start_seq": 287,
+      "end_seq": 307,
+      "marker_start_match_count": 1,
+      "marker_end_match_count": 1,
+      "material_span_status": "incomplete",
+      "material_span_reason": "overlaps stem span sp-U15.sub.stem (P1L286..P1L329) material overlap → unresolved",
+      "failure_taxonomy": "MATERIAL_OVERLAP_REJECTED",
+      "other_ir_blockers": [],
+      "ir_unit_status": "incomplete"
+    }
+  ],
+  "q3_answer": {
+    "marker_resolution_failure": 3,
+    "span_boundary_interior_semantics": 20,
+    "overlap_rejected": 20,
+    "other": 0
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "name": "phase1_e2e_baseline_v1",
+  "frozen_at_git": {
+    "AITutors-v3": "dc051fa",
+    "AITutors-preprocessing": "873a343"
+  },
+  "corpus": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\会考",
+  "leaf_units": 284,
+  "root_units": 284,
+  "ir_ready": 227,
+  "ir_incomplete": 57,
+  "gate_auto": 154,
+  "gate_pending": 68,
+  "gate_rejected": 5,
+  "material_unresolved": 0,
+  "material_resolved": 54,
+  "leaf_ready_root_blocked_by_mat": 0,
+  "owner_requested_fields": {
+    "root_units": 284,
+    "leaf_units": 284,
+    "ir_ready": 227,
+    "gate_auto": 154,
+    "gate_pending": 68,
+    "gate_rejected": 5,
+    "material_unresolved": 0
+  },
+  "per_paper": {
+    "化学": {
+      "root": {
+        "incomplete": 25,
+        "ready": 15
+      },
+      "gate": {
+        "auto_approve": 14,
+        "pending_review": 1
+      },
+      "mat": {}
+    },
+    "历史": {
+      "root": {
+        "ready": 53
+      },
+      "gate": {
+        "auto_approve": 50,
+        "rejected": 3
+      },
+      "mat": {
+        "resolved": 3
+      }
+    },
+    "地理": {
+      "root": {
+        "ready": 25
+      },
+      "gate": {
+        "auto_approve": 18,
+        "rejected": 2,
+        "pending_review": 5
+      },
+      "mat": {
+        "resolved": 25
+      }
+    },
+    "政治": {
+      "root": {
+        "ready": 29,
+        "incomplete": 7
+      },
+      "gate": {
+        "auto_approve": 20,
+        "pending_review": 9
+      },
+      "mat": {
+        "resolved": 2
+      }
+    },
+    "数学": {
+      "root": {
+        "ready": 30
+      },
+      "gate": {
+        "pending_review": 30
+      },
+      "mat": {}
+    },
+    "物理": {
+      "root": {
+        "ready": 21,
+        "incomplete": 1
+      },
+      "gate": {
+        "auto_approve": 13,
+        "pending_review": 8
+      },
+      "mat": {
+        "resolved": 3
+      }
+    },
+    "生物": {
+      "root": {
+        "incomplete": 21,
+        "ready": 29
+      },
+      "gate": {
+        "auto_approve": 29
+      },
+      "mat": {}
+    },
+    "英语": {
+      "root": {
+        "ready": 15,
+        "incomplete": 3
+      },
+      "gate": {
+        "auto_approve": 8,
+        "pending_review": 7
+      },
+      "mat": {
+        "resolved": 17
+      }
+    },
+    "语文": {
+      "root": {
+        "ready": 10
+      },
+      "gate": {
+        "pending_review": 8,
+        "auto_approve": 2
+      },
+      "mat": {
+        "resolved": 4
+      }
+    }
+  }
+}

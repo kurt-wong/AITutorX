@@ -1,0 +1,107 @@
+{
+  "database": "aitutors_prod_batch",
+  "papers_input": 4,
+  "manifest_units_total": 117,
+  "ir_ready_total": 0,
+  "skipped_incomplete_total": 0,
+  "candidates_total": 72,
+  "candidates_by_status": {
+    "approved": 31,
+    "pending_review": 41
+  },
+  "admitted_questions": 31,
+  "effective_yield_admitted_over_units": 0.265,
+  "rejection_rate_skip_over_units": 0.0,
+  "content_integrity": {
+    "instances_with_stem": 31,
+    "instances_with_answer": 31,
+    "instances_with_option": 31,
+    "role_content_counts": {
+      "answer": 31,
+      "option": 124,
+      "stem": 31
+    }
+  },
+  "per_document": [
+    {
+      "document_id": "8f68abc2-73f1-4416-8579-69e51cd81e9a",
+      "file_name": "paper.pdf",
+      "manifest_units": 40,
+      "ir_ready": 0,
+      "skipped_incomplete": 0,
+      "candidates": {
+        "approved": 21,
+        "pending_review": 3
+      },
+      "question_instances": 21,
+      "samples": [
+        {
+          "qn": "1",
+          "qtype": "single_choice",
+          "stem": "1\\. 2017年，我国科学家实现了二氧化碳高稳定性加氢合成甲醇（CH $ _{3} $OH），在二氧化碳的碳资源化利用"
+        },
+        {
+          "qn": "2",
+          "qtype": "single_choice",
+          "stem": "2．下列各组元素中，属于同一周期的是\n"
+        },
+        {
+          "qn": "3",
+          "qtype": "single_choice",
+          "stem": "3．下列物质中，属于电解质的是\n"
+        }
+      ]
+    },
+    {
+      "document_id": "2cff6900-6020-4625-9310-685069314716",
+      "file_name": "paper.pdf",
+      "manifest_units": 25,
+      "ir_ready": 0,
+      "skipped_incomplete": 0,
+      "candidates": {},
+      "question_instances": 0,
+      "samples": []
+    },
+    {
+      "document_id": "2c0b747f-f027-4219-aeb9-15d130c77797",
+      "file_name": "paper.pdf",
+      "manifest_units": 30,
+      "ir_ready": 0,
+      "skipped_incomplete": 0,
+      "candidates": {
+        "pending_review": 30
+      },
+      "question_instances": 0,
+      "samples": []
+    },
+    {
+      "document_id": "f1a711c2-ccb3-4a05-ad83-c28cb5aa49c0",
+      "file_name": "paper.pdf",
+      "manifest_units": 22,
+      "ir_ready": 0,
+      "skipped_incomplete": 0,
+      "candidates": {
+        "approved": 10,
+        "pending_review": 8
+      },
+      "question_instances": 10,
+      "samples": [
+        {
+          "qn": "1",
+          "qtype": "single_choice",
+          "stem": "1\\. 下列物理量中，属于矢量的是\n"
+        },
+        {
+          "qn": "2",
+          "qtype": "single_choice",
+          "stem": "2. 如图 1 所示，书本放置在课桌上，力 F 为桌面对书本的支持力，则 F 的反作用力是\n"
+        },
+        {
+          "qn": "3",
+          "qtype": "single_choice",
+          "stem": "3.铜是良好的导电材料。在一段通电铜导线内，定向移动形成电流的微粒是\n"
+        }
+      ]
+    }
+  ]
+}

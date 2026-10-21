@@ -1,0 +1,529 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\合格考\\物理\\2021北京高中合格考物理（第二次）（教师版）(1).md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.1",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "U1-3",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        1,
+        2,
+        3
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        12,
+        14
+      ],
+      "questions_lines": [
+        12,
+        26
+      ],
+      "answer_lines": [
+        332,
+        332
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出最符",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U4-6",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        4,
+        5,
+        6
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        28,
+        37
+      ],
+      "questions_lines": [
+        28,
+        56
+      ],
+      "answer_lines": [
+        332,
+        334
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出最符",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U7-9",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        7,
+        8,
+        9
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        58,
+        72
+      ],
+      "questions_lines": [
+        58,
+        88
+      ],
+      "answer_lines": [
+        334,
+        334
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出最符",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U10-12",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        10,
+        11,
+        12
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        90,
+        99
+      ],
+      "questions_lines": [
+        90,
+        118
+      ],
+      "answer_lines": [
+        334,
+        336
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出最符",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U13-15",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        13,
+        14,
+        15
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        120,
+        128
+      ],
+      "questions_lines": [
+        120,
+        142
+      ],
+      "answer_lines": [
+        336,
+        336
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出最符",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U16-17",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        16,
+        17
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        146,
+        163
+      ],
+      "questions_lines": [
+        146,
+        192
+      ],
+      "answer_lines": [
+        338,
+        338
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出最符",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U18-20",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        18,
+        19,
+        20
+      ],
+      "original_question_type": "single_choice",
+      "material_lines": [
+        195,
+        205
+      ],
+      "questions_lines": [
+        195,
+        219
+      ],
+      "answer_lines": [
+        338,
+        338
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出最符",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q21",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        21
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        225,
+        230
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        344,
+        344
+      ],
+      "explanation_lines": null,
+      "section_ref": "S5",
+      "section": "二、 填空题共3小题，每小题4分，共12分。",
+      "printed_number": [
+        21
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L225"
+    },
+    {
+      "unit_id": "Q22",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        22
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        233,
+        238
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        346,
+        346
+      ],
+      "explanation_lines": null,
+      "section_ref": "S5",
+      "section": "二、 填空题共3小题，每小题4分，共12分。",
+      "printed_number": [
+        22
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L233"
+    },
+    {
+      "unit_id": "Q23",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        23
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        243,
+        251
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        348,
+        348
+      ],
+      "explanation_lines": null,
+      "section_ref": "S5",
+      "section": "二、 填空题共3小题，每小题4分，共12分。",
+      "printed_number": [
+        23
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L243"
+    },
+    {
+      "unit_id": "Q24",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        24
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        258,
+        267
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        352,
+        360
+      ],
+      "explanation_lines": null,
+      "section_ref": "S6",
+      "section": "三、 计算论证题共5小题，第24题、第25题各5分，第26题、第27题、第28题",
+      "printed_number": [
+        24
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L258"
+    },
+    {
+      "unit_id": "Q25",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        25
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        272,
+        281
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        362,
+        368
+      ],
+      "explanation_lines": null,
+      "section_ref": "S6",
+      "section": "三、 计算论证题共5小题，第24题、第25题各5分，第26题、第27题、第28题",
+      "printed_number": [
+        25
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L272"
+    },
+    {
+      "unit_id": "Q26",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        26
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        284,
+        293
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        372,
+        380
+      ],
+      "explanation_lines": null,
+      "section_ref": "S6",
+      "section": "三、 计算论证题共5小题，第24题、第25题各5分，第26题、第27题、第28题",
+      "printed_number": [
+        26
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L284"
+    },
+    {
+      "unit_id": "Q27",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        27
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        296,
+        305
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        382,
+        390
+      ],
+      "explanation_lines": null,
+      "section_ref": "S6",
+      "section": "三、 计算论证题共5小题，第24题、第25题各5分，第26题、第27题、第28题",
+      "printed_number": [
+        27
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L296"
+    },
+    {
+      "unit_id": "Q28",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        28
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        310,
+        321
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        392,
+        416
+      ],
+      "explanation_lines": null,
+      "section_ref": "S6",
+      "section": "三、 计算论证题共5小题，第24题、第25题各5分，第26题、第27题、第28题",
+      "printed_number": [
+        28
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L310"
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2021 北京高中合格考物理",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "（第二次）",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 7,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "第一部分（选择题共60分）",
+      "ordinal": 3,
+      "start_line": 8,
+      "end_line": 9,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "一、 选择题共20小题，每小题3分，共60分。在每小题列出的四个选项中，选出最符",
+      "ordinal": 4,
+      "start_line": 10,
+      "end_line": 220,
+      "occurrence": 1
+    },
+    {
+      "id": "S4",
+      "title": "第二部分（非选择题共40分）",
+      "ordinal": 5,
+      "start_line": 221,
+      "end_line": 222,
+      "occurrence": 1
+    },
+    {
+      "id": "S5",
+      "title": "二、 填空题共3小题，每小题4分，共12分。",
+      "ordinal": 6,
+      "start_line": 223,
+      "end_line": 253,
+      "occurrence": 1
+    },
+    {
+      "id": "S6",
+      "title": "三、 计算论证题共5小题，第24题、第25题各5分，第26题、第27题、第28题",
+      "ordinal": 7,
+      "start_line": 254,
+      "end_line": 327,
+      "occurrence": 1
+    },
+    {
+      "id": "S7",
+      "title": "第一部分（选择题共60分）",
+      "ordinal": 8,
+      "start_line": 328,
+      "end_line": 329,
+      "occurrence": 2
+    },
+    {
+      "id": "S8",
+      "title": "一、 选择题共20小题，每小题3分，共60分。",
+      "ordinal": 9,
+      "start_line": 330,
+      "end_line": 339,
+      "occurrence": 1
+    },
+    {
+      "id": "S9",
+      "title": "第二部分（非选择题 共40分）",
+      "ordinal": 10,
+      "start_line": 340,
+      "end_line": 341,
+      "occurrence": 1
+    },
+    {
+      "id": "S10",
+      "title": "二、 填空题共3小题，每小题4分，共12分。",
+      "ordinal": 11,
+      "start_line": 342,
+      "end_line": 349,
+      "occurrence": 2
+    },
+    {
+      "id": "S11",
+      "title": "三、 计算论证题共5小题，共28分。",
+      "ordinal": 12,
+      "start_line": 350,
+      "end_line": 416,
+      "occurrence": 1
+    }
+  ],
+  "source_content_sha256": "c2a720306b1cb253651be98e1aef9efc60d800920ff5bbe84432854ea58ec6c6"
+}

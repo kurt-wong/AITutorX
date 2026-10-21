@@ -1,0 +1,53 @@
+{
+  "per_paper": {
+    "化学": {
+      "gate_pending_review": 1,
+      "  kind:ANSWER_GRAMMAR:not_expressible": 1
+    },
+    "历史": {
+      "gate_pending_review": 49,
+      "  kind:SPAN:resolution_not_exact_normalized": 49,
+      "  kind:PROVENANCE:role_region_overlap": 49,
+      "gate_rejected": 3
+    },
+    "地理": {
+      "gate_pending_review": 23,
+      "  kind:SPAN:resolution_not_exact_normalized": 23,
+      "  kind:PROVENANCE:role_region_overlap": 23,
+      "gate_rejected": 2,
+      "  kind:QUESTION_TYPE:not_strict_auto": 5
+    },
+    "政治": {
+      "gate_pending_review": 9,
+      "  kind:QUESTION_TYPE:not_strict_auto": 9
+    },
+    "数学": {
+      "gate_pending_review": 30,
+      "  kind:ANSWER_GRAMMAR:not_expressible": 25,
+      "  kind:QUESTION_TYPE:not_strict_auto": 5
+    },
+    "物理": {
+      "gate_pending_review": 8,
+      "  kind:QUESTION_TYPE:not_strict_auto": 8
+    },
+    "生物": {},
+    "英语": {
+      "gate_pending_review": 14,
+      "  kind:ANSWER_GRAMMAR:not_expressible": 8,
+      "  kind:QUESTION_TYPE:not_strict_auto": 6
+    },
+    "语文": {
+      "gate_pending_review": 10,
+      "  kind:QUESTION_TYPE:not_strict_auto": 8,
+      "  kind:ANSWER_GRAMMAR:not_expressible": 2
+    }
+  },
+  "global": {
+    "gate_pending_review": 144,
+    "  kind:ANSWER_GRAMMAR:not_expressible": 36,
+    "  kind:SPAN:resolution_not_exact_normalized": 72,
+    "  kind:PROVENANCE:role_region_overlap": 72,
+    "gate_rejected": 5,
+    "  kind:QUESTION_TYPE:not_strict_auto": 41
+  }
+}

@@ -1,0 +1,613 @@
+{
+  "cut": "third-cut semantic RCA (corrected object set)",
+  "object_set_rule": "14 = 20 MATERIAL_OVERLAP_REJECTED − 6 second-cut targets (B_MARKER_RELOCATION_DRIFT)",
+  "fourteen_unit_ids": [
+    "U52",
+    "U53",
+    "Q37",
+    "Q3",
+    "Q9-11",
+    "Q12-14",
+    "Q15-17",
+    "Q21-25",
+    "U49-52",
+    "U53-56",
+    "U57-60",
+    "U10-13",
+    "U14",
+    "U15"
+  ],
+  "control_samples": {
+    "rule": "3 resolved vs 3 unresolved after 2nd-cut marker change — contrast why some prove occurrence and some must refuse",
+    "units": [
+      {
+        "unit_id": "Q2",
+        "group": "2nd_cut_resolved",
+        "old_endpoint_inflation": 122.8,
+        "old_resolved_n": 491,
+        "new_resolved_n": 6,
+        "new_inflation": 1.5,
+        "markers_attached": null,
+        "why": "unique delimiter text found outside inclusive range; local span 1.2–1.5×"
+      },
+      {
+        "unit_id": "Q7-8",
+        "group": "2nd_cut_resolved",
+        "old_endpoint_inflation": 60.8,
+        "old_resolved_n": 486,
+        "new_resolved_n": 10,
+        "new_inflation": 1.25,
+        "markers_attached": null,
+        "why": "unique delimiter text found outside inclusive range; local span 1.2–1.5×"
+      },
+      {
+        "unit_id": "Q18-20",
+        "group": "2nd_cut_resolved",
+        "old_endpoint_inflation": 94.4,
+        "old_resolved_n": 472,
+        "new_resolved_n": 7,
+        "new_inflation": 1.4,
+        "markers_attached": null,
+        "why": "unique delimiter text found outside inclusive range; local span 1.2–1.5×"
+      },
+      {
+        "unit_id": "Q1",
+        "group": "2nd_cut_unresolved",
+        "old_endpoint_inflation": 82.0,
+        "old_resolved_n": 492,
+        "new_resolved_n": 0,
+        "new_inflation": null,
+        "markers_attached": null,
+        "why": "no unique delimiter within padding budget → refuse markers → unresolved (宁缺勿爆)"
+      },
+      {
+        "unit_id": "Q4",
+        "group": "2nd_cut_unresolved",
+        "old_endpoint_inflation": 98.0,
+        "old_resolved_n": 490,
+        "new_resolved_n": 0,
+        "new_inflation": null,
+        "markers_attached": null,
+        "why": "no unique delimiter within padding budget → refuse markers → unresolved (宁缺勿爆)"
+      },
+      {
+        "unit_id": "Q5-6",
+        "group": "2nd_cut_unresolved",
+        "old_endpoint_inflation": 81.2,
+        "old_resolved_n": 487,
+        "new_resolved_n": 0,
+        "new_inflation": null,
+        "markers_attached": null,
+        "why": "no unique delimiter within padding budget → refuse markers → unresolved (宁缺勿爆)"
+      }
+    ]
+  },
+  "production_code_modified": false,
+  "overlap_invariant_modified": false,
+  "units": [
+    {
+      "unit_id": "U52",
+      "document": null,
+      "declared_material": {
+        "start": 569,
+        "end": 592,
+        "semantics": "inclusive"
+      },
+      "questions_region": {
+        "start": 569,
+        "end": 592,
+        "semantics": "inclusive"
+      },
+      "material_question_relation": "SAME_REGION",
+      "historical_resolved_n": 22,
+      "historical_overlap_kinds": {
+        "OWN_STEM": 1
+      },
+      "historical_evidence": [
+        "overlaps stem span sp-U52.sub.stem (P1L569..P1L593)",
+        "material overlap → unresolved"
+      ],
+      "material_belongs_to_unit": "YES (composite reading material)",
+      "overlap_target": "OWN_STEM",
+      "overlap_real_in_source": "YES — sub.stem covers the material body (same region)",
+      "overlap_type": "boundary_inclusion (stem enters material)",
+      "producer_can_express_shared_material": "N/A",
+      "resolver_wrong_span": "YES — stem region includes material content",
+      "decomposition_issue": "YES — single sub + stem heuristic covers whole region",
+      "material_ownership_issue": "NO",
+      "needs_frozen_spec": "NO",
+      "recommended_action": "fix code — composite sub.stem must exclude material body"
+    },
+    {
+      "unit_id": "U53",
+      "document": null,
+      "declared_material": {
+        "start": 594,
+        "end": 627,
+        "semantics": "inclusive"
+      },
+      "questions_region": {
+        "start": 594,
+        "end": 627,
+        "semantics": "inclusive"
+      },
+      "material_question_relation": "SAME_REGION",
+      "historical_resolved_n": 32,
+      "historical_overlap_kinds": {
+        "OWN_STEM": 1
+      },
+      "historical_evidence": [
+        "overlaps stem span sp-U53.sub.stem (P1L594..P1L630)",
+        "material overlap → unresolved"
+      ],
+      "material_belongs_to_unit": "YES (composite reading material)",
+      "overlap_target": "OWN_STEM",
+      "overlap_real_in_source": "YES — sub.stem covers the material body (same region)",
+      "overlap_type": "boundary_inclusion (stem enters material)",
+      "producer_can_express_shared_material": "N/A",
+      "resolver_wrong_span": "YES — stem region includes material content",
+      "decomposition_issue": "YES — single sub + stem heuristic covers whole region",
+      "material_ownership_issue": "NO",
+      "needs_frozen_spec": "NO",
+      "recommended_action": "fix code — composite sub.stem must exclude material body"
+    },
+    {
+      "unit_id": "Q37",
+      "document": "2018北京夏季高中会考政治（教师版）(1).md",
+      "declared_material": {
+        "start": 472,
+        "end": 496,
+        "semantics": "inclusive"
+      },
+      "questions_region": {
+        "start": 472,
+        "end": 541,
+        "semantics": "inclusive"
+      },
+      "material_question_relation": "PARTIAL_REGION_OVERLAP",
+      "historical_resolved_n": 23,
+      "historical_overlap_kinds": {
+        "OTHER_UNIT_STEM": 1
+      },
+      "historical_evidence": [
+        "overlaps stem span sp-Q36.stem (P1L448..P1L544)",
+        "material overlap → unresolved"
+      ],
+      "material_belongs_to_unit": "YES (改革开放材料)",
+      "overlap_target": "OTHER_UNIT_STEM (Q36.stem)",
+      "overlap_real_in_source": "YES — Q36.stem 448-544 covers Q37 material 472-496",
+      "overlap_type": "boundary_inclusion (neighbor stem too wide)",
+      "producer_can_express_shared_material": "N/A",
+      "resolver_wrong_span": "YES — Q36.stem spans into Q37 material",
+      "decomposition_issue": "YES — stem region end boundary",
+      "material_ownership_issue": "NO",
+      "needs_frozen_spec": "NO",
+      "recommended_action": "fix code — stem region stops at next question/material"
+    },
+    {
+      "unit_id": "Q3",
+      "document": "2018北京春季高中会考英语（教师版）(1).md",
+      "declared_material": {
+        "start": 509,
+        "end": 514,
+        "semantics": "inclusive"
+      },
+      "questions_region": {
+        "start": 25,
+        "end": 27,
+        "semantics": "inclusive"
+      },
+      "material_question_relation": "DIFFERENT_REGION",
+      "historical_resolved_n": 4,
+      "historical_overlap_kinds": {
+        "MATERIAL": 4
+      },
+      "historical_evidence": [
+        "overlaps material sp-Q4.material",
+        "overlaps material sp-Q5-6.material",
+        "overlaps material sp-Q7-8.material",
+        "overlaps material sp-Q18-20.material",
+        "material overlap → unresolved"
+      ],
+      "material_belongs_to_unit": "YES (listening script in appendix is the material)",
+      "overlap_target": "MATERIAL / ANSWER (sibling scripts or answer table)",
+      "overlap_real_in_source": "YES in appendix — scripts sit next to each other; answer table nearby",
+      "overlap_type": "substantive_shared_or_adjacent (appendix cluster)",
+      "producer_can_express_shared_material": "YES (one script serves a question group; adjacent scripts)",
+      "resolver_wrong_span": "POSSIBLE (duplicate header text body vs appendix)",
+      "decomposition_issue": "NO",
+      "material_ownership_issue": "YES — appendix scripts/answers compete for lines",
+      "needs_frozen_spec": "MAYBE (shared listening material ownership)",
+      "recommended_action": "semantic decision — shared listening material ownership; pending_review until decided"
+    },
+    {
+      "unit_id": "Q9-11",
+      "document": "2018北京春季高中会考英语（教师版）(1).md",
+      "declared_material": {
+        "start": 538,
+        "end": 541,
+        "semantics": "inclusive"
+      },
+      "questions_region": {
+        "start": 59,
+        "end": 71,
+        "semantics": "inclusive"
+      },
+      "material_question_relation": "DIFFERENT_REGION",
+      "historical_resolved_n": 2,
+      "historical_overlap_kinds": {
+        "MATERIAL": 1
+      },
+      "historical_evidence": [
+        "overlaps material sp-Q18-20.material",
+        "material overlap → unresolved"
+      ],
+      "material_belongs_to_unit": "YES (listening script in appendix is the material)",
+      "overlap_target": "MATERIAL / ANSWER (sibling scripts or answer table)",
+      "overlap_real_in_source": "YES in appendix — scripts sit next to each other; answer table nearby",
+      "overlap_type": "substantive_shared_or_adjacent (appendix cluster)",
+      "producer_can_express_shared_material": "YES (one script serves a question group; adjacent scripts)",
+      "resolver_wrong_span": "POSSIBLE (duplicate header text body vs appendix)",
+      "decomposition_issue": "NO",
+      "material_ownership_issue": "YES — appendix scripts/answers compete for lines",
+      "needs_frozen_spec": "MAYBE (shared listening material ownership)",
+      "recommended_action": "semantic decision — shared listening material ownership; pending_review until decided"
+    },
+    {
+      "unit_id": "Q12-14",
+      "document": "2018北京春季高中会考英语（教师版）(1).md",
+      "declared_material": {
+        "start": 543,
+        "end": 561,
+        "semantics": "inclusive"
+      },
+      "questions_region": {
+        "start": 73,
+        "end": 91,
+        "semantics": "inclusive"
+      },
+      "material_question_relation": "DIFFERENT_REGION",
+      "historical_resolved_n": 17,
+      "historical_overlap_kinds": {
+        "MATERIAL": 1
+      },
+      "historical_evidence": [
+        "overlaps material sp-Q18-20.material",
+        "material overlap → unresolved"
+      ],
+      "material_belongs_to_unit": "YES (listening script in appendix is the material)",
+      "overlap_target": "MATERIAL / ANSWER (sibling scripts or answer table)",
+      "overlap_real_in_source": "YES in appendix — scripts sit next to each other; answer table nearby",
+      "overlap_type": "substantive_shared_or_adjacent (appendix cluster)",
+      "producer_can_express_shared_material": "YES (one script serves a question group; adjacent scripts)",
+      "resolver_wrong_span": "POSSIBLE (duplicate header text body vs appendix)",
+      "decomposition_issue": "NO",
+      "material_ownership_issue": "YES — appendix scripts/answers compete for lines",
+      "needs_frozen_spec": "MAYBE (shared listening material ownership)",
+      "recommended_action": "semantic decision — shared listening material ownership; pending_review until decided"
+    },
+    {
+      "unit_id": "Q15-17",
+      "document": "2018北京春季高中会考英语（教师版）(1).md",
+      "declared_material": {
+        "start": 563,
+        "end": 578,
+        "semantics": "inclusive"
+      },
+      "questions_region": {
+        "start": 93,
+        "end": 109,
+        "semantics": "inclusive"
+      },
+      "material_question_relation": "DIFFERENT_REGION",
+      "historical_resolved_n": 14,
+      "historical_overlap_kinds": {
+        "ANSWER": 2,
+        "MATERIAL": 1
+      },
+      "historical_evidence": [
+        "overlaps answer span sp-Q3.sub.answer (P1L577..P1L577)",
+        "overlaps answer span sp-Q4.sub.answer (P1L576..P1L576)",
+        "overlaps material sp-Q18-20.material",
+        "material overlap → unresolved"
+      ],
+      "material_belongs_to_unit": "YES (listening script in appendix is the material)",
+      "overlap_target": "MATERIAL / ANSWER (sibling scripts or answer table)",
+      "overlap_real_in_source": "YES in appendix — scripts sit next to each other; answer table nearby",
+      "overlap_type": "substantive_shared_or_adjacent (appendix cluster)",
+      "producer_can_express_shared_material": "YES (one script serves a question group; adjacent scripts)",
+      "resolver_wrong_span": "POSSIBLE (duplicate header text body vs appendix)",
+      "decomposition_issue": "NO",
+      "material_ownership_issue": "YES — appendix scripts/answers compete for lines",
+      "needs_frozen_spec": "MAYBE (shared listening material ownership)",
+      "recommended_action": "semantic decision — shared listening material ownership; pending_review until decided"
+    },
+    {
+      "unit_id": "Q21-25",
+      "document": "2018北京春季高中会考英语（教师版）(1).md",
+      "declared_material": {
+        "start": 586,
+        "end": 610,
+        "semantics": "inclusive"
+      },
+      "questions_region": {
+        "start": 129,
+        "end": 132,
+        "semantics": "inclusive"
+      },
+      "material_question_relation": "DIFFERENT_REGION",
+      "historical_resolved_n": 23,
+      "historical_overlap_kinds": {
+        "ANSWER": 1
+      },
+      "historical_evidence": [
+        "overlaps answer span sp-Q12-14.sub.answer (P1L593..P1L593)",
+        "material overlap → unresolved"
+      ],
+      "material_belongs_to_unit": "YES (listening script in appendix is the material)",
+      "overlap_target": "MATERIAL / ANSWER (sibling scripts or answer table)",
+      "overlap_real_in_source": "YES in appendix — scripts sit next to each other; answer table nearby",
+      "overlap_type": "substantive_shared_or_adjacent (appendix cluster)",
+      "producer_can_express_shared_material": "YES (one script serves a question group; adjacent scripts)",
+      "resolver_wrong_span": "POSSIBLE (duplicate header text body vs appendix)",
+      "decomposition_issue": "NO",
+      "material_ownership_issue": "YES — appendix scripts/answers compete for lines",
+      "needs_frozen_spec": "MAYBE (shared listening material ownership)",
+      "recommended_action": "semantic decision — shared listening material ownership; pending_review until decided"
+    },
+    {
+      "unit_id": "U49-52",
+      "document": "2018北京春季高中会考英语（教师版）(1).md",
+      "declared_material": {
+        "start": 298,
+        "end": 315,
+        "semantics": "inclusive"
+      },
+      "questions_region": {
+        "start": 298,
+        "end": 339,
+        "semantics": "inclusive"
+      },
+      "material_question_relation": "PARTIAL_REGION_OVERLAP",
+      "historical_resolved_n": 16,
+      "historical_overlap_kinds": {
+        "MATERIAL": 6
+      },
+      "historical_evidence": [
+        "overlaps material sp-Q1.material",
+        "overlaps material sp-Q2.material",
+        "overlaps material sp-Q4.material",
+        "overlaps material sp-Q5-6.material",
+        "overlaps material sp-Q7-8.material",
+        "overlaps material sp-Q18-20.material"
+      ],
+      "material_belongs_to_unit": "YES (reading passage for the group)",
+      "overlap_target": "MATERIAL (sibling passage)",
+      "overlap_real_in_source": "YES if adjacent passages share boundary lines",
+      "overlap_type": "boundary_inclusion vs substantive (adjacent passages)",
+      "producer_can_express_shared_material": "UNCERTAIN",
+      "resolver_wrong_span": "NO (local span)",
+      "decomposition_issue": "NO",
+      "material_ownership_issue": "YES — adjacent passage boundaries",
+      "needs_frozen_spec": "NO",
+      "recommended_action": "check Producer passage ranges; fix Producer or allow adjacent"
+    },
+    {
+      "unit_id": "U53-56",
+      "document": "2018北京春季高中会考英语（教师版）(1).md",
+      "declared_material": {
+        "start": 341,
+        "end": 361,
+        "semantics": "inclusive"
+      },
+      "questions_region": {
+        "start": 341,
+        "end": 397,
+        "semantics": "inclusive"
+      },
+      "material_question_relation": "PARTIAL_REGION_OVERLAP",
+      "historical_resolved_n": 19,
+      "historical_overlap_kinds": {
+        "MATERIAL": 6
+      },
+      "historical_evidence": [
+        "overlaps material sp-Q1.material",
+        "overlaps material sp-Q2.material",
+        "overlaps material sp-Q4.material",
+        "overlaps material sp-Q5-6.material",
+        "overlaps material sp-Q7-8.material",
+        "overlaps material sp-Q18-20.material"
+      ],
+      "material_belongs_to_unit": "YES (reading passage for the group)",
+      "overlap_target": "MATERIAL (sibling passage)",
+      "overlap_real_in_source": "YES if adjacent passages share boundary lines",
+      "overlap_type": "boundary_inclusion vs substantive (adjacent passages)",
+      "producer_can_express_shared_material": "UNCERTAIN",
+      "resolver_wrong_span": "NO (local span)",
+      "decomposition_issue": "NO",
+      "material_ownership_issue": "YES — adjacent passage boundaries",
+      "needs_frozen_spec": "NO",
+      "recommended_action": "check Producer passage ranges; fix Producer or allow adjacent"
+    },
+    {
+      "unit_id": "U57-60",
+      "document": "2018北京春季高中会考英语（教师版）(1).md",
+      "declared_material": {
+        "start": 401,
+        "end": 407,
+        "semantics": "inclusive"
+      },
+      "questions_region": {
+        "start": 401,
+        "end": 417,
+        "semantics": "inclusive"
+      },
+      "material_question_relation": "PARTIAL_REGION_OVERLAP",
+      "historical_resolved_n": 5,
+      "historical_overlap_kinds": {
+        "MATERIAL": 6
+      },
+      "historical_evidence": [
+        "overlaps material sp-Q1.material",
+        "overlaps material sp-Q2.material",
+        "overlaps material sp-Q4.material",
+        "overlaps material sp-Q5-6.material",
+        "overlaps material sp-Q7-8.material",
+        "overlaps material sp-Q18-20.material"
+      ],
+      "material_belongs_to_unit": "YES (reading passage for the group)",
+      "overlap_target": "MATERIAL (sibling passage)",
+      "overlap_real_in_source": "YES if adjacent passages share boundary lines",
+      "overlap_type": "boundary_inclusion vs substantive (adjacent passages)",
+      "producer_can_express_shared_material": "UNCERTAIN",
+      "resolver_wrong_span": "NO (local span)",
+      "decomposition_issue": "NO",
+      "material_ownership_issue": "YES — adjacent passage boundaries",
+      "needs_frozen_spec": "NO",
+      "recommended_action": "check Producer passage ranges; fix Producer or allow adjacent"
+    },
+    {
+      "unit_id": "U10-13",
+      "document": "2018北京春季高中会考语文（教师版）(1).md",
+      "declared_material": {
+        "start": 80,
+        "end": 188,
+        "semantics": "inclusive"
+      },
+      "questions_region": {
+        "start": 80,
+        "end": 234,
+        "semantics": "inclusive"
+      },
+      "material_question_relation": "PARTIAL_REGION_OVERLAP",
+      "historical_resolved_n": 107,
+      "historical_overlap_kinds": {
+        "OTHER_UNIT_STEM": 1
+      },
+      "historical_evidence": [
+        "overlaps stem span sp-Q9.stem (P1L076..P1L189)",
+        "material overlap → unresolved"
+      ],
+      "material_belongs_to_unit": "YES (《边城》选文)",
+      "overlap_target": "OTHER_UNIT_STEM (Q9.stem 76-189)",
+      "overlap_real_in_source": "YES — Q9.stem covers the passage",
+      "overlap_type": "boundary_inclusion (stem too wide)",
+      "producer_can_express_shared_material": "N/A",
+      "resolver_wrong_span": "YES",
+      "decomposition_issue": "YES — stem/material region split",
+      "material_ownership_issue": "NO",
+      "needs_frozen_spec": "NO",
+      "recommended_action": "fix code — stem stops at material/questions split"
+    },
+    {
+      "unit_id": "U14",
+      "document": "2018北京春季高中会考语文（教师版）(1).md",
+      "declared_material": {
+        "start": 246,
+        "end": 260,
+        "semantics": "inclusive"
+      },
+      "questions_region": {
+        "start": 244,
+        "end": 282,
+        "semantics": "inclusive"
+      },
+      "material_question_relation": "PARTIAL_REGION_OVERLAP",
+      "historical_resolved_n": 13,
+      "historical_overlap_kinds": {
+        "OWN_STEM": 1
+      },
+      "historical_evidence": [
+        "overlaps stem span sp-U14.sub.stem (P1L244..P1L285)",
+        "material overlap → unresolved"
+      ],
+      "material_belongs_to_unit": "YES (reading article)",
+      "overlap_target": "OWN_STEM",
+      "overlap_real_in_source": "YES — sub.stem covers article+questions",
+      "overlap_type": "boundary_inclusion",
+      "producer_can_express_shared_material": "N/A",
+      "resolver_wrong_span": "YES",
+      "decomposition_issue": "YES — _SUB_DECOMPOSITION + stem span",
+      "material_ownership_issue": "NO",
+      "needs_frozen_spec": "NO",
+      "recommended_action": "fix code — composite sub.stem excludes material body"
+    },
+    {
+      "unit_id": "U15",
+      "document": "2018北京春季高中会考语文（教师版）(1).md",
+      "declared_material": {
+        "start": 288,
+        "end": 308,
+        "semantics": "inclusive"
+      },
+      "questions_region": {
+        "start": 286,
+        "end": 324,
+        "semantics": "inclusive"
+      },
+      "material_question_relation": "PARTIAL_REGION_OVERLAP",
+      "historical_resolved_n": 19,
+      "historical_overlap_kinds": {
+        "OWN_STEM": 1
+      },
+      "historical_evidence": [
+        "overlaps stem span sp-U15.sub.stem (P1L286..P1L329)",
+        "material overlap → unresolved"
+      ],
+      "material_belongs_to_unit": "YES (reading article)",
+      "overlap_target": "OWN_STEM",
+      "overlap_real_in_source": "YES — sub.stem covers article+questions",
+      "overlap_type": "boundary_inclusion",
+      "producer_can_express_shared_material": "N/A",
+      "resolver_wrong_span": "YES",
+      "decomposition_issue": "YES — _SUB_DECOMPOSITION + stem span",
+      "material_ownership_issue": "NO",
+      "needs_frozen_spec": "NO",
+      "recommended_action": "fix code — composite sub.stem excludes material body"
+    }
+  ],
+  "summary": {
+    "count": 14,
+    "by_overlap_type": {
+      "boundary_inclusion (stem enters material)": 2,
+      "boundary_inclusion (neighbor stem too wide)": 1,
+      "substantive_shared_or_adjacent (appendix cluster)": 5,
+      "boundary_inclusion vs substantive (adjacent passages)": 3,
+      "boundary_inclusion (stem too wide)": 1,
+      "boundary_inclusion": 2
+    },
+    "code_bug_candidates": [
+      "U52",
+      "U53",
+      "Q37",
+      "U10-13",
+      "U14",
+      "U15"
+    ],
+    "semantic_decision_needed": [
+      "Q3",
+      "Q9-11",
+      "Q12-14",
+      "Q15-17",
+      "Q21-25"
+    ],
+    "producer_boundary_check": [
+      "U49-52",
+      "U53-56",
+      "U57-60"
+    ]
+  },
+  "audit_note_truncate": {
+    "event": "TRUNCATE ... CASCADE on all business tables (alembic_version preserved)",
+    "when": "between first-cut and second-cut verification, and again before final test run",
+    "impact": "historical DB state (9 docs / 35-41 candidates / llm_call_audit=1213) is no longer re-queryable from current DB",
+    "reports_still_valid_as": "historical observation records",
+    "must_not_claim": "current DB proves those historical counts",
+    "blocks_cut3_semantic_work": false
+  },
+  "object_set_correction": {
+    "wrong": "12 (2+6+12 double-count)",
+    "correct": "14 = 20 − 6 second-cut targets",
+    "note": "U52/U53 (same-region) and Q3/Q9-11/Q12-14/Q15-17/Q21-25 (cross-object) are INSIDE the 14; they are not a separate 2+5 outside the set"
+  }
+}

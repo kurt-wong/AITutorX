@@ -1,0 +1,1153 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-pac-annotated\\reslice-pac\\ocr\\pac-c06-02.md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.3",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "section": "(本部分共16小题，每小题3分，共48分。在每小题所列出的四个选项中，选出最符合",
+      "printed_number": null,
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        11,
+        11
+      ],
+      "options_lines": [
+        13,
+        19
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        289,
+        289
+      ],
+      "explanation_lines": [
+        291,
+        301
+      ],
+      "section_ref": "S3",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 13,
+          "end_line": 13
+        },
+        {
+          "label": "B",
+          "start_line": 15,
+          "end_line": 15
+        },
+        {
+          "label": "C",
+          "start_line": 17,
+          "end_line": 17
+        },
+        {
+          "label": "D",
+          "start_line": 19,
+          "end_line": 19
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "section": "(本部分共16小题，每小题3分，共48分。在每小题所列出的四个选项中，选出最符合",
+      "printed_number": [
+        2
+      ],
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        21,
+        21
+      ],
+      "options_lines": [
+        23,
+        23
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        303,
+        303
+      ],
+      "explanation_lines": [
+        305,
+        315
+      ],
+      "section_ref": "S3",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L21",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 23,
+          "end_line": 23
+        },
+        {
+          "label": "B",
+          "start_line": 23,
+          "end_line": 23
+        },
+        {
+          "label": "C",
+          "start_line": 23,
+          "end_line": 23
+        },
+        {
+          "label": "D",
+          "start_line": 23,
+          "end_line": 23
+        }
+      ]
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "section": "(本部分共16小题，每小题3分，共48分。在每小题所列出的四个选项中，选出最符合",
+      "printed_number": [
+        3
+      ],
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        25,
+        25
+      ],
+      "options_lines": [
+        27,
+        33
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        317,
+        327
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L25",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 27,
+          "end_line": 27
+        },
+        {
+          "label": "B",
+          "start_line": 29,
+          "end_line": 29
+        },
+        {
+          "label": "C",
+          "start_line": 31,
+          "end_line": 31
+        },
+        {
+          "label": "D",
+          "start_line": 33,
+          "end_line": 33
+        }
+      ]
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_question",
+      "section": "(本部分共16小题，每小题3分，共48分。在每小题所列出的四个选项中，选出最符合",
+      "printed_number": [
+        4
+      ],
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        35,
+        35
+      ],
+      "options_lines": [
+        37,
+        43
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        329,
+        329
+      ],
+      "explanation_lines": [
+        331,
+        341
+      ],
+      "section_ref": "S3",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L35",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 37,
+          "end_line": 37
+        },
+        {
+          "label": "B",
+          "start_line": 39,
+          "end_line": 39
+        },
+        {
+          "label": "C",
+          "start_line": 41,
+          "end_line": 41
+        },
+        {
+          "label": "D",
+          "start_line": 43,
+          "end_line": 43
+        }
+      ]
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "standalone_question",
+      "section": "(本部分共16小题，每小题3分，共48分。在每小题所列出的四个选项中，选出最符合",
+      "printed_number": [
+        5
+      ],
+      "question_numbers": [
+        5
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        45,
+        45
+      ],
+      "options_lines": [
+        47,
+        47
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        343,
+        343
+      ],
+      "explanation_lines": [
+        345,
+        347
+      ],
+      "section_ref": "S3",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L45",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 47,
+          "end_line": 47
+        },
+        {
+          "label": "B",
+          "start_line": 47,
+          "end_line": 47
+        },
+        {
+          "label": "C",
+          "start_line": 47,
+          "end_line": 47
+        },
+        {
+          "label": "D",
+          "start_line": 47,
+          "end_line": 47
+        }
+      ]
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "standalone_question",
+      "section": "(本部分共16小题，每小题3分，共48分。在每小题所列出的四个选项中，选出最符合",
+      "printed_number": [
+        6
+      ],
+      "question_numbers": [
+        6
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        49,
+        49
+      ],
+      "options_lines": [
+        51,
+        53
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        349,
+        349
+      ],
+      "explanation_lines": [
+        351,
+        357
+      ],
+      "section_ref": "S3",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L49",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 51,
+          "end_line": 51
+        },
+        {
+          "label": "B",
+          "start_line": 51,
+          "end_line": 51
+        },
+        {
+          "label": "C",
+          "start_line": 53,
+          "end_line": 53
+        },
+        {
+          "label": "D",
+          "start_line": 53,
+          "end_line": 53
+        }
+      ]
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "standalone_question",
+      "section": "(本部分共16小题，每小题3分，共48分。在每小题所列出的四个选项中，选出最符合",
+      "printed_number": [
+        7
+      ],
+      "question_numbers": [
+        7
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        55,
+        55
+      ],
+      "options_lines": [
+        59,
+        65
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        359,
+        359
+      ],
+      "explanation_lines": [
+        361,
+        371
+      ],
+      "section_ref": "S3",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L55",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 59,
+          "end_line": 59
+        },
+        {
+          "label": "B",
+          "start_line": 61,
+          "end_line": 61
+        },
+        {
+          "label": "C",
+          "start_line": 63,
+          "end_line": 63
+        },
+        {
+          "label": "D",
+          "start_line": 65,
+          "end_line": 65
+        }
+      ]
+    },
+    {
+      "unit_id": "Q8",
+      "unit_type": "standalone_question",
+      "section": "(本部分共16小题，每小题3分，共48分。在每小题所列出的四个选项中，选出最符合",
+      "printed_number": null,
+      "question_numbers": [
+        8
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        67,
+        70
+      ],
+      "options_lines": [
+        72,
+        78
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        373,
+        373
+      ],
+      "explanation_lines": [
+        375,
+        383
+      ],
+      "section_ref": "S3",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 72,
+          "end_line": 72
+        },
+        {
+          "label": "B",
+          "start_line": 74,
+          "end_line": 74
+        },
+        {
+          "label": "C",
+          "start_line": 76,
+          "end_line": 76
+        },
+        {
+          "label": "D",
+          "start_line": 78,
+          "end_line": 78
+        }
+      ]
+    },
+    {
+      "unit_id": "Q9",
+      "unit_type": "standalone_question",
+      "section": "(本部分共16小题，每小题3分，共48分。在每小题所列出的四个选项中，选出最符合",
+      "printed_number": [
+        9
+      ],
+      "question_numbers": [
+        9
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        80,
+        80
+      ],
+      "options_lines": [
+        82,
+        84
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        385,
+        385
+      ],
+      "explanation_lines": [
+        389,
+        391
+      ],
+      "section_ref": "S3",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L80",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 82,
+          "end_line": 82
+        },
+        {
+          "label": "B",
+          "start_line": 82,
+          "end_line": 82
+        },
+        {
+          "label": "C",
+          "start_line": 84,
+          "end_line": 84
+        },
+        {
+          "label": "D",
+          "start_line": 84,
+          "end_line": 84
+        }
+      ]
+    },
+    {
+      "unit_id": "Q10",
+      "unit_type": "standalone_question",
+      "section": "(本部分共16小题，每小题3分，共48分。在每小题所列出的四个选项中，选出最符合",
+      "printed_number": null,
+      "question_numbers": [
+        10
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        86,
+        88
+      ],
+      "options_lines": [
+        91,
+        97
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        393,
+        393
+      ],
+      "explanation_lines": [
+        395,
+        407
+      ],
+      "section_ref": "S3",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": "",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 91,
+          "end_line": 91
+        },
+        {
+          "label": "D",
+          "start_line": 91,
+          "end_line": 91
+        },
+        {
+          "label": "B",
+          "start_line": 93,
+          "end_line": 93
+        },
+        {
+          "label": "C",
+          "start_line": 95,
+          "end_line": 95
+        }
+      ]
+    },
+    {
+      "unit_id": "Q11",
+      "unit_type": "standalone_question",
+      "section": "(本部分共16小题，每小题3分，共48分。在每小题所列出的四个选项中，选出最符合",
+      "printed_number": [
+        11
+      ],
+      "question_numbers": [
+        11
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        99,
+        99
+      ],
+      "options_lines": [
+        106,
+        112
+      ],
+      "extra_lines": [
+        103,
+        103
+      ],
+      "answer_lines": [
+        409,
+        409
+      ],
+      "explanation_lines": [
+        411,
+        421
+      ],
+      "section_ref": "S3",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L99",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 106,
+          "end_line": 106
+        },
+        {
+          "label": "B",
+          "start_line": 108,
+          "end_line": 108
+        },
+        {
+          "label": "C",
+          "start_line": 110,
+          "end_line": 110
+        },
+        {
+          "label": "D",
+          "start_line": 112,
+          "end_line": 112
+        }
+      ]
+    },
+    {
+      "unit_id": "Q12",
+      "unit_type": "standalone_question",
+      "section": "(本部分共16小题，每小题3分，共48分。在每小题所列出的四个选项中，选出最符合",
+      "printed_number": null,
+      "question_numbers": [
+        12
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        114,
+        117
+      ],
+      "options_lines": [
+        118,
+        122
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        423,
+        423
+      ],
+      "explanation_lines": [
+        425,
+        435
+      ],
+      "section_ref": "S3",
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q13",
+      "unit_type": "standalone_question",
+      "section": "(本部分共16小题，每小题3分，共48分。在每小题所列出的四个选项中，选出最符合",
+      "printed_number": [
+        13
+      ],
+      "question_numbers": [
+        13
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        124,
+        126
+      ],
+      "options_lines": [
+        129,
+        135
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        437,
+        437
+      ],
+      "explanation_lines": [
+        439,
+        453
+      ],
+      "section_ref": "S3",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L124",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 129,
+          "end_line": 129
+        },
+        {
+          "label": "B",
+          "start_line": 131,
+          "end_line": 131
+        },
+        {
+          "label": "C",
+          "start_line": 133,
+          "end_line": 133
+        },
+        {
+          "label": "D",
+          "start_line": 135,
+          "end_line": 135
+        }
+      ]
+    },
+    {
+      "unit_id": "Q14",
+      "unit_type": "standalone_question",
+      "section": "(本部分共16小题，每小题3分，共48分。在每小题所列出的四个选项中，选出最符合",
+      "printed_number": [
+        14
+      ],
+      "question_numbers": [
+        14
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        139,
+        139
+      ],
+      "options_lines": [
+        141,
+        147
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        455,
+        455
+      ],
+      "explanation_lines": [
+        457,
+        467
+      ],
+      "section_ref": "S3",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L139",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 141,
+          "end_line": 141
+        },
+        {
+          "label": "B",
+          "start_line": 143,
+          "end_line": 143
+        },
+        {
+          "label": "C",
+          "start_line": 145,
+          "end_line": 145
+        },
+        {
+          "label": "D",
+          "start_line": 147,
+          "end_line": 147
+        }
+      ]
+    },
+    {
+      "unit_id": "Q15",
+      "unit_type": "standalone_question",
+      "section": "(本部分共16小题，每小题3分，共48分。在每小题所列出的四个选项中，选出最符合",
+      "printed_number": [
+        15
+      ],
+      "question_numbers": [
+        15
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        149,
+        149
+      ],
+      "options_lines": [
+        151,
+        157
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        469,
+        469
+      ],
+      "explanation_lines": [
+        471,
+        483
+      ],
+      "section_ref": "S3",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L149",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 151,
+          "end_line": 151
+        },
+        {
+          "label": "B",
+          "start_line": 153,
+          "end_line": 153
+        },
+        {
+          "label": "C",
+          "start_line": 155,
+          "end_line": 155
+        },
+        {
+          "label": "D",
+          "start_line": 157,
+          "end_line": 157
+        }
+      ]
+    },
+    {
+      "unit_id": "Q16",
+      "unit_type": "standalone_question",
+      "section": "(本部分共16小题，每小题3分，共48分。在每小题所列出的四个选项中，选出最符合",
+      "printed_number": [
+        16
+      ],
+      "question_numbers": [
+        16
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        159,
+        162
+      ],
+      "options_lines": [
+        164,
+        170
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        485,
+        485
+      ],
+      "explanation_lines": [
+        487,
+        499
+      ],
+      "section_ref": "S3",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L159",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 164,
+          "end_line": 164
+        },
+        {
+          "label": "B",
+          "start_line": 166,
+          "end_line": 166
+        },
+        {
+          "label": "C",
+          "start_line": 168,
+          "end_line": 168
+        },
+        {
+          "label": "D",
+          "start_line": 170,
+          "end_line": 170
+        }
+      ]
+    },
+    {
+      "unit_id": "Q17",
+      "unit_type": "standalone_question",
+      "section": "第Ⅱ部分（共52分）",
+      "printed_number": [
+        17
+      ],
+      "question_numbers": [
+        17
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        174,
+        191
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        503,
+        509
+      ],
+      "explanation_lines": [
+        511,
+        535
+      ],
+      "section_ref": "S4",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L174"
+    },
+    {
+      "unit_id": "Q18",
+      "unit_type": "standalone_question",
+      "section": "第Ⅱ部分（共52分）",
+      "printed_number": [
+        18
+      ],
+      "question_numbers": [
+        18
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        193,
+        211
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        537,
+        541
+      ],
+      "explanation_lines": [
+        543,
+        571
+      ],
+      "section_ref": "S4",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L193"
+    },
+    {
+      "unit_id": "Q19",
+      "unit_type": "standalone_question",
+      "section": "第Ⅱ部分（共52分）",
+      "printed_number": [
+        19
+      ],
+      "question_numbers": [
+        19
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        213,
+        229
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        573,
+        579
+      ],
+      "explanation_lines": [
+        581,
+        601
+      ],
+      "section_ref": "S4",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L213"
+    },
+    {
+      "unit_id": "Q20",
+      "unit_type": "standalone_question",
+      "section": "第Ⅱ部分（共52分）",
+      "printed_number": [
+        20
+      ],
+      "question_numbers": [
+        20
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        231,
+        279
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        603,
+        614
+      ],
+      "explanation_lines": [
+        616,
+        641
+      ],
+      "section_ref": "S4",
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L231"
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2022 北京首都师大附中高一 12 月月考",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "化 学",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 6,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "第I部分（共48分）",
+      "ordinal": 3,
+      "start_line": 7,
+      "end_line": 8,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "(本部分共16小题，每小题3分，共48分。在每小题所列出的四个选项中，选出最符合",
+      "ordinal": 4,
+      "start_line": 9,
+      "end_line": 171,
+      "occurrence": 1
+    },
+    {
+      "id": "S4",
+      "title": "第Ⅱ部分（共52分）",
+      "ordinal": 5,
+      "start_line": 172,
+      "end_line": 284,
+      "occurrence": 1
+    },
+    {
+      "id": "S5",
+      "title": "第I部分（共48分）",
+      "ordinal": 6,
+      "start_line": 285,
+      "end_line": 286,
+      "occurrence": 2
+    },
+    {
+      "id": "S6",
+      "title": "(本部分共16小题，每小题3分，共48分。在每小题所列出的四个选项中，选出最符合",
+      "ordinal": 7,
+      "start_line": 287,
+      "end_line": 500,
+      "occurrence": 2
+    },
+    {
+      "id": "S7",
+      "title": "第Ⅱ部分（共52分）",
+      "ordinal": 8,
+      "start_line": 501,
+      "end_line": 520,
+      "occurrence": 2
+    },
+    {
+      "id": "S8",
+      "title": "【小问2详解】",
+      "ordinal": 9,
+      "start_line": 521,
+      "end_line": 524,
+      "occurrence": 1
+    },
+    {
+      "id": "S9",
+      "title": "【小问 3 详解】",
+      "ordinal": 10,
+      "start_line": 525,
+      "end_line": 532,
+      "occurrence": 1
+    },
+    {
+      "id": "S10",
+      "title": "【小问5详解】",
+      "ordinal": 11,
+      "start_line": 533,
+      "end_line": 546,
+      "occurrence": 1
+    },
+    {
+      "id": "S11",
+      "title": "【小问 1 详解】",
+      "ordinal": 12,
+      "start_line": 547,
+      "end_line": 550,
+      "occurrence": 1
+    },
+    {
+      "id": "S12",
+      "title": "【小问2详解】",
+      "ordinal": 13,
+      "start_line": 551,
+      "end_line": 562,
+      "occurrence": 2
+    },
+    {
+      "id": "S13",
+      "title": "【小问 3 详解】",
+      "ordinal": 14,
+      "start_line": 563,
+      "end_line": 568,
+      "occurrence": 2
+    },
+    {
+      "id": "S14",
+      "title": "【小问 4 详解】",
+      "ordinal": 15,
+      "start_line": 569,
+      "end_line": 586,
+      "occurrence": 1
+    },
+    {
+      "id": "S15",
+      "title": "【小问 2 详解】",
+      "ordinal": 16,
+      "start_line": 587,
+      "end_line": 590,
+      "occurrence": 1
+    },
+    {
+      "id": "S16",
+      "title": "【小问 3 详解】",
+      "ordinal": 17,
+      "start_line": 591,
+      "end_line": 594,
+      "occurrence": 3
+    },
+    {
+      "id": "S17",
+      "title": "【小问 4 详解】",
+      "ordinal": 18,
+      "start_line": 595,
+      "end_line": 598,
+      "occurrence": 2
+    },
+    {
+      "id": "S18",
+      "title": "【小问 5 详解】",
+      "ordinal": 19,
+      "start_line": 599,
+      "end_line": 621,
+      "occurrence": 1
+    },
+    {
+      "id": "S19",
+      "title": "【小问 1 详解】",
+      "ordinal": 20,
+      "start_line": 622,
+      "end_line": 632,
+      "occurrence": 2
+    },
+    {
+      "id": "S20",
+      "title": "【小问 2 详解】",
+      "ordinal": 21,
+      "start_line": 633,
+      "end_line": 641,
+      "occurrence": 2
+    }
+  ],
+  "source_content_sha256": "f43ced350e5aac8a7e28e7716ddd05d42bf4c766beb8d620e71939036c32808a"
+}

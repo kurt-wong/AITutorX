@@ -1,0 +1,108 @@
+{
+  "GET /api/questions": {
+    "status": 200,
+    "total": 21,
+    "first_3": [
+      {
+        "id": "47c22b00-a475-4306-8402-b5a40d84239b",
+        "subject": "化学",
+        "grade": "高一",
+        "canonical_question_type": "single_choice",
+        "instance_id": "e01e4dc6-078d-4ee3-abbd-83750d7c5e2e",
+        "document_id": "5d463a6c-005c-4fba-b78e-bfba09cdd037",
+        "source_version_id": "0df40d7b-183d-4bb1-8b06-1b4d44dce9b7",
+        "question_number": "1",
+        "question_number_range": "",
+        "page_no": 1,
+        "instance_order": 1014,
+        "created_at": "2026-10-10T13:24:09.002225Z"
+      },
+      {
+        "id": "3332aaa6-a108-4e03-b6e2-8c713e44aaca",
+        "subject": "化学",
+        "grade": "高一",
+        "canonical_question_type": "single_choice",
+        "instance_id": "ace003ae-08ce-4bc2-8bb5-00d1000afc71",
+        "document_id": "5d463a6c-005c-4fba-b78e-bfba09cdd037",
+        "source_version_id": "0df40d7b-183d-4bb1-8b06-1b4d44dce9b7",
+        "question_number": "2",
+        "question_number_range": "",
+        "page_no": 1,
+        "instance_order": 1018,
+        "created_at": "2026-10-10T13:24:09.044264Z"
+      },
+      {
+        "id": "d5a8c260-a76b-45f0-a169-5f49817eadc6",
+        "subject": "化学",
+        "grade": "高一",
+        "canonical_question_type": "single_choice",
+        "instance_id": "7474dc7f-1f9e-480b-b09f-51bddac1b9b2",
+        "document_id": "5d463a6c-005c-4fba-b78e-bfba09cdd037",
+        "source_version_id": "0df40d7b-183d-4bb1-8b06-1b4d44dce9b7",
+        "question_number": "3",
+        "question_number_range": "",
+        "page_no": 1,
+        "instance_order": 1022,
+        "created_at": "2026-10-10T13:24:09.065463Z"
+      }
+    ]
+  },
+  "q8_list_row": {
+    "id": "5f461ef4-1362-417a-bd11-06723bbe0dc9",
+    "subject": "化学",
+    "grade": "高一",
+    "canonical_question_type": "single_choice",
+    "instance_id": "5ce35672-f285-4cb1-ac9a-75ff7e097a4e",
+    "document_id": "5d463a6c-005c-4fba-b78e-bfba09cdd037",
+    "source_version_id": "0df40d7b-183d-4bb1-8b06-1b4d44dce9b7",
+    "question_number": "8",
+    "question_number_range": "",
+    "page_no": 1,
+    "instance_order": 1042,
+    "created_at": "2026-10-10T13:24:09.170186Z"
+  },
+  "GET /api/questions/{q8}": {
+    "status": 200,
+    "id": "5f461ef4-1362-417a-bd11-06723bbe0dc9",
+    "subject": "化学",
+    "grade": "高一",
+    "contents": [
+      {
+        "role": "answer",
+        "label": null,
+        "text": "C"
+      },
+      {
+        "role": "option",
+        "label": "A",
+        "text": " HCl"
+      },
+      {
+        "role": "option",
+        "label": "B",
+        "text": " $CO_{2}$"
+      },
+      {
+        "role": "option",
+        "label": "C",
+        "text": " $MgCl_{2}$"
+      },
+      {
+        "role": "option",
+        "label": "D",
+        "text": " $CH_{4}$"
+      },
+      {
+        "role": "stem",
+        "label": null,
+        "text": "8．下列物质中，含有离子键的是\n"
+      }
+    ]
+  },
+  "GET missing": {
+    "status": 404,
+    "detail": {
+      "detail": "question not found"
+    }
+  }
+}

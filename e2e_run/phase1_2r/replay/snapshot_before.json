@@ -1,0 +1,260 @@
+{
+  "label": "before",
+  "captured_at": "2026-10-02T05:15:44.222336+00:00",
+  "tables": {
+    "documents": {
+      "row_count": 9,
+      "pk_order": [
+        "id"
+      ],
+      "fingerprint_sha256": "150fbed0b1fbc5c9c88c2751be92db7343ff4aa8ce6c0a732671660bfc529e32",
+      "columns": [
+        "original_object_key",
+        "original_sha256",
+        "file_name",
+        "file_type",
+        "upload_meta",
+        "processing_status",
+        "id"
+      ]
+    },
+    "document_source_versions": {
+      "row_count": 9,
+      "pk_order": [
+        "id"
+      ],
+      "fingerprint_sha256": "bd9ccd4583168a599b32799504aab42716e05e3dc8550f973d16ca0e35106922",
+      "columns": [
+        "document_id",
+        "artifact_kind",
+        "role",
+        "provider",
+        "parent_version_id",
+        "body_text",
+        "body_hash",
+        "integrity_hash",
+        "page_count",
+        "line_count",
+        "text_coverage",
+        "source_meta",
+        "status",
+        "id",
+        "logical_execution_stage",
+        "logical_execution_hash",
+        "attempt_id",
+        "input_identity"
+      ]
+    },
+    "document_source_lines": {
+      "row_count": 5741,
+      "pk_order": [
+        "id"
+      ],
+      "fingerprint_sha256": "c3797075e3cec5f74a2dde49159a193a3196e46ef4d53af190b63e43c4582f8c",
+      "columns": [
+        "source_version_id",
+        "line_ref",
+        "seq",
+        "page_no",
+        "line_no_in_page",
+        "text",
+        "block_type",
+        "bbox",
+        "raw_sources",
+        "selected_source",
+        "evidence",
+        "confidence",
+        "line_hash",
+        "id"
+      ]
+    },
+    "document_source_spans": {
+      "row_count": 0,
+      "pk_order": [
+        "id"
+      ],
+      "fingerprint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "columns": [
+        "id",
+        "source_version_id",
+        "line_ref",
+        "seq",
+        "text",
+        "font",
+        "size",
+        "flags",
+        "bbox",
+        "origin",
+        "span_hash",
+        "created_at"
+      ]
+    },
+    "document_active_sources": {
+      "row_count": 0,
+      "pk_order": [
+        "document_id",
+        "role"
+      ],
+      "fingerprint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "columns": [
+        "document_id",
+        "role",
+        "source_version_id",
+        "selected_at",
+        "selection_reason"
+      ]
+    },
+    "semantic_annotations": {
+      "row_count": 9,
+      "pk_order": [
+        "id"
+      ],
+      "fingerprint_sha256": "35b8b2c42b22731b2432503158bb3abbd97482cd60b945e6a9dcefa35015f6df",
+      "columns": [
+        "source_version_id",
+        "annotation_schema_version",
+        "prompt_version",
+        "model_config_hash",
+        "payload",
+        "status",
+        "logical_execution_stage",
+        "logical_execution_hash",
+        "attempt_id",
+        "id"
+      ]
+    },
+    "admission_candidates": {
+      "row_count": 35,
+      "pk_order": [
+        "id"
+      ],
+      "fingerprint_sha256": "21ca79a0bd20d269949695048c1147de8054bf159afcc523fc8a1cd554280271",
+      "columns": [
+        "unit_type",
+        "source_version_id",
+        "annotation_id",
+        "decision_status",
+        "gate_decision",
+        "build_versions",
+        "input_identity",
+        "payload",
+        "review_trail",
+        "created_at",
+        "decided_at",
+        "logical_execution_stage",
+        "logical_execution_hash",
+        "attempt_id",
+        "id"
+      ]
+    },
+    "admission_events": {
+      "row_count": 1,
+      "pk_order": [
+        "id"
+      ],
+      "fingerprint_sha256": "1d9e6eaf44efb3d43ac378ace3fa0436a42a67a332b23cc7f4958b19e43ae6a9",
+      "columns": [
+        "candidate_id",
+        "materialized_at",
+        "created_question_ids",
+        "created_instance_ids",
+        "id"
+      ]
+    },
+    "questions": {
+      "row_count": 1,
+      "pk_order": [
+        "id"
+      ],
+      "fingerprint_sha256": "5dcdb5b50e08dfb337142dc8507746ee466632cbcb7ce07c4ab9639edc2e63ea",
+      "columns": [
+        "subject",
+        "grade",
+        "canonical_question_type",
+        "dedup_key",
+        "id",
+        "created_at"
+      ]
+    },
+    "question_instances": {
+      "row_count": 1,
+      "pk_order": [
+        "id"
+      ],
+      "fingerprint_sha256": "db4cc728a371fc33b4deffe0b4a5636914fae28562bd6561387ad15a7a9f3bae",
+      "columns": [
+        "question_id",
+        "document_id",
+        "source_version_id",
+        "unit_group_id",
+        "occurrence_key",
+        "question_number",
+        "question_number_range",
+        "page_no",
+        "instance_order",
+        "logical_execution_stage",
+        "logical_execution_hash",
+        "attempt_id",
+        "id",
+        "created_at"
+      ]
+    },
+    "instance_role_contents": {
+      "row_count": 7,
+      "pk_order": [
+        "instance_id",
+        "role",
+        "role_index"
+      ],
+      "fingerprint_sha256": "974d145873a5b61fe3d6f7edb91b061864525f677038b4b6f814af7cecbaf425",
+      "columns": [
+        "instance_id",
+        "role",
+        "label",
+        "role_index",
+        "text",
+        "text_hash",
+        "source_span",
+        "answer_status",
+        "id"
+      ]
+    },
+    "unit_groups": {
+      "row_count": 1,
+      "pk_order": [
+        "id"
+      ],
+      "fingerprint_sha256": "daad3f197ca1388ed56f9d7e66069f347d2856cb05b77c982f8af13353ad1d7e",
+      "columns": [
+        "unit_type",
+        "document_id",
+        "source_version_id",
+        "question_number_range",
+        "shared_material_id",
+        "id"
+      ]
+    },
+    "materials": {
+      "row_count": 0,
+      "pk_order": [
+        "id"
+      ],
+      "fingerprint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "columns": [
+        "subject",
+        "grade",
+        "source_version_id",
+        "text",
+        "text_hash",
+        "source_span",
+        "dedup_key",
+        "id"
+      ]
+    }
+  },
+  "git_binding": {
+    "branch": "od01-r3-convergence",
+    "head": "39840ff8f0b3d7e9e2c75155ba043a8ed6b03aa4",
+    "match_norm": "match-norm/v1.1 (worktree dirty 015cdfa vs HEAD 73badc3)"
+  }
+}

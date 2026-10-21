@@ -1,0 +1,211 @@
+{
+  "ir_ready": 29,
+  "ir_incomplete": 7,
+  "gate_auto": 20,
+  "gate_pending": 9,
+  "gate_rejected": 7,
+  "n_units": 36,
+  "n_questions_tracked": 36,
+  "questions": [
+    {
+      "unit_id": "Q1",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "B",
+      "answer_preview": "B",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "1\\. 中国特色社会主义进入了新时代，我国经济发展也进入了新时代，基本特征就是我国经济已由高\n\n速增长阶段转向阶段。这一发展是体现新发展理念的发展，是创新成为第一动力、协调成为内生特点、绿色成为普遍形"
+    },
+    {
+      "unit_id": "Q2",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "A",
+      "answer_preview": "A",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "2.\n\n人民币外汇牌价（人民币/100美元）\n\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style="
+    },
+    {
+      "unit_id": "Q3",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "B",
+      "answer_preview": "B",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "3．有人把分享经济形容为“不求拥有，但求所用”。上下班叫一辆顺风车，车费五折还能与司机交朋友；外出旅游点击在线短租，可以选住价格实惠又称心的民居；修缮房屋，花上10元钱可以换来电钻的一天使用权……分享"
+    },
+    {
+      "unit_id": "Q4",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "D",
+      "answer_preview": "D",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "4. 网络时代，外卖影响着我们的生活，也影响着企业的经营。某网站对在线餐饮外卖用户订餐原因作了调查，结果如下图。\n\n根据调查结果，餐饮外卖企业应\n\n①改进操作流程，提高食品价格 ②增加配送费用，分散送"
+    },
+    {
+      "unit_id": "Q5",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "D",
+      "answer_preview": "D",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "5. 某手机生产企业，从不同渠道广泛筹集资金，成为国家、集体、个人多方持股的公司。\n\n从所有制角度看，这家公司的性质属于\n"
+    },
+    {
+      "unit_id": "Q6",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q7",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q8",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "D",
+      "answer_preview": "D",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "8. 上图中，三个人分别走上了富裕之路。他们的收入都属于\n"
+    },
+    {
+      "unit_id": "U9-10",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q11",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "D",
+      "answer_preview": "D",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "11\\. 某市民发现，当地有关行政部门的个别工作人员没有切实履行食品安全监管职责，于是打电话向该部门反映问题并提出建议。该市民行使监督权的方式体现的是\n\n---\n"
+    },
+    {
+      "unit_id": "Q12",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "C",
+      "answer_preview": "C",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "12. 《中华人民共和国村民委员会组织法》规定，村规民约的内容不得与宪法、法律、法规和国家的政策相抵触，不得有侵犯村民的人身权利、民主权利和合法财产权利的内容。\n\n下列内容能够纳入村规民约的是\n"
+    },
+    {
+      "unit_id": "Q13",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q14",
+      "labels": [],
+      "answer_letter": null,
+      "answer_preview": "",
+      "verify": null,
+      "gate": "rejected",
+      "n_options": 0,
+      "stem_preview": ""
+    },
+    {
+      "unit_id": "Q15",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "D",
+      "answer_preview": "D",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "15\\. 2018年1月，北京市三名中学生受邀观摩了中国人民政治协商会议北京市第十三届委员会第一次会议。在观摩过程中，他们看到的真实场景有\n\n①政协认真审议并决定批准北京市政府工作报告\n\n②政协会议决"
+    },
+    {
+      "unit_id": "Q16",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_letter": "A",
+      "answer_preview": "A",
+      "verify": true,
+      "gate": "auto_approve",
+      "n_options": 4,
+      "stem_preview": "16. 当代国际关系错综复杂，我国在处理与本国有关的国际问题时，最主要的是\n"
+    }
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\高三\\数学\\2017-2019北京高三数学上学期期中汇编：立体几何（教师版）(1).md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.1",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        5,
+        11
+      ],
+      "options_lines": [
+        13,
+        13
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        248,
+        276
+      ],
+      "explanation_lines": [
+        258,
+        276
+      ],
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L5",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 13,
+          "end_line": 13
+        },
+        {
+          "label": "B",
+          "start_line": 13,
+          "end_line": 13
+        },
+        {
+          "label": "C",
+          "start_line": 13,
+          "end_line": 13
+        },
+        {
+          "label": "D",
+          "start_line": 13,
+          "end_line": 13
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        15,
+        32
+      ],
+      "options_lines": [
+        35,
+        35
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        278,
+        306
+      ],
+      "explanation_lines": [
+        302,
+        306
+      ],
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L15",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 35,
+          "end_line": 35
+        },
+        {
+          "label": "B",
+          "start_line": 35,
+          "end_line": 35
+        },
+        {
+          "label": "C",
+          "start_line": 35,
+          "end_line": 35
+        },
+        {
+          "label": "D",
+          "start_line": 35,
+          "end_line": 35
+        }
+      ]
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        37,
+        54
+      ],
+      "options_lines": [
+        59,
+        59
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        309,
+        341
+      ],
+      "explanation_lines": [
+        333,
+        341
+      ],
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L37",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 59,
+          "end_line": 59
+        },
+        {
+          "label": "B",
+          "start_line": 59,
+          "end_line": 59
+        },
+        {
+          "label": "C",
+          "start_line": 59,
+          "end_line": 59
+        },
+        {
+          "label": "D",
+          "start_line": 59,
+          "end_line": 59
+        }
+      ]
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        63,
+        63
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        346,
+        364
+      ],
+      "explanation_lines": [
+        348,
+        364
+      ],
+      "section_ref": "S2",
+      "section": "二、 填空题",
+      "printed_number": [
+        4
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L63"
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        5
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        65,
+        85
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        366,
+        399
+      ],
+      "explanation_lines": [
+        386,
+        399
+      ],
+      "section_ref": "S2",
+      "section": "二、 填空题",
+      "printed_number": [
+        5
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L65"
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        6
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        88,
+        105
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        401,
+        426
+      ],
+      "explanation_lines": [
+        414,
+        426
+      ],
+      "section_ref": "S2",
+      "section": "二、 填空题",
+      "printed_number": [
+        6
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L88"
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        7
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        108,
+        108
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        429,
+        445
+      ],
+      "explanation_lines": [
+        431,
+        445
+      ],
+      "section_ref": "S2",
+      "section": "二、 填空题",
+      "printed_number": [
+        7
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L108"
+    },
+    {
+      "unit_id": "Q8",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        8
+      ],
+      "original_question_type": "fill_in",
+      "stem_lines": [
+        110,
+        127
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        448,
+        492
+      ],
+      "explanation_lines": [
+        468,
+        492
+      ],
+      "section_ref": "S2",
+      "section": "二、 填空题",
+      "printed_number": [
+        8
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L110"
+    },
+    {
+      "unit_id": "Q9",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        9
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        134,
+        142
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        497,
+        550
+      ],
+      "explanation_lines": [
+        508,
+        550
+      ],
+      "section_ref": "S3",
+      "section": "三、 解答题",
+      "printed_number": [
+        9
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L134"
+    },
+    {
+      "unit_id": "Q10",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        10
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        145,
+        153
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        553,
+        618
+      ],
+      "explanation_lines": [
+        566,
+        618
+      ],
+      "section_ref": "S3",
+      "section": "三、 解答题",
+      "printed_number": [
+        10
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L145"
+    },
+    {
+      "unit_id": "Q11",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        11
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        156,
+        166
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        621,
+        704
+      ],
+      "explanation_lines": [
+        634,
+        704
+      ],
+      "section_ref": "S3",
+      "section": "三、 解答题",
+      "printed_number": [
+        11
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L156"
+    },
+    {
+      "unit_id": "Q12",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        12
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        169,
+        180
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        706,
+        779
+      ],
+      "explanation_lines": [
+        720,
+        779
+      ],
+      "section_ref": "S3",
+      "section": "三、 解答题",
+      "printed_number": [
+        12
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L169"
+    },
+    {
+      "unit_id": "Q13",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        13
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        183,
+        191
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        781,
+        843
+      ],
+      "explanation_lines": [
+        794,
+        843
+      ],
+      "section_ref": "S3",
+      "section": "三、 解答题",
+      "printed_number": [
+        13
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L183"
+    },
+    {
+      "unit_id": "Q14",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        14
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        194,
+        202
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        845,
+        878
+      ],
+      "explanation_lines": [
+        854,
+        878
+      ],
+      "section_ref": "S3",
+      "section": "三、 解答题",
+      "printed_number": [
+        14
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L194"
+    },
+    {
+      "unit_id": "Q15",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        15
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        205,
+        213
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        881,
+        926
+      ],
+      "explanation_lines": [
+        894,
+        926
+      ],
+      "section_ref": "S3",
+      "section": "三、 解答题",
+      "printed_number": [
+        15
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L205"
+    },
+    {
+      "unit_id": "Q16",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        16
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        216,
+        226
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        929,
+        988
+      ],
+      "explanation_lines": [
+        940,
+        988
+      ],
+      "section_ref": "S3",
+      "section": "三、 解答题",
+      "printed_number": [
+        16
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L216"
+    },
+    {
+      "unit_id": "Q17",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        17
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        229,
+        237
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        993,
+        1040
+      ],
+      "explanation_lines": [
+        1004,
+        1040
+      ],
+      "section_ref": "S3",
+      "section": "三、 解答题",
+      "printed_number": [
+        17
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L229"
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2017–2019 北京高三数学上学期期中汇编：立体几何",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "一 ．选择题",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 60,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "二、 填空题",
+      "ordinal": 3,
+      "start_line": 61,
+      "end_line": 129,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "三、 解答题",
+      "ordinal": 4,
+      "start_line": 130,
+      "end_line": 241,
+      "occurrence": 1
+    },
+    {
+      "id": "S4",
+      "title": "2017–2019 北京高三数学上学期期中汇编：立体几何",
+      "ordinal": 5,
+      "start_line": 242,
+      "end_line": 245,
+      "occurrence": 2
+    },
+    {
+      "id": "S5",
+      "title": "一 ．选择题",
+      "ordinal": 6,
+      "start_line": 246,
+      "end_line": 343,
+      "occurrence": 2
+    },
+    {
+      "id": "S6",
+      "title": "二、 填空题",
+      "ordinal": 7,
+      "start_line": 344,
+      "end_line": 494,
+      "occurrence": 2
+    },
+    {
+      "id": "S7",
+      "title": "三、 解答题",
+      "ordinal": 8,
+      "start_line": 495,
+      "end_line": 1040,
+      "occurrence": 2
+    }
+  ],
+  "source_content_sha256": "70706830c564cf58a65c86c1d314396cccc573488acb5dbb69ab4c31ac36a926"
+}

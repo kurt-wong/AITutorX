@@ -1,0 +1,256 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\竞赛自招\\语文\\2019北京大学博雅计划模拟语文（教师版）(1).md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.1",
+    "validation_issues": [],
+    "warnings": [
+      "U11: 题号 1 与 U1-10 重号（可能为分节各自编号，需确认）",
+      "U12-14: 题号 1 与 U11 重号（可能为分节各自编号，需确认）",
+      "U12-14: 题号 2 与 U1-10 重号（可能为分节各自编号，需确认）",
+      "U12-14: 题号 3 与 U1-10 重号（可能为分节各自编号，需确认）",
+      "U15: 题号 1 与 U12-14 重号（可能为分节各自编号，需确认）"
+    ],
+    "bug22_migration": {
+      "round": "r31",
+      "changes": [
+        {
+          "unit_id": "U11",
+          "old": [
+            1
+          ],
+          "new": [
+            11
+          ],
+          "mode": "shift",
+          "evidence": "二/三/四大题顺延 11/12-14/15"
+        },
+        {
+          "unit_id": "U12-14",
+          "old": [
+            1,
+            2,
+            3
+          ],
+          "new": [
+            12,
+            13,
+            14
+          ],
+          "mode": "shift",
+          "evidence": "二/三/四大题顺延 11/12-14/15"
+        },
+        {
+          "unit_id": "U15",
+          "old": [
+            1
+          ],
+          "new": [
+            15
+          ],
+          "mode": "shift",
+          "evidence": "二/三/四大题顺延 11/12-14/15"
+        }
+      ],
+      "plan_evidence": "大题一 10 题(L17);大题二断句(L63)/三现代文阅读(L67)/四作文(L111)各自从 1 编号;LLM unit_id 已命名 U11/U12-14/U15",
+      "report": "data/bug22_migration_report.json"
+    }
+  },
+  "units": [
+    {
+      "unit_id": "U1-10",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "original_question_type": "fill_in",
+      "material_lines": [
+        19,
+        61
+      ],
+      "questions_lines": [
+        19,
+        61
+      ],
+      "answer_lines": [
+        182,
+        200
+      ],
+      "explanation_lines": null,
+      "section": "一、 现代文根据语境填空(10题，共20分)",
+      "section_ref": "S2",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "U11",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        11
+      ],
+      "original_question_type": "short_answer",
+      "material_lines": [
+        65,
+        65
+      ],
+      "questions_lines": [
+        63,
+        65
+      ],
+      "answer_lines": [
+        204,
+        216
+      ],
+      "explanation_lines": null,
+      "section": "一、 现代文根据语境填空(10题，共20分)",
+      "section_ref": "S2",
+      "basis": "shift",
+      "basis_evidence": "二/三/四大题顺延 11/12-14/15;分节标题 L17:一、 现代文根据语境填空(10题，共20分)",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "U12-14",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        12,
+        13,
+        14
+      ],
+      "original_question_type": "reading",
+      "material_lines": [
+        71,
+        103
+      ],
+      "questions_lines": [
+        71,
+        109
+      ],
+      "answer_lines": [
+        220,
+        224
+      ],
+      "explanation_lines": null,
+      "section": "三、 现代文阅读(20分)",
+      "section_ref": "S3",
+      "basis": "shift",
+      "basis_evidence": "二/三/四大题顺延 11/12-14/15;分节标题 L67:三、 现代文阅读(20分)",
+      "printed_number": [
+        1,
+        2,
+        3
+      ],
+      "printed_provenance": "migration_report"
+    },
+    {
+      "unit_id": "U15",
+      "unit_type": "composite_question",
+      "question_numbers": [
+        15
+      ],
+      "original_question_type": "essay",
+      "material_lines": [
+        113,
+        174
+      ],
+      "questions_lines": [
+        111,
+        174
+      ],
+      "answer_lines": [
+        228,
+        228
+      ],
+      "explanation_lines": null,
+      "section": "三、 现代文阅读(20分)",
+      "section_ref": "S3",
+      "basis": "shift",
+      "basis_evidence": "二/三/四大题顺延 11/12-14/15;分节标题 L67:三、 现代文阅读(20分)",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "migration_report"
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2019 北京大学博雅计划模拟",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "语文",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 16,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "一、 现代文根据语境填空(10题，共20分)",
+      "ordinal": 3,
+      "start_line": 17,
+      "end_line": 66,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "三、 现代文阅读(20分)",
+      "ordinal": 4,
+      "start_line": 67,
+      "end_line": 175,
+      "occurrence": 1
+    },
+    {
+      "id": "S4",
+      "title": "2019 北京大学博雅计划模拟语文",
+      "ordinal": 5,
+      "start_line": 176,
+      "end_line": 179,
+      "occurrence": 1
+    },
+    {
+      "id": "S5",
+      "title": "一、 现代文根据语境填空(10题，共20分)",
+      "ordinal": 6,
+      "start_line": 180,
+      "end_line": 217,
+      "occurrence": 2
+    },
+    {
+      "id": "S6",
+      "title": "三、 现代文阅读(20分)",
+      "ordinal": 7,
+      "start_line": 218,
+      "end_line": 225,
+      "occurrence": 2
+    },
+    {
+      "id": "S7",
+      "title": "四、 作文(40分)",
+      "ordinal": 8,
+      "start_line": 226,
+      "end_line": 228,
+      "occurrence": 1
+    }
+  ],
+  "source_content_sha256": "5e5b608ff84eb797f7209a36d9bd67f5a98d85d74e8c2e69926d93b074de34d6"
+}

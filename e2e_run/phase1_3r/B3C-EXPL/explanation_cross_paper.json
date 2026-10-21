@@ -1,0 +1,131 @@
+{
+  "per_paper": {
+    "化学": {
+      "units": 40,
+      "explanation_targets": 0,
+      "with_declared_range": 0,
+      "resolved": 0,
+      "unresolved": 0,
+      "region_roles": [
+        "answer",
+        "question"
+      ]
+    },
+    "历史": {
+      "units": 53,
+      "explanation_targets": 53,
+      "with_declared_range": 53,
+      "resolved": 53,
+      "unresolved": 0,
+      "region_roles": [
+        "answer",
+        "explanation",
+        "question"
+      ]
+    },
+    "地理": {
+      "units": 25,
+      "explanation_targets": 0,
+      "with_declared_range": 0,
+      "resolved": 0,
+      "unresolved": 0,
+      "region_roles": [
+        "question"
+      ]
+    },
+    "政治": {
+      "units": 36,
+      "explanation_targets": 0,
+      "with_declared_range": 0,
+      "resolved": 0,
+      "unresolved": 0,
+      "region_roles": [
+        "answer",
+        "question"
+      ]
+    },
+    "数学": {
+      "units": 30,
+      "explanation_targets": 0,
+      "with_declared_range": 0,
+      "resolved": 0,
+      "unresolved": 0,
+      "region_roles": [
+        "answer",
+        "question"
+      ]
+    },
+    "物理": {
+      "units": 22,
+      "explanation_targets": 0,
+      "with_declared_range": 0,
+      "resolved": 0,
+      "unresolved": 0,
+      "region_roles": [
+        "answer",
+        "question"
+      ]
+    },
+    "生物": {
+      "units": 50,
+      "explanation_targets": 0,
+      "with_declared_range": 0,
+      "resolved": 0,
+      "unresolved": 0,
+      "region_roles": [
+        "answer",
+        "question"
+      ]
+    },
+    "英语": {
+      "units": 18,
+      "explanation_targets": 0,
+      "with_declared_range": 0,
+      "resolved": 0,
+      "unresolved": 0,
+      "region_roles": [
+        "answer",
+        "question"
+      ]
+    },
+    "语文": {
+      "units": 10,
+      "explanation_targets": 0,
+      "with_declared_range": 0,
+      "resolved": 0,
+      "unresolved": 0,
+      "region_roles": [
+        "answer",
+        "question"
+      ]
+    }
+  },
+  "totals": {
+    "units": 284,
+    "explanation_targets": 53,
+    "with_declared_range": 53,
+    "resolved": 53,
+    "unresolved": 0,
+    "region_roles": [
+      "answer",
+      "question",
+      "answer",
+      "question",
+      "answer",
+      "question",
+      "answer",
+      "question",
+      "answer",
+      "question",
+      "answer",
+      "question",
+      "question",
+      "answer",
+      "explanation",
+      "question",
+      "answer",
+      "question"
+    ]
+  },
+  "binding_mismatches": []
+}

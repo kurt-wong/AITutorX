@@ -1,0 +1,63 @@
+{
+  "non_explanation_span_diffs": [],
+  "n_diffs": 0,
+  "explanation_counts": [
+    {
+      "paper": "化学",
+      "after_n": 0,
+      "pre_n": 0
+    },
+    {
+      "paper": "历史",
+      "after_n": 53,
+      "pre_n": 53
+    },
+    {
+      "paper": "地理",
+      "after_n": 0,
+      "pre_n": 0
+    },
+    {
+      "paper": "政治",
+      "after_n": 0,
+      "pre_n": 0
+    },
+    {
+      "paper": "数学",
+      "after_n": 0,
+      "pre_n": 0
+    },
+    {
+      "paper": "物理",
+      "after_n": 0,
+      "pre_n": 0
+    },
+    {
+      "paper": "生物",
+      "after_n": 0,
+      "pre_n": 0
+    },
+    {
+      "paper": "英语",
+      "after_n": 0,
+      "pre_n": 0
+    },
+    {
+      "paper": "语文",
+      "after_n": 0,
+      "pre_n": 0
+    }
+  ],
+  "role_totals_after": {
+    "stem": 194,
+    "option": 458,
+    "answer": 280,
+    "explanation": 53
+  },
+  "role_totals_pre": {
+    "stem": 194,
+    "option": 458,
+    "answer": 280,
+    "explanation": 53
+  }
+}

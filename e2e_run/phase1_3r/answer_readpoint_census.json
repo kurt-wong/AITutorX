@@ -1,0 +1,1272 @@
+{
+  "total_candidates": 43,
+  "summary": {
+    "answer_resolution_state": {
+      "IN_DECLARED_ANSWER_ZONE": 38,
+      "OUTSIDE_DECLARED_ANSWER_ZONE": 5,
+      "NO_ANSWER_SPAN": 0,
+      "AMBIGUOUS": 0
+    },
+    "source_version_binding": {
+      "SAME_SOURCE_VERSION": 43,
+      "CROSS_SOURCE_VERSION": 0
+    },
+    "outside_by_location": {
+      "OTHER_UNIT_ANSWER": 5
+    }
+  },
+  "cross_source_version": [],
+  "outside_zone_list": [
+    {
+      "unit_id": "Q8",
+      "question_label": "8",
+      "candidate_id": "d6d24c36-d88e-4771-b24e-f593e9a3e4ce",
+      "source_version_id": "41c6b3b8-09f1-45f0-a7be-3dbd98623272",
+      "file_name": "2018北京春季高中会考化学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 513,
+        "end": 513
+      },
+      "resolved_answer_line_refs": [
+        578
+      ],
+      "resolved_answer_text": "8、 $ 32^{\\circ} $C",
+      "answer_resolution_state": "OUTSIDE_DECLARED_ANSWER_ZONE",
+      "outside_location": [
+        "OTHER_UNIT_ANSWER"
+      ],
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true,
+      "outside_note": "line falls in another unit's declared answer range / packed answer table"
+    },
+    {
+      "unit_id": "Q1",
+      "question_label": "1",
+      "candidate_id": "613020cc-8bce-4ffa-9b35-1cb041e90b27",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 200,
+        "end": 206
+      },
+      "resolved_answer_line_refs": [
+        747
+      ],
+      "resolved_answer_text": "1.",
+      "answer_resolution_state": "OUTSIDE_DECLARED_ANSWER_ZONE",
+      "outside_location": [
+        "OTHER_UNIT_ANSWER"
+      ],
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true,
+      "outside_note": "line falls in another unit's declared answer range / packed answer table"
+    },
+    {
+      "unit_id": "Q2",
+      "question_label": "2",
+      "candidate_id": "09e92921-9175-45e9-b28f-2c987cce5e3f",
+      "source_version_id": "8a6bd0ac-1715-4e9f-9a4f-e4082eb17c96",
+      "file_name": "2018北京春季高中会考物理（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 356,
+        "end": 356
+      },
+      "resolved_answer_line_refs": [
+        368
+      ],
+      "resolved_answer_text": "2.0s时物体的速度大小 $ v=at=",
+      "answer_resolution_state": "OUTSIDE_DECLARED_ANSWER_ZONE",
+      "outside_location": [
+        "OTHER_UNIT_ANSWER"
+      ],
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true,
+      "outside_note": "line falls in another unit's declared answer range / packed answer table"
+    },
+    {
+      "unit_id": "Q6",
+      "question_label": "6",
+      "candidate_id": "1d0429b9-5601-454f-b836-35bfb8559bd9",
+      "source_version_id": "8a6bd0ac-1715-4e9f-9a4f-e4082eb17c96",
+      "file_name": "2018北京春季高中会考物理（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 356,
+        "end": 356
+      },
+      "resolved_answer_line_refs": [
+        368
+      ],
+      "resolved_answer_text": "6.0m/s $</td><td style='text-align: center; word-wrap: break-word;'>3分2分</td><td",
+      "answer_resolution_state": "OUTSIDE_DECLARED_ANSWER_ZONE",
+      "outside_location": [
+        "OTHER_UNIT_ANSWER"
+      ],
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true,
+      "outside_note": "line falls in another unit's declared answer range / packed answer table"
+    },
+    {
+      "unit_id": "Q8",
+      "question_label": "8",
+      "candidate_id": "510ad24a-a74f-4da3-acbc-0cbee6ae1dc3",
+      "source_version_id": "8a6bd0ac-1715-4e9f-9a4f-e4082eb17c96",
+      "file_name": "2018北京春季高中会考物理（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 356,
+        "end": 356
+      },
+      "resolved_answer_line_refs": [
+        373
+      ],
+      "resolved_answer_text": "8.0s $\\n（2）该同学的观点不正确。\\n因为书包做匀速直线运动，加速度为0，所以合力为0。假设书包受到摩擦力的作用，其合力就不可能为0，因此\\n书包不受摩",
+      "answer_resolution_state": "OUTSIDE_DECLARED_ANSWER_ZONE",
+      "outside_location": [
+        "OTHER_UNIT_ANSWER"
+      ],
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true,
+      "outside_note": "line falls in another unit's declared answer range / packed answer table"
+    }
+  ],
+  "q27_evidence": [
+    {
+      "unit_id": "Q27",
+      "question_label": "27",
+      "candidate_id": "c1357a87-9186-4b5a-8532-14da3a89ed39",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 593,
+        "end": 623
+      },
+      "resolved_answer_line_refs": [
+        593
+      ],
+      "resolved_answer_text": "27.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    }
+  ],
+  "english_file_candidates": [
+    {
+      "unit_id": "U26-40.sub",
+      "question_label": "26",
+      "candidate_id": "9e39bffc-48f3-4678-9d5b-fca8b80768b6",
+      "source_version_id": "ad2a30c4-8559-4f00-98e7-9635acdf5c2a",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 459,
+        "end": 459
+      },
+      "resolved_answer_line_refs": [
+        459
+      ],
+      "resolved_answer_text": "26.A",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "U41-44.sub",
+      "question_label": "41",
+      "candidate_id": "8e7dabb8-7726-4444-b1c2-f059812cbd91",
+      "source_version_id": "ad2a30c4-8559-4f00-98e7-9635acdf5c2a",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 463,
+        "end": 463
+      },
+      "resolved_answer_line_refs": [
+        463
+      ],
+      "resolved_answer_text": "41.D",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "U45-48.sub",
+      "question_label": "45",
+      "candidate_id": "94d1f60b-48b3-49cd-9e9c-fb30c5a0304d",
+      "source_version_id": "ad2a30c4-8559-4f00-98e7-9635acdf5c2a",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 463,
+        "end": 463
+      },
+      "resolved_answer_line_refs": [
+        463
+      ],
+      "resolved_answer_text": "45.A",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "U49-52.sub",
+      "question_label": "49",
+      "candidate_id": "8a79562f-36c3-4418-ae61-33851841c7e3",
+      "source_version_id": "ad2a30c4-8559-4f00-98e7-9635acdf5c2a",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 463,
+        "end": 463
+      },
+      "resolved_answer_line_refs": [
+        463
+      ],
+      "resolved_answer_text": "49.A",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "U53-56.sub",
+      "question_label": "53",
+      "candidate_id": "56cbcabf-2af8-4baa-9928-08d38cfea641",
+      "source_version_id": "ad2a30c4-8559-4f00-98e7-9635acdf5c2a",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 463,
+        "end": 463
+      },
+      "resolved_answer_line_refs": [
+        463
+      ],
+      "resolved_answer_text": "53.B",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "U57-60.sub",
+      "question_label": "57",
+      "candidate_id": "8b65c9a6-4f05-46f2-ae29-ab5ee0f6e98e",
+      "source_version_id": "ad2a30c4-8559-4f00-98e7-9635acdf5c2a",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 465,
+        "end": 471
+      },
+      "resolved_answer_line_refs": [
+        465
+      ],
+      "resolved_answer_text": "57. Because he was not good at sports.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    }
+  ],
+  "answer_span_reuse": [
+    {
+      "source_version": "8a6bd0ac-1715-4e9f-9a4f-e4082eb17c96",
+      "line": 368,
+      "units": [
+        "Q2",
+        "Q6"
+      ]
+    },
+    {
+      "source_version": "ad2a30c4-8559-4f00-98e7-9635acdf5c2a",
+      "line": 463,
+      "units": [
+        "U41-44.sub",
+        "U45-48.sub",
+        "U49-52.sub",
+        "U53-56.sub"
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "unit_id": "Q8",
+      "question_label": "8",
+      "candidate_id": "d6d24c36-d88e-4771-b24e-f593e9a3e4ce",
+      "source_version_id": "41c6b3b8-09f1-45f0-a7be-3dbd98623272",
+      "file_name": "2018北京春季高中会考化学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 513,
+        "end": 513
+      },
+      "resolved_answer_line_refs": [
+        578
+      ],
+      "resolved_answer_text": "8、 $ 32^{\\circ} $C",
+      "answer_resolution_state": "OUTSIDE_DECLARED_ANSWER_ZONE",
+      "outside_location": [
+        "ANSWER_TABLE",
+        "ANSWER_TABLE"
+      ],
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q1",
+      "question_label": "1",
+      "candidate_id": "b2029371-52d5-471c-b741-cb689daef7e7",
+      "source_version_id": "116d12b8-e733-44f5-9e65-6a309b1e6d1e",
+      "file_name": "2018北京夏季高中会考历史（教师版）(1).md",
+      "decision_status": "approved",
+      "declared_answer_range": {
+        "start": 637,
+        "end": 637
+      },
+      "resolved_answer_line_refs": [
+        637
+      ],
+      "resolved_answer_text": "1. 【答案】C",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q29",
+      "question_label": "29",
+      "candidate_id": "ac2c5a60-ba81-4bfb-83b4-7f8b13d9f5e7",
+      "source_version_id": "47913a94-a913-4ef9-bbd1-c00e6b264b61",
+      "file_name": "2018北京夏季高中会考政治（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 558,
+        "end": 572
+      },
+      "resolved_answer_line_refs": [
+        558
+      ],
+      "resolved_answer_text": "29. A 区适合摆放蔬菜水果；B 区适合摆放服装；C 区适合摆放洗涤用品。",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q32",
+      "question_label": "32",
+      "candidate_id": "bf737af5-6626-430a-bcfc-de3fb471565a",
+      "source_version_id": "47913a94-a913-4ef9-bbd1-c00e6b264b61",
+      "file_name": "2018北京夏季高中会考政治（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 602,
+        "end": 616
+      },
+      "resolved_answer_line_refs": [
+        602
+      ],
+      "resolved_answer_text": "32. 评分观察视角：从中华文化、优秀传统文化、文化创新、文化自信等角度，合乎逻辑地作出分析。水平四 能够对应所选观点，准确运用相关理论，分析条理清楚，逻辑严密",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q34",
+      "question_label": "34",
+      "candidate_id": "905e577e-b25f-4547-aac4-83f1bfdf63bb",
+      "source_version_id": "47913a94-a913-4ef9-bbd1-c00e6b264b61",
+      "file_name": "2018北京夏季高中会考政治（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 622,
+        "end": 622
+      },
+      "resolved_answer_line_refs": [
+        622
+      ],
+      "resolved_answer_text": "34. 本题为开放性试题，符合题目要求即可。如春节、中秋节、中华人民共和国国庆日、国家宪法日等（2分）",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q36",
+      "question_label": "36",
+      "candidate_id": "45cb7522-95f2-4e6f-90a3-441f595c38b5",
+      "source_version_id": "47913a94-a913-4ef9-bbd1-c00e6b264b61",
+      "file_name": "2018北京夏季高中会考政治（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 626,
+        "end": 628
+      },
+      "resolved_answer_line_refs": [
+        626
+      ],
+      "resolved_answer_text": "36. （1）C—D—A—B—E（2分）",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q1",
+      "question_label": "1",
+      "candidate_id": "613020cc-8bce-4ffa-9b35-1cb041e90b27",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 200,
+        "end": 206
+      },
+      "resolved_answer_line_refs": [
+        747
+      ],
+      "resolved_answer_text": "1.",
+      "answer_resolution_state": "OUTSIDE_DECLARED_ANSWER_ZONE",
+      "outside_location": [
+        "ANSWER_TABLE",
+        "ANSWER_TABLE"
+      ],
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q3",
+      "question_label": "3",
+      "candidate_id": "5ae90a8e-758e-4cab-b9c4-e17531c7a81e",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 224,
+        "end": 232
+      },
+      "resolved_answer_line_refs": [
+        224
+      ],
+      "resolved_answer_text": "3.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q4",
+      "question_label": "4",
+      "candidate_id": "021b78f4-e8cf-4d10-9978-6c7260cb163d",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 234,
+        "end": 240
+      },
+      "resolved_answer_line_refs": [
+        234
+      ],
+      "resolved_answer_text": "4.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q28",
+      "question_label": "28",
+      "candidate_id": "5c93caab-5011-419b-8b8c-c3e6f3718728",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 625,
+        "end": 651
+      },
+      "resolved_answer_line_refs": [
+        625
+      ],
+      "resolved_answer_text": "28.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q6",
+      "question_label": "6",
+      "candidate_id": "5a6e851a-7ea0-47a0-9828-f5f41d4a6334",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 260,
+        "end": 272
+      },
+      "resolved_answer_line_refs": [
+        260
+      ],
+      "resolved_answer_text": "6.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q7",
+      "question_label": "7",
+      "candidate_id": "921fd9c3-5b6c-4d89-842d-c7c2afe0ee68",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 274,
+        "end": 284
+      },
+      "resolved_answer_line_refs": [
+        274
+      ],
+      "resolved_answer_text": "7.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q8",
+      "question_label": "8",
+      "candidate_id": "6be97d06-5715-4470-aa91-708194ed3956",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 286,
+        "end": 296
+      },
+      "resolved_answer_line_refs": [
+        286
+      ],
+      "resolved_answer_text": "8.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q10",
+      "question_label": "10",
+      "candidate_id": "32422e75-22f4-4219-8315-7d050b3ed80b",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 314,
+        "end": 324
+      },
+      "resolved_answer_line_refs": [
+        314
+      ],
+      "resolved_answer_text": "10.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q29",
+      "question_label": "29",
+      "candidate_id": "ba98df7c-b0a5-4c2f-bfd7-c561ead3ad5e",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 653,
+        "end": 689
+      },
+      "resolved_answer_line_refs": [
+        653
+      ],
+      "resolved_answer_text": "29.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q11",
+      "question_label": "11",
+      "candidate_id": "97a033f3-8b25-40d9-a18d-264f52ca8f52",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 326,
+        "end": 336
+      },
+      "resolved_answer_line_refs": [
+        326
+      ],
+      "resolved_answer_text": "11.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q12",
+      "question_label": "12",
+      "candidate_id": "99a015e9-4f12-4f84-935c-dfe1b3eb367b",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 338,
+        "end": 348
+      },
+      "resolved_answer_line_refs": [
+        338
+      ],
+      "resolved_answer_text": "12.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q13",
+      "question_label": "13",
+      "candidate_id": "f4789c7c-3f64-45e7-ba37-41d122db7c44",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 350,
+        "end": 356
+      },
+      "resolved_answer_line_refs": [
+        350
+      ],
+      "resolved_answer_text": "13.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q14",
+      "question_label": "14",
+      "candidate_id": "910962d3-44a1-4970-b669-4c72ea82beba",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 358,
+        "end": 368
+      },
+      "resolved_answer_line_refs": [
+        358
+      ],
+      "resolved_answer_text": "14.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q15",
+      "question_label": "15",
+      "candidate_id": "4006e069-e9af-443b-b100-2d79e8e6c366",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 370,
+        "end": 384
+      },
+      "resolved_answer_line_refs": [
+        370
+      ],
+      "resolved_answer_text": "15.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q18",
+      "question_label": "18",
+      "candidate_id": "377e7267-be0f-48ab-8b77-0be65989a09b",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 434,
+        "end": 448
+      },
+      "resolved_answer_line_refs": [
+        434
+      ],
+      "resolved_answer_text": "18.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q19",
+      "question_label": "19",
+      "candidate_id": "c90ed211-c813-4383-bff0-0dc21208481c",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 450,
+        "end": 462
+      },
+      "resolved_answer_line_refs": [
+        450
+      ],
+      "resolved_answer_text": "19.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q20",
+      "question_label": "20",
+      "candidate_id": "33027be2-1738-4c4e-b1e6-c84440d2bbc5",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 464,
+        "end": 470
+      },
+      "resolved_answer_line_refs": [
+        464
+      ],
+      "resolved_answer_text": "20.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q21",
+      "question_label": "21",
+      "candidate_id": "88f78190-fcd3-4179-9bc4-c26da0b87fb7",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 472,
+        "end": 484
+      },
+      "resolved_answer_line_refs": [
+        472
+      ],
+      "resolved_answer_text": "21.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q24",
+      "question_label": "24",
+      "candidate_id": "4fd43a70-2707-4f32-b842-34bdcd5b5ceb",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 543,
+        "end": 565
+      },
+      "resolved_answer_line_refs": [
+        543
+      ],
+      "resolved_answer_text": "24.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q25",
+      "question_label": "25",
+      "candidate_id": "08f3e9a1-4eb4-451e-b973-bc9c418d7600",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 567,
+        "end": 575
+      },
+      "resolved_answer_line_refs": [
+        567
+      ],
+      "resolved_answer_text": "25.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q26",
+      "question_label": "26",
+      "candidate_id": "1f77ad6a-b5fb-4b2b-a111-35dbac7c6eda",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 579,
+        "end": 591
+      },
+      "resolved_answer_line_refs": [
+        579
+      ],
+      "resolved_answer_text": "26.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q27",
+      "question_label": "27",
+      "candidate_id": "c1357a87-9186-4b5a-8532-14da3a89ed39",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 593,
+        "end": 623
+      },
+      "resolved_answer_line_refs": [
+        593
+      ],
+      "resolved_answer_text": "27.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q30",
+      "question_label": "30",
+      "candidate_id": "b1de76ef-6017-440c-ad72-f23025a582d5",
+      "source_version_id": "235af09b-459c-49c8-af0e-589f66a9584d",
+      "file_name": "2018北京春季高中会考数学（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 691,
+        "end": 749
+      },
+      "resolved_answer_line_refs": [
+        691
+      ],
+      "resolved_answer_text": "30.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q2",
+      "question_label": "2",
+      "candidate_id": "09e92921-9175-45e9-b28f-2c987cce5e3f",
+      "source_version_id": "8a6bd0ac-1715-4e9f-9a4f-e4082eb17c96",
+      "file_name": "2018北京春季高中会考物理（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 356,
+        "end": 356
+      },
+      "resolved_answer_line_refs": [
+        368
+      ],
+      "resolved_answer_text": "2.0s时物体的速度大小 $ v=at=",
+      "answer_resolution_state": "OUTSIDE_DECLARED_ANSWER_ZONE",
+      "outside_location": [
+        "ANSWER_TABLE",
+        "ANSWER_TABLE",
+        "ANSWER_TABLE",
+        "ANSWER_TABLE"
+      ],
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q6",
+      "question_label": "6",
+      "candidate_id": "1d0429b9-5601-454f-b836-35bfb8559bd9",
+      "source_version_id": "8a6bd0ac-1715-4e9f-9a4f-e4082eb17c96",
+      "file_name": "2018北京春季高中会考物理（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 356,
+        "end": 356
+      },
+      "resolved_answer_line_refs": [
+        368
+      ],
+      "resolved_answer_text": "6.0m/s $</td><td style='text-align: center; word-wrap: break-word;'>3分2分</td><td",
+      "answer_resolution_state": "OUTSIDE_DECLARED_ANSWER_ZONE",
+      "outside_location": [
+        "ANSWER_TABLE",
+        "ANSWER_TABLE",
+        "ANSWER_TABLE",
+        "ANSWER_TABLE"
+      ],
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q8",
+      "question_label": "8",
+      "candidate_id": "510ad24a-a74f-4da3-acbc-0cbee6ae1dc3",
+      "source_version_id": "8a6bd0ac-1715-4e9f-9a4f-e4082eb17c96",
+      "file_name": "2018北京春季高中会考物理（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 356,
+        "end": 356
+      },
+      "resolved_answer_line_refs": [
+        373
+      ],
+      "resolved_answer_text": "8.0s $\\n（2）该同学的观点不正确。\\n因为书包做匀速直线运动，加速度为0，所以合力为0。假设书包受到摩擦力的作用，其合力就不可能为0，因此\\n书包不受摩",
+      "answer_resolution_state": "OUTSIDE_DECLARED_ANSWER_ZONE",
+      "outside_location": [
+        "ANSWER_TABLE",
+        "ANSWER_TABLE",
+        "ANSWER_TABLE",
+        "ANSWER_TABLE"
+      ],
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "U26-40.sub",
+      "question_label": "26",
+      "candidate_id": "9e39bffc-48f3-4678-9d5b-fca8b80768b6",
+      "source_version_id": "ad2a30c4-8559-4f00-98e7-9635acdf5c2a",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 459,
+        "end": 459
+      },
+      "resolved_answer_line_refs": [
+        459
+      ],
+      "resolved_answer_text": "26.A",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "U41-44.sub",
+      "question_label": "41",
+      "candidate_id": "8e7dabb8-7726-4444-b1c2-f059812cbd91",
+      "source_version_id": "ad2a30c4-8559-4f00-98e7-9635acdf5c2a",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 463,
+        "end": 463
+      },
+      "resolved_answer_line_refs": [
+        463
+      ],
+      "resolved_answer_text": "41.D",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "U45-48.sub",
+      "question_label": "45",
+      "candidate_id": "94d1f60b-48b3-49cd-9e9c-fb30c5a0304d",
+      "source_version_id": "ad2a30c4-8559-4f00-98e7-9635acdf5c2a",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 463,
+        "end": 463
+      },
+      "resolved_answer_line_refs": [
+        463
+      ],
+      "resolved_answer_text": "45.A",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "U49-52.sub",
+      "question_label": "49",
+      "candidate_id": "8a79562f-36c3-4418-ae61-33851841c7e3",
+      "source_version_id": "ad2a30c4-8559-4f00-98e7-9635acdf5c2a",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 463,
+        "end": 463
+      },
+      "resolved_answer_line_refs": [
+        463
+      ],
+      "resolved_answer_text": "49.A",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "U53-56.sub",
+      "question_label": "53",
+      "candidate_id": "56cbcabf-2af8-4baa-9928-08d38cfea641",
+      "source_version_id": "ad2a30c4-8559-4f00-98e7-9635acdf5c2a",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 463,
+        "end": 463
+      },
+      "resolved_answer_line_refs": [
+        463
+      ],
+      "resolved_answer_text": "53.B",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "U57-60.sub",
+      "question_label": "57",
+      "candidate_id": "8b65c9a6-4f05-46f2-ae29-ab5ee0f6e98e",
+      "source_version_id": "ad2a30c4-8559-4f00-98e7-9635acdf5c2a",
+      "file_name": "2018北京春季高中会考英语（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 465,
+        "end": 471
+      },
+      "resolved_answer_line_refs": [
+        465
+      ],
+      "resolved_answer_text": "57. Because he was not good at sports.",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q6",
+      "question_label": "6",
+      "candidate_id": "5a0d6379-e344-492f-8fa8-aeee74c1f192",
+      "source_version_id": "0111c1ea-0d03-4891-aa2c-f8b5d3453587",
+      "file_name": "2018北京春季高中会考语文（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 362,
+        "end": 362
+      },
+      "resolved_answer_line_refs": [
+        362
+      ],
+      "resolved_answer_text": "6. D（2分）",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q8",
+      "question_label": "8",
+      "candidate_id": "0ba0ad22-f522-4e69-9fba-d783727728b4",
+      "source_version_id": "0111c1ea-0d03-4891-aa2c-f8b5d3453587",
+      "file_name": "2018北京春季高中会考语文（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 366,
+        "end": 370
+      },
+      "resolved_answer_line_refs": [
+        366
+      ],
+      "resolved_answer_text": "8. 示例一：大观园中发现了香囊，王夫人十分生气，担心大观园中人杂生事，更担心贾宝玉与丫鬟们胡闹，于是命令王熙凤带人抄检大观园，并把晴雯赶出了大观园。晴雯被赶出",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "Q9",
+      "question_label": "9",
+      "candidate_id": "a40ae9b6-bd45-4bf9-8841-5862a7716653",
+      "source_version_id": "0111c1ea-0d03-4891-aa2c-f8b5d3453587",
+      "file_name": "2018北京春季高中会考语文（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 372,
+        "end": 374
+      },
+      "resolved_answer_line_refs": [
+        372
+      ],
+      "resolved_answer_text": "9. ①暖暖远人村 ②渔舟唱晚 ③雁阵惊寒",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "U14.sub",
+      "question_label": "14",
+      "candidate_id": "59816f87-abf6-4310-833b-8e32dcc3958c",
+      "source_version_id": "0111c1ea-0d03-4891-aa2c-f8b5d3453587",
+      "file_name": "2018北京春季高中会考语文（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 412,
+        "end": 426
+      },
+      "resolved_answer_line_refs": [
+        412
+      ],
+      "resolved_answer_text": "14.（1）甲：hào 乙：骼（2分）",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    },
+    {
+      "unit_id": "U15.sub",
+      "question_label": "15",
+      "candidate_id": "ee4ccd29-3e05-468d-8c9f-3475fe7e31a4",
+      "source_version_id": "0111c1ea-0d03-4891-aa2c-f8b5d3453587",
+      "file_name": "2018北京春季高中会考语文（教师版）(1).md",
+      "decision_status": "pending_review",
+      "declared_answer_range": {
+        "start": 430,
+        "end": 446
+      },
+      "resolved_answer_line_refs": [
+        430
+      ],
+      "resolved_answer_text": "15.（1）甲：chǐ 乙：漪（2分）",
+      "answer_resolution_state": "IN_DECLARED_ANSWER_ZONE",
+      "outside_location": null,
+      "source_version_binding": "SAME_SOURCE_VERSION",
+      "verified_correct": null,
+      "complete": true
+    }
+  ],
+  "q27_correction": {
+    "observed": "Q27 is MATH paper; declared answer_lines=[593,623]; resolved line 593 is IN declared range",
+    "dsh_claim": "Q27 → P1L593 → English listening material",
+    "verdict": "NOT CONFIRMED — Q27 answer 593 is math paper's own declared answer start (text '27.' heading of answer block), same source_version"
+  },
+  "run_49_vs_43": {
+    "49": "phase1_3r/fourth_cut_e2e_report.json — run WITH B3b density-max still in resolver",
+    "43": "phase1_3r/fourth_cut_rerun_baseline_e2e.json — run AFTER B3b REMOVED + migration 0011 reseed",
+    "delta": {
+      "math": "28→23",
+      "physics": "4→3",
+      "total": "49→43"
+    },
+    "cause": "different worktree code state (B3b present vs removed), not same-run DB drift",
+    "current_baseline": 43
+  },
+  "observed_vs_inferred": {
+    "OBSERVED": [
+      "43 candidates, all SAME_SOURCE_VERSION",
+      "38 IN_DECLARED_ANSWER_ZONE, 5 OUTSIDE, 0 missing, 0 ambiguous (from stored payload.answer)",
+      "5 OUTSIDE all land in another unit's answer range / packed table (OTHER_UNIT_ANSWER)",
+      "Q27 math: 593 IN declared [593,623]",
+      "English file 6 candidates all IN_DECLARED",
+      "reuse: physics Q2/Q6 line 368; English U41-56 line 463 (packed table)"
+    ],
+    "INFERRED": [
+      "OUTSIDE cases are answer-zone/read-point picking the wrong qn entry on a shared packed answer table, not cross-document binding errors"
+    ],
+    "NOT_YET_PROVEN": [
+      "that B3c is a single global answer-zone rule",
+      "that English listening Q1-Q25 are polluted (they are not in the 43 candidates)",
+      "any cross_source_version defect"
+    ]
+  }
+}

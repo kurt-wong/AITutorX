@@ -1,0 +1,2931 @@
+{
+  "source_file": "D:\\Project\\AITutor-X\\e2e_run\\phase1_1_corpus_optspans\\reslice-batch-C\\高三\\化学\\2017-2019北京高三化学上学期期末汇编：化学实验（教师版）(1).md",
+  "model": "mimo-x-pro-preview",
+  "annotation_meta": {
+    "prompt_version": "reslice-pilot-v2.1",
+    "validation_issues": [],
+    "warnings": []
+  },
+  "units": [
+    {
+      "unit_id": "Q1",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        1
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        5,
+        7
+      ],
+      "options_lines": [
+        10,
+        16
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        2518,
+        2539
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        1
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L5",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 10,
+          "end_line": 10
+        },
+        {
+          "label": "B",
+          "start_line": 12,
+          "end_line": 12
+        },
+        {
+          "label": "C",
+          "start_line": 14,
+          "end_line": 14
+        },
+        {
+          "label": "D",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ]
+    },
+    {
+      "unit_id": "Q2",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        2
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        18,
+        21
+      ],
+      "options_lines": [
+        23,
+        29
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        2541,
+        2565
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        2
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L18",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 23,
+          "end_line": 23
+        },
+        {
+          "label": "B",
+          "start_line": 25,
+          "end_line": 25
+        },
+        {
+          "label": "C",
+          "start_line": 27,
+          "end_line": 27
+        },
+        {
+          "label": "D",
+          "start_line": 29,
+          "end_line": 29
+        }
+      ]
+    },
+    {
+      "unit_id": "Q3",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        3
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        33,
+        33
+      ],
+      "options_lines": [
+        35,
+        41
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        2567,
+        2587
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        3
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L33",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 35,
+          "end_line": 35
+        },
+        {
+          "label": "B",
+          "start_line": 37,
+          "end_line": 37
+        },
+        {
+          "label": "C",
+          "start_line": 39,
+          "end_line": 39
+        },
+        {
+          "label": "D",
+          "start_line": 41,
+          "end_line": 41
+        }
+      ]
+    },
+    {
+      "unit_id": "Q4",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        4
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        43,
+        46
+      ],
+      "options_lines": [
+        48,
+        56
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        2589,
+        2618
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        4
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L43",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 48,
+          "end_line": 48
+        },
+        {
+          "label": "B",
+          "start_line": 52,
+          "end_line": 52
+        },
+        {
+          "label": "C",
+          "start_line": 54,
+          "end_line": 54
+        },
+        {
+          "label": "D",
+          "start_line": 56,
+          "end_line": 56
+        }
+      ]
+    },
+    {
+      "unit_id": "Q5",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        5
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        58,
+        61
+      ],
+      "options_lines": [
+        63,
+        66
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        2620,
+        2633
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        5
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L58",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 66,
+          "end_line": 66
+        },
+        {
+          "label": "B",
+          "start_line": 66,
+          "end_line": 66
+        },
+        {
+          "label": "C",
+          "start_line": 66,
+          "end_line": 66
+        }
+      ]
+    },
+    {
+      "unit_id": "Q6",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        6
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        68,
+        71
+      ],
+      "options_lines": [
+        73,
+        73
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        2635,
+        2653
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        6
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L68",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 73,
+          "end_line": 73
+        },
+        {
+          "label": "B",
+          "start_line": 73,
+          "end_line": 73
+        },
+        {
+          "label": "C",
+          "start_line": 73,
+          "end_line": 73
+        },
+        {
+          "label": "D",
+          "start_line": 73,
+          "end_line": 73
+        }
+      ]
+    },
+    {
+      "unit_id": "Q7",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        7
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        75,
+        80
+      ],
+      "options_lines": [
+        82,
+        90
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        2655,
+        2678
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        7
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L75",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 82,
+          "end_line": 82
+        },
+        {
+          "label": "B",
+          "start_line": 84,
+          "end_line": 84
+        },
+        {
+          "label": "C",
+          "start_line": 88,
+          "end_line": 88
+        },
+        {
+          "label": "D",
+          "start_line": 90,
+          "end_line": 90
+        }
+      ]
+    },
+    {
+      "unit_id": "Q8",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        8
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        92,
+        95
+      ],
+      "options_lines": [
+        97,
+        97
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        2680,
+        2693
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        8
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L92",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 97,
+          "end_line": 97
+        },
+        {
+          "label": "B",
+          "start_line": 97,
+          "end_line": 97
+        },
+        {
+          "label": "C",
+          "start_line": 97,
+          "end_line": 97
+        },
+        {
+          "label": "D",
+          "start_line": 97,
+          "end_line": 97
+        }
+      ]
+    },
+    {
+      "unit_id": "Q9",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        9
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        99,
+        101
+      ],
+      "options_lines": [
+        104,
+        110
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        2695,
+        2718
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        9
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L99",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 104,
+          "end_line": 104
+        },
+        {
+          "label": "B",
+          "start_line": 106,
+          "end_line": 106
+        },
+        {
+          "label": "C",
+          "start_line": 108,
+          "end_line": 108
+        },
+        {
+          "label": "D",
+          "start_line": 110,
+          "end_line": 110
+        }
+      ]
+    },
+    {
+      "unit_id": "Q10",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        10
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        112,
+        117
+      ],
+      "options_lines": [
+        119,
+        119
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        2720,
+        2733
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        10
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L112",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 119,
+          "end_line": 119
+        }
+      ]
+    },
+    {
+      "unit_id": "Q11",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        11
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        121,
+        124
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        2735,
+        2748
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        11
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L121"
+    },
+    {
+      "unit_id": "Q12",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        12
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        126,
+        129
+      ],
+      "options_lines": [
+        133,
+        133
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        2750,
+        2776
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        12
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L126",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 133,
+          "end_line": 133
+        },
+        {
+          "label": "B",
+          "start_line": 133,
+          "end_line": 133
+        },
+        {
+          "label": "C",
+          "start_line": 133,
+          "end_line": 133
+        },
+        {
+          "label": "D",
+          "start_line": 133,
+          "end_line": 133
+        }
+      ]
+    },
+    {
+      "unit_id": "Q13",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        13
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        135,
+        158
+      ],
+      "options_lines": [
+        161,
+        167
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        2780,
+        2822
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        13
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L135",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 161,
+          "end_line": 161
+        },
+        {
+          "label": "B",
+          "start_line": 163,
+          "end_line": 163
+        },
+        {
+          "label": "C",
+          "start_line": 165,
+          "end_line": 165
+        },
+        {
+          "label": "D",
+          "start_line": 167,
+          "end_line": 167
+        }
+      ]
+    },
+    {
+      "unit_id": "Q14",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        14
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        169,
+        172
+      ],
+      "options_lines": [
+        174,
+        174
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        2824,
+        2837
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        14
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L169",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 174,
+          "end_line": 174
+        },
+        {
+          "label": "B",
+          "start_line": 174,
+          "end_line": 174
+        },
+        {
+          "label": "C",
+          "start_line": 174,
+          "end_line": 174
+        },
+        {
+          "label": "D",
+          "start_line": 174,
+          "end_line": 174
+        }
+      ]
+    },
+    {
+      "unit_id": "Q15",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        15
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        176,
+        189
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        2839,
+        2855
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        15
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L176"
+    },
+    {
+      "unit_id": "Q16",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        16
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        191,
+        191
+      ],
+      "options_lines": [
+        193,
+        197
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        2857,
+        2873
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        16
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L191",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 193,
+          "end_line": 193
+        },
+        {
+          "label": "B",
+          "start_line": 195,
+          "end_line": 195
+        },
+        {
+          "label": "C",
+          "start_line": 197,
+          "end_line": 197
+        },
+        {
+          "label": "D",
+          "start_line": 197,
+          "end_line": 197
+        }
+      ]
+    },
+    {
+      "unit_id": "Q17",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        17
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        199,
+        199
+      ],
+      "options_lines": [
+        201,
+        207
+      ],
+      "extra_lines": null,
+      "answer_lines": [
+        2877,
+        2893
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        17
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L199",
+      "options": [
+        {
+          "label": "A",
+          "start_line": 201,
+          "end_line": 201
+        },
+        {
+          "label": "B",
+          "start_line": 203,
+          "end_line": 203
+        },
+        {
+          "label": "C",
+          "start_line": 205,
+          "end_line": 205
+        },
+        {
+          "label": "D",
+          "start_line": 207,
+          "end_line": 207
+        }
+      ]
+    },
+    {
+      "unit_id": "Q18",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        18
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        209,
+        217
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        2895,
+        2906
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        18
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L209"
+    },
+    {
+      "unit_id": "Q19",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        19
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        219,
+        250
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        2910,
+        2953
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        19
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L219"
+    },
+    {
+      "unit_id": "Q20",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        20
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        252,
+        260
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        2955,
+        2973
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        20
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L252"
+    },
+    {
+      "unit_id": "Q21",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        21
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        262,
+        264
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        2975,
+        3005
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        21
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L262"
+    },
+    {
+      "unit_id": "Q22",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        22
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        266,
+        291
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3007,
+        3028
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        22
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L266"
+    },
+    {
+      "unit_id": "Q23",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        23
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        293,
+        311
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3030,
+        3058
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        23
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L293"
+    },
+    {
+      "unit_id": "Q24",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        24
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        313,
+        318
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3060,
+        3075
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        24
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L313"
+    },
+    {
+      "unit_id": "Q25",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        25
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        320,
+        331
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3077,
+        3102
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        25
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L320"
+    },
+    {
+      "unit_id": "Q26",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        26
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        333,
+        335
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3104,
+        3110
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        26
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L333"
+    },
+    {
+      "unit_id": "Q27",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        27
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        337,
+        355
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3112,
+        3137
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        27
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L337"
+    },
+    {
+      "unit_id": "Q28",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        28
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        357,
+        389
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3139,
+        3181
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        28
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L357"
+    },
+    {
+      "unit_id": "Q29",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        29
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        391,
+        412
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3183,
+        3212
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        29
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L391"
+    },
+    {
+      "unit_id": "Q30",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        30
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        414,
+        422
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3214,
+        3227
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        30
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L414"
+    },
+    {
+      "unit_id": "Q31",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        31
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        424,
+        451
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3231,
+        3269
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        31
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L424"
+    },
+    {
+      "unit_id": "Q32",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        32
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        453,
+        461
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3271,
+        3306
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        32
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L453"
+    },
+    {
+      "unit_id": "Q33",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        33
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        463,
+        480
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3308,
+        3337
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        33
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L463"
+    },
+    {
+      "unit_id": "Q34",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        34
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        482,
+        492
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3339,
+        3352
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        34
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L482"
+    },
+    {
+      "unit_id": "Q35",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        35
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        494,
+        502
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3354,
+        3374
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        35
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L494"
+    },
+    {
+      "unit_id": "Q36",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        36
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        504,
+        506
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3376,
+        3382
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        36
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L504"
+    },
+    {
+      "unit_id": "Q37",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        37
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        508,
+        516
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3384,
+        3397
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        37
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L508"
+    },
+    {
+      "unit_id": "Q38",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        38
+      ],
+      "original_question_type": "single_choice",
+      "stem_lines": [
+        518,
+        526
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3399,
+        3417
+      ],
+      "explanation_lines": null,
+      "section_ref": "S1",
+      "section": "一 ．选择题",
+      "printed_number": [
+        38
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L518"
+    },
+    {
+      "unit_id": "Q39",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        39
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        530,
+        580
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3421,
+        3494
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "二、 实验题",
+      "printed_number": [
+        39
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L530"
+    },
+    {
+      "unit_id": "Q40",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        40
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        582,
+        629
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3496,
+        3583
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "二、 实验题",
+      "printed_number": [
+        40
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L582"
+    },
+    {
+      "unit_id": "Q41",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        41
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        631,
+        680
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3585,
+        3655
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "二、 实验题",
+      "printed_number": [
+        41
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L631"
+    },
+    {
+      "unit_id": "Q42",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        42
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        682,
+        714
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3657,
+        3720
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "二、 实验题",
+      "printed_number": [
+        42
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L682"
+    },
+    {
+      "unit_id": "Q43",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        43
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        716,
+        757
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3722,
+        3795
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "二、 实验题",
+      "printed_number": [
+        43
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L716"
+    },
+    {
+      "unit_id": "Q44",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        44
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        759,
+        792
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3797,
+        3870
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "二、 实验题",
+      "printed_number": [
+        44
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L759"
+    },
+    {
+      "unit_id": "Q45",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        45
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        794,
+        829
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3872,
+        3923
+      ],
+      "explanation_lines": null,
+      "section_ref": "S2",
+      "section": "二、 实验题",
+      "printed_number": [
+        45
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L794"
+    },
+    {
+      "unit_id": "Q46",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        46
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        831,
+        867
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3927,
+        3984
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "猜想2：黑色沉淀是FeS",
+      "printed_number": [
+        46
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L831"
+    },
+    {
+      "unit_id": "Q47",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        47
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        871,
+        888
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        3986,
+        4029
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "猜想2：黑色沉淀是FeS",
+      "printed_number": [
+        47
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L871"
+    },
+    {
+      "unit_id": "Q48",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        48
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        890,
+        923
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        4031,
+        4103
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "猜想2：黑色沉淀是FeS",
+      "printed_number": [
+        48
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L890"
+    },
+    {
+      "unit_id": "Q49",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        49
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        926,
+        954
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        4105,
+        4149
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "猜想2：黑色沉淀是FeS",
+      "printed_number": [
+        49
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L926"
+    },
+    {
+      "unit_id": "Q50",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        50
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        956,
+        999
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        4151,
+        4243
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "猜想2：黑色沉淀是FeS",
+      "printed_number": [
+        50
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L956"
+    },
+    {
+      "unit_id": "Q51",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        51
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1001,
+        1031
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        4245,
+        4299
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "猜想2：黑色沉淀是FeS",
+      "printed_number": [
+        51
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1001"
+    },
+    {
+      "unit_id": "Q52",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        52
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1033,
+        1074
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        4301,
+        4364
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "猜想2：黑色沉淀是FeS",
+      "printed_number": [
+        52
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1033"
+    },
+    {
+      "unit_id": "Q53",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        53
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1076,
+        1110
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        4366,
+        4419
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "猜想2：黑色沉淀是FeS",
+      "printed_number": [
+        53
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1076"
+    },
+    {
+      "unit_id": "Q54",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        54
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1112,
+        1169
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        4421,
+        4518
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "猜想2：黑色沉淀是FeS",
+      "printed_number": [
+        54
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1112"
+    },
+    {
+      "unit_id": "Q55",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        55
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1172,
+        1220
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        4520,
+        4584
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "猜想2：黑色沉淀是FeS",
+      "printed_number": [
+        55
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1172"
+    },
+    {
+      "unit_id": "Q56",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        56
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1222,
+        1249
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        4586,
+        4639
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "猜想2：黑色沉淀是FeS",
+      "printed_number": [
+        56
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1222"
+    },
+    {
+      "unit_id": "Q57",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        57
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1251,
+        1273
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        4641,
+        4677
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "猜想2：黑色沉淀是FeS",
+      "printed_number": [
+        57
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1251"
+    },
+    {
+      "unit_id": "Q58",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        58
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1275,
+        1308
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        4679,
+        4734
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "猜想2：黑色沉淀是FeS",
+      "printed_number": [
+        58
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1275"
+    },
+    {
+      "unit_id": "Q59",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        59
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1310,
+        1363
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        4738,
+        4826
+      ],
+      "explanation_lines": null,
+      "section_ref": "S3",
+      "section": "猜想2：黑色沉淀是FeS",
+      "printed_number": [
+        59
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1310"
+    },
+    {
+      "unit_id": "Q60",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        60
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1365,
+        1416
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        4828,
+        4894
+      ],
+      "explanation_lines": null,
+      "section_ref": "S4",
+      "section": "Ⅱ实验二 氯酸钾性质研究",
+      "printed_number": [
+        60
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1365"
+    },
+    {
+      "unit_id": "Q61",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        61
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1418,
+        1463
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        4896,
+        4967
+      ],
+      "explanation_lines": null,
+      "section_ref": "S4",
+      "section": "Ⅱ实验二 氯酸钾性质研究",
+      "printed_number": [
+        61
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1418"
+    },
+    {
+      "unit_id": "Q62",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        62
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1466,
+        1511
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        4969,
+        5040
+      ],
+      "explanation_lines": null,
+      "section_ref": "S4",
+      "section": "Ⅱ实验二 氯酸钾性质研究",
+      "printed_number": [
+        62
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1466"
+    },
+    {
+      "unit_id": "Q63",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        63
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1513,
+        1554
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        5042,
+        5100
+      ],
+      "explanation_lines": null,
+      "section_ref": "S4",
+      "section": "Ⅱ实验二 氯酸钾性质研究",
+      "printed_number": [
+        63
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1513"
+    },
+    {
+      "unit_id": "Q64",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        64
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1558,
+        1586
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        5104,
+        5160
+      ],
+      "explanation_lines": null,
+      "section_ref": "S5",
+      "section": "三 ．解答题",
+      "printed_number": [
+        64
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1558"
+    },
+    {
+      "unit_id": "Q65",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        65
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1588,
+        1628
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        5162,
+        5240
+      ],
+      "explanation_lines": null,
+      "section_ref": "S5",
+      "section": "三 ．解答题",
+      "printed_number": [
+        65
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1588"
+    },
+    {
+      "unit_id": "Q66",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        66
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1630,
+        1664
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        5242,
+        5306
+      ],
+      "explanation_lines": null,
+      "section_ref": "S5",
+      "section": "三 ．解答题",
+      "printed_number": [
+        66
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1630"
+    },
+    {
+      "unit_id": "Q67",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        67
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1666,
+        1718
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        5308,
+        5386
+      ],
+      "explanation_lines": null,
+      "section_ref": "S5",
+      "section": "三 ．解答题",
+      "printed_number": [
+        67
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1666"
+    },
+    {
+      "unit_id": "Q68",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        68
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1720,
+        1747
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        5388,
+        5445
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "Ⅲ. 浸取剂再生",
+      "printed_number": [
+        68
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1720"
+    },
+    {
+      "unit_id": "Q69",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        69
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1749,
+        1792
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        5447,
+        5515
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "Ⅲ. 浸取剂再生",
+      "printed_number": [
+        69
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1749"
+    },
+    {
+      "unit_id": "Q70",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        70
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1794,
+        1837
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        5517,
+        5584
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "Ⅲ. 浸取剂再生",
+      "printed_number": [
+        70
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1794"
+    },
+    {
+      "unit_id": "Q71",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        71
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1839,
+        1872
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        5586,
+        5649
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "Ⅲ. 浸取剂再生",
+      "printed_number": [
+        71
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1839"
+    },
+    {
+      "unit_id": "Q72",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        72
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1874,
+        1901
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        5651,
+        5690
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "Ⅲ. 浸取剂再生",
+      "printed_number": [
+        72
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1874"
+    },
+    {
+      "unit_id": "Q73",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        73
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1903,
+        1951
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        5692,
+        5760
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "Ⅲ. 浸取剂再生",
+      "printed_number": [
+        73
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1903"
+    },
+    {
+      "unit_id": "Q74",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        74
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1956,
+        1973
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        5762,
+        5792
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "Ⅲ. 浸取剂再生",
+      "printed_number": [
+        74
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1956"
+    },
+    {
+      "unit_id": "Q75",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        75
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        1976,
+        2003
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        5794,
+        5834
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "Ⅲ. 浸取剂再生",
+      "printed_number": [
+        75
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L1976"
+    },
+    {
+      "unit_id": "Q76",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        76
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        2005,
+        2028
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        5836,
+        5884
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "Ⅲ. 浸取剂再生",
+      "printed_number": [
+        76
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L2005"
+    },
+    {
+      "unit_id": "Q77",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        77
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        2032,
+        2049
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        5886,
+        5921
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "Ⅲ. 浸取剂再生",
+      "printed_number": null,
+      "printed_provenance": "unknown",
+      "basis": "unverified",
+      "basis_evidence": ""
+    },
+    {
+      "unit_id": "Q78",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        78
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        2052,
+        2074
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        5923,
+        5985
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "Ⅲ. 浸取剂再生",
+      "printed_number": [
+        78
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L2052"
+    },
+    {
+      "unit_id": "Q79",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        79
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        2086,
+        2123
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        5987,
+        6048
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "Ⅲ. 浸取剂再生",
+      "printed_number": [
+        79
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L2086"
+    },
+    {
+      "unit_id": "Q80",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        80
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        2125,
+        2176
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6050,
+        6135
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "Ⅲ. 浸取剂再生",
+      "printed_number": [
+        80
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L2125"
+    },
+    {
+      "unit_id": "Q81",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        81
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        2178,
+        2223
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6137,
+        6206
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "Ⅲ. 浸取剂再生",
+      "printed_number": [
+        81
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L2178"
+    },
+    {
+      "unit_id": "Q82",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        82
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        2225,
+        2264
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6208,
+        6264
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "Ⅲ. 浸取剂再生",
+      "printed_number": [
+        82
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L2225"
+    },
+    {
+      "unit_id": "Q83",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        83
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        2266,
+        2283
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6266,
+        6303
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "Ⅲ. 浸取剂再生",
+      "printed_number": [
+        83
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L2266"
+    },
+    {
+      "unit_id": "Q84",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        84
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        2285,
+        2331
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6307,
+        6389
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "Ⅲ. 浸取剂再生",
+      "printed_number": [
+        84
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L2285"
+    },
+    {
+      "unit_id": "Q85",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        85
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        2333,
+        2385
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6391,
+        6489
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "Ⅲ. 浸取剂再生",
+      "printed_number": [
+        85
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L2333"
+    },
+    {
+      "unit_id": "Q86",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        86
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        2389,
+        2427
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6491,
+        6552
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "Ⅲ. 浸取剂再生",
+      "printed_number": [
+        86
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L2389"
+    },
+    {
+      "unit_id": "Q87",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        87
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        2429,
+        2452
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6554,
+        6609
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "Ⅲ. 浸取剂再生",
+      "printed_number": [
+        87
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L2429"
+    },
+    {
+      "unit_id": "Q88",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        88
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        2454,
+        2482
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6611,
+        6668
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "Ⅲ. 浸取剂再生",
+      "printed_number": [
+        88
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L2454"
+    },
+    {
+      "unit_id": "Q89",
+      "unit_type": "standalone_question",
+      "question_numbers": [
+        89
+      ],
+      "original_question_type": "short_answer",
+      "stem_lines": [
+        2485,
+        2508
+      ],
+      "options_lines": null,
+      "extra_lines": null,
+      "answer_lines": [
+        6672,
+        6715
+      ],
+      "explanation_lines": null,
+      "section_ref": "S8",
+      "section": "Ⅲ. 浸取剂再生",
+      "printed_number": [
+        89
+      ],
+      "printed_provenance": "source_line",
+      "basis": "printed_as_is",
+      "basis_evidence": "题干首行印刷题号 L2485"
+    }
+  ],
+  "identity_version": 2,
+  "sections": [
+    {
+      "id": "S0",
+      "title": "2017-2019 北京高三化学上学期期末汇编：化学实验",
+      "ordinal": 1,
+      "start_line": 1,
+      "end_line": 2,
+      "occurrence": 1
+    },
+    {
+      "id": "S1",
+      "title": "一 ．选择题",
+      "ordinal": 2,
+      "start_line": 3,
+      "end_line": 527,
+      "occurrence": 1
+    },
+    {
+      "id": "S2",
+      "title": "二、 实验题",
+      "ordinal": 3,
+      "start_line": 528,
+      "end_line": 808,
+      "occurrence": 1
+    },
+    {
+      "id": "S3",
+      "title": "猜想2：黑色沉淀是FeS",
+      "ordinal": 4,
+      "start_line": 809,
+      "end_line": 1351,
+      "occurrence": 1
+    },
+    {
+      "id": "S4",
+      "title": "Ⅱ实验二 氯酸钾性质研究",
+      "ordinal": 5,
+      "start_line": 1352,
+      "end_line": 1555,
+      "occurrence": 1
+    },
+    {
+      "id": "S5",
+      "title": "三 ．解答题",
+      "ordinal": 6,
+      "start_line": 1556,
+      "end_line": 1678,
+      "occurrence": 1
+    },
+    {
+      "id": "S6",
+      "title": "I. 浸出氯化银",
+      "ordinal": 7,
+      "start_line": 1679,
+      "end_line": 1684,
+      "occurrence": 1
+    },
+    {
+      "id": "S7",
+      "title": "Ⅱ. 酸化沉银",
+      "ordinal": 8,
+      "start_line": 1685,
+      "end_line": 1715,
+      "occurrence": 1
+    },
+    {
+      "id": "S8",
+      "title": "Ⅲ. 浸取剂再生",
+      "ordinal": 9,
+      "start_line": 1716,
+      "end_line": 2486,
+      "occurrence": 1
+    },
+    {
+      "id": "S9",
+      "title": "I. 理论预测",
+      "ordinal": 10,
+      "start_line": 2487,
+      "end_line": 2494,
+      "occurrence": 1
+    },
+    {
+      "id": "S10",
+      "title": "Ⅱ. 进行实验",
+      "ordinal": 11,
+      "start_line": 2495,
+      "end_line": 2511,
+      "occurrence": 1
+    },
+    {
+      "id": "S11",
+      "title": "2017-2019 北京高三化学上学期期末汇编：化学实验",
+      "ordinal": 12,
+      "start_line": 2512,
+      "end_line": 2515,
+      "occurrence": 2
+    },
+    {
+      "id": "S12",
+      "title": "一 ．选择题",
+      "ordinal": 13,
+      "start_line": 2516,
+      "end_line": 3418,
+      "occurrence": 2
+    },
+    {
+      "id": "S13",
+      "title": "二、 实验题",
+      "ordinal": 14,
+      "start_line": 3419,
+      "end_line": 4771,
+      "occurrence": 2
+    },
+    {
+      "id": "S14",
+      "title": "Ⅱ实验二 氯酸钾性质研究",
+      "ordinal": 15,
+      "start_line": 4772,
+      "end_line": 5101,
+      "occurrence": 2
+    },
+    {
+      "id": "S15",
+      "title": "三 ．解答题",
+      "ordinal": 16,
+      "start_line": 5102,
+      "end_line": 5328,
+      "occurrence": 2
+    },
+    {
+      "id": "S16",
+      "title": "Ⅱ. 酸化沉银",
+      "ordinal": 17,
+      "start_line": 5329,
+      "end_line": 5359,
+      "occurrence": 2
+    },
+    {
+      "id": "S17",
+      "title": "Ⅲ. 浸取剂再生",
+      "ordinal": 18,
+      "start_line": 5360,
+      "end_line": 6673,
+      "occurrence": 2
+    },
+    {
+      "id": "S18",
+      "title": "I. 理论预测",
+      "ordinal": 19,
+      "start_line": 6674,
+      "end_line": 6679,
+      "occurrence": 2
+    },
+    {
+      "id": "S19",
+      "title": "Ⅱ. 进行实验",
+      "ordinal": 20,
+      "start_line": 6680,
+      "end_line": 6717,
+      "occurrence": 2
+    }
+  ],
+  "source_content_sha256": "65f9260e0134b1b4b36966e1118d076dc644c40f8303aebb084e377a71785aec"
+}

@@ -1,0 +1,2788 @@
+{
+  "metric_scope": "root",
+  "note": "Only non-auto ready roots. Level-1 = first failing contract in answer/grammar pipeline. 'answer_not_expressible' is an EXIT label; this split names the FIRST failing contract layer.",
+  "totals_level1": {
+    "C": 36,
+    "gate_reason_mentions_grammar": 77,
+    "D": 44,
+    "PASS": 2
+  },
+  "totals_level2_for_C": {
+    "C-unknown_form: token not matching _SC_FORMS_RE / _MC_TOKEN_RE": 11,
+    "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)": 25
+  },
+  "n_roots": 82,
+  "rows": [
+    {
+      "paper": "化学",
+      "root": "Q23",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q23' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q23",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "D",
+          "answer_text_len": 1,
+          "span_id": "sp-Q23.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=513-513",
+            "structured_answer_table",
+            "qn=23",
+            "cell=D"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line_character",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "D",
+          "level2": "C-unknown_form: token not matching _SC_FORMS_RE / _MC_TOKEN_RE"
+        }
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "U51",
+      "unit_type": "composite_unit",
+      "decision": "rejected",
+      "gate_reasons": [
+        "leaf 'U51.sub' has no non-empty stem text",
+        "leaf 'U51.sub' answer span 'sp-U51.sub.answer' overlaps explanation region at lines ['P1L989', 'P1L9"
+      ],
+      "has_grammar_reason": false,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "U51.sub",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "51. 【答案】（1）特点：国家大政由政事堂集体讨论决定，宰相之间相互牵制，皇帝和宰相都不能单独裁决。\n\n（2）权力限制了国王的行政权，军权、司法权和宗教信仰权、作用防止国王专权，为君主立宪制提供了法律保障。\n\n（3）成果：颁布了《中华人民共和国宪法》，确立了人民代表大会制度、民族区域自治制度，意义：推动社会主义事业发",
+          "answer_text_len": 175,
+          "span_id": "sp-U51.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=989-993",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "【答案】（1）特点：国家大政由政事堂集体讨论决定，宰相之间相互牵制，皇帝和宰相都不能单独裁决。\n\n（2）权力限制了国王的行政权，军权、司法权和宗教信仰权、作用防"
+        }
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "U52",
+      "unit_type": "composite_unit",
+      "decision": "rejected",
+      "gate_reasons": [
+        "leaf 'U52.sub' has no non-empty stem text",
+        "leaf 'U52.sub' answer span 'sp-U52.sub.answer' overlaps explanation region at lines ['P1L1007', 'P1L"
+      ],
+      "has_grammar_reason": false,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "U52.sub",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "52. 【答案】（1）特点：海外贸易繁荣：贸易物品丰富，品种多样：地区广泛，涉及亚非欧等国家：进出口双向贸易活跃。\n\n（2）变化：鸦片战争后丝、茶等农产品出口量持续增加。\n\n原因：鸦片战争后中国与西方列强签订一系列不平等条约，中国被迫卷入资本主义世界市场列强掠夺原料和农产品。操纵丝、茶市场。\n\n（3）举措：通过成立国际",
+          "answer_text_len": 255,
+          "span_id": "sp-U52.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=1007-1015",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "【答案】（1）特点：海外贸易繁荣：贸易物品丰富，品种多样：地区广泛，涉及亚非欧等国家：进出口双向贸易活跃。\n\n（2）变化：鸦片战争后丝、茶等农产品出口量持续增加"
+        }
+      ]
+    },
+    {
+      "paper": "历史",
+      "root": "U53",
+      "unit_type": "composite_unit",
+      "decision": "rejected",
+      "gate_reasons": [
+        "leaf 'U53.sub' has no non-empty stem text",
+        "leaf 'U53.sub' answer span 'sp-U53.sub.answer' overlaps explanation region at lines ['P1L1025', 'P1L"
+      ],
+      "has_grammar_reason": false,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "U53.sub",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "53. 【答案】（1）背景：随着民主政体的兴起，演说能力日益重要：广博的知识是提高演说能力的基础，人们需要接受更高层次的教育。\n\n价值: 强调人是认识客观事物的主体，树立人的尊严，对文艺复兴产生了重要影响。\n\n（2）图 A:19 世纪 60 年代，洋务派以学习西方先进科学技术为目的，开设了一批新式学堂。京师同文馆是洋务",
+          "answer_text_len": 397,
+          "span_id": "sp-U53.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=1025-1033",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "【答案】（1）背景：随着民主政体的兴起，演说能力日益重要：广博的知识是提高演说能力的基础，人们需要接受更高层次的教育。\n\n价值: 强调人是认识客观事物的主体，树"
+        }
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U16-17",
+      "unit_type": "composite_unit",
+      "decision": "rejected",
+      "gate_reasons": [
+        "leaf 'U16-17.sub' has no non-empty stem text",
+        "leaf 'U16-17.sub' answer span 'sp-U16-17.sub.answer' overlaps question region at lines ['P1L601'] (r"
+      ],
+      "has_grammar_reason": false,
+      "root_level1": "PASS",
+      "root_first_failing": null,
+      "leaves": [
+        {
+          "leaf": "U16-17.sub",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "C",
+          "answer_text_len": 1,
+          "span_id": "sp-U16-17.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=601-601",
+            "structured_answer_table",
+            "qn=16",
+            "cell=C"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line_character",
+          "level1": "PASS",
+          "first_failing_contract": null,
+          "grammar_path": "verify()=True",
+          "cleaned": "C"
+        }
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U26-29",
+      "unit_type": "composite_unit",
+      "decision": "rejected",
+      "gate_reasons": [
+        "leaf 'U26-29.sub' has no non-empty stem text",
+        "leaf 'U26-29.sub' answer span 'sp-U26-29.sub.answer' overlaps question region at lines ['P1L601'] (r"
+      ],
+      "has_grammar_reason": false,
+      "root_level1": "PASS",
+      "root_first_failing": null,
+      "leaves": [
+        {
+          "leaf": "U26-29.sub",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "C",
+          "answer_text_len": 1,
+          "span_id": "sp-U26-29.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=601-601",
+            "structured_answer_table",
+            "qn=26",
+            "cell=C"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line_character",
+          "level1": "PASS",
+          "first_failing_contract": null,
+          "grammar_path": "verify()=True",
+          "cleaned": "C"
+        }
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U-P2-1",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'U-P2-1.sub' type 'short_answer' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "U-P2-1.sub",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "1. 本题共10分。每空1分。\n\n(1) 赤道 $ (0^{\\circ} $ 纬线 $ 从赤道向南北两极递减\n\n(2) 6月22日前后 晨昏线 极昼\n\n(3) C\n\n(4) 北 ②\n\n(5) 测量物体与地面垂直 测量时间为当地正午等（合理即可得分）",
+          "answer_text_len": 124,
+          "span_id": "sp-U-P2-1.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=605-615",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "本题共10分。每空1分。\n\n(1) 赤道 $ (0^{\\circ} $ 纬线 $ 从赤道向南北两极递减\n\n(2) 6月22日前后 晨昏线 极昼\n\n(3) C\n\n"
+        }
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U-P2-2",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'U-P2-2.sub' type 'short_answer' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "U-P2-2.sub",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "2. 本题共10分。每空1分。第（3）小题选择填空2分，选对一项得1分，多选则该小题不得分。第（4）小题2分。\n\n（1）高 晴朗 偏北风\n\n（2）较小 等压线稀疏，水平气压梯度力小 冷锋\n\n(3) CD\n\n---\n\n（4）能辩证地表达观点并说明理由，合理即可得分，共2分。如：短期看，治理雾霾需要工厂停产、限产，制约经济",
+          "answer_text_len": 244,
+          "span_id": "sp-U-P2-2.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=617-629",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "本题共10分。每空1分。第（3）小题选择填空2分，选对一项得1分，多选则该小题不得分。第（4）小题2分。\n\n（1）高 晴朗 偏北风\n\n（2）较小 等压线稀疏，水"
+        }
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U-P2-3",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'U-P2-3.sub' type 'short_answer' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "U-P2-3.sub",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "3. 本题共10分。每空1分。\n\n（1）以山地、丘陵为主 亚热带季风气候，夏季高温多雨，冬季温和少雨（水资源丰富、土壤贫瘠等）\n\n（2）矿产资源丰富 劳动力充足（交通便利等） 造成环境污染 生态破坏（水土流失等）\n\n（3）下渗 地表径流（地下径流等）\n\n（4）修复矿山环境 发展脐橙种植（治理水土流失等）",
+          "answer_text_len": 152,
+          "span_id": "sp-U-P2-3.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=631-639",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "本题共10分。每空1分。\n\n（1）以山地、丘陵为主 亚热带季风气候，夏季高温多雨，冬季温和少雨（水资源丰富、土壤贫瘠等）\n\n（2）矿产资源丰富 劳动力充足（交通"
+        }
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U-P2-4",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'U-P2-4.sub' type 'short_answer' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "U-P2-4.sub",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "4. 本题共10分。每空1分。第（2）小题选择填空2分，选对一项得1分，多选则该小题不得分。\n\n（1）公路运输 铁路运输\n\n(2) AD\n\n（3）邻近北京，科技发达 有机场、高速公路，交通便利\n\n政策支持（资金充足等）\n\n（4）促进经济发展 增加就业机会 提高城市化水平（完善基础设施等）",
+          "answer_text_len": 144,
+          "span_id": "sp-U-P2-4.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=641-651",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "本题共10分。每空1分。第（2）小题选择填空2分，选对一项得1分，多选则该小题不得分。\n\n（1）公路运输 铁路运输\n\n(2) AD\n\n（3）邻近北京，科技发达 "
+        }
+      ]
+    },
+    {
+      "paper": "地理",
+      "root": "U-P2-5",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'U-P2-5.sub' type 'short_answer' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "U-P2-5.sub",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "5. 本题共10分。每空1分。第（2）小题选择填空3分，选对一项得1分，多选则该小题不得分。\n\n（1）发电 供燃气 供热\n\n（2）ABC\n\n（3）生态 经济 社会\n",
+          "answer_text_len": 82,
+          "span_id": "sp-U-P2-5.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=653-660",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "本题共10分。每空1分。第（2）小题选择填空3分，选对一项得1分，多选则该小题不得分。\n\n（1）发电 供燃气 供热\n\n（2）ABC\n\n（3）生态 经济 社会"
+        }
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q29",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q29' type 'short_answer' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q29",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "29. A 区适合摆放蔬菜水果；B 区适合摆放服装；C 区适合摆放洗涤用品。\n\n摆放理由评分观察视角：从食品安全、不同种类商品间的关系、增加销售量、方便消费者购买、消费心理等角度说明。\n\n水平四摆放方案合理，理论运用和理由分析准确。（5分）\n\n水平三摆放方案部分合理，理论运用和理由分析比较准确。（3～4分）\n\n水平二摆",
+          "answer_text_len": 355,
+          "span_id": "sp-Q29.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=558-572",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "A 区适合摆放蔬菜水果；B 区适合摆放服装；C 区适合摆放洗涤用品。\n\n摆放理由评分观察视角：从食品安全、不同种类商品间的关系、增加销售量、方便消费者购买、消费"
+        }
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q30",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q30' type 'short_answer' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q30",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "30\\. 本题为开放性试题，符合要求，言之有理即可。\n\n水平四 哲学观点选用准确，结合实际分析条理清楚，逻辑严密。（5分）\n\n水平三 哲学观点选用比较准确，结合实际分析比较有条理。（3～4分）\n\n水平二罗列哲学观点，没有结合实际分析；或有分析但与哲理不相符合。（1～2分）\n\n水平一 答非所问，观点错误，或没有应答。（0",
+          "answer_text_len": 274,
+          "span_id": "sp-Q30.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=574-590",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "\\. 本题为开放性试题，符合要求，言之有理即可。\n\n水平四 哲学观点选用准确，结合实际分析条理清楚，逻辑严密。（5分）\n\n水平三 哲学观点选用比较准确，结合实际"
+        }
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q31",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q31' type 'short_answer' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q31",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "31．评分观察视角：本题可从政府相关部门、人大代表、政协委员、居委会、社区居民、商户、志愿者等角度提出建议，知识运用准确，建议合理可行。（5分）\n\n示例：\n\n居委会发挥基层群众自治组织的作用，制定维护环境文明的公约等。\n\n街巷商户自觉履行维护公共利益的义务，做好门前“三包”，维护门前的环境整洁。",
+          "answer_text_len": 148,
+          "span_id": "sp-Q31.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=594-600",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "评分观察视角：本题可从政府相关部门、人大代表、政协委员、居委会、社区居民、商户、志愿者等角度提出建议，知识运用准确，建议合理可行。（5分）\n\n示例：\n\n居委会发"
+        }
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q32",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q32' type 'short_answer' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q32",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "32. 评分观察视角：从中华文化、优秀传统文化、文化创新、文化自信等角度，合乎逻辑地作出分析。水平四 能够对应所选观点，准确运用相关理论，分析条理清楚，逻辑严密。（5分）\n\n水平三 能够对应所选观点，比较准确地运用相关理论，分析比较有条理。（3～4分）\n\n水平二 理论运用存在欠缺，能对所选观点作出一定分析。（1～2分）",
+          "answer_text_len": 413,
+          "span_id": "sp-Q32.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=602-616",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "评分观察视角：从中华文化、优秀传统文化、文化创新、文化自信等角度，合乎逻辑地作出分析。水平四 能够对应所选观点，准确运用相关理论，分析条理清楚，逻辑严密。（5分"
+        }
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q33",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q33' type 'fill_in' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'fill_in' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q33",
+          "qtype": "fill_in",
+          "canonical_qtype": "fill_in",
+          "answer_text_preview": "33\\. 中国共产党领导（2分）",
+          "answer_text_len": 16,
+          "span_id": "sp-Q33.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=620-620",
+            "qn=33",
+            "single-line entry"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line_character",
+          "level1": "D",
+          "first_failing_contract": "qtype 'fill_in' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "\\. 中国共产党领导（2分）"
+        }
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q34",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q34' type 'fill_in' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'fill_in' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q34",
+          "qtype": "fill_in",
+          "canonical_qtype": "fill_in",
+          "answer_text_preview": "34. 本题为开放性试题，符合题目要求即可。如春节、中秋节、中华人民共和国国庆日、国家宪法日等（2分）",
+          "answer_text_len": 51,
+          "span_id": "sp-Q34.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=622-622",
+            "qn=34",
+            "single-line entry"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line_character",
+          "level1": "D",
+          "first_failing_contract": "qtype 'fill_in' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "本题为开放性试题，符合题目要求即可。如春节、中秋节、中华人民共和国国庆日、国家宪法日等（2分）"
+        }
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q35",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q35' type 'fill_in' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'fill_in' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q35",
+          "qtype": "fill_in",
+          "canonical_qtype": "fill_in",
+          "answer_text_preview": "35\\. 增加就业（2分）",
+          "answer_text_len": 13,
+          "span_id": "sp-Q35.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=624-624",
+            "qn=35",
+            "single-line entry"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line_character",
+          "level1": "D",
+          "first_failing_contract": "qtype 'fill_in' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "\\. 增加就业（2分）"
+        }
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q36",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q36' type 'short_answer' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q36",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "36. （1）C—D—A—B—E（2分）\n\n（2）系统优化（整体与部分的辩证关系、量变与质变的辩证关系）（2分）",
+          "answer_text_len": 56,
+          "span_id": "sp-Q36.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=626-628",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "（1）C—D—A—B—E（2分）\n\n（2）系统优化（整体与部分的辩证关系、量变与质变的辩证关系）（2分）"
+        }
+      ]
+    },
+    {
+      "paper": "政治",
+      "root": "Q37",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q37.sub' type 'short_answer' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q37.sub",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "37. （1）①B②A ③C（各1分，共3分）\n\n（2）评分观察视角：从我国经济制度、社会主义市场经济体制、对外开放、经济全球化等角度，分析改革开放取得成就的原因。（3分）\n\n示例:\n\n建立和发展社会主义市场经济，充分发挥市场在资源配置中的作用，提高劳动生产率，实现资源优化配置，推动经济持续健康发展。\n\n（3）政府转变",
+          "answer_text_len": 434,
+          "span_id": "sp-Q37.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=632-650",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "（1）①B②A ③C（各1分，共3分）\n\n（2）评分观察视角：从我国经济制度、社会主义市场经济体制、对外开放、经济全球化等角度，分析改革开放取得成就的原因。（3"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q1",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q1' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q1",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "【考点】三角函数的周期性及其求法.\n\n【分析】由条件利用函数  $ y = A \\sin(\\omega x + \\phi) $ 的周期为  $ \\frac{2\\pi}{\\omega} $，求得结果.\n\n【解答】解：函数  $ y=3\\sin x+2 $ 的最小正周期为  $ 2\\pi $\n\n故选：D.",
+          "answer_text_len": 151,
+          "span_id": "sp-Q1.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=200-206",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "【考点】三角函数的周期性及其求法.\n\n【分析】由条件利用函数  $ y = A \\sin(\\omega x + \\phi) $ 的周期为  $ \\frac{2\\pi}{\\omega} $，求得结果.\n\n【解答】解：函数  $ y=3\\sin",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q2",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q2' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q2",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "2.\n\n【考点】集合的包含关系判断及应用.\n\n【分析】由  $ A \\cap B = A $，得出  $ A \\subseteq B $，即可得出 m.\n\n【解答】解：∵A∩B=A，\n\n $$ \\therefore A\\subseteq B. $$ \n\n $ \\because A=\\{1,2\\}, B=\\{1,m,3\\",
+          "answer_text_len": 195,
+          "span_id": "sp-Q2.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=208-222",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "【考点】集合的包含关系判断及应用.\n\n【分析】由  $ A \\cap B = A $，得出  $ A \\subseteq B $，即可得出 m.\n\n【解答】解：∵A∩B=A，\n\n $$ \\therefore A\\subseteq B. $$",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q3",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q3' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q3",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "3.\n\n【考点】平面向量的坐标运算.\n\n【分析】根据向量的坐标的运算法则计算即可.\n\n【解答】解：向量  $ \\overrightarrow{a}=(1,2) $， $ \\overrightarrow{b}=(4,3) $，\n\n则于  $ \\overrightarrow{a}-2\\overrightarrow{b}=(",
+          "answer_text_len": 209,
+          "span_id": "sp-Q3.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=224-232",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "【考点】平面向量的坐标运算.\n\n【分析】根据向量的坐标的运算法则计算即可.\n\n【解答】解：向量  $ \\overrightarrow{a}=(1,2) $， $ \\overrightarrow{b}=(4,3) $，\n\n则于  $ \\ove",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q4",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q4' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q4",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "4.\n\n【考点】余弦函数的图象.\n\n【分析】根据当自变量相同时，它们的函数值相反，可得它们的图象关于x轴对称.\n\n【解答】解：由于当自变量相同时，它们的函数值相反，故它们的图象关于x轴对称，故选：A.",
+          "answer_text_len": 100,
+          "span_id": "sp-Q4.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=234-240",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "【考点】余弦函数的图象.\n\n【分析】根据当自变量相同时，它们的函数值相反，可得它们的图象关于x轴对称.\n\n【解答】解：由于当自变量相同时，它们的函数值相反，故它们的图象关于x轴对称，故选：A.",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q5",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q5' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q5",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "5.\n\n【考点】程序框图.\n\n【分析】根据题意，模拟程序框图的运行过程，即可得出输出的结果.\n\n【解答】解：模拟程序框图的运行过程，如下；\n\nx=-2， $ x\\geq0 $？，否；\n\n---\n\ny = -(-2) = 2,\n\n输出 y 的值为 2.\n\n故选：C.",
+          "answer_text_len": 132,
+          "span_id": "sp-Q5.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=242-258",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "【考点】程序框图.\n\n【分析】根据题意，模拟程序框图的运行过程，即可得出输出的结果.\n\n【解答】解：模拟程序框图的运行过程，如下；\n\nx=-2， $ x\\geq0 $？，否；\n\n---\n\ny = -(-2) = 2,\n\n输出 y 的值为 2",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q6",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q6' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q6",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "6.\n\n【考点】直线的一般式方程与直线的平行关系.\n\n【分析】设所求的方程为 x - y + c = 0，代点可得关于 c 的方程，解之代入可得.\n\n【解答】解：由题意可设所求的方程为  $ 2x - y + c = 0 $，\n\n代入已知点（2，1），可得4-1+c=0，即c=-3\n\n故所求直线的方程为：2x - y ",
+          "answer_text_len": 175,
+          "span_id": "sp-Q6.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=260-272",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "【考点】直线的一般式方程与直线的平行关系.\n\n【分析】设所求的方程为 x - y + c = 0，代点可得关于 c 的方程，解之代入可得.\n\n【解答】解：由题意可设所求的方程为  $ 2x - y + c = 0 $，\n\n代入已知点（2，1",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q7",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q7' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q7",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "7.\n\n【考点】分层抽样方法.\n\n【分析】先求出每个个体被抽到的概率，用每层的个体数乘以每个个体被抽到的概率等于该层应抽取的个体数.\n\n【解答】解：每个个体被抽到的概率等于 $ \\frac{3000}{270000}=\\frac{1}{90} $，\n\n则抽取初三年级的人数应为 $ 81000\\times\\frac{1}",
+          "answer_text_len": 179,
+          "span_id": "sp-Q7.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=274-284",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "【考点】分层抽样方法.\n\n【分析】先求出每个个体被抽到的概率，用每层的个体数乘以每个个体被抽到的概率等于该层应抽取的个体数.\n\n【解答】解：每个个体被抽到的概率等于 $ \\frac{3000}{270000}=\\frac{1}{90} $，",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q8",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q8' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q8",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "8.\n\n【考点】余弦定理.\n\n【分析】由已知及余弦定理即可求值得解.\n\n【解答】解：∵$\\angle C=60^{\\circ}$，$AC=2$，$BC=3$，\n\n∴由余弦定理可得：$AB=\\sqrt{AC^{2}+BC^{2}-2AB\\cdot AC\\cdot\\cos C}=\\sqrt{4+9-2\\times2\\tim",
+          "answer_text_len": 199,
+          "span_id": "sp-Q8.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=286-296",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "【考点】余弦定理.\n\n【分析】由已知及余弦定理即可求值得解.\n\n【解答】解：∵$\\angle C=60^{\\circ}$，$AC=2$，$BC=3$，\n\n∴由余弦定理可得：$AB=\\sqrt{AC^{2}+BC^{2}-2AB\\cdot A",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q9",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q9' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q9",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "9.\n\n【考点】古典概型及其概率计算公式.\n\n【分析】根据题意，易得口袋中有6个球，其中红球和白球共有4个，由古典概型公式，计算可得答案.\n\n【解答】解：根据题意，口袋中有6个球，其中3个红球、2个黄球和1个白球，\n\n则红球和白球共有4个，\n\n故从中随机摸出1个球，那么摸到红球或白球的概率是 $ \\frac{4}{6}",
+          "answer_text_len": 181,
+          "span_id": "sp-Q9.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=298-310",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "【考点】古典概型及其概率计算公式.\n\n【分析】根据题意，易得口袋中有6个球，其中红球和白球共有4个，由古典概型公式，计算可得答案.\n\n【解答】解：根据题意，口袋中有6个球，其中3个红球、2个黄球和1个白球，\n\n则红球和白球共有4个，\n\n故从",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q10",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q10' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q10",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "10.\n\n【考点】平面向量数量积的运算.\n\n【分析】求出 $ \\overrightarrow{AC} $， $ \\overrightarrow{AB} $的模长和夹角，代入数量积公式计算.\n\n【解答】解：∵正方形 ABCD 的边长为 1，∴ $ |\\overrightarrow{AB}|=1 $， $ |\\overri",
+          "answer_text_len": 346,
+          "span_id": "sp-Q10.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=314-324",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "【考点】平面向量数量积的运算.\n\n【分析】求出 $ \\overrightarrow{AC} $， $ \\overrightarrow{AB} $的模长和夹角，代入数量积公式计算.\n\n【解答】解：∵正方形 ABCD 的边长为 1，∴ $ |\\",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q11",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q11' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q11",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "11.\n\n【考点】等比数列的前 n 项和.\n\n【分析】由已知得训练 n 天产生的总数据量为  $ S_{n}=a+aq+aq^{2}+\\cdots+aq^{n-1} $，由此能求出结果.\n\n【解答】解：∵训练过程中第一天产生的数据量为 a，其后每天产生的数据量都是前一天的  $ q $（ $ q>1 $）倍，∴那么训练",
+          "answer_text_len": 258,
+          "span_id": "sp-Q11.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=326-336",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "【考点】等比数列的前 n 项和.\n\n【分析】由已知得训练 n 天产生的总数据量为  $ S_{n}=a+aq+aq^{2}+\\cdots+aq^{n-1} $，由此能求出结果.\n\n【解答】解：∵训练过程中第一天产生的数据量为 a，其后每天产",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q12",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q12' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q12",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "12.\n\n【考点】二倍角的余弦.\n\n【分析】利用诱导公式，二倍角的余弦函数公式即可求值得解.\n\n【解答】解：∵  $ \\cos\\alpha=\\frac{1}{2} $,\n\n∴  $ \\cos(-2a)=\\cos2a=2\\cos^2a-1=2\\times\\left(\\frac{1}{2}\\right)^2-1=-\\fra",
+          "answer_text_len": 177,
+          "span_id": "sp-Q12.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=338-348",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "【考点】二倍角的余弦.\n\n【分析】利用诱导公式，二倍角的余弦函数公式即可求值得解.\n\n【解答】解：∵  $ \\cos\\alpha=\\frac{1}{2} $,\n\n∴  $ \\cos(-2a)=\\cos2a=2\\cos^2a-1=2\\time",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q13",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q13' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q13",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "13.\n\n【考点】函数的图象.\n\n【分析】把点（1，1）代入各个选项检验，可得结论.\n\n【解答】解：把点（1，1）代入各个选项检验，可得只有  $ y=x^{-1} $ 的图象经过点（1，1），故选：A.",
+          "answer_text_len": 102,
+          "span_id": "sp-Q13.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=350-356",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "【考点】函数的图象.\n\n【分析】把点（1，1）代入各个选项检验，可得结论.\n\n【解答】解：把点（1，1）代入各个选项检验，可得只有  $ y=x^{-1} $ 的图象经过点（1，1），故选：A.",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q14",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q14' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q14",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "14.\n\n【考点】对数的运算性质.\n\n【分析】根据对数的运算法则计算即可.\n\n【解答】解： $ \\log_{4}2 - \\log_{4}8 = \\log_{4}\\frac{2}{8} = \\log_{4}4^{-1} = -1 $，\n\n---\n\n故选：B.",
+          "answer_text_len": 128,
+          "span_id": "sp-Q14.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=358-368",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "【考点】对数的运算性质.\n\n【分析】根据对数的运算法则计算即可.\n\n【解答】解： $ \\log_{4}2 - \\log_{4}8 = \\log_{4}\\frac{2}{8} = \\log_{4}4^{-1} = -1 $，\n\n---\n\n故选",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q15",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q15' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q15",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "15.\n\n【考点】由三视图求面积、体积.\n\n【分析】由几何体的三视图得出原几何体一个底面为正方形的长方体，结合图中数据求出它的表面积.\n\n【解答】解：由三视图可知，该几何体是一个底面为正方形的长方体，\n\n长方体的底面正方形的对角线长为2，长方体的高是3；\n\n所以，底面正方形的边长为 $ \\sqrt{1^{2}+1^{2",
+          "answer_text_len": 255,
+          "span_id": "sp-Q15.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=370-384",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "【考点】由三视图求面积、体积.\n\n【分析】由几何体的三视图得出原几何体一个底面为正方形的长方体，结合图中数据求出它的表面积.\n\n【解答】解：由三视图可知，该几何体是一个底面为正方形的长方体，\n\n长方体的底面正方形的对角线长为2，长方体的高是",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q16",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q16' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q16",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "16.\n\n16.\n\n【考点】不等式的基本性质.\n\n【分析】通过特殊值判断①②，通过通分判断③，通过基本不等式的性质判断④.\n\n【解答】解：如果 a＞b＞0，且 a+b=1，\n\n那么① $ \\frac{a}{b} $＜1，② $ \\frac{1}{b} $＜ $ \\frac{1}{a} $，令 a=0.8，b=0.2，显",
+          "answer_text_len": 337,
+          "span_id": "sp-Q16.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=386-404",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "16.\n\n【考点】不等式的基本性质.\n\n【分析】通过特殊值判断①②，通过通分判断③，通过基本不等式的性质判断④.\n\n【解答】解：如果 a＞b＞0，且 a+b=1，\n\n那么① $ \\frac{a}{b} $＜1，② $ \\frac{1}{b}",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q17",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q17' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q17",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "17.\n\n17.\n\n【考点】平面与平面平行的判定；直线与平面平行的判定．\n\n【分析】由  $ FG \\parallel BC_1 $， $ BC_1 \\parallel AD_1 $，得  $ FG \\parallel AD_1 $，从而  $ FG \\parallel $ 平面  $ BC_1D_1 $， $ FG ",
+          "answer_text_len": 953,
+          "span_id": "sp-Q17.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=406-430",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "17.\n\n【考点】平面与平面平行的判定；直线与平面平行的判定．\n\n【分析】由  $ FG \\parallel BC_1 $， $ BC_1 \\parallel AD_1 $，得  $ FG \\parallel AD_1 $，从而  $ FG",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q18",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q18' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q18",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "18.\n\n【考点】圆与圆的位置关系及其判定.\n\n【分析】两个圆有且只有一个公共点，两个圆内切或外切，分别求出 a，即可得出结论.\n\n【解答】解：∵两个圆有且只有一个公共点，\n\n∴两个圆内切或外切，\n\n内切时， $ |a|=1 $，外切时， $ |a|=3 $，\n\n∴实数 a 的取值集合是  $ \\{1, -1, 3, ",
+          "answer_text_len": 173,
+          "span_id": "sp-Q18.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=434-448",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "【考点】圆与圆的位置关系及其判定.\n\n【分析】两个圆有且只有一个公共点，两个圆内切或外切，分别求出 a，即可得出结论.\n\n【解答】解：∵两个圆有且只有一个公共点，\n\n∴两个圆内切或外切，\n\n内切时， $ |a|=1 $，外切时， $ |a|",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q19",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q19' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q19",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "19.\n\n【考点】两点间距离公式的应用.\n\n【分析】根据两点间的距离公式表示 $ |BO|=|BA| $，即可求出b的值.\n\n【解答】解：∵点A（4，2）和B（0，b）满足|BO|=|BA|，\n\n $$ \\therefore b^{2}=4^{2}+(2-b)^{2}, $$ \n\n $$ \\therefore b=5.",
+          "answer_text_len": 171,
+          "span_id": "sp-Q19.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=450-462",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "【考点】两点间距离公式的应用.\n\n【分析】根据两点间的距离公式表示 $ |BO|=|BA| $，即可求出b的值.\n\n【解答】解：∵点A（4，2）和B（0，b）满足|BO|=|BA|，\n\n $$ \\therefore b^{2}=4^{2}+",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q20",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q20' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q20",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "20.\n\n【考点】指数函数的图象与性质.\n\n【分析】由已知可得  $ x_{1}+x_{2}=0 $，进而根据指数的运算性质，可得答案.\n\n【解答】解：∵以 P（x₁，f（x₁）），Q（x₂，f（x₂））为端点的线段的中点在 y 轴上，∴ x₁ + x₂ = 0，又∵ f（x）= aᵓ，∴ f（x₁）· f（x₂）= ",
+          "answer_text_len": 199,
+          "span_id": "sp-Q20.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=464-470",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "【考点】指数函数的图象与性质.\n\n【分析】由已知可得  $ x_{1}+x_{2}=0 $，进而根据指数的运算性质，可得答案.\n\n【解答】解：∵以 P（x₁，f（x₁）），Q（x₂，f（x₂））为端点的线段的中点在 y 轴上，∴ x₁ + ",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q21",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q21' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q21",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "21.\n\n【考点】二元一次不等式（组）与平面区域.\n\n【分析】作出平面区域，根据图形找出 PA 的最小值.\n\n【解答】解：作出平面区域如图，则 |PA| 的最小值为 A（0，1）到直线 x - y = 0 的距离  $ d = \\frac{1}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2} $.\n\n故选",
+          "answer_text_len": 316,
+          "span_id": "sp-Q21.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=472-484",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "【考点】二元一次不等式（组）与平面区域.\n\n【分析】作出平面区域，根据图形找出 PA 的最小值.\n\n【解答】解：作出平面区域如图，则 |PA| 的最小值为 A（0，1）到直线 x - y = 0 的距离  $ d = \\frac{1}{\\s",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q22",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q22' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q22",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "22.\n\n【考点】函数的定义域及其求法；函数的值域；函数奇偶性的判断.\n\n【分析】根据 f（x）的表达式求出其定义域，判断①正确；根据基本不等式的性质求出 f（x）的值域，判断②正确；根据奇偶性的定义，判断③正确；根据函数的单调性，判断④错误.\n\n【解答】解：①∵函数 $ f(x)=\\frac{x}{x^2+1} $\n",
+          "answer_text_len": 608,
+          "span_id": "sp-Q22.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=487-523",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "【考点】函数的定义域及其求法；函数的值域；函数奇偶性的判断.\n\n【分析】根据 f（x）的表达式求出其定义域，判断①正确；根据基本不等式的性质求出 f（x）的值域，判断②正确；根据奇偶性的定义，判断③正确；根据函数的单调性，判断④错误.\n\n【",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q23",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q23' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q23",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "23.\n\n---\n\n【考点】函数的值.\n\n【分析】按原来的退休政策，她应该于：1964+55=2019年退休，再据此方案，能求出她退休的年份.\n\n【解答】解：∵小明的母亲是出生于1964年的女干部，\n\n∴按原来的退休政策，她应该于：1964+55=2019年退休，\n\n从2018年开始，女性退休年龄每3年延迟1岁，\n\n∴",
+          "answer_text_len": 185,
+          "span_id": "sp-Q23.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=525-541",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "---\n\n【考点】函数的值.\n\n【分析】按原来的退休政策，她应该于：1964+55=2019年退休，再据此方案，能求出她退休的年份.\n\n【解答】解：∵小明的母亲是出生于1964年的女干部，\n\n∴按原来的退休政策，她应该于：1964+55=2",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q24",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q24' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q24",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "24.\n\n【考点】两角和与差的正弦函数.\n\n【分析】需要分类讨论，当 a=0 时，和当  $ a \\neq 0 $ 时，函数  $ f(x) = a \\sin x + b \\cos x = \\sqrt{a^2 + b^2} \\sin(x + \\theta) $，其中  $ \\tan \\theta = \\frac{b}{",
+          "answer_text_len": 603,
+          "span_id": "sp-Q24.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=543-565",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "【考点】两角和与差的正弦函数.\n\n【分析】需要分类讨论，当 a=0 时，和当  $ a \\neq 0 $ 时，函数  $ f(x) = a \\sin x + b \\cos x = \\sqrt{a^2 + b^2} \\sin(x + \\the",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q25",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q25' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q25",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "25.\n\n【考点】计数原理的应用.\n\n【分析】列举所有排法，即可得出结论.\n\n【解答】解：三阶幻方，是最简单的幻方，由1，2，3，4，5，6，7，8，9．其中有8种排法492、357、816；276、951、438；294、753、618；438、951、276；816、357、492；618、753、294；672、",
+          "answer_text_len": 187,
+          "span_id": "sp-Q25.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=567-575",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "【考点】计数原理的应用.\n\n【分析】列举所有排法，即可得出结论.\n\n【解答】解：三阶幻方，是最简单的幻方，由1，2，3，4，5，6，7，8，9．其中有8种排法492、357、816；276、951、438；294、753、618；438、9",
+          "level2": "D-suspect: long prose in choice-type answer (qtype/answer mismatch?)"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q26",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q26' type 'short_answer' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q26",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "26.\n\n【考点】三角函数的化简求值.\n\n【分析】（Ⅰ）由条件利用同角三角函数的基本关系，求得  $ \\cos\\theta $ 的值，可得  $ \\tan\\theta $ 的值.\n\n---\n\n（Ⅱ）由条件利用两角和的余弦公式，求得  $ \\cos\\left(\\theta+\\frac{\\pi}{3}\\right) $ 的",
+          "answer_text_len": 542,
+          "span_id": "sp-Q26.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=579-591",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "【考点】三角函数的化简求值.\n\n【分析】（Ⅰ）由条件利用同角三角函数的基本关系，求得  $ \\cos\\theta $ 的值，可得  $ \\tan\\theta $"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q27",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q27' type 'short_answer' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q27",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "27.\n\n【考点】棱柱、棱锥、棱台的体积；空间中直线与直线之间的位置关系.\n\n【分析】（Ⅰ）根据线面垂直的性质定理证明 BC⊥平面  $ ABB_{1}A_{1} $，即可证明：BC⊥AD；\n\n（Ⅱ）利用转化法结合三棱锥的体积公式即可求三棱锥 B-ACD 的体积.\n\n【解答】证明：（Ⅰ）在三棱柱 ABC - A_{1}",
+          "answer_text_len": 764,
+          "span_id": "sp-Q27.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=593-623",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "【考点】棱柱、棱锥、棱台的体积；空间中直线与直线之间的位置关系.\n\n【分析】（Ⅰ）根据线面垂直的性质定理证明 BC⊥平面  $ ABB_{1}A_{1} $，即"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q28",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q28' type 'short_answer' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q28",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "28.\n\n【考点】直线与圆的位置关系.\n\n【分析】（Ⅰ）如果直线 l 与圆 O 相切，圆心到直线的距离 d=r；\n\n（Ⅱ）如果直线 l 与圆 O 交于 A, B 两点，且  $ \\frac{|PA|}{|PB|} = \\frac{1}{2} $，分类讨论，利用相交弦定理、勾股定理求 r 的值。\n\n【解答】解：（Ⅰ）圆心",
+          "answer_text_len": 774,
+          "span_id": "sp-Q28.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=625-651",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "【考点】直线与圆的位置关系.\n\n【分析】（Ⅰ）如果直线 l 与圆 O 相切，圆心到直线的距离 d=r；\n\n（Ⅱ）如果直线 l 与圆 O 交于 A, B 两点，且"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q29",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q29' type 'short_answer' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q29",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "29.\n\n【考点】数列递推式；数列的求和.\n\n【分析】（Ⅰ）当  $ a_{1}=2 $ 时，代入计算，可得  $ a_{2} $;\n\n（Ⅱ）利用反证法判断数列 $ \\{a_{n}\\} $不可能为等比数列；\n\n（Ⅲ）利用数学归纳法进行证明.\n\n【解答】解：（Ⅰ）当  $ a_1=2 $ 时， $ a_2=\\frac{2",
+          "answer_text_len": 962,
+          "span_id": "sp-Q29.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=653-689",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "【考点】数列递推式；数列的求和.\n\n【分析】（Ⅰ）当  $ a_{1}=2 $ 时，代入计算，可得  $ a_{2} $;\n\n（Ⅱ）利用反证法判断数列 $ \\{"
+        }
+      ]
+    },
+    {
+      "paper": "数学",
+      "root": "Q30",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q30' type 'short_answer' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q30",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "30.\n\n【考点】函数零点的判定定理；二次函数的性质.\n\n【分析】(I) 令  $ f(x)=0 $ 解出：\n\n（II）根据 f（x）的函数类型和图象开口讨论，只需  $ f_{\\min}(x)<0 $ 即可；\n\n（III）对函数类型，开口方向，单调性进行讨论，令  $ f_{\\min}(x) \\geqslant 0 ",
+          "answer_text_len": 3046,
+          "span_id": "sp-Q30.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=691-749",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "【考点】函数零点的判定定理；二次函数的性质.\n\n【分析】(I) 令  $ f(x)=0 $ 解出：\n\n（II）根据 f（x）的函数类型和图象开口讨论，只需  $"
+        }
+      ]
+    },
+    {
+      "paper": "物理",
+      "root": "Q21",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q21' type 'fill_in' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'fill_in' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q21",
+          "qtype": "fill_in",
+          "canonical_qtype": "fill_in",
+          "answer_text_preview": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; wo",
+          "answer_text_len": 1199,
+          "span_id": "sp-Q21.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=363-363",
+            "single-line full (no qn entry)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'fill_in' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text"
+        }
+      ]
+    },
+    {
+      "paper": "物理",
+      "root": "Q22",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q22' type 'fill_in' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'fill_in' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q22",
+          "qtype": "fill_in",
+          "canonical_qtype": "fill_in",
+          "answer_text_preview": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; wo",
+          "answer_text_len": 1199,
+          "span_id": "sp-Q22.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=363-363",
+            "single-line full (no qn entry)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'fill_in' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text"
+        }
+      ]
+    },
+    {
+      "paper": "物理",
+      "root": "Q23",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q23' type 'fill_in' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'fill_in' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q23",
+          "qtype": "fill_in",
+          "canonical_qtype": "fill_in",
+          "answer_text_preview": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; wo",
+          "answer_text_len": 1199,
+          "span_id": "sp-Q23.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=363-363",
+            "single-line full (no qn entry)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'fill_in' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text"
+        }
+      ]
+    },
+    {
+      "paper": "物理",
+      "root": "Q24",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q24' type 'short_answer' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q24",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; wo",
+          "answer_text_len": 1355,
+          "span_id": "sp-Q24.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=368-368",
+            "single-line full (no qn entry)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text"
+        }
+      ]
+    },
+    {
+      "paper": "物理",
+      "root": "Q25",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q25' type 'short_answer' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q25",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; wo",
+          "answer_text_len": 1355,
+          "span_id": "sp-Q25.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=368-368",
+            "single-line full (no qn entry)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text"
+        }
+      ]
+    },
+    {
+      "paper": "物理",
+      "root": "Q26",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q26' type 'short_answer' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q26",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>题号</td><td style='text-align: center; wo",
+          "answer_text_len": 2821,
+          "span_id": "sp-Q26.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=368-373",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text"
+        }
+      ]
+    },
+    {
+      "paper": "物理",
+      "root": "Q27",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q27' type 'short_answer' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q27",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word",
+          "answer_text_len": 1458,
+          "span_id": "sp-Q27.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=373-373",
+            "single-line full (no qn entry)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text"
+        }
+      ]
+    },
+    {
+      "paper": "物理",
+      "root": "Q28",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q28' type 'short_answer' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q28",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word",
+          "answer_text_len": 1458,
+          "span_id": "sp-Q28.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=373-373",
+            "single-line full (no qn entry)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text"
+        }
+      ]
+    },
+    {
+      "paper": "英语",
+      "root": "Q1",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q1.sub' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q1.sub",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "1\\. C",
+          "answer_text_len": 5,
+          "span_id": "sp-Q1.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=451-451",
+            "qn=1",
+            "single-line entry"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line_character",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "\\. C",
+          "level2": "C-unknown_form: token not matching _SC_FORMS_RE / _MC_TOKEN_RE"
+        }
+      ]
+    },
+    {
+      "paper": "英语",
+      "root": "Q2",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q2.sub' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q2.sub",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "2\\. C",
+          "answer_text_len": 5,
+          "span_id": "sp-Q2.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=451-451",
+            "qn=2",
+            "single-line entry"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line_character",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "\\. C",
+          "level2": "C-unknown_form: token not matching _SC_FORMS_RE / _MC_TOKEN_RE"
+        }
+      ]
+    },
+    {
+      "paper": "英语",
+      "root": "Q4",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q4.sub' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q4.sub",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "4\\. B",
+          "answer_text_len": 5,
+          "span_id": "sp-Q4.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=451-451",
+            "qn=4",
+            "single-line entry"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line_character",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "\\. B",
+          "level2": "C-unknown_form: token not matching _SC_FORMS_RE / _MC_TOKEN_RE"
+        }
+      ]
+    },
+    {
+      "paper": "英语",
+      "root": "Q5-6",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q5-6.sub' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q5-6.sub",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "5\\. C",
+          "answer_text_len": 5,
+          "span_id": "sp-Q5-6.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=451-451",
+            "qn=5",
+            "single-line entry"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line_character",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "\\. C",
+          "level2": "C-unknown_form: token not matching _SC_FORMS_RE / _MC_TOKEN_RE"
+        }
+      ]
+    },
+    {
+      "paper": "英语",
+      "root": "Q7-8",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q7-8.sub' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q7-8.sub",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "7\\. C",
+          "answer_text_len": 5,
+          "span_id": "sp-Q7-8.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=451-451",
+            "qn=7",
+            "single-line entry"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line_character",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "\\. C",
+          "level2": "C-unknown_form: token not matching _SC_FORMS_RE / _MC_TOKEN_RE"
+        }
+      ]
+    },
+    {
+      "paper": "英语",
+      "root": "Q9-11",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q9-11.sub' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q9-11.sub",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "9\\. C",
+          "answer_text_len": 5,
+          "span_id": "sp-Q9-11.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=451-451",
+            "qn=9",
+            "single-line entry"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line_character",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "\\. C",
+          "level2": "C-unknown_form: token not matching _SC_FORMS_RE / _MC_TOKEN_RE"
+        }
+      ]
+    },
+    {
+      "paper": "英语",
+      "root": "Q12-14",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q12-14.sub' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q12-14.sub",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "12\\. A",
+          "answer_text_len": 6,
+          "span_id": "sp-Q12-14.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=451-451",
+            "qn=12",
+            "single-line entry"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line_character",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "\\. A",
+          "level2": "C-unknown_form: token not matching _SC_FORMS_RE / _MC_TOKEN_RE"
+        }
+      ]
+    },
+    {
+      "paper": "英语",
+      "root": "Q15-17",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q15-17.sub' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q15-17.sub",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "15\\. B",
+          "answer_text_len": 6,
+          "span_id": "sp-Q15-17.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=451-451",
+            "qn=15",
+            "single-line entry"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line_character",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "\\. B",
+          "level2": "C-unknown_form: token not matching _SC_FORMS_RE / _MC_TOKEN_RE"
+        }
+      ]
+    },
+    {
+      "paper": "英语",
+      "root": "U26-40",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'U26-40.sub' type 'cloze' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'cloze' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "U26-40.sub",
+          "qtype": "cloze",
+          "canonical_qtype": "cloze",
+          "answer_text_preview": "26.A",
+          "answer_text_len": 4,
+          "span_id": "sp-U26-40.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=459-459",
+            "qn=26",
+            "single-line entry"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line_character",
+          "level1": "D",
+          "first_failing_contract": "qtype 'cloze' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "A"
+        }
+      ]
+    },
+    {
+      "paper": "英语",
+      "root": "U41-44",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'U41-44.sub' type 'reading' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'reading' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "U41-44.sub",
+          "qtype": "reading",
+          "canonical_qtype": "reading",
+          "answer_text_preview": "41.D",
+          "answer_text_len": 4,
+          "span_id": "sp-U41-44.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=463-463",
+            "qn=41",
+            "single-line entry"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line_character",
+          "level1": "D",
+          "first_failing_contract": "qtype 'reading' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "D"
+        }
+      ]
+    },
+    {
+      "paper": "英语",
+      "root": "U45-48",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'U45-48.sub' type 'reading' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'reading' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "U45-48.sub",
+          "qtype": "reading",
+          "canonical_qtype": "reading",
+          "answer_text_preview": "45.A",
+          "answer_text_len": 4,
+          "span_id": "sp-U45-48.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=463-463",
+            "qn=45",
+            "single-line entry"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line_character",
+          "level1": "D",
+          "first_failing_contract": "qtype 'reading' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "A"
+        }
+      ]
+    },
+    {
+      "paper": "英语",
+      "root": "U49-52",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'U49-52.sub' type 'reading' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'reading' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "U49-52.sub",
+          "qtype": "reading",
+          "canonical_qtype": "reading",
+          "answer_text_preview": "49.A",
+          "answer_text_len": 4,
+          "span_id": "sp-U49-52.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=463-463",
+            "qn=49",
+            "single-line entry"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line_character",
+          "level1": "D",
+          "first_failing_contract": "qtype 'reading' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "A"
+        }
+      ]
+    },
+    {
+      "paper": "英语",
+      "root": "U53-56",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'U53-56.sub' type 'reading' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'reading' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "U53-56.sub",
+          "qtype": "reading",
+          "canonical_qtype": "reading",
+          "answer_text_preview": "53.B",
+          "answer_text_len": 4,
+          "span_id": "sp-U53-56.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=463-463",
+            "qn=53",
+            "single-line entry"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line_character",
+          "level1": "D",
+          "first_failing_contract": "qtype 'reading' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "B"
+        }
+      ]
+    },
+    {
+      "paper": "英语",
+      "root": "U57-60",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'U57-60.sub' type 'reading_expression' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'reading_expression' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "U57-60.sub",
+          "qtype": "reading_expression",
+          "canonical_qtype": "reading_expression",
+          "answer_text_preview": "57. Because he was not good at sports.\n\n58. Kung Fu Club.\n\n59. He started doing a combat sport again.\n\n60. Because he found the sport that suited him.",
+          "answer_text_len": 150,
+          "span_id": "sp-U57-60.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=465-471",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'reading_expression' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "Because he was not good at sports.\n\n58. Kung Fu Club.\n\n59. He started doing a co"
+        }
+      ]
+    },
+    {
+      "paper": "语文",
+      "root": "U1-5",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'U1-5.sub' type 'reading' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'reading' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "U1-5.sub",
+          "qtype": "reading",
+          "canonical_qtype": "reading",
+          "answer_text_preview": "1. A (2分)\n\n2. D (2分)\n\n3. C (2分)\n\n4. ①短歌行 ②论语（或：论语·子罕）（2分）\n\n5. ①渔樵于江渚之上 ②侣鱼虾而友麋鹿 （或：①驾一叶之扁舟 ②举匏樽以相属）\n\n③寄蜉蝣于天地 ④渺沧海之一粟 （或：③哀吾生之须臾 ④羡长江之无穷）\n\n（4分。每空1分）",
+          "answer_text_len": 147,
+          "span_id": "sp-U1-5.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=346-358",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'reading' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "A (2分)\n\n2. D (2分)\n\n3. C (2分)\n\n4. ①短歌行 ②论语（或：论语·子罕）（2分）\n\n5. ①渔樵于江渚之上 ②侣鱼虾而友麋鹿 （或："
+        }
+      ]
+    },
+    {
+      "paper": "语文",
+      "root": "Q6",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q6' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q6",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "6. D（2分）",
+          "answer_text_len": 8,
+          "span_id": "sp-Q6.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=362-362",
+            "qn=6",
+            "single-line entry"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line_character",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "D（2分）",
+          "level2": "C-unknown_form: token not matching _SC_FORMS_RE / _MC_TOKEN_RE"
+        }
+      ]
+    },
+    {
+      "paper": "语文",
+      "root": "Q7",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q7' answer grammar: answer not expressible as canonical value"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "C",
+      "root_first_failing": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+      "leaves": [
+        {
+          "leaf": "Q7",
+          "qtype": "single_choice",
+          "canonical_qtype": "single_choice",
+          "answer_text_preview": "7\\.C（3分）",
+          "answer_text_len": 8,
+          "span_id": "sp-Q7.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=364-364",
+            "qn=7",
+            "single-line entry"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line_character",
+          "level1": "C",
+          "first_failing_contract": "answer text present; verify(single_choice, ...)=None — canonical grammar rejects",
+          "grammar_path": "verify()=None after _clean_answer",
+          "cleaned": "\\.C（3分）",
+          "level2": "C-unknown_form: token not matching _SC_FORMS_RE / _MC_TOKEN_RE"
+        }
+      ]
+    },
+    {
+      "paper": "语文",
+      "root": "Q8",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q8' type 'short_answer' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q8",
+          "qtype": "short_answer",
+          "canonical_qtype": "short_answer",
+          "answer_text_preview": "8. 示例一：大观园中发现了香囊，王夫人十分生气，担心大观园中人杂生事，更担心贾宝玉与丫鬟们胡闹，于是命令王熙凤带人抄检大观园，并把晴雯赶出了大观园。晴雯被赶出后借居在亲戚家里，身染重病，最终含恨而死。\n\n示例二：辛亥革命爆发，有人趁乱抢劫了举人老爷寄存在赵家的财物，赵家进城报案，官府为了社会治安，急于杀一儆百，抓阿Q",
+          "answer_text_len": 223,
+          "span_id": "sp-Q8.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=366-370",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'short_answer' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "示例一：大观园中发现了香囊，王夫人十分生气，担心大观园中人杂生事，更担心贾宝玉与丫鬟们胡闹，于是命令王熙凤带人抄检大观园，并把晴雯赶出了大观园。晴雯被赶出后借居"
+        }
+      ]
+    },
+    {
+      "paper": "语文",
+      "root": "Q9",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q9' type 'fill_in' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'fill_in' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q9",
+          "qtype": "fill_in",
+          "canonical_qtype": "fill_in",
+          "answer_text_preview": "9. ①暖暖远人村 ②渔舟唱晚 ③雁阵惊寒\n\n（3分。每空1分）",
+          "answer_text_len": 32,
+          "span_id": "sp-Q9.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=372-374",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'fill_in' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "①暖暖远人村 ②渔舟唱晚 ③雁阵惊寒\n\n（3分。每空1分）"
+        }
+      ]
+    },
+    {
+      "paper": "语文",
+      "root": "U10-13",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'U10-13.sub' type 'reading' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'reading' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "U10-13.sub",
+          "qtype": "reading",
+          "canonical_qtype": "reading",
+          "answer_text_preview": "10\\. A（4分。选A，得4分；选D，得3分；选B或C不得分）\n\n11.D（3分）\n\n12. 原因一：命运悲剧。选文中的中寨人说：“一切皆是命，半点不由人。”在当时的人看来，大老的意外死亡是命中注定，顺顺觉得老船夫和大老的死亡有间接关系，因此对老人有一些不满，不太赞成翠翠和二老的婚事，这是翠翠悲剧性结局的原因之一。\n",
+          "answer_text_len": 1202,
+          "span_id": "sp-U10-13.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=378-406",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'reading' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "\\. A（4分。选A，得4分；选D，得3分；选B或C不得分）\n\n11.D（3分）\n\n12. 原因一：命运悲剧。选文中的中寨人说：“一切皆是命，半点不由人。”在当"
+        }
+      ]
+    },
+    {
+      "paper": "语文",
+      "root": "U14",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'U14.sub' type 'reading' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'reading' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "U14.sub",
+          "qtype": "reading",
+          "canonical_qtype": "reading",
+          "answer_text_preview": "14.（1）甲：hào 乙：骼（2分）\n\n（2）C（3分）\n\n（3）B（3分）\n\n（4）示例一：我同意观点一，因为经典是人类智慧的结晶，人类文明在一定程度上是由经典构成的。如果我们不读《论语》《老子》就无法了解中华文化，中华文明就无法传承，人们的道德标准就会丧失，社会因此陷入混乱，民族的发展也会出现危机。\n\n示例二：我",
+          "answer_text_len": 492,
+          "span_id": "sp-U14.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=412-426",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'reading' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "（1）甲：hào 乙：骼（2分）\n\n（2）C（3分）\n\n（3）B（3分）\n\n（4）示例一：我同意观点一，因为经典是人类智慧的结晶，人类文明在一定程度上是由经典构"
+        }
+      ]
+    },
+    {
+      "paper": "语文",
+      "root": "U15",
+      "unit_type": "composite_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'U15.sub' type 'reading' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'reading' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "U15.sub",
+          "qtype": "reading",
+          "canonical_qtype": "reading",
+          "answer_text_preview": "15.（1）甲：chǐ 乙：漪（2分）\n\n（2）B（3分）\n\n（3）D（3分）\n\n（4）示例一：我选择“心触清机亲翰墨，目游润景足精神”。对联所写书房既有如“陋室”般朴素淡雅，令人赏心悦目的环境，也体现出主人在一方宁静的天地中，宁心静气赏读古今佳作，浸润于翰墨书香之中的恬淡心境。它与我理想中的书房相符。\n\n---\n\n示",
+          "answer_text_len": 520,
+          "span_id": "sp-U15.sub.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=430-446",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'reading' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "（1）甲：chǐ 乙：漪（2分）\n\n（2）B（3分）\n\n（3）D（3分）\n\n（4）示例一：我选择“心触清机亲翰墨，目游润景足精神”。对联所写书房既有如“陋室”般"
+        }
+      ]
+    },
+    {
+      "paper": "语文",
+      "root": "Q16",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q16' type 'essay' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'essay' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q16",
+          "qtype": "essay",
+          "canonical_qtype": "essay",
+          "answer_text_preview": "六（40分）\n\n作文评分标准\n\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>项目\\n类别</td><td style='t",
+          "answer_text_len": 2396,
+          "span_id": "sp-Q16.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=448-463",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'essay' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "六（40分）\n\n作文评分标准\n\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><t"
+        }
+      ]
+    },
+    {
+      "paper": "语文",
+      "root": "Q17",
+      "unit_type": "standalone_unit",
+      "decision": "pending_review",
+      "gate_reasons": [
+        "leaf 'Q17' type 'essay' not strict-auto (grammar None)"
+      ],
+      "has_grammar_reason": true,
+      "root_level1": "D",
+      "root_first_failing": "qtype 'essay' ∉ STRICT_AUTO_TYPES (capability boundary)",
+      "leaves": [
+        {
+          "leaf": "Q17",
+          "qtype": "essay",
+          "canonical_qtype": "essay",
+          "answer_text_preview": "六（40分）\n\n作文评分标准\n\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>项目\\n类别</td><td style='t",
+          "answer_text_len": 2396,
+          "span_id": "sp-Q17.answer",
+          "span_evidence": [
+            "answer evidence range",
+            "lines=448-463",
+            "multi-line block (no token extraction)"
+          ],
+          "resolution_status": "exact",
+          "granularity": "line",
+          "level1": "D",
+          "first_failing_contract": "qtype 'essay' ∉ STRICT_AUTO_TYPES (capability boundary)",
+          "grammar_path": "grammar=None (not strict-auto)",
+          "cleaned": "六（40分）\n\n作文评分标准\n\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><t"
+        }
+      ]
+    }
+  ]
+}

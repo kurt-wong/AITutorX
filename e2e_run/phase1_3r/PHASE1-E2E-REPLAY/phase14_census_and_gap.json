@@ -1,0 +1,1259 @@
+{
+  "official_scale": {
+    "B3c_B_eligible": 126,
+    "root_auto_from_table": 76,
+    "decoded_but_not_auto": 50
+  },
+  "buckets": {
+    "bucket_IR_incomplete": 29,
+    "bucket_auto": 76,
+    "bucket_Gate_pending_review": 19,
+    "bucket_Gate_rejected": 2
+  },
+  "blocker_role_counts": {
+    "option": 24,
+    "stem": 20,
+    "options": 5,
+    "gate_only": 21
+  },
+  "decoded_but_not_auto": [
+    {
+      "paper": "化学",
+      "root": "Q1",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "1",
+      "cell": "D",
+      "answer_span": "sp-Q1.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=513-513",
+        "structured_answer_table",
+        "qn=1",
+        "cell=D"
+      ],
+      "blockers": [
+        "option:unresolved",
+        "stem:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "化学",
+      "root": "Q2",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "2",
+      "cell": "A",
+      "answer_span": "sp-Q2.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=513-513",
+        "structured_answer_table",
+        "qn=2",
+        "cell=A"
+      ],
+      "blockers": [
+        "option:unresolved",
+        "stem:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "化学",
+      "root": "Q3",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "3",
+      "cell": "C",
+      "answer_span": "sp-Q3.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=513-513",
+        "structured_answer_table",
+        "qn=3",
+        "cell=C"
+      ],
+      "blockers": [
+        "option:unresolved",
+        "stem:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "化学",
+      "root": "Q4",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "4",
+      "cell": "D",
+      "answer_span": "sp-Q4.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=513-513",
+        "structured_answer_table",
+        "qn=4",
+        "cell=D"
+      ],
+      "blockers": [
+        "option:unresolved",
+        "stem:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "化学",
+      "root": "Q5",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "5",
+      "cell": "B",
+      "answer_span": "sp-Q5.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=513-513",
+        "structured_answer_table",
+        "qn=5",
+        "cell=B"
+      ],
+      "blockers": [
+        "option:unresolved",
+        "stem:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "化学",
+      "root": "Q6",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "6",
+      "cell": "D",
+      "answer_span": "sp-Q6.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=513-513",
+        "structured_answer_table",
+        "qn=6",
+        "cell=D"
+      ],
+      "blockers": [
+        "option:unresolved",
+        "stem:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "化学",
+      "root": "Q9",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "9",
+      "cell": "A",
+      "answer_span": "sp-Q9.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=513-513",
+        "structured_answer_table",
+        "qn=9",
+        "cell=A"
+      ],
+      "blockers": [
+        "option:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "化学",
+      "root": "Q19",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "19",
+      "cell": "D",
+      "answer_span": "sp-Q19.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=513-513",
+        "structured_answer_table",
+        "qn=19",
+        "cell=D"
+      ],
+      "blockers": [
+        "options:missing"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "化学",
+      "root": "Q23",
+      "root_unit_type": "standalone_unit",
+      "bucket": "Gate_pending_review",
+      "qn": "23",
+      "cell": "D",
+      "answer_span": "sp-Q23.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=513-513",
+        "structured_answer_table",
+        "qn=23",
+        "cell=D"
+      ],
+      "blockers": [
+        "gate_only"
+      ],
+      "gate_reasons": [
+        "leaf 'Q23' answer grammar: answer not expressible as canonical value"
+      ],
+      "gate": "pending_review"
+    },
+    {
+      "paper": "化学",
+      "root": "Q24",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "24",
+      "cell": "C",
+      "answer_span": "sp-Q24.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=513-513",
+        "structured_answer_table",
+        "qn=24",
+        "cell=C"
+      ],
+      "blockers": [
+        "option:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "化学",
+      "root": "Q25",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "25",
+      "cell": "B",
+      "answer_span": "sp-Q25.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=513-513",
+        "structured_answer_table",
+        "qn=25",
+        "cell=B"
+      ],
+      "blockers": [
+        "options:missing"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "地理",
+      "root": "U1-2",
+      "root_unit_type": "composite_unit",
+      "bucket": "Gate_pending_review",
+      "qn": "1",
+      "cell": "A",
+      "answer_span": "sp-U1-2.sub.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=601-601",
+        "structured_answer_table",
+        "qn=1",
+        "cell=A"
+      ],
+      "blockers": [
+        "gate_only"
+      ],
+      "gate_reasons": [
+        "not byte-proven (resolution not in {exact, normalized})",
+        "leaf 'U1-2.sub' answer span 'sp-U1-2.sub.answer' overlaps question region at lin"
+      ],
+      "gate": "pending_review"
+    },
+    {
+      "paper": "地理",
+      "root": "U3-5",
+      "root_unit_type": "composite_unit",
+      "bucket": "Gate_pending_review",
+      "qn": "3",
+      "cell": "B",
+      "answer_span": "sp-U3-5.sub.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=601-601",
+        "structured_answer_table",
+        "qn=3",
+        "cell=B"
+      ],
+      "blockers": [
+        "gate_only"
+      ],
+      "gate_reasons": [
+        "not byte-proven (resolution not in {exact, normalized})",
+        "leaf 'U3-5.sub' answer span 'sp-U3-5.sub.answer' overlaps question region at lin"
+      ],
+      "gate": "pending_review"
+    },
+    {
+      "paper": "地理",
+      "root": "U6-7",
+      "root_unit_type": "composite_unit",
+      "bucket": "Gate_pending_review",
+      "qn": "6",
+      "cell": "A",
+      "answer_span": "sp-U6-7.sub.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=601-601",
+        "structured_answer_table",
+        "qn=6",
+        "cell=A"
+      ],
+      "blockers": [
+        "gate_only"
+      ],
+      "gate_reasons": [
+        "not byte-proven (resolution not in {exact, normalized})",
+        "leaf 'U6-7.sub' answer span 'sp-U6-7.sub.answer' overlaps question region at lin"
+      ],
+      "gate": "pending_review"
+    },
+    {
+      "paper": "地理",
+      "root": "U8-9",
+      "root_unit_type": "composite_unit",
+      "bucket": "Gate_pending_review",
+      "qn": "8",
+      "cell": "C",
+      "answer_span": "sp-U8-9.sub.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=601-601",
+        "structured_answer_table",
+        "qn=8",
+        "cell=C"
+      ],
+      "blockers": [
+        "gate_only"
+      ],
+      "gate_reasons": [
+        "not byte-proven (resolution not in {exact, normalized})",
+        "leaf 'U8-9.sub' answer span 'sp-U8-9.sub.answer' overlaps question region at lin"
+      ],
+      "gate": "pending_review"
+    },
+    {
+      "paper": "地理",
+      "root": "U10-12",
+      "root_unit_type": "composite_unit",
+      "bucket": "Gate_pending_review",
+      "qn": "10",
+      "cell": "B",
+      "answer_span": "sp-U10-12.sub.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=601-601",
+        "structured_answer_table",
+        "qn=10",
+        "cell=B"
+      ],
+      "blockers": [
+        "gate_only"
+      ],
+      "gate_reasons": [
+        "not byte-proven (resolution not in {exact, normalized})",
+        "leaf 'U10-12.sub' answer span 'sp-U10-12.sub.answer' overlaps question region at"
+      ],
+      "gate": "pending_review"
+    },
+    {
+      "paper": "地理",
+      "root": "U13-15",
+      "root_unit_type": "composite_unit",
+      "bucket": "Gate_pending_review",
+      "qn": "13",
+      "cell": "C",
+      "answer_span": "sp-U13-15.sub.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=601-601",
+        "structured_answer_table",
+        "qn=13",
+        "cell=C"
+      ],
+      "blockers": [
+        "gate_only"
+      ],
+      "gate_reasons": [
+        "not byte-proven (resolution not in {exact, normalized})",
+        "leaf 'U13-15.sub' answer span 'sp-U13-15.sub.answer' overlaps question region at"
+      ],
+      "gate": "pending_review"
+    },
+    {
+      "paper": "地理",
+      "root": "U16-17",
+      "root_unit_type": "composite_unit",
+      "bucket": "Gate_rejected",
+      "qn": "16",
+      "cell": "C",
+      "answer_span": "sp-U16-17.sub.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=601-601",
+        "structured_answer_table",
+        "qn=16",
+        "cell=C"
+      ],
+      "blockers": [
+        "gate_only"
+      ],
+      "gate_reasons": [
+        "leaf 'U16-17.sub' has no non-empty stem text",
+        "leaf 'U16-17.sub' answer span 'sp-U16-17.sub.answer' overlaps question region at"
+      ],
+      "gate": "rejected"
+    },
+    {
+      "paper": "地理",
+      "root": "U18-20",
+      "root_unit_type": "composite_unit",
+      "bucket": "Gate_pending_review",
+      "qn": "18",
+      "cell": "C",
+      "answer_span": "sp-U18-20.sub.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=601-601",
+        "structured_answer_table",
+        "qn=18",
+        "cell=C"
+      ],
+      "blockers": [
+        "gate_only"
+      ],
+      "gate_reasons": [
+        "not byte-proven (resolution not in {exact, normalized})",
+        "leaf 'U18-20.sub' answer span 'sp-U18-20.sub.answer' overlaps question region at"
+      ],
+      "gate": "pending_review"
+    },
+    {
+      "paper": "地理",
+      "root": "U21-23",
+      "root_unit_type": "composite_unit",
+      "bucket": "Gate_pending_review",
+      "qn": "21",
+      "cell": "D",
+      "answer_span": "sp-U21-23.sub.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=601-601",
+        "structured_answer_table",
+        "qn=21",
+        "cell=D"
+      ],
+      "blockers": [
+        "gate_only"
+      ],
+      "gate_reasons": [
+        "not byte-proven (resolution not in {exact, normalized})",
+        "leaf 'U21-23.sub' answer span 'sp-U21-23.sub.answer' overlaps question region at"
+      ],
+      "gate": "pending_review"
+    },
+    {
+      "paper": "地理",
+      "root": "U24-25",
+      "root_unit_type": "composite_unit",
+      "bucket": "Gate_pending_review",
+      "qn": "24",
+      "cell": "A",
+      "answer_span": "sp-U24-25.sub.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=601-601",
+        "structured_answer_table",
+        "qn=24",
+        "cell=A"
+      ],
+      "blockers": [
+        "gate_only"
+      ],
+      "gate_reasons": [
+        "not byte-proven (resolution not in {exact, normalized})",
+        "leaf 'U24-25.sub' answer span 'sp-U24-25.sub.answer' overlaps question region at"
+      ],
+      "gate": "pending_review"
+    },
+    {
+      "paper": "地理",
+      "root": "U26-29",
+      "root_unit_type": "composite_unit",
+      "bucket": "Gate_rejected",
+      "qn": "26",
+      "cell": "C",
+      "answer_span": "sp-U26-29.sub.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=601-601",
+        "structured_answer_table",
+        "qn=26",
+        "cell=C"
+      ],
+      "blockers": [
+        "gate_only"
+      ],
+      "gate_reasons": [
+        "leaf 'U26-29.sub' has no non-empty stem text",
+        "leaf 'U26-29.sub' answer span 'sp-U26-29.sub.answer' overlaps question region at"
+      ],
+      "gate": "rejected"
+    },
+    {
+      "paper": "地理",
+      "root": "U30-31",
+      "root_unit_type": "composite_unit",
+      "bucket": "Gate_pending_review",
+      "qn": "30",
+      "cell": "C",
+      "answer_span": "sp-U30-31.sub.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=601-601",
+        "structured_answer_table",
+        "qn=30",
+        "cell=C"
+      ],
+      "blockers": [
+        "gate_only"
+      ],
+      "gate_reasons": [
+        "not byte-proven (resolution not in {exact, normalized})",
+        "leaf 'U30-31.sub' answer span 'sp-U30-31.sub.answer' overlaps question region at"
+      ],
+      "gate": "pending_review"
+    },
+    {
+      "paper": "地理",
+      "root": "U32-33",
+      "root_unit_type": "composite_unit",
+      "bucket": "Gate_pending_review",
+      "qn": "32",
+      "cell": "A",
+      "answer_span": "sp-U32-33.sub.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=601-601",
+        "structured_answer_table",
+        "qn=32",
+        "cell=A"
+      ],
+      "blockers": [
+        "gate_only"
+      ],
+      "gate_reasons": [
+        "not byte-proven (resolution not in {exact, normalized})",
+        "leaf 'U32-33.sub' answer span 'sp-U32-33.sub.answer' overlaps question region at"
+      ],
+      "gate": "pending_review"
+    },
+    {
+      "paper": "地理",
+      "root": "U34-35",
+      "root_unit_type": "composite_unit",
+      "bucket": "Gate_pending_review",
+      "qn": "34",
+      "cell": "D",
+      "answer_span": "sp-U34-35.sub.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=601-601",
+        "structured_answer_table",
+        "qn=34",
+        "cell=D"
+      ],
+      "blockers": [
+        "gate_only"
+      ],
+      "gate_reasons": [
+        "not byte-proven (resolution not in {exact, normalized})",
+        "leaf 'U34-35.sub' answer span 'sp-U34-35.sub.answer' overlaps question region at"
+      ],
+      "gate": "pending_review"
+    },
+    {
+      "paper": "地理",
+      "root": "U36-39",
+      "root_unit_type": "composite_unit",
+      "bucket": "Gate_pending_review",
+      "qn": "36",
+      "cell": "A",
+      "answer_span": "sp-U36-39.sub.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=601-601",
+        "structured_answer_table",
+        "qn=36",
+        "cell=A"
+      ],
+      "blockers": [
+        "gate_only"
+      ],
+      "gate_reasons": [
+        "not byte-proven (resolution not in {exact, normalized})",
+        "leaf 'U36-39.sub' answer span 'sp-U36-39.sub.answer' overlaps question region at"
+      ],
+      "gate": "pending_review"
+    },
+    {
+      "paper": "地理",
+      "root": "U40-41",
+      "root_unit_type": "composite_unit",
+      "bucket": "Gate_pending_review",
+      "qn": "40",
+      "cell": "C",
+      "answer_span": "sp-U40-41.sub.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=601-601",
+        "structured_answer_table",
+        "qn=40",
+        "cell=C"
+      ],
+      "blockers": [
+        "gate_only"
+      ],
+      "gate_reasons": [
+        "not byte-proven (resolution not in {exact, normalized})",
+        "leaf 'U40-41.sub' answer span 'sp-U40-41.sub.answer' overlaps question region at"
+      ],
+      "gate": "pending_review"
+    },
+    {
+      "paper": "地理",
+      "root": "U42-43",
+      "root_unit_type": "composite_unit",
+      "bucket": "Gate_pending_review",
+      "qn": "42",
+      "cell": "D",
+      "answer_span": "sp-U42-43.sub.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=601-601",
+        "structured_answer_table",
+        "qn=42",
+        "cell=D"
+      ],
+      "blockers": [
+        "gate_only"
+      ],
+      "gate_reasons": [
+        "not byte-proven (resolution not in {exact, normalized})",
+        "leaf 'U42-43.sub' answer span 'sp-U42-43.sub.answer' overlaps question region at"
+      ],
+      "gate": "pending_review"
+    },
+    {
+      "paper": "地理",
+      "root": "U44-46",
+      "root_unit_type": "composite_unit",
+      "bucket": "Gate_pending_review",
+      "qn": "44",
+      "cell": "C",
+      "answer_span": "sp-U44-46.sub.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=601-601",
+        "structured_answer_table",
+        "qn=44",
+        "cell=C"
+      ],
+      "blockers": [
+        "gate_only"
+      ],
+      "gate_reasons": [
+        "not byte-proven (resolution not in {exact, normalized})",
+        "leaf 'U44-46.sub' answer span 'sp-U44-46.sub.answer' overlaps question region at"
+      ],
+      "gate": "pending_review"
+    },
+    {
+      "paper": "地理",
+      "root": "U47-48",
+      "root_unit_type": "composite_unit",
+      "bucket": "Gate_pending_review",
+      "qn": "47",
+      "cell": "D",
+      "answer_span": "sp-U47-48.sub.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=601-601",
+        "structured_answer_table",
+        "qn=47",
+        "cell=D"
+      ],
+      "blockers": [
+        "gate_only"
+      ],
+      "gate_reasons": [
+        "not byte-proven (resolution not in {exact, normalized})",
+        "leaf 'U47-48.sub' answer span 'sp-U47-48.sub.answer' overlaps question region at"
+      ],
+      "gate": "pending_review"
+    },
+    {
+      "paper": "地理",
+      "root": "U49-50",
+      "root_unit_type": "composite_unit",
+      "bucket": "Gate_pending_review",
+      "qn": "49",
+      "cell": "C",
+      "answer_span": "sp-U49-50.sub.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=601-601",
+        "structured_answer_table",
+        "qn=49",
+        "cell=C"
+      ],
+      "blockers": [
+        "gate_only"
+      ],
+      "gate_reasons": [
+        "not byte-proven (resolution not in {exact, normalized})",
+        "leaf 'U49-50.sub' answer span 'sp-U49-50.sub.answer' overlaps question region at"
+      ],
+      "gate": "pending_review"
+    },
+    {
+      "paper": "政治",
+      "root": "Q6",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "6",
+      "cell": "A",
+      "answer_span": "sp-Q6.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=552-552",
+        "structured_answer_table",
+        "qn=6",
+        "cell=A"
+      ],
+      "blockers": [
+        "options:missing"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "政治",
+      "root": "Q7",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "7",
+      "cell": "B",
+      "answer_span": "sp-Q7.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=552-552",
+        "structured_answer_table",
+        "qn=7",
+        "cell=B"
+      ],
+      "blockers": [
+        "option:unresolved",
+        "stem:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "政治",
+      "root": "U9-10",
+      "root_unit_type": "composite_unit",
+      "bucket": "IR_incomplete",
+      "qn": "9",
+      "cell": "A",
+      "answer_span": "sp-U9-10.sub.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=552-552",
+        "structured_answer_table",
+        "qn=9",
+        "cell=A"
+      ],
+      "blockers": [
+        "option:unresolved",
+        "stem:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "政治",
+      "root": "Q13",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "13",
+      "cell": "C",
+      "answer_span": "sp-Q13.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=552-552",
+        "structured_answer_table",
+        "qn=13",
+        "cell=C"
+      ],
+      "blockers": [
+        "option:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "政治",
+      "root": "Q14",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "14",
+      "cell": "B",
+      "answer_span": "sp-Q14.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=552-552",
+        "structured_answer_table",
+        "qn=14",
+        "cell=B"
+      ],
+      "blockers": [
+        "option:unresolved",
+        "stem:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "政治",
+      "root": "Q25",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "25",
+      "cell": "B",
+      "answer_span": "sp-Q25.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=552-552",
+        "structured_answer_table",
+        "qn=25",
+        "cell=B"
+      ],
+      "blockers": [
+        "option:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "政治",
+      "root": "Q26",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "26",
+      "cell": "D",
+      "answer_span": "sp-Q26.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=552-552",
+        "structured_answer_table",
+        "qn=26",
+        "cell=D"
+      ],
+      "blockers": [
+        "option:unresolved",
+        "stem:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "物理",
+      "root": "Q16",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "16",
+      "cell": "A",
+      "answer_span": "sp-Q16.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=356-356",
+        "structured_answer_table",
+        "qn=16",
+        "cell=A"
+      ],
+      "blockers": [
+        "options:missing"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "生物",
+      "root": "Q1",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "1",
+      "cell": "B",
+      "answer_span": "sp-Q1.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=497-497",
+        "structured_answer_table",
+        "qn=1",
+        "cell=B"
+      ],
+      "blockers": [
+        "option:unresolved",
+        "stem:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "生物",
+      "root": "Q2",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "2",
+      "cell": "B",
+      "answer_span": "sp-Q2.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=497-497",
+        "structured_answer_table",
+        "qn=2",
+        "cell=B"
+      ],
+      "blockers": [
+        "option:unresolved",
+        "stem:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "生物",
+      "root": "Q3",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "3",
+      "cell": "D",
+      "answer_span": "sp-Q3.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=497-497",
+        "structured_answer_table",
+        "qn=3",
+        "cell=D"
+      ],
+      "blockers": [
+        "option:unresolved",
+        "stem:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "生物",
+      "root": "Q4",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "4",
+      "cell": "A",
+      "answer_span": "sp-Q4.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=497-497",
+        "structured_answer_table",
+        "qn=4",
+        "cell=A"
+      ],
+      "blockers": [
+        "option:unresolved",
+        "stem:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "生物",
+      "root": "Q5",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "5",
+      "cell": "C",
+      "answer_span": "sp-Q5.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=497-497",
+        "structured_answer_table",
+        "qn=5",
+        "cell=C"
+      ],
+      "blockers": [
+        "option:unresolved",
+        "stem:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "生物",
+      "root": "Q6",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "6",
+      "cell": "B",
+      "answer_span": "sp-Q6.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=497-497",
+        "structured_answer_table",
+        "qn=6",
+        "cell=B"
+      ],
+      "blockers": [
+        "option:unresolved",
+        "stem:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "生物",
+      "root": "Q7",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "7",
+      "cell": "A",
+      "answer_span": "sp-Q7.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=497-497",
+        "structured_answer_table",
+        "qn=7",
+        "cell=A"
+      ],
+      "blockers": [
+        "option:unresolved",
+        "stem:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "生物",
+      "root": "Q8",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "8",
+      "cell": "D",
+      "answer_span": "sp-Q8.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=497-497",
+        "structured_answer_table",
+        "qn=8",
+        "cell=D"
+      ],
+      "blockers": [
+        "option:unresolved",
+        "stem:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "生物",
+      "root": "Q9",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "9",
+      "cell": "B",
+      "answer_span": "sp-Q9.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=497-497",
+        "structured_answer_table",
+        "qn=9",
+        "cell=B"
+      ],
+      "blockers": [
+        "option:unresolved",
+        "stem:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "生物",
+      "root": "Q10",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "10",
+      "cell": "A",
+      "answer_span": "sp-Q10.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=497-497",
+        "structured_answer_table",
+        "qn=10",
+        "cell=A"
+      ],
+      "blockers": [
+        "option:unresolved",
+        "stem:unresolved"
+      ],
+      "gate": null
+    },
+    {
+      "paper": "生物",
+      "root": "Q30",
+      "root_unit_type": "standalone_unit",
+      "bucket": "IR_incomplete",
+      "qn": "30",
+      "cell": "B",
+      "answer_span": "sp-Q30.answer",
+      "answer_evidence": [
+        "answer evidence range",
+        "lines=497-497",
+        "structured_answer_table",
+        "qn=30",
+        "cell=B"
+      ],
+      "blockers": [
+        "options:missing"
+      ],
+      "gate": null
+    }
+  ],
+  "auto_from_table_sample": [
+    {
+      "paper": "化学",
+      "root": "Q7",
+      "qn": "7",
+      "cell": "D"
+    },
+    {
+      "paper": "化学",
+      "root": "Q8",
+      "qn": "8",
+      "cell": "C"
+    },
+    {
+      "paper": "化学",
+      "root": "Q10",
+      "qn": "10",
+      "cell": "C"
+    },
+    {
+      "paper": "化学",
+      "root": "Q11",
+      "qn": "11",
+      "cell": "C"
+    },
+    {
+      "paper": "化学",
+      "root": "Q12",
+      "qn": "12",
+      "cell": "A"
+    },
+    {
+      "paper": "化学",
+      "root": "Q13",
+      "qn": "13",
+      "cell": "C"
+    },
+    {
+      "paper": "化学",
+      "root": "Q14",
+      "qn": "14",
+      "cell": "B"
+    },
+    {
+      "paper": "化学",
+      "root": "Q15",
+      "qn": "15",
+      "cell": "D"
+    },
+    {
+      "paper": "化学",
+      "root": "Q16",
+      "qn": "16",
+      "cell": "D"
+    },
+    {
+      "paper": "化学",
+      "root": "Q17",
+      "qn": "17",
+      "cell": "B"
+    },
+    {
+      "paper": "化学",
+      "root": "Q18",
+      "qn": "18",
+      "cell": "C"
+    },
+    {
+      "paper": "化学",
+      "root": "Q20",
+      "qn": "20",
+      "cell": "B"
+    },
+    {
+      "paper": "化学",
+      "root": "Q21",
+      "qn": "21",
+      "cell": "B"
+    },
+    {
+      "paper": "化学",
+      "root": "Q22",
+      "qn": "22",
+      "cell": "A"
+    },
+    {
+      "paper": "政治",
+      "root": "Q1",
+      "qn": "1",
+      "cell": "B"
+    },
+    {
+      "paper": "政治",
+      "root": "Q2",
+      "qn": "2",
+      "cell": "A"
+    },
+    {
+      "paper": "政治",
+      "root": "Q3",
+      "qn": "3",
+      "cell": "B"
+    },
+    {
+      "paper": "政治",
+      "root": "Q4",
+      "qn": "4",
+      "cell": "D"
+    },
+    {
+      "paper": "政治",
+      "root": "Q5",
+      "qn": "5",
+      "cell": "D"
+    },
+    {
+      "paper": "政治",
+      "root": "Q8",
+      "qn": "8",
+      "cell": "D"
+    }
+  ],
+  "auto_from_table_total": 76,
+  "task_b_interface": {
+    "question": "inclusive final material line expressible in current contract?",
+    "mechanism": "annotation_adapter.material_boundary_markers → resolver._material_span multi_line_pair; interior = strictly between start_marker and end_marker (exclusive of both markers).",
+    "constraint": "Last content line L502 can only enter the interior if end_marker is at L503+. Within neighbour scope (next_start=504) the only candidates are L503 (blank, not unique) and L504 (duplicate header, not unique). Unique-text marker requirement + exclusive interior + neighbour scope make inclusive-end unexpressible.",
+    "verdict": "INTERFACE_GAP",
+    "minimal_contract_change": "Either (1) allow end_marker to be the declared material end line itself with interior including that line (inclusive-end form), or (2) accept a non-unique positional marker at the hard scope boundary. Both are schema/contract changes beyond this task.",
+    "affected_files": [
+      "backend/scripts/preprocessing_consumer/annotation_adapter.py",
+      "backend/app/domains/resolver/resolver.py (_material_span)"
+    ],
+    "do_not": "weaken _enforce_material_overlap / invent neighbour guessing"
+  }
+}

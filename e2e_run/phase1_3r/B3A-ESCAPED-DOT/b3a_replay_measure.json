@@ -1,0 +1,816 @@
+{
+  "before": {
+    "label": "before",
+    "stem_resolved": 19,
+    "stem_unresolved": 6,
+    "opt_resolved": 41,
+    "opt_unresolved": 39,
+    "ir_ready": 14,
+    "ir_incomplete": 11,
+    "focus_units": [
+      {
+        "unit_id": "U1-2",
+        "question_numbers": [
+          1,
+          2
+        ],
+        "escaped_qns": [
+          1
+        ],
+        "stem_resolved": 0,
+        "opt_resolved": 0,
+        "stem_unresolved": [
+          [
+            "U1-2.sub.stem",
+            "missing",
+            [
+              "question number '1' not found"
+            ]
+          ]
+        ],
+        "opt_unresolved": [
+          [
+            "U1-2.sub.option.A",
+            "incomplete"
+          ],
+          [
+            "U1-2.sub.option.B",
+            "incomplete"
+          ],
+          [
+            "U1-2.sub.option.C",
+            "incomplete"
+          ],
+          [
+            "U1-2.sub.option.D",
+            "incomplete"
+          ]
+        ]
+      },
+      {
+        "unit_id": "U6-7",
+        "question_numbers": [
+          6,
+          7
+        ],
+        "escaped_qns": [
+          7
+        ],
+        "stem_resolved": 1,
+        "opt_resolved": 0,
+        "stem_unresolved": [],
+        "opt_unresolved": [
+          [
+            "U6-7.sub.option.A",
+            "ambiguous"
+          ],
+          [
+            "U6-7.sub.option.B",
+            "incomplete"
+          ],
+          [
+            "U6-7.sub.option.C",
+            "incomplete"
+          ],
+          [
+            "U6-7.sub.option.D",
+            "incomplete"
+          ]
+        ]
+      },
+      {
+        "unit_id": "U10-12",
+        "question_numbers": [
+          10,
+          11,
+          12
+        ],
+        "escaped_qns": [
+          11
+        ],
+        "stem_resolved": 1,
+        "opt_resolved": 0,
+        "stem_unresolved": [],
+        "opt_unresolved": [
+          [
+            "U10-12.sub.option.A",
+            "ambiguous"
+          ],
+          [
+            "U10-12.sub.option.B",
+            "incomplete"
+          ],
+          [
+            "U10-12.sub.option.C",
+            "ambiguous"
+          ],
+          [
+            "U10-12.sub.option.D",
+            "incomplete"
+          ]
+        ]
+      },
+      {
+        "unit_id": "U16-17",
+        "question_numbers": [
+          16,
+          17
+        ],
+        "escaped_qns": [
+          17
+        ],
+        "stem_resolved": 1,
+        "opt_resolved": 2,
+        "stem_unresolved": [],
+        "opt_unresolved": [
+          [
+            "U16-17.sub.option.A",
+            "ambiguous"
+          ],
+          [
+            "U16-17.sub.option.B",
+            "incomplete"
+          ]
+        ]
+      },
+      {
+        "unit_id": "U21-23",
+        "question_numbers": [
+          21,
+          22,
+          23
+        ],
+        "escaped_qns": [
+          21,
+          23
+        ],
+        "stem_resolved": 0,
+        "opt_resolved": 0,
+        "stem_unresolved": [
+          [
+            "U21-23.sub.stem",
+            "missing",
+            [
+              "question number '21' not found"
+            ]
+          ]
+        ],
+        "opt_unresolved": [
+          [
+            "U21-23.sub.option.A",
+            "incomplete"
+          ],
+          [
+            "U21-23.sub.option.B",
+            "incomplete"
+          ],
+          [
+            "U21-23.sub.option.C",
+            "incomplete"
+          ],
+          [
+            "U21-23.sub.option.D",
+            "incomplete"
+          ]
+        ]
+      },
+      {
+        "unit_id": "U24-25",
+        "question_numbers": [
+          24,
+          25
+        ],
+        "escaped_qns": [
+          24
+        ],
+        "stem_resolved": 0,
+        "opt_resolved": 0,
+        "stem_unresolved": [
+          [
+            "U24-25.sub.stem",
+            "missing",
+            [
+              "question number '24' not found"
+            ]
+          ]
+        ],
+        "opt_unresolved": [
+          [
+            "U24-25.sub.option.A",
+            "incomplete"
+          ],
+          [
+            "U24-25.sub.option.B",
+            "incomplete"
+          ],
+          [
+            "U24-25.sub.option.C",
+            "incomplete"
+          ],
+          [
+            "U24-25.sub.option.D",
+            "incomplete"
+          ]
+        ]
+      },
+      {
+        "unit_id": "U26-29",
+        "question_numbers": [
+          26,
+          27,
+          28,
+          29
+        ],
+        "escaped_qns": [
+          27,
+          29
+        ],
+        "stem_resolved": 1,
+        "opt_resolved": 3,
+        "stem_unresolved": [],
+        "opt_unresolved": [
+          [
+            "U26-29.sub.option.A",
+            "ambiguous"
+          ]
+        ]
+      },
+      {
+        "unit_id": "U32-33",
+        "question_numbers": [
+          32,
+          33
+        ],
+        "escaped_qns": [
+          33
+        ],
+        "stem_resolved": 1,
+        "opt_resolved": 0,
+        "stem_unresolved": [],
+        "opt_unresolved": [
+          [
+            "U32-33.sub.option.A",
+            "ambiguous"
+          ],
+          [
+            "U32-33.sub.option.B",
+            "incomplete"
+          ],
+          [
+            "U32-33.sub.option.C",
+            "incomplete"
+          ],
+          [
+            "U32-33.sub.option.D",
+            "incomplete"
+          ]
+        ]
+      },
+      {
+        "unit_id": "U40-41",
+        "question_numbers": [
+          40,
+          41
+        ],
+        "escaped_qns": [
+          40,
+          41
+        ],
+        "stem_resolved": 0,
+        "opt_resolved": 0,
+        "stem_unresolved": [
+          [
+            "U40-41.sub.stem",
+            "missing",
+            [
+              "question number '40' not found"
+            ]
+          ]
+        ],
+        "opt_unresolved": [
+          [
+            "U40-41.sub.option.A",
+            "incomplete"
+          ],
+          [
+            "U40-41.sub.option.B",
+            "incomplete"
+          ],
+          [
+            "U40-41.sub.option.C",
+            "incomplete"
+          ],
+          [
+            "U40-41.sub.option.D",
+            "incomplete"
+          ]
+        ]
+      },
+      {
+        "unit_id": "U42-43",
+        "question_numbers": [
+          42,
+          43
+        ],
+        "escaped_qns": [
+          42,
+          43
+        ],
+        "stem_resolved": 0,
+        "opt_resolved": 0,
+        "stem_unresolved": [
+          [
+            "U42-43.sub.stem",
+            "missing",
+            [
+              "question number '42' not found"
+            ]
+          ]
+        ],
+        "opt_unresolved": [
+          [
+            "U42-43.sub.option.A",
+            "incomplete"
+          ],
+          [
+            "U42-43.sub.option.B",
+            "incomplete"
+          ],
+          [
+            "U42-43.sub.option.C",
+            "incomplete"
+          ],
+          [
+            "U42-43.sub.option.D",
+            "incomplete"
+          ]
+        ]
+      },
+      {
+        "unit_id": "U44-46",
+        "question_numbers": [
+          44,
+          45,
+          46
+        ],
+        "escaped_qns": [
+          44,
+          45,
+          46
+        ],
+        "stem_resolved": 0,
+        "opt_resolved": 0,
+        "stem_unresolved": [
+          [
+            "U44-46.sub.stem",
+            "missing",
+            [
+              "question number '44' not found"
+            ]
+          ]
+        ],
+        "opt_unresolved": [
+          [
+            "U44-46.sub.option.A",
+            "incomplete"
+          ],
+          [
+            "U44-46.sub.option.B",
+            "incomplete"
+          ],
+          [
+            "U44-46.sub.option.C",
+            "incomplete"
+          ],
+          [
+            "U44-46.sub.option.D",
+            "incomplete"
+          ]
+        ]
+      }
+    ],
+    "ir_focus": [
+      {
+        "unit_id": "U1-2.sub",
+        "status": "incomplete",
+        "n_options": 4,
+        "opt_resolved": 0,
+        "has_stem": false
+      },
+      {
+        "unit_id": "U6-7.sub",
+        "status": "incomplete",
+        "n_options": 4,
+        "opt_resolved": 0,
+        "has_stem": true
+      },
+      {
+        "unit_id": "U10-12.sub",
+        "status": "incomplete",
+        "n_options": 4,
+        "opt_resolved": 0,
+        "has_stem": true
+      },
+      {
+        "unit_id": "U16-17.sub",
+        "status": "incomplete",
+        "n_options": 4,
+        "opt_resolved": 2,
+        "has_stem": true
+      },
+      {
+        "unit_id": "U21-23.sub",
+        "status": "incomplete",
+        "n_options": 4,
+        "opt_resolved": 0,
+        "has_stem": false
+      },
+      {
+        "unit_id": "U24-25.sub",
+        "status": "incomplete",
+        "n_options": 4,
+        "opt_resolved": 0,
+        "has_stem": false
+      },
+      {
+        "unit_id": "U26-29.sub",
+        "status": "incomplete",
+        "n_options": 4,
+        "opt_resolved": 3,
+        "has_stem": true
+      },
+      {
+        "unit_id": "U32-33.sub",
+        "status": "incomplete",
+        "n_options": 4,
+        "opt_resolved": 0,
+        "has_stem": true
+      },
+      {
+        "unit_id": "U40-41.sub",
+        "status": "incomplete",
+        "n_options": 4,
+        "opt_resolved": 0,
+        "has_stem": false
+      },
+      {
+        "unit_id": "U42-43.sub",
+        "status": "incomplete",
+        "n_options": 4,
+        "opt_resolved": 0,
+        "has_stem": false
+      },
+      {
+        "unit_id": "U44-46.sub",
+        "status": "incomplete",
+        "n_options": 4,
+        "opt_resolved": 0,
+        "has_stem": false
+      }
+    ],
+    "unresolved_summary": {
+      "option:ambiguous": {
+        "n": 6,
+        "samples": [
+          [
+            "U6-7.sub.option.A",
+            [
+              "option A"
+            ]
+          ],
+          [
+            "U10-12.sub.option.A",
+            [
+              "option A"
+            ]
+          ],
+          [
+            "U10-12.sub.option.C",
+            [
+              "option C"
+            ]
+          ]
+        ]
+      },
+      "option:incomplete": {
+        "n": 33,
+        "samples": [
+          [
+            "U1-2.sub.option.A",
+            [
+              "option A"
+            ]
+          ],
+          [
+            "U1-2.sub.option.B",
+            [
+              "option B"
+            ]
+          ],
+          [
+            "U1-2.sub.option.C",
+            [
+              "option C"
+            ]
+          ]
+        ]
+      },
+      "stem:missing": {
+        "n": 6,
+        "samples": [
+          [
+            "U1-2.sub.stem",
+            [
+              "question number '1' not found"
+            ]
+          ],
+          [
+            "U21-23.sub.stem",
+            [
+              "question number '21' not found"
+            ]
+          ],
+          [
+            "U24-25.sub.stem",
+            [
+              "question number '24' not found"
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  "after": {
+    "label": "after",
+    "stem_resolved": 25,
+    "stem_unresolved": 0,
+    "opt_resolved": 79,
+    "opt_unresolved": 1,
+    "ir_ready": 24,
+    "ir_incomplete": 1,
+    "focus_units": [
+      {
+        "unit_id": "U1-2",
+        "question_numbers": [
+          1,
+          2
+        ],
+        "escaped_qns": [
+          1
+        ],
+        "stem_resolved": 1,
+        "opt_resolved": 4,
+        "stem_unresolved": [],
+        "opt_unresolved": []
+      },
+      {
+        "unit_id": "U6-7",
+        "question_numbers": [
+          6,
+          7
+        ],
+        "escaped_qns": [
+          7
+        ],
+        "stem_resolved": 1,
+        "opt_resolved": 4,
+        "stem_unresolved": [],
+        "opt_unresolved": []
+      },
+      {
+        "unit_id": "U10-12",
+        "question_numbers": [
+          10,
+          11,
+          12
+        ],
+        "escaped_qns": [
+          11
+        ],
+        "stem_resolved": 1,
+        "opt_resolved": 4,
+        "stem_unresolved": [],
+        "opt_unresolved": []
+      },
+      {
+        "unit_id": "U16-17",
+        "question_numbers": [
+          16,
+          17
+        ],
+        "escaped_qns": [
+          17
+        ],
+        "stem_resolved": 1,
+        "opt_resolved": 4,
+        "stem_unresolved": [],
+        "opt_unresolved": []
+      },
+      {
+        "unit_id": "U21-23",
+        "question_numbers": [
+          21,
+          22,
+          23
+        ],
+        "escaped_qns": [
+          21,
+          23
+        ],
+        "stem_resolved": 1,
+        "opt_resolved": 4,
+        "stem_unresolved": [],
+        "opt_unresolved": []
+      },
+      {
+        "unit_id": "U24-25",
+        "question_numbers": [
+          24,
+          25
+        ],
+        "escaped_qns": [
+          24
+        ],
+        "stem_resolved": 1,
+        "opt_resolved": 4,
+        "stem_unresolved": [],
+        "opt_unresolved": []
+      },
+      {
+        "unit_id": "U26-29",
+        "question_numbers": [
+          26,
+          27,
+          28,
+          29
+        ],
+        "escaped_qns": [
+          27,
+          29
+        ],
+        "stem_resolved": 1,
+        "opt_resolved": 4,
+        "stem_unresolved": [],
+        "opt_unresolved": []
+      },
+      {
+        "unit_id": "U32-33",
+        "question_numbers": [
+          32,
+          33
+        ],
+        "escaped_qns": [
+          33
+        ],
+        "stem_resolved": 1,
+        "opt_resolved": 4,
+        "stem_unresolved": [],
+        "opt_unresolved": []
+      },
+      {
+        "unit_id": "U40-41",
+        "question_numbers": [
+          40,
+          41
+        ],
+        "escaped_qns": [
+          40,
+          41
+        ],
+        "stem_resolved": 1,
+        "opt_resolved": 4,
+        "stem_unresolved": [],
+        "opt_unresolved": []
+      },
+      {
+        "unit_id": "U42-43",
+        "question_numbers": [
+          42,
+          43
+        ],
+        "escaped_qns": [
+          42,
+          43
+        ],
+        "stem_resolved": 1,
+        "opt_resolved": 4,
+        "stem_unresolved": [],
+        "opt_unresolved": []
+      },
+      {
+        "unit_id": "U44-46",
+        "question_numbers": [
+          44,
+          45,
+          46
+        ],
+        "escaped_qns": [
+          44,
+          45,
+          46
+        ],
+        "stem_resolved": 1,
+        "opt_resolved": 3,
+        "stem_unresolved": [],
+        "opt_unresolved": [
+          [
+            "U44-46.sub.option.D",
+            "incomplete"
+          ]
+        ]
+      }
+    ],
+    "ir_focus": [
+      {
+        "unit_id": "U1-2.sub",
+        "status": "ready",
+        "n_options": 4,
+        "opt_resolved": 4,
+        "has_stem": true
+      },
+      {
+        "unit_id": "U6-7.sub",
+        "status": "ready",
+        "n_options": 4,
+        "opt_resolved": 4,
+        "has_stem": true
+      },
+      {
+        "unit_id": "U10-12.sub",
+        "status": "ready",
+        "n_options": 4,
+        "opt_resolved": 4,
+        "has_stem": true
+      },
+      {
+        "unit_id": "U16-17.sub",
+        "status": "ready",
+        "n_options": 4,
+        "opt_resolved": 4,
+        "has_stem": true
+      },
+      {
+        "unit_id": "U21-23.sub",
+        "status": "ready",
+        "n_options": 4,
+        "opt_resolved": 4,
+        "has_stem": true
+      },
+      {
+        "unit_id": "U24-25.sub",
+        "status": "ready",
+        "n_options": 4,
+        "opt_resolved": 4,
+        "has_stem": true
+      },
+      {
+        "unit_id": "U26-29.sub",
+        "status": "ready",
+        "n_options": 4,
+        "opt_resolved": 4,
+        "has_stem": true
+      },
+      {
+        "unit_id": "U32-33.sub",
+        "status": "ready",
+        "n_options": 4,
+        "opt_resolved": 4,
+        "has_stem": true
+      },
+      {
+        "unit_id": "U40-41.sub",
+        "status": "ready",
+        "n_options": 4,
+        "opt_resolved": 4,
+        "has_stem": true
+      },
+      {
+        "unit_id": "U42-43.sub",
+        "status": "ready",
+        "n_options": 4,
+        "opt_resolved": 4,
+        "has_stem": true
+      },
+      {
+        "unit_id": "U44-46.sub",
+        "status": "incomplete",
+        "n_options": 4,
+        "opt_resolved": 3,
+        "has_stem": true
+      }
+    ],
+    "unresolved_summary": {
+      "option:incomplete": {
+        "n": 1,
+        "samples": [
+          [
+            "U44-46.sub.option.D",
+            [
+              "option D"
+            ]
+          ]
+        ]
+      }
+    }
+  }
+}
