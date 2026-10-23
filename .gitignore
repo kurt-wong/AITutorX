@@ -70,3 +70,17 @@ tools/_*.py
 *.db
 *.sqlite
 *.sqlite3
+_diag_*
+_r5_*
+_r6_*
+_r7_*
+_forensic_*
+_mk_*
+_patch_*
+_new_*
+_summarize_*
+_archive_*
+e2e_run/pdf_chain_runs/
+e2e_run/pdf_papers_v3_chem/
+e2e_run/x_integrate_*
+_adversarial_review/
