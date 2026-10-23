@@ -27,6 +27,15 @@ DB_URL = (
 )
 
 
+def _parse_args(argv: list[str] | None = None):
+    import argparse
+
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--pdf", type=Path, default=None, help="source PDF path")
+    ap.add_argument("--db-url", default=None, help="isolated postgres async URL")
+    return ap.parse_args(argv)
+
+
 def sha256(p: Path) -> str:
     return hashlib.sha256(p.read_bytes()).hexdigest()
 
@@ -77,6 +86,12 @@ def run_v3_after_manifest(
 
 
 def main() -> int:
+    global PDF_SRC, DB_URL
+    args = _parse_args()
+    if args.pdf is not None:
+        PDF_SRC = args.pdf
+    if args.db_url is not None:
+        DB_URL = args.db_url
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     run_dir = RUN_ROOT / stamp
     run_dir.mkdir(parents=True, exist_ok=False)
